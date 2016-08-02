@@ -1,0 +1,2 @@
+"3-5-4.blif" line: 7, column: 12 [ER_MLTDEF01]: x: Defined more than once. Previsous Definition is "3-5-4.blif" line: 6, column: 15.
+Error in reading 3-5-4.blif

@@ -1,0 +1,33 @@
+.model att1
+.inputs a b c
+.outputs d e f g
+.names o d
+0 1
+.names n e
+0 1
+.names p f
+0 1
+.names d g
+0 1
+.names b l
+0 1
+.names a m
+0 1
+.names l a b m n
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names c o
+0 1
+.names o b a c l m p
+0--0-- 1
+-0-0-- 1
+--00-- 1
+0---0- 1
+-0--0- 1
+--0-0- 1
+0----0 1
+-0---0 1
+--0--0 1
+.end

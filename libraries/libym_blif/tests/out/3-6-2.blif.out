@@ -1,0 +1,7 @@
+.model test1
+	["3-6-2.blif" line: 3, columns:1-6]
+	["3-6-2.blif" line: 3, columns:8-12]
+.gate inv4x begin
+	["3-6-2.blif" line: 4, columns:1-5]
+	["3-6-2.blif" line: 4, columns:7-11]
+error_exit

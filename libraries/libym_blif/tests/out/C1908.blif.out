@@ -1,0 +1,6638 @@
+.model C1908.iscas
+	["C1908.blif" line: 7, columns:1-6]
+	["C1908.blif" line: 7, columns:8-18]
+  inputs elem: 101(0)
+	["C1908.blif" line: 8, columns:9-14]
+  inputs elem: 104(1)
+	["C1908.blif" line: 8, columns:16-21]
+  inputs elem: 107(2)
+	["C1908.blif" line: 8, columns:23-28]
+  inputs elem: 110(3)
+	["C1908.blif" line: 8, columns:30-35]
+  inputs elem: 113(4)
+	["C1908.blif" line: 8, columns:37-42]
+  inputs elem: 116(5)
+	["C1908.blif" line: 8, columns:44-49]
+  inputs elem: 119(6)
+	["C1908.blif" line: 8, columns:51-56]
+  inputs elem: 122(7)
+	["C1908.blif" line: 8, columns:58-63]
+  inputs elem: 125(8)
+	["C1908.blif" line: 8, columns:65-70]
+  inputs elem: 128(9)
+	["C1908.blif" line: 8, columns:72-77]
+  inputs elem: 131(10)
+	["C1908.blif" line: 8, columns:79-85]
+  inputs elem: 134(11)
+	["C1908.blif" line: 8, columns:87-93]
+  inputs elem: 137(12)
+	["C1908.blif" line: 8, columns:95-101]
+  inputs elem: 140(13)
+	["C1908.blif" line: 8, columns:103-109]
+  inputs elem: 143(14)
+	["C1908.blif" line: 8, columns:111-117]
+  inputs elem: 146(15)
+	["C1908.blif" line: 8, columns:119-125]
+  inputs elem: 210(16)
+	["C1908.blif" line: 8, columns:127-133]
+  inputs elem: 214(17)
+	["C1908.blif" line: 8, columns:135-141]
+  inputs elem: 217(18)
+	["C1908.blif" line: 8, columns:143-149]
+  inputs elem: 221(19)
+	["C1908.blif" line: 8, columns:151-157]
+  inputs elem: 224(20)
+	["C1908.blif" line: 8, columns:159-165]
+  inputs elem: 227(21)
+	["C1908.blif" line: 8, columns:167-173]
+  inputs elem: 234(22)
+	["C1908.blif" line: 8, columns:175-181]
+  inputs elem: 237(23)
+	["C1908.blif" line: 8, columns:183-189]
+  inputs elem: 469(24)
+	["C1908.blif" line: 8, columns:191-197]
+  inputs elem: 472(25)
+	["C1908.blif" line: 8, columns:199-205]
+  inputs elem: 475(26)
+	["C1908.blif" line: 8, columns:207-213]
+  inputs elem: 478(27)
+	["C1908.blif" line: 8, columns:215-221]
+  inputs elem: 898(28)
+	["C1908.blif" line: 8, columns:223-229]
+  inputs elem: 900(29)
+	["C1908.blif" line: 8, columns:231-237]
+  inputs elem: 902(30)
+	["C1908.blif" line: 8, columns:239-245]
+  inputs elem: 952(31)
+	["C1908.blif" line: 8, columns:247-253]
+  inputs elem: 953(32)
+	["C1908.blif" line: 8, columns:255-261]
+  outputs elem: 3(865)
+	["C1908.blif" line: 9, columns:10-15]
+  outputs elem: 6(864)
+	["C1908.blif" line: 9, columns:17-22]
+  outputs elem: 9(863)
+	["C1908.blif" line: 9, columns:24-29]
+  outputs elem: 12(862)
+	["C1908.blif" line: 9, columns:31-37]
+  outputs elem: 30(856)
+	["C1908.blif" line: 9, columns:39-45]
+  outputs elem: 45(851)
+	["C1908.blif" line: 9, columns:47-53]
+  outputs elem: 48(850)
+	["C1908.blif" line: 9, columns:55-61]
+  outputs elem: 15(861)
+	["C1908.blif" line: 9, columns:63-69]
+  outputs elem: 18(860)
+	["C1908.blif" line: 9, columns:71-77]
+  outputs elem: 21(859)
+	["C1908.blif" line: 9, columns:79-85]
+  outputs elem: 24(858)
+	["C1908.blif" line: 9, columns:87-93]
+  outputs elem: 27(857)
+	["C1908.blif" line: 9, columns:95-101]
+  outputs elem: 33(855)
+	["C1908.blif" line: 9, columns:103-109]
+  outputs elem: 36(854)
+	["C1908.blif" line: 9, columns:111-117]
+  outputs elem: 39(853)
+	["C1908.blif" line: 9, columns:119-125]
+  outputs elem: 42(852)
+	["C1908.blif" line: 9, columns:127-133]
+  outputs elem: 75(866)
+	["C1908.blif" line: 9, columns:135-141]
+  outputs elem: 51(899)
+	["C1908.blif" line: 9, columns:143-149]
+  outputs elem: 54(900)
+	["C1908.blif" line: 9, columns:151-157]
+  outputs elem: 60(901)
+	["C1908.blif" line: 9, columns:159-165]
+  outputs elem: 63(902)
+	["C1908.blif" line: 9, columns:167-173]
+  outputs elem: 66(903)
+	["C1908.blif" line: 9, columns:175-181]
+  outputs elem: 69(908)
+	["C1908.blif" line: 9, columns:183-189]
+  outputs elem: 72(909)
+	["C1908.blif" line: 9, columns:191-197]
+  outputs elem: 57(912)
+	["C1908.blif" line: 9, columns:199-205]
+.names
+953(32)
+	["C1908.blif" line: 10, columns:8-14]
+949(33)
+	["C1908.blif" line: 10, columns:16-22]
+1 0
+.names
+953(32)
+	["C1908.blif" line: 12, columns:8-14]
+947(34)
+	["C1908.blif" line: 12, columns:16-22]
+1 1
+.names
+953(32)
+	["C1908.blif" line: 14, columns:8-14]
+943(35)
+	["C1908.blif" line: 14, columns:16-22]
+1 1
+.names
+953(32)
+	["C1908.blif" line: 16, columns:8-14]
+938(36)
+	["C1908.blif" line: 16, columns:16-22]
+1 0
+.names
+953(32)
+	["C1908.blif" line: 18, columns:8-14]
+934(37)
+	["C1908.blif" line: 18, columns:16-22]
+1 1
+.names
+953(32)
+	["C1908.blif" line: 20, columns:8-14]
+862(38)
+	["C1908.blif" line: 20, columns:16-22]
+1 0
+.names
+953(32)
+	["C1908.blif" line: 22, columns:8-14]
+859(39)
+	["C1908.blif" line: 22, columns:16-22]
+1 0
+.names
+952(31)
+	["C1908.blif" line: 24, columns:8-14]
+932(40)
+	["C1908.blif" line: 24, columns:16-22]
+1 0
+.names
+952(31)
+	["C1908.blif" line: 26, columns:8-14]
+930(41)
+	["C1908.blif" line: 26, columns:16-22]
+1 0
+.names
+952(31)
+	["C1908.blif" line: 28, columns:8-14]
+926(42)
+	["C1908.blif" line: 28, columns:16-22]
+1 1
+.names
+902(30)
+	["C1908.blif" line: 30, columns:8-14]
+922(43)
+	["C1908.blif" line: 30, columns:16-22]
+1 0
+.names
+902(30)
+	["C1908.blif" line: 32, columns:8-14]
+919(44)
+	["C1908.blif" line: 32, columns:16-22]
+1 1
+.names
+902(30)
+	["C1908.blif" line: 34, columns:8-14]
+918(45)
+	["C1908.blif" line: 34, columns:16-22]
+1 0
+.names
+902(30)
+	["C1908.blif" line: 36, columns:8-14]
+911(46)
+	["C1908.blif" line: 36, columns:16-22]
+1 1
+.names
+900(29)
+	["C1908.blif" line: 38, columns:8-14]
+909(47)
+	["C1908.blif" line: 38, columns:16-22]
+1 0
+.names
+898(28)
+	["C1908.blif" line: 40, columns:8-14]
+907(48)
+	["C1908.blif" line: 40, columns:16-22]
+1 0
+.names
+478(27)
+	["C1908.blif" line: 42, columns:8-14]
+553(49)
+	["C1908.blif" line: 42, columns:16-22]
+1 0
+.names
+475(26)
+	["C1908.blif" line: 44, columns:8-14]
+541(50)
+	["C1908.blif" line: 44, columns:16-22]
+1 0
+.names
+472(25)
+	["C1908.blif" line: 46, columns:8-14]
+529(51)
+	["C1908.blif" line: 46, columns:16-22]
+1 0
+.names
+469(24)
+	["C1908.blif" line: 48, columns:8-14]
+517(52)
+	["C1908.blif" line: 48, columns:16-22]
+1 0
+.names
+237(23)
+	["C1908.blif" line: 50, columns:8-14]
+244(53)
+	["C1908.blif" line: 50, columns:16-22]
+1 0
+.names
+237(23)
+	["C1908.blif" line: 52, columns:8-14]
+241(54)
+	["C1908.blif" line: 52, columns:16-22]
+1 0
+.names
+234(22)
+	["C1908.blif" line: 54, columns:8-14]
+248(55)
+	["C1908.blif" line: 54, columns:16-22]
+1 1
+.names
+234(22)
+	["C1908.blif" line: 56, columns:8-14]
+245(56)
+	["C1908.blif" line: 56, columns:16-22]
+1 1
+.names
+227(21)
+	["C1908.blif" line: 58, columns:8-14]
+900(29)
+	["C1908.blif" line: 58, columns:16-22]
+233(57)
+	["C1908.blif" line: 58, columns:24-30]
+11 0
+.names
+224(20)
+	["C1908.blif" line: 60, columns:8-14]
+898(28)
+	["C1908.blif" line: 60, columns:16-22]
+231(58)
+	["C1908.blif" line: 60, columns:24-30]
+11 0
+.names
+146(15)
+	["C1908.blif" line: 62, columns:8-14]
+206(59)
+	["C1908.blif" line: 62, columns:16-22]
+1 0
+.names
+146(15)
+	["C1908.blif" line: 64, columns:8-14]
+1626(60)
+	["C1908.blif" line: 64, columns:16-23]
+1 1
+.names
+143(14)
+	["C1908.blif" line: 66, columns:8-14]
+202(61)
+	["C1908.blif" line: 66, columns:16-22]
+1 0
+.names
+143(14)
+	["C1908.blif" line: 68, columns:8-14]
+1618(62)
+	["C1908.blif" line: 68, columns:16-23]
+1 1
+.names
+140(13)
+	["C1908.blif" line: 70, columns:8-14]
+198(63)
+	["C1908.blif" line: 70, columns:16-22]
+1 0
+.names
+140(13)
+	["C1908.blif" line: 72, columns:8-14]
+1610(64)
+	["C1908.blif" line: 72, columns:16-23]
+1 1
+.names
+137(12)
+	["C1908.blif" line: 74, columns:8-14]
+194(65)
+	["C1908.blif" line: 74, columns:16-22]
+1 0
+.names
+137(12)
+	["C1908.blif" line: 76, columns:8-14]
+1602(66)
+	["C1908.blif" line: 76, columns:16-23]
+1 1
+.names
+134(11)
+	["C1908.blif" line: 78, columns:8-14]
+191(67)
+	["C1908.blif" line: 78, columns:16-22]
+1 0
+.names
+134(11)
+	["C1908.blif" line: 80, columns:8-14]
+1594(68)
+	["C1908.blif" line: 80, columns:16-23]
+1 1
+.names
+131(10)
+	["C1908.blif" line: 82, columns:8-14]
+188(69)
+	["C1908.blif" line: 82, columns:16-22]
+1 0
+.names
+131(10)
+	["C1908.blif" line: 84, columns:8-14]
+1586(70)
+	["C1908.blif" line: 84, columns:16-23]
+1 1
+.names
+128(9)
+	["C1908.blif" line: 86, columns:8-13]
+184(71)
+	["C1908.blif" line: 86, columns:15-21]
+1 0
+.names
+128(9)
+	["C1908.blif" line: 88, columns:8-13]
+1578(72)
+	["C1908.blif" line: 88, columns:15-22]
+1 1
+.names
+125(8)
+	["C1908.blif" line: 90, columns:8-13]
+179(73)
+	["C1908.blif" line: 90, columns:15-21]
+1 0
+.names
+125(8)
+	["C1908.blif" line: 92, columns:8-13]
+1570(74)
+	["C1908.blif" line: 92, columns:15-22]
+1 1
+.names
+122(7)
+	["C1908.blif" line: 94, columns:8-13]
+175(75)
+	["C1908.blif" line: 94, columns:15-21]
+1 0
+.names
+122(7)
+	["C1908.blif" line: 96, columns:8-13]
+1562(76)
+	["C1908.blif" line: 96, columns:15-22]
+1 1
+.names
+119(6)
+	["C1908.blif" line: 98, columns:8-13]
+171(77)
+	["C1908.blif" line: 98, columns:15-21]
+1 0
+.names
+119(6)
+	["C1908.blif" line: 100, columns:8-13]
+1554(78)
+	["C1908.blif" line: 100, columns:15-22]
+1 1
+.names
+116(5)
+	["C1908.blif" line: 102, columns:8-13]
+168(79)
+	["C1908.blif" line: 102, columns:15-21]
+1 0
+.names
+116(5)
+	["C1908.blif" line: 104, columns:8-13]
+1546(80)
+	["C1908.blif" line: 104, columns:15-22]
+1 1
+.names
+113(4)
+	["C1908.blif" line: 106, columns:8-13]
+165(81)
+	["C1908.blif" line: 106, columns:15-21]
+1 0
+.names
+113(4)
+	["C1908.blif" line: 108, columns:8-13]
+1538(82)
+	["C1908.blif" line: 108, columns:15-22]
+1 1
+.names
+110(3)
+	["C1908.blif" line: 110, columns:8-13]
+160(83)
+	["C1908.blif" line: 110, columns:15-21]
+1 0
+.names
+110(3)
+	["C1908.blif" line: 112, columns:8-13]
+1530(84)
+	["C1908.blif" line: 112, columns:15-22]
+1 1
+.names
+107(2)
+	["C1908.blif" line: 114, columns:8-13]
+156(85)
+	["C1908.blif" line: 114, columns:15-21]
+1 0
+.names
+107(2)
+	["C1908.blif" line: 116, columns:8-13]
+1522(86)
+	["C1908.blif" line: 116, columns:15-22]
+1 1
+.names
+104(1)
+	["C1908.blif" line: 118, columns:8-13]
+153(87)
+	["C1908.blif" line: 118, columns:15-21]
+1 0
+.names
+104(1)
+	["C1908.blif" line: 120, columns:8-13]
+1514(88)
+	["C1908.blif" line: 120, columns:15-22]
+1 1
+.names
+101(0)
+	["C1908.blif" line: 122, columns:8-13]
+149(89)
+	["C1908.blif" line: 122, columns:15-21]
+1 0
+.names
+101(0)
+	["C1908.blif" line: 124, columns:8-13]
+1506(90)
+	["C1908.blif" line: 124, columns:15-22]
+1 1
+.names
+930(41)
+	["C1908.blif" line: 126, columns:8-14]
+947(34)
+	["C1908.blif" line: 126, columns:16-22]
+50(91)
+	["C1908.blif" line: 126, columns:24-29]
+11 0
+.names
+930(41)
+	["C1908.blif" line: 128, columns:8-14]
+947(34)
+	["C1908.blif" line: 128, columns:16-22]
+52(92)
+	["C1908.blif" line: 128, columns:24-29]
+11 0
+.names
+930(41)
+	["C1908.blif" line: 130, columns:8-14]
+947(34)
+	["C1908.blif" line: 130, columns:16-22]
+56(93)
+	["C1908.blif" line: 130, columns:24-29]
+11 0
+.names
+930(41)
+	["C1908.blif" line: 132, columns:8-14]
+947(34)
+	["C1908.blif" line: 132, columns:16-22]
+58(94)
+	["C1908.blif" line: 132, columns:24-29]
+11 0
+.names
+930(41)
+	["C1908.blif" line: 134, columns:8-14]
+947(34)
+	["C1908.blif" line: 134, columns:16-22]
+62(95)
+	["C1908.blif" line: 134, columns:24-29]
+11 0
+.names
+930(41)
+	["C1908.blif" line: 136, columns:8-14]
+947(34)
+	["C1908.blif" line: 136, columns:16-22]
+64(96)
+	["C1908.blif" line: 136, columns:24-29]
+11 0
+.names
+943(35)
+	["C1908.blif" line: 138, columns:8-14]
+907(48)
+	["C1908.blif" line: 138, columns:16-22]
+853(97)
+	["C1908.blif" line: 138, columns:24-30]
+11 0
+.names
+943(35)
+	["C1908.blif" line: 140, columns:8-14]
+909(47)
+	["C1908.blif" line: 140, columns:16-22]
+856(98)
+	["C1908.blif" line: 140, columns:24-30]
+11 0
+.names
+231(58)
+	["C1908.blif" line: 142, columns:8-14]
+934(37)
+	["C1908.blif" line: 142, columns:16-22]
+1634(99)
+	["C1908.blif" line: 142, columns:24-31]
+11 1
+.names
+233(57)
+	["C1908.blif" line: 144, columns:8-14]
+934(37)
+	["C1908.blif" line: 144, columns:16-22]
+1644(100)
+	["C1908.blif" line: 144, columns:24-32]
+11 1
+.names
+248(55)
+	["C1908.blif" line: 146, columns:8-14]
+922(43)
+	["C1908.blif" line: 146, columns:16-22]
+954(101)
+	["C1908.blif" line: 146, columns:24-31]
+11 0
+.names
+244(53)
+	["C1908.blif" line: 148, columns:8-14]
+922(43)
+	["C1908.blif" line: 148, columns:16-22]
+955(102)
+	["C1908.blif" line: 148, columns:24-31]
+11 0
+.names
+553(49)
+	["C1908.blif" line: 150, columns:8-14]
+1490(103)
+	["C1908.blif" line: 150, columns:16-24]
+1 1
+.names
+553(49)
+	["C1908.blif" line: 152, columns:8-14]
+1498(104)
+	["C1908.blif" line: 152, columns:16-24]
+1 1
+.names
+541(50)
+	["C1908.blif" line: 154, columns:8-14]
+1474(105)
+	["C1908.blif" line: 154, columns:16-24]
+1 1
+.names
+541(50)
+	["C1908.blif" line: 156, columns:8-14]
+1482(106)
+	["C1908.blif" line: 156, columns:16-24]
+1 1
+.names
+529(51)
+	["C1908.blif" line: 158, columns:8-14]
+1458(107)
+	["C1908.blif" line: 158, columns:16-24]
+1 1
+.names
+529(51)
+	["C1908.blif" line: 160, columns:8-14]
+1466(108)
+	["C1908.blif" line: 160, columns:16-24]
+1 1
+.names
+517(52)
+	["C1908.blif" line: 162, columns:8-14]
+1442(109)
+	["C1908.blif" line: 162, columns:16-24]
+1 1
+.names
+517(52)
+	["C1908.blif" line: 164, columns:8-14]
+1450(110)
+	["C1908.blif" line: 164, columns:16-24]
+1 1
+.names
+248(55)
+	["C1908.blif" line: 166, columns:8-14]
+237(23)
+	["C1908.blif" line: 166, columns:16-22]
+893(111)
+	["C1908.blif" line: 166, columns:24-31]
+11 0
+.names
+227(21)
+	["C1908.blif" line: 168, columns:8-14]
+938(36)
+	["C1908.blif" line: 168, columns:16-22]
+352(112)
+	["C1908.blif" line: 168, columns:24-31]
+11 1
+.names
+224(20)
+	["C1908.blif" line: 170, columns:8-14]
+938(36)
+	["C1908.blif" line: 170, columns:16-22]
+318(113)
+	["C1908.blif" line: 170, columns:24-31]
+11 1
+.names
+221(19)
+	["C1908.blif" line: 172, columns:8-14]
+245(56)
+	["C1908.blif" line: 172, columns:16-22]
+938(36)
+	["C1908.blif" line: 172, columns:24-30]
+1335(114)
+	["C1908.blif" line: 172, columns:32-40]
+111 1
+.names
+217(18)
+	["C1908.blif" line: 174, columns:8-14]
+245(56)
+	["C1908.blif" line: 174, columns:16-22]
+938(36)
+	["C1908.blif" line: 174, columns:24-30]
+1290(115)
+	["C1908.blif" line: 174, columns:32-40]
+111 1
+.names
+214(17)
+	["C1908.blif" line: 176, columns:8-14]
+241(54)
+	["C1908.blif" line: 176, columns:16-22]
+938(36)
+	["C1908.blif" line: 176, columns:24-30]
+1830(116)
+	["C1908.blif" line: 176, columns:32-40]
+111 1
+.names
+210(16)
+	["C1908.blif" line: 178, columns:8-14]
+241(54)
+	["C1908.blif" line: 178, columns:16-22]
+938(36)
+	["C1908.blif" line: 178, columns:24-30]
+369(117)
+	["C1908.blif" line: 178, columns:32-39]
+111 1
+.names
+206(59)
+	["C1908.blif" line: 180, columns:8-14]
+1713(118)
+	["C1908.blif" line: 180, columns:16-24]
+1 1
+.names
+206(59)
+	["C1908.blif" line: 182, columns:8-14]
+1721(119)
+	["C1908.blif" line: 182, columns:16-24]
+1 1
+.names
+206(59)
+	["C1908.blif" line: 184, columns:8-14]
+382(120)
+	["C1908.blif" line: 184, columns:16-23]
+1 1
+.names
+1626(60)
+	["C1908.blif" line: 186, columns:8-15]
+1632(121)
+	["C1908.blif" line: 186, columns:17-25]
+1 0
+.names
+202(61)
+	["C1908.blif" line: 188, columns:8-14]
+302(122)
+	["C1908.blif" line: 188, columns:16-23]
+1 1
+.names
+202(61)
+	["C1908.blif" line: 190, columns:8-14]
+1833(123)
+	["C1908.blif" line: 190, columns:16-24]
+1 1
+.names
+202(61)
+	["C1908.blif" line: 192, columns:8-14]
+1873(124)
+	["C1908.blif" line: 192, columns:16-24]
+1 1
+.names
+1618(62)
+	["C1908.blif" line: 194, columns:8-15]
+1624(125)
+	["C1908.blif" line: 194, columns:17-25]
+1 0
+.names
+198(63)
+	["C1908.blif" line: 196, columns:8-14]
+355(126)
+	["C1908.blif" line: 196, columns:16-23]
+1 1
+.names
+198(63)
+	["C1908.blif" line: 198, columns:8-14]
+1179(127)
+	["C1908.blif" line: 198, columns:16-24]
+1 1
+.names
+198(63)
+	["C1908.blif" line: 200, columns:8-14]
+385(128)
+	["C1908.blif" line: 200, columns:16-23]
+1 1
+.names
+1610(64)
+	["C1908.blif" line: 202, columns:8-15]
+1616(129)
+	["C1908.blif" line: 202, columns:17-25]
+1 0
+.names
+194(65)
+	["C1908.blif" line: 204, columns:8-14]
+1745(130)
+	["C1908.blif" line: 204, columns:16-24]
+1 1
+.names
+194(65)
+	["C1908.blif" line: 206, columns:8-14]
+1753(131)
+	["C1908.blif" line: 206, columns:16-24]
+1 1
+.names
+194(65)
+	["C1908.blif" line: 208, columns:8-14]
+1332(132)
+	["C1908.blif" line: 208, columns:16-24]
+1 1
+.names
+1602(66)
+	["C1908.blif" line: 210, columns:8-15]
+1608(133)
+	["C1908.blif" line: 210, columns:17-25]
+1 0
+.names
+191(67)
+	["C1908.blif" line: 212, columns:8-14]
+330(134)
+	["C1908.blif" line: 212, columns:16-23]
+1 1
+.names
+191(67)
+	["C1908.blif" line: 214, columns:8-14]
+1300(135)
+	["C1908.blif" line: 214, columns:16-24]
+1 1
+.names
+1594(68)
+	["C1908.blif" line: 216, columns:8-15]
+1600(136)
+	["C1908.blif" line: 216, columns:17-25]
+1 0
+.names
+188(69)
+	["C1908.blif" line: 218, columns:8-14]
+327(137)
+	["C1908.blif" line: 218, columns:16-23]
+1 1
+.names
+188(69)
+	["C1908.blif" line: 220, columns:8-14]
+1244(138)
+	["C1908.blif" line: 220, columns:16-24]
+1 1
+.names
+1586(70)
+	["C1908.blif" line: 222, columns:8-15]
+1592(139)
+	["C1908.blif" line: 222, columns:17-25]
+1 0
+.names
+184(71)
+	["C1908.blif" line: 224, columns:8-14]
+299(140)
+	["C1908.blif" line: 224, columns:16-23]
+1 1
+.names
+184(71)
+	["C1908.blif" line: 226, columns:8-14]
+1870(141)
+	["C1908.blif" line: 226, columns:16-24]
+1 1
+.names
+184(71)
+	["C1908.blif" line: 228, columns:8-14]
+1881(142)
+	["C1908.blif" line: 228, columns:16-24]
+1 1
+.names
+1578(72)
+	["C1908.blif" line: 230, columns:8-15]
+1584(143)
+	["C1908.blif" line: 230, columns:17-25]
+1 0
+.names
+179(73)
+	["C1908.blif" line: 232, columns:8-14]
+321(144)
+	["C1908.blif" line: 232, columns:16-23]
+1 1
+.names
+179(73)
+	["C1908.blif" line: 234, columns:8-14]
+1176(145)
+	["C1908.blif" line: 234, columns:16-24]
+1 1
+.names
+179(73)
+	["C1908.blif" line: 236, columns:8-14]
+1841(146)
+	["C1908.blif" line: 236, columns:16-24]
+1 1
+.names
+179(73)
+	["C1908.blif" line: 238, columns:8-14]
+1849(147)
+	["C1908.blif" line: 238, columns:16-24]
+1 1
+.names
+1570(74)
+	["C1908.blif" line: 240, columns:8-15]
+1576(148)
+	["C1908.blif" line: 240, columns:17-25]
+1 0
+.names
+175(75)
+	["C1908.blif" line: 242, columns:8-14]
+1053(149)
+	["C1908.blif" line: 242, columns:16-24]
+1 1
+.names
+175(75)
+	["C1908.blif" line: 244, columns:8-14]
+1817(150)
+	["C1908.blif" line: 244, columns:16-24]
+1 1
+.names
+175(75)
+	["C1908.blif" line: 246, columns:8-14]
+1857(151)
+	["C1908.blif" line: 246, columns:16-24]
+1 1
+.names
+1562(76)
+	["C1908.blif" line: 248, columns:8-15]
+1568(152)
+	["C1908.blif" line: 248, columns:17-25]
+1 0
+.names
+171(77)
+	["C1908.blif" line: 250, columns:8-14]
+1697(153)
+	["C1908.blif" line: 250, columns:16-24]
+1 1
+.names
+171(77)
+	["C1908.blif" line: 252, columns:8-14]
+1705(154)
+	["C1908.blif" line: 252, columns:16-24]
+1 1
+.names
+171(77)
+	["C1908.blif" line: 254, columns:8-14]
+1878(155)
+	["C1908.blif" line: 254, columns:16-24]
+1 1
+.names
+1554(78)
+	["C1908.blif" line: 256, columns:8-15]
+1560(156)
+	["C1908.blif" line: 256, columns:17-25]
+1 0
+.names
+168(79)
+	["C1908.blif" line: 258, columns:8-14]
+291(157)
+	["C1908.blif" line: 258, columns:16-23]
+1 1
+.names
+168(79)
+	["C1908.blif" line: 260, columns:8-14]
+1854(158)
+	["C1908.blif" line: 260, columns:16-24]
+1 1
+.names
+1546(80)
+	["C1908.blif" line: 262, columns:8-15]
+1552(159)
+	["C1908.blif" line: 262, columns:17-25]
+1 0
+.names
+165(81)
+	["C1908.blif" line: 264, columns:8-14]
+288(160)
+	["C1908.blif" line: 264, columns:16-23]
+1 1
+.names
+165(81)
+	["C1908.blif" line: 266, columns:8-14]
+1814(161)
+	["C1908.blif" line: 266, columns:16-24]
+1 1
+.names
+1538(82)
+	["C1908.blif" line: 268, columns:8-15]
+1544(162)
+	["C1908.blif" line: 268, columns:17-25]
+1 0
+.names
+160(83)
+	["C1908.blif" line: 270, columns:8-14]
+1050(163)
+	["C1908.blif" line: 270, columns:16-24]
+1 1
+.names
+160(83)
+	["C1908.blif" line: 272, columns:8-14]
+1785(164)
+	["C1908.blif" line: 272, columns:16-24]
+1 1
+.names
+160(83)
+	["C1908.blif" line: 274, columns:8-14]
+1793(165)
+	["C1908.blif" line: 274, columns:16-24]
+1 1
+.names
+160(83)
+	["C1908.blif" line: 276, columns:8-14]
+1312(166)
+	["C1908.blif" line: 276, columns:16-24]
+1 1
+.names
+1530(84)
+	["C1908.blif" line: 278, columns:8-15]
+1536(167)
+	["C1908.blif" line: 278, columns:17-25]
+1 0
+.names
+156(85)
+	["C1908.blif" line: 280, columns:8-14]
+1657(168)
+	["C1908.blif" line: 280, columns:16-24]
+1 1
+.names
+156(85)
+	["C1908.blif" line: 282, columns:8-14]
+1665(169)
+	["C1908.blif" line: 282, columns:16-24]
+1 1
+.names
+156(85)
+	["C1908.blif" line: 284, columns:8-14]
+1278(170)
+	["C1908.blif" line: 284, columns:16-24]
+1 1
+.names
+1522(86)
+	["C1908.blif" line: 286, columns:8-15]
+1528(171)
+	["C1908.blif" line: 286, columns:17-25]
+1 0
+.names
+153(87)
+	["C1908.blif" line: 288, columns:8-14]
+254(172)
+	["C1908.blif" line: 288, columns:16-23]
+1 1
+.names
+153(87)
+	["C1908.blif" line: 290, columns:8-14]
+1222(173)
+	["C1908.blif" line: 290, columns:16-24]
+1 1
+.names
+1514(88)
+	["C1908.blif" line: 292, columns:8-15]
+1520(174)
+	["C1908.blif" line: 292, columns:17-25]
+1 0
+.names
+149(89)
+	["C1908.blif" line: 294, columns:8-14]
+251(175)
+	["C1908.blif" line: 294, columns:16-23]
+1 1
+.names
+149(89)
+	["C1908.blif" line: 296, columns:8-14]
+1197(176)
+	["C1908.blif" line: 296, columns:16-24]
+1 1
+.names
+149(89)
+	["C1908.blif" line: 298, columns:8-14]
+1207(177)
+	["C1908.blif" line: 298, columns:16-24]
+1 1
+.names
+1506(90)
+	["C1908.blif" line: 300, columns:8-15]
+1512(178)
+	["C1908.blif" line: 300, columns:17-25]
+1 0
+.names
+926(42)
+	["C1908.blif" line: 302, columns:8-14]
+949(33)
+	["C1908.blif" line: 302, columns:16-22]
+893(111)
+	["C1908.blif" line: 302, columns:24-31]
+979(179)
+	["C1908.blif" line: 302, columns:33-40]
+111 1
+.names
+926(42)
+	["C1908.blif" line: 304, columns:8-14]
+949(33)
+	["C1908.blif" line: 304, columns:16-22]
+893(111)
+	["C1908.blif" line: 304, columns:24-31]
+978(180)
+	["C1908.blif" line: 304, columns:33-40]
+111 0
+.names
+907(48)
+	["C1908.blif" line: 306, columns:8-14]
+919(44)
+	["C1908.blif" line: 306, columns:16-22]
+943(35)
+	["C1908.blif" line: 306, columns:24-30]
+893(111)
+	["C1908.blif" line: 306, columns:32-39]
+956(181)
+	["C1908.blif" line: 306, columns:41-48]
+1111 0
+.names
+909(47)
+	["C1908.blif" line: 308, columns:8-14]
+919(44)
+	["C1908.blif" line: 308, columns:16-22]
+943(35)
+	["C1908.blif" line: 308, columns:24-30]
+893(111)
+	["C1908.blif" line: 308, columns:32-39]
+967(182)
+	["C1908.blif" line: 308, columns:41-48]
+1111 0
+.names
+1634(99)
+	["C1908.blif" line: 310, columns:8-15]
+1642(183)
+	["C1908.blif" line: 310, columns:17-25]
+1 0
+.names
+1644(100)
+	["C1908.blif" line: 312, columns:8-16]
+1652(184)
+	["C1908.blif" line: 312, columns:18-26]
+1 0
+.names
+1490(103)
+	["C1908.blif" line: 314, columns:8-16]
+1496(185)
+	["C1908.blif" line: 314, columns:18-26]
+1 0
+.names
+1498(104)
+	["C1908.blif" line: 316, columns:8-16]
+1504(186)
+	["C1908.blif" line: 316, columns:18-26]
+1 0
+.names
+1474(105)
+	["C1908.blif" line: 318, columns:8-16]
+1480(187)
+	["C1908.blif" line: 318, columns:18-26]
+1 0
+.names
+1482(106)
+	["C1908.blif" line: 320, columns:8-16]
+1488(188)
+	["C1908.blif" line: 320, columns:18-26]
+1 0
+.names
+1458(107)
+	["C1908.blif" line: 322, columns:8-16]
+1464(189)
+	["C1908.blif" line: 322, columns:18-26]
+1 0
+.names
+1466(108)
+	["C1908.blif" line: 324, columns:8-16]
+1472(190)
+	["C1908.blif" line: 324, columns:18-26]
+1 0
+.names
+1442(109)
+	["C1908.blif" line: 326, columns:8-16]
+1448(191)
+	["C1908.blif" line: 326, columns:18-26]
+1 0
+.names
+1450(110)
+	["C1908.blif" line: 328, columns:8-16]
+1456(192)
+	["C1908.blif" line: 328, columns:18-26]
+1 0
+.names
+352(112)
+	["C1908.blif" line: 330, columns:8-15]
+1154(193)
+	["C1908.blif" line: 330, columns:17-25]
+1 1
+.names
+352(112)
+	["C1908.blif" line: 332, columns:8-15]
+1166(194)
+	["C1908.blif" line: 332, columns:17-25]
+1 1
+.names
+318(113)
+	["C1908.blif" line: 334, columns:8-15]
+1078(195)
+	["C1908.blif" line: 334, columns:17-25]
+1 1
+.names
+318(113)
+	["C1908.blif" line: 336, columns:8-15]
+1090(196)
+	["C1908.blif" line: 336, columns:17-25]
+1 1
+.names
+221(19)
+	["C1908.blif" line: 338, columns:8-14]
+954(101)
+	["C1908.blif" line: 338, columns:16-23]
+487(197)
+	["C1908.blif" line: 338, columns:25-32]
+11 0
+.names
+1335(114)
+	["C1908.blif" line: 340, columns:8-16]
+1339(198)
+	["C1908.blif" line: 340, columns:18-26]
+1 0
+.names
+217(18)
+	["C1908.blif" line: 342, columns:8-14]
+954(101)
+	["C1908.blif" line: 342, columns:16-23]
+505(199)
+	["C1908.blif" line: 342, columns:25-32]
+11 0
+.names
+217(18)
+	["C1908.blif" line: 344, columns:8-14]
+954(101)
+	["C1908.blif" line: 344, columns:16-23]
+459(200)
+	["C1908.blif" line: 344, columns:25-32]
+11 1
+.names
+1290(115)
+	["C1908.blif" line: 346, columns:8-16]
+1298(201)
+	["C1908.blif" line: 346, columns:18-26]
+1 0
+.names
+214(17)
+	["C1908.blif" line: 348, columns:8-14]
+955(102)
+	["C1908.blif" line: 348, columns:16-23]
+482(202)
+	["C1908.blif" line: 348, columns:25-32]
+11 0
+.names
+1830(116)
+	["C1908.blif" line: 350, columns:8-16]
+1836(203)
+	["C1908.blif" line: 350, columns:18-26]
+1 0
+.names
+210(16)
+	["C1908.blif" line: 352, columns:8-14]
+955(102)
+	["C1908.blif" line: 352, columns:16-23]
+492(204)
+	["C1908.blif" line: 352, columns:25-32]
+11 0
+.names
+210(16)
+	["C1908.blif" line: 354, columns:8-14]
+955(102)
+	["C1908.blif" line: 354, columns:16-23]
+457(205)
+	["C1908.blif" line: 354, columns:25-32]
+11 1
+.names
+369(117)
+	["C1908.blif" line: 356, columns:8-15]
+1194(206)
+	["C1908.blif" line: 356, columns:17-25]
+1 1
+.names
+369(117)
+	["C1908.blif" line: 358, columns:8-15]
+1204(207)
+	["C1908.blif" line: 358, columns:17-25]
+1 1
+.names
+1713(118)
+	["C1908.blif" line: 360, columns:8-16]
+1717(208)
+	["C1908.blif" line: 360, columns:18-26]
+1 0
+.names
+1721(119)
+	["C1908.blif" line: 362, columns:8-16]
+1725(209)
+	["C1908.blif" line: 362, columns:18-26]
+1 0
+.names
+382(120)
+	["C1908.blif" line: 364, columns:8-15]
+1256(210)
+	["C1908.blif" line: 364, columns:17-25]
+1 1
+.names
+382(120)
+	["C1908.blif" line: 366, columns:8-15]
+1268(211)
+	["C1908.blif" line: 366, columns:17-25]
+1 1
+.names
+302(122)
+	["C1908.blif" line: 368, columns:8-15]
+1710(212)
+	["C1908.blif" line: 368, columns:17-25]
+1 1
+.names
+302(122)
+	["C1908.blif" line: 370, columns:8-15]
+1718(213)
+	["C1908.blif" line: 370, columns:17-25]
+1 1
+.names
+1833(123)
+	["C1908.blif" line: 372, columns:8-16]
+1837(214)
+	["C1908.blif" line: 372, columns:18-26]
+1 0
+.names
+1873(124)
+	["C1908.blif" line: 374, columns:8-16]
+1877(215)
+	["C1908.blif" line: 374, columns:18-26]
+1 0
+.names
+355(126)
+	["C1908.blif" line: 376, columns:8-15]
+1782(216)
+	["C1908.blif" line: 376, columns:17-25]
+1 1
+.names
+355(126)
+	["C1908.blif" line: 378, columns:8-15]
+1790(217)
+	["C1908.blif" line: 378, columns:17-25]
+1 1
+.names
+1179(127)
+	["C1908.blif" line: 380, columns:8-16]
+1183(218)
+	["C1908.blif" line: 380, columns:18-26]
+1 0
+.names
+385(128)
+	["C1908.blif" line: 382, columns:8-15]
+1838(219)
+	["C1908.blif" line: 382, columns:17-25]
+1 1
+.names
+385(128)
+	["C1908.blif" line: 384, columns:8-15]
+1846(220)
+	["C1908.blif" line: 384, columns:17-25]
+1 1
+.names
+1745(130)
+	["C1908.blif" line: 386, columns:8-16]
+1749(221)
+	["C1908.blif" line: 386, columns:18-26]
+1 0
+.names
+1753(131)
+	["C1908.blif" line: 388, columns:8-16]
+1757(222)
+	["C1908.blif" line: 388, columns:18-26]
+1 0
+.names
+1332(132)
+	["C1908.blif" line: 390, columns:8-16]
+1338(223)
+	["C1908.blif" line: 390, columns:18-26]
+1 0
+.names
+330(134)
+	["C1908.blif" line: 392, columns:8-15]
+1742(224)
+	["C1908.blif" line: 392, columns:17-25]
+1 1
+.names
+330(134)
+	["C1908.blif" line: 394, columns:8-15]
+1750(225)
+	["C1908.blif" line: 394, columns:17-25]
+1 1
+.names
+1300(135)
+	["C1908.blif" line: 396, columns:8-16]
+1308(226)
+	["C1908.blif" line: 396, columns:18-26]
+1 0
+.names
+327(137)
+	["C1908.blif" line: 398, columns:8-15]
+1100(227)
+	["C1908.blif" line: 398, columns:17-25]
+1 1
+.names
+327(137)
+	["C1908.blif" line: 400, columns:8-15]
+1112(228)
+	["C1908.blif" line: 400, columns:17-25]
+1 1
+.names
+1244(138)
+	["C1908.blif" line: 402, columns:8-16]
+1252(229)
+	["C1908.blif" line: 402, columns:18-26]
+1 0
+.names
+299(140)
+	["C1908.blif" line: 404, columns:8-15]
+1058(230)
+	["C1908.blif" line: 404, columns:17-25]
+1 1
+.names
+299(140)
+	["C1908.blif" line: 406, columns:8-15]
+1068(231)
+	["C1908.blif" line: 406, columns:17-25]
+1 1
+.names
+1870(141)
+	["C1908.blif" line: 408, columns:8-16]
+1876(232)
+	["C1908.blif" line: 408, columns:18-26]
+1 0
+.names
+1881(142)
+	["C1908.blif" line: 410, columns:8-16]
+1885(233)
+	["C1908.blif" line: 410, columns:18-26]
+1 0
+.names
+321(144)
+	["C1908.blif" line: 412, columns:8-15]
+1726(234)
+	["C1908.blif" line: 412, columns:17-25]
+1 1
+.names
+321(144)
+	["C1908.blif" line: 414, columns:8-15]
+1734(235)
+	["C1908.blif" line: 414, columns:17-25]
+1 1
+.names
+1176(145)
+	["C1908.blif" line: 416, columns:8-16]
+1182(236)
+	["C1908.blif" line: 416, columns:18-26]
+1 0
+.names
+1841(146)
+	["C1908.blif" line: 418, columns:8-16]
+1845(237)
+	["C1908.blif" line: 418, columns:18-26]
+1 0
+.names
+1849(147)
+	["C1908.blif" line: 420, columns:8-16]
+1853(238)
+	["C1908.blif" line: 420, columns:18-26]
+1 0
+.names
+1053(149)
+	["C1908.blif" line: 422, columns:8-16]
+1057(239)
+	["C1908.blif" line: 422, columns:18-26]
+1 0
+.names
+1817(150)
+	["C1908.blif" line: 424, columns:8-16]
+1821(240)
+	["C1908.blif" line: 424, columns:18-26]
+1 0
+.names
+1857(151)
+	["C1908.blif" line: 426, columns:8-16]
+1861(241)
+	["C1908.blif" line: 426, columns:18-26]
+1 0
+.names
+1697(153)
+	["C1908.blif" line: 428, columns:8-16]
+1701(242)
+	["C1908.blif" line: 428, columns:18-26]
+1 0
+.names
+1705(154)
+	["C1908.blif" line: 430, columns:8-16]
+1709(243)
+	["C1908.blif" line: 430, columns:18-26]
+1 0
+.names
+1878(155)
+	["C1908.blif" line: 432, columns:8-16]
+1884(244)
+	["C1908.blif" line: 432, columns:18-26]
+1 0
+.names
+291(157)
+	["C1908.blif" line: 434, columns:8-15]
+1694(245)
+	["C1908.blif" line: 434, columns:17-25]
+1 1
+.names
+291(157)
+	["C1908.blif" line: 436, columns:8-15]
+1702(246)
+	["C1908.blif" line: 436, columns:17-25]
+1 1
+.names
+1854(158)
+	["C1908.blif" line: 438, columns:8-16]
+1860(247)
+	["C1908.blif" line: 438, columns:18-26]
+1 0
+.names
+288(160)
+	["C1908.blif" line: 440, columns:8-15]
+1030(248)
+	["C1908.blif" line: 440, columns:17-25]
+1 1
+.names
+288(160)
+	["C1908.blif" line: 442, columns:8-15]
+1040(249)
+	["C1908.blif" line: 442, columns:17-25]
+1 1
+.names
+1814(161)
+	["C1908.blif" line: 444, columns:8-16]
+1820(250)
+	["C1908.blif" line: 444, columns:18-26]
+1 0
+.names
+1050(163)
+	["C1908.blif" line: 446, columns:8-16]
+1056(251)
+	["C1908.blif" line: 446, columns:18-26]
+1 0
+.names
+1785(164)
+	["C1908.blif" line: 448, columns:8-16]
+1789(252)
+	["C1908.blif" line: 448, columns:18-26]
+1 0
+.names
+1793(165)
+	["C1908.blif" line: 450, columns:8-16]
+1797(253)
+	["C1908.blif" line: 450, columns:18-26]
+1 0
+.names
+1312(166)
+	["C1908.blif" line: 452, columns:8-16]
+1320(254)
+	["C1908.blif" line: 452, columns:18-26]
+1 0
+.names
+1657(168)
+	["C1908.blif" line: 454, columns:8-16]
+1661(255)
+	["C1908.blif" line: 454, columns:18-26]
+1 0
+.names
+1665(169)
+	["C1908.blif" line: 456, columns:8-16]
+1669(256)
+	["C1908.blif" line: 456, columns:18-26]
+1 0
+.names
+1278(170)
+	["C1908.blif" line: 458, columns:8-16]
+1286(257)
+	["C1908.blif" line: 458, columns:18-26]
+1 0
+.names
+254(172)
+	["C1908.blif" line: 460, columns:8-15]
+1654(258)
+	["C1908.blif" line: 460, columns:17-25]
+1 1
+.names
+254(172)
+	["C1908.blif" line: 462, columns:8-15]
+1662(259)
+	["C1908.blif" line: 462, columns:17-25]
+1 1
+.names
+1222(173)
+	["C1908.blif" line: 464, columns:8-16]
+1230(260)
+	["C1908.blif" line: 464, columns:18-26]
+1 0
+.names
+251(175)
+	["C1908.blif" line: 466, columns:8-15]
+980(261)
+	["C1908.blif" line: 466, columns:17-24]
+1 1
+.names
+251(175)
+	["C1908.blif" line: 468, columns:8-15]
+990(262)
+	["C1908.blif" line: 468, columns:17-24]
+1 1
+.names
+1197(176)
+	["C1908.blif" line: 470, columns:8-16]
+1201(263)
+	["C1908.blif" line: 470, columns:18-26]
+1 0
+.names
+1207(177)
+	["C1908.blif" line: 472, columns:8-16]
+1211(264)
+	["C1908.blif" line: 472, columns:18-26]
+1 0
+.names
+956(181)
+	["C1908.blif" line: 474, columns:8-15]
+978(180)
+	["C1908.blif" line: 474, columns:17-24]
+958(265)
+	["C1908.blif" line: 474, columns:26-33]
+11 0
+.names
+967(182)
+	["C1908.blif" line: 476, columns:8-15]
+978(180)
+	["C1908.blif" line: 476, columns:17-24]
+969(266)
+	["C1908.blif" line: 476, columns:26-33]
+11 0
+.names
+1154(193)
+	["C1908.blif" line: 478, columns:8-16]
+1162(267)
+	["C1908.blif" line: 478, columns:18-26]
+1 0
+.names
+1166(194)
+	["C1908.blif" line: 480, columns:8-16]
+1174(268)
+	["C1908.blif" line: 480, columns:18-26]
+1 0
+.names
+1078(195)
+	["C1908.blif" line: 482, columns:8-16]
+1086(269)
+	["C1908.blif" line: 482, columns:18-26]
+1 0
+.names
+1090(196)
+	["C1908.blif" line: 484, columns:8-16]
+1098(270)
+	["C1908.blif" line: 484, columns:18-26]
+1 0
+.names
+487(197)
+	["C1908.blif" line: 486, columns:8-15]
+614(271)
+	["C1908.blif" line: 486, columns:17-24]
+1 0
+.names
+487(197)
+	["C1908.blif" line: 488, columns:8-15]
+615(272)
+	["C1908.blif" line: 488, columns:17-24]
+1 1
+.names
+1335(114)
+	["C1908.blif" line: 490, columns:8-16]
+1338(223)
+	["C1908.blif" line: 490, columns:18-26]
+404(273)
+	["C1908.blif" line: 490, columns:28-35]
+11 0
+.names
+505(199)
+	["C1908.blif" line: 492, columns:8-15]
+1426(274)
+	["C1908.blif" line: 492, columns:17-25]
+1 1
+.names
+505(199)
+	["C1908.blif" line: 494, columns:8-15]
+1434(275)
+	["C1908.blif" line: 494, columns:17-25]
+1 1
+.names
+482(202)
+	["C1908.blif" line: 496, columns:8-15]
+565(276)
+	["C1908.blif" line: 496, columns:17-24]
+1 0
+.names
+482(202)
+	["C1908.blif" line: 498, columns:8-15]
+566(277)
+	["C1908.blif" line: 498, columns:17-24]
+1 1
+.names
+1830(116)
+	["C1908.blif" line: 500, columns:8-16]
+1837(214)
+	["C1908.blif" line: 500, columns:18-26]
+1248(278)
+	["C1908.blif" line: 500, columns:28-36]
+11 0
+.names
+492(204)
+	["C1908.blif" line: 502, columns:8-15]
+1410(279)
+	["C1908.blif" line: 502, columns:17-25]
+1 1
+.names
+492(204)
+	["C1908.blif" line: 504, columns:8-15]
+1418(280)
+	["C1908.blif" line: 504, columns:17-25]
+1 1
+.names
+1194(206)
+	["C1908.blif" line: 506, columns:8-16]
+1200(281)
+	["C1908.blif" line: 506, columns:18-26]
+1 0
+.names
+1194(206)
+	["C1908.blif" line: 508, columns:8-16]
+1201(263)
+	["C1908.blif" line: 508, columns:18-26]
+1203(282)
+	["C1908.blif" line: 508, columns:28-36]
+11 0
+.names
+1204(207)
+	["C1908.blif" line: 510, columns:8-16]
+1211(264)
+	["C1908.blif" line: 510, columns:18-26]
+373(283)
+	["C1908.blif" line: 510, columns:28-35]
+11 0
+.names
+1204(207)
+	["C1908.blif" line: 512, columns:8-16]
+1210(284)
+	["C1908.blif" line: 512, columns:18-26]
+1 0
+.names
+1710(212)
+	["C1908.blif" line: 514, columns:8-16]
+1717(208)
+	["C1908.blif" line: 514, columns:18-26]
+1062(285)
+	["C1908.blif" line: 514, columns:28-36]
+11 0
+.names
+1718(213)
+	["C1908.blif" line: 516, columns:8-16]
+1725(209)
+	["C1908.blif" line: 516, columns:18-26]
+1072(286)
+	["C1908.blif" line: 516, columns:28-36]
+11 0
+.names
+1256(210)
+	["C1908.blif" line: 518, columns:8-16]
+1264(287)
+	["C1908.blif" line: 518, columns:18-26]
+1 0
+.names
+1268(211)
+	["C1908.blif" line: 520, columns:8-16]
+1276(288)
+	["C1908.blif" line: 520, columns:18-26]
+1 0
+.names
+1710(212)
+	["C1908.blif" line: 522, columns:8-16]
+1716(289)
+	["C1908.blif" line: 522, columns:18-26]
+1 0
+.names
+1718(213)
+	["C1908.blif" line: 524, columns:8-16]
+1724(290)
+	["C1908.blif" line: 524, columns:18-26]
+1 0
+.names
+1833(123)
+	["C1908.blif" line: 526, columns:8-16]
+1836(203)
+	["C1908.blif" line: 526, columns:18-26]
+1247(291)
+	["C1908.blif" line: 526, columns:28-36]
+11 0
+.names
+1873(124)
+	["C1908.blif" line: 528, columns:8-16]
+1876(232)
+	["C1908.blif" line: 528, columns:18-26]
+1303(292)
+	["C1908.blif" line: 528, columns:28-36]
+11 0
+.names
+1782(216)
+	["C1908.blif" line: 530, columns:8-16]
+1789(252)
+	["C1908.blif" line: 530, columns:18-26]
+1158(293)
+	["C1908.blif" line: 530, columns:28-36]
+11 0
+.names
+1782(216)
+	["C1908.blif" line: 532, columns:8-16]
+1788(294)
+	["C1908.blif" line: 532, columns:18-26]
+1 0
+.names
+1790(217)
+	["C1908.blif" line: 534, columns:8-16]
+1797(253)
+	["C1908.blif" line: 534, columns:18-26]
+1170(295)
+	["C1908.blif" line: 534, columns:28-36]
+11 0
+.names
+1790(217)
+	["C1908.blif" line: 536, columns:8-16]
+1796(296)
+	["C1908.blif" line: 536, columns:18-26]
+1 0
+.names
+1179(127)
+	["C1908.blif" line: 538, columns:8-16]
+1182(236)
+	["C1908.blif" line: 538, columns:18-26]
+361(297)
+	["C1908.blif" line: 538, columns:28-35]
+11 0
+.names
+1838(219)
+	["C1908.blif" line: 540, columns:8-16]
+1845(237)
+	["C1908.blif" line: 540, columns:18-26]
+1260(298)
+	["C1908.blif" line: 540, columns:28-36]
+11 0
+.names
+1838(219)
+	["C1908.blif" line: 542, columns:8-16]
+1844(299)
+	["C1908.blif" line: 542, columns:18-26]
+1 0
+.names
+1846(220)
+	["C1908.blif" line: 544, columns:8-16]
+1853(238)
+	["C1908.blif" line: 544, columns:18-26]
+1272(300)
+	["C1908.blif" line: 544, columns:28-36]
+11 0
+.names
+1846(220)
+	["C1908.blif" line: 546, columns:8-16]
+1852(301)
+	["C1908.blif" line: 546, columns:18-26]
+1 0
+.names
+1742(224)
+	["C1908.blif" line: 548, columns:8-16]
+1749(221)
+	["C1908.blif" line: 548, columns:18-26]
+1104(302)
+	["C1908.blif" line: 548, columns:28-36]
+11 0
+.names
+1750(225)
+	["C1908.blif" line: 550, columns:8-16]
+1757(222)
+	["C1908.blif" line: 550, columns:18-26]
+1116(303)
+	["C1908.blif" line: 550, columns:28-36]
+11 0
+.names
+1332(132)
+	["C1908.blif" line: 552, columns:8-16]
+1339(198)
+	["C1908.blif" line: 552, columns:18-26]
+405(304)
+	["C1908.blif" line: 552, columns:28-35]
+11 0
+.names
+1742(224)
+	["C1908.blif" line: 554, columns:8-16]
+1748(305)
+	["C1908.blif" line: 554, columns:18-26]
+1 0
+.names
+1750(225)
+	["C1908.blif" line: 556, columns:8-16]
+1756(306)
+	["C1908.blif" line: 556, columns:18-26]
+1 0
+.names
+1100(227)
+	["C1908.blif" line: 558, columns:8-16]
+1108(307)
+	["C1908.blif" line: 558, columns:18-26]
+1 0
+.names
+1112(228)
+	["C1908.blif" line: 560, columns:8-16]
+1120(308)
+	["C1908.blif" line: 560, columns:18-26]
+1 0
+.names
+1058(230)
+	["C1908.blif" line: 562, columns:8-16]
+1066(309)
+	["C1908.blif" line: 562, columns:18-26]
+1 0
+.names
+1068(231)
+	["C1908.blif" line: 564, columns:8-16]
+1076(310)
+	["C1908.blif" line: 564, columns:18-26]
+1 0
+.names
+1870(141)
+	["C1908.blif" line: 566, columns:8-16]
+1877(215)
+	["C1908.blif" line: 566, columns:18-26]
+1304(311)
+	["C1908.blif" line: 566, columns:28-36]
+11 0
+.names
+1881(142)
+	["C1908.blif" line: 568, columns:8-16]
+1884(244)
+	["C1908.blif" line: 568, columns:18-26]
+1315(312)
+	["C1908.blif" line: 568, columns:28-36]
+11 0
+.names
+1726(234)
+	["C1908.blif" line: 570, columns:8-16]
+1732(313)
+	["C1908.blif" line: 570, columns:18-26]
+1 0
+.names
+1734(235)
+	["C1908.blif" line: 572, columns:8-16]
+1740(314)
+	["C1908.blif" line: 572, columns:18-26]
+1 0
+.names
+1176(145)
+	["C1908.blif" line: 574, columns:8-16]
+1183(218)
+	["C1908.blif" line: 574, columns:18-26]
+362(315)
+	["C1908.blif" line: 574, columns:28-35]
+11 0
+.names
+1053(149)
+	["C1908.blif" line: 576, columns:8-16]
+1056(251)
+	["C1908.blif" line: 576, columns:18-26]
+297(316)
+	["C1908.blif" line: 576, columns:28-35]
+11 0
+.names
+1817(150)
+	["C1908.blif" line: 578, columns:8-16]
+1820(250)
+	["C1908.blif" line: 578, columns:18-26]
+1225(317)
+	["C1908.blif" line: 578, columns:28-36]
+11 0
+.names
+1857(151)
+	["C1908.blif" line: 580, columns:8-16]
+1860(247)
+	["C1908.blif" line: 580, columns:18-26]
+1281(318)
+	["C1908.blif" line: 580, columns:28-36]
+11 0
+.names
+1694(245)
+	["C1908.blif" line: 582, columns:8-16]
+1701(242)
+	["C1908.blif" line: 582, columns:18-26]
+1034(319)
+	["C1908.blif" line: 582, columns:28-36]
+11 0
+.names
+1702(246)
+	["C1908.blif" line: 584, columns:8-16]
+1709(243)
+	["C1908.blif" line: 584, columns:18-26]
+1044(320)
+	["C1908.blif" line: 584, columns:28-36]
+11 0
+.names
+1878(155)
+	["C1908.blif" line: 586, columns:8-16]
+1885(233)
+	["C1908.blif" line: 586, columns:18-26]
+1316(321)
+	["C1908.blif" line: 586, columns:28-36]
+11 0
+.names
+1694(245)
+	["C1908.blif" line: 588, columns:8-16]
+1700(322)
+	["C1908.blif" line: 588, columns:18-26]
+1 0
+.names
+1702(246)
+	["C1908.blif" line: 590, columns:8-16]
+1708(323)
+	["C1908.blif" line: 590, columns:18-26]
+1 0
+.names
+1854(158)
+	["C1908.blif" line: 592, columns:8-16]
+1861(241)
+	["C1908.blif" line: 592, columns:18-26]
+1282(324)
+	["C1908.blif" line: 592, columns:28-36]
+11 0
+.names
+1030(248)
+	["C1908.blif" line: 594, columns:8-16]
+1038(325)
+	["C1908.blif" line: 594, columns:18-26]
+1 0
+.names
+1040(249)
+	["C1908.blif" line: 596, columns:8-16]
+1048(326)
+	["C1908.blif" line: 596, columns:18-26]
+1 0
+.names
+1814(161)
+	["C1908.blif" line: 598, columns:8-16]
+1821(240)
+	["C1908.blif" line: 598, columns:18-26]
+1226(327)
+	["C1908.blif" line: 598, columns:28-36]
+11 0
+.names
+1050(163)
+	["C1908.blif" line: 600, columns:8-16]
+1057(239)
+	["C1908.blif" line: 600, columns:18-26]
+298(328)
+	["C1908.blif" line: 600, columns:28-35]
+11 0
+.names
+1654(258)
+	["C1908.blif" line: 602, columns:8-16]
+1661(255)
+	["C1908.blif" line: 602, columns:18-26]
+984(329)
+	["C1908.blif" line: 602, columns:28-35]
+11 0
+.names
+1662(259)
+	["C1908.blif" line: 604, columns:8-16]
+1669(256)
+	["C1908.blif" line: 604, columns:18-26]
+994(330)
+	["C1908.blif" line: 604, columns:28-35]
+11 0
+.names
+1654(258)
+	["C1908.blif" line: 606, columns:8-16]
+1660(331)
+	["C1908.blif" line: 606, columns:18-26]
+1 0
+.names
+1662(259)
+	["C1908.blif" line: 608, columns:8-16]
+1668(332)
+	["C1908.blif" line: 608, columns:18-26]
+1 0
+.names
+980(261)
+	["C1908.blif" line: 610, columns:8-15]
+988(333)
+	["C1908.blif" line: 610, columns:17-24]
+1 0
+.names
+990(262)
+	["C1908.blif" line: 612, columns:8-15]
+998(334)
+	["C1908.blif" line: 612, columns:17-24]
+1 0
+.names
+404(273)
+	["C1908.blif" line: 614, columns:8-15]
+405(304)
+	["C1908.blif" line: 614, columns:17-24]
+406(335)
+	["C1908.blif" line: 614, columns:26-33]
+11 0
+.names
+1426(274)
+	["C1908.blif" line: 616, columns:8-16]
+1432(336)
+	["C1908.blif" line: 616, columns:18-26]
+1 0
+.names
+1434(275)
+	["C1908.blif" line: 618, columns:8-16]
+1440(337)
+	["C1908.blif" line: 618, columns:18-26]
+1 0
+.names
+1247(291)
+	["C1908.blif" line: 620, columns:8-16]
+1248(278)
+	["C1908.blif" line: 620, columns:18-26]
+1249(338)
+	["C1908.blif" line: 620, columns:28-36]
+11 0
+.names
+1410(279)
+	["C1908.blif" line: 622, columns:8-16]
+1416(339)
+	["C1908.blif" line: 622, columns:18-26]
+1 0
+.names
+1418(280)
+	["C1908.blif" line: 624, columns:8-16]
+1424(340)
+	["C1908.blif" line: 624, columns:18-26]
+1 0
+.names
+1713(118)
+	["C1908.blif" line: 626, columns:8-16]
+1716(289)
+	["C1908.blif" line: 626, columns:18-26]
+1061(341)
+	["C1908.blif" line: 626, columns:28-36]
+11 0
+.names
+1721(119)
+	["C1908.blif" line: 628, columns:8-16]
+1724(290)
+	["C1908.blif" line: 628, columns:18-26]
+1071(342)
+	["C1908.blif" line: 628, columns:28-36]
+11 0
+.names
+1303(292)
+	["C1908.blif" line: 630, columns:8-16]
+1304(311)
+	["C1908.blif" line: 630, columns:18-26]
+1305(343)
+	["C1908.blif" line: 630, columns:28-36]
+11 0
+.names
+361(297)
+	["C1908.blif" line: 632, columns:8-15]
+362(315)
+	["C1908.blif" line: 632, columns:17-24]
+363(344)
+	["C1908.blif" line: 632, columns:26-33]
+11 0
+.names
+1745(130)
+	["C1908.blif" line: 634, columns:8-16]
+1748(305)
+	["C1908.blif" line: 634, columns:18-26]
+1103(345)
+	["C1908.blif" line: 634, columns:28-36]
+11 0
+.names
+1753(131)
+	["C1908.blif" line: 636, columns:8-16]
+1756(306)
+	["C1908.blif" line: 636, columns:18-26]
+1115(346)
+	["C1908.blif" line: 636, columns:28-36]
+11 0
+.names
+1315(312)
+	["C1908.blif" line: 638, columns:8-16]
+1316(321)
+	["C1908.blif" line: 638, columns:18-26]
+1317(347)
+	["C1908.blif" line: 638, columns:28-36]
+11 0
+.names
+1841(146)
+	["C1908.blif" line: 640, columns:8-16]
+1844(299)
+	["C1908.blif" line: 640, columns:18-26]
+1259(348)
+	["C1908.blif" line: 640, columns:28-36]
+11 0
+.names
+1849(147)
+	["C1908.blif" line: 642, columns:8-16]
+1852(301)
+	["C1908.blif" line: 642, columns:18-26]
+1271(349)
+	["C1908.blif" line: 642, columns:28-36]
+11 0
+.names
+297(316)
+	["C1908.blif" line: 644, columns:8-15]
+298(328)
+	["C1908.blif" line: 644, columns:17-24]
+268(350)
+	["C1908.blif" line: 644, columns:26-33]
+11 0
+.names
+1225(317)
+	["C1908.blif" line: 646, columns:8-16]
+1226(327)
+	["C1908.blif" line: 646, columns:18-26]
+1227(351)
+	["C1908.blif" line: 646, columns:28-36]
+11 0
+.names
+1281(318)
+	["C1908.blif" line: 648, columns:8-16]
+1282(324)
+	["C1908.blif" line: 648, columns:18-26]
+1283(352)
+	["C1908.blif" line: 648, columns:28-36]
+11 0
+.names
+1697(153)
+	["C1908.blif" line: 650, columns:8-16]
+1700(322)
+	["C1908.blif" line: 650, columns:18-26]
+1033(353)
+	["C1908.blif" line: 650, columns:28-36]
+11 0
+.names
+1705(154)
+	["C1908.blif" line: 652, columns:8-16]
+1708(323)
+	["C1908.blif" line: 652, columns:18-26]
+1043(354)
+	["C1908.blif" line: 652, columns:28-36]
+11 0
+.names
+1785(164)
+	["C1908.blif" line: 654, columns:8-16]
+1788(294)
+	["C1908.blif" line: 654, columns:18-26]
+1157(355)
+	["C1908.blif" line: 654, columns:28-36]
+11 0
+.names
+1793(165)
+	["C1908.blif" line: 656, columns:8-16]
+1796(296)
+	["C1908.blif" line: 656, columns:18-26]
+1169(356)
+	["C1908.blif" line: 656, columns:28-36]
+11 0
+.names
+1657(168)
+	["C1908.blif" line: 658, columns:8-16]
+1660(331)
+	["C1908.blif" line: 658, columns:18-26]
+983(357)
+	["C1908.blif" line: 658, columns:28-35]
+11 0
+.names
+1665(169)
+	["C1908.blif" line: 660, columns:8-16]
+1668(332)
+	["C1908.blif" line: 660, columns:18-26]
+993(358)
+	["C1908.blif" line: 660, columns:28-35]
+11 0
+.names
+1197(176)
+	["C1908.blif" line: 662, columns:8-16]
+1200(281)
+	["C1908.blif" line: 662, columns:18-26]
+1202(359)
+	["C1908.blif" line: 662, columns:28-36]
+11 0
+.names
+1207(177)
+	["C1908.blif" line: 664, columns:8-16]
+1210(284)
+	["C1908.blif" line: 664, columns:18-26]
+372(360)
+	["C1908.blif" line: 664, columns:28-35]
+11 0
+.names
+406(335)
+	["C1908.blif" line: 666, columns:8-15]
+1322(361)
+	["C1908.blif" line: 666, columns:17-25]
+1 0
+.names
+1249(338)
+	["C1908.blif" line: 668, columns:8-16]
+1253(362)
+	["C1908.blif" line: 668, columns:18-26]
+1 0
+.names
+1202(359)
+	["C1908.blif" line: 670, columns:8-16]
+1203(282)
+	["C1908.blif" line: 670, columns:18-26]
+1212(363)
+	["C1908.blif" line: 670, columns:28-36]
+11 0
+.names
+372(360)
+	["C1908.blif" line: 672, columns:8-15]
+373(283)
+	["C1908.blif" line: 672, columns:17-24]
+374(364)
+	["C1908.blif" line: 672, columns:26-33]
+11 0
+.names
+1061(341)
+	["C1908.blif" line: 674, columns:8-16]
+1062(285)
+	["C1908.blif" line: 674, columns:18-26]
+1063(365)
+	["C1908.blif" line: 674, columns:28-36]
+11 0
+.names
+1071(342)
+	["C1908.blif" line: 676, columns:8-16]
+1072(286)
+	["C1908.blif" line: 676, columns:18-26]
+1073(366)
+	["C1908.blif" line: 676, columns:28-36]
+11 0
+.names
+1305(343)
+	["C1908.blif" line: 678, columns:8-16]
+1309(367)
+	["C1908.blif" line: 678, columns:18-26]
+1 0
+.names
+1157(355)
+	["C1908.blif" line: 680, columns:8-16]
+1158(293)
+	["C1908.blif" line: 680, columns:18-26]
+1159(368)
+	["C1908.blif" line: 680, columns:28-36]
+11 0
+.names
+1169(356)
+	["C1908.blif" line: 682, columns:8-16]
+1170(295)
+	["C1908.blif" line: 682, columns:18-26]
+1171(369)
+	["C1908.blif" line: 682, columns:28-36]
+11 0
+.names
+363(344)
+	["C1908.blif" line: 684, columns:8-15]
+1184(370)
+	["C1908.blif" line: 684, columns:17-25]
+1 0
+.names
+1259(348)
+	["C1908.blif" line: 686, columns:8-16]
+1260(298)
+	["C1908.blif" line: 686, columns:18-26]
+1261(371)
+	["C1908.blif" line: 686, columns:28-36]
+11 0
+.names
+1271(349)
+	["C1908.blif" line: 688, columns:8-16]
+1272(300)
+	["C1908.blif" line: 688, columns:18-26]
+1273(372)
+	["C1908.blif" line: 688, columns:28-36]
+11 0
+.names
+1103(345)
+	["C1908.blif" line: 690, columns:8-16]
+1104(302)
+	["C1908.blif" line: 690, columns:18-26]
+1105(373)
+	["C1908.blif" line: 690, columns:28-36]
+11 0
+.names
+1115(346)
+	["C1908.blif" line: 692, columns:8-16]
+1116(303)
+	["C1908.blif" line: 692, columns:18-26]
+1117(374)
+	["C1908.blif" line: 692, columns:28-36]
+11 0
+.names
+1305(343)
+	["C1908.blif" line: 694, columns:8-16]
+1308(226)
+	["C1908.blif" line: 694, columns:18-26]
+1310(375)
+	["C1908.blif" line: 694, columns:28-36]
+11 0
+.names
+1249(338)
+	["C1908.blif" line: 696, columns:8-16]
+1252(229)
+	["C1908.blif" line: 696, columns:18-26]
+1254(376)
+	["C1908.blif" line: 696, columns:28-36]
+11 0
+.names
+1317(347)
+	["C1908.blif" line: 698, columns:8-16]
+1321(377)
+	["C1908.blif" line: 698, columns:18-26]
+1 0
+.names
+268(350)
+	["C1908.blif" line: 700, columns:8-15]
+269(378)
+	["C1908.blif" line: 700, columns:17-24]
+1 0
+.names
+1227(351)
+	["C1908.blif" line: 702, columns:8-16]
+1231(379)
+	["C1908.blif" line: 702, columns:18-26]
+1 0
+.names
+1283(352)
+	["C1908.blif" line: 704, columns:8-16]
+1287(380)
+	["C1908.blif" line: 704, columns:18-26]
+1 0
+.names
+1033(353)
+	["C1908.blif" line: 706, columns:8-16]
+1034(319)
+	["C1908.blif" line: 706, columns:18-26]
+1035(381)
+	["C1908.blif" line: 706, columns:28-36]
+11 0
+.names
+1043(354)
+	["C1908.blif" line: 708, columns:8-16]
+1044(320)
+	["C1908.blif" line: 708, columns:18-26]
+1045(382)
+	["C1908.blif" line: 708, columns:28-36]
+11 0
+.names
+1317(347)
+	["C1908.blif" line: 710, columns:8-16]
+1320(254)
+	["C1908.blif" line: 710, columns:18-26]
+396(383)
+	["C1908.blif" line: 710, columns:28-35]
+11 0
+.names
+983(357)
+	["C1908.blif" line: 712, columns:8-15]
+984(329)
+	["C1908.blif" line: 712, columns:17-24]
+985(384)
+	["C1908.blif" line: 712, columns:26-33]
+11 0
+.names
+993(358)
+	["C1908.blif" line: 714, columns:8-15]
+994(330)
+	["C1908.blif" line: 714, columns:17-24]
+995(385)
+	["C1908.blif" line: 714, columns:26-33]
+11 0
+.names
+1283(352)
+	["C1908.blif" line: 716, columns:8-16]
+1286(257)
+	["C1908.blif" line: 716, columns:18-26]
+1288(386)
+	["C1908.blif" line: 716, columns:28-36]
+11 0
+.names
+1227(351)
+	["C1908.blif" line: 718, columns:8-16]
+1230(260)
+	["C1908.blif" line: 718, columns:18-26]
+1232(387)
+	["C1908.blif" line: 718, columns:28-36]
+11 0
+.names
+1159(368)
+	["C1908.blif" line: 720, columns:8-16]
+1162(267)
+	["C1908.blif" line: 720, columns:18-26]
+1164(388)
+	["C1908.blif" line: 720, columns:28-36]
+11 0
+.names
+1171(369)
+	["C1908.blif" line: 722, columns:8-16]
+1174(268)
+	["C1908.blif" line: 722, columns:18-26]
+358(389)
+	["C1908.blif" line: 722, columns:28-35]
+11 0
+.names
+1322(361)
+	["C1908.blif" line: 724, columns:8-16]
+1330(390)
+	["C1908.blif" line: 724, columns:18-26]
+1 0
+.names
+1212(363)
+	["C1908.blif" line: 726, columns:8-16]
+1220(391)
+	["C1908.blif" line: 726, columns:18-26]
+1 0
+.names
+374(364)
+	["C1908.blif" line: 728, columns:8-15]
+1381(392)
+	["C1908.blif" line: 728, columns:17-25]
+1 0
+.names
+1063(365)
+	["C1908.blif" line: 730, columns:8-16]
+1067(393)
+	["C1908.blif" line: 730, columns:18-26]
+1 0
+.names
+1073(366)
+	["C1908.blif" line: 732, columns:8-16]
+1077(394)
+	["C1908.blif" line: 732, columns:18-26]
+1 0
+.names
+1261(371)
+	["C1908.blif" line: 734, columns:8-16]
+1264(287)
+	["C1908.blif" line: 734, columns:18-26]
+1266(395)
+	["C1908.blif" line: 734, columns:28-36]
+11 0
+.names
+1273(372)
+	["C1908.blif" line: 736, columns:8-16]
+1276(288)
+	["C1908.blif" line: 736, columns:18-26]
+388(396)
+	["C1908.blif" line: 736, columns:28-35]
+11 0
+.names
+1159(368)
+	["C1908.blif" line: 738, columns:8-16]
+1163(397)
+	["C1908.blif" line: 738, columns:18-26]
+1 0
+.names
+1171(369)
+	["C1908.blif" line: 740, columns:8-16]
+1175(398)
+	["C1908.blif" line: 740, columns:18-26]
+1 0
+.names
+1184(370)
+	["C1908.blif" line: 742, columns:8-16]
+1192(399)
+	["C1908.blif" line: 742, columns:18-26]
+1 0
+.names
+1261(371)
+	["C1908.blif" line: 744, columns:8-16]
+1265(400)
+	["C1908.blif" line: 744, columns:18-26]
+1 0
+.names
+1273(372)
+	["C1908.blif" line: 746, columns:8-16]
+1277(401)
+	["C1908.blif" line: 746, columns:18-26]
+1 0
+.names
+1105(373)
+	["C1908.blif" line: 748, columns:8-16]
+1109(402)
+	["C1908.blif" line: 748, columns:18-26]
+1 0
+.names
+1117(374)
+	["C1908.blif" line: 750, columns:8-16]
+1121(403)
+	["C1908.blif" line: 750, columns:18-26]
+1 0
+.names
+1300(135)
+	["C1908.blif" line: 752, columns:8-16]
+1309(367)
+	["C1908.blif" line: 752, columns:18-26]
+1311(404)
+	["C1908.blif" line: 752, columns:28-36]
+11 0
+.names
+1105(373)
+	["C1908.blif" line: 754, columns:8-16]
+1108(307)
+	["C1908.blif" line: 754, columns:18-26]
+1110(405)
+	["C1908.blif" line: 754, columns:28-36]
+11 0
+.names
+1117(374)
+	["C1908.blif" line: 756, columns:8-16]
+1120(308)
+	["C1908.blif" line: 756, columns:18-26]
+333(406)
+	["C1908.blif" line: 756, columns:28-35]
+11 0
+.names
+1244(138)
+	["C1908.blif" line: 758, columns:8-16]
+1253(362)
+	["C1908.blif" line: 758, columns:18-26]
+1255(407)
+	["C1908.blif" line: 758, columns:28-36]
+11 0
+.names
+1063(365)
+	["C1908.blif" line: 760, columns:8-16]
+1066(309)
+	["C1908.blif" line: 760, columns:18-26]
+308(408)
+	["C1908.blif" line: 760, columns:28-35]
+11 0
+.names
+1073(366)
+	["C1908.blif" line: 762, columns:8-16]
+1076(310)
+	["C1908.blif" line: 762, columns:18-26]
+305(409)
+	["C1908.blif" line: 762, columns:28-35]
+11 0
+.names
+269(378)
+	["C1908.blif" line: 764, columns:8-15]
+1000(410)
+	["C1908.blif" line: 764, columns:17-25]
+1 1
+.names
+269(378)
+	["C1908.blif" line: 766, columns:8-15]
+1010(411)
+	["C1908.blif" line: 766, columns:17-25]
+1 1
+.names
+1035(381)
+	["C1908.blif" line: 768, columns:8-16]
+1039(412)
+	["C1908.blif" line: 768, columns:18-26]
+1 0
+.names
+1045(382)
+	["C1908.blif" line: 770, columns:8-16]
+1049(413)
+	["C1908.blif" line: 770, columns:18-26]
+1 0
+.names
+1035(381)
+	["C1908.blif" line: 772, columns:8-16]
+1038(325)
+	["C1908.blif" line: 772, columns:18-26]
+272(414)
+	["C1908.blif" line: 772, columns:28-35]
+11 0
+.names
+1045(382)
+	["C1908.blif" line: 774, columns:8-16]
+1048(326)
+	["C1908.blif" line: 774, columns:18-26]
+294(415)
+	["C1908.blif" line: 774, columns:28-35]
+11 0
+.names
+1312(166)
+	["C1908.blif" line: 776, columns:8-16]
+1321(377)
+	["C1908.blif" line: 776, columns:18-26]
+397(416)
+	["C1908.blif" line: 776, columns:28-35]
+11 0
+.names
+985(384)
+	["C1908.blif" line: 778, columns:8-15]
+989(417)
+	["C1908.blif" line: 778, columns:17-24]
+1 0
+.names
+995(385)
+	["C1908.blif" line: 780, columns:8-15]
+999(418)
+	["C1908.blif" line: 780, columns:17-24]
+1 0
+.names
+1278(170)
+	["C1908.blif" line: 782, columns:8-16]
+1287(380)
+	["C1908.blif" line: 782, columns:18-26]
+1289(419)
+	["C1908.blif" line: 782, columns:28-36]
+11 0
+.names
+1222(173)
+	["C1908.blif" line: 784, columns:8-16]
+1231(379)
+	["C1908.blif" line: 784, columns:18-26]
+1233(420)
+	["C1908.blif" line: 784, columns:28-36]
+11 0
+.names
+985(384)
+	["C1908.blif" line: 786, columns:8-15]
+988(333)
+	["C1908.blif" line: 786, columns:17-24]
+260(421)
+	["C1908.blif" line: 786, columns:26-33]
+11 0
+.names
+995(385)
+	["C1908.blif" line: 788, columns:8-15]
+998(334)
+	["C1908.blif" line: 788, columns:17-24]
+257(422)
+	["C1908.blif" line: 788, columns:26-33]
+11 0
+.names
+1154(193)
+	["C1908.blif" line: 790, columns:8-16]
+1163(397)
+	["C1908.blif" line: 790, columns:18-26]
+1165(423)
+	["C1908.blif" line: 790, columns:28-36]
+11 0
+.names
+1166(194)
+	["C1908.blif" line: 792, columns:8-16]
+1175(398)
+	["C1908.blif" line: 792, columns:18-26]
+359(424)
+	["C1908.blif" line: 792, columns:28-35]
+11 0
+.names
+1381(392)
+	["C1908.blif" line: 794, columns:8-16]
+1385(425)
+	["C1908.blif" line: 794, columns:18-26]
+1 0
+.names
+1256(210)
+	["C1908.blif" line: 796, columns:8-16]
+1265(400)
+	["C1908.blif" line: 796, columns:18-26]
+1267(426)
+	["C1908.blif" line: 796, columns:28-36]
+11 0
+.names
+1268(211)
+	["C1908.blif" line: 798, columns:8-16]
+1277(401)
+	["C1908.blif" line: 798, columns:18-26]
+389(427)
+	["C1908.blif" line: 798, columns:28-35]
+11 0
+.names
+1310(375)
+	["C1908.blif" line: 800, columns:8-16]
+1311(404)
+	["C1908.blif" line: 800, columns:18-26]
+1862(428)
+	["C1908.blif" line: 800, columns:28-36]
+11 0
+.names
+1100(227)
+	["C1908.blif" line: 802, columns:8-16]
+1109(402)
+	["C1908.blif" line: 802, columns:18-26]
+1111(429)
+	["C1908.blif" line: 802, columns:28-36]
+11 0
+.names
+1112(228)
+	["C1908.blif" line: 804, columns:8-16]
+1121(403)
+	["C1908.blif" line: 804, columns:18-26]
+334(430)
+	["C1908.blif" line: 804, columns:28-35]
+11 0
+.names
+1254(376)
+	["C1908.blif" line: 806, columns:8-16]
+1255(407)
+	["C1908.blif" line: 806, columns:18-26]
+1822(431)
+	["C1908.blif" line: 806, columns:28-36]
+11 0
+.names
+1058(230)
+	["C1908.blif" line: 808, columns:8-16]
+1067(393)
+	["C1908.blif" line: 808, columns:18-26]
+309(432)
+	["C1908.blif" line: 808, columns:28-35]
+11 0
+.names
+1068(231)
+	["C1908.blif" line: 810, columns:8-16]
+1077(394)
+	["C1908.blif" line: 810, columns:18-26]
+306(433)
+	["C1908.blif" line: 810, columns:28-35]
+11 0
+.names
+1000(410)
+	["C1908.blif" line: 812, columns:8-16]
+1008(434)
+	["C1908.blif" line: 812, columns:18-26]
+1 0
+.names
+1010(411)
+	["C1908.blif" line: 814, columns:8-16]
+1018(435)
+	["C1908.blif" line: 814, columns:18-26]
+1 0
+.names
+1030(248)
+	["C1908.blif" line: 816, columns:8-16]
+1039(412)
+	["C1908.blif" line: 816, columns:18-26]
+273(436)
+	["C1908.blif" line: 816, columns:28-35]
+11 0
+.names
+1040(249)
+	["C1908.blif" line: 818, columns:8-16]
+1049(413)
+	["C1908.blif" line: 818, columns:18-26]
+295(437)
+	["C1908.blif" line: 818, columns:28-35]
+11 0
+.names
+396(383)
+	["C1908.blif" line: 820, columns:8-15]
+397(416)
+	["C1908.blif" line: 820, columns:17-24]
+398(438)
+	["C1908.blif" line: 820, columns:26-33]
+11 0
+.names
+1288(386)
+	["C1908.blif" line: 822, columns:8-16]
+1289(419)
+	["C1908.blif" line: 822, columns:18-26]
+1865(439)
+	["C1908.blif" line: 822, columns:28-36]
+11 0
+.names
+1232(387)
+	["C1908.blif" line: 824, columns:8-16]
+1233(420)
+	["C1908.blif" line: 824, columns:18-26]
+1234(440)
+	["C1908.blif" line: 824, columns:28-36]
+11 0
+.names
+980(261)
+	["C1908.blif" line: 826, columns:8-15]
+989(417)
+	["C1908.blif" line: 826, columns:17-24]
+261(441)
+	["C1908.blif" line: 826, columns:26-33]
+11 0
+.names
+990(262)
+	["C1908.blif" line: 828, columns:8-15]
+999(418)
+	["C1908.blif" line: 828, columns:17-24]
+258(442)
+	["C1908.blif" line: 828, columns:26-33]
+11 0
+.names
+1164(388)
+	["C1908.blif" line: 830, columns:8-16]
+1165(423)
+	["C1908.blif" line: 830, columns:18-26]
+1373(443)
+	["C1908.blif" line: 830, columns:28-36]
+11 0
+.names
+358(389)
+	["C1908.blif" line: 832, columns:8-15]
+359(424)
+	["C1908.blif" line: 832, columns:17-24]
+360(444)
+	["C1908.blif" line: 832, columns:26-33]
+11 0
+.names
+1266(395)
+	["C1908.blif" line: 834, columns:8-16]
+1267(426)
+	["C1908.blif" line: 834, columns:18-26]
+1825(445)
+	["C1908.blif" line: 834, columns:28-36]
+11 0
+.names
+388(396)
+	["C1908.blif" line: 836, columns:8-15]
+389(427)
+	["C1908.blif" line: 836, columns:17-24]
+390(446)
+	["C1908.blif" line: 836, columns:26-33]
+11 0
+.names
+1862(428)
+	["C1908.blif" line: 838, columns:8-16]
+1868(447)
+	["C1908.blif" line: 838, columns:18-26]
+1 0
+.names
+1110(405)
+	["C1908.blif" line: 840, columns:8-16]
+1111(429)
+	["C1908.blif" line: 840, columns:18-26]
+1798(448)
+	["C1908.blif" line: 840, columns:28-36]
+11 0
+.names
+333(406)
+	["C1908.blif" line: 842, columns:8-15]
+334(430)
+	["C1908.blif" line: 842, columns:17-24]
+335(449)
+	["C1908.blif" line: 842, columns:26-33]
+11 0
+.names
+1822(431)
+	["C1908.blif" line: 844, columns:8-16]
+1828(450)
+	["C1908.blif" line: 844, columns:18-26]
+1 0
+.names
+308(408)
+	["C1908.blif" line: 846, columns:8-15]
+309(432)
+	["C1908.blif" line: 846, columns:17-24]
+310(451)
+	["C1908.blif" line: 846, columns:26-33]
+11 0
+.names
+305(409)
+	["C1908.blif" line: 848, columns:8-15]
+306(433)
+	["C1908.blif" line: 848, columns:17-24]
+307(452)
+	["C1908.blif" line: 848, columns:26-33]
+11 0
+.names
+272(414)
+	["C1908.blif" line: 850, columns:8-15]
+273(436)
+	["C1908.blif" line: 850, columns:17-24]
+274(453)
+	["C1908.blif" line: 850, columns:26-33]
+11 0
+.names
+294(415)
+	["C1908.blif" line: 852, columns:8-15]
+295(437)
+	["C1908.blif" line: 852, columns:17-24]
+296(454)
+	["C1908.blif" line: 852, columns:26-33]
+11 0
+.names
+398(438)
+	["C1908.blif" line: 854, columns:8-15]
+1886(455)
+	["C1908.blif" line: 854, columns:17-25]
+1 0
+.names
+1865(439)
+	["C1908.blif" line: 856, columns:8-16]
+1869(456)
+	["C1908.blif" line: 856, columns:18-26]
+1 0
+.names
+1234(440)
+	["C1908.blif" line: 858, columns:8-16]
+1242(457)
+	["C1908.blif" line: 858, columns:18-26]
+1 0
+.names
+260(421)
+	["C1908.blif" line: 860, columns:8-15]
+261(441)
+	["C1908.blif" line: 860, columns:17-24]
+262(458)
+	["C1908.blif" line: 860, columns:26-33]
+11 0
+.names
+257(422)
+	["C1908.blif" line: 862, columns:8-15]
+258(442)
+	["C1908.blif" line: 862, columns:17-24]
+259(459)
+	["C1908.blif" line: 862, columns:26-33]
+11 0
+.names
+1373(443)
+	["C1908.blif" line: 864, columns:8-16]
+1377(460)
+	["C1908.blif" line: 864, columns:18-26]
+1 0
+.names
+360(444)
+	["C1908.blif" line: 866, columns:8-15]
+1777(461)
+	["C1908.blif" line: 866, columns:17-25]
+1 0
+.names
+1825(445)
+	["C1908.blif" line: 868, columns:8-16]
+1828(450)
+	["C1908.blif" line: 868, columns:18-26]
+1237(462)
+	["C1908.blif" line: 868, columns:28-36]
+11 0
+.names
+1825(445)
+	["C1908.blif" line: 870, columns:8-16]
+1829(463)
+	["C1908.blif" line: 870, columns:18-26]
+1 0
+.names
+390(446)
+	["C1908.blif" line: 872, columns:8-15]
+1889(464)
+	["C1908.blif" line: 872, columns:17-25]
+1 0
+.names
+1862(428)
+	["C1908.blif" line: 874, columns:8-16]
+1869(456)
+	["C1908.blif" line: 874, columns:18-26]
+1294(465)
+	["C1908.blif" line: 874, columns:28-36]
+11 0
+.names
+1798(448)
+	["C1908.blif" line: 876, columns:8-16]
+1804(466)
+	["C1908.blif" line: 876, columns:18-26]
+1 0
+.names
+335(449)
+	["C1908.blif" line: 878, columns:8-15]
+336(467)
+	["C1908.blif" line: 878, columns:17-24]
+1 0
+.names
+310(451)
+	["C1908.blif" line: 880, columns:8-15]
+1729(468)
+	["C1908.blif" line: 880, columns:17-25]
+1 1
+.names
+310(451)
+	["C1908.blif" line: 882, columns:8-15]
+1737(469)
+	["C1908.blif" line: 882, columns:17-25]
+1 1
+.names
+310(451)
+	["C1908.blif" line: 884, columns:8-15]
+410(470)
+	["C1908.blif" line: 884, columns:17-24]
+1 1
+.names
+307(452)
+	["C1908.blif" line: 886, columns:8-15]
+314(471)
+	["C1908.blif" line: 886, columns:17-24]
+1 0
+.names
+274(453)
+	["C1908.blif" line: 888, columns:8-15]
+1670(472)
+	["C1908.blif" line: 888, columns:17-25]
+1 1
+.names
+274(453)
+	["C1908.blif" line: 890, columns:8-15]
+1678(473)
+	["C1908.blif" line: 890, columns:17-25]
+1 1
+.names
+296(454)
+	["C1908.blif" line: 892, columns:8-15]
+407(474)
+	["C1908.blif" line: 892, columns:17-24]
+1 0
+.names
+1886(455)
+	["C1908.blif" line: 894, columns:8-16]
+1892(475)
+	["C1908.blif" line: 894, columns:18-26]
+1 0
+.names
+1865(439)
+	["C1908.blif" line: 896, columns:8-16]
+1868(447)
+	["C1908.blif" line: 896, columns:18-26]
+1293(476)
+	["C1908.blif" line: 896, columns:28-36]
+11 0
+.names
+262(458)
+	["C1908.blif" line: 898, columns:8-15]
+1761(477)
+	["C1908.blif" line: 898, columns:17-25]
+1 1
+.names
+262(458)
+	["C1908.blif" line: 900, columns:8-15]
+1769(478)
+	["C1908.blif" line: 900, columns:17-25]
+1 1
+.names
+259(459)
+	["C1908.blif" line: 902, columns:8-15]
+265(479)
+	["C1908.blif" line: 902, columns:17-24]
+1 0
+.names
+1777(461)
+	["C1908.blif" line: 904, columns:8-16]
+1781(480)
+	["C1908.blif" line: 904, columns:18-26]
+1 0
+.names
+1889(464)
+	["C1908.blif" line: 906, columns:8-16]
+1892(475)
+	["C1908.blif" line: 906, columns:18-26]
+1325(481)
+	["C1908.blif" line: 906, columns:28-36]
+11 0
+.names
+1889(464)
+	["C1908.blif" line: 908, columns:8-16]
+1893(482)
+	["C1908.blif" line: 908, columns:18-26]
+1 0
+.names
+1293(476)
+	["C1908.blif" line: 910, columns:8-16]
+1294(465)
+	["C1908.blif" line: 910, columns:18-26]
+1295(483)
+	["C1908.blif" line: 910, columns:28-36]
+11 0
+.names
+336(467)
+	["C1908.blif" line: 912, columns:8-15]
+340(484)
+	["C1908.blif" line: 912, columns:17-24]
+1 1
+.names
+336(467)
+	["C1908.blif" line: 914, columns:8-15]
+1897(485)
+	["C1908.blif" line: 914, columns:17-25]
+1 1
+.names
+336(467)
+	["C1908.blif" line: 916, columns:8-15]
+1905(486)
+	["C1908.blif" line: 916, columns:17-25]
+1 1
+.names
+1822(431)
+	["C1908.blif" line: 918, columns:8-16]
+1829(463)
+	["C1908.blif" line: 918, columns:18-26]
+1238(487)
+	["C1908.blif" line: 918, columns:28-36]
+11 0
+.names
+1729(468)
+	["C1908.blif" line: 920, columns:8-16]
+1733(488)
+	["C1908.blif" line: 920, columns:18-26]
+1 0
+.names
+1737(469)
+	["C1908.blif" line: 922, columns:8-16]
+1741(489)
+	["C1908.blif" line: 922, columns:18-26]
+1 0
+.names
+410(470)
+	["C1908.blif" line: 924, columns:8-15]
+1894(490)
+	["C1908.blif" line: 924, columns:17-25]
+1 1
+.names
+410(470)
+	["C1908.blif" line: 926, columns:8-15]
+1902(491)
+	["C1908.blif" line: 926, columns:17-25]
+1 1
+.names
+314(471)
+	["C1908.blif" line: 928, columns:8-15]
+343(492)
+	["C1908.blif" line: 928, columns:17-24]
+1 1
+.names
+314(471)
+	["C1908.blif" line: 930, columns:8-15]
+1801(493)
+	["C1908.blif" line: 930, columns:17-25]
+1 1
+.names
+1729(468)
+	["C1908.blif" line: 932, columns:8-16]
+1732(313)
+	["C1908.blif" line: 932, columns:18-26]
+1081(494)
+	["C1908.blif" line: 932, columns:28-36]
+11 0
+.names
+1737(469)
+	["C1908.blif" line: 934, columns:8-16]
+1740(314)
+	["C1908.blif" line: 934, columns:18-26]
+1093(495)
+	["C1908.blif" line: 934, columns:28-36]
+11 0
+.names
+1670(472)
+	["C1908.blif" line: 936, columns:8-16]
+1676(496)
+	["C1908.blif" line: 936, columns:18-26]
+1 0
+.names
+1678(473)
+	["C1908.blif" line: 938, columns:8-16]
+1684(497)
+	["C1908.blif" line: 938, columns:18-26]
+1 0
+.names
+407(474)
+	["C1908.blif" line: 940, columns:8-15]
+1340(498)
+	["C1908.blif" line: 940, columns:17-25]
+1 1
+.names
+407(474)
+	["C1908.blif" line: 942, columns:8-15]
+1352(499)
+	["C1908.blif" line: 942, columns:17-25]
+1 1
+.names
+1761(477)
+	["C1908.blif" line: 944, columns:8-16]
+1765(500)
+	["C1908.blif" line: 944, columns:18-26]
+1 0
+.names
+1769(478)
+	["C1908.blif" line: 946, columns:8-16]
+1773(501)
+	["C1908.blif" line: 946, columns:18-26]
+1 0
+.names
+265(479)
+	["C1908.blif" line: 948, columns:8-15]
+1673(502)
+	["C1908.blif" line: 948, columns:17-25]
+1 1
+.names
+265(479)
+	["C1908.blif" line: 950, columns:8-15]
+1681(503)
+	["C1908.blif" line: 950, columns:17-25]
+1 1
+.names
+1295(483)
+	["C1908.blif" line: 952, columns:8-16]
+1298(201)
+	["C1908.blif" line: 952, columns:18-26]
+391(504)
+	["C1908.blif" line: 952, columns:28-35]
+11 0
+.names
+1237(462)
+	["C1908.blif" line: 954, columns:8-16]
+1238(487)
+	["C1908.blif" line: 954, columns:18-26]
+1239(505)
+	["C1908.blif" line: 954, columns:28-36]
+11 0
+.names
+1295(483)
+	["C1908.blif" line: 956, columns:8-16]
+1299(506)
+	["C1908.blif" line: 956, columns:18-26]
+1 0
+.names
+1801(493)
+	["C1908.blif" line: 958, columns:8-16]
+1804(466)
+	["C1908.blif" line: 958, columns:18-26]
+1187(507)
+	["C1908.blif" line: 958, columns:28-36]
+11 0
+.names
+340(484)
+	["C1908.blif" line: 960, columns:8-15]
+1122(508)
+	["C1908.blif" line: 960, columns:17-25]
+1 1
+.names
+340(484)
+	["C1908.blif" line: 962, columns:8-15]
+1134(509)
+	["C1908.blif" line: 962, columns:17-25]
+1 1
+.names
+1897(485)
+	["C1908.blif" line: 964, columns:8-16]
+1901(510)
+	["C1908.blif" line: 964, columns:18-26]
+1 0
+.names
+1905(486)
+	["C1908.blif" line: 966, columns:8-16]
+1909(511)
+	["C1908.blif" line: 966, columns:18-26]
+1 0
+.names
+1894(490)
+	["C1908.blif" line: 968, columns:8-16]
+1900(512)
+	["C1908.blif" line: 968, columns:18-26]
+1 0
+.names
+1902(491)
+	["C1908.blif" line: 970, columns:8-16]
+1908(513)
+	["C1908.blif" line: 970, columns:18-26]
+1 0
+.names
+343(492)
+	["C1908.blif" line: 972, columns:8-15]
+1758(514)
+	["C1908.blif" line: 972, columns:17-25]
+1 1
+.names
+343(492)
+	["C1908.blif" line: 974, columns:8-15]
+1766(515)
+	["C1908.blif" line: 974, columns:17-25]
+1 1
+.names
+1801(493)
+	["C1908.blif" line: 976, columns:8-16]
+1805(516)
+	["C1908.blif" line: 976, columns:18-26]
+1 0
+.names
+1726(234)
+	["C1908.blif" line: 978, columns:8-16]
+1733(488)
+	["C1908.blif" line: 978, columns:18-26]
+1082(517)
+	["C1908.blif" line: 978, columns:28-36]
+11 0
+.names
+1734(235)
+	["C1908.blif" line: 980, columns:8-16]
+1741(489)
+	["C1908.blif" line: 980, columns:18-26]
+1094(518)
+	["C1908.blif" line: 980, columns:28-36]
+11 0
+.names
+1673(502)
+	["C1908.blif" line: 982, columns:8-16]
+1676(496)
+	["C1908.blif" line: 982, columns:18-26]
+1003(519)
+	["C1908.blif" line: 982, columns:28-36]
+11 0
+.names
+1681(503)
+	["C1908.blif" line: 984, columns:8-16]
+1684(497)
+	["C1908.blif" line: 984, columns:18-26]
+1013(520)
+	["C1908.blif" line: 984, columns:28-36]
+11 0
+.names
+1340(498)
+	["C1908.blif" line: 986, columns:8-16]
+1348(521)
+	["C1908.blif" line: 986, columns:18-26]
+1 0
+.names
+1352(499)
+	["C1908.blif" line: 988, columns:8-16]
+1360(522)
+	["C1908.blif" line: 988, columns:18-26]
+1 0
+.names
+1886(455)
+	["C1908.blif" line: 990, columns:8-16]
+1893(482)
+	["C1908.blif" line: 990, columns:18-26]
+1326(523)
+	["C1908.blif" line: 990, columns:28-36]
+11 0
+.names
+1673(502)
+	["C1908.blif" line: 992, columns:8-16]
+1677(524)
+	["C1908.blif" line: 992, columns:18-26]
+1 0
+.names
+1681(503)
+	["C1908.blif" line: 994, columns:8-16]
+1685(525)
+	["C1908.blif" line: 994, columns:18-26]
+1 0
+.names
+1290(115)
+	["C1908.blif" line: 996, columns:8-16]
+1299(506)
+	["C1908.blif" line: 996, columns:18-26]
+392(526)
+	["C1908.blif" line: 996, columns:28-35]
+11 0
+.names
+1239(505)
+	["C1908.blif" line: 998, columns:8-16]
+1243(527)
+	["C1908.blif" line: 998, columns:18-26]
+1 0
+.names
+1325(481)
+	["C1908.blif" line: 1000, columns:8-16]
+1326(523)
+	["C1908.blif" line: 1000, columns:18-26]
+1327(528)
+	["C1908.blif" line: 1000, columns:28-36]
+11 0
+.names
+1798(448)
+	["C1908.blif" line: 1002, columns:8-16]
+1805(516)
+	["C1908.blif" line: 1002, columns:18-26]
+1188(529)
+	["C1908.blif" line: 1002, columns:28-36]
+11 0
+.names
+1122(508)
+	["C1908.blif" line: 1004, columns:8-16]
+1130(530)
+	["C1908.blif" line: 1004, columns:18-26]
+1 0
+.names
+1134(509)
+	["C1908.blif" line: 1006, columns:8-16]
+1142(531)
+	["C1908.blif" line: 1006, columns:18-26]
+1 0
+.names
+1897(485)
+	["C1908.blif" line: 1008, columns:8-16]
+1900(512)
+	["C1908.blif" line: 1008, columns:18-26]
+1343(532)
+	["C1908.blif" line: 1008, columns:28-36]
+11 0
+.names
+1905(486)
+	["C1908.blif" line: 1010, columns:8-16]
+1908(513)
+	["C1908.blif" line: 1010, columns:18-26]
+1355(533)
+	["C1908.blif" line: 1010, columns:28-36]
+11 0
+.names
+1894(490)
+	["C1908.blif" line: 1012, columns:8-16]
+1901(510)
+	["C1908.blif" line: 1012, columns:18-26]
+1344(534)
+	["C1908.blif" line: 1012, columns:28-36]
+11 0
+.names
+1902(491)
+	["C1908.blif" line: 1014, columns:8-16]
+1909(511)
+	["C1908.blif" line: 1014, columns:18-26]
+1356(535)
+	["C1908.blif" line: 1014, columns:28-36]
+11 0
+.names
+1758(514)
+	["C1908.blif" line: 1016, columns:8-16]
+1764(536)
+	["C1908.blif" line: 1016, columns:18-26]
+1 0
+.names
+1766(515)
+	["C1908.blif" line: 1018, columns:8-16]
+1772(537)
+	["C1908.blif" line: 1018, columns:18-26]
+1 0
+.names
+1081(494)
+	["C1908.blif" line: 1020, columns:8-16]
+1082(517)
+	["C1908.blif" line: 1020, columns:18-26]
+1083(538)
+	["C1908.blif" line: 1020, columns:28-36]
+11 0
+.names
+1093(495)
+	["C1908.blif" line: 1022, columns:8-16]
+1094(518)
+	["C1908.blif" line: 1022, columns:18-26]
+1095(539)
+	["C1908.blif" line: 1022, columns:28-36]
+11 0
+.names
+1670(472)
+	["C1908.blif" line: 1024, columns:8-16]
+1677(524)
+	["C1908.blif" line: 1024, columns:18-26]
+1004(540)
+	["C1908.blif" line: 1024, columns:28-36]
+11 0
+.names
+1678(473)
+	["C1908.blif" line: 1026, columns:8-16]
+1685(525)
+	["C1908.blif" line: 1026, columns:18-26]
+1014(541)
+	["C1908.blif" line: 1026, columns:28-36]
+11 0
+.names
+1239(505)
+	["C1908.blif" line: 1028, columns:8-16]
+1242(457)
+	["C1908.blif" line: 1028, columns:18-26]
+377(542)
+	["C1908.blif" line: 1028, columns:28-35]
+11 0
+.names
+1758(514)
+	["C1908.blif" line: 1030, columns:8-16]
+1765(500)
+	["C1908.blif" line: 1030, columns:18-26]
+1126(543)
+	["C1908.blif" line: 1030, columns:28-36]
+11 0
+.names
+1766(515)
+	["C1908.blif" line: 1032, columns:8-16]
+1773(501)
+	["C1908.blif" line: 1032, columns:18-26]
+1138(544)
+	["C1908.blif" line: 1032, columns:28-36]
+11 0
+.names
+1083(538)
+	["C1908.blif" line: 1034, columns:8-16]
+1086(269)
+	["C1908.blif" line: 1034, columns:18-26]
+1088(545)
+	["C1908.blif" line: 1034, columns:28-36]
+11 0
+.names
+1095(539)
+	["C1908.blif" line: 1036, columns:8-16]
+1098(270)
+	["C1908.blif" line: 1036, columns:18-26]
+324(546)
+	["C1908.blif" line: 1036, columns:28-35]
+11 0
+.names
+1327(528)
+	["C1908.blif" line: 1038, columns:8-16]
+1330(390)
+	["C1908.blif" line: 1038, columns:18-26]
+399(547)
+	["C1908.blif" line: 1038, columns:28-35]
+11 0
+.names
+391(504)
+	["C1908.blif" line: 1040, columns:8-15]
+392(526)
+	["C1908.blif" line: 1040, columns:17-24]
+393(548)
+	["C1908.blif" line: 1040, columns:26-33]
+11 0
+.names
+1327(528)
+	["C1908.blif" line: 1042, columns:8-16]
+1331(549)
+	["C1908.blif" line: 1042, columns:18-26]
+1 0
+.names
+1187(507)
+	["C1908.blif" line: 1044, columns:8-16]
+1188(529)
+	["C1908.blif" line: 1044, columns:18-26]
+1189(550)
+	["C1908.blif" line: 1044, columns:28-36]
+11 0
+.names
+1343(532)
+	["C1908.blif" line: 1046, columns:8-16]
+1344(534)
+	["C1908.blif" line: 1046, columns:18-26]
+1345(551)
+	["C1908.blif" line: 1046, columns:28-36]
+11 0
+.names
+1355(533)
+	["C1908.blif" line: 1048, columns:8-16]
+1356(535)
+	["C1908.blif" line: 1048, columns:18-26]
+1357(552)
+	["C1908.blif" line: 1048, columns:28-36]
+11 0
+.names
+1083(538)
+	["C1908.blif" line: 1050, columns:8-16]
+1087(553)
+	["C1908.blif" line: 1050, columns:18-26]
+1 0
+.names
+1095(539)
+	["C1908.blif" line: 1052, columns:8-16]
+1099(554)
+	["C1908.blif" line: 1052, columns:18-26]
+1 0
+.names
+1003(519)
+	["C1908.blif" line: 1054, columns:8-16]
+1004(540)
+	["C1908.blif" line: 1054, columns:18-26]
+1005(555)
+	["C1908.blif" line: 1054, columns:28-36]
+11 0
+.names
+1013(520)
+	["C1908.blif" line: 1056, columns:8-16]
+1014(541)
+	["C1908.blif" line: 1056, columns:18-26]
+1015(556)
+	["C1908.blif" line: 1056, columns:28-36]
+11 0
+.names
+1234(440)
+	["C1908.blif" line: 1058, columns:8-16]
+1243(527)
+	["C1908.blif" line: 1058, columns:18-26]
+378(557)
+	["C1908.blif" line: 1058, columns:28-35]
+11 0
+.names
+1761(477)
+	["C1908.blif" line: 1060, columns:8-16]
+1764(536)
+	["C1908.blif" line: 1060, columns:18-26]
+1125(558)
+	["C1908.blif" line: 1060, columns:28-36]
+11 0
+.names
+1769(478)
+	["C1908.blif" line: 1062, columns:8-16]
+1772(537)
+	["C1908.blif" line: 1062, columns:18-26]
+1137(559)
+	["C1908.blif" line: 1062, columns:28-36]
+11 0
+.names
+393(548)
+	["C1908.blif" line: 1064, columns:8-15]
+918(45)
+	["C1908.blif" line: 1064, columns:17-23]
+449(560)
+	["C1908.blif" line: 1064, columns:25-32]
+11 0
+.names
+1078(195)
+	["C1908.blif" line: 1066, columns:8-16]
+1087(553)
+	["C1908.blif" line: 1066, columns:18-26]
+1089(561)
+	["C1908.blif" line: 1066, columns:28-36]
+11 0
+.names
+1090(196)
+	["C1908.blif" line: 1068, columns:8-16]
+1099(554)
+	["C1908.blif" line: 1068, columns:18-26]
+325(562)
+	["C1908.blif" line: 1068, columns:28-35]
+11 0
+.names
+1322(361)
+	["C1908.blif" line: 1070, columns:8-16]
+1331(549)
+	["C1908.blif" line: 1070, columns:18-26]
+400(563)
+	["C1908.blif" line: 1070, columns:28-35]
+11 0
+.names
+393(548)
+	["C1908.blif" line: 1072, columns:8-15]
+1397(564)
+	["C1908.blif" line: 1072, columns:17-25]
+1 1
+.names
+1189(550)
+	["C1908.blif" line: 1074, columns:8-16]
+1192(399)
+	["C1908.blif" line: 1074, columns:18-26]
+364(565)
+	["C1908.blif" line: 1074, columns:28-35]
+11 0
+.names
+1189(550)
+	["C1908.blif" line: 1076, columns:8-16]
+1193(566)
+	["C1908.blif" line: 1076, columns:18-26]
+1 0
+.names
+1345(551)
+	["C1908.blif" line: 1078, columns:8-16]
+1349(567)
+	["C1908.blif" line: 1078, columns:18-26]
+1 0
+.names
+1357(552)
+	["C1908.blif" line: 1080, columns:8-16]
+1361(568)
+	["C1908.blif" line: 1080, columns:18-26]
+1 0
+.names
+1005(555)
+	["C1908.blif" line: 1082, columns:8-16]
+1008(434)
+	["C1908.blif" line: 1082, columns:18-26]
+280(569)
+	["C1908.blif" line: 1082, columns:28-35]
+11 0
+.names
+1015(556)
+	["C1908.blif" line: 1084, columns:8-16]
+1018(435)
+	["C1908.blif" line: 1084, columns:18-26]
+277(570)
+	["C1908.blif" line: 1084, columns:28-35]
+11 0
+.names
+1005(555)
+	["C1908.blif" line: 1086, columns:8-16]
+1009(571)
+	["C1908.blif" line: 1086, columns:18-26]
+1 0
+.names
+1015(556)
+	["C1908.blif" line: 1088, columns:8-16]
+1019(572)
+	["C1908.blif" line: 1088, columns:18-26]
+1 0
+.names
+1345(551)
+	["C1908.blif" line: 1090, columns:8-16]
+1348(521)
+	["C1908.blif" line: 1090, columns:18-26]
+1350(573)
+	["C1908.blif" line: 1090, columns:28-36]
+11 0
+.names
+1357(552)
+	["C1908.blif" line: 1092, columns:8-16]
+1360(522)
+	["C1908.blif" line: 1092, columns:18-26]
+413(574)
+	["C1908.blif" line: 1092, columns:28-35]
+11 0
+.names
+377(542)
+	["C1908.blif" line: 1094, columns:8-15]
+378(557)
+	["C1908.blif" line: 1094, columns:17-24]
+379(575)
+	["C1908.blif" line: 1094, columns:26-33]
+11 0
+.names
+1125(558)
+	["C1908.blif" line: 1096, columns:8-16]
+1126(543)
+	["C1908.blif" line: 1096, columns:18-26]
+1127(576)
+	["C1908.blif" line: 1096, columns:28-36]
+11 0
+.names
+1137(559)
+	["C1908.blif" line: 1098, columns:8-16]
+1138(544)
+	["C1908.blif" line: 1098, columns:18-26]
+1139(577)
+	["C1908.blif" line: 1098, columns:28-36]
+11 0
+.names
+379(575)
+	["C1908.blif" line: 1100, columns:8-15]
+918(45)
+	["C1908.blif" line: 1100, columns:17-23]
+445(578)
+	["C1908.blif" line: 1100, columns:25-32]
+11 0
+.names
+449(560)
+	["C1908.blif" line: 1102, columns:8-15]
+1493(579)
+	["C1908.blif" line: 1102, columns:17-25]
+1 1
+.names
+449(560)
+	["C1908.blif" line: 1104, columns:8-15]
+1501(580)
+	["C1908.blif" line: 1104, columns:17-25]
+1 1
+.names
+1088(545)
+	["C1908.blif" line: 1106, columns:8-16]
+1089(561)
+	["C1908.blif" line: 1106, columns:18-26]
+1689(581)
+	["C1908.blif" line: 1106, columns:28-36]
+11 0
+.names
+324(546)
+	["C1908.blif" line: 1108, columns:8-15]
+325(562)
+	["C1908.blif" line: 1108, columns:17-24]
+326(582)
+	["C1908.blif" line: 1108, columns:26-33]
+11 0
+.names
+399(547)
+	["C1908.blif" line: 1110, columns:8-15]
+400(563)
+	["C1908.blif" line: 1110, columns:17-24]
+401(583)
+	["C1908.blif" line: 1110, columns:26-33]
+11 0
+.names
+1397(564)
+	["C1908.blif" line: 1112, columns:8-16]
+1401(584)
+	["C1908.blif" line: 1112, columns:18-26]
+1 0
+.names
+1184(370)
+	["C1908.blif" line: 1114, columns:8-16]
+1193(566)
+	["C1908.blif" line: 1114, columns:18-26]
+365(585)
+	["C1908.blif" line: 1114, columns:28-35]
+11 0
+.names
+1127(576)
+	["C1908.blif" line: 1116, columns:8-16]
+1130(530)
+	["C1908.blif" line: 1116, columns:18-26]
+1132(586)
+	["C1908.blif" line: 1116, columns:28-36]
+11 0
+.names
+1139(577)
+	["C1908.blif" line: 1118, columns:8-16]
+1142(531)
+	["C1908.blif" line: 1118, columns:18-26]
+346(587)
+	["C1908.blif" line: 1118, columns:28-35]
+11 0
+.names
+1000(410)
+	["C1908.blif" line: 1120, columns:8-16]
+1009(571)
+	["C1908.blif" line: 1120, columns:18-26]
+281(588)
+	["C1908.blif" line: 1120, columns:28-35]
+11 0
+.names
+1010(411)
+	["C1908.blif" line: 1122, columns:8-16]
+1019(572)
+	["C1908.blif" line: 1122, columns:18-26]
+278(589)
+	["C1908.blif" line: 1122, columns:28-35]
+11 0
+.names
+1340(498)
+	["C1908.blif" line: 1124, columns:8-16]
+1349(567)
+	["C1908.blif" line: 1124, columns:18-26]
+1351(590)
+	["C1908.blif" line: 1124, columns:28-36]
+11 0
+.names
+1352(499)
+	["C1908.blif" line: 1126, columns:8-16]
+1361(568)
+	["C1908.blif" line: 1126, columns:18-26]
+414(591)
+	["C1908.blif" line: 1126, columns:28-35]
+11 0
+.names
+379(575)
+	["C1908.blif" line: 1128, columns:8-15]
+1389(592)
+	["C1908.blif" line: 1128, columns:17-25]
+1 1
+.names
+1127(576)
+	["C1908.blif" line: 1130, columns:8-16]
+1131(593)
+	["C1908.blif" line: 1130, columns:18-26]
+1 0
+.names
+1139(577)
+	["C1908.blif" line: 1132, columns:8-16]
+1143(594)
+	["C1908.blif" line: 1132, columns:18-26]
+1 0
+.names
+445(578)
+	["C1908.blif" line: 1134, columns:8-15]
+1477(595)
+	["C1908.blif" line: 1134, columns:17-25]
+1 1
+.names
+445(578)
+	["C1908.blif" line: 1136, columns:8-15]
+1485(596)
+	["C1908.blif" line: 1136, columns:17-25]
+1 1
+.names
+1493(579)
+	["C1908.blif" line: 1138, columns:8-16]
+1497(597)
+	["C1908.blif" line: 1138, columns:18-26]
+1 0
+.names
+1501(580)
+	["C1908.blif" line: 1140, columns:8-16]
+1505(598)
+	["C1908.blif" line: 1140, columns:18-26]
+1 0
+.names
+401(583)
+	["C1908.blif" line: 1142, columns:8-15]
+918(45)
+	["C1908.blif" line: 1142, columns:17-23]
+453(599)
+	["C1908.blif" line: 1142, columns:25-32]
+11 0
+.names
+1493(579)
+	["C1908.blif" line: 1144, columns:8-16]
+1496(185)
+	["C1908.blif" line: 1144, columns:18-26]
+559(600)
+	["C1908.blif" line: 1144, columns:28-35]
+11 0
+.names
+1501(580)
+	["C1908.blif" line: 1146, columns:8-16]
+1504(186)
+	["C1908.blif" line: 1146, columns:18-26]
+556(601)
+	["C1908.blif" line: 1146, columns:28-35]
+11 0
+.names
+1689(581)
+	["C1908.blif" line: 1148, columns:8-16]
+1693(602)
+	["C1908.blif" line: 1148, columns:18-26]
+1 0
+.names
+326(582)
+	["C1908.blif" line: 1150, columns:8-15]
+1365(603)
+	["C1908.blif" line: 1150, columns:17-25]
+1 0
+.names
+401(583)
+	["C1908.blif" line: 1152, columns:8-15]
+1405(604)
+	["C1908.blif" line: 1152, columns:17-25]
+1 1
+.names
+364(565)
+	["C1908.blif" line: 1154, columns:8-15]
+365(585)
+	["C1908.blif" line: 1154, columns:17-24]
+366(605)
+	["C1908.blif" line: 1154, columns:26-33]
+11 0
+.names
+1122(508)
+	["C1908.blif" line: 1156, columns:8-16]
+1131(593)
+	["C1908.blif" line: 1156, columns:18-26]
+1133(606)
+	["C1908.blif" line: 1156, columns:28-36]
+11 0
+.names
+1134(509)
+	["C1908.blif" line: 1158, columns:8-16]
+1143(594)
+	["C1908.blif" line: 1158, columns:18-26]
+347(607)
+	["C1908.blif" line: 1158, columns:28-35]
+11 0
+.names
+280(569)
+	["C1908.blif" line: 1160, columns:8-15]
+281(588)
+	["C1908.blif" line: 1160, columns:17-24]
+282(608)
+	["C1908.blif" line: 1160, columns:26-33]
+11 0
+.names
+277(570)
+	["C1908.blif" line: 1162, columns:8-15]
+278(589)
+	["C1908.blif" line: 1162, columns:17-24]
+279(609)
+	["C1908.blif" line: 1162, columns:26-33]
+11 0
+.names
+1350(573)
+	["C1908.blif" line: 1164, columns:8-16]
+1351(590)
+	["C1908.blif" line: 1164, columns:18-26]
+1809(610)
+	["C1908.blif" line: 1164, columns:28-36]
+11 0
+.names
+413(574)
+	["C1908.blif" line: 1166, columns:8-15]
+414(591)
+	["C1908.blif" line: 1166, columns:17-24]
+415(611)
+	["C1908.blif" line: 1166, columns:26-33]
+11 0
+.names
+1389(592)
+	["C1908.blif" line: 1168, columns:8-16]
+1393(612)
+	["C1908.blif" line: 1168, columns:18-26]
+1 0
+.names
+1477(595)
+	["C1908.blif" line: 1170, columns:8-16]
+1481(613)
+	["C1908.blif" line: 1170, columns:18-26]
+1 0
+.names
+1485(596)
+	["C1908.blif" line: 1172, columns:8-16]
+1489(614)
+	["C1908.blif" line: 1172, columns:18-26]
+1 0
+.names
+453(599)
+	["C1908.blif" line: 1174, columns:8-15]
+1429(615)
+	["C1908.blif" line: 1174, columns:17-25]
+1 1
+.names
+453(599)
+	["C1908.blif" line: 1176, columns:8-15]
+1437(616)
+	["C1908.blif" line: 1176, columns:17-25]
+1 1
+.names
+1490(103)
+	["C1908.blif" line: 1178, columns:8-16]
+1497(597)
+	["C1908.blif" line: 1178, columns:18-26]
+560(617)
+	["C1908.blif" line: 1178, columns:28-35]
+11 0
+.names
+1498(104)
+	["C1908.blif" line: 1180, columns:8-16]
+1505(598)
+	["C1908.blif" line: 1180, columns:18-26]
+557(618)
+	["C1908.blif" line: 1180, columns:28-35]
+11 0
+.names
+1477(595)
+	["C1908.blif" line: 1182, columns:8-16]
+1480(187)
+	["C1908.blif" line: 1182, columns:18-26]
+547(619)
+	["C1908.blif" line: 1182, columns:28-35]
+11 0
+.names
+1485(596)
+	["C1908.blif" line: 1184, columns:8-16]
+1488(188)
+	["C1908.blif" line: 1184, columns:18-26]
+544(620)
+	["C1908.blif" line: 1184, columns:28-35]
+11 0
+.names
+1365(603)
+	["C1908.blif" line: 1186, columns:8-16]
+1369(621)
+	["C1908.blif" line: 1186, columns:18-26]
+1 0
+.names
+1405(604)
+	["C1908.blif" line: 1188, columns:8-16]
+1409(622)
+	["C1908.blif" line: 1188, columns:18-26]
+1 0
+.names
+366(605)
+	["C1908.blif" line: 1190, columns:8-15]
+367(623)
+	["C1908.blif" line: 1190, columns:17-24]
+1 0
+.names
+1132(586)
+	["C1908.blif" line: 1192, columns:8-16]
+1133(606)
+	["C1908.blif" line: 1192, columns:18-26]
+1774(624)
+	["C1908.blif" line: 1192, columns:28-36]
+11 0
+.names
+346(587)
+	["C1908.blif" line: 1194, columns:8-15]
+347(607)
+	["C1908.blif" line: 1194, columns:17-24]
+348(625)
+	["C1908.blif" line: 1194, columns:26-33]
+11 0
+.names
+282(608)
+	["C1908.blif" line: 1196, columns:8-15]
+1686(626)
+	["C1908.blif" line: 1196, columns:17-25]
+1 1
+.names
+282(608)
+	["C1908.blif" line: 1198, columns:8-15]
+1362(627)
+	["C1908.blif" line: 1198, columns:17-25]
+1 1
+.names
+279(609)
+	["C1908.blif" line: 1200, columns:8-15]
+285(628)
+	["C1908.blif" line: 1200, columns:17-24]
+1 0
+.names
+1809(610)
+	["C1908.blif" line: 1202, columns:8-16]
+1813(629)
+	["C1908.blif" line: 1202, columns:18-26]
+1 0
+.names
+415(611)
+	["C1908.blif" line: 1204, columns:8-15]
+1378(630)
+	["C1908.blif" line: 1204, columns:17-25]
+1 0
+.names
+285(628)
+	["C1908.blif" line: 1206, columns:8-15]
+853(97)
+	["C1908.blif" line: 1206, columns:17-23]
+1910(631)
+	["C1908.blif" line: 1206, columns:25-33]
+11 1
+.names
+856(98)
+	["C1908.blif" line: 1208, columns:8-14]
+367(623)
+	["C1908.blif" line: 1208, columns:16-23]
+1918(632)
+	["C1908.blif" line: 1208, columns:25-33]
+11 1
+.names
+1429(615)
+	["C1908.blif" line: 1210, columns:8-16]
+1433(633)
+	["C1908.blif" line: 1210, columns:18-26]
+1 0
+.names
+1437(616)
+	["C1908.blif" line: 1212, columns:8-16]
+1441(634)
+	["C1908.blif" line: 1212, columns:18-26]
+1 0
+.names
+559(600)
+	["C1908.blif" line: 1214, columns:8-15]
+560(617)
+	["C1908.blif" line: 1214, columns:17-24]
+561(635)
+	["C1908.blif" line: 1214, columns:26-33]
+11 0
+.names
+556(601)
+	["C1908.blif" line: 1216, columns:8-15]
+557(618)
+	["C1908.blif" line: 1216, columns:17-24]
+558(636)
+	["C1908.blif" line: 1216, columns:26-33]
+11 0
+.names
+1474(105)
+	["C1908.blif" line: 1218, columns:8-16]
+1481(613)
+	["C1908.blif" line: 1218, columns:18-26]
+548(637)
+	["C1908.blif" line: 1218, columns:28-35]
+11 0
+.names
+1482(106)
+	["C1908.blif" line: 1220, columns:8-16]
+1489(614)
+	["C1908.blif" line: 1220, columns:18-26]
+545(638)
+	["C1908.blif" line: 1220, columns:28-35]
+11 0
+.names
+1774(624)
+	["C1908.blif" line: 1222, columns:8-16]
+1781(480)
+	["C1908.blif" line: 1222, columns:18-26]
+1148(639)
+	["C1908.blif" line: 1222, columns:28-36]
+11 0
+.names
+1686(626)
+	["C1908.blif" line: 1224, columns:8-16]
+1693(602)
+	["C1908.blif" line: 1224, columns:18-26]
+1024(640)
+	["C1908.blif" line: 1224, columns:28-36]
+11 0
+.names
+1362(627)
+	["C1908.blif" line: 1226, columns:8-16]
+1369(621)
+	["C1908.blif" line: 1226, columns:18-26]
+417(641)
+	["C1908.blif" line: 1226, columns:28-35]
+11 0
+.names
+1429(615)
+	["C1908.blif" line: 1228, columns:8-16]
+1432(336)
+	["C1908.blif" line: 1228, columns:18-26]
+511(642)
+	["C1908.blif" line: 1228, columns:28-35]
+11 0
+.names
+1437(616)
+	["C1908.blif" line: 1230, columns:8-16]
+1440(337)
+	["C1908.blif" line: 1230, columns:18-26]
+508(643)
+	["C1908.blif" line: 1230, columns:28-35]
+11 0
+.names
+1378(630)
+	["C1908.blif" line: 1232, columns:8-16]
+1385(425)
+	["C1908.blif" line: 1232, columns:18-26]
+424(644)
+	["C1908.blif" line: 1232, columns:28-35]
+11 0
+.names
+1774(624)
+	["C1908.blif" line: 1234, columns:8-16]
+1780(645)
+	["C1908.blif" line: 1234, columns:18-26]
+1 0
+.names
+348(625)
+	["C1908.blif" line: 1236, columns:8-15]
+1370(646)
+	["C1908.blif" line: 1236, columns:17-25]
+1 0
+.names
+1686(626)
+	["C1908.blif" line: 1238, columns:8-16]
+1692(647)
+	["C1908.blif" line: 1238, columns:18-26]
+1 0
+.names
+1362(627)
+	["C1908.blif" line: 1240, columns:8-16]
+1368(648)
+	["C1908.blif" line: 1240, columns:18-26]
+1 0
+.names
+1378(630)
+	["C1908.blif" line: 1242, columns:8-16]
+1384(649)
+	["C1908.blif" line: 1242, columns:18-26]
+1 0
+.names
+1910(631)
+	["C1908.blif" line: 1244, columns:8-16]
+1916(650)
+	["C1908.blif" line: 1244, columns:18-26]
+1 0
+.names
+1918(632)
+	["C1908.blif" line: 1246, columns:8-16]
+1924(651)
+	["C1908.blif" line: 1246, columns:18-26]
+1 0
+.names
+561(635)
+	["C1908.blif" line: 1248, columns:8-15]
+719(652)
+	["C1908.blif" line: 1248, columns:17-24]
+1 0
+.names
+561(635)
+	["C1908.blif" line: 1250, columns:8-15]
+722(653)
+	["C1908.blif" line: 1250, columns:17-24]
+1 1
+.names
+558(636)
+	["C1908.blif" line: 1252, columns:8-15]
+564(654)
+	["C1908.blif" line: 1252, columns:17-24]
+1 0
+.names
+547(619)
+	["C1908.blif" line: 1254, columns:8-15]
+548(637)
+	["C1908.blif" line: 1254, columns:17-24]
+549(655)
+	["C1908.blif" line: 1254, columns:26-33]
+11 0
+.names
+544(620)
+	["C1908.blif" line: 1256, columns:8-15]
+545(638)
+	["C1908.blif" line: 1256, columns:17-24]
+546(656)
+	["C1908.blif" line: 1256, columns:26-33]
+11 0
+.names
+1370(646)
+	["C1908.blif" line: 1258, columns:8-16]
+1377(460)
+	["C1908.blif" line: 1258, columns:18-26]
+421(657)
+	["C1908.blif" line: 1258, columns:28-35]
+11 0
+.names
+1777(461)
+	["C1908.blif" line: 1260, columns:8-16]
+1780(645)
+	["C1908.blif" line: 1260, columns:18-26]
+1147(658)
+	["C1908.blif" line: 1260, columns:28-36]
+11 0
+.names
+1689(581)
+	["C1908.blif" line: 1262, columns:8-16]
+1692(647)
+	["C1908.blif" line: 1262, columns:18-26]
+1023(659)
+	["C1908.blif" line: 1262, columns:28-36]
+11 0
+.names
+1365(603)
+	["C1908.blif" line: 1264, columns:8-16]
+1368(648)
+	["C1908.blif" line: 1264, columns:18-26]
+416(660)
+	["C1908.blif" line: 1264, columns:28-35]
+11 0
+.names
+1426(274)
+	["C1908.blif" line: 1266, columns:8-16]
+1433(633)
+	["C1908.blif" line: 1266, columns:18-26]
+512(661)
+	["C1908.blif" line: 1266, columns:28-35]
+11 0
+.names
+1434(275)
+	["C1908.blif" line: 1268, columns:8-16]
+1441(634)
+	["C1908.blif" line: 1268, columns:18-26]
+509(662)
+	["C1908.blif" line: 1268, columns:28-35]
+11 0
+.names
+1381(392)
+	["C1908.blif" line: 1270, columns:8-16]
+1384(649)
+	["C1908.blif" line: 1270, columns:18-26]
+423(663)
+	["C1908.blif" line: 1270, columns:28-35]
+11 0
+.names
+1370(646)
+	["C1908.blif" line: 1272, columns:8-16]
+1376(664)
+	["C1908.blif" line: 1272, columns:18-26]
+1 0
+.names
+549(655)
+	["C1908.blif" line: 1274, columns:8-15]
+725(665)
+	["C1908.blif" line: 1274, columns:17-24]
+1 0
+.names
+549(655)
+	["C1908.blif" line: 1276, columns:8-15]
+728(666)
+	["C1908.blif" line: 1276, columns:17-24]
+1 1
+.names
+546(656)
+	["C1908.blif" line: 1278, columns:8-15]
+552(667)
+	["C1908.blif" line: 1278, columns:17-24]
+1 0
+.names
+1373(443)
+	["C1908.blif" line: 1280, columns:8-16]
+1376(664)
+	["C1908.blif" line: 1280, columns:18-26]
+420(668)
+	["C1908.blif" line: 1280, columns:28-35]
+11 0
+.names
+1147(658)
+	["C1908.blif" line: 1282, columns:8-16]
+1148(639)
+	["C1908.blif" line: 1282, columns:18-26]
+1149(669)
+	["C1908.blif" line: 1282, columns:28-36]
+11 0
+.names
+1023(659)
+	["C1908.blif" line: 1284, columns:8-16]
+1024(640)
+	["C1908.blif" line: 1284, columns:18-26]
+1025(670)
+	["C1908.blif" line: 1284, columns:28-36]
+11 0
+.names
+416(660)
+	["C1908.blif" line: 1286, columns:8-15]
+417(641)
+	["C1908.blif" line: 1286, columns:17-24]
+418(671)
+	["C1908.blif" line: 1286, columns:26-33]
+11 0
+.names
+511(642)
+	["C1908.blif" line: 1288, columns:8-15]
+512(661)
+	["C1908.blif" line: 1288, columns:17-24]
+513(672)
+	["C1908.blif" line: 1288, columns:26-33]
+11 0
+.names
+508(643)
+	["C1908.blif" line: 1290, columns:8-15]
+509(662)
+	["C1908.blif" line: 1290, columns:17-24]
+510(673)
+	["C1908.blif" line: 1290, columns:26-33]
+11 0
+.names
+423(663)
+	["C1908.blif" line: 1292, columns:8-15]
+424(644)
+	["C1908.blif" line: 1292, columns:17-24]
+425(674)
+	["C1908.blif" line: 1292, columns:26-33]
+11 0
+.names
+425(674)
+	["C1908.blif" line: 1294, columns:8-15]
+918(45)
+	["C1908.blif" line: 1294, columns:17-23]
+441(675)
+	["C1908.blif" line: 1294, columns:25-32]
+11 0
+.names
+719(652)
+	["C1908.blif" line: 1296, columns:8-15]
+725(665)
+	["C1908.blif" line: 1296, columns:17-24]
+731(676)
+	["C1908.blif" line: 1296, columns:26-33]
+11 1
+.names
+719(652)
+	["C1908.blif" line: 1298, columns:8-15]
+728(666)
+	["C1908.blif" line: 1298, columns:17-24]
+756(677)
+	["C1908.blif" line: 1298, columns:26-33]
+11 1
+.names
+722(653)
+	["C1908.blif" line: 1300, columns:8-15]
+725(665)
+	["C1908.blif" line: 1300, columns:17-24]
+746(678)
+	["C1908.blif" line: 1300, columns:26-33]
+11 1
+.names
+722(653)
+	["C1908.blif" line: 1302, columns:8-15]
+728(666)
+	["C1908.blif" line: 1302, columns:17-24]
+770(679)
+	["C1908.blif" line: 1302, columns:26-33]
+11 1
+.names
+420(668)
+	["C1908.blif" line: 1304, columns:8-15]
+421(657)
+	["C1908.blif" line: 1304, columns:17-24]
+422(680)
+	["C1908.blif" line: 1304, columns:26-33]
+11 0
+.names
+1149(669)
+	["C1908.blif" line: 1306, columns:8-16]
+1153(681)
+	["C1908.blif" line: 1306, columns:18-26]
+1 0
+.names
+1025(670)
+	["C1908.blif" line: 1308, columns:8-16]
+1029(682)
+	["C1908.blif" line: 1308, columns:18-26]
+1 0
+.names
+418(671)
+	["C1908.blif" line: 1310, columns:8-15]
+419(683)
+	["C1908.blif" line: 1310, columns:17-24]
+1 0
+.names
+513(672)
+	["C1908.blif" line: 1312, columns:8-15]
+663(684)
+	["C1908.blif" line: 1312, columns:17-24]
+1 0
+.names
+513(672)
+	["C1908.blif" line: 1314, columns:8-15]
+666(685)
+	["C1908.blif" line: 1314, columns:17-24]
+1 1
+.names
+510(673)
+	["C1908.blif" line: 1316, columns:8-15]
+516(686)
+	["C1908.blif" line: 1316, columns:17-24]
+1 0
+.names
+419(683)
+	["C1908.blif" line: 1318, columns:8-15]
+918(45)
+	["C1908.blif" line: 1318, columns:17-23]
+433(687)
+	["C1908.blif" line: 1318, columns:25-32]
+11 0
+.names
+422(680)
+	["C1908.blif" line: 1320, columns:8-15]
+918(45)
+	["C1908.blif" line: 1320, columns:17-23]
+437(688)
+	["C1908.blif" line: 1320, columns:25-32]
+11 0
+.names
+441(675)
+	["C1908.blif" line: 1322, columns:8-15]
+1461(689)
+	["C1908.blif" line: 1322, columns:17-25]
+1 1
+.names
+441(675)
+	["C1908.blif" line: 1324, columns:8-15]
+1469(690)
+	["C1908.blif" line: 1324, columns:17-25]
+1 1
+.names
+433(687)
+	["C1908.blif" line: 1326, columns:8-15]
+1413(691)
+	["C1908.blif" line: 1326, columns:17-25]
+1 1
+.names
+433(687)
+	["C1908.blif" line: 1328, columns:8-15]
+1421(692)
+	["C1908.blif" line: 1328, columns:17-25]
+1 1
+.names
+437(688)
+	["C1908.blif" line: 1330, columns:8-15]
+1445(693)
+	["C1908.blif" line: 1330, columns:17-25]
+1 1
+.names
+437(688)
+	["C1908.blif" line: 1332, columns:8-15]
+1453(694)
+	["C1908.blif" line: 1332, columns:17-25]
+1 1
+.names
+1461(689)
+	["C1908.blif" line: 1334, columns:8-16]
+1465(695)
+	["C1908.blif" line: 1334, columns:18-26]
+1 0
+.names
+1469(690)
+	["C1908.blif" line: 1336, columns:8-16]
+1473(696)
+	["C1908.blif" line: 1336, columns:18-26]
+1 0
+.names
+1461(689)
+	["C1908.blif" line: 1338, columns:8-16]
+1464(189)
+	["C1908.blif" line: 1338, columns:18-26]
+535(697)
+	["C1908.blif" line: 1338, columns:28-35]
+11 0
+.names
+1469(690)
+	["C1908.blif" line: 1340, columns:8-16]
+1472(190)
+	["C1908.blif" line: 1340, columns:18-26]
+532(698)
+	["C1908.blif" line: 1340, columns:28-35]
+11 0
+.names
+1413(691)
+	["C1908.blif" line: 1342, columns:8-16]
+1417(699)
+	["C1908.blif" line: 1342, columns:18-26]
+1 0
+.names
+1421(692)
+	["C1908.blif" line: 1344, columns:8-16]
+1425(700)
+	["C1908.blif" line: 1344, columns:18-26]
+1 0
+.names
+1445(693)
+	["C1908.blif" line: 1346, columns:8-16]
+1449(701)
+	["C1908.blif" line: 1346, columns:18-26]
+1 0
+.names
+1453(694)
+	["C1908.blif" line: 1348, columns:8-16]
+1457(702)
+	["C1908.blif" line: 1348, columns:18-26]
+1 0
+.names
+1458(107)
+	["C1908.blif" line: 1350, columns:8-16]
+1465(695)
+	["C1908.blif" line: 1350, columns:18-26]
+536(703)
+	["C1908.blif" line: 1350, columns:28-35]
+11 0
+.names
+1466(108)
+	["C1908.blif" line: 1352, columns:8-16]
+1473(696)
+	["C1908.blif" line: 1352, columns:18-26]
+533(704)
+	["C1908.blif" line: 1352, columns:28-35]
+11 0
+.names
+1445(693)
+	["C1908.blif" line: 1354, columns:8-16]
+1448(191)
+	["C1908.blif" line: 1354, columns:18-26]
+523(705)
+	["C1908.blif" line: 1354, columns:28-35]
+11 0
+.names
+1453(694)
+	["C1908.blif" line: 1356, columns:8-16]
+1456(192)
+	["C1908.blif" line: 1356, columns:18-26]
+520(706)
+	["C1908.blif" line: 1356, columns:28-35]
+11 0
+.names
+1413(691)
+	["C1908.blif" line: 1358, columns:8-16]
+1416(339)
+	["C1908.blif" line: 1358, columns:18-26]
+498(707)
+	["C1908.blif" line: 1358, columns:28-35]
+11 0
+.names
+1421(692)
+	["C1908.blif" line: 1360, columns:8-16]
+1424(340)
+	["C1908.blif" line: 1360, columns:18-26]
+495(708)
+	["C1908.blif" line: 1360, columns:28-35]
+11 0
+.names
+535(697)
+	["C1908.blif" line: 1362, columns:8-15]
+536(703)
+	["C1908.blif" line: 1362, columns:17-24]
+537(709)
+	["C1908.blif" line: 1362, columns:26-33]
+11 0
+.names
+532(698)
+	["C1908.blif" line: 1364, columns:8-15]
+533(704)
+	["C1908.blif" line: 1364, columns:17-24]
+534(710)
+	["C1908.blif" line: 1364, columns:26-33]
+11 0
+.names
+1442(109)
+	["C1908.blif" line: 1366, columns:8-16]
+1449(701)
+	["C1908.blif" line: 1366, columns:18-26]
+524(711)
+	["C1908.blif" line: 1366, columns:28-35]
+11 0
+.names
+1450(110)
+	["C1908.blif" line: 1368, columns:8-16]
+1457(702)
+	["C1908.blif" line: 1368, columns:18-26]
+521(712)
+	["C1908.blif" line: 1368, columns:28-35]
+11 0
+.names
+1410(279)
+	["C1908.blif" line: 1370, columns:8-16]
+1417(699)
+	["C1908.blif" line: 1370, columns:18-26]
+499(713)
+	["C1908.blif" line: 1370, columns:28-35]
+11 0
+.names
+1418(280)
+	["C1908.blif" line: 1372, columns:8-16]
+1425(700)
+	["C1908.blif" line: 1372, columns:18-26]
+496(714)
+	["C1908.blif" line: 1372, columns:28-35]
+11 0
+.names
+537(709)
+	["C1908.blif" line: 1374, columns:8-15]
+669(715)
+	["C1908.blif" line: 1374, columns:17-24]
+1 0
+.names
+537(709)
+	["C1908.blif" line: 1376, columns:8-15]
+672(716)
+	["C1908.blif" line: 1376, columns:17-24]
+1 1
+.names
+534(710)
+	["C1908.blif" line: 1378, columns:8-15]
+540(717)
+	["C1908.blif" line: 1378, columns:17-24]
+1 0
+.names
+523(705)
+	["C1908.blif" line: 1380, columns:8-15]
+524(711)
+	["C1908.blif" line: 1380, columns:17-24]
+525(718)
+	["C1908.blif" line: 1380, columns:26-33]
+11 0
+.names
+520(706)
+	["C1908.blif" line: 1382, columns:8-15]
+521(712)
+	["C1908.blif" line: 1382, columns:17-24]
+522(719)
+	["C1908.blif" line: 1382, columns:26-33]
+11 0
+.names
+498(707)
+	["C1908.blif" line: 1384, columns:8-15]
+499(713)
+	["C1908.blif" line: 1384, columns:17-24]
+500(720)
+	["C1908.blif" line: 1384, columns:26-33]
+11 0
+.names
+495(708)
+	["C1908.blif" line: 1386, columns:8-15]
+496(714)
+	["C1908.blif" line: 1386, columns:17-24]
+497(721)
+	["C1908.blif" line: 1386, columns:26-33]
+11 0
+.names
+525(718)
+	["C1908.blif" line: 1388, columns:8-15]
+618(722)
+	["C1908.blif" line: 1388, columns:17-24]
+1 0
+.names
+522(719)
+	["C1908.blif" line: 1390, columns:8-15]
+528(723)
+	["C1908.blif" line: 1390, columns:17-24]
+1 0
+.names
+615(272)
+	["C1908.blif" line: 1392, columns:8-15]
+525(718)
+	["C1908.blif" line: 1392, columns:17-24]
+639(724)
+	["C1908.blif" line: 1392, columns:26-33]
+11 1
+.names
+663(684)
+	["C1908.blif" line: 1394, columns:8-15]
+669(715)
+	["C1908.blif" line: 1394, columns:17-24]
+675(725)
+	["C1908.blif" line: 1394, columns:26-33]
+11 1
+.names
+663(684)
+	["C1908.blif" line: 1396, columns:8-15]
+672(716)
+	["C1908.blif" line: 1396, columns:17-24]
+696(726)
+	["C1908.blif" line: 1396, columns:26-33]
+11 1
+.names
+666(685)
+	["C1908.blif" line: 1398, columns:8-15]
+669(715)
+	["C1908.blif" line: 1398, columns:17-24]
+688(727)
+	["C1908.blif" line: 1398, columns:26-33]
+11 1
+.names
+666(685)
+	["C1908.blif" line: 1400, columns:8-15]
+672(716)
+	["C1908.blif" line: 1400, columns:17-24]
+710(728)
+	["C1908.blif" line: 1400, columns:26-33]
+11 1
+.names
+566(277)
+	["C1908.blif" line: 1402, columns:8-15]
+500(720)
+	["C1908.blif" line: 1402, columns:17-24]
+588(729)
+	["C1908.blif" line: 1402, columns:26-33]
+11 1
+.names
+500(720)
+	["C1908.blif" line: 1404, columns:8-15]
+569(730)
+	["C1908.blif" line: 1404, columns:17-24]
+1 0
+.names
+497(721)
+	["C1908.blif" line: 1406, columns:8-15]
+503(731)
+	["C1908.blif" line: 1406, columns:17-24]
+1 0
+.names
+614(271)
+	["C1908.blif" line: 1408, columns:8-15]
+618(722)
+	["C1908.blif" line: 1408, columns:17-24]
+621(732)
+	["C1908.blif" line: 1408, columns:26-33]
+11 1
+.names
+615(272)
+	["C1908.blif" line: 1410, columns:8-15]
+618(722)
+	["C1908.blif" line: 1410, columns:17-24]
+622(733)
+	["C1908.blif" line: 1410, columns:26-33]
+11 1
+.names
+639(724)
+	["C1908.blif" line: 1412, columns:8-15]
+639A(734)
+	["C1908.blif" line: 1412, columns:17-25]
+1 1
+.names
+639(724)
+	["C1908.blif" line: 1414, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1414, columns:17-25]
+1 1
+.names
+516(686)
+	["C1908.blif" line: 1416, columns:8-15]
+564(654)
+	["C1908.blif" line: 1416, columns:17-24]
+552(667)
+	["C1908.blif" line: 1416, columns:26-33]
+540(717)
+	["C1908.blif" line: 1416, columns:35-42]
+482(202)
+	["C1908.blif" line: 1416, columns:44-51]
+528(723)
+	["C1908.blif" line: 1416, columns:53-60]
+503(731)
+	["C1908.blif" line: 1416, columns:62-69]
+487(197)
+	["C1908.blif" line: 1416, columns:71-78]
+867(736)
+	["C1908.blif" line: 1416, columns:80-87]
+11111111 0
+.names
+565(276)
+	["C1908.blif" line: 1418, columns:8-15]
+569(730)
+	["C1908.blif" line: 1418, columns:17-24]
+572(737)
+	["C1908.blif" line: 1418, columns:26-33]
+11 1
+.names
+566(277)
+	["C1908.blif" line: 1420, columns:8-15]
+569(730)
+	["C1908.blif" line: 1420, columns:17-24]
+573(738)
+	["C1908.blif" line: 1420, columns:26-33]
+11 1
+.names
+588(729)
+	["C1908.blif" line: 1422, columns:8-15]
+588A(739)
+	["C1908.blif" line: 1422, columns:17-25]
+1 1
+.names
+588(729)
+	["C1908.blif" line: 1424, columns:8-15]
+588B(740)
+	["C1908.blif" line: 1424, columns:17-25]
+1 1
+.names
+949(33)
+	["C1908.blif" line: 1426, columns:8-14]
+867(736)
+	["C1908.blif" line: 1426, columns:16-23]
+932(40)
+	["C1908.blif" line: 1426, columns:33-39]
+932(40)
+	["C1908.blif" line: 1426, columns:33-39]
+73(741)
+	["C1908.blif" line: 1426, columns:41-47]
+1111 1
+.names
+588B(740)
+	["C1908.blif" line: 1428, columns:8-16]
+622(733)
+	["C1908.blif" line: 1428, columns:18-25]
+675(725)
+	["C1908.blif" line: 1428, columns:27-34]
+731(676)
+	["C1908.blif" line: 1428, columns:36-43]
+979(179)
+	["C1908.blif" line: 1428, columns:45-52]
+871(742)
+	["C1908.blif" line: 1428, columns:54-61]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1430, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1430, columns:17-25]
+675(725)
+	["C1908.blif" line: 1430, columns:27-34]
+731(676)
+	["C1908.blif" line: 1430, columns:36-43]
+979(179)
+	["C1908.blif" line: 1430, columns:45-52]
+873(743)
+	["C1908.blif" line: 1430, columns:54-61]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1432, columns:8-15]
+622(733)
+	["C1908.blif" line: 1432, columns:17-24]
+696(726)
+	["C1908.blif" line: 1432, columns:26-33]
+731(676)
+	["C1908.blif" line: 1432, columns:35-42]
+979(179)
+	["C1908.blif" line: 1432, columns:44-51]
+875(744)
+	["C1908.blif" line: 1432, columns:53-60]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1434, columns:8-15]
+622(733)
+	["C1908.blif" line: 1434, columns:17-24]
+675(725)
+	["C1908.blif" line: 1434, columns:26-33]
+756(677)
+	["C1908.blif" line: 1434, columns:35-42]
+979(179)
+	["C1908.blif" line: 1434, columns:44-51]
+877(745)
+	["C1908.blif" line: 1434, columns:53-60]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1436, columns:8-15]
+622(733)
+	["C1908.blif" line: 1436, columns:17-24]
+675(725)
+	["C1908.blif" line: 1436, columns:26-33]
+746(678)
+	["C1908.blif" line: 1436, columns:35-42]
+979(179)
+	["C1908.blif" line: 1436, columns:44-51]
+879(746)
+	["C1908.blif" line: 1436, columns:53-60]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1438, columns:8-15]
+622(733)
+	["C1908.blif" line: 1438, columns:17-24]
+688(727)
+	["C1908.blif" line: 1438, columns:26-33]
+731(676)
+	["C1908.blif" line: 1438, columns:35-42]
+979(179)
+	["C1908.blif" line: 1438, columns:44-51]
+881(747)
+	["C1908.blif" line: 1438, columns:53-60]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1440, columns:8-15]
+621(732)
+	["C1908.blif" line: 1440, columns:17-24]
+675(725)
+	["C1908.blif" line: 1440, columns:26-33]
+731(676)
+	["C1908.blif" line: 1440, columns:35-42]
+979(179)
+	["C1908.blif" line: 1440, columns:44-51]
+883(748)
+	["C1908.blif" line: 1440, columns:53-60]
+11111 0
+.names
+572(737)
+	["C1908.blif" line: 1442, columns:8-15]
+622(733)
+	["C1908.blif" line: 1442, columns:17-24]
+675(725)
+	["C1908.blif" line: 1442, columns:26-33]
+731(676)
+	["C1908.blif" line: 1442, columns:35-42]
+979(179)
+	["C1908.blif" line: 1442, columns:44-51]
+885(749)
+	["C1908.blif" line: 1442, columns:53-60]
+11111 0
+.names
+588A(739)
+	["C1908.blif" line: 1444, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1444, columns:18-26]
+696(726)
+	["C1908.blif" line: 1444, columns:28-35]
+731(676)
+	["C1908.blif" line: 1444, columns:37-44]
+958(265)
+	["C1908.blif" line: 1444, columns:46-53]
+776(750)
+	["C1908.blif" line: 1444, columns:55-62]
+11111 0
+.names
+588A(739)
+	["C1908.blif" line: 1446, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1446, columns:18-26]
+675(725)
+	["C1908.blif" line: 1446, columns:28-35]
+756(677)
+	["C1908.blif" line: 1446, columns:37-44]
+958(265)
+	["C1908.blif" line: 1446, columns:46-53]
+780(751)
+	["C1908.blif" line: 1446, columns:55-62]
+11111 0
+.names
+588A(739)
+	["C1908.blif" line: 1448, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1448, columns:18-26]
+675(725)
+	["C1908.blif" line: 1448, columns:28-35]
+746(678)
+	["C1908.blif" line: 1448, columns:37-44]
+958(265)
+	["C1908.blif" line: 1448, columns:46-53]
+784(752)
+	["C1908.blif" line: 1448, columns:55-62]
+11111 0
+.names
+588A(739)
+	["C1908.blif" line: 1450, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1450, columns:18-26]
+688(727)
+	["C1908.blif" line: 1450, columns:28-35]
+731(676)
+	["C1908.blif" line: 1450, columns:37-44]
+958(265)
+	["C1908.blif" line: 1450, columns:46-53]
+788(753)
+	["C1908.blif" line: 1450, columns:55-62]
+11111 0
+.names
+588A(739)
+	["C1908.blif" line: 1452, columns:8-16]
+622(733)
+	["C1908.blif" line: 1452, columns:18-25]
+696(726)
+	["C1908.blif" line: 1452, columns:27-34]
+756(677)
+	["C1908.blif" line: 1452, columns:36-43]
+958(265)
+	["C1908.blif" line: 1452, columns:45-52]
+792(754)
+	["C1908.blif" line: 1452, columns:54-61]
+11111 0
+.names
+588B(740)
+	["C1908.blif" line: 1454, columns:8-16]
+622(733)
+	["C1908.blif" line: 1454, columns:18-25]
+696(726)
+	["C1908.blif" line: 1454, columns:27-34]
+746(678)
+	["C1908.blif" line: 1454, columns:36-43]
+958(265)
+	["C1908.blif" line: 1454, columns:45-52]
+796(755)
+	["C1908.blif" line: 1454, columns:54-61]
+11111 0
+.names
+588B(740)
+	["C1908.blif" line: 1456, columns:8-16]
+622(733)
+	["C1908.blif" line: 1456, columns:18-25]
+710(728)
+	["C1908.blif" line: 1456, columns:27-34]
+731(676)
+	["C1908.blif" line: 1456, columns:36-43]
+958(265)
+	["C1908.blif" line: 1456, columns:45-52]
+800(756)
+	["C1908.blif" line: 1456, columns:54-61]
+11111 0
+.names
+588B(740)
+	["C1908.blif" line: 1458, columns:8-16]
+622(733)
+	["C1908.blif" line: 1458, columns:18-25]
+675(725)
+	["C1908.blif" line: 1458, columns:27-34]
+770(679)
+	["C1908.blif" line: 1458, columns:36-43]
+958(265)
+	["C1908.blif" line: 1458, columns:45-52]
+804(757)
+	["C1908.blif" line: 1458, columns:54-61]
+11111 0
+.names
+588A(739)
+	["C1908.blif" line: 1460, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1460, columns:18-26]
+696(726)
+	["C1908.blif" line: 1460, columns:28-35]
+731(676)
+	["C1908.blif" line: 1460, columns:37-44]
+958(265)
+	["C1908.blif" line: 1460, columns:46-53]
+1509(758)
+	["C1908.blif" line: 1460, columns:55-63]
+11111 1
+.names
+588A(739)
+	["C1908.blif" line: 1462, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1462, columns:18-26]
+675(725)
+	["C1908.blif" line: 1462, columns:28-35]
+756(677)
+	["C1908.blif" line: 1462, columns:37-44]
+958(265)
+	["C1908.blif" line: 1462, columns:46-53]
+1517(759)
+	["C1908.blif" line: 1462, columns:55-63]
+11111 1
+.names
+588A(739)
+	["C1908.blif" line: 1464, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1464, columns:18-26]
+675(725)
+	["C1908.blif" line: 1464, columns:28-35]
+746(678)
+	["C1908.blif" line: 1464, columns:37-44]
+958(265)
+	["C1908.blif" line: 1464, columns:46-53]
+1525(760)
+	["C1908.blif" line: 1464, columns:55-63]
+11111 1
+.names
+588A(739)
+	["C1908.blif" line: 1466, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1466, columns:18-26]
+688(727)
+	["C1908.blif" line: 1466, columns:28-35]
+731(676)
+	["C1908.blif" line: 1466, columns:37-44]
+958(265)
+	["C1908.blif" line: 1466, columns:46-53]
+1533(761)
+	["C1908.blif" line: 1466, columns:55-63]
+11111 1
+.names
+588A(739)
+	["C1908.blif" line: 1468, columns:8-16]
+622(733)
+	["C1908.blif" line: 1468, columns:18-25]
+696(726)
+	["C1908.blif" line: 1468, columns:27-34]
+756(677)
+	["C1908.blif" line: 1468, columns:36-43]
+958(265)
+	["C1908.blif" line: 1468, columns:45-52]
+1541(762)
+	["C1908.blif" line: 1468, columns:54-62]
+11111 1
+.names
+588B(740)
+	["C1908.blif" line: 1470, columns:8-16]
+622(733)
+	["C1908.blif" line: 1470, columns:18-25]
+696(726)
+	["C1908.blif" line: 1470, columns:27-34]
+746(678)
+	["C1908.blif" line: 1470, columns:36-43]
+958(265)
+	["C1908.blif" line: 1470, columns:45-52]
+1549(763)
+	["C1908.blif" line: 1470, columns:54-62]
+11111 1
+.names
+588B(740)
+	["C1908.blif" line: 1472, columns:8-16]
+622(733)
+	["C1908.blif" line: 1472, columns:18-25]
+710(728)
+	["C1908.blif" line: 1472, columns:27-34]
+731(676)
+	["C1908.blif" line: 1472, columns:36-43]
+958(265)
+	["C1908.blif" line: 1472, columns:45-52]
+1557(764)
+	["C1908.blif" line: 1472, columns:54-62]
+11111 1
+.names
+588B(740)
+	["C1908.blif" line: 1474, columns:8-16]
+622(733)
+	["C1908.blif" line: 1474, columns:18-25]
+675(725)
+	["C1908.blif" line: 1474, columns:27-34]
+770(679)
+	["C1908.blif" line: 1474, columns:36-43]
+958(265)
+	["C1908.blif" line: 1474, columns:45-52]
+1565(765)
+	["C1908.blif" line: 1474, columns:54-62]
+11111 1
+.names
+588B(740)
+	["C1908.blif" line: 1476, columns:8-16]
+622(733)
+	["C1908.blif" line: 1476, columns:18-25]
+688(727)
+	["C1908.blif" line: 1476, columns:27-34]
+756(677)
+	["C1908.blif" line: 1476, columns:36-43]
+969(266)
+	["C1908.blif" line: 1476, columns:45-52]
+808(766)
+	["C1908.blif" line: 1476, columns:54-61]
+11111 0
+.names
+588B(740)
+	["C1908.blif" line: 1478, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1478, columns:18-26]
+710(728)
+	["C1908.blif" line: 1478, columns:28-35]
+746(678)
+	["C1908.blif" line: 1478, columns:37-44]
+969(266)
+	["C1908.blif" line: 1478, columns:46-53]
+812(767)
+	["C1908.blif" line: 1478, columns:55-62]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1480, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1480, columns:17-25]
+696(726)
+	["C1908.blif" line: 1480, columns:27-34]
+756(677)
+	["C1908.blif" line: 1480, columns:36-43]
+969(266)
+	["C1908.blif" line: 1480, columns:45-52]
+816(768)
+	["C1908.blif" line: 1480, columns:54-61]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1482, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1482, columns:17-25]
+696(726)
+	["C1908.blif" line: 1482, columns:27-34]
+746(678)
+	["C1908.blif" line: 1482, columns:36-43]
+969(266)
+	["C1908.blif" line: 1482, columns:45-52]
+820(769)
+	["C1908.blif" line: 1482, columns:54-61]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1484, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1484, columns:17-25]
+710(728)
+	["C1908.blif" line: 1484, columns:27-34]
+731(676)
+	["C1908.blif" line: 1484, columns:36-43]
+969(266)
+	["C1908.blif" line: 1484, columns:45-52]
+824(770)
+	["C1908.blif" line: 1484, columns:54-61]
+11111 0
+.names
+573(738)
+	["C1908.blif" line: 1486, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1486, columns:17-25]
+688(727)
+	["C1908.blif" line: 1486, columns:27-34]
+756(677)
+	["C1908.blif" line: 1486, columns:36-43]
+969(266)
+	["C1908.blif" line: 1486, columns:45-52]
+828(771)
+	["C1908.blif" line: 1486, columns:54-61]
+11111 0
+.names
+588B(740)
+	["C1908.blif" line: 1488, columns:8-16]
+639B(735)
+	["C1908.blif" line: 1488, columns:18-26]
+696(726)
+	["C1908.blif" line: 1488, columns:28-35]
+770(679)
+	["C1908.blif" line: 1488, columns:37-44]
+969(266)
+	["C1908.blif" line: 1488, columns:46-53]
+832(772)
+	["C1908.blif" line: 1488, columns:55-62]
+11111 0
+.names
+588B(740)
+	["C1908.blif" line: 1490, columns:8-16]
+639B(735)
+	["C1908.blif" line: 1490, columns:18-26]
+710(728)
+	["C1908.blif" line: 1490, columns:28-35]
+756(677)
+	["C1908.blif" line: 1490, columns:37-44]
+969(266)
+	["C1908.blif" line: 1490, columns:46-53]
+836(773)
+	["C1908.blif" line: 1490, columns:55-62]
+11111 0
+.names
+588B(740)
+	["C1908.blif" line: 1492, columns:8-16]
+622(733)
+	["C1908.blif" line: 1492, columns:18-25]
+688(727)
+	["C1908.blif" line: 1492, columns:27-34]
+756(677)
+	["C1908.blif" line: 1492, columns:36-43]
+969(266)
+	["C1908.blif" line: 1492, columns:45-52]
+1573(774)
+	["C1908.blif" line: 1492, columns:54-62]
+11111 1
+.names
+588B(740)
+	["C1908.blif" line: 1494, columns:8-16]
+639A(734)
+	["C1908.blif" line: 1494, columns:18-26]
+710(728)
+	["C1908.blif" line: 1494, columns:28-35]
+746(678)
+	["C1908.blif" line: 1494, columns:37-44]
+969(266)
+	["C1908.blif" line: 1494, columns:46-53]
+1581(775)
+	["C1908.blif" line: 1494, columns:55-63]
+11111 1
+.names
+573(738)
+	["C1908.blif" line: 1496, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1496, columns:17-25]
+696(726)
+	["C1908.blif" line: 1496, columns:27-34]
+756(677)
+	["C1908.blif" line: 1496, columns:36-43]
+969(266)
+	["C1908.blif" line: 1496, columns:45-52]
+1589(776)
+	["C1908.blif" line: 1496, columns:54-62]
+11111 1
+.names
+573(738)
+	["C1908.blif" line: 1498, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1498, columns:17-25]
+696(726)
+	["C1908.blif" line: 1498, columns:27-34]
+746(678)
+	["C1908.blif" line: 1498, columns:36-43]
+969(266)
+	["C1908.blif" line: 1498, columns:45-52]
+1597(777)
+	["C1908.blif" line: 1498, columns:54-62]
+11111 1
+.names
+573(738)
+	["C1908.blif" line: 1500, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1500, columns:17-25]
+710(728)
+	["C1908.blif" line: 1500, columns:27-34]
+731(676)
+	["C1908.blif" line: 1500, columns:36-43]
+969(266)
+	["C1908.blif" line: 1500, columns:45-52]
+1605(778)
+	["C1908.blif" line: 1500, columns:54-62]
+11111 1
+.names
+573(738)
+	["C1908.blif" line: 1502, columns:8-15]
+639B(735)
+	["C1908.blif" line: 1502, columns:17-25]
+688(727)
+	["C1908.blif" line: 1502, columns:27-34]
+756(677)
+	["C1908.blif" line: 1502, columns:36-43]
+969(266)
+	["C1908.blif" line: 1502, columns:45-52]
+1613(779)
+	["C1908.blif" line: 1502, columns:54-62]
+11111 1
+.names
+588B(740)
+	["C1908.blif" line: 1504, columns:8-16]
+639B(735)
+	["C1908.blif" line: 1504, columns:18-26]
+696(726)
+	["C1908.blif" line: 1504, columns:28-35]
+770(679)
+	["C1908.blif" line: 1504, columns:37-44]
+969(266)
+	["C1908.blif" line: 1504, columns:46-53]
+1621(780)
+	["C1908.blif" line: 1504, columns:55-63]
+11111 1
+.names
+588B(740)
+	["C1908.blif" line: 1506, columns:8-16]
+639B(735)
+	["C1908.blif" line: 1506, columns:18-26]
+710(728)
+	["C1908.blif" line: 1506, columns:28-35]
+756(677)
+	["C1908.blif" line: 1506, columns:37-44]
+969(266)
+	["C1908.blif" line: 1506, columns:46-53]
+1629(781)
+	["C1908.blif" line: 1506, columns:55-63]
+11111 1
+.names
+871(742)
+	["C1908.blif" line: 1508, columns:8-15]
+873(743)
+	["C1908.blif" line: 1508, columns:17-24]
+875(744)
+	["C1908.blif" line: 1508, columns:26-33]
+877(745)
+	["C1908.blif" line: 1508, columns:35-42]
+879(746)
+	["C1908.blif" line: 1508, columns:44-51]
+881(747)
+	["C1908.blif" line: 1508, columns:53-60]
+883(748)
+	["C1908.blif" line: 1508, columns:62-69]
+885(749)
+	["C1908.blif" line: 1508, columns:71-78]
+886(782)
+	["C1908.blif" line: 1508, columns:80-87]
+11111111 1
+.names
+776(750)
+	["C1908.blif" line: 1510, columns:8-15]
+780(751)
+	["C1908.blif" line: 1510, columns:17-24]
+784(752)
+	["C1908.blif" line: 1510, columns:26-33]
+788(753)
+	["C1908.blif" line: 1510, columns:35-42]
+792(754)
+	["C1908.blif" line: 1510, columns:44-51]
+796(755)
+	["C1908.blif" line: 1510, columns:53-60]
+800(756)
+	["C1908.blif" line: 1510, columns:62-69]
+804(757)
+	["C1908.blif" line: 1510, columns:71-78]
+863(783)
+	["C1908.blif" line: 1510, columns:80-87]
+11111111 1
+.names
+776(750)
+	["C1908.blif" line: 1512, columns:8-15]
+780(751)
+	["C1908.blif" line: 1512, columns:17-24]
+784(752)
+	["C1908.blif" line: 1512, columns:26-33]
+788(753)
+	["C1908.blif" line: 1512, columns:35-42]
+792(754)
+	["C1908.blif" line: 1512, columns:44-51]
+796(755)
+	["C1908.blif" line: 1512, columns:53-60]
+800(756)
+	["C1908.blif" line: 1512, columns:62-69]
+804(757)
+	["C1908.blif" line: 1512, columns:71-78]
+857(784)
+	["C1908.blif" line: 1512, columns:80-87]
+11111111 0
+.names
+1509(758)
+	["C1908.blif" line: 1514, columns:8-16]
+1513(785)
+	["C1908.blif" line: 1514, columns:18-26]
+1 0
+.names
+1517(759)
+	["C1908.blif" line: 1516, columns:8-16]
+1521(786)
+	["C1908.blif" line: 1516, columns:18-26]
+1 0
+.names
+1525(760)
+	["C1908.blif" line: 1518, columns:8-16]
+1529(787)
+	["C1908.blif" line: 1518, columns:18-26]
+1 0
+.names
+1533(761)
+	["C1908.blif" line: 1520, columns:8-16]
+1537(788)
+	["C1908.blif" line: 1520, columns:18-26]
+1 0
+.names
+1541(762)
+	["C1908.blif" line: 1522, columns:8-16]
+1545(789)
+	["C1908.blif" line: 1522, columns:18-26]
+1 0
+.names
+1549(763)
+	["C1908.blif" line: 1524, columns:8-16]
+1553(790)
+	["C1908.blif" line: 1524, columns:18-26]
+1 0
+.names
+1557(764)
+	["C1908.blif" line: 1526, columns:8-16]
+1561(791)
+	["C1908.blif" line: 1526, columns:18-26]
+1 0
+.names
+1565(765)
+	["C1908.blif" line: 1528, columns:8-16]
+1569(792)
+	["C1908.blif" line: 1528, columns:18-26]
+1 0
+.names
+808(766)
+	["C1908.blif" line: 1530, columns:8-15]
+812(767)
+	["C1908.blif" line: 1530, columns:17-24]
+816(768)
+	["C1908.blif" line: 1530, columns:26-33]
+820(769)
+	["C1908.blif" line: 1530, columns:35-42]
+824(770)
+	["C1908.blif" line: 1530, columns:44-51]
+828(771)
+	["C1908.blif" line: 1530, columns:53-60]
+832(772)
+	["C1908.blif" line: 1530, columns:62-69]
+836(773)
+	["C1908.blif" line: 1530, columns:71-78]
+865(793)
+	["C1908.blif" line: 1530, columns:80-87]
+11111111 1
+.names
+808(766)
+	["C1908.blif" line: 1532, columns:8-15]
+812(767)
+	["C1908.blif" line: 1532, columns:17-24]
+816(768)
+	["C1908.blif" line: 1532, columns:26-33]
+820(769)
+	["C1908.blif" line: 1532, columns:35-42]
+824(770)
+	["C1908.blif" line: 1532, columns:44-51]
+828(771)
+	["C1908.blif" line: 1532, columns:53-60]
+832(772)
+	["C1908.blif" line: 1532, columns:62-69]
+836(773)
+	["C1908.blif" line: 1532, columns:71-78]
+860(794)
+	["C1908.blif" line: 1532, columns:80-87]
+11111111 0
+.names
+1573(774)
+	["C1908.blif" line: 1534, columns:8-16]
+1577(795)
+	["C1908.blif" line: 1534, columns:18-26]
+1 0
+.names
+1581(775)
+	["C1908.blif" line: 1536, columns:8-16]
+1585(796)
+	["C1908.blif" line: 1536, columns:18-26]
+1 0
+.names
+1589(776)
+	["C1908.blif" line: 1538, columns:8-16]
+1593(797)
+	["C1908.blif" line: 1538, columns:18-26]
+1 0
+.names
+1597(777)
+	["C1908.blif" line: 1540, columns:8-16]
+1601(798)
+	["C1908.blif" line: 1540, columns:18-26]
+1 0
+.names
+1605(778)
+	["C1908.blif" line: 1542, columns:8-16]
+1609(799)
+	["C1908.blif" line: 1542, columns:18-26]
+1 0
+.names
+1613(779)
+	["C1908.blif" line: 1544, columns:8-16]
+1617(800)
+	["C1908.blif" line: 1544, columns:18-26]
+1 0
+.names
+1621(780)
+	["C1908.blif" line: 1546, columns:8-16]
+1625(801)
+	["C1908.blif" line: 1546, columns:18-26]
+1 0
+.names
+1629(781)
+	["C1908.blif" line: 1548, columns:8-16]
+1633(802)
+	["C1908.blif" line: 1548, columns:18-26]
+1 0
+.names
+1629(781)
+	["C1908.blif" line: 1550, columns:8-16]
+1632(121)
+	["C1908.blif" line: 1550, columns:18-26]
+46(803)
+	["C1908.blif" line: 1550, columns:28-34]
+11 0
+.names
+1621(780)
+	["C1908.blif" line: 1552, columns:8-16]
+1624(125)
+	["C1908.blif" line: 1552, columns:18-26]
+43(804)
+	["C1908.blif" line: 1552, columns:28-34]
+11 0
+.names
+1613(779)
+	["C1908.blif" line: 1554, columns:8-16]
+1616(129)
+	["C1908.blif" line: 1554, columns:18-26]
+40(805)
+	["C1908.blif" line: 1554, columns:28-34]
+11 0
+.names
+1605(778)
+	["C1908.blif" line: 1556, columns:8-16]
+1608(133)
+	["C1908.blif" line: 1556, columns:18-26]
+37(806)
+	["C1908.blif" line: 1556, columns:28-34]
+11 0
+.names
+1597(777)
+	["C1908.blif" line: 1558, columns:8-16]
+1600(136)
+	["C1908.blif" line: 1558, columns:18-26]
+34(807)
+	["C1908.blif" line: 1558, columns:28-34]
+11 0
+.names
+1589(776)
+	["C1908.blif" line: 1560, columns:8-16]
+1592(139)
+	["C1908.blif" line: 1560, columns:18-26]
+31(808)
+	["C1908.blif" line: 1560, columns:28-34]
+11 0
+.names
+1581(775)
+	["C1908.blif" line: 1562, columns:8-16]
+1584(143)
+	["C1908.blif" line: 1562, columns:18-26]
+28(809)
+	["C1908.blif" line: 1562, columns:28-34]
+11 0
+.names
+1573(774)
+	["C1908.blif" line: 1564, columns:8-16]
+1576(148)
+	["C1908.blif" line: 1564, columns:18-26]
+25(810)
+	["C1908.blif" line: 1564, columns:28-34]
+11 0
+.names
+1565(765)
+	["C1908.blif" line: 1566, columns:8-16]
+1568(152)
+	["C1908.blif" line: 1566, columns:18-26]
+22(811)
+	["C1908.blif" line: 1566, columns:28-34]
+11 0
+.names
+1557(764)
+	["C1908.blif" line: 1568, columns:8-16]
+1560(156)
+	["C1908.blif" line: 1568, columns:18-26]
+19(812)
+	["C1908.blif" line: 1568, columns:28-34]
+11 0
+.names
+1549(763)
+	["C1908.blif" line: 1570, columns:8-16]
+1552(159)
+	["C1908.blif" line: 1570, columns:18-26]
+16(813)
+	["C1908.blif" line: 1570, columns:28-34]
+11 0
+.names
+1541(762)
+	["C1908.blif" line: 1572, columns:8-16]
+1544(162)
+	["C1908.blif" line: 1572, columns:18-26]
+13(814)
+	["C1908.blif" line: 1572, columns:28-34]
+11 0
+.names
+1533(761)
+	["C1908.blif" line: 1574, columns:8-16]
+1536(167)
+	["C1908.blif" line: 1574, columns:18-26]
+10(815)
+	["C1908.blif" line: 1574, columns:28-34]
+11 0
+.names
+1525(760)
+	["C1908.blif" line: 1576, columns:8-16]
+1528(171)
+	["C1908.blif" line: 1576, columns:18-26]
+7(816)
+	["C1908.blif" line: 1576, columns:28-33]
+11 0
+.names
+1517(759)
+	["C1908.blif" line: 1578, columns:8-16]
+1520(174)
+	["C1908.blif" line: 1578, columns:18-26]
+4(817)
+	["C1908.blif" line: 1578, columns:28-33]
+11 0
+.names
+1509(758)
+	["C1908.blif" line: 1580, columns:8-16]
+1512(178)
+	["C1908.blif" line: 1580, columns:18-26]
+1(818)
+	["C1908.blif" line: 1580, columns:28-33]
+11 0
+.names
+863(783)
+	["C1908.blif" line: 1582, columns:8-15]
+865(793)
+	["C1908.blif" line: 1582, columns:17-24]
+886(782)
+	["C1908.blif" line: 1582, columns:26-33]
+887(819)
+	["C1908.blif" line: 1582, columns:35-42]
+111 1
+.names
+863(783)
+	["C1908.blif" line: 1584, columns:8-15]
+865(793)
+	["C1908.blif" line: 1584, columns:17-24]
+462(820)
+	["C1908.blif" line: 1584, columns:26-33]
+11 0
+.names
+860(794)
+	["C1908.blif" line: 1586, columns:8-15]
+862(38)
+	["C1908.blif" line: 1586, columns:17-23]
+1921(821)
+	["C1908.blif" line: 1586, columns:25-33]
+11 1
+.names
+857(784)
+	["C1908.blif" line: 1588, columns:8-15]
+859(39)
+	["C1908.blif" line: 1588, columns:17-23]
+1913(822)
+	["C1908.blif" line: 1588, columns:25-33]
+11 1
+.names
+1626(60)
+	["C1908.blif" line: 1590, columns:8-15]
+1633(802)
+	["C1908.blif" line: 1590, columns:17-25]
+47(823)
+	["C1908.blif" line: 1590, columns:27-33]
+11 0
+.names
+1618(62)
+	["C1908.blif" line: 1592, columns:8-15]
+1625(801)
+	["C1908.blif" line: 1592, columns:17-25]
+44(824)
+	["C1908.blif" line: 1592, columns:27-33]
+11 0
+.names
+1610(64)
+	["C1908.blif" line: 1594, columns:8-15]
+1617(800)
+	["C1908.blif" line: 1594, columns:17-25]
+41(825)
+	["C1908.blif" line: 1594, columns:27-33]
+11 0
+.names
+1602(66)
+	["C1908.blif" line: 1596, columns:8-15]
+1609(799)
+	["C1908.blif" line: 1596, columns:17-25]
+38(826)
+	["C1908.blif" line: 1596, columns:27-33]
+11 0
+.names
+1594(68)
+	["C1908.blif" line: 1598, columns:8-15]
+1601(798)
+	["C1908.blif" line: 1598, columns:17-25]
+35(827)
+	["C1908.blif" line: 1598, columns:27-33]
+11 0
+.names
+1586(70)
+	["C1908.blif" line: 1600, columns:8-15]
+1593(797)
+	["C1908.blif" line: 1600, columns:17-25]
+32(828)
+	["C1908.blif" line: 1600, columns:27-33]
+11 0
+.names
+1578(72)
+	["C1908.blif" line: 1602, columns:8-15]
+1585(796)
+	["C1908.blif" line: 1602, columns:17-25]
+29(829)
+	["C1908.blif" line: 1602, columns:27-33]
+11 0
+.names
+1570(74)
+	["C1908.blif" line: 1604, columns:8-15]
+1577(795)
+	["C1908.blif" line: 1604, columns:17-25]
+26(830)
+	["C1908.blif" line: 1604, columns:27-33]
+11 0
+.names
+1562(76)
+	["C1908.blif" line: 1606, columns:8-15]
+1569(792)
+	["C1908.blif" line: 1606, columns:17-25]
+23(831)
+	["C1908.blif" line: 1606, columns:27-33]
+11 0
+.names
+1554(78)
+	["C1908.blif" line: 1608, columns:8-15]
+1561(791)
+	["C1908.blif" line: 1608, columns:17-25]
+20(832)
+	["C1908.blif" line: 1608, columns:27-33]
+11 0
+.names
+1546(80)
+	["C1908.blif" line: 1610, columns:8-15]
+1553(790)
+	["C1908.blif" line: 1610, columns:17-25]
+17(833)
+	["C1908.blif" line: 1610, columns:27-33]
+11 0
+.names
+1538(82)
+	["C1908.blif" line: 1612, columns:8-15]
+1545(789)
+	["C1908.blif" line: 1612, columns:17-25]
+14(834)
+	["C1908.blif" line: 1612, columns:27-33]
+11 0
+.names
+1530(84)
+	["C1908.blif" line: 1614, columns:8-15]
+1537(788)
+	["C1908.blif" line: 1614, columns:17-25]
+11(835)
+	["C1908.blif" line: 1614, columns:27-33]
+11 0
+.names
+1522(86)
+	["C1908.blif" line: 1616, columns:8-15]
+1529(787)
+	["C1908.blif" line: 1616, columns:17-25]
+8(836)
+	["C1908.blif" line: 1616, columns:27-32]
+11 0
+.names
+1514(88)
+	["C1908.blif" line: 1618, columns:8-15]
+1521(786)
+	["C1908.blif" line: 1618, columns:17-25]
+5(837)
+	["C1908.blif" line: 1618, columns:27-32]
+11 0
+.names
+1506(90)
+	["C1908.blif" line: 1620, columns:8-15]
+1513(785)
+	["C1908.blif" line: 1620, columns:17-25]
+2(838)
+	["C1908.blif" line: 1620, columns:27-32]
+11 0
+.names
+1913(822)
+	["C1908.blif" line: 1622, columns:8-16]
+1916(650)
+	["C1908.blif" line: 1622, columns:18-26]
+1637(839)
+	["C1908.blif" line: 1622, columns:28-36]
+11 0
+.names
+1921(821)
+	["C1908.blif" line: 1624, columns:8-16]
+1924(651)
+	["C1908.blif" line: 1624, columns:18-26]
+1647(840)
+	["C1908.blif" line: 1624, columns:28-36]
+11 0
+.names
+1921(821)
+	["C1908.blif" line: 1626, columns:8-16]
+1925(841)
+	["C1908.blif" line: 1626, columns:18-26]
+1 0
+.names
+1913(822)
+	["C1908.blif" line: 1628, columns:8-16]
+1917(842)
+	["C1908.blif" line: 1628, columns:18-26]
+1 0
+.names
+949(33)
+	["C1908.blif" line: 1630, columns:8-14]
+867(736)
+	["C1908.blif" line: 1630, columns:16-23]
+952(31)
+	["C1908.blif" line: 1630, columns:25-31]
+887(819)
+	["C1908.blif" line: 1630, columns:33-40]
+74(843)
+	["C1908.blif" line: 1630, columns:42-48]
+1111 1
+.names
+457(205)
+	["C1908.blif" line: 1632, columns:8-15]
+911(46)
+	["C1908.blif" line: 1632, columns:17-23]
+462(820)
+	["C1908.blif" line: 1632, columns:25-32]
+1020(844)
+	["C1908.blif" line: 1632, columns:34-42]
+111 1
+.names
+459(200)
+	["C1908.blif" line: 1634, columns:8-15]
+911(46)
+	["C1908.blif" line: 1634, columns:17-23]
+462(820)
+	["C1908.blif" line: 1634, columns:25-32]
+1402(845)
+	["C1908.blif" line: 1634, columns:34-42]
+111 1
+.names
+478(27)
+	["C1908.blif" line: 1636, columns:8-14]
+911(46)
+	["C1908.blif" line: 1636, columns:16-22]
+462(820)
+	["C1908.blif" line: 1636, columns:24-31]
+1394(846)
+	["C1908.blif" line: 1636, columns:33-41]
+111 1
+.names
+475(26)
+	["C1908.blif" line: 1638, columns:8-14]
+911(46)
+	["C1908.blif" line: 1638, columns:16-22]
+462(820)
+	["C1908.blif" line: 1638, columns:24-31]
+1386(847)
+	["C1908.blif" line: 1638, columns:33-41]
+111 1
+.names
+472(25)
+	["C1908.blif" line: 1640, columns:8-14]
+911(46)
+	["C1908.blif" line: 1640, columns:16-22]
+462(820)
+	["C1908.blif" line: 1640, columns:24-31]
+1806(848)
+	["C1908.blif" line: 1640, columns:33-41]
+111 1
+.names
+469(24)
+	["C1908.blif" line: 1642, columns:8-14]
+911(46)
+	["C1908.blif" line: 1642, columns:16-22]
+462(820)
+	["C1908.blif" line: 1642, columns:24-31]
+1144(849)
+	["C1908.blif" line: 1642, columns:33-41]
+111 1
+.names
+46(803)
+	["C1908.blif" line: 1644, columns:8-14]
+47(823)
+	["C1908.blif" line: 1644, columns:16-22]
+48(850)
+	["C1908.blif" line: 1644, columns:24-30]
+11 0
+.names
+43(804)
+	["C1908.blif" line: 1646, columns:8-14]
+44(824)
+	["C1908.blif" line: 1646, columns:16-22]
+45(851)
+	["C1908.blif" line: 1646, columns:24-30]
+11 0
+.names
+40(805)
+	["C1908.blif" line: 1648, columns:8-14]
+41(825)
+	["C1908.blif" line: 1648, columns:16-22]
+42(852)
+	["C1908.blif" line: 1648, columns:24-30]
+11 0
+.names
+37(806)
+	["C1908.blif" line: 1650, columns:8-14]
+38(826)
+	["C1908.blif" line: 1650, columns:16-22]
+39(853)
+	["C1908.blif" line: 1650, columns:24-30]
+11 0
+.names
+34(807)
+	["C1908.blif" line: 1652, columns:8-14]
+35(827)
+	["C1908.blif" line: 1652, columns:16-22]
+36(854)
+	["C1908.blif" line: 1652, columns:24-30]
+11 0
+.names
+31(808)
+	["C1908.blif" line: 1654, columns:8-14]
+32(828)
+	["C1908.blif" line: 1654, columns:16-22]
+33(855)
+	["C1908.blif" line: 1654, columns:24-30]
+11 0
+.names
+28(809)
+	["C1908.blif" line: 1656, columns:8-14]
+29(829)
+	["C1908.blif" line: 1656, columns:16-22]
+30(856)
+	["C1908.blif" line: 1656, columns:24-30]
+11 0
+.names
+25(810)
+	["C1908.blif" line: 1658, columns:8-14]
+26(830)
+	["C1908.blif" line: 1658, columns:16-22]
+27(857)
+	["C1908.blif" line: 1658, columns:24-30]
+11 0
+.names
+22(811)
+	["C1908.blif" line: 1660, columns:8-14]
+23(831)
+	["C1908.blif" line: 1660, columns:16-22]
+24(858)
+	["C1908.blif" line: 1660, columns:24-30]
+11 0
+.names
+19(812)
+	["C1908.blif" line: 1662, columns:8-14]
+20(832)
+	["C1908.blif" line: 1662, columns:16-22]
+21(859)
+	["C1908.blif" line: 1662, columns:24-30]
+11 0
+.names
+16(813)
+	["C1908.blif" line: 1664, columns:8-14]
+17(833)
+	["C1908.blif" line: 1664, columns:16-22]
+18(860)
+	["C1908.blif" line: 1664, columns:24-30]
+11 0
+.names
+13(814)
+	["C1908.blif" line: 1666, columns:8-14]
+14(834)
+	["C1908.blif" line: 1666, columns:16-22]
+15(861)
+	["C1908.blif" line: 1666, columns:24-30]
+11 0
+.names
+10(815)
+	["C1908.blif" line: 1668, columns:8-14]
+11(835)
+	["C1908.blif" line: 1668, columns:16-22]
+12(862)
+	["C1908.blif" line: 1668, columns:24-30]
+11 0
+.names
+7(816)
+	["C1908.blif" line: 1670, columns:8-13]
+8(836)
+	["C1908.blif" line: 1670, columns:15-20]
+9(863)
+	["C1908.blif" line: 1670, columns:22-27]
+11 0
+.names
+4(817)
+	["C1908.blif" line: 1672, columns:8-13]
+5(837)
+	["C1908.blif" line: 1672, columns:15-20]
+6(864)
+	["C1908.blif" line: 1672, columns:22-27]
+11 0
+.names
+1(818)
+	["C1908.blif" line: 1674, columns:8-13]
+2(838)
+	["C1908.blif" line: 1674, columns:15-20]
+3(865)
+	["C1908.blif" line: 1674, columns:22-27]
+11 0
+.names
+73(741)
+	["C1908.blif" line: 1676, columns:8-14]
+74(843)
+	["C1908.blif" line: 1676, columns:16-22]
+75(866)
+	["C1908.blif" line: 1676, columns:24-30]
+00 1
+.names
+1910(631)
+	["C1908.blif" line: 1678, columns:8-16]
+1917(842)
+	["C1908.blif" line: 1678, columns:18-26]
+1638(867)
+	["C1908.blif" line: 1678, columns:28-36]
+11 0
+.names
+1918(632)
+	["C1908.blif" line: 1680, columns:8-16]
+1925(841)
+	["C1908.blif" line: 1680, columns:18-26]
+1648(868)
+	["C1908.blif" line: 1680, columns:28-36]
+11 0
+.names
+1020(844)
+	["C1908.blif" line: 1682, columns:8-16]
+1028(869)
+	["C1908.blif" line: 1682, columns:18-26]
+1 0
+.names
+1402(845)
+	["C1908.blif" line: 1684, columns:8-16]
+1408(870)
+	["C1908.blif" line: 1684, columns:18-26]
+1 0
+.names
+1394(846)
+	["C1908.blif" line: 1686, columns:8-16]
+1400(871)
+	["C1908.blif" line: 1686, columns:18-26]
+1 0
+.names
+1386(847)
+	["C1908.blif" line: 1688, columns:8-16]
+1392(872)
+	["C1908.blif" line: 1688, columns:18-26]
+1 0
+.names
+1806(848)
+	["C1908.blif" line: 1690, columns:8-16]
+1812(873)
+	["C1908.blif" line: 1690, columns:18-26]
+1 0
+.names
+1144(849)
+	["C1908.blif" line: 1692, columns:8-16]
+1152(874)
+	["C1908.blif" line: 1692, columns:18-26]
+1 0
+.names
+1144(849)
+	["C1908.blif" line: 1694, columns:8-16]
+1153(681)
+	["C1908.blif" line: 1694, columns:18-26]
+350(875)
+	["C1908.blif" line: 1694, columns:28-35]
+11 0
+.names
+1020(844)
+	["C1908.blif" line: 1696, columns:8-16]
+1029(682)
+	["C1908.blif" line: 1696, columns:18-26]
+287(876)
+	["C1908.blif" line: 1696, columns:28-35]
+11 0
+.names
+1402(845)
+	["C1908.blif" line: 1698, columns:8-16]
+1409(622)
+	["C1908.blif" line: 1698, columns:18-26]
+431(877)
+	["C1908.blif" line: 1698, columns:28-35]
+11 0
+.names
+1394(846)
+	["C1908.blif" line: 1700, columns:8-16]
+1401(584)
+	["C1908.blif" line: 1700, columns:18-26]
+429(878)
+	["C1908.blif" line: 1700, columns:28-35]
+11 0
+.names
+1806(848)
+	["C1908.blif" line: 1702, columns:8-16]
+1813(629)
+	["C1908.blif" line: 1702, columns:18-26]
+1216(879)
+	["C1908.blif" line: 1702, columns:28-36]
+11 0
+.names
+1386(847)
+	["C1908.blif" line: 1704, columns:8-16]
+1393(612)
+	["C1908.blif" line: 1704, columns:18-26]
+427(880)
+	["C1908.blif" line: 1704, columns:28-35]
+11 0
+.names
+1637(839)
+	["C1908.blif" line: 1706, columns:8-16]
+1638(867)
+	["C1908.blif" line: 1706, columns:18-26]
+1639(881)
+	["C1908.blif" line: 1706, columns:28-36]
+11 0
+.names
+1647(840)
+	["C1908.blif" line: 1708, columns:8-16]
+1648(868)
+	["C1908.blif" line: 1708, columns:18-26]
+1649(882)
+	["C1908.blif" line: 1708, columns:28-36]
+11 0
+.names
+1149(669)
+	["C1908.blif" line: 1710, columns:8-16]
+1152(874)
+	["C1908.blif" line: 1710, columns:18-26]
+349(883)
+	["C1908.blif" line: 1710, columns:28-35]
+11 0
+.names
+1025(670)
+	["C1908.blif" line: 1712, columns:8-16]
+1028(869)
+	["C1908.blif" line: 1712, columns:18-26]
+286(884)
+	["C1908.blif" line: 1712, columns:28-35]
+11 0
+.names
+1405(604)
+	["C1908.blif" line: 1714, columns:8-16]
+1408(870)
+	["C1908.blif" line: 1714, columns:18-26]
+430(885)
+	["C1908.blif" line: 1714, columns:28-35]
+11 0
+.names
+1397(564)
+	["C1908.blif" line: 1716, columns:8-16]
+1400(871)
+	["C1908.blif" line: 1716, columns:18-26]
+428(886)
+	["C1908.blif" line: 1716, columns:28-35]
+11 0
+.names
+1809(610)
+	["C1908.blif" line: 1718, columns:8-16]
+1812(873)
+	["C1908.blif" line: 1718, columns:18-26]
+1215(887)
+	["C1908.blif" line: 1718, columns:28-36]
+11 0
+.names
+1389(592)
+	["C1908.blif" line: 1720, columns:8-16]
+1392(872)
+	["C1908.blif" line: 1720, columns:18-26]
+426(888)
+	["C1908.blif" line: 1720, columns:28-35]
+11 0
+.names
+1639(881)
+	["C1908.blif" line: 1722, columns:8-16]
+1643(889)
+	["C1908.blif" line: 1722, columns:18-26]
+1 0
+.names
+1649(882)
+	["C1908.blif" line: 1724, columns:8-16]
+1653(890)
+	["C1908.blif" line: 1724, columns:18-26]
+1 0
+.names
+1639(881)
+	["C1908.blif" line: 1726, columns:8-16]
+1642(183)
+	["C1908.blif" line: 1726, columns:18-26]
+67(891)
+	["C1908.blif" line: 1726, columns:28-34]
+11 0
+.names
+1649(882)
+	["C1908.blif" line: 1728, columns:8-16]
+1652(184)
+	["C1908.blif" line: 1728, columns:18-26]
+70(892)
+	["C1908.blif" line: 1728, columns:28-34]
+11 0
+.names
+349(883)
+	["C1908.blif" line: 1730, columns:8-15]
+350(875)
+	["C1908.blif" line: 1730, columns:17-24]
+53(893)
+	["C1908.blif" line: 1730, columns:26-32]
+11 0
+.names
+286(884)
+	["C1908.blif" line: 1732, columns:8-15]
+287(876)
+	["C1908.blif" line: 1732, columns:17-24]
+49(894)
+	["C1908.blif" line: 1732, columns:26-32]
+11 0
+.names
+430(885)
+	["C1908.blif" line: 1734, columns:8-15]
+431(877)
+	["C1908.blif" line: 1734, columns:17-24]
+65(895)
+	["C1908.blif" line: 1734, columns:26-32]
+11 0
+.names
+428(886)
+	["C1908.blif" line: 1736, columns:8-15]
+429(878)
+	["C1908.blif" line: 1736, columns:17-24]
+61(896)
+	["C1908.blif" line: 1736, columns:26-32]
+11 0
+.names
+1215(887)
+	["C1908.blif" line: 1738, columns:8-16]
+1216(879)
+	["C1908.blif" line: 1738, columns:18-26]
+1217(897)
+	["C1908.blif" line: 1738, columns:28-36]
+11 0
+.names
+426(888)
+	["C1908.blif" line: 1740, columns:8-15]
+427(880)
+	["C1908.blif" line: 1740, columns:17-24]
+59(898)
+	["C1908.blif" line: 1740, columns:26-32]
+11 0
+.names
+49(894)
+	["C1908.blif" line: 1742, columns:8-14]
+50(91)
+	["C1908.blif" line: 1742, columns:16-21]
+51(899)
+	["C1908.blif" line: 1742, columns:23-29]
+11 1
+.names
+52(92)
+	["C1908.blif" line: 1744, columns:8-13]
+53(893)
+	["C1908.blif" line: 1744, columns:15-21]
+54(900)
+	["C1908.blif" line: 1744, columns:23-29]
+11 1
+.names
+58(94)
+	["C1908.blif" line: 1746, columns:8-13]
+59(898)
+	["C1908.blif" line: 1746, columns:15-21]
+60(901)
+	["C1908.blif" line: 1746, columns:23-29]
+11 1
+.names
+61(896)
+	["C1908.blif" line: 1748, columns:8-14]
+62(95)
+	["C1908.blif" line: 1748, columns:16-21]
+63(902)
+	["C1908.blif" line: 1748, columns:23-29]
+11 1
+.names
+64(96)
+	["C1908.blif" line: 1750, columns:8-13]
+65(895)
+	["C1908.blif" line: 1750, columns:15-21]
+66(903)
+	["C1908.blif" line: 1750, columns:23-29]
+11 1
+.names
+1634(99)
+	["C1908.blif" line: 1752, columns:8-15]
+1643(889)
+	["C1908.blif" line: 1752, columns:17-25]
+68(904)
+	["C1908.blif" line: 1752, columns:27-33]
+11 0
+.names
+1644(100)
+	["C1908.blif" line: 1754, columns:8-16]
+1653(890)
+	["C1908.blif" line: 1754, columns:18-26]
+71(905)
+	["C1908.blif" line: 1754, columns:28-34]
+11 0
+.names
+1217(897)
+	["C1908.blif" line: 1756, columns:8-16]
+1220(391)
+	["C1908.blif" line: 1756, columns:18-26]
+375(906)
+	["C1908.blif" line: 1756, columns:28-35]
+11 0
+.names
+1217(897)
+	["C1908.blif" line: 1758, columns:8-16]
+1221(907)
+	["C1908.blif" line: 1758, columns:18-26]
+1 0
+.names
+67(891)
+	["C1908.blif" line: 1760, columns:8-14]
+68(904)
+	["C1908.blif" line: 1760, columns:16-22]
+69(908)
+	["C1908.blif" line: 1760, columns:24-30]
+11 0
+.names
+70(892)
+	["C1908.blif" line: 1762, columns:8-14]
+71(905)
+	["C1908.blif" line: 1762, columns:16-22]
+72(909)
+	["C1908.blif" line: 1762, columns:24-30]
+11 0
+.names
+1212(363)
+	["C1908.blif" line: 1764, columns:8-16]
+1221(907)
+	["C1908.blif" line: 1764, columns:18-26]
+376(910)
+	["C1908.blif" line: 1764, columns:28-35]
+11 0
+.names
+375(906)
+	["C1908.blif" line: 1766, columns:8-15]
+376(910)
+	["C1908.blif" line: 1766, columns:17-24]
+55(911)
+	["C1908.blif" line: 1766, columns:26-32]
+11 0
+.names
+55(911)
+	["C1908.blif" line: 1768, columns:8-14]
+56(93)
+	["C1908.blif" line: 1768, columns:16-21]
+57(912)
+	["C1908.blif" line: 1768, columns:23-29]
+11 1
+.end
+	["C1908.blif" line: 1770, columns:1-4]
+normal_exit

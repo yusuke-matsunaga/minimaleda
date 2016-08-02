@@ -1,0 +1,198 @@
+.model att18
+.inputs a b c d e f g h i j k l m n o p q r s
+.outputs t u v w x y z a0 b0 c0 d0 e0 f0 g0 h0
+.names b c j2 o t
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names b j2
+0 1
+.names l2 u
+0 1
+.names f p w0 i2 k2 l2
+0---0 1
+--0-0 1
+00-0- 1
+-000- 1
+.names d g q v0 w0 v
+-00-0 1
+00-00 1
+.names c v0
+0 1
+.names e w0
+0 1
+.names y0 x0 z0 w
+0-0 1
+-00 1
+.names h y0
+0 1
+.names g x0
+0 1
+.names c e x0 y0 a1 b1 z0
+-0---- 1
+--00-- 1
+0----0 1
+----00 1
+.names x0 y0 c1 d1 x
+--00 1
+00-0 1
+.names i c1
+0 1
+.names c e x0 y0 a1 b1 c1 d1
+-0----- 1
+0----0- 1
+----00- 1
+--00--0 1
+.names e1 f1 g1 y
+--0 1
+00- 1
+.names j e1
+0 1
+.names c1 y0 x0 f1
+000 1
+.names d g h i q v0 w0 e1 g1
+-0--0-0- 1
+--0-0-0- 1
+---00-0- 1
+----0-00 1
+00---00- 1
+0-0--00- 1
+0--0-00- 1
+0----000 1
+.names h1 i1 b1 c e j1 z
+----0- 1
+-----0 1
+00---- 1
+--00-- 1
+.names k h1
+0 1
+.names j c1 y0 x0 i1
+0000 1
+.names q b1
+0 1
+.names i h g k1 q d j1
+0---0- 1
+-0--0- 1
+--0-0- 1
+---00- 1
+0----0 1
+-0---0 1
+--0--0 1
+---0-0 1
+.names l1 m1 b1 c e n1 a0
+----0- 1
+-----0 1
+00---- 1
+--00-- 1
+.names l l1
+0 1
+.names c1 y0 x0 p1 m1
+0000 1
+.names i h g o1 q d n1
+0---0- 1
+-0--0- 1
+--0-0- 1
+---00- 1
+0----0 1
+-0---0 1
+--0--0 1
+---0-0 1
+.names q1 r1 b1 c e s1 b0
+----0- 1
+-----0 1
+00---- 1
+--00-- 1
+.names m q1
+0 1
+.names c1 y0 x0 u1 r1
+0000 1
+.names i h g t1 q d s1
+0---0- 1
+-0--0- 1
+--0-0- 1
+---00- 1
+0----0 1
+-0---0 1
+--0--0 1
+---0-0 1
+.names v1 w1 b1 c e x1 c0
+----0- 1
+-----0 1
+00---- 1
+--00-- 1
+.names n v1
+0 1
+.names c1 y0 x0 a2 w1
+0000 1
+.names h g y1 z1 q d x1
+0---0- 1
+-0--0- 1
+--0-0- 1
+---00- 1
+0----0 1
+-0---0 1
+--0--0 1
+---0-0 1
+.names x0 w0 b2 c2 d2 d0
+----0 1
+0000- 1
+.names e1 i h b2
+0-- 1
+-0- 1
+--0 1
+.names a z1 e2 c2
+--0 1
+00- 1
+.names v0 d o e q d2
+--0-- 1
+---0- 1
+----0 1
+00--- 1
+.names c w0 a1 b1 f0
+-00- 1
+00-0 1
+.names d a1
+0 1
+.names h2 w0 h0
+00 1
+.names r h2
+0 1
+.names k j k1
+00 1
+.names h1 e1 p1
+0- 1
+-0 1
+.names l k j o1
+000 1
+.names l1 h1 e1 u1
+0-- 1
+-0- 1
+--0 1
+.names m l k j t1
+0000 1
+.names q1 l1 h1 e1 a2
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names j c1 y1
+00 1
+.names n m l k z1
+0000 1
+.names v0 d q e2
+--0 1
+00- 1
+.names o f2
+0 1
+.names p g2
+0 1
+.names s i2
+0 1
+.names f k2
+0 1
+.names c e0
+1 1
+.names e g0
+1 1
+.end

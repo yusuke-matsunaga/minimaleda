@@ -1,0 +1,51 @@
+# common definitions for TEST environment
+#
+# $Id: common_defs 2275 2009-06-10 10:56:15Z matsunaga $
+#
+# Copyright (C) 2005-2009 Yusuke Matsunaga
+# All rights reserved.
+
+# Make sure srcdir is an absolute path. Supply the variable
+# if it does not exist. We want to be able to run the tests
+# stand-alone!!
+srcdir=${srcdir-.}
+if test ! -d $srcdir ; then
+    echo "defs: installation error" 1>&2
+    exit 1
+fi
+
+# If the source directory is a Unix or a DOS root directory, ...
+case "$srcdir" in
+    /* | [A-Za-z]:\\*) ;;
+    *) srcdir=`\cd $srcdir && pwd`;;
+esac
+
+case "$top_builddir" in
+    /* | [A-Za-z]:\\*) ;;
+    *) top_builddir=`\cd ${top_builddir-..} && pwd`;;
+esac
+
+progname=`echo "$0" | sed 's,^.*/,,'`
+testname=`echo "$progname" | sed 's,-.*$,,'`
+testsubdir=${testsubdir-testSubDir}
+
+# User can set VERBOSE to prevent output redirection
+case x$VERBOSE in
+    xNO | xno | x0 | x)
+	exec > /dev/null 2>&1
+	;;
+esac
+
+rm -rf $testsubdir > /dev/null 2>&1
+mkdir $testsubdir
+cd $testsubdir \
+    || { echo "Cannot make or change into $testsubdir"; exit 1; }
+
+echo "=== Running test $progname"
+
+CMP="${CMP-cmp}"
+TEST_PATH="${top_builddir}/testsuites"
+
+### Local Variables:
+### mode: sh
+### End:

@@ -1,0 +1,9 @@
+# warning 3-4-1
+# .outputs without name
+.model test1
+.inputs a b
+.outputs x
+.outputs
+.names a b x
+11 1
+.end

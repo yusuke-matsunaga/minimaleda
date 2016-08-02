@@ -1,0 +1,7 @@
+# error 3-6-1
+# .gate without name
+.model test1
+.inputs a b
+.outputs x
+.gate 
+.end

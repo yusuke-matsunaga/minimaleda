@@ -1,0 +1,7 @@
+
+2007年12月11日
+default_nettype noe で input のみ宣言するとエラーになる(これは想定内)
+このときあとで assert_cond() で引っかかる．
+関連データ：
+  mine/defnet.v
+

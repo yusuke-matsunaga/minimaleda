@@ -1,0 +1,2 @@
+"C5315net.blif" line: 59, columns:20-27 [ER_MLTDEF01]: inv__[3]: Defined more than once. Previsous Definition is "C5315net.blif" line: 49, columns:20-27.
+Error in reading C5315net.blif

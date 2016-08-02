@@ -1,0 +1,9 @@
+# error 3-1-4
+# more than one .model
+.model test1
+.model test2
+.inputs a b
+.outputs x
+.names a b x
+11 1
+.end

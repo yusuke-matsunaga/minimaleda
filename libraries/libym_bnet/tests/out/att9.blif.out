@@ -1,0 +1,70 @@
+.model att9
+.inputs a b c d e f g h i j
+.outputs k l m n o p q
+.names y k
+1 1
+.names g0 f0 j0 i0 i j y
+1----- 1
+-1---- 1
+--1--- 1
+---1-- 1
+----00 1
+.names z l
+1 1
+.names f0 j0 i0 h j z
+1---- 1
+-1--- 1
+--1-- 1
+---10 1
+.names a0 m
+1 1
+.names h i j a0
+000 1
+.names b0 n
+1 1
+.names a0 g0 j0 i0 c a b h j b0
+1-------- 1
+-1------- 1
+--1------ 1
+---1----- 1
+----1---- 1
+-----1--- 1
+------1-- 1
+-------10 1
+.names c0 o
+1 1
+.names a0 f0 j0 i0 g c0
+1---- 1
+-1--- 1
+--1-- 1
+---1- 1
+----0 1
+.names d0 p
+1 1
+.names h0 g i j a b c h d e d0
+1--------- 1
+-0-------- 1
+--00------ 1
+---0---110 1
+--0-0010-- 1
+--110011-- 1
+.names e0 q
+1 1
+.names h0 a0 g0 g a b c h j d e i e0
+1----------- 1
+-1---------- 1
+--1--------- 1
+---0-------- 1
+----00011--- 1
+-------10111 1
+.names h i j g0
+101 1
+.names h i f0
+01 1
+.names i j j0
+11 1
+.names h j i0
+01 1
+.names f h i j h0
+1011 1
+.end

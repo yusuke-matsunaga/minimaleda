@@ -1,0 +1,8 @@
+# error 3-5-8
+# illegal character in the input field
+.model test1
+.inputs a b
+.outputs x
+.names a b x
+12 1
+.end

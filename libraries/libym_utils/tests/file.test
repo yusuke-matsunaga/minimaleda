@@ -1,0 +1,110 @@
+# $Id: file.test 396 2007-03-05 09:13:51Z matsunaga $
+
+# Common definitions
+if test -z "$srcdir"; then
+    srcdir=echo "$0" | sed 's,[^/]*$,,'
+    test "$srcdir" = "$0" && srcdir=.
+    test -z "$srcdir" && srcdir=.
+    test "${VERBOSE+set}" != set && VERBOSE=1
+fi
+. ${srcdir}/local_defs
+
+set `logname`
+login=$1
+home=`cd; pwd`
+
+# this is the test script
+cat <<\EOF > in
+/0123/456.
+/xyz/0123/abcd.yyx
+/abc/.xxx
+abcde
+~/foo
+EOF
+echo "~${login}/bcde/gf.x.y.z" >> in
+
+# this is the output we should expect to see
+cat <<\EOF > ok
+Original string : /0123/456.
+Path Type: absolute
+composed string : /0123/456.
+expanded string : /0123/456.
+head            : /0123
+tail            : 456.
+body            : 456
+ext             : 
+Original string : /xyz/0123/abcd.yyx
+Path Type: absolute
+composed string : /xyz/0123/abcd.yyx
+expanded string : /xyz/0123/abcd.yyx
+head            : /xyz/0123
+tail            : abcd.yyx
+body            : abcd
+ext             : yyx
+Original string : /abc/.xxx
+Path Type: absolute
+composed string : /abc/.xxx
+expanded string : /abc/.xxx
+head            : /abc
+tail            : .xxx
+body            : .xxx
+ext             : 
+Original string : abcde
+Path Type: relative
+composed string : abcde
+EOF
+echo "expanded string : `pwd`/abcde" >> ok
+echo "head            : ">> ok
+echo "tail            : abcde" >> ok
+echo "body            : abcde" >> ok
+echo "ext             : " >> ok
+echo "Original string : ~/foo" >> ok
+echo "Path Type: home relative" >> ok
+echo "composed string : ~/foo" >> ok
+echo "expanded string : ${home}/foo" >> ok
+echo "head            : ~" >> ok
+echo "tail            : foo" >> ok
+echo "body            : foo" >> ok
+echo "ext             : " >> ok
+echo "Original string : ~${login}/bcde/gf.x.y.z" >> ok
+echo "Path Type: home relative" >> ok
+echo "composed string : ~${login}/bcde/gf.x.y.z" >> ok
+echo "expanded string : ${home}/bcde/gf.x.y.z" >> ok
+echo "head            : ~${login}/bcde" >> ok
+echo "tail            : gf.x.y.z" >> ok
+echo "body            : gf.x.y" >> ok
+echo "ext             : z" >> ok
+
+cat <<\EOF >errok
+EOF
+
+# Run the test saving stderr to a file, and showing stdout
+# if VERBOSE == 1
+${TEST_PATH}/file_test < in 2> err | tee -i out >&2
+
+# Test against expected output
+if ${CMP} -s out ok; then
+    :
+else
+    echo "ok:" >&2
+    cat ok >&2
+    exit 1
+fi
+
+# Munge error output to remove leading directories, 'lt-' or
+# trailing '.exe'
+
+# Show stderr in case  of not matching expected output if VERBOSE == 1
+if ${CMP} -s err errok; then
+    :
+else
+    echo "err:" >&2
+    cat err >&2
+    echo "errok:" >&2
+    cat errok >&2
+    exit 1
+fi
+
+### Local Variables:
+### mode: sh
+### End:

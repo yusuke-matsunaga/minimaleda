@@ -1,0 +1,2 @@
+BDD に condense を作る．
+仕様は Npn を参考にする．

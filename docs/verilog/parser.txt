@@ -1,0 +1,100 @@
+Verilog-HDL のパーズの仕方
+
+○字句解析の話
+
+
+○シンタックスとセマンティックスの話
+IEEE1364-2001 の BNF 表記を見ているとシンタックスではなくセマンティッ
+クスを書いているところが多い．
+たとえば，identifier としか字句解析では判断できないところを
+module_identifier とか udp_identifier と書いている．
+で，実際には通常のやり方では区別ができない．
+そのため，yacc では甘く判定しておいて，その後で厳しいチェックを行う，
+という方法を取らざるを得ない．
+現時点で，この種類の問題として分かっているもの
+
+1. expression と constant_expression
+これは構文規則で分けることは可能だが，場合によってはどちらが来ても良い
+ところがあり，reduce/reduce conflict を起こしてしまう．
+とりあえず expression で読み込んでおいてあとで constant_expression の
+箇所をチェックする．
+
+そのためのメカニズムとして PtBlockItem::assert_const() <- 名前は変えて
+もいいかも - を使う．
+PtBlockItem はトップモジュールから終端まで一つの木になっているので，
+PtBlockItem::assert_const() を呼び出すことで，各 PtBlockItem 中のチェッ
+クを行うことができる．実際には assert_const_body() という仮想関数を上
+書きすることで各クラス固有のチェックを行う．
+
+yacc の構文上，constant_expression を expression として読んでいるのは
+以下の箇所
+
+- port_reference ::= port_identifier '[' constant_expression ']'
+- port_reference ::= port_identifier '[' range_expression ']'
+  range_expression は明らかに constant_range_expression の誤り．
+  なんでこんなことになっているかというと IEEE1364-1995 の時には
+  (variable)range_expression というものがなく，range_expression =
+  constant_range_expression だったからだと推測される．
+  それはともかく，これは PtPrimary の添字が constant でなければならな
+  いという条件なので PtPrimary に細工をして mConstIndex というメンバを
+  追加した．これが true の場合，assert_const_body() 内でインデックスが
+  定数式かどうかチェックするようにしている．
+
+- defparam_assignment ::= hierarchical_identifier '=' constant_expression
+  単純に PtDefParam の右辺が定数であるかをチェックすれば良い．
+
+- real_type ::= identifier '=' constant_identifier
+- variable_type ::= identifier '=' constant_identifier
+  PtVarDecl の初期化式が定数であるかをチェックする．
+
+- variable_port_identifier ::= identifier '=' constant_expression
+  PtIODecl にチェックを追加すれば良いように思えるが，実際にはこの初期
+  化文に対応する変数宣言を自動的に生成するのでそちらの PtVarDecl でチェッ
+  クを行う．
+
+- param_assignment ::= identifier '=' constant_expression
+  PtParamDecl の右辺が定数であるかをチェックする．
+
+- specparam_assignment ::= identifier '=' constant_mintypmax_expression
+  これ以外にも specparam の右辺は定数なので PtSpecAssign では式が定数
+  であるかをチェックする．
+
+- dimension ::= '[' dimension_constant_expression ':'
+                    dimension_constant_expression ']'
+  dimension_constant_expression って何？という話は置いておいて，
+  PtRange で定数のチェックを行う．
+  これ以外にも PtRange を生成するルールはある．opt_range とか．
+  また PtType も同様にチェックを行う．
+
+- generate ブロック中の式はほとんどが定数なので PtGenIf, PtGenCase,
+  PtGenCaseItem, PtGenFor でチェックを行う．
+
+- udp_output_declaration の初期値
+  現時点ではどう対応しているか不明(##TODO##)
+
+- specify_terminal_descriptor
+  前述の PtPrimary の mConstIndex フラグを用いる．
+
+- path_delay_expression
+  PtPathDelay の中でチェックする．
+
+- net_lvalue
+  gate/UDP/module の出力ポートに接続できるものは net_lvalue のみ．
+  もしくはこれらの出力ポートの接続先は assign 文の左辺と同様の制約を持
+  つと考えれば良い．こちらは未対応(##TODO##)
+  もう一つは本当の assign 文の左辺. これは PtContAssign の中でチェック
+  する．このために PtExpr::check_net_lvalue() という仮想関数を追加した．
+
+- delayed_data の括弧の中の mintypmax_expression が定数
+  でもまだちゃんとパーズしていないのでチェックしていない(##TODO##)
+
+2. module instance と UDP instance の区別ができない
+どちらも最初に identifier が来るが，その名前が module として定義されて
+いるか UDP として定義されているかはファイルを読んだ時点では分からない．
+IEEE1364-2001 の仕様として UDP instance が UDP 定義より前に来ていても
+良いと書いてあるので，仕様的には判断不可能である．
+
+ということで，mu_instance という非終端ノードを用意して両方を読めるよう
+にしている．ただ，module instance の場合にはパラメータポートリストを表
+すのに '#' を使い，UDP instance の場合には遅延値を表すのに '#' を使う
+ので大まかに読んでおいてあとでチェックする必要がある．

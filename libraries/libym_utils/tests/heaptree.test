@@ -1,0 +1,95 @@
+# $Id: heaptree.test 360 2007-02-07 06:23:19Z matsunaga $
+
+# Common definitions
+if test -z "$srcdir"; then
+    srcdir=echo "$0" | sed 's,[^/]*$,,'
+    test "$srcdir" = "$0" && srcdir=.
+    test -z "$srcdir" && srcdir=.
+    test "${VERBOSE+set}" != set && VERBOSE=1
+fi
+. $srcdir/local_defs
+
+# this is the test script
+cat <<\EOF > in
+EOF
+
+# this is the output we should expect to see
+cat <<\EOF > ok
+===<test1>===
+1
+2
+3
+3
+4
+5
+6
+7
+9
+
+===<test2>===
+a
+a
+ab
+abc
+brown
+dog
+fox
+jumped
+lazy
+over
+pqr
+quick
+this
+xyz
+
+===<test3>===
+a
+a
+ab
+abc
+xyz
+fox
+pqr
+dog
+lazy
+over
+this
+quick
+brown
+jumped
+
+EOF
+
+cat <<\EOF >errok
+EOF
+
+# Run the test saving stderr to a file, and showing stdout
+# if VERBOSE == 1
+${TEST_PATH}/heaptree_test < in 2> err | tee -i out >&2
+
+# Test against expected output
+if ${CMP} -s out ok; then
+    :
+else
+    echo "ok:" >&2
+    cat ok >&2
+    exit 1
+fi
+
+# Munge error output to remove leading directories, 'lt-' or
+# trailing '.exe'
+
+# Show stderr in case  of not matching expected output if VERBOSE == 1
+if ${CMP} -s err errok; then
+    :
+else
+    echo "err:" >&2
+    cat err >&2
+    echo "errok:" >&2
+    cat errok >&2
+    exit 1
+fi
+
+### Local Variables:
+### mode: sh
+### End:

@@ -1,0 +1,8 @@
+# error 3-6-6
+# duplicate name in .latch and .gate
+.model test1
+.inputs a b
+.outputs x
+.latch a x
+.gate inv4x o=x a=a
+.end

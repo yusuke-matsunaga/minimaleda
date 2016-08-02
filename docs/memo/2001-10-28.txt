@@ -1,0 +1,7 @@
+
+- BNetwork の脱 FCL 化．特に hf_CString と hf_TAssoc
+  10/28 ほぼ完
+
+- BNET_ERROR の例外化
+
+- hf_mForEach マクロの廃止

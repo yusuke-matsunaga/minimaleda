@@ -1,0 +1,180 @@
+dnl Process this file with autoconf to produce a configure script
+dnl
+dnl $Id: configure.ac 500 2007-03-26 20:49:59Z matsunaga $
+
+dnl ===================================================================
+dnl Initial block
+dnl ===================================================================
+AC_REVISION($Rev: 500 $)dnl
+
+AC_INIT([led], [1.0], 
+        [yusuke_matsunaga@ieee.org],
+        [led])dnl
+
+AC_PREREQ(2.57)dnl
+
+AC_COPYRIGHT([
+Copyright (C) 2005-2007 Yusuke Matsunaga
+All rights reserved.
+])dnl
+
+AC_CONFIG_SRCDIR([src/led.cc])dnl
+
+AC_CONFIG_AUX_DIR([config])dnl
+AC_CONFIG_MACRO_DIR([config])dnl
+AC_SUBST(ac_aux_dir)dnl
+
+AM_INIT_AUTOMAKE()dnl
+
+AC_CONFIG_HEADERS([config.h])dnl
+
+if test ${prefix} = NONE; then
+  prefix=${ac_default_prefix}
+fi
+
+
+dnl ===================================================================
+dnl Checks for programs
+dnl ===================================================================
+AC_ISC_POSIX
+AC_PROG_MAKE_SET
+AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_LN_S
+AC_PROG_INSTALL
+AC_PROG_YACC
+AM_PROG_LEX
+AC_PROG_LIBTOOL
+AC_CHECK_PROG([DOXYGEN],
+	      [doxygen], 
+	      [doxygen Doxyfile],
+	      [@echo \"You'll need to install 'doxygen'\"])
+AC_SUBST(DOXYGEN)
+
+if test $enable_shared = no; then
+  AC_DEFINE(BUILD_STATIC, 1, [Define for doing static link])
+  AM_LDFLAGS="-static"
+  AC_SUBST(AM_LDFLAGS)
+fi
+
+
+dnl ===================================================================
+dnl Checks for libraries
+dnl ===================================================================
+
+
+dnl ===================================================================
+dnl Checks for header files
+dnl ===================================================================
+AC_HEADER_STDC
+AC_HEADER_TIME
+AC_CHECK_HEADERS([limits.h strings.h sys/time.h unistd.h])
+AC_CHECK_HEADERS([pwd.h sys/stat.h sys/param.h])
+AC_CHECK_HEADERS([math.h])
+AC_CHECK_HEADERS([zlib.h], [has_zlib_h=1], [has_zlib_h=0])
+
+
+dnl ===================================================================
+dnl Checks for typedefs, structures, and compiler characteristics
+dnl ===================================================================
+AC_C_CONST
+AC_C_INLINE
+AC_TYPE_SIZE_T
+
+
+dnl ===================================================================
+dnl Check for size of built-in types
+dnl ===================================================================
+AC_CHECK_SIZEOF(char)
+AC_CHECK_SIZEOF(unsigned char)
+AC_CHECK_SIZEOF(int)
+AC_CHECK_SIZEOF(unsigned int)
+AC_CHECK_SIZEOF(long)
+AC_CHECK_SIZEOF(unsigned long)
+AC_CHECK_SIZEOF(void*)
+AC_CHECK_SIZEOF(size_t)
+
+_AC_COMPUTE_INT([__alignof__ (double)], ym_alignof_double)
+AC_DEFINE_UNQUOTED(ALIGNOF_DOUBLE, $ym_alignof_double, [Alignment of double])
+
+
+dnl ===================================================================
+dnl Check for return type of signal handler
+dnl ===================================================================
+AC_TYPE_SIGNAL
+
+
+dnl ===================================================================
+dnl Checks for library functions
+dnl ===================================================================
+AC_FUNC_ALLOCA
+AC_CHECK_FUNCS([random lrand48], break)
+AC_CHECK_FUNCS([getrusage times], break)
+AC_CHECK_FUNCS([getcwd gettimeofday strtod])
+
+AC_PATH_XTRA
+
+
+dnl ===================================================================
+dnl Check for popt
+dnl ===================================================================
+YM_CHECK_POPT
+
+
+dnl ===================================================================
+dnl Check for GtkGlext environment
+dnl ===================================================================
+AM_PATH_GTKGLEXT_1_0(1.0.0, [has_gtkglext=1], [has_gtkglext=0])
+
+
+dnl ===================================================================
+dnl Check for GtkGlext-- environment
+dnl ===================================================================
+AM_PATH_GTKGLEXTMM_1_2(1.2.0, [has_gtkglextmm=1], [has_gtkglextmm=0])
+
+if test $has_gtkglext = 0 -o $has_gtkglextmm = 0; then
+  AC_MSG_ERROR([gtkglextmm not found])
+fi
+
+
+dnl ===================================================================
+dnl Check for ymtools
+dnl ===================================================================
+YM_CHECK_YMLIBS
+
+YM_CHECK_LIBS([libym_utils])
+if test $ym_tmp_found = no; then
+  AC_MSG_ERROR([ymlibs not found])
+fi
+
+
+dnl ===================================================================
+dnl Check for C++ language
+dnl ===================================================================
+AC_LANG_CPLUSPLUS
+
+
+# ===================================================================
+# Local definitions
+# ===================================================================
+
+YMTOOLS_SRCDIR="\$(top_srcdir)/../.."
+YMTOOLS_BUILDDIR="\$(top_builddir)/../.."
+AC_SUBST([YMTOOLS_SRCDIR])
+AC_SUBST([YMTOOLS_BUILDDIR])
+
+
+dnl ===================================================================
+dnl Declare files to be generated by configure script
+dnl ===================================================================
+AC_CONFIG_FILES([
+	Makefile
+	src/Makefile
+	])
+
+dnl ===================================================================
+dnl Generate configured files
+dnl ===================================================================
+AC_OUTPUT
+
+dnl End-Of-File

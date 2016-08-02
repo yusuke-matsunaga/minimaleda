@@ -1,0 +1,8 @@
+# error 3-5-9
+# input field size is smaller than the fanin size
+.model test1
+.inputs a b
+.outputs x
+.names a b x
+1 1
+.end

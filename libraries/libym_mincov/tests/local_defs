@@ -1,0 +1,5 @@
+## $Id: local_defs 2507 2009-10-17 16:24:02Z matsunaga $
+
+. ${top_srcdir}/etc/common_defs
+
+TEST_PATH=${top_builddir}/librareis/libym_mincov/tests

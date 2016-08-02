@@ -1,0 +1,43 @@
+9.3 Procedural continuous assignments
+
+- assign statement の左辺は variable か variable の concatenation
+  配列のインデックス指定や範囲指定，ビット指定は許されない．
+
+- force statement の左辺は variable/net かそれらの concatenation
+  範囲指定，ビット指定は許されない
+
+9.3.1 The assign and deassign procedural statements
+
+- assign procedural continuous assignment statement は variable に対す
+る「すべての」値の割り当てを上書きする．
+
+- deassign procedural statement は上記の procedural continuous
+assignment の効果を終了させる．ただし，その variable の値は新たな
+procedural assignment や procedural continuous assignment が実行される
+まで同じ値のまま保持される．
+
+- すでに procedural continuous assignment が発効している variable に対
+して新たな procedural continuous assignment を行うと，前の procedural
+continuous assignment は自動的に deassign される．
+
+9.3.2 The force and release procedural statements
+
+- force/release は assign/deassitn procedural statements と同様の効果
+を持つが，force/release は veriable だけでなく net にも適用可能である．
+
+- force/release statements の左辺は variable, net, constant
+bit-select/part-select of net もしくはそれらの concatenation．
+variable の array reference や variable の bit-select/part-select は許
+されない．
+
+- force statement は procedural assignment/procedural continuous
+assignment の効果を上書きする．
+
+- release statement は直前の force statement の効果を失わせるが，値は
+他の書き込みがないかぎり保持される．
+
+- これらは基本的に continuous assignment なので右辺の値が変われば瞬時
+に左辺の値が変わる．
+
+
+

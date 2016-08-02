@@ -1,0 +1,2 @@
+"C2670net.blif" line: 197, columns:25-37 [ER_MLTDEF01]: inv__452(190): Defined more than once. Previsous Definition is "C2670net.blif" line: 195, columns:25-37.
+Error in reading C2670net.blif

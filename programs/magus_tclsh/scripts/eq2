@@ -1,0 +1,16 @@
+if { [llength $argv] != 2} {
+  puts "USAGE: $argv0 <circuit1> <circuit2>"
+  exit 1
+}
+set circ1 [lindex $argv 0]
+set circ2 [lindex $argv 1]
+set loglevel 10
+puts "comparing $circ1 and $circ2"
+magus::read_blif -network {-new a} $circ1
+magus::read_blif -network {-new b} $circ2
+set stat [magus::equiv2 -loglevel $loglevel a b]
+puts $stat
+if { $stat == "Not Equivalent" } {
+  puts "not equivalent"
+}
+

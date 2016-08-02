@@ -1,0 +1,10 @@
+==================================================
+The 'ok' flag...
+==================================================
+
+The vector 'clauses[]' store all clauses of size >= 2, the vector
+'assigns[]' store clauses of size 1, the boolean 'ok' stores clauses
+of size 0 -- and there is only one such clause, the empty clause, so
+in other words, 'ok' stores "is there an empty clause or not".
+
+As Niklas S

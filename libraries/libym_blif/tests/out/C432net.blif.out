@@ -1,0 +1,3027 @@
+.model C432.iscas
+	["C432net.blif" line: 1, columns:1-6]
+	["C432net.blif" line: 1, columns:8-17]
+  inputs elem: 1GAT(0)
+	["C432net.blif" line: 2, columns:9-15]
+  inputs elem: 4GAT(1)
+	["C432net.blif" line: 2, columns:17-23]
+  inputs elem: 8GAT(2)
+	["C432net.blif" line: 2, columns:25-31]
+  inputs elem: 11GAT(3)
+	["C432net.blif" line: 2, columns:33-40]
+  inputs elem: 14GAT(4)
+	["C432net.blif" line: 2, columns:42-49]
+  inputs elem: 17GAT(5)
+	["C432net.blif" line: 2, columns:51-58]
+  inputs elem: 21GAT(6)
+	["C432net.blif" line: 2, columns:60-67]
+  inputs elem: 24GAT(7)
+	["C432net.blif" line: 2, columns:69-76]
+  inputs elem: 27GAT(8)
+	["C432net.blif" line: 3, columns:1-8]
+  inputs elem: 30GAT(9)
+	["C432net.blif" line: 3, columns:10-17]
+  inputs elem: 34GAT(10)
+	["C432net.blif" line: 3, columns:19-27]
+  inputs elem: 37GAT(11)
+	["C432net.blif" line: 3, columns:29-37]
+  inputs elem: 40GAT(12)
+	["C432net.blif" line: 3, columns:39-47]
+  inputs elem: 43GAT(13)
+	["C432net.blif" line: 3, columns:49-57]
+  inputs elem: 47GAT(14)
+	["C432net.blif" line: 3, columns:59-67]
+  inputs elem: 50GAT(15)
+	["C432net.blif" line: 3, columns:69-77]
+  inputs elem: 53GAT(16)
+	["C432net.blif" line: 4, columns:1-9]
+  inputs elem: 56GAT(17)
+	["C432net.blif" line: 4, columns:11-19]
+  inputs elem: 60GAT(18)
+	["C432net.blif" line: 4, columns:21-29]
+  inputs elem: 63GAT(19)
+	["C432net.blif" line: 4, columns:31-39]
+  inputs elem: 66GAT(20)
+	["C432net.blif" line: 4, columns:41-49]
+  inputs elem: 69GAT(21)
+	["C432net.blif" line: 4, columns:51-59]
+  inputs elem: 73GAT(22)
+	["C432net.blif" line: 4, columns:61-69]
+  inputs elem: 76GAT(23)
+	["C432net.blif" line: 5, columns:1-9]
+  inputs elem: 79GAT(24)
+	["C432net.blif" line: 5, columns:11-19]
+  inputs elem: 82GAT(25)
+	["C432net.blif" line: 5, columns:21-29]
+  inputs elem: 86GAT(26)
+	["C432net.blif" line: 5, columns:31-39]
+  inputs elem: 89GAT(27)
+	["C432net.blif" line: 5, columns:41-49]
+  inputs elem: 92GAT(28)
+	["C432net.blif" line: 5, columns:51-59]
+  inputs elem: 95GAT(29)
+	["C432net.blif" line: 5, columns:61-69]
+  inputs elem: 99GAT(30)
+	["C432net.blif" line: 6, columns:1-9]
+  inputs elem: 102GAT(31)
+	["C432net.blif" line: 6, columns:11-20]
+  inputs elem: 105GAT(32)
+	["C432net.blif" line: 6, columns:22-31]
+  inputs elem: 108GAT(33)
+	["C432net.blif" line: 6, columns:33-42]
+  inputs elem: 112GAT(34)
+	["C432net.blif" line: 6, columns:44-53]
+  inputs elem: 115GAT(35)
+	["C432net.blif" line: 6, columns:55-64]
+  outputs elem: 223GAT(84)
+	["C432net.blif" line: 7, columns:10-19]
+  outputs elem: 329GAT(133)
+	["C432net.blif" line: 7, columns:21-31]
+  outputs elem: 370GAT(163)
+	["C432net.blif" line: 7, columns:33-43]
+  outputs elem: 421GAT(188)
+	["C432net.blif" line: 7, columns:45-55]
+  outputs elem: 430GAT(193)
+	["C432net.blif" line: 7, columns:57-67]
+  outputs elem: 431GAT(194)
+	["C432net.blif" line: 8, columns:1-11]
+  outputs elem: 432GAT(195)
+	["C432net.blif" line: 8, columns:13-23]
+.gate nor1 begin
+	["C432net.blif" line: 9, columns:1-5]
+	["C432net.blif" line: 9, columns:7-10]
+  .gate assign: a = 63GAT(19)
+	["C432net.blif" line: 9, column: 12]
+	["C432net.blif" line: 9, columns:14-22]
+  .gate assign: O = [525]
+	["C432net.blif" line: 9, column: 24]
+	["C432net.blif" line: 9, columns:26-30]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 10, columns:1-5]
+	["C432net.blif" line: 10, columns:7-10]
+  .gate assign: a = 69GAT(21)
+	["C432net.blif" line: 10, column: 12]
+	["C432net.blif" line: 10, columns:14-22]
+  .gate assign: O = [526]
+	["C432net.blif" line: 10, column: 24]
+	["C432net.blif" line: 10, columns:26-30]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 11, columns:1-5]
+	["C432net.blif" line: 11, columns:7-10]
+  .gate assign: a = 63GAT(19)
+	["C432net.blif" line: 11, column: 12]
+	["C432net.blif" line: 11, columns:14-22]
+  .gate assign: b = [526]
+	["C432net.blif" line: 11, column: 24]
+	["C432net.blif" line: 11, columns:26-30]
+  .gate assign: O = 171GAT(65)
+	["C432net.blif" line: 11, column: 32]
+	["C432net.blif" line: 11, columns:34-43]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 12, columns:1-5]
+	["C432net.blif" line: 12, columns:7-10]
+  .gate assign: a = 171GAT(65)
+	["C432net.blif" line: 12, column: 12]
+	["C432net.blif" line: 12, columns:14-23]
+  .gate assign: O = [527]
+	["C432net.blif" line: 12, column: 25]
+	["C432net.blif" line: 12, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 13, columns:1-5]
+	["C432net.blif" line: 13, columns:7-10]
+  .gate assign: a = 76GAT(23)
+	["C432net.blif" line: 13, column: 12]
+	["C432net.blif" line: 13, columns:14-22]
+  .gate assign: O = [528]
+	["C432net.blif" line: 13, column: 24]
+	["C432net.blif" line: 13, columns:26-30]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 14, columns:1-5]
+	["C432net.blif" line: 14, columns:7-10]
+  .gate assign: a = 82GAT(25)
+	["C432net.blif" line: 14, column: 12]
+	["C432net.blif" line: 14, columns:14-22]
+  .gate assign: O = [529]
+	["C432net.blif" line: 14, column: 24]
+	["C432net.blif" line: 14, columns:26-30]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 15, columns:1-5]
+	["C432net.blif" line: 15, columns:7-10]
+  .gate assign: a = 76GAT(23)
+	["C432net.blif" line: 15, column: 12]
+	["C432net.blif" line: 15, columns:14-22]
+  .gate assign: b = [529]
+	["C432net.blif" line: 15, column: 24]
+	["C432net.blif" line: 15, columns:26-30]
+  .gate assign: O = 174GAT(62)
+	["C432net.blif" line: 15, column: 32]
+	["C432net.blif" line: 15, columns:34-43]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 16, columns:1-5]
+	["C432net.blif" line: 16, columns:7-10]
+  .gate assign: a = 174GAT(62)
+	["C432net.blif" line: 16, column: 12]
+	["C432net.blif" line: 16, columns:14-23]
+  .gate assign: O = [530]
+	["C432net.blif" line: 16, column: 25]
+	["C432net.blif" line: 16, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 17, columns:1-5]
+	["C432net.blif" line: 17, columns:7-10]
+  .gate assign: a = 89GAT(27)
+	["C432net.blif" line: 17, column: 12]
+	["C432net.blif" line: 17, columns:14-22]
+  .gate assign: O = [532]
+	["C432net.blif" line: 17, column: 24]
+	["C432net.blif" line: 17, columns:26-30]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 18, columns:1-5]
+	["C432net.blif" line: 18, columns:7-10]
+  .gate assign: a = 95GAT(29)
+	["C432net.blif" line: 18, column: 12]
+	["C432net.blif" line: 18, columns:14-22]
+  .gate assign: O = [533]
+	["C432net.blif" line: 18, column: 24]
+	["C432net.blif" line: 18, columns:26-30]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 19, columns:1-5]
+	["C432net.blif" line: 19, columns:7-10]
+  .gate assign: a = 89GAT(27)
+	["C432net.blif" line: 19, column: 12]
+	["C432net.blif" line: 19, columns:14-22]
+  .gate assign: b = [533]
+	["C432net.blif" line: 19, column: 24]
+	["C432net.blif" line: 19, columns:26-30]
+  .gate assign: O = 177GAT(59)
+	["C432net.blif" line: 19, column: 32]
+	["C432net.blif" line: 19, columns:34-43]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 20, columns:1-5]
+	["C432net.blif" line: 20, columns:7-10]
+  .gate assign: a = 177GAT(59)
+	["C432net.blif" line: 20, column: 12]
+	["C432net.blif" line: 20, columns:14-23]
+  .gate assign: O = [534]
+	["C432net.blif" line: 20, column: 25]
+	["C432net.blif" line: 20, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 21, columns:1-5]
+	["C432net.blif" line: 21, columns:7-10]
+  .gate assign: a = 102GAT(31)
+	["C432net.blif" line: 21, column: 12]
+	["C432net.blif" line: 21, columns:14-23]
+  .gate assign: O = [535]
+	["C432net.blif" line: 21, column: 25]
+	["C432net.blif" line: 21, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 22, columns:1-5]
+	["C432net.blif" line: 22, columns:7-10]
+  .gate assign: a = 108GAT(33)
+	["C432net.blif" line: 22, column: 12]
+	["C432net.blif" line: 22, columns:14-23]
+  .gate assign: O = [536]
+	["C432net.blif" line: 22, column: 25]
+	["C432net.blif" line: 22, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 23, columns:1-5]
+	["C432net.blif" line: 23, columns:7-10]
+  .gate assign: a = 102GAT(31)
+	["C432net.blif" line: 23, column: 12]
+	["C432net.blif" line: 23, columns:14-23]
+  .gate assign: b = [536]
+	["C432net.blif" line: 23, column: 25]
+	["C432net.blif" line: 23, columns:27-31]
+  .gate assign: O = 180GAT(56)
+	["C432net.blif" line: 23, column: 33]
+	["C432net.blif" line: 23, columns:35-44]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 24, columns:1-5]
+	["C432net.blif" line: 24, columns:7-10]
+  .gate assign: a = 180GAT(56)
+	["C432net.blif" line: 24, column: 12]
+	["C432net.blif" line: 24, columns:14-23]
+  .gate assign: O = [537]
+	["C432net.blif" line: 24, column: 25]
+	["C432net.blif" line: 24, columns:27-31]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 25, columns:1-5]
+	["C432net.blif" line: 25, columns:7-10]
+  .gate assign: a = 171GAT(65)
+	["C432net.blif" line: 25, column: 12]
+	["C432net.blif" line: 25, columns:14-23]
+  .gate assign: b = 174GAT(62)
+	["C432net.blif" line: 25, column: 25]
+	["C432net.blif" line: 25, columns:27-36]
+  .gate assign: c = 177GAT(59)
+	["C432net.blif" line: 25, column: 38]
+	["C432net.blif" line: 25, columns:40-49]
+  .gate assign: d = 180GAT(56)
+	["C432net.blif" line: 25, column: 51]
+	["C432net.blif" line: 25, columns:53-62]
+  .gate assign: O = [478]
+	["C432net.blif" line: 25, column: 64]
+	["C432net.blif" line: 25, columns:66-70]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 26, columns:1-5]
+	["C432net.blif" line: 26, columns:7-10]
+  .gate assign: a = [478]
+	["C432net.blif" line: 26, column: 12]
+	["C432net.blif" line: 26, columns:14-18]
+  .gate assign: O = [1350]
+	["C432net.blif" line: 26, column: 20]
+	["C432net.blif" line: 26, columns:22-27]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 27, columns:1-5]
+	["C432net.blif" line: 27, columns:7-10]
+  .gate assign: a = 24GAT(7)
+	["C432net.blif" line: 27, column: 12]
+	["C432net.blif" line: 27, columns:14-21]
+  .gate assign: O = [513]
+	["C432net.blif" line: 27, column: 23]
+	["C432net.blif" line: 27, columns:25-29]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 28, columns:1-5]
+	["C432net.blif" line: 28, columns:7-10]
+  .gate assign: a = 30GAT(9)
+	["C432net.blif" line: 28, column: 12]
+	["C432net.blif" line: 28, columns:14-21]
+  .gate assign: O = [514]
+	["C432net.blif" line: 28, column: 23]
+	["C432net.blif" line: 28, columns:25-29]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 29, columns:1-5]
+	["C432net.blif" line: 29, columns:7-10]
+  .gate assign: a = 24GAT(7)
+	["C432net.blif" line: 29, column: 12]
+	["C432net.blif" line: 29, columns:14-21]
+  .gate assign: b = [514]
+	["C432net.blif" line: 29, column: 23]
+	["C432net.blif" line: 29, columns:25-29]
+  .gate assign: O = 162GAT(74)
+	["C432net.blif" line: 29, column: 31]
+	["C432net.blif" line: 29, columns:33-42]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 30, columns:1-5]
+	["C432net.blif" line: 30, columns:7-10]
+  .gate assign: a = 162GAT(74)
+	["C432net.blif" line: 30, column: 12]
+	["C432net.blif" line: 30, columns:14-23]
+  .gate assign: O = [515]
+	["C432net.blif" line: 30, column: 25]
+	["C432net.blif" line: 30, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 31, columns:1-5]
+	["C432net.blif" line: 31, columns:7-10]
+  .gate assign: a = 1GAT(0)
+	["C432net.blif" line: 31, column: 12]
+	["C432net.blif" line: 31, columns:14-20]
+  .gate assign: O = [506]
+	["C432net.blif" line: 31, column: 22]
+	["C432net.blif" line: 31, columns:24-28]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 32, columns:1-5]
+	["C432net.blif" line: 32, columns:7-10]
+  .gate assign: a = 4GAT(1)
+	["C432net.blif" line: 32, column: 12]
+	["C432net.blif" line: 32, columns:14-20]
+  .gate assign: O = [507]
+	["C432net.blif" line: 32, column: 22]
+	["C432net.blif" line: 32, columns:24-28]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 33, columns:1-5]
+	["C432net.blif" line: 33, columns:7-10]
+  .gate assign: a = 1GAT(0)
+	["C432net.blif" line: 33, column: 12]
+	["C432net.blif" line: 33, columns:14-20]
+  .gate assign: b = [507]
+	["C432net.blif" line: 33, column: 22]
+	["C432net.blif" line: 33, columns:24-28]
+  .gate assign: O = 154GAT(80)
+	["C432net.blif" line: 33, column: 30]
+	["C432net.blif" line: 33, columns:32-41]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 34, columns:1-5]
+	["C432net.blif" line: 34, columns:7-10]
+  .gate assign: a = 154GAT(80)
+	["C432net.blif" line: 34, column: 12]
+	["C432net.blif" line: 34, columns:14-23]
+  .gate assign: O = [508]
+	["C432net.blif" line: 34, column: 25]
+	["C432net.blif" line: 34, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 35, columns:1-5]
+	["C432net.blif" line: 35, columns:7-10]
+  .gate assign: a = 11GAT(3)
+	["C432net.blif" line: 35, column: 12]
+	["C432net.blif" line: 35, columns:14-21]
+  .gate assign: O = [509]
+	["C432net.blif" line: 35, column: 23]
+	["C432net.blif" line: 35, columns:25-29]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 36, columns:1-5]
+	["C432net.blif" line: 36, columns:7-10]
+  .gate assign: a = 17GAT(5)
+	["C432net.blif" line: 36, column: 12]
+	["C432net.blif" line: 36, columns:14-21]
+  .gate assign: O = [510]
+	["C432net.blif" line: 36, column: 23]
+	["C432net.blif" line: 36, columns:25-29]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 37, columns:1-5]
+	["C432net.blif" line: 37, columns:7-10]
+  .gate assign: a = 11GAT(3)
+	["C432net.blif" line: 37, column: 12]
+	["C432net.blif" line: 37, columns:14-21]
+  .gate assign: b = [510]
+	["C432net.blif" line: 37, column: 23]
+	["C432net.blif" line: 37, columns:25-29]
+  .gate assign: O = 159GAT(77)
+	["C432net.blif" line: 37, column: 31]
+	["C432net.blif" line: 37, columns:33-42]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 38, columns:1-5]
+	["C432net.blif" line: 38, columns:7-10]
+  .gate assign: a = 159GAT(77)
+	["C432net.blif" line: 38, column: 12]
+	["C432net.blif" line: 38, columns:14-23]
+  .gate assign: O = [511]
+	["C432net.blif" line: 38, column: 25]
+	["C432net.blif" line: 38, columns:27-31]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 39, columns:1-5]
+	["C432net.blif" line: 39, columns:7-10]
+  .gate assign: a = 162GAT(74)
+	["C432net.blif" line: 39, column: 12]
+	["C432net.blif" line: 39, columns:14-23]
+  .gate assign: b = 154GAT(80)
+	["C432net.blif" line: 39, column: 25]
+	["C432net.blif" line: 39, columns:27-36]
+  .gate assign: c = 159GAT(77)
+	["C432net.blif" line: 39, column: 38]
+	["C432net.blif" line: 39, columns:40-49]
+  .gate assign: O = [486]
+	["C432net.blif" line: 39, column: 51]
+	["C432net.blif" line: 39, columns:53-57]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 40, columns:1-5]
+	["C432net.blif" line: 40, columns:7-10]
+  .gate assign: a = [486]
+	["C432net.blif" line: 40, column: 12]
+	["C432net.blif" line: 40, columns:14-18]
+  .gate assign: O = [1356]
+	["C432net.blif" line: 40, column: 20]
+	["C432net.blif" line: 40, columns:22-27]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 41, columns:1-5]
+	["C432net.blif" line: 41, columns:7-10]
+  .gate assign: a = 37GAT(11)
+	["C432net.blif" line: 41, column: 12]
+	["C432net.blif" line: 41, columns:14-22]
+  .gate assign: O = [517]
+	["C432net.blif" line: 41, column: 24]
+	["C432net.blif" line: 41, columns:26-30]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 42, columns:1-5]
+	["C432net.blif" line: 42, columns:7-10]
+  .gate assign: a = 43GAT(13)
+	["C432net.blif" line: 42, column: 12]
+	["C432net.blif" line: 42, columns:14-22]
+  .gate assign: O = [518]
+	["C432net.blif" line: 42, column: 24]
+	["C432net.blif" line: 42, columns:26-30]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 43, columns:1-5]
+	["C432net.blif" line: 43, columns:7-10]
+  .gate assign: a = 37GAT(11)
+	["C432net.blif" line: 43, column: 12]
+	["C432net.blif" line: 43, columns:14-22]
+  .gate assign: b = [518]
+	["C432net.blif" line: 43, column: 24]
+	["C432net.blif" line: 43, columns:26-30]
+  .gate assign: O = 165GAT(71)
+	["C432net.blif" line: 43, column: 32]
+	["C432net.blif" line: 43, columns:34-43]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 44, columns:1-5]
+	["C432net.blif" line: 44, columns:7-10]
+  .gate assign: a = 165GAT(71)
+	["C432net.blif" line: 44, column: 12]
+	["C432net.blif" line: 44, columns:14-23]
+  .gate assign: O = [519]
+	["C432net.blif" line: 44, column: 25]
+	["C432net.blif" line: 44, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 45, columns:1-5]
+	["C432net.blif" line: 45, columns:7-10]
+  .gate assign: a = 50GAT(15)
+	["C432net.blif" line: 45, column: 12]
+	["C432net.blif" line: 45, columns:14-22]
+  .gate assign: O = [520]
+	["C432net.blif" line: 45, column: 24]
+	["C432net.blif" line: 45, columns:26-30]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 46, columns:1-5]
+	["C432net.blif" line: 46, columns:7-10]
+  .gate assign: a = 56GAT(17)
+	["C432net.blif" line: 46, column: 12]
+	["C432net.blif" line: 46, columns:14-22]
+  .gate assign: O = [521]
+	["C432net.blif" line: 46, column: 24]
+	["C432net.blif" line: 46, columns:26-30]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 47, columns:1-5]
+	["C432net.blif" line: 47, columns:7-10]
+  .gate assign: a = 50GAT(15)
+	["C432net.blif" line: 47, column: 12]
+	["C432net.blif" line: 47, columns:14-22]
+  .gate assign: b = [521]
+	["C432net.blif" line: 47, column: 24]
+	["C432net.blif" line: 47, columns:26-30]
+  .gate assign: O = 168GAT(68)
+	["C432net.blif" line: 47, column: 32]
+	["C432net.blif" line: 47, columns:34-43]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 48, columns:1-5]
+	["C432net.blif" line: 48, columns:7-10]
+  .gate assign: a = 168GAT(68)
+	["C432net.blif" line: 48, column: 12]
+	["C432net.blif" line: 48, columns:14-23]
+  .gate assign: O = [522]
+	["C432net.blif" line: 48, column: 25]
+	["C432net.blif" line: 48, columns:27-31]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 49, columns:1-5]
+	["C432net.blif" line: 49, columns:7-10]
+  .gate assign: a = [1350]
+	["C432net.blif" line: 49, column: 12]
+	["C432net.blif" line: 49, columns:14-19]
+  .gate assign: b = [1356]
+	["C432net.blif" line: 49, column: 21]
+	["C432net.blif" line: 49, columns:23-28]
+  .gate assign: c = 165GAT(71)
+	["C432net.blif" line: 49, column: 30]
+	["C432net.blif" line: 49, columns:32-41]
+  .gate assign: d = 168GAT(68)
+	["C432net.blif" line: 49, column: 43]
+	["C432net.blif" line: 49, columns:45-54]
+  .gate assign: O = 199GAT(81)
+	["C432net.blif" line: 49, column: 56]
+	["C432net.blif" line: 49, columns:58-67]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 50, columns:1-5]
+	["C432net.blif" line: 50, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 50, column: 12]
+	["C432net.blif" line: 50, columns:14-23]
+  .gate assign: O = 223GAT(84)
+	["C432net.blif" line: 50, column: 25]
+	["C432net.blif" line: 50, columns:27-36]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 51, columns:1-5]
+	["C432net.blif" line: 51, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 51, column: 12]
+	["C432net.blif" line: 51, columns:14-23]
+  .gate assign: b = [527]
+	["C432net.blif" line: 51, column: 25]
+	["C432net.blif" line: 51, columns:27-31]
+  .gate assign: O = [67]
+	["C432net.blif" line: 51, column: 33]
+	["C432net.blif" line: 51, columns:35-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 52, columns:1-5]
+	["C432net.blif" line: 52, columns:7-10]
+  .gate assign: a = 223GAT(84)
+	["C432net.blif" line: 52, column: 12]
+	["C432net.blif" line: 52, columns:14-23]
+  .gate assign: b = 171GAT(65)
+	["C432net.blif" line: 52, column: 25]
+	["C432net.blif" line: 52, columns:27-36]
+  .gate assign: O = [68]
+	["C432net.blif" line: 52, column: 38]
+	["C432net.blif" line: 52, columns:40-43]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 53, columns:1-5]
+	["C432net.blif" line: 53, columns:7-10]
+  .gate assign: a = [67]
+	["C432net.blif" line: 53, column: 12]
+	["C432net.blif" line: 53, columns:14-17]
+  .gate assign: b = [68]
+	["C432net.blif" line: 53, column: 19]
+	["C432net.blif" line: 53, columns:21-24]
+  .gate assign: O = 239GAT(91)
+	["C432net.blif" line: 53, column: 26]
+	["C432net.blif" line: 53, columns:28-37]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 54, columns:1-5]
+	["C432net.blif" line: 54, columns:7-10]
+  .gate assign: a = 73GAT(22)
+	["C432net.blif" line: 54, column: 12]
+	["C432net.blif" line: 54, columns:14-22]
+  .gate assign: O = [559]
+	["C432net.blif" line: 54, column: 24]
+	["C432net.blif" line: 54, columns:26-30]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 55, columns:1-5]
+	["C432net.blif" line: 55, columns:7-10]
+  .gate assign: a = 239GAT(91)
+	["C432net.blif" line: 55, column: 12]
+	["C432net.blif" line: 55, columns:14-23]
+  .gate assign: b = 73GAT(22)
+	["C432net.blif" line: 55, column: 25]
+	["C432net.blif" line: 55, columns:27-35]
+  .gate assign: c = [526]
+	["C432net.blif" line: 55, column: 37]
+	["C432net.blif" line: 55, columns:39-43]
+  .gate assign: O = 276GAT(110)
+	["C432net.blif" line: 55, column: 45]
+	["C432net.blif" line: 55, columns:47-57]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 56, columns:1-5]
+	["C432net.blif" line: 56, columns:7-10]
+  .gate assign: a = 276GAT(110)
+	["C432net.blif" line: 56, column: 12]
+	["C432net.blif" line: 56, columns:14-24]
+  .gate assign: O = [561]
+	["C432net.blif" line: 56, column: 26]
+	["C432net.blif" line: 56, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 57, columns:1-5]
+	["C432net.blif" line: 57, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 57, column: 12]
+	["C432net.blif" line: 57, columns:14-23]
+  .gate assign: b = [530]
+	["C432net.blif" line: 57, column: 25]
+	["C432net.blif" line: 57, columns:27-31]
+  .gate assign: O = [65]
+	["C432net.blif" line: 57, column: 33]
+	["C432net.blif" line: 57, columns:35-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 58, columns:1-5]
+	["C432net.blif" line: 58, columns:7-10]
+  .gate assign: a = 223GAT(84)
+	["C432net.blif" line: 58, column: 12]
+	["C432net.blif" line: 58, columns:14-23]
+  .gate assign: b = 174GAT(62)
+	["C432net.blif" line: 58, column: 25]
+	["C432net.blif" line: 58, columns:27-36]
+  .gate assign: O = [66]
+	["C432net.blif" line: 58, column: 38]
+	["C432net.blif" line: 58, columns:40-43]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 59, columns:1-5]
+	["C432net.blif" line: 59, columns:7-10]
+  .gate assign: a = [65]
+	["C432net.blif" line: 59, column: 12]
+	["C432net.blif" line: 59, columns:14-17]
+  .gate assign: b = [66]
+	["C432net.blif" line: 59, column: 19]
+	["C432net.blif" line: 59, columns:21-24]
+  .gate assign: O = 243GAT(89)
+	["C432net.blif" line: 59, column: 26]
+	["C432net.blif" line: 59, columns:28-37]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 60, columns:1-5]
+	["C432net.blif" line: 60, columns:7-10]
+  .gate assign: a = 86GAT(26)
+	["C432net.blif" line: 60, column: 12]
+	["C432net.blif" line: 60, columns:14-22]
+  .gate assign: O = [562]
+	["C432net.blif" line: 60, column: 24]
+	["C432net.blif" line: 60, columns:26-30]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 61, columns:1-5]
+	["C432net.blif" line: 61, columns:7-10]
+  .gate assign: a = 243GAT(89)
+	["C432net.blif" line: 61, column: 12]
+	["C432net.blif" line: 61, columns:14-23]
+  .gate assign: b = 86GAT(26)
+	["C432net.blif" line: 61, column: 25]
+	["C432net.blif" line: 61, columns:27-35]
+  .gate assign: c = [529]
+	["C432net.blif" line: 61, column: 37]
+	["C432net.blif" line: 61, columns:39-43]
+  .gate assign: O = 279GAT(108)
+	["C432net.blif" line: 61, column: 45]
+	["C432net.blif" line: 61, columns:47-57]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 62, columns:1-5]
+	["C432net.blif" line: 62, columns:7-10]
+  .gate assign: a = 279GAT(108)
+	["C432net.blif" line: 62, column: 12]
+	["C432net.blif" line: 62, columns:14-24]
+  .gate assign: O = [564]
+	["C432net.blif" line: 62, column: 26]
+	["C432net.blif" line: 62, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 63, columns:1-5]
+	["C432net.blif" line: 63, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 63, column: 12]
+	["C432net.blif" line: 63, columns:14-23]
+  .gate assign: b = [534]
+	["C432net.blif" line: 63, column: 25]
+	["C432net.blif" line: 63, columns:27-31]
+  .gate assign: O = [63]
+	["C432net.blif" line: 63, column: 33]
+	["C432net.blif" line: 63, columns:35-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 64, columns:1-5]
+	["C432net.blif" line: 64, columns:7-10]
+  .gate assign: a = 223GAT(84)
+	["C432net.blif" line: 64, column: 12]
+	["C432net.blif" line: 64, columns:14-23]
+  .gate assign: b = 177GAT(59)
+	["C432net.blif" line: 64, column: 25]
+	["C432net.blif" line: 64, columns:27-36]
+  .gate assign: O = [64]
+	["C432net.blif" line: 64, column: 38]
+	["C432net.blif" line: 64, columns:40-43]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 65, columns:1-5]
+	["C432net.blif" line: 65, columns:7-10]
+  .gate assign: a = [63]
+	["C432net.blif" line: 65, column: 12]
+	["C432net.blif" line: 65, columns:14-17]
+  .gate assign: b = [64]
+	["C432net.blif" line: 65, column: 19]
+	["C432net.blif" line: 65, columns:21-24]
+  .gate assign: O = 247GAT(87)
+	["C432net.blif" line: 65, column: 26]
+	["C432net.blif" line: 65, columns:28-37]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 66, columns:1-5]
+	["C432net.blif" line: 66, columns:7-10]
+  .gate assign: a = 99GAT(30)
+	["C432net.blif" line: 66, column: 12]
+	["C432net.blif" line: 66, columns:14-22]
+  .gate assign: O = [566]
+	["C432net.blif" line: 66, column: 24]
+	["C432net.blif" line: 66, columns:26-30]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 67, columns:1-5]
+	["C432net.blif" line: 67, columns:7-10]
+  .gate assign: a = 247GAT(87)
+	["C432net.blif" line: 67, column: 12]
+	["C432net.blif" line: 67, columns:14-23]
+  .gate assign: b = 99GAT(30)
+	["C432net.blif" line: 67, column: 25]
+	["C432net.blif" line: 67, columns:27-35]
+  .gate assign: c = [533]
+	["C432net.blif" line: 67, column: 37]
+	["C432net.blif" line: 67, columns:39-43]
+  .gate assign: O = 282GAT(106)
+	["C432net.blif" line: 67, column: 45]
+	["C432net.blif" line: 67, columns:47-57]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 68, columns:1-5]
+	["C432net.blif" line: 68, columns:7-10]
+  .gate assign: a = 282GAT(106)
+	["C432net.blif" line: 68, column: 12]
+	["C432net.blif" line: 68, columns:14-24]
+  .gate assign: O = [568]
+	["C432net.blif" line: 68, column: 26]
+	["C432net.blif" line: 68, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 69, columns:1-5]
+	["C432net.blif" line: 69, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 69, column: 12]
+	["C432net.blif" line: 69, columns:14-23]
+  .gate assign: b = [537]
+	["C432net.blif" line: 69, column: 25]
+	["C432net.blif" line: 69, columns:27-31]
+  .gate assign: O = [61]
+	["C432net.blif" line: 69, column: 33]
+	["C432net.blif" line: 69, columns:35-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 70, columns:1-5]
+	["C432net.blif" line: 70, columns:7-10]
+  .gate assign: a = 223GAT(84)
+	["C432net.blif" line: 70, column: 12]
+	["C432net.blif" line: 70, columns:14-23]
+  .gate assign: b = 180GAT(56)
+	["C432net.blif" line: 70, column: 25]
+	["C432net.blif" line: 70, columns:27-36]
+  .gate assign: O = [62]
+	["C432net.blif" line: 70, column: 38]
+	["C432net.blif" line: 70, columns:40-43]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 71, columns:1-5]
+	["C432net.blif" line: 71, columns:7-10]
+  .gate assign: a = [61]
+	["C432net.blif" line: 71, column: 12]
+	["C432net.blif" line: 71, columns:14-17]
+  .gate assign: b = [62]
+	["C432net.blif" line: 71, column: 19]
+	["C432net.blif" line: 71, columns:21-24]
+  .gate assign: O = 251GAT(85)
+	["C432net.blif" line: 71, column: 26]
+	["C432net.blif" line: 71, columns:28-37]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 72, columns:1-5]
+	["C432net.blif" line: 72, columns:7-10]
+  .gate assign: a = 112GAT(34)
+	["C432net.blif" line: 72, column: 12]
+	["C432net.blif" line: 72, columns:14-23]
+  .gate assign: O = [569]
+	["C432net.blif" line: 72, column: 25]
+	["C432net.blif" line: 72, columns:27-31]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 73, columns:1-5]
+	["C432net.blif" line: 73, columns:7-10]
+  .gate assign: a = 251GAT(85)
+	["C432net.blif" line: 73, column: 12]
+	["C432net.blif" line: 73, columns:14-23]
+  .gate assign: b = 112GAT(34)
+	["C432net.blif" line: 73, column: 25]
+	["C432net.blif" line: 73, columns:27-36]
+  .gate assign: c = [536]
+	["C432net.blif" line: 73, column: 38]
+	["C432net.blif" line: 73, columns:40-44]
+  .gate assign: O = 285GAT(104)
+	["C432net.blif" line: 73, column: 46]
+	["C432net.blif" line: 73, columns:48-58]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 74, columns:1-5]
+	["C432net.blif" line: 74, columns:7-10]
+  .gate assign: a = 285GAT(104)
+	["C432net.blif" line: 74, column: 12]
+	["C432net.blif" line: 74, columns:14-24]
+  .gate assign: O = [571]
+	["C432net.blif" line: 74, column: 26]
+	["C432net.blif" line: 74, columns:28-32]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 75, columns:1-5]
+	["C432net.blif" line: 75, columns:7-10]
+  .gate assign: a = 276GAT(110)
+	["C432net.blif" line: 75, column: 12]
+	["C432net.blif" line: 75, columns:14-24]
+  .gate assign: b = 279GAT(108)
+	["C432net.blif" line: 75, column: 26]
+	["C432net.blif" line: 75, columns:28-38]
+  .gate assign: c = 282GAT(106)
+	["C432net.blif" line: 75, column: 40]
+	["C432net.blif" line: 75, columns:42-52]
+  .gate assign: d = 285GAT(104)
+	["C432net.blif" line: 75, column: 54]
+	["C432net.blif" line: 75, columns:56-66]
+  .gate assign: O = [372]
+	["C432net.blif" line: 75, column: 68]
+	["C432net.blif" line: 75, columns:70-74]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 76, columns:1-5]
+	["C432net.blif" line: 76, columns:7-10]
+  .gate assign: a = [372]
+	["C432net.blif" line: 76, column: 12]
+	["C432net.blif" line: 76, columns:14-18]
+  .gate assign: O = [1336]
+	["C432net.blif" line: 76, column: 20]
+	["C432net.blif" line: 76, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 77, columns:1-5]
+	["C432net.blif" line: 77, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 77, column: 12]
+	["C432net.blif" line: 77, columns:14-23]
+  .gate assign: b = [515]
+	["C432net.blif" line: 77, column: 25]
+	["C432net.blif" line: 77, columns:27-31]
+  .gate assign: O = [73]
+	["C432net.blif" line: 77, column: 33]
+	["C432net.blif" line: 77, columns:35-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 78, columns:1-5]
+	["C432net.blif" line: 78, columns:7-10]
+  .gate assign: a = 223GAT(84)
+	["C432net.blif" line: 78, column: 12]
+	["C432net.blif" line: 78, columns:14-23]
+  .gate assign: b = 162GAT(74)
+	["C432net.blif" line: 78, column: 25]
+	["C432net.blif" line: 78, columns:27-36]
+  .gate assign: O = [74]
+	["C432net.blif" line: 78, column: 38]
+	["C432net.blif" line: 78, columns:40-43]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 79, columns:1-5]
+	["C432net.blif" line: 79, columns:7-10]
+  .gate assign: a = [73]
+	["C432net.blif" line: 79, column: 12]
+	["C432net.blif" line: 79, columns:14-17]
+  .gate assign: b = [74]
+	["C432net.blif" line: 79, column: 19]
+	["C432net.blif" line: 79, columns:21-24]
+  .gate assign: O = 230GAT(97)
+	["C432net.blif" line: 79, column: 26]
+	["C432net.blif" line: 79, columns:28-37]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 80, columns:1-5]
+	["C432net.blif" line: 80, columns:7-10]
+  .gate assign: a = 34GAT(10)
+	["C432net.blif" line: 80, column: 12]
+	["C432net.blif" line: 80, columns:14-22]
+  .gate assign: O = [547]
+	["C432net.blif" line: 80, column: 24]
+	["C432net.blif" line: 80, columns:26-30]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 81, columns:1-5]
+	["C432net.blif" line: 81, columns:7-10]
+  .gate assign: a = 230GAT(97)
+	["C432net.blif" line: 81, column: 12]
+	["C432net.blif" line: 81, columns:14-23]
+  .gate assign: b = 34GAT(10)
+	["C432net.blif" line: 81, column: 25]
+	["C432net.blif" line: 81, columns:27-35]
+  .gate assign: c = [514]
+	["C432net.blif" line: 81, column: 37]
+	["C432net.blif" line: 81, columns:39-43]
+  .gate assign: O = 267GAT(116)
+	["C432net.blif" line: 81, column: 45]
+	["C432net.blif" line: 81, columns:47-57]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 82, columns:1-5]
+	["C432net.blif" line: 82, columns:7-10]
+  .gate assign: a = 267GAT(116)
+	["C432net.blif" line: 82, column: 12]
+	["C432net.blif" line: 82, columns:14-24]
+  .gate assign: O = [549]
+	["C432net.blif" line: 82, column: 26]
+	["C432net.blif" line: 82, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 83, columns:1-5]
+	["C432net.blif" line: 83, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 83, column: 12]
+	["C432net.blif" line: 83, columns:14-23]
+  .gate assign: b = [508]
+	["C432net.blif" line: 83, column: 25]
+	["C432net.blif" line: 83, columns:27-31]
+  .gate assign: O = [77]
+	["C432net.blif" line: 83, column: 33]
+	["C432net.blif" line: 83, columns:35-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 84, columns:1-5]
+	["C432net.blif" line: 84, columns:7-10]
+  .gate assign: a = 223GAT(84)
+	["C432net.blif" line: 84, column: 12]
+	["C432net.blif" line: 84, columns:14-23]
+  .gate assign: b = 154GAT(80)
+	["C432net.blif" line: 84, column: 25]
+	["C432net.blif" line: 84, columns:27-36]
+  .gate assign: O = [78]
+	["C432net.blif" line: 84, column: 38]
+	["C432net.blif" line: 84, columns:40-43]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 85, columns:1-5]
+	["C432net.blif" line: 85, columns:7-10]
+  .gate assign: a = [77]
+	["C432net.blif" line: 85, column: 12]
+	["C432net.blif" line: 85, columns:14-17]
+  .gate assign: b = [78]
+	["C432net.blif" line: 85, column: 19]
+	["C432net.blif" line: 85, columns:21-24]
+  .gate assign: O = 224GAT(101)
+	["C432net.blif" line: 85, column: 26]
+	["C432net.blif" line: 85, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 86, columns:1-5]
+	["C432net.blif" line: 86, columns:7-10]
+  .gate assign: a = 8GAT(2)
+	["C432net.blif" line: 86, column: 12]
+	["C432net.blif" line: 86, columns:14-20]
+  .gate assign: O = [540]
+	["C432net.blif" line: 86, column: 22]
+	["C432net.blif" line: 86, columns:24-28]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 87, columns:1-5]
+	["C432net.blif" line: 87, columns:7-10]
+  .gate assign: a = 224GAT(101)
+	["C432net.blif" line: 87, column: 12]
+	["C432net.blif" line: 87, columns:14-24]
+  .gate assign: b = 8GAT(2)
+	["C432net.blif" line: 87, column: 26]
+	["C432net.blif" line: 87, columns:28-34]
+  .gate assign: c = [507]
+	["C432net.blif" line: 87, column: 36]
+	["C432net.blif" line: 87, columns:38-42]
+  .gate assign: O = 260GAT(120)
+	["C432net.blif" line: 87, column: 44]
+	["C432net.blif" line: 87, columns:46-56]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 88, columns:1-5]
+	["C432net.blif" line: 88, columns:7-10]
+  .gate assign: a = 260GAT(120)
+	["C432net.blif" line: 88, column: 12]
+	["C432net.blif" line: 88, columns:14-24]
+  .gate assign: O = [542]
+	["C432net.blif" line: 88, column: 26]
+	["C432net.blif" line: 88, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 89, columns:1-5]
+	["C432net.blif" line: 89, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 89, column: 12]
+	["C432net.blif" line: 89, columns:14-23]
+  .gate assign: b = [511]
+	["C432net.blif" line: 89, column: 25]
+	["C432net.blif" line: 89, columns:27-31]
+  .gate assign: O = [75]
+	["C432net.blif" line: 89, column: 33]
+	["C432net.blif" line: 89, columns:35-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 90, columns:1-5]
+	["C432net.blif" line: 90, columns:7-10]
+  .gate assign: a = 223GAT(84)
+	["C432net.blif" line: 90, column: 12]
+	["C432net.blif" line: 90, columns:14-23]
+  .gate assign: b = 159GAT(77)
+	["C432net.blif" line: 90, column: 25]
+	["C432net.blif" line: 90, columns:27-36]
+  .gate assign: O = [76]
+	["C432net.blif" line: 90, column: 38]
+	["C432net.blif" line: 90, columns:40-43]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 91, columns:1-5]
+	["C432net.blif" line: 91, columns:7-10]
+  .gate assign: a = [75]
+	["C432net.blif" line: 91, column: 12]
+	["C432net.blif" line: 91, columns:14-17]
+  .gate assign: b = [76]
+	["C432net.blif" line: 91, column: 19]
+	["C432net.blif" line: 91, columns:21-24]
+  .gate assign: O = 227GAT(99)
+	["C432net.blif" line: 91, column: 26]
+	["C432net.blif" line: 91, columns:28-37]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 92, columns:1-5]
+	["C432net.blif" line: 92, columns:7-10]
+  .gate assign: a = 21GAT(6)
+	["C432net.blif" line: 92, column: 12]
+	["C432net.blif" line: 92, columns:14-21]
+  .gate assign: O = [543]
+	["C432net.blif" line: 92, column: 23]
+	["C432net.blif" line: 92, columns:25-29]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 93, columns:1-5]
+	["C432net.blif" line: 93, columns:7-10]
+  .gate assign: a = 227GAT(99)
+	["C432net.blif" line: 93, column: 12]
+	["C432net.blif" line: 93, columns:14-23]
+  .gate assign: b = 21GAT(6)
+	["C432net.blif" line: 93, column: 25]
+	["C432net.blif" line: 93, columns:27-34]
+  .gate assign: c = [510]
+	["C432net.blif" line: 93, column: 36]
+	["C432net.blif" line: 93, columns:38-42]
+  .gate assign: O = 264GAT(118)
+	["C432net.blif" line: 93, column: 44]
+	["C432net.blif" line: 93, columns:46-56]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 94, columns:1-5]
+	["C432net.blif" line: 94, columns:7-10]
+  .gate assign: a = 264GAT(118)
+	["C432net.blif" line: 94, column: 12]
+	["C432net.blif" line: 94, columns:14-24]
+  .gate assign: O = [545]
+	["C432net.blif" line: 94, column: 26]
+	["C432net.blif" line: 94, columns:28-32]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 95, columns:1-5]
+	["C432net.blif" line: 95, columns:7-10]
+  .gate assign: a = 267GAT(116)
+	["C432net.blif" line: 95, column: 12]
+	["C432net.blif" line: 95, columns:14-24]
+  .gate assign: b = 260GAT(120)
+	["C432net.blif" line: 95, column: 26]
+	["C432net.blif" line: 95, columns:28-38]
+  .gate assign: c = 264GAT(118)
+	["C432net.blif" line: 95, column: 40]
+	["C432net.blif" line: 95, columns:42-52]
+  .gate assign: O = [380]
+	["C432net.blif" line: 95, column: 54]
+	["C432net.blif" line: 95, columns:56-60]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 96, columns:1-5]
+	["C432net.blif" line: 96, columns:7-10]
+  .gate assign: a = [380]
+	["C432net.blif" line: 96, column: 12]
+	["C432net.blif" line: 96, columns:14-18]
+  .gate assign: O = [1342]
+	["C432net.blif" line: 96, column: 20]
+	["C432net.blif" line: 96, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 97, columns:1-5]
+	["C432net.blif" line: 97, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 97, column: 12]
+	["C432net.blif" line: 97, columns:14-23]
+  .gate assign: b = [519]
+	["C432net.blif" line: 97, column: 25]
+	["C432net.blif" line: 97, columns:27-31]
+  .gate assign: O = [71]
+	["C432net.blif" line: 97, column: 33]
+	["C432net.blif" line: 97, columns:35-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 98, columns:1-5]
+	["C432net.blif" line: 98, columns:7-10]
+  .gate assign: a = 223GAT(84)
+	["C432net.blif" line: 98, column: 12]
+	["C432net.blif" line: 98, columns:14-23]
+  .gate assign: b = 165GAT(71)
+	["C432net.blif" line: 98, column: 25]
+	["C432net.blif" line: 98, columns:27-36]
+  .gate assign: O = [72]
+	["C432net.blif" line: 98, column: 38]
+	["C432net.blif" line: 98, columns:40-43]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 99, columns:1-5]
+	["C432net.blif" line: 99, columns:7-10]
+  .gate assign: a = [71]
+	["C432net.blif" line: 99, column: 12]
+	["C432net.blif" line: 99, columns:14-17]
+  .gate assign: b = [72]
+	["C432net.blif" line: 99, column: 19]
+	["C432net.blif" line: 99, columns:21-24]
+  .gate assign: O = 233GAT(95)
+	["C432net.blif" line: 99, column: 26]
+	["C432net.blif" line: 99, columns:28-37]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 100, columns:1-5]
+	["C432net.blif" line: 100, columns:7-10]
+  .gate assign: a = 47GAT(14)
+	["C432net.blif" line: 100, column: 12]
+	["C432net.blif" line: 100, columns:14-22]
+  .gate assign: O = [551]
+	["C432net.blif" line: 100, column: 24]
+	["C432net.blif" line: 100, columns:26-30]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 101, columns:1-5]
+	["C432net.blif" line: 101, columns:7-10]
+  .gate assign: a = 233GAT(95)
+	["C432net.blif" line: 101, column: 12]
+	["C432net.blif" line: 101, columns:14-23]
+  .gate assign: b = 47GAT(14)
+	["C432net.blif" line: 101, column: 25]
+	["C432net.blif" line: 101, columns:27-35]
+  .gate assign: c = [518]
+	["C432net.blif" line: 101, column: 37]
+	["C432net.blif" line: 101, columns:39-43]
+  .gate assign: O = 270GAT(114)
+	["C432net.blif" line: 101, column: 45]
+	["C432net.blif" line: 101, columns:47-57]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 102, columns:1-5]
+	["C432net.blif" line: 102, columns:7-10]
+  .gate assign: a = 270GAT(114)
+	["C432net.blif" line: 102, column: 12]
+	["C432net.blif" line: 102, columns:14-24]
+  .gate assign: O = [553]
+	["C432net.blif" line: 102, column: 26]
+	["C432net.blif" line: 102, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 103, columns:1-5]
+	["C432net.blif" line: 103, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 103, column: 12]
+	["C432net.blif" line: 103, columns:14-23]
+  .gate assign: b = [522]
+	["C432net.blif" line: 103, column: 25]
+	["C432net.blif" line: 103, columns:27-31]
+  .gate assign: O = [69]
+	["C432net.blif" line: 103, column: 33]
+	["C432net.blif" line: 103, columns:35-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 104, columns:1-5]
+	["C432net.blif" line: 104, columns:7-10]
+  .gate assign: a = 223GAT(84)
+	["C432net.blif" line: 104, column: 12]
+	["C432net.blif" line: 104, columns:14-23]
+  .gate assign: b = 168GAT(68)
+	["C432net.blif" line: 104, column: 25]
+	["C432net.blif" line: 104, columns:27-36]
+  .gate assign: O = [70]
+	["C432net.blif" line: 104, column: 38]
+	["C432net.blif" line: 104, columns:40-43]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 105, columns:1-5]
+	["C432net.blif" line: 105, columns:7-10]
+  .gate assign: a = [69]
+	["C432net.blif" line: 105, column: 12]
+	["C432net.blif" line: 105, columns:14-17]
+  .gate assign: b = [70]
+	["C432net.blif" line: 105, column: 19]
+	["C432net.blif" line: 105, columns:21-24]
+  .gate assign: O = 236GAT(93)
+	["C432net.blif" line: 105, column: 26]
+	["C432net.blif" line: 105, columns:28-37]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 106, columns:1-5]
+	["C432net.blif" line: 106, columns:7-10]
+  .gate assign: a = 60GAT(18)
+	["C432net.blif" line: 106, column: 12]
+	["C432net.blif" line: 106, columns:14-22]
+  .gate assign: O = [554]
+	["C432net.blif" line: 106, column: 24]
+	["C432net.blif" line: 106, columns:26-30]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 107, columns:1-5]
+	["C432net.blif" line: 107, columns:7-10]
+  .gate assign: a = 236GAT(93)
+	["C432net.blif" line: 107, column: 12]
+	["C432net.blif" line: 107, columns:14-23]
+  .gate assign: b = 60GAT(18)
+	["C432net.blif" line: 107, column: 25]
+	["C432net.blif" line: 107, columns:27-35]
+  .gate assign: c = [521]
+	["C432net.blif" line: 107, column: 37]
+	["C432net.blif" line: 107, columns:39-43]
+  .gate assign: O = 273GAT(112)
+	["C432net.blif" line: 107, column: 45]
+	["C432net.blif" line: 107, columns:47-57]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 108, columns:1-5]
+	["C432net.blif" line: 108, columns:7-10]
+  .gate assign: a = 273GAT(112)
+	["C432net.blif" line: 108, column: 12]
+	["C432net.blif" line: 108, columns:14-24]
+  .gate assign: O = [556]
+	["C432net.blif" line: 108, column: 26]
+	["C432net.blif" line: 108, columns:28-32]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 109, columns:1-5]
+	["C432net.blif" line: 109, columns:7-10]
+  .gate assign: a = [1336]
+	["C432net.blif" line: 109, column: 12]
+	["C432net.blif" line: 109, columns:14-19]
+  .gate assign: b = [1342]
+	["C432net.blif" line: 109, column: 21]
+	["C432net.blif" line: 109, columns:23-28]
+  .gate assign: c = 270GAT(114)
+	["C432net.blif" line: 109, column: 30]
+	["C432net.blif" line: 109, columns:32-42]
+  .gate assign: d = 273GAT(112)
+	["C432net.blif" line: 109, column: 44]
+	["C432net.blif" line: 109, columns:46-56]
+  .gate assign: O = 296GAT(122)
+	["C432net.blif" line: 109, column: 58]
+	["C432net.blif" line: 109, columns:60-70]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 110, columns:1-5]
+	["C432net.blif" line: 110, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 110, column: 12]
+	["C432net.blif" line: 110, columns:14-24]
+  .gate assign: O = 329GAT(133)
+	["C432net.blif" line: 110, column: 26]
+	["C432net.blif" line: 110, columns:28-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 111, columns:1-5]
+	["C432net.blif" line: 111, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 111, column: 12]
+	["C432net.blif" line: 111, columns:14-24]
+  .gate assign: b = [561]
+	["C432net.blif" line: 111, column: 26]
+	["C432net.blif" line: 111, columns:28-32]
+  .gate assign: O = [49]
+	["C432net.blif" line: 111, column: 34]
+	["C432net.blif" line: 111, columns:36-39]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 112, columns:1-5]
+	["C432net.blif" line: 112, columns:7-10]
+  .gate assign: a = 329GAT(133)
+	["C432net.blif" line: 112, column: 12]
+	["C432net.blif" line: 112, columns:14-24]
+  .gate assign: b = 276GAT(110)
+	["C432net.blif" line: 112, column: 26]
+	["C432net.blif" line: 112, columns:28-38]
+  .gate assign: O = [50]
+	["C432net.blif" line: 112, column: 40]
+	["C432net.blif" line: 112, columns:42-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 113, columns:1-5]
+	["C432net.blif" line: 113, columns:7-10]
+  .gate assign: a = [49]
+	["C432net.blif" line: 113, column: 12]
+	["C432net.blif" line: 113, columns:14-17]
+  .gate assign: b = [50]
+	["C432net.blif" line: 113, column: 19]
+	["C432net.blif" line: 113, columns:21-24]
+  .gate assign: O = 337GAT(141)
+	["C432net.blif" line: 113, column: 26]
+	["C432net.blif" line: 113, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 114, columns:1-5]
+	["C432net.blif" line: 114, columns:7-10]
+  .gate assign: a = 79GAT(24)
+	["C432net.blif" line: 114, column: 12]
+	["C432net.blif" line: 114, columns:14-22]
+  .gate assign: O = [593]
+	["C432net.blif" line: 114, column: 24]
+	["C432net.blif" line: 114, columns:26-30]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 115, columns:1-5]
+	["C432net.blif" line: 115, columns:7-10]
+  .gate assign: a = 337GAT(141)
+	["C432net.blif" line: 115, column: 12]
+	["C432net.blif" line: 115, columns:14-24]
+  .gate assign: b = 239GAT(91)
+	["C432net.blif" line: 115, column: 26]
+	["C432net.blif" line: 115, columns:28-37]
+  .gate assign: c = 79GAT(24)
+	["C432net.blif" line: 115, column: 39]
+	["C432net.blif" line: 115, columns:41-49]
+  .gate assign: d = [526]
+	["C432net.blif" line: 115, column: 51]
+	["C432net.blif" line: 115, columns:53-57]
+  .gate assign: O = 353GAT(155)
+	["C432net.blif" line: 115, column: 59]
+	["C432net.blif" line: 115, columns:61-71]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 116, columns:1-5]
+	["C432net.blif" line: 116, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 116, column: 12]
+	["C432net.blif" line: 116, columns:14-24]
+  .gate assign: b = [564]
+	["C432net.blif" line: 116, column: 26]
+	["C432net.blif" line: 116, columns:28-32]
+  .gate assign: O = [47]
+	["C432net.blif" line: 116, column: 34]
+	["C432net.blif" line: 116, columns:36-39]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 117, columns:1-5]
+	["C432net.blif" line: 117, columns:7-10]
+  .gate assign: a = 329GAT(133)
+	["C432net.blif" line: 117, column: 12]
+	["C432net.blif" line: 117, columns:14-24]
+  .gate assign: b = 279GAT(108)
+	["C432net.blif" line: 117, column: 26]
+	["C432net.blif" line: 117, columns:28-38]
+  .gate assign: O = [48]
+	["C432net.blif" line: 117, column: 40]
+	["C432net.blif" line: 117, columns:42-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 118, columns:1-5]
+	["C432net.blif" line: 118, columns:7-10]
+  .gate assign: a = [47]
+	["C432net.blif" line: 118, column: 12]
+	["C432net.blif" line: 118, columns:14-17]
+  .gate assign: b = [48]
+	["C432net.blif" line: 118, column: 19]
+	["C432net.blif" line: 118, columns:21-24]
+  .gate assign: O = 339GAT(139)
+	["C432net.blif" line: 118, column: 26]
+	["C432net.blif" line: 118, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 119, columns:1-5]
+	["C432net.blif" line: 119, columns:7-10]
+  .gate assign: a = 92GAT(28)
+	["C432net.blif" line: 119, column: 12]
+	["C432net.blif" line: 119, columns:14-22]
+  .gate assign: O = [596]
+	["C432net.blif" line: 119, column: 24]
+	["C432net.blif" line: 119, columns:26-30]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 120, columns:1-5]
+	["C432net.blif" line: 120, columns:7-10]
+  .gate assign: a = 339GAT(139)
+	["C432net.blif" line: 120, column: 12]
+	["C432net.blif" line: 120, columns:14-24]
+  .gate assign: b = 243GAT(89)
+	["C432net.blif" line: 120, column: 26]
+	["C432net.blif" line: 120, columns:28-37]
+  .gate assign: c = 92GAT(28)
+	["C432net.blif" line: 120, column: 39]
+	["C432net.blif" line: 120, columns:41-49]
+  .gate assign: d = [529]
+	["C432net.blif" line: 120, column: 51]
+	["C432net.blif" line: 120, columns:53-57]
+  .gate assign: O = 354GAT(154)
+	["C432net.blif" line: 120, column: 59]
+	["C432net.blif" line: 120, columns:61-71]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 121, columns:1-5]
+	["C432net.blif" line: 121, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 121, column: 12]
+	["C432net.blif" line: 121, columns:14-24]
+  .gate assign: b = [568]
+	["C432net.blif" line: 121, column: 26]
+	["C432net.blif" line: 121, columns:28-32]
+  .gate assign: O = [45]
+	["C432net.blif" line: 121, column: 34]
+	["C432net.blif" line: 121, columns:36-39]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 122, columns:1-5]
+	["C432net.blif" line: 122, columns:7-10]
+  .gate assign: a = 329GAT(133)
+	["C432net.blif" line: 122, column: 12]
+	["C432net.blif" line: 122, columns:14-24]
+  .gate assign: b = 282GAT(106)
+	["C432net.blif" line: 122, column: 26]
+	["C432net.blif" line: 122, columns:28-38]
+  .gate assign: O = [46]
+	["C432net.blif" line: 122, column: 40]
+	["C432net.blif" line: 122, columns:42-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 123, columns:1-5]
+	["C432net.blif" line: 123, columns:7-10]
+  .gate assign: a = [45]
+	["C432net.blif" line: 123, column: 12]
+	["C432net.blif" line: 123, columns:14-17]
+  .gate assign: b = [46]
+	["C432net.blif" line: 123, column: 19]
+	["C432net.blif" line: 123, columns:21-24]
+  .gate assign: O = 341GAT(137)
+	["C432net.blif" line: 123, column: 26]
+	["C432net.blif" line: 123, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 124, columns:1-5]
+	["C432net.blif" line: 124, columns:7-10]
+  .gate assign: a = 105GAT(32)
+	["C432net.blif" line: 124, column: 12]
+	["C432net.blif" line: 124, columns:14-23]
+  .gate assign: O = [600]
+	["C432net.blif" line: 124, column: 25]
+	["C432net.blif" line: 124, columns:27-31]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 125, columns:1-5]
+	["C432net.blif" line: 125, columns:7-10]
+  .gate assign: a = 341GAT(137)
+	["C432net.blif" line: 125, column: 12]
+	["C432net.blif" line: 125, columns:14-24]
+  .gate assign: b = 247GAT(87)
+	["C432net.blif" line: 125, column: 26]
+	["C432net.blif" line: 125, columns:28-37]
+  .gate assign: c = 105GAT(32)
+	["C432net.blif" line: 125, column: 39]
+	["C432net.blif" line: 125, columns:41-50]
+  .gate assign: d = [533]
+	["C432net.blif" line: 125, column: 52]
+	["C432net.blif" line: 125, columns:54-58]
+  .gate assign: O = 355GAT(153)
+	["C432net.blif" line: 125, column: 60]
+	["C432net.blif" line: 125, columns:62-72]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 126, columns:1-5]
+	["C432net.blif" line: 126, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 126, column: 12]
+	["C432net.blif" line: 126, columns:14-24]
+  .gate assign: b = [571]
+	["C432net.blif" line: 126, column: 26]
+	["C432net.blif" line: 126, columns:28-32]
+  .gate assign: O = [43]
+	["C432net.blif" line: 126, column: 34]
+	["C432net.blif" line: 126, columns:36-39]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 127, columns:1-5]
+	["C432net.blif" line: 127, columns:7-10]
+  .gate assign: a = 329GAT(133)
+	["C432net.blif" line: 127, column: 12]
+	["C432net.blif" line: 127, columns:14-24]
+  .gate assign: b = 285GAT(104)
+	["C432net.blif" line: 127, column: 26]
+	["C432net.blif" line: 127, columns:28-38]
+  .gate assign: O = [44]
+	["C432net.blif" line: 127, column: 40]
+	["C432net.blif" line: 127, columns:42-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 128, columns:1-5]
+	["C432net.blif" line: 128, columns:7-10]
+  .gate assign: a = [43]
+	["C432net.blif" line: 128, column: 12]
+	["C432net.blif" line: 128, columns:14-17]
+  .gate assign: b = [44]
+	["C432net.blif" line: 128, column: 19]
+	["C432net.blif" line: 128, columns:21-24]
+  .gate assign: O = 343GAT(135)
+	["C432net.blif" line: 128, column: 26]
+	["C432net.blif" line: 128, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 129, columns:1-5]
+	["C432net.blif" line: 129, columns:7-10]
+  .gate assign: a = 115GAT(35)
+	["C432net.blif" line: 129, column: 12]
+	["C432net.blif" line: 129, columns:14-23]
+  .gate assign: O = [603]
+	["C432net.blif" line: 129, column: 25]
+	["C432net.blif" line: 129, columns:27-31]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 130, columns:1-5]
+	["C432net.blif" line: 130, columns:7-10]
+  .gate assign: a = 343GAT(135)
+	["C432net.blif" line: 130, column: 12]
+	["C432net.blif" line: 130, columns:14-24]
+  .gate assign: b = 251GAT(85)
+	["C432net.blif" line: 130, column: 26]
+	["C432net.blif" line: 130, columns:28-37]
+  .gate assign: c = 115GAT(35)
+	["C432net.blif" line: 130, column: 39]
+	["C432net.blif" line: 130, columns:41-50]
+  .gate assign: d = [536]
+	["C432net.blif" line: 130, column: 52]
+	["C432net.blif" line: 130, columns:54-58]
+  .gate assign: O = 356GAT(152)
+	["C432net.blif" line: 130, column: 60]
+	["C432net.blif" line: 130, columns:62-72]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 131, columns:1-5]
+	["C432net.blif" line: 131, columns:7-10]
+  .gate assign: a = 353GAT(155)
+	["C432net.blif" line: 131, column: 12]
+	["C432net.blif" line: 131, columns:14-24]
+  .gate assign: b = 354GAT(154)
+	["C432net.blif" line: 131, column: 26]
+	["C432net.blif" line: 131, columns:28-38]
+  .gate assign: c = 355GAT(153)
+	["C432net.blif" line: 131, column: 40]
+	["C432net.blif" line: 131, columns:42-52]
+  .gate assign: d = 356GAT(152)
+	["C432net.blif" line: 131, column: 54]
+	["C432net.blif" line: 131, columns:56-66]
+  .gate assign: O = [248]
+	["C432net.blif" line: 131, column: 68]
+	["C432net.blif" line: 131, columns:70-74]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 132, columns:1-5]
+	["C432net.blif" line: 132, columns:7-10]
+  .gate assign: a = [248]
+	["C432net.blif" line: 132, column: 12]
+	["C432net.blif" line: 132, columns:14-18]
+  .gate assign: O = [1322]
+	["C432net.blif" line: 132, column: 20]
+	["C432net.blif" line: 132, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 133, columns:1-5]
+	["C432net.blif" line: 133, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 133, column: 12]
+	["C432net.blif" line: 133, columns:14-24]
+  .gate assign: b = [549]
+	["C432net.blif" line: 133, column: 26]
+	["C432net.blif" line: 133, columns:28-32]
+  .gate assign: O = [55]
+	["C432net.blif" line: 133, column: 34]
+	["C432net.blif" line: 133, columns:36-39]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 134, columns:1-5]
+	["C432net.blif" line: 134, columns:7-10]
+  .gate assign: a = 329GAT(133)
+	["C432net.blif" line: 134, column: 12]
+	["C432net.blif" line: 134, columns:14-24]
+  .gate assign: b = 267GAT(116)
+	["C432net.blif" line: 134, column: 26]
+	["C432net.blif" line: 134, columns:28-38]
+  .gate assign: O = [56]
+	["C432net.blif" line: 134, column: 40]
+	["C432net.blif" line: 134, columns:42-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 135, columns:1-5]
+	["C432net.blif" line: 135, columns:7-10]
+  .gate assign: a = [55]
+	["C432net.blif" line: 135, column: 12]
+	["C432net.blif" line: 135, columns:14-17]
+  .gate assign: b = [56]
+	["C432net.blif" line: 135, column: 19]
+	["C432net.blif" line: 135, columns:21-24]
+  .gate assign: O = 332GAT(147)
+	["C432net.blif" line: 135, column: 26]
+	["C432net.blif" line: 135, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 136, columns:1-5]
+	["C432net.blif" line: 136, columns:7-10]
+  .gate assign: a = 40GAT(12)
+	["C432net.blif" line: 136, column: 12]
+	["C432net.blif" line: 136, columns:14-22]
+  .gate assign: O = [581]
+	["C432net.blif" line: 136, column: 24]
+	["C432net.blif" line: 136, columns:26-30]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 137, columns:1-5]
+	["C432net.blif" line: 137, columns:7-10]
+  .gate assign: a = 332GAT(147)
+	["C432net.blif" line: 137, column: 12]
+	["C432net.blif" line: 137, columns:14-24]
+  .gate assign: b = 230GAT(97)
+	["C432net.blif" line: 137, column: 26]
+	["C432net.blif" line: 137, columns:28-37]
+  .gate assign: c = 40GAT(12)
+	["C432net.blif" line: 137, column: 39]
+	["C432net.blif" line: 137, columns:41-49]
+  .gate assign: d = [514]
+	["C432net.blif" line: 137, column: 51]
+	["C432net.blif" line: 137, columns:53-57]
+  .gate assign: O = 350GAT(158)
+	["C432net.blif" line: 137, column: 59]
+	["C432net.blif" line: 137, columns:61-71]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 138, columns:1-5]
+	["C432net.blif" line: 138, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 138, column: 12]
+	["C432net.blif" line: 138, columns:14-24]
+  .gate assign: b = [542]
+	["C432net.blif" line: 138, column: 26]
+	["C432net.blif" line: 138, columns:28-32]
+  .gate assign: O = [59]
+	["C432net.blif" line: 138, column: 34]
+	["C432net.blif" line: 138, columns:36-39]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 139, columns:1-5]
+	["C432net.blif" line: 139, columns:7-10]
+  .gate assign: a = 329GAT(133)
+	["C432net.blif" line: 139, column: 12]
+	["C432net.blif" line: 139, columns:14-24]
+  .gate assign: b = 260GAT(120)
+	["C432net.blif" line: 139, column: 26]
+	["C432net.blif" line: 139, columns:28-38]
+  .gate assign: O = [60]
+	["C432net.blif" line: 139, column: 40]
+	["C432net.blif" line: 139, columns:42-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 140, columns:1-5]
+	["C432net.blif" line: 140, columns:7-10]
+  .gate assign: a = [59]
+	["C432net.blif" line: 140, column: 12]
+	["C432net.blif" line: 140, columns:14-17]
+  .gate assign: b = [60]
+	["C432net.blif" line: 140, column: 19]
+	["C432net.blif" line: 140, columns:21-24]
+  .gate assign: O = 330GAT(151)
+	["C432net.blif" line: 140, column: 26]
+	["C432net.blif" line: 140, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 141, columns:1-5]
+	["C432net.blif" line: 141, columns:7-10]
+  .gate assign: a = 14GAT(4)
+	["C432net.blif" line: 141, column: 12]
+	["C432net.blif" line: 141, columns:14-21]
+  .gate assign: O = [574]
+	["C432net.blif" line: 141, column: 23]
+	["C432net.blif" line: 141, columns:25-29]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 142, columns:1-5]
+	["C432net.blif" line: 142, columns:7-10]
+  .gate assign: a = 330GAT(151)
+	["C432net.blif" line: 142, column: 12]
+	["C432net.blif" line: 142, columns:14-24]
+  .gate assign: b = 224GAT(101)
+	["C432net.blif" line: 142, column: 26]
+	["C432net.blif" line: 142, columns:28-38]
+  .gate assign: c = 14GAT(4)
+	["C432net.blif" line: 142, column: 40]
+	["C432net.blif" line: 142, columns:42-49]
+  .gate assign: d = [507]
+	["C432net.blif" line: 142, column: 51]
+	["C432net.blif" line: 142, columns:53-57]
+  .gate assign: O = 348GAT(160)
+	["C432net.blif" line: 142, column: 59]
+	["C432net.blif" line: 142, columns:61-71]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 143, columns:1-5]
+	["C432net.blif" line: 143, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 143, column: 12]
+	["C432net.blif" line: 143, columns:14-24]
+  .gate assign: b = [545]
+	["C432net.blif" line: 143, column: 26]
+	["C432net.blif" line: 143, columns:28-32]
+  .gate assign: O = [57]
+	["C432net.blif" line: 143, column: 34]
+	["C432net.blif" line: 143, columns:36-39]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 144, columns:1-5]
+	["C432net.blif" line: 144, columns:7-10]
+  .gate assign: a = 329GAT(133)
+	["C432net.blif" line: 144, column: 12]
+	["C432net.blif" line: 144, columns:14-24]
+  .gate assign: b = 264GAT(118)
+	["C432net.blif" line: 144, column: 26]
+	["C432net.blif" line: 144, columns:28-38]
+  .gate assign: O = [58]
+	["C432net.blif" line: 144, column: 40]
+	["C432net.blif" line: 144, columns:42-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 145, columns:1-5]
+	["C432net.blif" line: 145, columns:7-10]
+  .gate assign: a = [57]
+	["C432net.blif" line: 145, column: 12]
+	["C432net.blif" line: 145, columns:14-17]
+  .gate assign: b = [58]
+	["C432net.blif" line: 145, column: 19]
+	["C432net.blif" line: 145, columns:21-24]
+  .gate assign: O = 331GAT(149)
+	["C432net.blif" line: 145, column: 26]
+	["C432net.blif" line: 145, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 146, columns:1-5]
+	["C432net.blif" line: 146, columns:7-10]
+  .gate assign: a = 27GAT(8)
+	["C432net.blif" line: 146, column: 12]
+	["C432net.blif" line: 146, columns:14-21]
+  .gate assign: O = [577]
+	["C432net.blif" line: 146, column: 23]
+	["C432net.blif" line: 146, columns:25-29]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 147, columns:1-5]
+	["C432net.blif" line: 147, columns:7-10]
+  .gate assign: a = 331GAT(149)
+	["C432net.blif" line: 147, column: 12]
+	["C432net.blif" line: 147, columns:14-24]
+  .gate assign: b = 227GAT(99)
+	["C432net.blif" line: 147, column: 26]
+	["C432net.blif" line: 147, columns:28-37]
+  .gate assign: c = 27GAT(8)
+	["C432net.blif" line: 147, column: 39]
+	["C432net.blif" line: 147, columns:41-48]
+  .gate assign: d = [510]
+	["C432net.blif" line: 147, column: 50]
+	["C432net.blif" line: 147, columns:52-56]
+  .gate assign: O = 349GAT(159)
+	["C432net.blif" line: 147, column: 58]
+	["C432net.blif" line: 147, columns:60-70]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 148, columns:1-5]
+	["C432net.blif" line: 148, columns:7-10]
+  .gate assign: a = 350GAT(158)
+	["C432net.blif" line: 148, column: 12]
+	["C432net.blif" line: 148, columns:14-24]
+  .gate assign: b = 348GAT(160)
+	["C432net.blif" line: 148, column: 26]
+	["C432net.blif" line: 148, columns:28-38]
+  .gate assign: c = 349GAT(159)
+	["C432net.blif" line: 148, column: 40]
+	["C432net.blif" line: 148, columns:42-52]
+  .gate assign: O = [256]
+	["C432net.blif" line: 148, column: 54]
+	["C432net.blif" line: 148, columns:56-60]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 149, columns:1-5]
+	["C432net.blif" line: 149, columns:7-10]
+  .gate assign: a = [256]
+	["C432net.blif" line: 149, column: 12]
+	["C432net.blif" line: 149, columns:14-18]
+  .gate assign: O = [1328]
+	["C432net.blif" line: 149, column: 20]
+	["C432net.blif" line: 149, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 150, columns:1-5]
+	["C432net.blif" line: 150, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 150, column: 12]
+	["C432net.blif" line: 150, columns:14-24]
+  .gate assign: b = [553]
+	["C432net.blif" line: 150, column: 26]
+	["C432net.blif" line: 150, columns:28-32]
+  .gate assign: O = [53]
+	["C432net.blif" line: 150, column: 34]
+	["C432net.blif" line: 150, columns:36-39]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 151, columns:1-5]
+	["C432net.blif" line: 151, columns:7-10]
+  .gate assign: a = 329GAT(133)
+	["C432net.blif" line: 151, column: 12]
+	["C432net.blif" line: 151, columns:14-24]
+  .gate assign: b = 270GAT(114)
+	["C432net.blif" line: 151, column: 26]
+	["C432net.blif" line: 151, columns:28-38]
+  .gate assign: O = [54]
+	["C432net.blif" line: 151, column: 40]
+	["C432net.blif" line: 151, columns:42-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 152, columns:1-5]
+	["C432net.blif" line: 152, columns:7-10]
+  .gate assign: a = [53]
+	["C432net.blif" line: 152, column: 12]
+	["C432net.blif" line: 152, columns:14-17]
+  .gate assign: b = [54]
+	["C432net.blif" line: 152, column: 19]
+	["C432net.blif" line: 152, columns:21-24]
+  .gate assign: O = 333GAT(145)
+	["C432net.blif" line: 152, column: 26]
+	["C432net.blif" line: 152, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 153, columns:1-5]
+	["C432net.blif" line: 153, columns:7-10]
+  .gate assign: a = 53GAT(16)
+	["C432net.blif" line: 153, column: 12]
+	["C432net.blif" line: 153, columns:14-22]
+  .gate assign: O = [585]
+	["C432net.blif" line: 153, column: 24]
+	["C432net.blif" line: 153, columns:26-30]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 154, columns:1-5]
+	["C432net.blif" line: 154, columns:7-10]
+  .gate assign: a = 333GAT(145)
+	["C432net.blif" line: 154, column: 12]
+	["C432net.blif" line: 154, columns:14-24]
+  .gate assign: b = 233GAT(95)
+	["C432net.blif" line: 154, column: 26]
+	["C432net.blif" line: 154, columns:28-37]
+  .gate assign: c = 53GAT(16)
+	["C432net.blif" line: 154, column: 39]
+	["C432net.blif" line: 154, columns:41-49]
+  .gate assign: d = [518]
+	["C432net.blif" line: 154, column: 51]
+	["C432net.blif" line: 154, columns:53-57]
+  .gate assign: O = 351GAT(157)
+	["C432net.blif" line: 154, column: 59]
+	["C432net.blif" line: 154, columns:61-71]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 155, columns:1-5]
+	["C432net.blif" line: 155, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 155, column: 12]
+	["C432net.blif" line: 155, columns:14-24]
+  .gate assign: b = [556]
+	["C432net.blif" line: 155, column: 26]
+	["C432net.blif" line: 155, columns:28-32]
+  .gate assign: O = [51]
+	["C432net.blif" line: 155, column: 34]
+	["C432net.blif" line: 155, columns:36-39]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 156, columns:1-5]
+	["C432net.blif" line: 156, columns:7-10]
+  .gate assign: a = 329GAT(133)
+	["C432net.blif" line: 156, column: 12]
+	["C432net.blif" line: 156, columns:14-24]
+  .gate assign: b = 273GAT(112)
+	["C432net.blif" line: 156, column: 26]
+	["C432net.blif" line: 156, columns:28-38]
+  .gate assign: O = [52]
+	["C432net.blif" line: 156, column: 40]
+	["C432net.blif" line: 156, columns:42-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 157, columns:1-5]
+	["C432net.blif" line: 157, columns:7-10]
+  .gate assign: a = [51]
+	["C432net.blif" line: 157, column: 12]
+	["C432net.blif" line: 157, columns:14-17]
+  .gate assign: b = [52]
+	["C432net.blif" line: 157, column: 19]
+	["C432net.blif" line: 157, columns:21-24]
+  .gate assign: O = 335GAT(143)
+	["C432net.blif" line: 157, column: 26]
+	["C432net.blif" line: 157, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 158, columns:1-5]
+	["C432net.blif" line: 158, columns:7-10]
+  .gate assign: a = 66GAT(20)
+	["C432net.blif" line: 158, column: 12]
+	["C432net.blif" line: 158, columns:14-22]
+  .gate assign: O = [588]
+	["C432net.blif" line: 158, column: 24]
+	["C432net.blif" line: 158, columns:26-30]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 159, columns:1-5]
+	["C432net.blif" line: 159, columns:7-10]
+  .gate assign: a = 335GAT(143)
+	["C432net.blif" line: 159, column: 12]
+	["C432net.blif" line: 159, columns:14-24]
+  .gate assign: b = 236GAT(93)
+	["C432net.blif" line: 159, column: 26]
+	["C432net.blif" line: 159, columns:28-37]
+  .gate assign: c = 66GAT(20)
+	["C432net.blif" line: 159, column: 39]
+	["C432net.blif" line: 159, columns:41-49]
+  .gate assign: d = [521]
+	["C432net.blif" line: 159, column: 51]
+	["C432net.blif" line: 159, columns:53-57]
+  .gate assign: O = 352GAT(156)
+	["C432net.blif" line: 159, column: 59]
+	["C432net.blif" line: 159, columns:61-71]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 160, columns:1-5]
+	["C432net.blif" line: 160, columns:7-10]
+  .gate assign: a = [1322]
+	["C432net.blif" line: 160, column: 12]
+	["C432net.blif" line: 160, columns:14-19]
+  .gate assign: b = [1328]
+	["C432net.blif" line: 160, column: 21]
+	["C432net.blif" line: 160, columns:23-28]
+  .gate assign: c = 351GAT(157)
+	["C432net.blif" line: 160, column: 30]
+	["C432net.blif" line: 160, columns:32-42]
+  .gate assign: d = 352GAT(156)
+	["C432net.blif" line: 160, column: 44]
+	["C432net.blif" line: 160, columns:46-56]
+  .gate assign: O = 357GAT(161)
+	["C432net.blif" line: 160, column: 58]
+	["C432net.blif" line: 160, columns:60-70]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 161, columns:1-5]
+	["C432net.blif" line: 161, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 161, column: 12]
+	["C432net.blif" line: 161, columns:14-24]
+  .gate assign: O = 370GAT(163)
+	["C432net.blif" line: 161, column: 26]
+	["C432net.blif" line: 161, columns:28-38]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 162, columns:1-5]
+	["C432net.blif" line: 162, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 162, column: 12]
+	["C432net.blif" line: 162, columns:14-23]
+  .gate assign: b = [506]
+	["C432net.blif" line: 162, column: 25]
+	["C432net.blif" line: 162, columns:27-31]
+  .gate assign: O = 242GAT(102)
+	["C432net.blif" line: 162, column: 33]
+	["C432net.blif" line: 162, columns:35-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 163, columns:1-5]
+	["C432net.blif" line: 163, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 163, column: 12]
+	["C432net.blif" line: 163, columns:14-24]
+  .gate assign: b = [540]
+	["C432net.blif" line: 163, column: 26]
+	["C432net.blif" line: 163, columns:28-32]
+  .gate assign: O = 334GAT(150)
+	["C432net.blif" line: 163, column: 34]
+	["C432net.blif" line: 163, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 164, columns:1-5]
+	["C432net.blif" line: 164, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 164, column: 12]
+	["C432net.blif" line: 164, columns:14-24]
+  .gate assign: b = [574]
+	["C432net.blif" line: 164, column: 26]
+	["C432net.blif" line: 164, columns:28-32]
+  .gate assign: O = 371GAT(172)
+	["C432net.blif" line: 164, column: 34]
+	["C432net.blif" line: 164, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 165, columns:1-5]
+	["C432net.blif" line: 165, columns:7-10]
+  .gate assign: a = 242GAT(102)
+	["C432net.blif" line: 165, column: 12]
+	["C432net.blif" line: 165, columns:14-24]
+  .gate assign: b = [507]
+	["C432net.blif" line: 165, column: 26]
+	["C432net.blif" line: 165, columns:28-32]
+  .gate assign: c = 334GAT(150)
+	["C432net.blif" line: 165, column: 34]
+	["C432net.blif" line: 165, columns:36-46]
+  .gate assign: d = 371GAT(172)
+	["C432net.blif" line: 165, column: 48]
+	["C432net.blif" line: 165, columns:50-60]
+  .gate assign: O = 380GAT(181)
+	["C432net.blif" line: 165, column: 62]
+	["C432net.blif" line: 165, columns:64-74]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 166, columns:1-5]
+	["C432net.blif" line: 166, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 166, column: 12]
+	["C432net.blif" line: 166, columns:14-23]
+  .gate assign: b = [525]
+	["C432net.blif" line: 166, column: 25]
+	["C432net.blif" line: 166, columns:27-31]
+  .gate assign: O = 256GAT(92)
+	["C432net.blif" line: 166, column: 33]
+	["C432net.blif" line: 166, columns:35-44]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 167, columns:1-5]
+	["C432net.blif" line: 167, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 167, column: 12]
+	["C432net.blif" line: 167, columns:14-24]
+  .gate assign: b = [559]
+	["C432net.blif" line: 167, column: 26]
+	["C432net.blif" line: 167, columns:28-32]
+  .gate assign: O = 344GAT(140)
+	["C432net.blif" line: 167, column: 34]
+	["C432net.blif" line: 167, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 168, columns:1-5]
+	["C432net.blif" line: 168, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 168, column: 12]
+	["C432net.blif" line: 168, columns:14-24]
+  .gate assign: b = [593]
+	["C432net.blif" line: 168, column: 26]
+	["C432net.blif" line: 168, columns:28-32]
+  .gate assign: O = 376GAT(167)
+	["C432net.blif" line: 168, column: 34]
+	["C432net.blif" line: 168, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 169, columns:1-5]
+	["C432net.blif" line: 169, columns:7-10]
+  .gate assign: a = 256GAT(92)
+	["C432net.blif" line: 169, column: 12]
+	["C432net.blif" line: 169, columns:14-23]
+  .gate assign: b = 344GAT(140)
+	["C432net.blif" line: 169, column: 25]
+	["C432net.blif" line: 169, columns:27-37]
+  .gate assign: c = 376GAT(167)
+	["C432net.blif" line: 169, column: 39]
+	["C432net.blif" line: 169, columns:41-51]
+  .gate assign: d = [526]
+	["C432net.blif" line: 169, column: 53]
+	["C432net.blif" line: 169, columns:55-59]
+  .gate assign: O = 404GAT(176)
+	["C432net.blif" line: 169, column: 61]
+	["C432net.blif" line: 169, columns:63-73]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 170, columns:1-5]
+	["C432net.blif" line: 170, columns:7-10]
+  .gate assign: a = 404GAT(176)
+	["C432net.blif" line: 170, column: 12]
+	["C432net.blif" line: 170, columns:14-24]
+  .gate assign: O = [624]
+	["C432net.blif" line: 170, column: 26]
+	["C432net.blif" line: 170, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 171, columns:1-5]
+	["C432net.blif" line: 171, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 171, column: 12]
+	["C432net.blif" line: 171, columns:14-23]
+  .gate assign: b = [528]
+	["C432net.blif" line: 171, column: 25]
+	["C432net.blif" line: 171, columns:27-31]
+  .gate assign: O = 257GAT(90)
+	["C432net.blif" line: 171, column: 33]
+	["C432net.blif" line: 171, columns:35-44]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 172, columns:1-5]
+	["C432net.blif" line: 172, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 172, column: 12]
+	["C432net.blif" line: 172, columns:14-24]
+  .gate assign: b = [562]
+	["C432net.blif" line: 172, column: 26]
+	["C432net.blif" line: 172, columns:28-32]
+  .gate assign: O = 345GAT(138)
+	["C432net.blif" line: 172, column: 34]
+	["C432net.blif" line: 172, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 173, columns:1-5]
+	["C432net.blif" line: 173, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 173, column: 12]
+	["C432net.blif" line: 173, columns:14-24]
+  .gate assign: b = [596]
+	["C432net.blif" line: 173, column: 26]
+	["C432net.blif" line: 173, columns:28-32]
+  .gate assign: O = 377GAT(166)
+	["C432net.blif" line: 173, column: 34]
+	["C432net.blif" line: 173, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 174, columns:1-5]
+	["C432net.blif" line: 174, columns:7-10]
+  .gate assign: a = 257GAT(90)
+	["C432net.blif" line: 174, column: 12]
+	["C432net.blif" line: 174, columns:14-23]
+  .gate assign: b = 345GAT(138)
+	["C432net.blif" line: 174, column: 25]
+	["C432net.blif" line: 174, columns:27-37]
+  .gate assign: c = 377GAT(166)
+	["C432net.blif" line: 174, column: 39]
+	["C432net.blif" line: 174, columns:41-51]
+  .gate assign: d = [529]
+	["C432net.blif" line: 174, column: 53]
+	["C432net.blif" line: 174, columns:55-59]
+  .gate assign: O = 407GAT(175)
+	["C432net.blif" line: 174, column: 61]
+	["C432net.blif" line: 174, columns:63-73]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 175, columns:1-5]
+	["C432net.blif" line: 175, columns:7-10]
+  .gate assign: a = 407GAT(175)
+	["C432net.blif" line: 175, column: 12]
+	["C432net.blif" line: 175, columns:14-24]
+  .gate assign: O = [627]
+	["C432net.blif" line: 175, column: 26]
+	["C432net.blif" line: 175, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 176, columns:1-5]
+	["C432net.blif" line: 176, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 176, column: 12]
+	["C432net.blif" line: 176, columns:14-23]
+  .gate assign: b = [532]
+	["C432net.blif" line: 176, column: 25]
+	["C432net.blif" line: 176, columns:27-31]
+  .gate assign: O = 258GAT(88)
+	["C432net.blif" line: 176, column: 33]
+	["C432net.blif" line: 176, columns:35-44]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 177, columns:1-5]
+	["C432net.blif" line: 177, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 177, column: 12]
+	["C432net.blif" line: 177, columns:14-24]
+  .gate assign: b = [566]
+	["C432net.blif" line: 177, column: 26]
+	["C432net.blif" line: 177, columns:28-32]
+  .gate assign: O = 346GAT(136)
+	["C432net.blif" line: 177, column: 34]
+	["C432net.blif" line: 177, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 178, columns:1-5]
+	["C432net.blif" line: 178, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 178, column: 12]
+	["C432net.blif" line: 178, columns:14-24]
+  .gate assign: b = [600]
+	["C432net.blif" line: 178, column: 26]
+	["C432net.blif" line: 178, columns:28-32]
+  .gate assign: O = 378GAT(165)
+	["C432net.blif" line: 178, column: 34]
+	["C432net.blif" line: 178, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 179, columns:1-5]
+	["C432net.blif" line: 179, columns:7-10]
+  .gate assign: a = 258GAT(88)
+	["C432net.blif" line: 179, column: 12]
+	["C432net.blif" line: 179, columns:14-23]
+  .gate assign: b = 346GAT(136)
+	["C432net.blif" line: 179, column: 25]
+	["C432net.blif" line: 179, columns:27-37]
+  .gate assign: c = 378GAT(165)
+	["C432net.blif" line: 179, column: 39]
+	["C432net.blif" line: 179, columns:41-51]
+  .gate assign: d = [533]
+	["C432net.blif" line: 179, column: 53]
+	["C432net.blif" line: 179, columns:55-59]
+  .gate assign: O = 411GAT(174)
+	["C432net.blif" line: 179, column: 61]
+	["C432net.blif" line: 179, columns:63-73]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 180, columns:1-5]
+	["C432net.blif" line: 180, columns:7-10]
+  .gate assign: a = 411GAT(174)
+	["C432net.blif" line: 180, column: 12]
+	["C432net.blif" line: 180, columns:14-24]
+  .gate assign: O = [631]
+	["C432net.blif" line: 180, column: 26]
+	["C432net.blif" line: 180, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 181, columns:1-5]
+	["C432net.blif" line: 181, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 181, column: 12]
+	["C432net.blif" line: 181, columns:14-23]
+  .gate assign: b = [535]
+	["C432net.blif" line: 181, column: 25]
+	["C432net.blif" line: 181, columns:27-31]
+  .gate assign: O = 259GAT(86)
+	["C432net.blif" line: 181, column: 33]
+	["C432net.blif" line: 181, columns:35-44]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 182, columns:1-5]
+	["C432net.blif" line: 182, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 182, column: 12]
+	["C432net.blif" line: 182, columns:14-24]
+  .gate assign: b = [569]
+	["C432net.blif" line: 182, column: 26]
+	["C432net.blif" line: 182, columns:28-32]
+  .gate assign: O = 347GAT(134)
+	["C432net.blif" line: 182, column: 34]
+	["C432net.blif" line: 182, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 183, columns:1-5]
+	["C432net.blif" line: 183, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 183, column: 12]
+	["C432net.blif" line: 183, columns:14-24]
+  .gate assign: b = [603]
+	["C432net.blif" line: 183, column: 26]
+	["C432net.blif" line: 183, columns:28-32]
+  .gate assign: O = 379GAT(164)
+	["C432net.blif" line: 183, column: 34]
+	["C432net.blif" line: 183, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 184, columns:1-5]
+	["C432net.blif" line: 184, columns:7-10]
+  .gate assign: a = 259GAT(86)
+	["C432net.blif" line: 184, column: 12]
+	["C432net.blif" line: 184, columns:14-23]
+  .gate assign: b = 347GAT(134)
+	["C432net.blif" line: 184, column: 25]
+	["C432net.blif" line: 184, columns:27-37]
+  .gate assign: c = 379GAT(164)
+	["C432net.blif" line: 184, column: 39]
+	["C432net.blif" line: 184, columns:41-51]
+  .gate assign: d = [536]
+	["C432net.blif" line: 184, column: 53]
+	["C432net.blif" line: 184, columns:55-59]
+  .gate assign: O = 414GAT(173)
+	["C432net.blif" line: 184, column: 61]
+	["C432net.blif" line: 184, columns:63-73]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 185, columns:1-5]
+	["C432net.blif" line: 185, columns:7-10]
+  .gate assign: a = 404GAT(176)
+	["C432net.blif" line: 185, column: 12]
+	["C432net.blif" line: 185, columns:14-24]
+  .gate assign: b = 407GAT(175)
+	["C432net.blif" line: 185, column: 26]
+	["C432net.blif" line: 185, columns:28-38]
+  .gate assign: c = 411GAT(174)
+	["C432net.blif" line: 185, column: 40]
+	["C432net.blif" line: 185, columns:42-52]
+  .gate assign: d = 414GAT(173)
+	["C432net.blif" line: 185, column: 54]
+	["C432net.blif" line: 185, columns:56-66]
+  .gate assign: O = [126]
+	["C432net.blif" line: 185, column: 68]
+	["C432net.blif" line: 185, columns:70-74]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 186, columns:1-5]
+	["C432net.blif" line: 186, columns:7-10]
+  .gate assign: a = [126]
+	["C432net.blif" line: 186, column: 12]
+	["C432net.blif" line: 186, columns:14-18]
+  .gate assign: O = [1274]
+	["C432net.blif" line: 186, column: 20]
+	["C432net.blif" line: 186, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 187, columns:1-5]
+	["C432net.blif" line: 187, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 187, column: 12]
+	["C432net.blif" line: 187, columns:14-23]
+  .gate assign: b = [517]
+	["C432net.blif" line: 187, column: 25]
+	["C432net.blif" line: 187, columns:27-31]
+  .gate assign: O = 254GAT(96)
+	["C432net.blif" line: 187, column: 33]
+	["C432net.blif" line: 187, columns:35-44]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 188, columns:1-5]
+	["C432net.blif" line: 188, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 188, column: 12]
+	["C432net.blif" line: 188, columns:14-24]
+  .gate assign: b = [551]
+	["C432net.blif" line: 188, column: 26]
+	["C432net.blif" line: 188, columns:28-32]
+  .gate assign: O = 340GAT(144)
+	["C432net.blif" line: 188, column: 34]
+	["C432net.blif" line: 188, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 189, columns:1-5]
+	["C432net.blif" line: 189, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 189, column: 12]
+	["C432net.blif" line: 189, columns:14-24]
+  .gate assign: b = [585]
+	["C432net.blif" line: 189, column: 26]
+	["C432net.blif" line: 189, columns:28-32]
+  .gate assign: O = 374GAT(169)
+	["C432net.blif" line: 189, column: 34]
+	["C432net.blif" line: 189, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 190, columns:1-5]
+	["C432net.blif" line: 190, columns:7-10]
+  .gate assign: a = 254GAT(96)
+	["C432net.blif" line: 190, column: 12]
+	["C432net.blif" line: 190, columns:14-23]
+  .gate assign: b = 340GAT(144)
+	["C432net.blif" line: 190, column: 25]
+	["C432net.blif" line: 190, columns:27-37]
+  .gate assign: c = 374GAT(169)
+	["C432net.blif" line: 190, column: 39]
+	["C432net.blif" line: 190, columns:41-51]
+  .gate assign: d = [518]
+	["C432net.blif" line: 190, column: 53]
+	["C432net.blif" line: 190, columns:55-59]
+  .gate assign: O = 393GAT(178)
+	["C432net.blif" line: 190, column: 61]
+	["C432net.blif" line: 190, columns:63-73]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 191, columns:1-5]
+	["C432net.blif" line: 191, columns:7-10]
+  .gate assign: a = 393GAT(178)
+	["C432net.blif" line: 191, column: 12]
+	["C432net.blif" line: 191, columns:14-24]
+  .gate assign: O = [617]
+	["C432net.blif" line: 191, column: 26]
+	["C432net.blif" line: 191, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 192, columns:1-5]
+	["C432net.blif" line: 192, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 192, column: 12]
+	["C432net.blif" line: 192, columns:14-23]
+  .gate assign: b = [520]
+	["C432net.blif" line: 192, column: 25]
+	["C432net.blif" line: 192, columns:27-31]
+  .gate assign: O = 255GAT(94)
+	["C432net.blif" line: 192, column: 33]
+	["C432net.blif" line: 192, columns:35-44]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 193, columns:1-5]
+	["C432net.blif" line: 193, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 193, column: 12]
+	["C432net.blif" line: 193, columns:14-24]
+  .gate assign: b = [554]
+	["C432net.blif" line: 193, column: 26]
+	["C432net.blif" line: 193, columns:28-32]
+  .gate assign: O = 342GAT(142)
+	["C432net.blif" line: 193, column: 34]
+	["C432net.blif" line: 193, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 194, columns:1-5]
+	["C432net.blif" line: 194, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 194, column: 12]
+	["C432net.blif" line: 194, columns:14-24]
+  .gate assign: b = [588]
+	["C432net.blif" line: 194, column: 26]
+	["C432net.blif" line: 194, columns:28-32]
+  .gate assign: O = 375GAT(168)
+	["C432net.blif" line: 194, column: 34]
+	["C432net.blif" line: 194, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 195, columns:1-5]
+	["C432net.blif" line: 195, columns:7-10]
+  .gate assign: a = 255GAT(94)
+	["C432net.blif" line: 195, column: 12]
+	["C432net.blif" line: 195, columns:14-23]
+  .gate assign: b = 342GAT(142)
+	["C432net.blif" line: 195, column: 25]
+	["C432net.blif" line: 195, columns:27-37]
+  .gate assign: c = 375GAT(168)
+	["C432net.blif" line: 195, column: 39]
+	["C432net.blif" line: 195, columns:41-51]
+  .gate assign: d = [521]
+	["C432net.blif" line: 195, column: 53]
+	["C432net.blif" line: 195, columns:55-59]
+  .gate assign: O = 399GAT(177)
+	["C432net.blif" line: 195, column: 61]
+	["C432net.blif" line: 195, columns:63-73]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 196, columns:1-5]
+	["C432net.blif" line: 196, columns:7-10]
+  .gate assign: a = 393GAT(178)
+	["C432net.blif" line: 196, column: 12]
+	["C432net.blif" line: 196, columns:14-24]
+  .gate assign: b = 399GAT(177)
+	["C432net.blif" line: 196, column: 26]
+	["C432net.blif" line: 196, columns:28-38]
+  .gate assign: O = [129]
+	["C432net.blif" line: 196, column: 40]
+	["C432net.blif" line: 196, columns:42-46]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 197, columns:1-5]
+	["C432net.blif" line: 197, columns:7-10]
+  .gate assign: a = [129]
+	["C432net.blif" line: 197, column: 12]
+	["C432net.blif" line: 197, columns:14-18]
+  .gate assign: O = [1276]
+	["C432net.blif" line: 197, column: 20]
+	["C432net.blif" line: 197, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 198, columns:1-5]
+	["C432net.blif" line: 198, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 198, column: 12]
+	["C432net.blif" line: 198, columns:14-23]
+  .gate assign: b = [509]
+	["C432net.blif" line: 198, column: 25]
+	["C432net.blif" line: 198, columns:27-31]
+  .gate assign: O = 246GAT(100)
+	["C432net.blif" line: 198, column: 33]
+	["C432net.blif" line: 198, columns:35-45]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 199, columns:1-5]
+	["C432net.blif" line: 199, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 199, column: 12]
+	["C432net.blif" line: 199, columns:14-24]
+  .gate assign: b = [543]
+	["C432net.blif" line: 199, column: 26]
+	["C432net.blif" line: 199, columns:28-32]
+  .gate assign: O = 336GAT(148)
+	["C432net.blif" line: 199, column: 34]
+	["C432net.blif" line: 199, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 200, columns:1-5]
+	["C432net.blif" line: 200, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 200, column: 12]
+	["C432net.blif" line: 200, columns:14-24]
+  .gate assign: b = [577]
+	["C432net.blif" line: 200, column: 26]
+	["C432net.blif" line: 200, columns:28-32]
+  .gate assign: O = 372GAT(171)
+	["C432net.blif" line: 200, column: 34]
+	["C432net.blif" line: 200, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 201, columns:1-5]
+	["C432net.blif" line: 201, columns:7-10]
+  .gate assign: a = 246GAT(100)
+	["C432net.blif" line: 201, column: 12]
+	["C432net.blif" line: 201, columns:14-24]
+  .gate assign: b = 336GAT(148)
+	["C432net.blif" line: 201, column: 26]
+	["C432net.blif" line: 201, columns:28-38]
+  .gate assign: c = 372GAT(171)
+	["C432net.blif" line: 201, column: 40]
+	["C432net.blif" line: 201, columns:42-52]
+  .gate assign: d = [510]
+	["C432net.blif" line: 201, column: 54]
+	["C432net.blif" line: 201, columns:56-60]
+  .gate assign: O = 381GAT(180)
+	["C432net.blif" line: 201, column: 62]
+	["C432net.blif" line: 201, columns:64-74]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 202, columns:1-5]
+	["C432net.blif" line: 202, columns:7-10]
+  .gate assign: a = 199GAT(81)
+	["C432net.blif" line: 202, column: 12]
+	["C432net.blif" line: 202, columns:14-23]
+  .gate assign: b = [513]
+	["C432net.blif" line: 202, column: 25]
+	["C432net.blif" line: 202, columns:27-31]
+  .gate assign: O = 250GAT(98)
+	["C432net.blif" line: 202, column: 33]
+	["C432net.blif" line: 202, columns:35-44]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 203, columns:1-5]
+	["C432net.blif" line: 203, columns:7-10]
+  .gate assign: a = 296GAT(122)
+	["C432net.blif" line: 203, column: 12]
+	["C432net.blif" line: 203, columns:14-24]
+  .gate assign: b = [547]
+	["C432net.blif" line: 203, column: 26]
+	["C432net.blif" line: 203, columns:28-32]
+  .gate assign: O = 338GAT(146)
+	["C432net.blif" line: 203, column: 34]
+	["C432net.blif" line: 203, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 204, columns:1-5]
+	["C432net.blif" line: 204, columns:7-10]
+  .gate assign: a = 357GAT(161)
+	["C432net.blif" line: 204, column: 12]
+	["C432net.blif" line: 204, columns:14-24]
+  .gate assign: b = [581]
+	["C432net.blif" line: 204, column: 26]
+	["C432net.blif" line: 204, columns:28-32]
+  .gate assign: O = 373GAT(170)
+	["C432net.blif" line: 204, column: 34]
+	["C432net.blif" line: 204, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 205, columns:1-5]
+	["C432net.blif" line: 205, columns:7-10]
+  .gate assign: a = 250GAT(98)
+	["C432net.blif" line: 205, column: 12]
+	["C432net.blif" line: 205, columns:14-23]
+  .gate assign: b = 338GAT(146)
+	["C432net.blif" line: 205, column: 25]
+	["C432net.blif" line: 205, columns:27-37]
+  .gate assign: c = 373GAT(170)
+	["C432net.blif" line: 205, column: 39]
+	["C432net.blif" line: 205, columns:41-51]
+  .gate assign: d = [514]
+	["C432net.blif" line: 205, column: 53]
+	["C432net.blif" line: 205, columns:55-59]
+  .gate assign: O = 386GAT(179)
+	["C432net.blif" line: 205, column: 61]
+	["C432net.blif" line: 205, columns:63-73]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 206, columns:1-5]
+	["C432net.blif" line: 206, columns:7-10]
+  .gate assign: a = [1274]
+	["C432net.blif" line: 206, column: 12]
+	["C432net.blif" line: 206, columns:14-19]
+  .gate assign: b = [1276]
+	["C432net.blif" line: 206, column: 21]
+	["C432net.blif" line: 206, columns:23-28]
+  .gate assign: c = 381GAT(180)
+	["C432net.blif" line: 206, column: 30]
+	["C432net.blif" line: 206, columns:32-42]
+  .gate assign: d = 386GAT(179)
+	["C432net.blif" line: 206, column: 44]
+	["C432net.blif" line: 206, columns:46-56]
+  .gate assign: O = 416GAT(182)
+	["C432net.blif" line: 206, column: 58]
+	["C432net.blif" line: 206, columns:60-70]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 207, columns:1-5]
+	["C432net.blif" line: 207, columns:7-10]
+  .gate assign: a = 380GAT(181)
+	["C432net.blif" line: 207, column: 12]
+	["C432net.blif" line: 207, columns:14-24]
+  .gate assign: b = 416GAT(182)
+	["C432net.blif" line: 207, column: 26]
+	["C432net.blif" line: 207, columns:28-38]
+  .gate assign: O = 421GAT(188)
+	["C432net.blif" line: 207, column: 40]
+	["C432net.blif" line: 207, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C432net.blif" line: 208, columns:1-5]
+	["C432net.blif" line: 208, columns:7-10]
+  .gate assign: a = 386GAT(179)
+	["C432net.blif" line: 208, column: 12]
+	["C432net.blif" line: 208, columns:14-24]
+  .gate assign: b = [617]
+	["C432net.blif" line: 208, column: 26]
+	["C432net.blif" line: 208, columns:28-32]
+  .gate assign: O = 422GAT(192)
+	["C432net.blif" line: 208, column: 34]
+	["C432net.blif" line: 208, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 209, columns:1-5]
+	["C432net.blif" line: 209, columns:7-10]
+  .gate assign: a = 381GAT(180)
+	["C432net.blif" line: 209, column: 12]
+	["C432net.blif" line: 209, columns:14-24]
+  .gate assign: b = 386GAT(179)
+	["C432net.blif" line: 209, column: 26]
+	["C432net.blif" line: 209, columns:28-38]
+  .gate assign: c = 422GAT(192)
+	["C432net.blif" line: 209, column: 40]
+	["C432net.blif" line: 209, columns:42-52]
+  .gate assign: d = 399GAT(177)
+	["C432net.blif" line: 209, column: 54]
+	["C432net.blif" line: 209, columns:56-66]
+  .gate assign: O = [4]
+	["C432net.blif" line: 209, column: 68]
+	["C432net.blif" line: 209, columns:70-72]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 210, columns:1-5]
+	["C432net.blif" line: 210, columns:7-10]
+  .gate assign: a = [4]
+	["C432net.blif" line: 210, column: 12]
+	["C432net.blif" line: 210, columns:14-16]
+  .gate assign: O = 430GAT(193)
+	["C432net.blif" line: 210, column: 18]
+	["C432net.blif" line: 210, columns:20-30]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 211, columns:1-5]
+	["C432net.blif" line: 211, columns:7-10]
+  .gate assign: a = 386GAT(179)
+	["C432net.blif" line: 211, column: 12]
+	["C432net.blif" line: 211, columns:14-24]
+  .gate assign: b = 393GAT(178)
+	["C432net.blif" line: 211, column: 26]
+	["C432net.blif" line: 211, columns:28-38]
+  .gate assign: c = 399GAT(177)
+	["C432net.blif" line: 211, column: 40]
+	["C432net.blif" line: 211, columns:42-52]
+  .gate assign: d = [624]
+	["C432net.blif" line: 211, column: 54]
+	["C432net.blif" line: 211, columns:56-60]
+  .gate assign: O = 425GAT(190)
+	["C432net.blif" line: 211, column: 62]
+	["C432net.blif" line: 211, columns:64-74]
+.gate end
+
+.gate nor3 begin
+	["C432net.blif" line: 212, columns:1-5]
+	["C432net.blif" line: 212, columns:7-10]
+  .gate assign: a = [627]
+	["C432net.blif" line: 212, column: 12]
+	["C432net.blif" line: 212, columns:14-18]
+  .gate assign: b = 399GAT(177)
+	["C432net.blif" line: 212, column: 20]
+	["C432net.blif" line: 212, columns:22-32]
+  .gate assign: c = 393GAT(178)
+	["C432net.blif" line: 212, column: 34]
+	["C432net.blif" line: 212, columns:36-46]
+  .gate assign: O = 428GAT(191)
+	["C432net.blif" line: 212, column: 48]
+	["C432net.blif" line: 212, columns:50-60]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 213, columns:1-5]
+	["C432net.blif" line: 213, columns:7-10]
+  .gate assign: a = 381GAT(180)
+	["C432net.blif" line: 213, column: 12]
+	["C432net.blif" line: 213, columns:14-24]
+  .gate assign: b = 386GAT(179)
+	["C432net.blif" line: 213, column: 26]
+	["C432net.blif" line: 213, columns:28-38]
+  .gate assign: c = 425GAT(190)
+	["C432net.blif" line: 213, column: 40]
+	["C432net.blif" line: 213, columns:42-52]
+  .gate assign: d = 428GAT(191)
+	["C432net.blif" line: 213, column: 54]
+	["C432net.blif" line: 213, columns:56-66]
+  .gate assign: O = [5]
+	["C432net.blif" line: 213, column: 68]
+	["C432net.blif" line: 213, columns:70-72]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 214, columns:1-5]
+	["C432net.blif" line: 214, columns:7-10]
+  .gate assign: a = [5]
+	["C432net.blif" line: 214, column: 12]
+	["C432net.blif" line: 214, columns:14-16]
+  .gate assign: O = 431GAT(194)
+	["C432net.blif" line: 214, column: 18]
+	["C432net.blif" line: 214, columns:20-30]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 215, columns:1-5]
+	["C432net.blif" line: 215, columns:7-10]
+  .gate assign: a = 386GAT(179)
+	["C432net.blif" line: 215, column: 12]
+	["C432net.blif" line: 215, columns:14-24]
+  .gate assign: b = 393GAT(178)
+	["C432net.blif" line: 215, column: 26]
+	["C432net.blif" line: 215, columns:28-38]
+  .gate assign: c = 407GAT(175)
+	["C432net.blif" line: 215, column: 40]
+	["C432net.blif" line: 215, columns:42-52]
+  .gate assign: d = [631]
+	["C432net.blif" line: 215, column: 54]
+	["C432net.blif" line: 215, columns:56-60]
+  .gate assign: O = 429GAT(189)
+	["C432net.blif" line: 215, column: 62]
+	["C432net.blif" line: 215, columns:64-74]
+.gate end
+
+.gate nor4 begin
+	["C432net.blif" line: 216, columns:1-5]
+	["C432net.blif" line: 216, columns:7-10]
+  .gate assign: a = 381GAT(180)
+	["C432net.blif" line: 216, column: 12]
+	["C432net.blif" line: 216, columns:14-24]
+  .gate assign: b = 422GAT(192)
+	["C432net.blif" line: 216, column: 26]
+	["C432net.blif" line: 216, columns:28-38]
+  .gate assign: c = 425GAT(190)
+	["C432net.blif" line: 216, column: 40]
+	["C432net.blif" line: 216, columns:42-52]
+  .gate assign: d = 429GAT(189)
+	["C432net.blif" line: 216, column: 54]
+	["C432net.blif" line: 216, columns:56-66]
+  .gate assign: O = [6]
+	["C432net.blif" line: 216, column: 68]
+	["C432net.blif" line: 216, columns:70-72]
+.gate end
+
+.gate nor1 begin
+	["C432net.blif" line: 217, columns:1-5]
+	["C432net.blif" line: 217, columns:7-10]
+  .gate assign: a = [6]
+	["C432net.blif" line: 217, column: 12]
+	["C432net.blif" line: 217, columns:14-16]
+  .gate assign: O = 432GAT(195)
+	["C432net.blif" line: 217, column: 18]
+	["C432net.blif" line: 217, columns:20-30]
+.gate end
+
+.end
+	["C432net.blif" line: 218, columns:1-4]
+normal_exit

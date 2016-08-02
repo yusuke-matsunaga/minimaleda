@@ -1,0 +1,23 @@
+2003-06-17  Yusuke Matsunaga  <matsunaga@c.csce.kyushu-u.ac.jp>
+
+	* parser.yy : '#' identifier '(' expression .... を modelsim や
+	VCS などがどうパーズするかテストする．
+	hierarchical_identifier の正式なパーズを考える．
+
+2003-06-16  Yusuke Matsunaga  <matsunaga@c.csce.kyushu-u.ac.jp>
+
+	* parser.yy (n_output_gate_instance): gate_instantiation に
+	drive_strength と delay を追加した．
+
+2003-06-12  Yusuke Matsunaga  <matsunaga@c.csce.kyushu-u.ac.jp>
+
+	* parser.yy : gate instantiation でdrive_strength と delay を
+	無視している．
+
+2003-06-11  Yusuke Matsunaga  <matsunaga@c.csce.kyushu-u.ac.jp>
+
+	* PtExpr.cc (elaborate): VarInt と double の演算をどうする？
+	* Pt.cc : 空のトークンを渡すと FileLoc 得られないので
+		  '#' のようなノードを渡すようにしよう
+	* ai_list : どうやって属性を付加する？
+

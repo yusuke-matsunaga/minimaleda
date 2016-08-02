@@ -1,0 +1,8 @@
+# error 3-5-11
+# no output field
+.model test1
+.inputs a b
+.outputs x
+.names a b x
+11
+.end

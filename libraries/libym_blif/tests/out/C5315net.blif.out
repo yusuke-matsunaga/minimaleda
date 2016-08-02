@@ -1,0 +1,824 @@
+.model C5315.iscas
+	["C5315net.blif" line: 1, columns:1-6]
+	["C5315net.blif" line: 1, columns:8-18]
+  inputs elem: 1(0)
+	["C5315net.blif" line: 2, columns:9-12]
+  inputs elem: 4(1)
+	["C5315net.blif" line: 2, columns:14-17]
+  inputs elem: 11(2)
+	["C5315net.blif" line: 2, columns:19-23]
+  inputs elem: 14(3)
+	["C5315net.blif" line: 2, columns:25-29]
+  inputs elem: 17(4)
+	["C5315net.blif" line: 2, columns:31-35]
+  inputs elem: 20(5)
+	["C5315net.blif" line: 2, columns:37-41]
+  inputs elem: 23(6)
+	["C5315net.blif" line: 2, columns:43-47]
+  inputs elem: 24(7)
+	["C5315net.blif" line: 2, columns:49-53]
+  inputs elem: 25(8)
+	["C5315net.blif" line: 2, columns:55-59]
+  inputs elem: 26(9)
+	["C5315net.blif" line: 2, columns:61-65]
+  inputs elem: 27(10)
+	["C5315net.blif" line: 2, columns:67-72]
+  inputs elem: 31(11)
+	["C5315net.blif" line: 3, columns:1-6]
+  inputs elem: 34(12)
+	["C5315net.blif" line: 3, columns:8-13]
+  inputs elem: 37(13)
+	["C5315net.blif" line: 3, columns:15-20]
+  inputs elem: 40(14)
+	["C5315net.blif" line: 3, columns:22-27]
+  inputs elem: 43(15)
+	["C5315net.blif" line: 3, columns:29-34]
+  inputs elem: 46(16)
+	["C5315net.blif" line: 3, columns:36-41]
+  inputs elem: 49(17)
+	["C5315net.blif" line: 3, columns:43-48]
+  inputs elem: 52(18)
+	["C5315net.blif" line: 3, columns:50-55]
+  inputs elem: 53(19)
+	["C5315net.blif" line: 3, columns:57-62]
+  inputs elem: 54(20)
+	["C5315net.blif" line: 3, columns:64-69]
+  inputs elem: 61(21)
+	["C5315net.blif" line: 3, columns:71-76]
+  inputs elem: 64(22)
+	["C5315net.blif" line: 4, columns:1-6]
+  inputs elem: 67(23)
+	["C5315net.blif" line: 4, columns:8-13]
+  inputs elem: 70(24)
+	["C5315net.blif" line: 4, columns:15-20]
+  inputs elem: 73(25)
+	["C5315net.blif" line: 4, columns:22-27]
+  inputs elem: 76(26)
+	["C5315net.blif" line: 4, columns:29-34]
+  inputs elem: 79(27)
+	["C5315net.blif" line: 4, columns:36-41]
+  inputs elem: 80(28)
+	["C5315net.blif" line: 4, columns:43-48]
+  inputs elem: 81(29)
+	["C5315net.blif" line: 4, columns:50-55]
+  inputs elem: 82(30)
+	["C5315net.blif" line: 4, columns:57-62]
+  inputs elem: 83(31)
+	["C5315net.blif" line: 4, columns:64-69]
+  inputs elem: 86(32)
+	["C5315net.blif" line: 4, columns:71-76]
+  inputs elem: 87(33)
+	["C5315net.blif" line: 5, columns:1-6]
+  inputs elem: 88(34)
+	["C5315net.blif" line: 5, columns:8-13]
+  inputs elem: 91(35)
+	["C5315net.blif" line: 5, columns:15-20]
+  inputs elem: 94(36)
+	["C5315net.blif" line: 5, columns:22-27]
+  inputs elem: 97(37)
+	["C5315net.blif" line: 5, columns:29-34]
+  inputs elem: 100(38)
+	["C5315net.blif" line: 5, columns:36-42]
+  inputs elem: 103(39)
+	["C5315net.blif" line: 5, columns:44-50]
+  inputs elem: 106(40)
+	["C5315net.blif" line: 5, columns:52-58]
+  inputs elem: 109(41)
+	["C5315net.blif" line: 5, columns:60-66]
+  inputs elem: 112(42)
+	["C5315net.blif" line: 5, columns:68-74]
+  inputs elem: 113(43)
+	["C5315net.blif" line: 6, columns:1-7]
+  inputs elem: 114(44)
+	["C5315net.blif" line: 6, columns:9-15]
+  inputs elem: 115(45)
+	["C5315net.blif" line: 6, columns:17-23]
+  inputs elem: 116(46)
+	["C5315net.blif" line: 6, columns:25-31]
+  inputs elem: 117(47)
+	["C5315net.blif" line: 6, columns:33-39]
+  inputs elem: 118(48)
+	["C5315net.blif" line: 6, columns:41-47]
+  inputs elem: 119(49)
+	["C5315net.blif" line: 6, columns:49-55]
+  inputs elem: 120(50)
+	["C5315net.blif" line: 6, columns:57-63]
+  inputs elem: 121(51)
+	["C5315net.blif" line: 6, columns:65-71]
+  inputs elem: 122(52)
+	["C5315net.blif" line: 7, columns:1-7]
+  inputs elem: 123(53)
+	["C5315net.blif" line: 7, columns:9-15]
+  inputs elem: 126(54)
+	["C5315net.blif" line: 7, columns:17-23]
+  inputs elem: 127(55)
+	["C5315net.blif" line: 7, columns:25-31]
+  inputs elem: 128(56)
+	["C5315net.blif" line: 7, columns:33-39]
+  inputs elem: 129(57)
+	["C5315net.blif" line: 7, columns:41-47]
+  inputs elem: 130(58)
+	["C5315net.blif" line: 7, columns:49-55]
+  inputs elem: 131(59)
+	["C5315net.blif" line: 7, columns:57-63]
+  inputs elem: 132(60)
+	["C5315net.blif" line: 7, columns:65-71]
+  inputs elem: 135(61)
+	["C5315net.blif" line: 8, columns:1-7]
+  inputs elem: 136(62)
+	["C5315net.blif" line: 8, columns:9-15]
+  inputs elem: 137(63)
+	["C5315net.blif" line: 8, columns:17-23]
+  inputs elem: 140(64)
+	["C5315net.blif" line: 8, columns:25-31]
+  inputs elem: 141(65)
+	["C5315net.blif" line: 8, columns:33-39]
+  inputs elem: 145(66)
+	["C5315net.blif" line: 8, columns:41-47]
+  inputs elem: 146(67)
+	["C5315net.blif" line: 8, columns:49-55]
+  inputs elem: 149(68)
+	["C5315net.blif" line: 8, columns:57-63]
+  inputs elem: 152(69)
+	["C5315net.blif" line: 8, columns:65-71]
+  inputs elem: 155(70)
+	["C5315net.blif" line: 9, columns:1-7]
+  inputs elem: 158(71)
+	["C5315net.blif" line: 9, columns:9-15]
+  inputs elem: 161(72)
+	["C5315net.blif" line: 9, columns:17-23]
+  inputs elem: 164(73)
+	["C5315net.blif" line: 9, columns:25-31]
+  inputs elem: 167(74)
+	["C5315net.blif" line: 9, columns:33-39]
+  inputs elem: 170(75)
+	["C5315net.blif" line: 9, columns:41-47]
+  inputs elem: 173(76)
+	["C5315net.blif" line: 9, columns:49-55]
+  inputs elem: 176(77)
+	["C5315net.blif" line: 9, columns:57-63]
+  inputs elem: 179(78)
+	["C5315net.blif" line: 9, columns:65-71]
+  inputs elem: 182(79)
+	["C5315net.blif" line: 10, columns:1-7]
+  inputs elem: 185(80)
+	["C5315net.blif" line: 10, columns:9-15]
+  inputs elem: 188(81)
+	["C5315net.blif" line: 10, columns:17-23]
+  inputs elem: 191(82)
+	["C5315net.blif" line: 10, columns:25-31]
+  inputs elem: 194(83)
+	["C5315net.blif" line: 10, columns:33-39]
+  inputs elem: 197(84)
+	["C5315net.blif" line: 10, columns:41-47]
+  inputs elem: 200(85)
+	["C5315net.blif" line: 10, columns:49-55]
+  inputs elem: 203(86)
+	["C5315net.blif" line: 10, columns:57-63]
+  inputs elem: 206(87)
+	["C5315net.blif" line: 10, columns:65-71]
+  inputs elem: 209(88)
+	["C5315net.blif" line: 11, columns:1-7]
+  inputs elem: 210(89)
+	["C5315net.blif" line: 11, columns:9-15]
+  inputs elem: 217(90)
+	["C5315net.blif" line: 11, columns:17-23]
+  inputs elem: 218(91)
+	["C5315net.blif" line: 11, columns:25-31]
+  inputs elem: 225(92)
+	["C5315net.blif" line: 11, columns:33-39]
+  inputs elem: 226(93)
+	["C5315net.blif" line: 11, columns:41-47]
+  inputs elem: 233(94)
+	["C5315net.blif" line: 11, columns:49-55]
+  inputs elem: 234(95)
+	["C5315net.blif" line: 11, columns:57-63]
+  inputs elem: 241(96)
+	["C5315net.blif" line: 11, columns:65-71]
+  inputs elem: 242(97)
+	["C5315net.blif" line: 12, columns:1-7]
+  inputs elem: 245(98)
+	["C5315net.blif" line: 12, columns:9-15]
+  inputs elem: 248(99)
+	["C5315net.blif" line: 12, columns:17-23]
+  inputs elem: 251(100)
+	["C5315net.blif" line: 12, columns:25-32]
+  inputs elem: 254(101)
+	["C5315net.blif" line: 12, columns:34-41]
+  inputs elem: 257(102)
+	["C5315net.blif" line: 12, columns:43-50]
+  inputs elem: 264(103)
+	["C5315net.blif" line: 12, columns:52-59]
+  inputs elem: 265(104)
+	["C5315net.blif" line: 12, columns:61-68]
+  inputs elem: 272(105)
+	["C5315net.blif" line: 12, columns:70-77]
+  inputs elem: 273(106)
+	["C5315net.blif" line: 13, columns:1-8]
+  inputs elem: 280(107)
+	["C5315net.blif" line: 13, columns:10-17]
+  inputs elem: 281(108)
+	["C5315net.blif" line: 13, columns:19-26]
+  inputs elem: 288(109)
+	["C5315net.blif" line: 13, columns:28-35]
+  inputs elem: 289(110)
+	["C5315net.blif" line: 13, columns:37-44]
+  inputs elem: 292(111)
+	["C5315net.blif" line: 13, columns:46-53]
+  inputs elem: 293(112)
+	["C5315net.blif" line: 13, columns:55-62]
+  inputs elem: 299(113)
+	["C5315net.blif" line: 13, columns:64-71]
+  inputs elem: 302(114)
+	["C5315net.blif" line: 14, columns:1-8]
+  inputs elem: 307(115)
+	["C5315net.blif" line: 14, columns:10-17]
+  inputs elem: 308(116)
+	["C5315net.blif" line: 14, columns:19-26]
+  inputs elem: 315(117)
+	["C5315net.blif" line: 14, columns:28-35]
+  inputs elem: 316(118)
+	["C5315net.blif" line: 14, columns:37-44]
+  inputs elem: 323(119)
+	["C5315net.blif" line: 14, columns:46-53]
+  inputs elem: 324(120)
+	["C5315net.blif" line: 14, columns:55-62]
+  inputs elem: 331(121)
+	["C5315net.blif" line: 14, columns:64-71]
+  inputs elem: 332(122)
+	["C5315net.blif" line: 15, columns:1-8]
+  inputs elem: 335(123)
+	["C5315net.blif" line: 15, columns:10-17]
+  inputs elem: 338(124)
+	["C5315net.blif" line: 15, columns:19-26]
+  inputs elem: 341(125)
+	["C5315net.blif" line: 15, columns:28-35]
+  inputs elem: 348(126)
+	["C5315net.blif" line: 15, columns:37-44]
+  inputs elem: 351(127)
+	["C5315net.blif" line: 15, columns:46-53]
+  inputs elem: 358(128)
+	["C5315net.blif" line: 15, columns:55-62]
+  inputs elem: 361(129)
+	["C5315net.blif" line: 15, columns:64-71]
+  inputs elem: 366(130)
+	["C5315net.blif" line: 16, columns:1-8]
+  inputs elem: 369(131)
+	["C5315net.blif" line: 16, columns:10-17]
+  inputs elem: 372(132)
+	["C5315net.blif" line: 16, columns:19-26]
+  inputs elem: 373(133)
+	["C5315net.blif" line: 16, columns:28-35]
+  inputs elem: 374(134)
+	["C5315net.blif" line: 16, columns:37-44]
+  inputs elem: 386(135)
+	["C5315net.blif" line: 16, columns:46-53]
+  inputs elem: 389(136)
+	["C5315net.blif" line: 16, columns:55-62]
+  inputs elem: 400(137)
+	["C5315net.blif" line: 16, columns:64-71]
+  inputs elem: 411(138)
+	["C5315net.blif" line: 17, columns:1-8]
+  inputs elem: 422(139)
+	["C5315net.blif" line: 17, columns:10-17]
+  inputs elem: 435(140)
+	["C5315net.blif" line: 17, columns:19-26]
+  inputs elem: 446(141)
+	["C5315net.blif" line: 17, columns:28-35]
+  inputs elem: 457(142)
+	["C5315net.blif" line: 17, columns:37-44]
+  inputs elem: 468(143)
+	["C5315net.blif" line: 17, columns:46-53]
+  inputs elem: 479(144)
+	["C5315net.blif" line: 17, columns:55-62]
+  inputs elem: 490(145)
+	["C5315net.blif" line: 17, columns:64-71]
+  inputs elem: 503(146)
+	["C5315net.blif" line: 18, columns:1-8]
+  inputs elem: 514(147)
+	["C5315net.blif" line: 18, columns:10-17]
+  inputs elem: 523(148)
+	["C5315net.blif" line: 18, columns:19-26]
+  inputs elem: 534(149)
+	["C5315net.blif" line: 18, columns:28-35]
+  inputs elem: 545(150)
+	["C5315net.blif" line: 18, columns:37-44]
+  inputs elem: 549(151)
+	["C5315net.blif" line: 18, columns:46-53]
+  inputs elem: 552(152)
+	["C5315net.blif" line: 18, columns:55-62]
+  inputs elem: 556(153)
+	["C5315net.blif" line: 18, columns:64-71]
+  inputs elem: 559(154)
+	["C5315net.blif" line: 19, columns:1-8]
+  inputs elem: 562(155)
+	["C5315net.blif" line: 19, columns:10-17]
+  inputs elem: 1497(156)
+	["C5315net.blif" line: 19, columns:19-27]
+  inputs elem: 1689(157)
+	["C5315net.blif" line: 19, columns:29-37]
+  inputs elem: 1690(158)
+	["C5315net.blif" line: 19, columns:39-47]
+  inputs elem: 1691(159)
+	["C5315net.blif" line: 19, columns:49-57]
+  inputs elem: 1694(160)
+	["C5315net.blif" line: 19, columns:59-67]
+  inputs elem: 2174(161)
+	["C5315net.blif" line: 19, columns:69-77]
+  inputs elem: 2358(162)
+	["C5315net.blif" line: 20, columns:1-9]
+  inputs elem: 2824(163)
+	["C5315net.blif" line: 20, columns:11-19]
+  inputs elem: 3173(164)
+	["C5315net.blif" line: 20, columns:21-29]
+  inputs elem: 3546(165)
+	["C5315net.blif" line: 20, columns:31-39]
+  inputs elem: 3548(166)
+	["C5315net.blif" line: 20, columns:41-49]
+  inputs elem: 3550(167)
+	["C5315net.blif" line: 20, columns:51-59]
+  inputs elem: 3552(168)
+	["C5315net.blif" line: 20, columns:61-69]
+  inputs elem: 3717(169)
+	["C5315net.blif" line: 21, columns:1-9]
+  inputs elem: 3724(170)
+	["C5315net.blif" line: 21, columns:11-19]
+  inputs elem: 4087(171)
+	["C5315net.blif" line: 21, columns:21-29]
+  inputs elem: 4088(172)
+	["C5315net.blif" line: 21, columns:31-39]
+  inputs elem: 4089(173)
+	["C5315net.blif" line: 21, columns:41-49]
+  inputs elem: 4090(174)
+	["C5315net.blif" line: 21, columns:51-59]
+  inputs elem: 4091(175)
+	["C5315net.blif" line: 21, columns:61-69]
+  inputs elem: 4092(176)
+	["C5315net.blif" line: 22, columns:1-9]
+  inputs elem: 4115(177)
+	["C5315net.blif" line: 22, columns:11-19]
+  outputs elem: 144(354)
+	["C5315net.blif" line: 23, columns:10-17]
+  outputs elem: 298(299)
+	["C5315net.blif" line: 23, columns:19-26]
+  outputs elem: 973(202)
+	["C5315net.blif" line: 23, columns:28-35]
+  outputs elem: 594(224)
+	["C5315net.blif" line: 23, columns:37-44]
+  outputs elem: 599(269)
+	["C5315net.blif" line: 23, columns:46-53]
+  outputs elem: 600(259)
+	["C5315net.blif" line: 23, columns:55-62]
+  outputs elem: 601(220)
+	["C5315net.blif" line: 23, columns:64-71]
+  outputs elem: 602(222)
+	["C5315net.blif" line: 24, columns:1-8]
+  outputs elem: 603(225)
+	["C5315net.blif" line: 24, columns:10-17]
+  outputs elem: 604(223)
+	["C5315net.blif" line: 24, columns:19-26]
+  outputs elem: 611(275)
+	["C5315net.blif" line: 24, columns:28-35]
+  outputs elem: 612(263)
+	["C5315net.blif" line: 24, columns:37-44]
+  outputs elem: 810(356)
+	["C5315net.blif" line: 24, columns:46-53]
+  outputs elem: 848(330)
+	["C5315net.blif" line: 24, columns:55-62]
+  outputs elem: 849(219)
+	["C5315net.blif" line: 24, columns:64-71]
+  outputs elem: 850(217)
+	["C5315net.blif" line: 25, columns:1-8]
+  outputs elem: 851(218)
+	["C5315net.blif" line: 25, columns:10-17]
+  outputs elem: 634(665)
+	["C5315net.blif" line: 25, columns:19-26]
+  outputs elem: 815(627)
+	["C5315net.blif" line: 25, columns:28-35]
+  outputs elem: 845(845)
+	["C5315net.blif" line: 25, columns:37-44]
+  outputs elem: 847(465)
+	["C5315net.blif" line: 25, columns:46-53]
+  outputs elem: 926(624)
+	["C5315net.blif" line: 25, columns:55-62]
+  outputs elem: 923(619)
+	["C5315net.blif" line: 25, columns:64-71]
+  outputs elem: 921(664)
+	["C5315net.blif" line: 26, columns:1-8]
+  outputs elem: 892(408)
+	["C5315net.blif" line: 26, columns:10-17]
+  outputs elem: 887(528)
+	["C5315net.blif" line: 26, columns:19-26]
+  outputs elem: 606(407)
+	["C5315net.blif" line: 26, columns:28-35]
+  outputs elem: 656(621)
+	["C5315net.blif" line: 26, columns:37-44]
+  outputs elem: 809(655)
+	["C5315net.blif" line: 26, columns:46-53]
+  outputs elem: 993(850)
+	["C5315net.blif" line: 26, columns:55-62]
+  outputs elem: 978(851)
+	["C5315net.blif" line: 26, columns:64-71]
+  outputs elem: 949(852)
+	["C5315net.blif" line: 27, columns:1-8]
+  outputs elem: 939(853)
+	["C5315net.blif" line: 27, columns:10-17]
+  outputs elem: 889(734)
+	["C5315net.blif" line: 27, columns:19-26]
+  outputs elem: 593(733)
+	["C5315net.blif" line: 27, columns:28-35]
+  outputs elem: 636(1280)
+	["C5315net.blif" line: 27, columns:37-45]
+  outputs elem: 704(1281)
+	["C5315net.blif" line: 27, columns:47-55]
+  outputs elem: 717(1282)
+	["C5315net.blif" line: 27, columns:57-65]
+  outputs elem: 820(1283)
+	["C5315net.blif" line: 27, columns:67-75]
+  outputs elem: 639(1275)
+	["C5315net.blif" line: 28, columns:1-9]
+  outputs elem: 673(1276)
+	["C5315net.blif" line: 28, columns:11-19]
+  outputs elem: 707(1277)
+	["C5315net.blif" line: 28, columns:21-29]
+  outputs elem: 715(1278)
+	["C5315net.blif" line: 28, columns:31-39]
+  outputs elem: 598(1623)
+	["C5315net.blif" line: 28, columns:41-49]
+  outputs elem: 610(1519)
+	["C5315net.blif" line: 28, columns:51-59]
+  outputs elem: 588(1696)
+	["C5315net.blif" line: 28, columns:61-69]
+  outputs elem: 615(1750)
+	["C5315net.blif" line: 29, columns:1-9]
+  outputs elem: 626(1752)
+	["C5315net.blif" line: 29, columns:11-19]
+  outputs elem: 632(1692)
+	["C5315net.blif" line: 29, columns:21-29]
+  outputs elem: 1002(1920)
+	["C5315net.blif" line: 29, columns:31-40]
+  outputs elem: 1004(1977)
+	["C5315net.blif" line: 29, columns:42-51]
+  outputs elem: 591(1894)
+	["C5315net.blif" line: 29, columns:53-61]
+  outputs elem: 618(1925)
+	["C5315net.blif" line: 29, columns:63-71]
+  outputs elem: 621(1893)
+	["C5315net.blif" line: 30, columns:1-9]
+  outputs elem: 629(1926)
+	["C5315net.blif" line: 30, columns:11-19]
+  outputs elem: 822(1933)
+	["C5315net.blif" line: 30, columns:21-29]
+  outputs elem: 838(2064)
+	["C5315net.blif" line: 30, columns:31-39]
+  outputs elem: 861(2070)
+	["C5315net.blif" line: 30, columns:41-49]
+  outputs elem: 623(2152)
+	["C5315net.blif" line: 30, columns:51-59]
+  outputs elem: 722(2131)
+	["C5315net.blif" line: 30, columns:61-69]
+  outputs elem: 832(2133)
+	["C5315net.blif" line: 31, columns:1-9]
+  outputs elem: 834(2123)
+	["C5315net.blif" line: 31, columns:11-19]
+  outputs elem: 836(2128)
+	["C5315net.blif" line: 31, columns:21-29]
+  outputs elem: 859(2132)
+	["C5315net.blif" line: 31, columns:31-39]
+  outputs elem: 871(2127)
+	["C5315net.blif" line: 31, columns:41-49]
+  outputs elem: 873(2124)
+	["C5315net.blif" line: 31, columns:51-59]
+  outputs elem: 875(2125)
+	["C5315net.blif" line: 31, columns:61-69]
+  outputs elem: 877(2126)
+	["C5315net.blif" line: 32, columns:1-9]
+  outputs elem: 998(2163)
+	["C5315net.blif" line: 32, columns:11-19]
+  outputs elem: 1000(2168)
+	["C5315net.blif" line: 32, columns:21-30]
+  outputs elem: 575(2240)
+	["C5315net.blif" line: 32, columns:32-40]
+  outputs elem: 585(2236)
+	["C5315net.blif" line: 32, columns:42-50]
+  outputs elem: 661(2178)
+	["C5315net.blif" line: 32, columns:52-60]
+  outputs elem: 693(2179)
+	["C5315net.blif" line: 32, columns:62-70]
+  outputs elem: 747(2187)
+	["C5315net.blif" line: 33, columns:1-9]
+  outputs elem: 752(2189)
+	["C5315net.blif" line: 33, columns:11-19]
+  outputs elem: 757(2190)
+	["C5315net.blif" line: 33, columns:21-29]
+  outputs elem: 762(2184)
+	["C5315net.blif" line: 33, columns:31-39]
+  outputs elem: 787(2186)
+	["C5315net.blif" line: 33, columns:41-49]
+  outputs elem: 792(2188)
+	["C5315net.blif" line: 33, columns:51-59]
+  outputs elem: 797(2191)
+	["C5315net.blif" line: 33, columns:61-69]
+  outputs elem: 802(2183)
+	["C5315net.blif" line: 34, columns:1-9]
+  outputs elem: 642(2222)
+	["C5315net.blif" line: 34, columns:11-19]
+  outputs elem: 664(2223)
+	["C5315net.blif" line: 34, columns:21-29]
+  outputs elem: 667(2224)
+	["C5315net.blif" line: 34, columns:31-39]
+  outputs elem: 670(2225)
+	["C5315net.blif" line: 34, columns:41-49]
+  outputs elem: 676(2229)
+	["C5315net.blif" line: 34, columns:51-59]
+  outputs elem: 696(2226)
+	["C5315net.blif" line: 34, columns:61-69]
+  outputs elem: 699(2227)
+	["C5315net.blif" line: 35, columns:1-9]
+  outputs elem: 702(2228)
+	["C5315net.blif" line: 35, columns:11-19]
+  outputs elem: 818(2273)
+	["C5315net.blif" line: 35, columns:21-29]
+  outputs elem: 813(2260)
+	["C5315net.blif" line: 35, columns:31-39]
+  outputs elem: 824(2274)
+	["C5315net.blif" line: 35, columns:41-49]
+  outputs elem: 826(2275)
+	["C5315net.blif" line: 35, columns:51-59]
+  outputs elem: 828(2233)
+	["C5315net.blif" line: 35, columns:61-69]
+  outputs elem: 830(2182)
+	["C5315net.blif" line: 36, columns:1-9]
+  outputs elem: 854(2268)
+	["C5315net.blif" line: 36, columns:11-19]
+  outputs elem: 863(2276)
+	["C5315net.blif" line: 36, columns:21-29]
+  outputs elem: 865(2277)
+	["C5315net.blif" line: 36, columns:31-39]
+  outputs elem: 867(2237)
+	["C5315net.blif" line: 36, columns:41-49]
+  outputs elem: 869(2181)
+	["C5315net.blif" line: 36, columns:51-59]
+  outputs elem: 712(2297)
+	["C5315net.blif" line: 36, columns:61-69]
+  outputs elem: 727(2298)
+	["C5315net.blif" line: 37, columns:1-9]
+  outputs elem: 732(2300)
+	["C5315net.blif" line: 37, columns:11-19]
+  outputs elem: 737(2279)
+	["C5315net.blif" line: 37, columns:21-29]
+  outputs elem: 742(2238)
+	["C5315net.blif" line: 37, columns:31-39]
+  outputs elem: 772(2299)
+	["C5315net.blif" line: 37, columns:41-49]
+  outputs elem: 777(2278)
+	["C5315net.blif" line: 37, columns:51-59]
+  outputs elem: 782(2239)
+	["C5315net.blif" line: 37, columns:61-69]
+  outputs elem: 645(2271)
+	["C5315net.blif" line: 38, columns:1-9]
+  outputs elem: 648(2295)
+	["C5315net.blif" line: 38, columns:11-19]
+  outputs elem: 651(2314)
+	["C5315net.blif" line: 38, columns:21-29]
+  outputs elem: 654(2315)
+	["C5315net.blif" line: 38, columns:31-39]
+  outputs elem: 679(2272)
+	["C5315net.blif" line: 38, columns:41-49]
+  outputs elem: 682(2296)
+	["C5315net.blif" line: 38, columns:51-59]
+  outputs elem: 685(2316)
+	["C5315net.blif" line: 38, columns:61-69]
+  outputs elem: 688(2317)
+	["C5315net.blif" line: 39, columns:1-9]
+  outputs elem: 843(2455)
+	["C5315net.blif" line: 39, columns:11-19]
+  outputs elem: 882(2456)
+	["C5315net.blif" line: 39, columns:21-29]
+  outputs elem: 767(2479)
+	["C5315net.blif" line: 39, columns:31-39]
+  outputs elem: 807(2480)
+	["C5315net.blif" line: 39, columns:41-49]
+  outputs elem: 658(2483)
+	["C5315net.blif" line: 39, columns:51-59]
+  outputs elem: 690(2484)
+	["C5315net.blif" line: 39, columns:61-69]
+.gate nor1 begin
+	["C5315net.blif" line: 40, columns:1-5]
+	["C5315net.blif" line: 40, columns:7-10]
+  .gate assign: a = 141(65)
+	["C5315net.blif" line: 40, column: 12]
+	["C5315net.blif" line: 40, columns:14-20]
+  .gate assign: O = [4345]
+	["C5315net.blif" line: 40, column: 22]
+	["C5315net.blif" line: 40, columns:24-29]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 41, columns:1-5]
+	["C5315net.blif" line: 41, columns:7-10]
+  .gate assign: a = 141(65)
+	["C5315net.blif" line: 41, column: 12]
+	["C5315net.blif" line: 41, columns:14-20]
+  .gate assign: O = inv__141(65)
+	["C5315net.blif" line: 41, column: 22]
+	["C5315net.blif" line: 41, columns:24-35]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 42, columns:1-5]
+	["C5315net.blif" line: 42, columns:7-10]
+  .gate assign: a = inv__141(65)
+	["C5315net.blif" line: 42, column: 12]
+	["C5315net.blif" line: 42, columns:14-25]
+  .gate assign: O = 144(354)
+	["C5315net.blif" line: 42, column: 27]
+	["C5315net.blif" line: 42, columns:29-36]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 43, columns:1-5]
+	["C5315net.blif" line: 43, columns:7-10]
+  .gate assign: a = 293(112)
+	["C5315net.blif" line: 43, column: 12]
+	["C5315net.blif" line: 43, columns:14-21]
+  .gate assign: O = [4346]
+	["C5315net.blif" line: 43, column: 23]
+	["C5315net.blif" line: 43, columns:25-30]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 44, columns:1-5]
+	["C5315net.blif" line: 44, columns:7-10]
+  .gate assign: a = 293(112)
+	["C5315net.blif" line: 44, column: 12]
+	["C5315net.blif" line: 44, columns:14-21]
+  .gate assign: O = inv__293(112)
+	["C5315net.blif" line: 44, column: 23]
+	["C5315net.blif" line: 44, columns:25-37]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 45, columns:1-5]
+	["C5315net.blif" line: 45, columns:7-10]
+  .gate assign: a = inv__293(112)
+	["C5315net.blif" line: 45, column: 12]
+	["C5315net.blif" line: 45, columns:14-26]
+  .gate assign: O = 298(299)
+	["C5315net.blif" line: 45, column: 28]
+	["C5315net.blif" line: 45, columns:30-37]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 46, columns:1-5]
+	["C5315net.blif" line: 46, columns:7-10]
+  .gate assign: a = 3173(164)
+	["C5315net.blif" line: 46, column: 12]
+	["C5315net.blif" line: 46, columns:14-22]
+  .gate assign: O = inv__3173(164)
+	["C5315net.blif" line: 46, column: 24]
+	["C5315net.blif" line: 46, columns:26-39]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 47, columns:1-5]
+	["C5315net.blif" line: 47, columns:7-10]
+  .gate assign: a = inv__3173(164)
+	["C5315net.blif" line: 47, column: 12]
+	["C5315net.blif" line: 47, columns:14-27]
+  .gate assign: O = 973(202)
+	["C5315net.blif" line: 47, column: 29]
+	["C5315net.blif" line: 47, columns:31-38]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 48, columns:1-5]
+	["C5315net.blif" line: 48, columns:7-10]
+  .gate assign: a = 545(150)
+	["C5315net.blif" line: 48, column: 12]
+	["C5315net.blif" line: 48, columns:14-21]
+  .gate assign: O = [3]
+	["C5315net.blif" line: 48, column: 23]
+	["C5315net.blif" line: 48, columns:25-27]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 49, columns:1-5]
+	["C5315net.blif" line: 49, columns:7-10]
+  .gate assign: a = [3]
+	["C5315net.blif" line: 49, column: 12]
+	["C5315net.blif" line: 49, columns:14-16]
+  .gate assign: O = inv__[3]
+	["C5315net.blif" line: 49, column: 18]
+	["C5315net.blif" line: 49, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 50, columns:1-5]
+	["C5315net.blif" line: 50, columns:7-10]
+  .gate assign: a = inv__[3]
+	["C5315net.blif" line: 50, column: 12]
+	["C5315net.blif" line: 50, columns:14-21]
+  .gate assign: O = 594(224)
+	["C5315net.blif" line: 50, column: 23]
+	["C5315net.blif" line: 50, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 51, columns:1-5]
+	["C5315net.blif" line: 51, columns:7-10]
+  .gate assign: a = 348(126)
+	["C5315net.blif" line: 51, column: 12]
+	["C5315net.blif" line: 51, columns:14-21]
+  .gate assign: O = 599(269)
+	["C5315net.blif" line: 51, column: 23]
+	["C5315net.blif" line: 51, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 52, columns:1-5]
+	["C5315net.blif" line: 52, columns:7-10]
+  .gate assign: a = 366(130)
+	["C5315net.blif" line: 52, column: 12]
+	["C5315net.blif" line: 52, columns:14-21]
+  .gate assign: O = 600(259)
+	["C5315net.blif" line: 52, column: 23]
+	["C5315net.blif" line: 52, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 53, columns:1-5]
+	["C5315net.blif" line: 53, columns:7-10]
+  .gate assign: a = 552(152)
+	["C5315net.blif" line: 53, column: 12]
+	["C5315net.blif" line: 53, columns:14-21]
+  .gate assign: O = 849(219)
+	["C5315net.blif" line: 53, column: 23]
+	["C5315net.blif" line: 53, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 54, columns:1-5]
+	["C5315net.blif" line: 54, columns:7-10]
+  .gate assign: a = 562(155)
+	["C5315net.blif" line: 54, column: 12]
+	["C5315net.blif" line: 54, columns:14-21]
+  .gate assign: O = 850(217)
+	["C5315net.blif" line: 54, column: 23]
+	["C5315net.blif" line: 54, columns:25-32]
+.gate end
+
+.gate nor2 begin
+	["C5315net.blif" line: 55, columns:1-5]
+	["C5315net.blif" line: 55, columns:7-10]
+  .gate assign: a = 849(219)
+	["C5315net.blif" line: 55, column: 12]
+	["C5315net.blif" line: 55, columns:14-21]
+  .gate assign: b = 850(217)
+	["C5315net.blif" line: 55, column: 23]
+	["C5315net.blif" line: 55, columns:25-32]
+  .gate assign: O = 601(220)
+	["C5315net.blif" line: 55, column: 34]
+	["C5315net.blif" line: 55, columns:36-43]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 56, columns:1-5]
+	["C5315net.blif" line: 56, columns:7-10]
+  .gate assign: a = 549(151)
+	["C5315net.blif" line: 56, column: 12]
+	["C5315net.blif" line: 56, columns:14-21]
+  .gate assign: O = [7]
+	["C5315net.blif" line: 56, column: 23]
+	["C5315net.blif" line: 56, columns:25-27]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 57, columns:1-5]
+	["C5315net.blif" line: 57, columns:7-10]
+  .gate assign: a = [7]
+	["C5315net.blif" line: 57, column: 12]
+	["C5315net.blif" line: 57, columns:14-16]
+  .gate assign: O = inv__[7]
+	["C5315net.blif" line: 57, column: 18]
+	["C5315net.blif" line: 57, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 58, columns:1-5]
+	["C5315net.blif" line: 58, columns:7-10]
+  .gate assign: a = inv__[7]
+	["C5315net.blif" line: 58, column: 12]
+	["C5315net.blif" line: 58, columns:14-21]
+  .gate assign: O = 602(222)
+	["C5315net.blif" line: 58, column: 23]
+	["C5315net.blif" line: 58, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C5315net.blif" line: 59, columns:1-5]
+	["C5315net.blif" line: 59, columns:7-10]
+  .gate assign: a = [3]
+	["C5315net.blif" line: 59, column: 12]
+	["C5315net.blif" line: 59, columns:14-16]
+error_exit

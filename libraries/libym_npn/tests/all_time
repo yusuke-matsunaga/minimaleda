@@ -1,0 +1,97 @@
+# TvFunc の各メンバ関数をテストするための Tcl スクリプト
+#
+# $Id: all4 39 2006-07-17 09:33:50Z matsunaga $
+
+namespace import ym_npn::*
+
+proc check_sub { ni { mag 1 } } {
+    puts ""
+    puts "check_sub $ni"
+
+    set ni_pow [expr 1 << $ni]
+    set f "$ni|"
+    for { set i 0 } { $i < $ni_pow } { incr i } {
+	append f "0"
+    }
+    tvfunc_time reset
+    tvfunc_time -mag $mag count_one $f
+    set times [tvfunc_time get_time]
+    puts "count_one\t[lindex $times 0]"
+
+    tvfunc_time reset
+    tvfunc_time -mag $mag walsh_0 $f
+    set times [tvfunc_time get_time]
+    puts "walsh_0\t\t[lindex $times 0]"
+
+    tvfunc_time reset
+    for { set i 0 } { $i < $ni } { incr i } {
+	tvfunc_time -mag $mag walsh_1 $f $i
+    }
+    set times [tvfunc_time get_time]
+    puts "walsh_1\t\t[lindex $times 0]"
+
+    tvfunc_time reset
+    for { set i 0 } { $i < $ni } { incr i } {
+	for { set j 0 } { $j < $ni } { incr j } {
+	    if { $i != $j } {
+		tvfunc_time -mag $mag walsh_2 $f $i $j
+	    }
+	}
+    }
+    set times [tvfunc_time get_time]
+    puts "walsh_2\t\t[lindex $times 0]"
+
+    tvfunc_time reset
+    tvfunc_time -mag $mag walsh_01 $f
+    set times [tvfunc_time get_time]
+    puts "walsh_01\t[lindex $times 0]"
+
+    tvfunc_time reset
+    tvfunc_time -mag $mag walsh_012 $f
+    set times [tvfunc_time get_time]
+    puts "walsh_012\t[lindex $times 0]"
+
+    tvfunc_time reset
+    for { set i 0 } { $i < $ni } { incr i } {
+	tvfunc_time -mag $mag check_sup $f $i
+    }
+    set times [tvfunc_time get_time]
+    puts "check_sup\t[lindex $times 0]"
+
+    tvfunc_time reset
+    for { set i 0 } { $i < $ni } { incr i } {
+	for { set j 0 } { $j < $ni } { incr j } {
+	    if { $i != $j } {
+		tvfunc_time -mag $mag check_sym $f $i $j
+	    }
+	}
+    }
+    set times [tvfunc_time get_time]
+    puts "check_sym\t[lindex $times 0]"
+
+    for { set w 0 } { $w <= $ni } { incr w } {
+	tvfunc_time reset
+	tvfunc_time -mag $mag walsh_w0 $f $w 0
+	set times [tvfunc_time get_time]
+	puts "walsh_w0 $w\t[lindex $times 0]"
+    }
+
+    for { set w 0 } { $w <= $ni } { incr w } {
+	tvfunc_time reset
+	for { set i 0 } { $i < $ni } { incr i } {
+	    tvfunc_time -mag $mag walsh_w1 $f 0 $w $i
+	}
+	set times [tvfunc_time get_time]
+	puts "walsh_w1 $w\t[lindex $times 0]"
+    }
+}
+
+for { set i 2 } { $i <= 20 } { incr i } {
+    check_sub $i 100
+}
+
+exit
+
+# Local Variables:
+# mode: tcl
+# End:

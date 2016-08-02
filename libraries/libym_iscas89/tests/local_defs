@@ -1,0 +1,7 @@
+## $Id: local_defs 1921 2008-12-21 13:55:05Z matsunaga $
+
+. ${top_srcdir}/etc/common_defs
+
+TEST_PATH=${top_builddir}/libraries/libym_iscas89/tests
+TEST_SRC=${top_srcdir}/libraries/libym_iscas89/tests/in
+TEST_OUT=${top_srcdir}/libraries/libym_iscas89/tests/out

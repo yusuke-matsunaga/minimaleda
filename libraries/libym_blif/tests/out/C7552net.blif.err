@@ -1,0 +1,2 @@
+"C7552net.blif" line: 46, columns:21-29 [ER_MLTDEF01]: inv__1(0): Defined more than once. Previsous Definition is "C7552net.blif" line: 44, columns:21-29.
+Error in reading C7552net.blif

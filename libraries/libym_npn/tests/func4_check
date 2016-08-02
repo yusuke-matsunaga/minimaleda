@@ -1,0 +1,56 @@
+# TvFunc の各メンバ関数をテストするための Tcl スクリプト
+#
+# $Id: func4_check 41 2006-07-18 13:25:33Z matsunaga $
+
+namespace import ym_npn::*
+
+proc check_sub { ni } {
+    puts "check_sub $ni"
+    set ni_pow [expr 1 << $ni]
+    forall_func $ni f {
+	tvfunc_test base1 $f
+	tvfunc_test base2 $f
+	tvfunc_test count_one $f
+	tvfunc_test walsh_0 $f
+	for { set i 0 } { $i < $ni } { incr i } {
+	    tvfunc_test walsh_1 $f $i
+	}
+	for { set i 0 } { $i < $ni } { incr i } {
+	    for { set j 0 } { $j < $ni } { incr j } {
+		tvfunc_test walsh_2 $f $i $j
+	    }
+	}
+	tvfunc_test walsh_01 $f
+	tvfunc_test walsh_012 $f
+	for { set i 0 } { $i < $ni } { incr i } {
+	    tvfunc_test check_sup $f $i
+	}
+	for { set i 0 } { $i < $ni } { incr i } {
+	    for { set j 0 } { $j < $ni } { incr j } {
+		tvfunc_test check_sym $f $i $j
+	    }
+	}
+	for { set ibits 0 } { $ibits < $ni_pow } { incr ibits } {
+	    tvfunc_test walsh_w0 $f $ibits
+	}
+	for { set ibits 0 } { $ibits < $ni_pow } { incr ibits } {
+	    for { set i 0 } { $i < $ni } { incr i } {
+		tvfunc_test walsh_w1 $f $i $ibits
+	    }
+	}
+    }
+}
+
+for { set i 0 } { $i <= 20 } { incr i } {
+    tvfunc_test base0 $i
+}
+
+for { set i 2 } { $i <= 4 } { incr i } {
+    check_sub $i
+}
+
+exit
+
+# Local Variables:
+# mode: tcl
+# End:

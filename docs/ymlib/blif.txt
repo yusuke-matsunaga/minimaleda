@@ -1,0 +1,344 @@
+blif フォーマット覚え書き
+
+1. 基本構成
+
+.model <モデル(回路)名>
+ 2.1 参照
+
+<要素記述の繰り返し>
+
+.end
+ 2.2 参照
+
+要素記述は以下のとおり．これらの出現順序に制約はない．
+
+.inputs <入力ノード名>+ NL
+ 2.3 参照
+
+.outputs <出力ノード名>+ NL
+ 2.4 参照
+
+.names <ノード名>+ NL
+ <カバー記述>
+ 2.5 参照
+
+.gate <セル名> (<ピン名> '=' <ノード名>)+ NL
+ 2.6 参照
+
+.latch <ファンインノード名> <ノード名> (<リセット値>) NL
+ 2.7 参照
+
+以下の予約語が現れたら改行まで読み飛ばす．
+
+.wire_load_slope
+.wire
+.input_arrival
+.default_input_arrival
+.output_required
+.default_output_require
+.input_drive
+.default_input_drive
+.output_load
+.default_output_load
+.exdc
+
+今の実装では以下はエラーとなる．
+.subckt
+.start_kiss
+.end_kiss
+.latch_order
+.code
+.cycle
+.area
+.delay
+.i
+.o
+.p
+.r
+.search
+
+
+2. 詳細
+
+2.0 使用可能文字
+特に記述がないような気もするが印字可能な ascii 文字ならすべて受け付け
+るように作っておいたほうが無難かもしれない．
+
+2.1 .model 文
+この blif ファイルで記述されているネットワーク全体の名前を指定する．
+.model 文は一つの blif ファイル中でただ一度現れる．
+
+2.2 .end 文
+記述の終わりを示す．.end 文以降の記述は無視される．逆にファイルの末尾
+に .end 文がない場合には末尾に .end 文があるものと考える．
+
+2.3 .inputs 文
+入力ノード名を表す．
+1つの .inputs 文は1つ以上のノード名を持つ．1つのblifファイルは複数の
+.inputs 文を含んでもよい．
+.inputs 文に現れる名前は他の入力ノードや論理ノード名と重複してはいけな
+い．後述のように出力ノード名との重複は有りうる．
+
+2.4 .outputs 文
+出力ノード名を表す．
+1つの .outputs 文は1つ以上のノード名を持つ．1つの blif ファイルは複数
+の.outputs文を含んでもよい．
+.outputs 文に現れる名前は他の出力ノード名と重複してはいけない．
+本来の Boolean network には出力ノードという概念はなく，どのノード(入力
+ノードもしくは論理ノード)が出力になっているかを指すポインタのようなも
+のがあるだけなので，この出力ノードもそのような意味で考えると理解しやす
+い．そのため，出力ノード名と同名の入力ノードもしくは論理ノード(ラッチ
+ノード)が存在している必要がある．
+また，
+.inputs a
+.outputs a
+は本来のblifファイルでは正しい記述となる．
+問題は，この入力ノード名と出力ノード名をこのネットワークの外部に対する
+インターフェイスと考えると入力と出力が同名に異なる意味を持つことになり
+矛盾となる．
+そのため，blif ver.2.0 (sisで扱われているblifのバージョン)では .inputs
+と.outputs に同じ名前が現れた場合には warning として入力ノード名を適当
+な名前に書き換えているようである．
+BlifParser としてはこの重複については関知しない．
+
+2.5 .names 文
+論理ノードを表す．
+まず，.names に続く名前はこのノードのファンインのノード名とこのノード
+自身の名前となっている．
+つまり，ファンイン数が n の論理ノードを表す .names 文は (n + 1)個の名
+前をもつことになる．もちろん，入力数が0のノード(定数0か定数1)の場合に
+は自分自身の名前を表すただ1つの名前を持つ．
+続くいくつかの行は論理ノードの中身の論理関数を表すカバー記述で，行数は
+不定である．空行もしくは他の　.names/.gate/.latch 記述までがカバー記述
+とみなされる．
+カバー記述の各行は2つのフィールドからなる．前半は n 文字の 0/1/- で構
+成された入力フィールドで，後半は 1 文字の 0/1 から構成された出力フィー
+ルドである．出力フィールドの値は全ての行で同一でなければならない．
+要するにこれは入力フィールドの記述の極性を表していると思えばよい．
+入力フィールドは積和形論理式(出力フィールドが0の時は和積形論理式)の各
+項を表している．
+
+論理ノードの名前は，他の論理ノード(ラッチノード)名，入力ノード名と重複
+してはいけない．
+
+2.6 .gate 文
+セルに割り当てられたノードを表す．
+.gate 文の直後の名前はセル名を表す．残りは <ピン名> = <ノード名> とい
+う記述の繰り返しで，ピンとノードの割り当てを行う．
+blifフォーマットでは単出力セルのみを扱っているので，出力ピンに割り当て
+られたノード名がこのセルのノード名ということになる．
+また，これはどこにも正式な記述がないが，出力ピン名は o または O のよう
+である．
+このノード名の他の論理ノード(ラッチノード)名や入力ノード名と重複しては
+いけない．
+
+blifファイル自体はこの記述がどのセルライブラリとバインドしているかの情
+報をもたないため，セルライブラリとのバインディングに関しては別途，記述
+が必要である．
+BlifParser ではセルライブラリに関する情報をまったくもたないので，セル
+名やピン名の妥当性の検証ができないため，ノード名の重複/未定義のみチェッ
+クしている．
+
+2.7 .latch 文
+1ビットの記憶素子のノードを表す．
+最初の名前がファンインに接続しているノード名，続く名前が自身のノード名
+となる．3番めに値はオプションでリセット値を表す．
+ノード名は他のノード名と重複してはいけない．
+
+
+3. エラー条件
+
+3.1 .model 文
+
+3.1.1 .model 文なし
+ ER_SYN01: "No '.model' statement."
+
+3.1.2 .model 文のあとに名前無し
+ ER_SYN02: "String expected after '.model'."
+
+3.1.3 .model 文の後に複数の名前
+ ER_SYN03: "Newline expected.";
+
+3.1.4 複数の .model 文
+ ER_SYN04: "Multiple '.model' statements."
+
+3.2 .end 文
+
+3.2.1 .end 文なし [warning]
+ WR_SYN05: "Unexpected EOF. '.end' is assumed."
+ .end を仮定する．
+
+3.2.2 .end 文の後に記述あり [warning]
+ WR_SYN06: "Statement after '.end' is ignored."
+ .end 以降の記述を無視する．
+
+
+3.3 .inputs 文
+
+3.3.1 .inputs 文で名前なし [warning]
+ WR_SYN07:  "Empty '.inputs' statement. Ignored."
+ この行を無視する．
+
+3.3.2 同一の .inputs 文に重複した名前あり
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.3.3 すでに定義された .inputs 文と重複した名前が .inputs 文にあり
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.3.4 すでに定義された .outputs 文と重複した名前が .inputs 文にあり [warning]
+ WR_MLTDEF02: "<名前>: Defined as both input and output."
+	      " Previous difinition is <位置>."
+ 重複したことを示すメッセージを出す
+
+3.3.5 すでに定義された .names 文と重複した名前が .inputs 文にあり
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.3.6 すでに定義された .gate 文と重複した名前が .inputs 文にあり
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.3.7 すでに定義された .latch 文と重複した名前が .inputs 文にあり
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+
+3.4 .outputs 文
+
+3.4.1 .outputs 文で名前なし [warning]
+ WR_SYN08: "Empty '.outputs' statement. Ignored."
+ この行を無視する．
+
+3.4.2 同一の .outputs 文に重複した名前あり
+ ER_MLTDEF03: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.4.3 すでに定義された .inputs 文と重複した名前が .outputs 文にあり [warning]
+ WR_MLTDEF02: "<名前>: Defined as both input and output."
+	      " Previous difinition is <位置>."
+ 重複したことを示すメッセージを出す．
+
+3.4.4 すでに定義された .outputs 文と重複した名前が .outputs 文にあり
+ ER_MLTDEF03: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.4.5 .outputs 文に現れる名前が未定義
+ ER_UNDEF01: "<名前>: Undefined."
+
+
+3.5 .names 文
+
+3.5.1 .names 文で名前なし
+ ER_SYN09: "Empty '.names' statement."
+
+3.5.2 すでに定義された .inputs 文と重複した名前が .names 文で定義される．
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.5.3 すでに定義された .names 文と重複した名前が .names 文で定義される．
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.5.4 すでに定義された .gate 文と重複した名前が .names 文で定義される．
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.5.5 すでに定義された .latch 文と重複した名前が .names 文で定義される．
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.5.6 .names 文で使われている名前が未定義
+ ER_UNDEF01: "<名前>: Undefined."
+
+3.5.7 .names 文のカバー記述で出力パタンが不統一
+ ER_SYN10: "Output pattern mismatch."
+
+3.5.8 .names 文のカバー記述で入力フィールドに 0/1/- 以外の文字が現れる．
+ ER_SYN11: "Illegal character in input cube."
+
+3.5.9 .names 文で現れる名前の数よりカバー記述の入力フィールドサイズが
+    小さい．
+ ER_SYN12: "Input pattern does not fit with the number of fanins."
+
+3.5.10 .names 文で現れる名前の数よりカバー記述の入力フィールドサイズが
+    大きい．
+ ER_SYN12: "Input pattern does not fit with the number of fanins."
+
+3.5.11 .names 文のカバー記述の出力フィールドがない．
+ ER_SYN13: "No output cube."
+
+3.5.12 .names 文のカバー記述の出力フィールドの数が1以上．
+ ER_SYN15: "Illegal character in output cube."
+
+3.5.13 .names 分のカバー奇術で出力フィールドに 0/1 以外の文字が現れる．
+ ER_SYN15: "Illegal character in output cube."
+
+3.5.14 .names 文のカバー記述のフィールド数が3以上
+ ER_SYN14: "Newline is expected."
+
+
+3.6 .gate 文
+
+3.6.1 .gate 文でセル名なし
+ ER_SYN16: "Syntax error in '.gate' statement."
+
+3.6.2 .gate 文でピン割り当てなし
+ ER_SYN16: "Syntax error in '.gate' statement."
+ セル名からピン名を取ってくることは BlifParser ではできないので，それ以
+ 外の mismatch はチェックできない．
+
+3.6.3 すでに定義された .inputs 文と重複した名前が .gate 文で定義される．
+ピン名は o で固定
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.6.4 すでに定義された .names 文と重複した名前が .gate 文で定義される．
+ピン名は o で固定
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.6.5 すでに定義された .gate 文と重複した名前が .gate 文で定義される．
+ピン名は o で固定
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.6.6 すでに定義された .latch 文と重複した名前が .gate 文で定義される．
+ピン名は o で固定
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.6.7 .gate 文で使われている名前が未定義
+ ER_UNDEF01: "<名前>: Undefined."
+
+
+3.7 .latch 文
+
+3.7.1 .latch 文で名前がない
+ ER_SYN17: "Syntax error in '.latch' statement."
+
+3.7.2 .latch 文で名前が一つしかない
+ ER_SYN17: "Syntax error in '.latch' statement."
+
+3.7.3 .latch 文でリセット値が 0/1 以外
+ ER_SYN18: "Illegal character for reset value."
+
+3.7.4 すでに定義された .inputs 文と重複した名前が .latch 文で定義される．
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.7.5 すでに定義された .names 文と重複した名前が .latch 文で定義される．
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.7.6 すでに定義された .gate 文と重複した名前が .latch 文で定義される．
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.7.7 すでに定義された .latch 文と重複した名前が .latch 文で定義される．
+ ER_MLTDEF01: "<名前>: Defined more than once. "
+              "Previous definition is <位置>."
+
+3.7.8 .latch 文で使われている名前が未定義
+ ER_UNDEF01: "<名前>: Undefined."

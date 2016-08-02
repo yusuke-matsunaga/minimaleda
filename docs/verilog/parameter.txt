@@ -1,0 +1,155 @@
+パラメータについて
+2002/09/02
+
+参照 3.11 Parameters
+     12.2 Overriding module parameter values
+
+
+
+基本的には定数値を名前で表すための仕組み
+
+ただし，「名前 = 定数値」という形ではなく，「名前 = 式」という形で定義さ
+れる．式には一般の演算子が使用可能である．終端値は定数値もしくは
+parameter, local parameter, constant function call が使用可能である．
+
+parameter と local parameter の違いは override を許すかどうかということの
+み
+
+parameter の override の方法は defparam 文と module instantiation 時の引
+数の2通り．
+
+3.11.1 module parameters
+
+parameter の宣言は従来(Verilog1995)のように module item として module
+定義中に書くものと 
+module adder #(parameter MSB = 32, LSB = 0) (output reg [MSB:LSB] sum)
+のように module のポートリスト中に書くものの2通りがある．
+で，重要なのが，このポートリスト中に parameter 宣言があった場合には，
+module 定義中の parameter はすべて localparam 扱いとなる．
+これ，以外と見落としやすいルール．Sutherland の Verilog2001 本にはこの
+こと書いていない．
+
+parameter の型についてのルール(3.11.1)(12.2)
+
+with no type or range specification の場合，そのパラメータに割り当てられ
+る最終的な値の type と range を持つ．
+
+with a range, but with no type の場合，その range を持つ unsigned 型と定
+義される．初期値および override された値はこの型に変換される．
+
+with a type specification, but with no range specification の場合，その
+型に定義される．range は最終的な値の range をとる．
+a signed parameter (signed but with no range のこと？) は最終的な値の
+範囲を持つ．
+
+with a signed type specification and with a range specification の場合，
+そのままの型を持つ．値はこの型に変換される．
+
+with no range specification, and with either a signed type
+specification or no type specification は lsb = 0, msb = size -1 とい
+う implied range を持つ．
+ただし，最終的な値も unsized の場合，lsb = 0, msb は最低31以上の実装依
+存の値をとる．
+
+parameter 宣言
+
+module の中
+function block の中
+task block の中
+sequential block の中
+
+だけど function block や task block の中のパラメータはどうやって
+override するのだろう．みんな local parameter でいいのではないのか？
+-> defparam で上書きできる
+
+defparam による割り当てと module instanciation 時の割り当てがコンフリ
+クトした場合には defparam の値を用いる．
+
+12.2.1 defparam statement
+defparam 文は任意の階層のパラメータの値を上書きできるが，
+generate scope や array instanciation 中の defparam 文はその階層の中に
+あるパラメータしか上書きすることができない．
+
+defparam 文の右辺は定数かパラメータ参照からなる．このパラメータは
+defparam 文のあるモジュール内で定義されている必要がある．
+<- でもそれって定数式の条件だから冗長な気がする．
+
+defparam 文が特に有用なのはパラメータ設定用のモジュールを１つ用意して
+そこですべての値を上書きするような時．
+
+１つのパラメータに対して複数の defparam 文があるときにはソースファイル
+中で最後に現れた defparam 文が有効となる．複数のソースファイルに複数の
+defparam 文がある場合には不定となる．
+これどっちにしろ warning を出した方がいいよね．
+
+12.2.2.2 Parameter value assignment by name
+名前によるパラメータ割り当ての場合，括弧の中の式は省略可能．
+この場合，値の割り当ては行われずデフォルト値が用いられる．
+これはドキュメント的な意味でこのモジュールにはこういうパラメータがある
+けどデフォルトのまま使うよ，という意図を明示するのに用いる？
+
+12.2.2.3 Parameter dependence
+parameter word_size = 32,
+          memory_size = word_size * 4096;
+
+のようなパラメータ宣言があった場合，word_size の値を上書きすると
+memory_size の値も自動的に変更される．
+逆にいうと式の評価は最後まで行わない．
+
+
+3.11.3 specparam について
+specparam は元々は specify ブロックの中だけで定義されたが今ではモジュー
+ル直下でも定義できる．
+
+とはいっても parameter とは違いがある．
+
+- parameter は specify ブロック中では用いることができない．
+- specparam は specparam や parameter の値を代入することができるが，
+  parameter に specparam の値を代入することはできない．← parameter 代
+  入の右辺に specparam は入ってはいけない．
+- specparam は defparam で上書きすることができない．
+
+10.3.5 use of constant functions
+constant function の条件
+- 定義されたモジュール内で呼び出されること．
+- 引数が constant expression であること．
+- 階層つき名前参照を行っていないこと．
+- constant function 内で呼び出される関数も同じモジュールないで定義され
+た constant function であること．system function は呼び出していないこ
+と．
+- system task は無視される．($display()は legal だけど無視される．)
+- すべてのパラメータは呼び出しの前に定義されている必要がある．
+- constant function 内で用いられる識別子でパラメータと関数名でないもの
+はすべてこの関数内で定義されたものである．
+- パラメータの値が defparam 文によって上書きされた場合，結果は不定とな
+る．Warning 出した方がいいな．
+- generate scope 内では宣言できない．
+- they shall not themselves use constant functoins in any context
+requireing a constant expression. って何これ？
+例えば constant_function のレンジを決める式に constant_function を使っ
+てはいけないという意味？
+
+
+IEEE1364-2001 の仕様を見ると param_assignment の左辺は
+parameter_identifier となっており，これは identifier の別名であるので
+階層は含まないことになる．すると defparam で階層つき名前を持つパラメー
+タに代入することができなくなる．だいたいこの仕様書ってパラメータや
+constant expression 関係の話はいい加減なんだよね．
+
+とりあえず，defparam の左辺は階層つき名前を許すけどconstant expression
+の右辺としては階層つき名前は許さないものとする．
+
+
+defparam の問題点
+
+defparam も procedural statement ではないので elaboration 時に確定する．
+，，，が，defparam で値を書き換えるためにはトップモジュールからの名前
+空間の木が構築されていなければならない．
+問題となるのが generate instanciation．これが済まないと名前空間の木が
+完成しない．
+ということで，generate instanciation 時に参照される parameter の値を
+defparam で書き換えてしまうと予期しない結果となる．
+とりあえず，実装の仕方から自然に defparam によって書き換える前の値を用
+いて generate instanciation が行われる．できらば warning を出したい．
+
+

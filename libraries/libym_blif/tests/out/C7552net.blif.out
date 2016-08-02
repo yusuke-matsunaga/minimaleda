@@ -1,0 +1,695 @@
+.model C7552.iscas
+	["C7552net.blif" line: 1, columns:1-6]
+	["C7552net.blif" line: 1, columns:8-18]
+  inputs elem: 1(0)
+	["C7552net.blif" line: 2, columns:9-12]
+  inputs elem: 5(1)
+	["C7552net.blif" line: 2, columns:14-17]
+  inputs elem: 9(2)
+	["C7552net.blif" line: 2, columns:19-22]
+  inputs elem: 12(3)
+	["C7552net.blif" line: 2, columns:24-28]
+  inputs elem: 15(4)
+	["C7552net.blif" line: 2, columns:30-34]
+  inputs elem: 18(5)
+	["C7552net.blif" line: 2, columns:36-40]
+  inputs elem: 23(6)
+	["C7552net.blif" line: 2, columns:42-46]
+  inputs elem: 26(7)
+	["C7552net.blif" line: 2, columns:48-52]
+  inputs elem: 29(8)
+	["C7552net.blif" line: 2, columns:54-58]
+  inputs elem: 32(9)
+	["C7552net.blif" line: 2, columns:60-64]
+  inputs elem: 35(10)
+	["C7552net.blif" line: 2, columns:66-71]
+  inputs elem: 38(11)
+	["C7552net.blif" line: 2, columns:73-78]
+  inputs elem: 41(12)
+	["C7552net.blif" line: 3, columns:1-6]
+  inputs elem: 44(13)
+	["C7552net.blif" line: 3, columns:8-13]
+  inputs elem: 47(14)
+	["C7552net.blif" line: 3, columns:15-20]
+  inputs elem: 50(15)
+	["C7552net.blif" line: 3, columns:22-27]
+  inputs elem: 53(16)
+	["C7552net.blif" line: 3, columns:29-34]
+  inputs elem: 54(17)
+	["C7552net.blif" line: 3, columns:36-41]
+  inputs elem: 55(18)
+	["C7552net.blif" line: 3, columns:43-48]
+  inputs elem: 56(19)
+	["C7552net.blif" line: 3, columns:50-55]
+  inputs elem: 57(20)
+	["C7552net.blif" line: 3, columns:57-62]
+  inputs elem: 58(21)
+	["C7552net.blif" line: 3, columns:64-69]
+  inputs elem: 59(22)
+	["C7552net.blif" line: 3, columns:71-76]
+  inputs elem: 60(23)
+	["C7552net.blif" line: 4, columns:1-6]
+  inputs elem: 61(24)
+	["C7552net.blif" line: 4, columns:8-13]
+  inputs elem: 62(25)
+	["C7552net.blif" line: 4, columns:15-20]
+  inputs elem: 63(26)
+	["C7552net.blif" line: 4, columns:22-27]
+  inputs elem: 64(27)
+	["C7552net.blif" line: 4, columns:29-34]
+  inputs elem: 65(28)
+	["C7552net.blif" line: 4, columns:36-41]
+  inputs elem: 66(29)
+	["C7552net.blif" line: 4, columns:43-48]
+  inputs elem: 69(30)
+	["C7552net.blif" line: 4, columns:50-55]
+  inputs elem: 70(31)
+	["C7552net.blif" line: 4, columns:57-62]
+  inputs elem: 73(32)
+	["C7552net.blif" line: 4, columns:64-69]
+  inputs elem: 74(33)
+	["C7552net.blif" line: 4, columns:71-76]
+  inputs elem: 75(34)
+	["C7552net.blif" line: 5, columns:1-6]
+  inputs elem: 76(35)
+	["C7552net.blif" line: 5, columns:8-13]
+  inputs elem: 77(36)
+	["C7552net.blif" line: 5, columns:15-20]
+  inputs elem: 78(37)
+	["C7552net.blif" line: 5, columns:22-27]
+  inputs elem: 79(38)
+	["C7552net.blif" line: 5, columns:29-34]
+  inputs elem: 80(39)
+	["C7552net.blif" line: 5, columns:36-41]
+  inputs elem: 81(40)
+	["C7552net.blif" line: 5, columns:43-48]
+  inputs elem: 82(41)
+	["C7552net.blif" line: 5, columns:50-55]
+  inputs elem: 83(42)
+	["C7552net.blif" line: 5, columns:57-62]
+  inputs elem: 84(43)
+	["C7552net.blif" line: 5, columns:64-69]
+  inputs elem: 85(44)
+	["C7552net.blif" line: 5, columns:71-76]
+  inputs elem: 86(45)
+	["C7552net.blif" line: 6, columns:1-6]
+  inputs elem: 87(46)
+	["C7552net.blif" line: 6, columns:8-13]
+  inputs elem: 88(47)
+	["C7552net.blif" line: 6, columns:15-20]
+  inputs elem: 89(48)
+	["C7552net.blif" line: 6, columns:22-27]
+  inputs elem: 94(49)
+	["C7552net.blif" line: 6, columns:29-34]
+  inputs elem: 97(50)
+	["C7552net.blif" line: 6, columns:36-41]
+  inputs elem: 100(51)
+	["C7552net.blif" line: 6, columns:43-49]
+  inputs elem: 103(52)
+	["C7552net.blif" line: 6, columns:51-57]
+  inputs elem: 106(53)
+	["C7552net.blif" line: 6, columns:59-65]
+  inputs elem: 109(54)
+	["C7552net.blif" line: 6, columns:67-73]
+  inputs elem: 110(55)
+	["C7552net.blif" line: 7, columns:1-7]
+  inputs elem: 111(56)
+	["C7552net.blif" line: 7, columns:9-15]
+  inputs elem: 112(57)
+	["C7552net.blif" line: 7, columns:17-23]
+  inputs elem: 113(58)
+	["C7552net.blif" line: 7, columns:25-31]
+  inputs elem: 114(59)
+	["C7552net.blif" line: 7, columns:33-39]
+  inputs elem: 115(60)
+	["C7552net.blif" line: 7, columns:41-47]
+  inputs elem: 118(61)
+	["C7552net.blif" line: 7, columns:49-55]
+  inputs elem: 121(62)
+	["C7552net.blif" line: 7, columns:57-63]
+  inputs elem: 124(63)
+	["C7552net.blif" line: 7, columns:65-71]
+  inputs elem: 127(64)
+	["C7552net.blif" line: 8, columns:1-7]
+  inputs elem: 130(65)
+	["C7552net.blif" line: 8, columns:9-15]
+  inputs elem: 133(66)
+	["C7552net.blif" line: 8, columns:17-23]
+  inputs elem: 134(67)
+	["C7552net.blif" line: 8, columns:25-31]
+  inputs elem: 135(68)
+	["C7552net.blif" line: 8, columns:33-39]
+  inputs elem: 138(69)
+	["C7552net.blif" line: 8, columns:41-47]
+  inputs elem: 141(70)
+	["C7552net.blif" line: 8, columns:49-55]
+  inputs elem: 144(71)
+	["C7552net.blif" line: 8, columns:57-63]
+  inputs elem: 147(72)
+	["C7552net.blif" line: 8, columns:65-71]
+  inputs elem: 150(73)
+	["C7552net.blif" line: 9, columns:1-7]
+  inputs elem: 151(74)
+	["C7552net.blif" line: 9, columns:9-15]
+  inputs elem: 152(75)
+	["C7552net.blif" line: 9, columns:17-23]
+  inputs elem: 153(76)
+	["C7552net.blif" line: 9, columns:25-31]
+  inputs elem: 154(77)
+	["C7552net.blif" line: 9, columns:33-39]
+  inputs elem: 155(78)
+	["C7552net.blif" line: 9, columns:41-47]
+  inputs elem: 156(79)
+	["C7552net.blif" line: 9, columns:49-55]
+  inputs elem: 157(80)
+	["C7552net.blif" line: 9, columns:57-63]
+  inputs elem: 158(81)
+	["C7552net.blif" line: 9, columns:65-71]
+  inputs elem: 159(82)
+	["C7552net.blif" line: 10, columns:1-7]
+  inputs elem: 160(83)
+	["C7552net.blif" line: 10, columns:9-15]
+  inputs elem: 161(84)
+	["C7552net.blif" line: 10, columns:17-23]
+  inputs elem: 162(85)
+	["C7552net.blif" line: 10, columns:25-31]
+  inputs elem: 163(86)
+	["C7552net.blif" line: 10, columns:33-39]
+  inputs elem: 164(87)
+	["C7552net.blif" line: 10, columns:41-47]
+  inputs elem: 165(88)
+	["C7552net.blif" line: 10, columns:49-55]
+  inputs elem: 166(89)
+	["C7552net.blif" line: 10, columns:57-63]
+  inputs elem: 167(90)
+	["C7552net.blif" line: 10, columns:65-71]
+  inputs elem: 168(91)
+	["C7552net.blif" line: 11, columns:1-7]
+  inputs elem: 169(92)
+	["C7552net.blif" line: 11, columns:9-15]
+  inputs elem: 170(93)
+	["C7552net.blif" line: 11, columns:17-23]
+  inputs elem: 171(94)
+	["C7552net.blif" line: 11, columns:25-31]
+  inputs elem: 172(95)
+	["C7552net.blif" line: 11, columns:33-39]
+  inputs elem: 173(96)
+	["C7552net.blif" line: 11, columns:41-47]
+  inputs elem: 174(97)
+	["C7552net.blif" line: 11, columns:49-55]
+  inputs elem: 175(98)
+	["C7552net.blif" line: 11, columns:57-63]
+  inputs elem: 176(99)
+	["C7552net.blif" line: 11, columns:65-71]
+  inputs elem: 177(100)
+	["C7552net.blif" line: 12, columns:1-8]
+  inputs elem: 178(101)
+	["C7552net.blif" line: 12, columns:10-17]
+  inputs elem: 179(102)
+	["C7552net.blif" line: 12, columns:19-26]
+  inputs elem: 180(103)
+	["C7552net.blif" line: 12, columns:28-35]
+  inputs elem: 181(104)
+	["C7552net.blif" line: 12, columns:37-44]
+  inputs elem: 182(105)
+	["C7552net.blif" line: 12, columns:46-53]
+  inputs elem: 183(106)
+	["C7552net.blif" line: 12, columns:55-62]
+  inputs elem: 184(107)
+	["C7552net.blif" line: 12, columns:64-71]
+  inputs elem: 185(108)
+	["C7552net.blif" line: 13, columns:1-8]
+  inputs elem: 186(109)
+	["C7552net.blif" line: 13, columns:10-17]
+  inputs elem: 187(110)
+	["C7552net.blif" line: 13, columns:19-26]
+  inputs elem: 188(111)
+	["C7552net.blif" line: 13, columns:28-35]
+  inputs elem: 189(112)
+	["C7552net.blif" line: 13, columns:37-44]
+  inputs elem: 190(113)
+	["C7552net.blif" line: 13, columns:46-53]
+  inputs elem: 191(114)
+	["C7552net.blif" line: 13, columns:55-62]
+  inputs elem: 192(115)
+	["C7552net.blif" line: 13, columns:64-71]
+  inputs elem: 193(116)
+	["C7552net.blif" line: 14, columns:1-8]
+  inputs elem: 194(117)
+	["C7552net.blif" line: 14, columns:10-17]
+  inputs elem: 195(118)
+	["C7552net.blif" line: 14, columns:19-26]
+  inputs elem: 196(119)
+	["C7552net.blif" line: 14, columns:28-35]
+  inputs elem: 197(120)
+	["C7552net.blif" line: 14, columns:37-44]
+  inputs elem: 198(121)
+	["C7552net.blif" line: 14, columns:46-53]
+  inputs elem: 199(122)
+	["C7552net.blif" line: 14, columns:55-62]
+  inputs elem: 200(123)
+	["C7552net.blif" line: 14, columns:64-71]
+  inputs elem: 201(124)
+	["C7552net.blif" line: 15, columns:1-8]
+  inputs elem: 202(125)
+	["C7552net.blif" line: 15, columns:10-17]
+  inputs elem: 203(126)
+	["C7552net.blif" line: 15, columns:19-26]
+  inputs elem: 204(127)
+	["C7552net.blif" line: 15, columns:28-35]
+  inputs elem: 205(128)
+	["C7552net.blif" line: 15, columns:37-44]
+  inputs elem: 206(129)
+	["C7552net.blif" line: 15, columns:46-53]
+  inputs elem: 207(130)
+	["C7552net.blif" line: 15, columns:55-62]
+  inputs elem: 208(131)
+	["C7552net.blif" line: 15, columns:64-71]
+  inputs elem: 209(132)
+	["C7552net.blif" line: 16, columns:1-8]
+  inputs elem: 210(133)
+	["C7552net.blif" line: 16, columns:10-17]
+  inputs elem: 211(134)
+	["C7552net.blif" line: 16, columns:19-26]
+  inputs elem: 212(135)
+	["C7552net.blif" line: 16, columns:28-35]
+  inputs elem: 213(136)
+	["C7552net.blif" line: 16, columns:37-44]
+  inputs elem: 214(137)
+	["C7552net.blif" line: 16, columns:46-53]
+  inputs elem: 215(138)
+	["C7552net.blif" line: 16, columns:55-62]
+  inputs elem: 216(139)
+	["C7552net.blif" line: 16, columns:64-71]
+  inputs elem: 217(140)
+	["C7552net.blif" line: 17, columns:1-8]
+  inputs elem: 218(141)
+	["C7552net.blif" line: 17, columns:10-17]
+  inputs elem: 219(142)
+	["C7552net.blif" line: 17, columns:19-26]
+  inputs elem: 220(143)
+	["C7552net.blif" line: 17, columns:28-35]
+  inputs elem: 221(144)
+	["C7552net.blif" line: 17, columns:37-44]
+  inputs elem: 222(145)
+	["C7552net.blif" line: 17, columns:46-53]
+  inputs elem: 223(146)
+	["C7552net.blif" line: 17, columns:55-62]
+  inputs elem: 224(147)
+	["C7552net.blif" line: 17, columns:64-71]
+  inputs elem: 225(148)
+	["C7552net.blif" line: 18, columns:1-8]
+  inputs elem: 226(149)
+	["C7552net.blif" line: 18, columns:10-17]
+  inputs elem: 227(150)
+	["C7552net.blif" line: 18, columns:19-26]
+  inputs elem: 228(151)
+	["C7552net.blif" line: 18, columns:28-35]
+  inputs elem: 229(152)
+	["C7552net.blif" line: 18, columns:37-44]
+  inputs elem: 230(153)
+	["C7552net.blif" line: 18, columns:46-53]
+  inputs elem: 231(154)
+	["C7552net.blif" line: 18, columns:55-62]
+  inputs elem: 232(155)
+	["C7552net.blif" line: 18, columns:64-71]
+  inputs elem: 233(156)
+	["C7552net.blif" line: 19, columns:1-8]
+  inputs elem: 234(157)
+	["C7552net.blif" line: 19, columns:10-17]
+  inputs elem: 235(158)
+	["C7552net.blif" line: 19, columns:19-26]
+  inputs elem: 236(159)
+	["C7552net.blif" line: 19, columns:28-35]
+  inputs elem: 237(160)
+	["C7552net.blif" line: 19, columns:37-44]
+  inputs elem: 238(161)
+	["C7552net.blif" line: 19, columns:46-53]
+  inputs elem: 239(162)
+	["C7552net.blif" line: 19, columns:55-62]
+  inputs elem: 240(163)
+	["C7552net.blif" line: 19, columns:64-71]
+  inputs elem: [0]
+	["C7552net.blif" line: 19, columns:73-75]
+  inputs elem: 1197(165)
+	["C7552net.blif" line: 20, columns:1-9]
+  inputs elem: 1455(166)
+	["C7552net.blif" line: 20, columns:11-19]
+  inputs elem: 1459(167)
+	["C7552net.blif" line: 20, columns:21-29]
+  inputs elem: 1462(168)
+	["C7552net.blif" line: 20, columns:31-39]
+  inputs elem: 1469(169)
+	["C7552net.blif" line: 20, columns:41-49]
+  inputs elem: 1480(170)
+	["C7552net.blif" line: 20, columns:51-59]
+  inputs elem: 1486(171)
+	["C7552net.blif" line: 20, columns:61-69]
+  inputs elem: 1492(172)
+	["C7552net.blif" line: 21, columns:1-9]
+  inputs elem: 1496(173)
+	["C7552net.blif" line: 21, columns:11-19]
+  inputs elem: 2204(174)
+	["C7552net.blif" line: 21, columns:21-29]
+  inputs elem: 2208(175)
+	["C7552net.blif" line: 21, columns:31-39]
+  inputs elem: 2211(176)
+	["C7552net.blif" line: 21, columns:41-49]
+  inputs elem: 2218(177)
+	["C7552net.blif" line: 21, columns:51-59]
+  inputs elem: 2224(178)
+	["C7552net.blif" line: 21, columns:61-69]
+  inputs elem: 2230(179)
+	["C7552net.blif" line: 22, columns:1-9]
+  inputs elem: 2236(180)
+	["C7552net.blif" line: 22, columns:11-19]
+  inputs elem: 2239(181)
+	["C7552net.blif" line: 22, columns:21-29]
+  inputs elem: 2247(182)
+	["C7552net.blif" line: 22, columns:31-39]
+  inputs elem: 2253(183)
+	["C7552net.blif" line: 22, columns:41-49]
+  inputs elem: 2256(184)
+	["C7552net.blif" line: 22, columns:51-59]
+  inputs elem: 3698(185)
+	["C7552net.blif" line: 22, columns:61-69]
+  inputs elem: 3701(186)
+	["C7552net.blif" line: 23, columns:1-9]
+  inputs elem: 3705(187)
+	["C7552net.blif" line: 23, columns:11-19]
+  inputs elem: 3711(188)
+	["C7552net.blif" line: 23, columns:21-29]
+  inputs elem: 3717(189)
+	["C7552net.blif" line: 23, columns:31-39]
+  inputs elem: 3723(190)
+	["C7552net.blif" line: 23, columns:41-49]
+  inputs elem: 3729(191)
+	["C7552net.blif" line: 23, columns:51-59]
+  inputs elem: 3737(192)
+	["C7552net.blif" line: 23, columns:61-69]
+  inputs elem: 3743(193)
+	["C7552net.blif" line: 24, columns:1-9]
+  inputs elem: 3749(194)
+	["C7552net.blif" line: 24, columns:11-19]
+  inputs elem: 4393(195)
+	["C7552net.blif" line: 24, columns:21-29]
+  inputs elem: 4394(196)
+	["C7552net.blif" line: 24, columns:31-39]
+  inputs elem: 4400(197)
+	["C7552net.blif" line: 24, columns:41-49]
+  inputs elem: 4405(198)
+	["C7552net.blif" line: 24, columns:51-59]
+  inputs elem: 4410(199)
+	["C7552net.blif" line: 24, columns:61-69]
+  inputs elem: 4415(200)
+	["C7552net.blif" line: 25, columns:1-9]
+  inputs elem: 4420(201)
+	["C7552net.blif" line: 25, columns:11-19]
+  inputs elem: 4427(202)
+	["C7552net.blif" line: 25, columns:21-29]
+  inputs elem: 4432(203)
+	["C7552net.blif" line: 25, columns:31-39]
+  inputs elem: 4437(204)
+	["C7552net.blif" line: 25, columns:41-49]
+  inputs elem: 4526(205)
+	["C7552net.blif" line: 25, columns:51-59]
+  inputs elem: 4528(206)
+	["C7552net.blif" line: 25, columns:61-69]
+  outputs elem: 339(164)
+	["C7552net.blif" line: 26, columns:10-17]
+  outputs elem: 2(313)
+	["C7552net.blif" line: 26, columns:19-24]
+  outputs elem: 3(312)
+	["C7552net.blif" line: 26, columns:26-31]
+  outputs elem: 450(288)
+	["C7552net.blif" line: 26, columns:33-40]
+  outputs elem: 448(284)
+	["C7552net.blif" line: 26, columns:42-49]
+  outputs elem: 444(282)
+	["C7552net.blif" line: 26, columns:51-58]
+  outputs elem: 442(280)
+	["C7552net.blif" line: 26, columns:60-67]
+  outputs elem: 440(277)
+	["C7552net.blif" line: 26, columns:69-76]
+  outputs elem: 438(274)
+	["C7552net.blif" line: 27, columns:1-8]
+  outputs elem: 496(271)
+	["C7552net.blif" line: 27, columns:10-17]
+  outputs elem: 494(267)
+	["C7552net.blif" line: 27, columns:19-26]
+  outputs elem: 492(265)
+	["C7552net.blif" line: 27, columns:28-35]
+  outputs elem: 490(263)
+	["C7552net.blif" line: 27, columns:37-44]
+  outputs elem: 488(260)
+	["C7552net.blif" line: 27, columns:46-53]
+  outputs elem: 486(258)
+	["C7552net.blif" line: 27, columns:55-62]
+  outputs elem: 484(256)
+	["C7552net.blif" line: 27, columns:64-71]
+  outputs elem: 482(253)
+	["C7552net.blif" line: 28, columns:1-8]
+  outputs elem: 480(250)
+	["C7552net.blif" line: 28, columns:10-17]
+  outputs elem: 560(248)
+	["C7552net.blif" line: 28, columns:19-26]
+  outputs elem: 542(246)
+	["C7552net.blif" line: 28, columns:28-35]
+  outputs elem: 558(244)
+	["C7552net.blif" line: 28, columns:37-44]
+  outputs elem: 556(242)
+	["C7552net.blif" line: 28, columns:46-53]
+  outputs elem: 554(240)
+	["C7552net.blif" line: 28, columns:55-62]
+  outputs elem: 552(238)
+	["C7552net.blif" line: 28, columns:64-71]
+  outputs elem: 550(236)
+	["C7552net.blif" line: 29, columns:1-8]
+  outputs elem: 548(234)
+	["C7552net.blif" line: 29, columns:10-17]
+  outputs elem: 546(232)
+	["C7552net.blif" line: 29, columns:19-26]
+  outputs elem: 544(230)
+	["C7552net.blif" line: 29, columns:28-35]
+  outputs elem: 540(227)
+	["C7552net.blif" line: 29, columns:37-44]
+  outputs elem: 538(224)
+	["C7552net.blif" line: 29, columns:46-53]
+  outputs elem: 536(222)
+	["C7552net.blif" line: 29, columns:55-62]
+  outputs elem: 534(220)
+	["C7552net.blif" line: 29, columns:64-71]
+  outputs elem: 532(218)
+	["C7552net.blif" line: 30, columns:1-8]
+  outputs elem: 530(216)
+	["C7552net.blif" line: 30, columns:10-17]
+  outputs elem: 528(214)
+	["C7552net.blif" line: 30, columns:19-26]
+  outputs elem: 526(212)
+	["C7552net.blif" line: 30, columns:28-35]
+  outputs elem: 524(210)
+	["C7552net.blif" line: 30, columns:37-44]
+  outputs elem: 279(304)
+	["C7552net.blif" line: 30, columns:46-53]
+  outputs elem: 436(286)
+	["C7552net.blif" line: 30, columns:55-62]
+  outputs elem: 478(269)
+	["C7552net.blif" line: 30, columns:64-71]
+  outputs elem: 522(226)
+	["C7552net.blif" line: 31, columns:1-8]
+  outputs elem: 402(395)
+	["C7552net.blif" line: 31, columns:10-17]
+  outputs elem: 404(390)
+	["C7552net.blif" line: 31, columns:19-26]
+  outputs elem: 406(388)
+	["C7552net.blif" line: 31, columns:28-35]
+  outputs elem: 408(385)
+	["C7552net.blif" line: 31, columns:37-44]
+  outputs elem: 410(387)
+	["C7552net.blif" line: 31, columns:46-53]
+  outputs elem: 432(428)
+	["C7552net.blif" line: 31, columns:55-62]
+  outputs elem: 446(393)
+	["C7552net.blif" line: 31, columns:64-71]
+  outputs elem: 284(384)
+	["C7552net.blif" line: 32, columns:1-8]
+  outputs elem: 286(419)
+	["C7552net.blif" line: 32, columns:10-17]
+  outputs elem: 289(383)
+	["C7552net.blif" line: 32, columns:19-26]
+  outputs elem: 292(392)
+	["C7552net.blif" line: 32, columns:28-35]
+  outputs elem: 341(420)
+	["C7552net.blif" line: 32, columns:37-44]
+  outputs elem: 281(547)
+	["C7552net.blif" line: 32, columns:46-53]
+  outputs elem: 453(596)
+	["C7552net.blif" line: 32, columns:55-62]
+  outputs elem: 278(536)
+	["C7552net.blif" line: 32, columns:64-71]
+  outputs elem: 373(2994)
+	["C7552net.blif" line: 33, columns:1-9]
+  outputs elem: 246(3110)
+	["C7552net.blif" line: 33, columns:11-19]
+  outputs elem: 258(3122)
+	["C7552net.blif" line: 33, columns:21-29]
+  outputs elem: 264(3121)
+	["C7552net.blif" line: 33, columns:31-39]
+  outputs elem: 270(3109)
+	["C7552net.blif" line: 33, columns:41-49]
+  outputs elem: 388(3093)
+	["C7552net.blif" line: 33, columns:51-59]
+  outputs elem: 391(3094)
+	["C7552net.blif" line: 33, columns:61-69]
+  outputs elem: 394(3095)
+	["C7552net.blif" line: 34, columns:1-9]
+  outputs elem: 397(3097)
+	["C7552net.blif" line: 34, columns:11-19]
+  outputs elem: 376(3206)
+	["C7552net.blif" line: 34, columns:21-29]
+  outputs elem: 379(3207)
+	["C7552net.blif" line: 34, columns:31-39]
+  outputs elem: 382(3148)
+	["C7552net.blif" line: 34, columns:41-49]
+  outputs elem: 385(3151)
+	["C7552net.blif" line: 34, columns:51-59]
+  outputs elem: 412(3369)
+	["C7552net.blif" line: 34, columns:61-69]
+  outputs elem: 414(3338)
+	["C7552net.blif" line: 35, columns:1-9]
+  outputs elem: 416(3368)
+	["C7552net.blif" line: 35, columns:11-19]
+  outputs elem: 249(3418)
+	["C7552net.blif" line: 35, columns:21-29]
+  outputs elem: 295(3352)
+	["C7552net.blif" line: 35, columns:31-39]
+  outputs elem: 324(3363)
+	["C7552net.blif" line: 35, columns:41-49]
+  outputs elem: 252(3450)
+	["C7552net.blif" line: 35, columns:51-59]
+  outputs elem: 276(3401)
+	["C7552net.blif" line: 35, columns:61-69]
+  outputs elem: 310(3393)
+	["C7552net.blif" line: 36, columns:1-9]
+  outputs elem: 313(3396)
+	["C7552net.blif" line: 36, columns:11-19]
+  outputs elem: 316(3397)
+	["C7552net.blif" line: 36, columns:21-29]
+  outputs elem: 319(3398)
+	["C7552net.blif" line: 36, columns:31-39]
+  outputs elem: 327(3408)
+	["C7552net.blif" line: 36, columns:41-49]
+  outputs elem: 330(3411)
+	["C7552net.blif" line: 36, columns:51-59]
+  outputs elem: 333(3416)
+	["C7552net.blif" line: 36, columns:61-69]
+  outputs elem: 336(3412)
+	["C7552net.blif" line: 37, columns:1-9]
+  outputs elem: 418(3449)
+	["C7552net.blif" line: 37, columns:11-19]
+  outputs elem: 273(3402)
+	["C7552net.blif" line: 37, columns:21-29]
+  outputs elem: 298(3387)
+	["C7552net.blif" line: 37, columns:31-39]
+  outputs elem: 301(3388)
+	["C7552net.blif" line: 37, columns:41-49]
+  outputs elem: 304(3390)
+	["C7552net.blif" line: 37, columns:51-59]
+  outputs elem: 307(3389)
+	["C7552net.blif" line: 37, columns:61-69]
+  outputs elem: 344(3382)
+	["C7552net.blif" line: 38, columns:1-9]
+  outputs elem: 422(3451)
+	["C7552net.blif" line: 38, columns:11-19]
+  outputs elem: 469(3452)
+	["C7552net.blif" line: 38, columns:21-29]
+  outputs elem: 419(3444)
+	["C7552net.blif" line: 38, columns:31-39]
+  outputs elem: 471(3445)
+	["C7552net.blif" line: 38, columns:41-49]
+  outputs elem: 359(3426)
+	["C7552net.blif" line: 38, columns:51-59]
+  outputs elem: 362(3429)
+	["C7552net.blif" line: 38, columns:61-69]
+  outputs elem: 365(3430)
+	["C7552net.blif" line: 39, columns:1-9]
+  outputs elem: 368(3431)
+	["C7552net.blif" line: 39, columns:11-19]
+  outputs elem: 347(3420)
+	["C7552net.blif" line: 39, columns:21-29]
+  outputs elem: 350(3421)
+	["C7552net.blif" line: 39, columns:31-39]
+  outputs elem: 353(3425)
+	["C7552net.blif" line: 39, columns:41-49]
+  outputs elem: 356(3424)
+	["C7552net.blif" line: 39, columns:51-59]
+  outputs elem: 321(3715)
+	["C7552net.blif" line: 39, columns:61-69]
+  outputs elem: 338(3716)
+	["C7552net.blif" line: 40, columns:1-9]
+  outputs elem: 370(3718)
+	["C7552net.blif" line: 40, columns:11-19]
+  outputs elem: 399(3717)
+	["C7552net.blif" line: 40, columns:21-29]
+.gate nor1 begin
+	["C7552net.blif" line: 41, columns:1-5]
+	["C7552net.blif" line: 41, columns:7-10]
+  .gate assign: a = [0]
+	["C7552net.blif" line: 41, column: 12]
+	["C7552net.blif" line: 41, columns:14-16]
+  .gate assign: O = inv__[0]
+	["C7552net.blif" line: 41, column: 18]
+	["C7552net.blif" line: 41, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C7552net.blif" line: 42, columns:1-5]
+	["C7552net.blif" line: 42, columns:7-10]
+  .gate assign: a = inv__[0]
+	["C7552net.blif" line: 42, column: 12]
+	["C7552net.blif" line: 42, columns:14-21]
+  .gate assign: O = 339(164)
+	["C7552net.blif" line: 42, column: 23]
+	["C7552net.blif" line: 42, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C7552net.blif" line: 43, columns:1-5]
+	["C7552net.blif" line: 43, columns:7-10]
+  .gate assign: a = 1(0)
+	["C7552net.blif" line: 43, column: 12]
+	["C7552net.blif" line: 43, columns:14-17]
+  .gate assign: O = [5452]
+	["C7552net.blif" line: 43, column: 19]
+	["C7552net.blif" line: 43, columns:21-26]
+.gate end
+
+.gate nor1 begin
+	["C7552net.blif" line: 44, columns:1-5]
+	["C7552net.blif" line: 44, columns:7-10]
+  .gate assign: a = 1(0)
+	["C7552net.blif" line: 44, column: 12]
+	["C7552net.blif" line: 44, columns:14-17]
+  .gate assign: O = inv__1(0)
+	["C7552net.blif" line: 44, column: 19]
+	["C7552net.blif" line: 44, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C7552net.blif" line: 45, columns:1-5]
+	["C7552net.blif" line: 45, columns:7-10]
+  .gate assign: a = inv__1(0)
+	["C7552net.blif" line: 45, column: 12]
+	["C7552net.blif" line: 45, columns:14-22]
+  .gate assign: O = 2(313)
+	["C7552net.blif" line: 45, column: 24]
+	["C7552net.blif" line: 45, columns:26-31]
+.gate end
+
+.gate nor1 begin
+	["C7552net.blif" line: 46, columns:1-5]
+	["C7552net.blif" line: 46, columns:7-10]
+  .gate assign: a = 1(0)
+	["C7552net.blif" line: 46, column: 12]
+	["C7552net.blif" line: 46, columns:14-17]
+error_exit

@@ -1,0 +1,7 @@
+# error 3-7-3
+# illegal reset value
+.model test1
+.inputs a
+.outputs x
+.latch a x 2
+.end

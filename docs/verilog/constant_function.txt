@@ -1,0 +1,20 @@
+constant function について
+
+○内部に階層名を含まない．
+○constant function から呼び出される関数は同じモジュール内で定義された
+  constant function でなければならない．
+○system function は呼び出されない．
+○system task は無視される．
+○system function はillegal
+○$display のみは constant function 中から呼び出される可能性があるが，
+  elaboration 時には無視される．
+○関数で用いられるパラメータは constant function の呼び出し前に定義さ
+  れている必要がある．
+○関数内の識別子でパラメータや関数名でないものはその関数内でローカルに
+  定義されたものでなければならない．
+○もしも defparam で上書きされる可能性のあるパラメータの値を使っている
+  場合，結果は未定義となる．これはエラーを引き起こすか，もしくは途中の
+  (上書きされる前の)結果を返すかも知れない．
+○constant function は generate scope 内では宣言できない．
+○(意味不明) They shall not themselves use constant functions in any
+  context requiring a constant expression.

@@ -1,0 +1,9 @@
+# error 3-7-5
+# duplicate name in .names and .latch
+.model test1
+.inputs a b
+.outputs x
+.names a b x
+11 1
+.latch a x
+.end

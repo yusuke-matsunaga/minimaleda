@@ -1,0 +1,36 @@
+# TvFunc の各メンバ関数をテストするための Tcl スクリプト
+#
+# $Id: all4 39 2006-07-17 09:33:50Z matsunaga $
+
+namespace import ym_npn::*
+
+set mag 100
+for { set ni 2 } { $ni <= 4 } { incr ni } {
+    tvfunc_npn reset
+    forall_func $ni f {
+	tvfunc_npn -mag $mag w2_recur $f
+    }
+    set nfuncs [tvfunc_npn repfunc_num]
+    set times [tvfunc_npn get_time]
+    set utime [lindex $times 0]
+    puts "w2_recur ni = $ni mag = $mag : $nfuncs funcs: $utime usec"
+}
+
+set mag 100
+set rnum 10000
+for { set ni 5 } { $ni <= 20 } { incr ni } {
+    tvfunc_npn reset
+    random_func --num $rnum $ni f {
+	tvfunc_npn -mag $mag w2_recur $f
+    }
+    set nfuncs [tvfunc_npn repfunc_num]
+    set times [tvfunc_npn get_time]
+    set utime [lindex $times 0]
+    puts "w2_recur ni = $ni mag = $mag : $nfuncs funcs: $utime usec"
+}
+
+exit
+
+# Local Variables:
+# mode: tcl
+# End:

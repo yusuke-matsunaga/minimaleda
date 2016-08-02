@@ -1,0 +1,9 @@
+# error 3-5-1
+# .names without name
+.model test1
+.inputs a b
+.outputs x
+.names
+.names a b x
+11 1
+.end

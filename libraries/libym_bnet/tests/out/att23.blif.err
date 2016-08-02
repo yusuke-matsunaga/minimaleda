@@ -1,0 +1,8 @@
+"att23.blif" line: 2, column: 13 [WR_UNREF01]: c: Defined but not used
+"att23.blif" line: 2, column: 15 [WR_UNREF01]: d: Defined but not used
+"att23.blif" line: 2, column: 17 [WR_UNREF01]: e: Defined but not used
+"att23.blif" line: 2, column: 19 [WR_UNREF01]: f: Defined but not used
+"att23.blif" line: 2, column: 27 [WR_UNREF01]: j: Defined but not used
+"att23.blif" line: 393, columns:11-12 [WR_UNREF01]: d9: Defined but not used
+"att23.blif" line: 418, columns:11-12 [WR_UNREF01]: m9: Defined but not used
+"att23.blif" line: 368, columns:11-12 [WR_UNREF01]: t8: Defined but not used

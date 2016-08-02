@@ -1,0 +1,68 @@
+set dpath "~/share/data/MCNC.blifdata/"
+set loglevel 0
+
+proc circ_name { orig_name } {
+    regsub -all {[^A-Za-z0-9_]+} $orig_name _ dst_name
+    return $dst_name
+}
+
+proc lutmaptest { circ mode mode2 limit } {
+    global dpath
+    global loglevel
+
+    set cname [circ_name ${circ}]
+
+    puts "reading ${circ}.blif"
+    magus::read_blif -new_network $cname ${dpath}/${circ}.blif
+    magus::copy_network ${cname} ${cname}dec
+    magus::simplify -network ${cname}dec
+    magus::bidecomp -network ${cname}dec -mindepth
+
+    puts [magus::time magus::lutmap -network ${cname}dec $mode -dst_network ${cname}map $limit]
+    puts "mapping end"
+    puts "# of LUTs: $magus::lutmap_stats(lut_num)"
+    #puts "LB:        $magus::lutmap_stats(lower_bound)"
+    puts "max level: $magus::lutmap_stats(level)"
+    puts ""
+
+    puts [magus::time magus::lutmap -network ${circ}dec -v $mode2 -dst_network ${circ}map2 $limit]
+    puts "mapping2 end"
+    puts "# of LUTs: $magus::lutmap_stats(lut_num)"
+    puts "max level: $magus::lutmap_stats(level)"
+
+    #set magus::eqstat [equiv -loglevel ${loglevel} ${circ} ${circ}map]
+    #puts $eqstat
+    #if { $eqstat == "Not Equivalent" } {
+    #  magus::write_blif -network ${circ} ${circ}.blif
+    #  magus::write_blif -network ${circ}map ${circ}map.blif
+    #  puts "Not Equivalent"
+    #}
+    puts "--------------------------------------"
+    puts ""
+}
+
+#set mode "-tree"
+set mode "-dag"
+#set mode "-dag"
+set mode2 "-dmin"
+set limit 6
+set list1 {
+    "C432"
+    "C499"
+    "C880"
+    "C1355"
+    "C1908"
+    "C2670"
+    "C3540"
+    "C5315"
+    "C6288"
+    "C7552"
+    "des" }
+set list2 { C3540 }
+foreach cir $list1 {
+    lutmaptest $cir $mode $mode2 $limit
+}
+
+# Local Variables:
+# mode: tcl
+# End:

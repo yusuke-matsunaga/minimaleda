@@ -1,0 +1,8 @@
+## $Source: /export/home/project/synth/cvsrepos/ymtools/src/libym_cell/tests/local_defs,v $
+## $Author: matsunaga $
+## $Revision: 1.1.1.1 $
+## $Date: 2005/12/11 17:07:26 $
+
+. ${top_srcdir}/etc/common_defs
+
+TEST_PATH=${top_builddir}/src/libym_cell/tests

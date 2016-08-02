@@ -1,0 +1,113 @@
+.model att5
+.inputs a b c d e f g h i j k l m n o
+.outputs p q r s t u v w x y z
+.names p0 p
+0 1
+.names d o0 q
+00 1
+.names o q0 e t0 r
+0000 1
+.names o q0 e x0 s
+0000 1
+.names o q0 e y0 t
+0000 1
+.names o q0 e z0 u
+0000 1
+.names r0 a1 b1 v
+0-0 1
+-00 1
+.names o i1 w
+00 1
+.names r0 j1 b1 x
+0-0 1
+-00 1
+.names l0 m0 y
+00 1
+.names c f d m0 z
+0-00 1
+-000 1
+.names o l0
+0 1
+.names g m0
+0 1
+.names n n0
+0 1
+.names c e q0 r0 s0 f o0
+0--0-- 1
+-0-0-- 1
+--00-- 1
+0---0- 1
+-0--0- 1
+--0-0- 1
+0----0 1
+-0---0 1
+--0--0 1
+.names d o0 p0
+00 1
+.names f q0
+0 1
+.names c r0
+0 1
+.names e s0
+0 1
+.names u0 r0 v0 w0 t0
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names d u0
+0 1
+.names b v0
+0 1
+.names a w0
+0 1
+.names u0 r0 v0 a x0
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names u0 r0 b w0 y0
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names u0 r0 b a z0
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names a b v0 w0 c1 d1 e1 f1 a1
+-------0 1
+-0-00--- 1
+--00-0-- 1
+0-0---0- 1
+.names e l0 q0 r0 u0 b1
+0---- 1
+----0 1
+-0-0- 1
+--00- 1
+.names k c1
+0 1
+.names m d1
+0 1
+.names l e1
+0 1
+.names i g1 f1
+00 1
+.names a b h1 n0 f o g1
+---0-- 1
+----0- 1
+-----0 1
+000--- 1
+.names j h1
+0 1
+.names f s0 u0 r0 i1
+0--- 1
+-0-- 1
+--0- 1
+---0 1
+.names o n0 f j1
+0-- 1
+-0- 1
+--0 1
+.end

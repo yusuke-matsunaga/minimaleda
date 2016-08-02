@@ -1,0 +1,19 @@
+.model test1
+	["3-6-7.blif" line: 3, columns:1-6]
+	["3-6-7.blif" line: 3, columns:8-12]
+  outputs elem: x
+	["3-6-7.blif" line: 4, column: 10]
+.gate inv4x begin
+	["3-6-7.blif" line: 5, columns:1-5]
+	["3-6-7.blif" line: 5, columns:7-11]
+  .gate assign: o = x
+	["3-6-7.blif" line: 5, column: 13]
+	["3-6-7.blif" line: 5, column: 15]
+  .gate assign: a = y
+	["3-6-7.blif" line: 5, column: 17]
+	["3-6-7.blif" line: 5, column: 19]
+.gate end
+
+.end
+	["3-6-7.blif" line: 6, columns:1-4]
+error_exit

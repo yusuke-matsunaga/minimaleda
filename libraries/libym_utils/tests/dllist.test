@@ -1,0 +1,81 @@
+# $Id: dllist.test 55 2006-07-24 15:18:40Z matsunaga $
+
+# Common definitions
+if test -z "$srcdir"; then
+    srcdir=echo "$0" | sed 's,[^/]*$,,'
+    test "$srcdir" = "$0" && srcdir=.
+    test -z "$srcdir" && srcdir=.
+    test "${VERBOSE+set}" != set && VERBOSE=1
+fi
+. $srcdir/local_defs
+
+# this is the test script
+cat <<\EOF > in
+l
+ab0
+ab1
+ab2
+ab3
+l
+af10
+af11
+af12
+af13
+l
+f
+b
+p3
+c
+i20
+l
+c
+e
+l
+EOF
+
+# this is the output we should expect to see
+cat <<\EOF > ok
+0:
+4: 0 1 2 3
+8: 13 12 11 10 0 1 2 3
+13
+3
+10
+9: 13 12 11 10 20 0 1 2 3
+10
+8: 13 12 11 20 0 1 2 3
+EOF
+
+cat <<\EOF >errok
+EOF
+
+# Run the test saving stderr to a file, and showing stdout
+# if VERBOSE == 1
+${TEST_PATH}/dllist_test < in 2> err | tee -i out >&2
+
+# Test against expected output
+if ${CMP} -s out ok; then
+    :
+else
+    echo "ok:" >&2
+    cat ok >&2
+    exit 1
+fi
+
+# Munge error output to remove leading directories, 'lt-' or
+# trailing '.exe'
+
+# Show stderr in case  of not matching expected output if VERBOSE == 1
+if ${CMP} -s err errok; then
+    :
+else
+    echo "err:" >&2
+    cat err >&2
+    echo "errok:" >&2
+    cat errok >&2
+    exit 1
+fi
+
+### Local Variables:
+### mode: sh
+### End:

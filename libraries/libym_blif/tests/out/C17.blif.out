@@ -1,0 +1,68 @@
+.model C17.iscas
+	["C17.blif" line: 6, columns:1-6]
+	["C17.blif" line: 6, columns:8-16]
+  inputs elem: 1GAT(0)
+	["C17.blif" line: 7, columns:9-15]
+  inputs elem: 2GAT(1)
+	["C17.blif" line: 7, columns:17-23]
+  inputs elem: 3GAT(2)
+	["C17.blif" line: 7, columns:25-31]
+  inputs elem: 6GAT(3)
+	["C17.blif" line: 7, columns:33-39]
+  inputs elem: 7GAT(4)
+	["C17.blif" line: 7, columns:41-47]
+  outputs elem: 22GAT(10)
+	["C17.blif" line: 8, columns:10-18]
+  outputs elem: 23GAT(9)
+	["C17.blif" line: 8, columns:20-27]
+.names
+3GAT(2)
+	["C17.blif" line: 9, columns:8-14]
+6GAT(3)
+	["C17.blif" line: 9, columns:16-22]
+11GAT(5)
+	["C17.blif" line: 9, columns:24-31]
+11 0
+.names
+1GAT(0)
+	["C17.blif" line: 11, columns:8-14]
+3GAT(2)
+	["C17.blif" line: 11, columns:16-22]
+10GAT(6)
+	["C17.blif" line: 11, columns:24-31]
+11 0
+.names
+11GAT(5)
+	["C17.blif" line: 13, columns:8-15]
+7GAT(4)
+	["C17.blif" line: 13, columns:17-23]
+19GAT(7)
+	["C17.blif" line: 13, columns:25-32]
+11 0
+.names
+2GAT(1)
+	["C17.blif" line: 15, columns:8-14]
+11GAT(5)
+	["C17.blif" line: 15, columns:16-23]
+16GAT(8)
+	["C17.blif" line: 15, columns:25-32]
+11 0
+.names
+16GAT(8)
+	["C17.blif" line: 17, columns:8-15]
+19GAT(7)
+	["C17.blif" line: 17, columns:17-24]
+23GAT(9)
+	["C17.blif" line: 17, columns:26-33]
+11 0
+.names
+10GAT(6)
+	["C17.blif" line: 19, columns:8-15]
+16GAT(8)
+	["C17.blif" line: 19, columns:17-24]
+22GAT(10)
+	["C17.blif" line: 19, columns:26-34]
+11 0
+.end
+	["C17.blif" line: 21, columns:1-4]
+normal_exit

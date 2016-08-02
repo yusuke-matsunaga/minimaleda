@@ -1,0 +1,8 @@
+# error 3-5-13
+# Illegal character in output cube.
+.model test1
+.inputs a b
+.outputs x
+.names a b x
+11 -
+.end

@@ -1,0 +1,2 @@
+"3-4-2.blif" line: 5, column: 12 [ER_MLTDEF03]: x: Defined more than once. Previous definition is "3-4-2.blif" line: 5, column: 10
+Error in reading 3-4-2.blif

@@ -1,0 +1,181 @@
+.model C17.iscas
+	["C17net.blif" line: 1, columns:1-6]
+	["C17net.blif" line: 1, columns:8-16]
+  inputs elem: 1GAT(0)
+	["C17net.blif" line: 2, columns:9-15]
+  inputs elem: 2GAT(1)
+	["C17net.blif" line: 2, columns:17-23]
+  inputs elem: 3GAT(2)
+	["C17net.blif" line: 2, columns:25-31]
+  inputs elem: 6GAT(3)
+	["C17net.blif" line: 2, columns:33-39]
+  inputs elem: 7GAT(4)
+	["C17net.blif" line: 2, columns:41-47]
+  outputs elem: 22GAT(10)
+	["C17net.blif" line: 3, columns:10-18]
+  outputs elem: 23GAT(9)
+	["C17net.blif" line: 3, columns:20-27]
+.gate nor1 begin
+	["C17net.blif" line: 4, columns:1-5]
+	["C17net.blif" line: 4, columns:7-10]
+  .gate assign: a = 1GAT(0)
+	["C17net.blif" line: 4, column: 12]
+	["C17net.blif" line: 4, columns:14-20]
+  .gate assign: O = [58]
+	["C17net.blif" line: 4, column: 22]
+	["C17net.blif" line: 4, columns:24-27]
+.gate end
+
+.gate nor1 begin
+	["C17net.blif" line: 5, columns:1-5]
+	["C17net.blif" line: 5, columns:7-10]
+  .gate assign: a = 3GAT(2)
+	["C17net.blif" line: 5, column: 12]
+	["C17net.blif" line: 5, columns:14-20]
+  .gate assign: O = [53]
+	["C17net.blif" line: 5, column: 22]
+	["C17net.blif" line: 5, columns:24-27]
+.gate end
+
+.gate nor2 begin
+	["C17net.blif" line: 6, columns:1-5]
+	["C17net.blif" line: 6, columns:7-10]
+  .gate assign: a = [58]
+	["C17net.blif" line: 6, column: 12]
+	["C17net.blif" line: 6, columns:14-17]
+  .gate assign: b = [53]
+	["C17net.blif" line: 6, column: 19]
+	["C17net.blif" line: 6, columns:21-24]
+  .gate assign: O = 10GAT(6)
+	["C17net.blif" line: 6, column: 26]
+	["C17net.blif" line: 6, columns:28-35]
+.gate end
+
+.gate nor1 begin
+	["C17net.blif" line: 7, columns:1-5]
+	["C17net.blif" line: 7, columns:7-10]
+  .gate assign: a = 6GAT(3)
+	["C17net.blif" line: 7, column: 12]
+	["C17net.blif" line: 7, columns:14-20]
+  .gate assign: O = [66]
+	["C17net.blif" line: 7, column: 22]
+	["C17net.blif" line: 7, columns:24-27]
+.gate end
+
+.gate nor2 begin
+	["C17net.blif" line: 8, columns:1-5]
+	["C17net.blif" line: 8, columns:7-10]
+  .gate assign: a = [53]
+	["C17net.blif" line: 8, column: 12]
+	["C17net.blif" line: 8, columns:14-17]
+  .gate assign: b = [66]
+	["C17net.blif" line: 8, column: 19]
+	["C17net.blif" line: 8, columns:21-24]
+  .gate assign: O = 11GAT(5)
+	["C17net.blif" line: 8, column: 26]
+	["C17net.blif" line: 8, columns:28-35]
+.gate end
+
+.gate nor1 begin
+	["C17net.blif" line: 9, columns:1-5]
+	["C17net.blif" line: 9, columns:7-10]
+  .gate assign: a = 2GAT(1)
+	["C17net.blif" line: 9, column: 12]
+	["C17net.blif" line: 9, columns:14-20]
+  .gate assign: O = [60]
+	["C17net.blif" line: 9, column: 22]
+	["C17net.blif" line: 9, columns:24-27]
+.gate end
+
+.gate nor2 begin
+	["C17net.blif" line: 10, columns:1-5]
+	["C17net.blif" line: 10, columns:7-10]
+  .gate assign: a = 11GAT(5)
+	["C17net.blif" line: 10, column: 12]
+	["C17net.blif" line: 10, columns:14-21]
+  .gate assign: b = [60]
+	["C17net.blif" line: 10, column: 23]
+	["C17net.blif" line: 10, columns:25-28]
+  .gate assign: O = 16GAT(8)
+	["C17net.blif" line: 10, column: 30]
+	["C17net.blif" line: 10, columns:32-39]
+.gate end
+
+.gate nor2 begin
+	["C17net.blif" line: 11, columns:1-5]
+	["C17net.blif" line: 11, columns:7-10]
+  .gate assign: a = 10GAT(6)
+	["C17net.blif" line: 11, column: 12]
+	["C17net.blif" line: 11, columns:14-21]
+  .gate assign: b = 16GAT(8)
+	["C17net.blif" line: 11, column: 23]
+	["C17net.blif" line: 11, columns:25-32]
+  .gate assign: O = [0]
+	["C17net.blif" line: 11, column: 34]
+	["C17net.blif" line: 11, columns:36-38]
+.gate end
+
+.gate nor1 begin
+	["C17net.blif" line: 12, columns:1-5]
+	["C17net.blif" line: 12, columns:7-10]
+  .gate assign: a = [0]
+	["C17net.blif" line: 12, column: 12]
+	["C17net.blif" line: 12, columns:14-16]
+  .gate assign: O = 22GAT(10)
+	["C17net.blif" line: 12, column: 18]
+	["C17net.blif" line: 12, columns:20-28]
+.gate end
+
+.gate nor1 begin
+	["C17net.blif" line: 13, columns:1-5]
+	["C17net.blif" line: 13, columns:7-10]
+  .gate assign: a = 7GAT(4)
+	["C17net.blif" line: 13, column: 12]
+	["C17net.blif" line: 13, columns:14-20]
+  .gate assign: O = [68]
+	["C17net.blif" line: 13, column: 22]
+	["C17net.blif" line: 13, columns:24-27]
+.gate end
+
+.gate nor2 begin
+	["C17net.blif" line: 14, columns:1-5]
+	["C17net.blif" line: 14, columns:7-10]
+  .gate assign: a = 11GAT(5)
+	["C17net.blif" line: 14, column: 12]
+	["C17net.blif" line: 14, columns:14-21]
+  .gate assign: b = [68]
+	["C17net.blif" line: 14, column: 23]
+	["C17net.blif" line: 14, columns:25-28]
+  .gate assign: O = 19GAT(7)
+	["C17net.blif" line: 14, column: 30]
+	["C17net.blif" line: 14, columns:32-39]
+.gate end
+
+.gate nor2 begin
+	["C17net.blif" line: 15, columns:1-5]
+	["C17net.blif" line: 15, columns:7-10]
+  .gate assign: a = 16GAT(8)
+	["C17net.blif" line: 15, column: 12]
+	["C17net.blif" line: 15, columns:14-21]
+  .gate assign: b = 19GAT(7)
+	["C17net.blif" line: 15, column: 23]
+	["C17net.blif" line: 15, columns:25-32]
+  .gate assign: O = [1]
+	["C17net.blif" line: 15, column: 34]
+	["C17net.blif" line: 15, columns:36-38]
+.gate end
+
+.gate nor1 begin
+	["C17net.blif" line: 16, columns:1-5]
+	["C17net.blif" line: 16, columns:7-10]
+  .gate assign: a = [1]
+	["C17net.blif" line: 16, column: 12]
+	["C17net.blif" line: 16, columns:14-16]
+  .gate assign: O = 23GAT(9)
+	["C17net.blif" line: 16, column: 18]
+	["C17net.blif" line: 16, columns:20-27]
+.gate end
+
+.end
+	["C17net.blif" line: 17, columns:1-4]
+normal_exit

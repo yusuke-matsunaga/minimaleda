@@ -1,0 +1,2461 @@
+.model C2670.iscas
+	["C2670net.blif" line: 1, columns:1-6]
+	["C2670net.blif" line: 1, columns:8-18]
+  inputs elem: 1(0)
+	["C2670net.blif" line: 2, columns:9-12]
+  inputs elem: 2(1)
+	["C2670net.blif" line: 2, columns:14-17]
+  inputs elem: 3(2)
+	["C2670net.blif" line: 2, columns:19-22]
+  inputs elem: 4(3)
+	["C2670net.blif" line: 2, columns:24-27]
+  inputs elem: 5(4)
+	["C2670net.blif" line: 2, columns:29-32]
+  inputs elem: 6(5)
+	["C2670net.blif" line: 2, columns:34-37]
+  inputs elem: 7(6)
+	["C2670net.blif" line: 2, columns:39-42]
+  inputs elem: 8(7)
+	["C2670net.blif" line: 2, columns:44-47]
+  inputs elem: 11(8)
+	["C2670net.blif" line: 2, columns:49-53]
+  inputs elem: 14(9)
+	["C2670net.blif" line: 2, columns:55-59]
+  inputs elem: 15(10)
+	["C2670net.blif" line: 2, columns:61-66]
+  inputs elem: 16(11)
+	["C2670net.blif" line: 2, columns:68-73]
+  inputs elem: 19(12)
+	["C2670net.blif" line: 3, columns:1-6]
+  inputs elem: 20(13)
+	["C2670net.blif" line: 3, columns:8-13]
+  inputs elem: 21(14)
+	["C2670net.blif" line: 3, columns:15-20]
+  inputs elem: 22(15)
+	["C2670net.blif" line: 3, columns:22-27]
+  inputs elem: 23(16)
+	["C2670net.blif" line: 3, columns:29-34]
+  inputs elem: 24(17)
+	["C2670net.blif" line: 3, columns:36-41]
+  inputs elem: 25(18)
+	["C2670net.blif" line: 3, columns:43-48]
+  inputs elem: 26(19)
+	["C2670net.blif" line: 3, columns:50-55]
+  inputs elem: 27(20)
+	["C2670net.blif" line: 3, columns:57-62]
+  inputs elem: 28(21)
+	["C2670net.blif" line: 3, columns:64-69]
+  inputs elem: 29(22)
+	["C2670net.blif" line: 3, columns:71-76]
+  inputs elem: 32(23)
+	["C2670net.blif" line: 4, columns:1-6]
+  inputs elem: 33(24)
+	["C2670net.blif" line: 4, columns:8-13]
+  inputs elem: 34(25)
+	["C2670net.blif" line: 4, columns:15-20]
+  inputs elem: 35(26)
+	["C2670net.blif" line: 4, columns:22-27]
+  inputs elem: 36(27)
+	["C2670net.blif" line: 4, columns:29-34]
+  inputs elem: 37(28)
+	["C2670net.blif" line: 4, columns:36-41]
+  inputs elem: 40(29)
+	["C2670net.blif" line: 4, columns:43-48]
+  inputs elem: 43(30)
+	["C2670net.blif" line: 4, columns:50-55]
+  inputs elem: 44(31)
+	["C2670net.blif" line: 4, columns:57-62]
+  inputs elem: 47(32)
+	["C2670net.blif" line: 4, columns:64-69]
+  inputs elem: 48(33)
+	["C2670net.blif" line: 4, columns:71-76]
+  inputs elem: 49(34)
+	["C2670net.blif" line: 5, columns:1-6]
+  inputs elem: 50(35)
+	["C2670net.blif" line: 5, columns:8-13]
+  inputs elem: 51(36)
+	["C2670net.blif" line: 5, columns:15-20]
+  inputs elem: 52(37)
+	["C2670net.blif" line: 5, columns:22-27]
+  inputs elem: 53(38)
+	["C2670net.blif" line: 5, columns:29-34]
+  inputs elem: 54(39)
+	["C2670net.blif" line: 5, columns:36-41]
+  inputs elem: 55(40)
+	["C2670net.blif" line: 5, columns:43-48]
+  inputs elem: 56(41)
+	["C2670net.blif" line: 5, columns:50-55]
+  inputs elem: 57(42)
+	["C2670net.blif" line: 5, columns:57-62]
+  inputs elem: 60(43)
+	["C2670net.blif" line: 5, columns:64-69]
+  inputs elem: 61(44)
+	["C2670net.blif" line: 5, columns:71-76]
+  inputs elem: 62(45)
+	["C2670net.blif" line: 6, columns:1-6]
+  inputs elem: 63(46)
+	["C2670net.blif" line: 6, columns:8-13]
+  inputs elem: 64(47)
+	["C2670net.blif" line: 6, columns:15-20]
+  inputs elem: 65(48)
+	["C2670net.blif" line: 6, columns:22-27]
+  inputs elem: 66(49)
+	["C2670net.blif" line: 6, columns:29-34]
+  inputs elem: 67(50)
+	["C2670net.blif" line: 6, columns:36-41]
+  inputs elem: 68(51)
+	["C2670net.blif" line: 6, columns:43-48]
+  inputs elem: 69(52)
+	["C2670net.blif" line: 6, columns:50-55]
+  inputs elem: 72(53)
+	["C2670net.blif" line: 6, columns:57-62]
+  inputs elem: 73(54)
+	["C2670net.blif" line: 6, columns:64-69]
+  inputs elem: 74(55)
+	["C2670net.blif" line: 6, columns:71-76]
+  inputs elem: 75(56)
+	["C2670net.blif" line: 7, columns:1-6]
+  inputs elem: 76(57)
+	["C2670net.blif" line: 7, columns:8-13]
+  inputs elem: 77(58)
+	["C2670net.blif" line: 7, columns:15-20]
+  inputs elem: 78(59)
+	["C2670net.blif" line: 7, columns:22-27]
+  inputs elem: 79(60)
+	["C2670net.blif" line: 7, columns:29-34]
+  inputs elem: 80(61)
+	["C2670net.blif" line: 7, columns:36-41]
+  inputs elem: 81(62)
+	["C2670net.blif" line: 7, columns:43-48]
+  inputs elem: 82(63)
+	["C2670net.blif" line: 7, columns:50-55]
+  inputs elem: 85(64)
+	["C2670net.blif" line: 7, columns:57-62]
+  inputs elem: 86(65)
+	["C2670net.blif" line: 7, columns:64-69]
+  inputs elem: 87(66)
+	["C2670net.blif" line: 7, columns:71-76]
+  inputs elem: 88(67)
+	["C2670net.blif" line: 8, columns:1-6]
+  inputs elem: 89(68)
+	["C2670net.blif" line: 8, columns:8-13]
+  inputs elem: 90(69)
+	["C2670net.blif" line: 8, columns:15-20]
+  inputs elem: 91(70)
+	["C2670net.blif" line: 8, columns:22-27]
+  inputs elem: 92(71)
+	["C2670net.blif" line: 8, columns:29-34]
+  inputs elem: 93(72)
+	["C2670net.blif" line: 8, columns:36-41]
+  inputs elem: 94(73)
+	["C2670net.blif" line: 8, columns:43-48]
+  inputs elem: 95(74)
+	["C2670net.blif" line: 8, columns:50-55]
+  inputs elem: 96(75)
+	["C2670net.blif" line: 8, columns:57-62]
+  inputs elem: 99(76)
+	["C2670net.blif" line: 8, columns:64-69]
+  inputs elem: 100(77)
+	["C2670net.blif" line: 8, columns:71-77]
+  inputs elem: 101(78)
+	["C2670net.blif" line: 9, columns:1-7]
+  inputs elem: 102(79)
+	["C2670net.blif" line: 9, columns:9-15]
+  inputs elem: 103(80)
+	["C2670net.blif" line: 9, columns:17-23]
+  inputs elem: 104(81)
+	["C2670net.blif" line: 9, columns:25-31]
+  inputs elem: 105(82)
+	["C2670net.blif" line: 9, columns:33-39]
+  inputs elem: 106(83)
+	["C2670net.blif" line: 9, columns:41-47]
+  inputs elem: 107(84)
+	["C2670net.blif" line: 9, columns:49-55]
+  inputs elem: 108(85)
+	["C2670net.blif" line: 9, columns:57-63]
+  inputs elem: 111(86)
+	["C2670net.blif" line: 9, columns:65-71]
+  inputs elem: 112(87)
+	["C2670net.blif" line: 10, columns:1-7]
+  inputs elem: 113(88)
+	["C2670net.blif" line: 10, columns:9-15]
+  inputs elem: 114(89)
+	["C2670net.blif" line: 10, columns:17-23]
+  inputs elem: 115(90)
+	["C2670net.blif" line: 10, columns:25-31]
+  inputs elem: 116(91)
+	["C2670net.blif" line: 10, columns:33-39]
+  inputs elem: 117(92)
+	["C2670net.blif" line: 10, columns:41-47]
+  inputs elem: 118(93)
+	["C2670net.blif" line: 10, columns:49-55]
+  inputs elem: 119(94)
+	["C2670net.blif" line: 10, columns:57-63]
+  inputs elem: 120(95)
+	["C2670net.blif" line: 10, columns:65-71]
+  inputs elem: 123(96)
+	["C2670net.blif" line: 11, columns:1-7]
+  inputs elem: 124(97)
+	["C2670net.blif" line: 11, columns:9-15]
+  inputs elem: 125(98)
+	["C2670net.blif" line: 11, columns:17-23]
+  inputs elem: 126(99)
+	["C2670net.blif" line: 11, columns:25-31]
+  inputs elem: 127(100)
+	["C2670net.blif" line: 11, columns:33-40]
+  inputs elem: 128(101)
+	["C2670net.blif" line: 11, columns:42-49]
+  inputs elem: 129(102)
+	["C2670net.blif" line: 11, columns:51-58]
+  inputs elem: 130(103)
+	["C2670net.blif" line: 11, columns:60-67]
+  inputs elem: 131(104)
+	["C2670net.blif" line: 11, columns:69-76]
+  inputs elem: 132(105)
+	["C2670net.blif" line: 12, columns:1-8]
+  inputs elem: 135(106)
+	["C2670net.blif" line: 12, columns:10-17]
+  inputs elem: 136(107)
+	["C2670net.blif" line: 12, columns:19-26]
+  inputs elem: 137(108)
+	["C2670net.blif" line: 12, columns:28-35]
+  inputs elem: 138(109)
+	["C2670net.blif" line: 12, columns:37-44]
+  inputs elem: 139(110)
+	["C2670net.blif" line: 12, columns:46-53]
+  inputs elem: 140(111)
+	["C2670net.blif" line: 12, columns:55-62]
+  inputs elem: 141(112)
+	["C2670net.blif" line: 12, columns:64-71]
+  inputs elem: 142(113)
+	["C2670net.blif" line: 13, columns:1-8]
+  inputs elem: [0]
+	["C2670net.blif" line: 13, columns:10-12]
+  inputs elem: [1]
+	["C2670net.blif" line: 13, columns:14-16]
+  inputs elem: [2]
+	["C2670net.blif" line: 13, columns:18-20]
+  inputs elem: [3]
+	["C2670net.blif" line: 13, columns:22-24]
+  inputs elem: [4]
+	["C2670net.blif" line: 13, columns:26-28]
+  inputs elem: [5]
+	["C2670net.blif" line: 13, columns:30-32]
+  inputs elem: [6]
+	["C2670net.blif" line: 13, columns:34-36]
+  inputs elem: [7]
+	["C2670net.blif" line: 13, columns:38-40]
+  inputs elem: [8]
+	["C2670net.blif" line: 13, columns:42-44]
+  inputs elem: [9]
+	["C2670net.blif" line: 13, columns:46-48]
+  inputs elem: [10]
+	["C2670net.blif" line: 13, columns:50-53]
+  inputs elem: [11]
+	["C2670net.blif" line: 13, columns:55-58]
+  inputs elem: [12]
+	["C2670net.blif" line: 13, columns:60-63]
+  inputs elem: [13]
+	["C2670net.blif" line: 13, columns:65-68]
+  inputs elem: [14]
+	["C2670net.blif" line: 13, columns:70-73]
+  inputs elem: [15]
+	["C2670net.blif" line: 13, columns:75-78]
+  inputs elem: [16]
+	["C2670net.blif" line: 14, columns:1-4]
+  inputs elem: [17]
+	["C2670net.blif" line: 14, columns:6-9]
+  inputs elem: [18]
+	["C2670net.blif" line: 14, columns:11-14]
+  inputs elem: [19]
+	["C2670net.blif" line: 14, columns:16-19]
+  inputs elem: [20]
+	["C2670net.blif" line: 14, columns:21-24]
+  inputs elem: [21]
+	["C2670net.blif" line: 14, columns:26-29]
+  inputs elem: [22]
+	["C2670net.blif" line: 14, columns:31-34]
+  inputs elem: [23]
+	["C2670net.blif" line: 14, columns:36-39]
+  inputs elem: [24]
+	["C2670net.blif" line: 14, columns:41-44]
+  inputs elem: [25]
+	["C2670net.blif" line: 14, columns:46-49]
+  inputs elem: [26]
+	["C2670net.blif" line: 14, columns:51-54]
+  inputs elem: [27]
+	["C2670net.blif" line: 14, columns:56-59]
+  inputs elem: [28]
+	["C2670net.blif" line: 14, columns:61-64]
+  inputs elem: [29]
+	["C2670net.blif" line: 14, columns:66-69]
+  inputs elem: [30]
+	["C2670net.blif" line: 14, columns:71-74]
+  inputs elem: [31]
+	["C2670net.blif" line: 15, columns:1-4]
+  inputs elem: [32]
+	["C2670net.blif" line: 15, columns:6-9]
+  inputs elem: [33]
+	["C2670net.blif" line: 15, columns:11-14]
+  inputs elem: [34]
+	["C2670net.blif" line: 15, columns:16-19]
+  inputs elem: [35]
+	["C2670net.blif" line: 15, columns:21-24]
+  inputs elem: [36]
+	["C2670net.blif" line: 15, columns:26-29]
+  inputs elem: [37]
+	["C2670net.blif" line: 15, columns:31-34]
+  inputs elem: [38]
+	["C2670net.blif" line: 15, columns:36-39]
+  inputs elem: [39]
+	["C2670net.blif" line: 15, columns:41-44]
+  inputs elem: [40]
+	["C2670net.blif" line: 15, columns:46-49]
+  inputs elem: [41]
+	["C2670net.blif" line: 15, columns:51-54]
+  inputs elem: [42]
+	["C2670net.blif" line: 15, columns:56-59]
+  inputs elem: [43]
+	["C2670net.blif" line: 15, columns:61-64]
+  inputs elem: [44]
+	["C2670net.blif" line: 15, columns:66-69]
+  inputs elem: [45]
+	["C2670net.blif" line: 15, columns:71-74]
+  inputs elem: [46]
+	["C2670net.blif" line: 16, columns:1-4]
+  inputs elem: [47]
+	["C2670net.blif" line: 16, columns:6-9]
+  inputs elem: [48]
+	["C2670net.blif" line: 16, columns:11-14]
+  inputs elem: [49]
+	["C2670net.blif" line: 16, columns:16-19]
+  inputs elem: [50]
+	["C2670net.blif" line: 16, columns:21-24]
+  inputs elem: [51]
+	["C2670net.blif" line: 16, columns:26-29]
+  inputs elem: [52]
+	["C2670net.blif" line: 16, columns:31-34]
+  inputs elem: [53]
+	["C2670net.blif" line: 16, columns:36-39]
+  inputs elem: [54]
+	["C2670net.blif" line: 16, columns:41-44]
+  inputs elem: [55]
+	["C2670net.blif" line: 16, columns:46-49]
+  inputs elem: [56]
+	["C2670net.blif" line: 16, columns:51-54]
+  inputs elem: [57]
+	["C2670net.blif" line: 16, columns:56-59]
+  inputs elem: [58]
+	["C2670net.blif" line: 16, columns:61-64]
+  inputs elem: [59]
+	["C2670net.blif" line: 16, columns:66-69]
+  inputs elem: [60]
+	["C2670net.blif" line: 16, columns:71-74]
+  inputs elem: [61]
+	["C2670net.blif" line: 17, columns:1-4]
+  inputs elem: [62]
+	["C2670net.blif" line: 17, columns:6-9]
+  inputs elem: [63]
+	["C2670net.blif" line: 17, columns:11-14]
+  inputs elem: [64]
+	["C2670net.blif" line: 17, columns:16-19]
+  inputs elem: [65]
+	["C2670net.blif" line: 17, columns:21-24]
+  inputs elem: [66]
+	["C2670net.blif" line: 17, columns:26-29]
+  inputs elem: [67]
+	["C2670net.blif" line: 17, columns:31-34]
+  inputs elem: [68]
+	["C2670net.blif" line: 17, columns:36-39]
+  inputs elem: [69]
+	["C2670net.blif" line: 17, columns:41-44]
+  inputs elem: [70]
+	["C2670net.blif" line: 17, columns:46-49]
+  inputs elem: [71]
+	["C2670net.blif" line: 17, columns:51-54]
+  inputs elem: [72]
+	["C2670net.blif" line: 17, columns:56-59]
+  inputs elem: [73]
+	["C2670net.blif" line: 17, columns:61-64]
+  inputs elem: [74]
+	["C2670net.blif" line: 17, columns:66-69]
+  inputs elem: [75]
+	["C2670net.blif" line: 17, columns:71-74]
+  inputs elem: 452(190)
+	["C2670net.blif" line: 18, columns:1-8]
+  inputs elem: 483(191)
+	["C2670net.blif" line: 18, columns:10-17]
+  inputs elem: 543(192)
+	["C2670net.blif" line: 18, columns:19-26]
+  inputs elem: 559(193)
+	["C2670net.blif" line: 18, columns:28-35]
+  inputs elem: 567(194)
+	["C2670net.blif" line: 18, columns:37-44]
+  inputs elem: 651(195)
+	["C2670net.blif" line: 18, columns:46-53]
+  inputs elem: 661(196)
+	["C2670net.blif" line: 18, columns:55-62]
+  inputs elem: 860(197)
+	["C2670net.blif" line: 18, columns:64-71]
+  inputs elem: 868(198)
+	["C2670net.blif" line: 19, columns:1-8]
+  inputs elem: 1083(199)
+	["C2670net.blif" line: 19, columns:10-18]
+  inputs elem: 1341(200)
+	["C2670net.blif" line: 19, columns:20-28]
+  inputs elem: 1348(201)
+	["C2670net.blif" line: 19, columns:30-38]
+  inputs elem: 1384(202)
+	["C2670net.blif" line: 19, columns:40-48]
+  inputs elem: 1956(203)
+	["C2670net.blif" line: 19, columns:50-58]
+  inputs elem: 1961(204)
+	["C2670net.blif" line: 19, columns:60-68]
+  inputs elem: 1966(205)
+	["C2670net.blif" line: 19, columns:70-78]
+  inputs elem: 1971(206)
+	["C2670net.blif" line: 20, columns:1-9]
+  inputs elem: 1976(207)
+	["C2670net.blif" line: 20, columns:11-19]
+  inputs elem: 1981(208)
+	["C2670net.blif" line: 20, columns:21-29]
+  inputs elem: 1986(209)
+	["C2670net.blif" line: 20, columns:31-39]
+  inputs elem: 1991(210)
+	["C2670net.blif" line: 20, columns:41-49]
+  inputs elem: 1996(211)
+	["C2670net.blif" line: 20, columns:51-59]
+  inputs elem: 2066(212)
+	["C2670net.blif" line: 20, columns:61-69]
+  inputs elem: 2067(213)
+	["C2670net.blif" line: 21, columns:1-9]
+  inputs elem: 2072(214)
+	["C2670net.blif" line: 21, columns:11-19]
+  inputs elem: 2078(215)
+	["C2670net.blif" line: 21, columns:21-29]
+  inputs elem: 2084(216)
+	["C2670net.blif" line: 21, columns:31-39]
+  inputs elem: 2090(217)
+	["C2670net.blif" line: 21, columns:41-49]
+  inputs elem: 2096(218)
+	["C2670net.blif" line: 21, columns:51-59]
+  inputs elem: 2100(219)
+	["C2670net.blif" line: 21, columns:61-69]
+  inputs elem: 2104(220)
+	["C2670net.blif" line: 22, columns:1-9]
+  inputs elem: 2105(221)
+	["C2670net.blif" line: 22, columns:11-19]
+  inputs elem: 2106(222)
+	["C2670net.blif" line: 22, columns:21-29]
+  inputs elem: 2427(223)
+	["C2670net.blif" line: 22, columns:31-39]
+  inputs elem: 2430(224)
+	["C2670net.blif" line: 22, columns:41-49]
+  inputs elem: 2435(225)
+	["C2670net.blif" line: 22, columns:51-59]
+  inputs elem: 2438(226)
+	["C2670net.blif" line: 22, columns:61-69]
+  inputs elem: 2443(227)
+	["C2670net.blif" line: 23, columns:1-9]
+  inputs elem: 2446(228)
+	["C2670net.blif" line: 23, columns:11-19]
+  inputs elem: 2451(229)
+	["C2670net.blif" line: 23, columns:21-29]
+  inputs elem: 2454(230)
+	["C2670net.blif" line: 23, columns:31-39]
+  inputs elem: 2474(231)
+	["C2670net.blif" line: 23, columns:41-49]
+  inputs elem: 2678(232)
+	["C2670net.blif" line: 23, columns:51-59]
+  outputs elem: 169(114)
+	["C2670net.blif" line: 24, columns:10-17]
+  outputs elem: 174(115)
+	["C2670net.blif" line: 24, columns:19-26]
+  outputs elem: 177(116)
+	["C2670net.blif" line: 24, columns:28-35]
+  outputs elem: 178(117)
+	["C2670net.blif" line: 24, columns:37-44]
+  outputs elem: 179(118)
+	["C2670net.blif" line: 24, columns:46-53]
+  outputs elem: 180(119)
+	["C2670net.blif" line: 24, columns:55-62]
+  outputs elem: 181(120)
+	["C2670net.blif" line: 24, columns:64-71]
+  outputs elem: 182(121)
+	["C2670net.blif" line: 25, columns:1-8]
+  outputs elem: 183(122)
+	["C2670net.blif" line: 25, columns:10-17]
+  outputs elem: 184(123)
+	["C2670net.blif" line: 25, columns:19-26]
+  outputs elem: 185(124)
+	["C2670net.blif" line: 25, columns:28-35]
+  outputs elem: 186(125)
+	["C2670net.blif" line: 25, columns:37-44]
+  outputs elem: 189(126)
+	["C2670net.blif" line: 25, columns:46-53]
+  outputs elem: 190(127)
+	["C2670net.blif" line: 25, columns:55-62]
+  outputs elem: 191(128)
+	["C2670net.blif" line: 25, columns:64-71]
+  outputs elem: 192(129)
+	["C2670net.blif" line: 26, columns:1-8]
+  outputs elem: 193(130)
+	["C2670net.blif" line: 26, columns:10-17]
+  outputs elem: 194(131)
+	["C2670net.blif" line: 26, columns:19-26]
+  outputs elem: 195(132)
+	["C2670net.blif" line: 26, columns:28-35]
+  outputs elem: 196(133)
+	["C2670net.blif" line: 26, columns:37-44]
+  outputs elem: 197(134)
+	["C2670net.blif" line: 26, columns:46-53]
+  outputs elem: 198(135)
+	["C2670net.blif" line: 26, columns:55-62]
+  outputs elem: 199(136)
+	["C2670net.blif" line: 26, columns:64-71]
+  outputs elem: 200(137)
+	["C2670net.blif" line: 27, columns:1-8]
+  outputs elem: 201(138)
+	["C2670net.blif" line: 27, columns:10-17]
+  outputs elem: 202(139)
+	["C2670net.blif" line: 27, columns:19-26]
+  outputs elem: 203(140)
+	["C2670net.blif" line: 27, columns:28-35]
+  outputs elem: 204(141)
+	["C2670net.blif" line: 27, columns:37-44]
+  outputs elem: 205(142)
+	["C2670net.blif" line: 27, columns:46-53]
+  outputs elem: 206(143)
+	["C2670net.blif" line: 27, columns:55-62]
+  outputs elem: 207(144)
+	["C2670net.blif" line: 27, columns:64-71]
+  outputs elem: 208(145)
+	["C2670net.blif" line: 28, columns:1-8]
+  outputs elem: 209(146)
+	["C2670net.blif" line: 28, columns:10-17]
+  outputs elem: 210(147)
+	["C2670net.blif" line: 28, columns:19-26]
+  outputs elem: 211(148)
+	["C2670net.blif" line: 28, columns:28-35]
+  outputs elem: 212(149)
+	["C2670net.blif" line: 28, columns:37-44]
+  outputs elem: 213(150)
+	["C2670net.blif" line: 28, columns:46-53]
+  outputs elem: 214(151)
+	["C2670net.blif" line: 28, columns:55-62]
+  outputs elem: 215(152)
+	["C2670net.blif" line: 28, columns:64-71]
+  outputs elem: 239(153)
+	["C2670net.blif" line: 29, columns:1-8]
+  outputs elem: 240(154)
+	["C2670net.blif" line: 29, columns:10-17]
+  outputs elem: 241(155)
+	["C2670net.blif" line: 29, columns:19-26]
+  outputs elem: 242(156)
+	["C2670net.blif" line: 29, columns:28-35]
+  outputs elem: 243(157)
+	["C2670net.blif" line: 29, columns:37-44]
+  outputs elem: 244(158)
+	["C2670net.blif" line: 29, columns:46-53]
+  outputs elem: 245(159)
+	["C2670net.blif" line: 29, columns:55-62]
+  outputs elem: 246(160)
+	["C2670net.blif" line: 29, columns:64-71]
+  outputs elem: 247(161)
+	["C2670net.blif" line: 30, columns:1-8]
+  outputs elem: 248(162)
+	["C2670net.blif" line: 30, columns:10-17]
+  outputs elem: 249(163)
+	["C2670net.blif" line: 30, columns:19-26]
+  outputs elem: 250(164)
+	["C2670net.blif" line: 30, columns:28-35]
+  outputs elem: 251(165)
+	["C2670net.blif" line: 30, columns:37-44]
+  outputs elem: 252(166)
+	["C2670net.blif" line: 30, columns:46-53]
+  outputs elem: 253(167)
+	["C2670net.blif" line: 30, columns:55-62]
+  outputs elem: 254(168)
+	["C2670net.blif" line: 30, columns:64-71]
+  outputs elem: 255(169)
+	["C2670net.blif" line: 31, columns:1-8]
+  outputs elem: 256(170)
+	["C2670net.blif" line: 31, columns:10-17]
+  outputs elem: 257(171)
+	["C2670net.blif" line: 31, columns:19-26]
+  outputs elem: 262(172)
+	["C2670net.blif" line: 31, columns:28-35]
+  outputs elem: 263(173)
+	["C2670net.blif" line: 31, columns:37-44]
+  outputs elem: 264(174)
+	["C2670net.blif" line: 31, columns:46-53]
+  outputs elem: 265(175)
+	["C2670net.blif" line: 31, columns:55-62]
+  outputs elem: 266(176)
+	["C2670net.blif" line: 31, columns:64-71]
+  outputs elem: 267(177)
+	["C2670net.blif" line: 32, columns:1-8]
+  outputs elem: 268(178)
+	["C2670net.blif" line: 32, columns:10-17]
+  outputs elem: 269(179)
+	["C2670net.blif" line: 32, columns:19-26]
+  outputs elem: 270(180)
+	["C2670net.blif" line: 32, columns:28-35]
+  outputs elem: 271(181)
+	["C2670net.blif" line: 32, columns:37-44]
+  outputs elem: 272(182)
+	["C2670net.blif" line: 32, columns:46-53]
+  outputs elem: 273(183)
+	["C2670net.blif" line: 32, columns:55-62]
+  outputs elem: 274(184)
+	["C2670net.blif" line: 32, columns:64-71]
+  outputs elem: 275(185)
+	["C2670net.blif" line: 33, columns:1-8]
+  outputs elem: 276(186)
+	["C2670net.blif" line: 33, columns:10-17]
+  outputs elem: 277(187)
+	["C2670net.blif" line: 33, columns:19-26]
+  outputs elem: 278(188)
+	["C2670net.blif" line: 33, columns:28-35]
+  outputs elem: 279(189)
+	["C2670net.blif" line: 33, columns:37-44]
+  outputs elem: 350(301)
+	["C2670net.blif" line: 33, columns:46-53]
+  outputs elem: 335(299)
+	["C2670net.blif" line: 33, columns:55-62]
+  outputs elem: 409(298)
+	["C2670net.blif" line: 33, columns:64-71]
+  outputs elem: 369(289)
+	["C2670net.blif" line: 34, columns:1-8]
+  outputs elem: 367(288)
+	["C2670net.blif" line: 34, columns:10-17]
+  outputs elem: 411(264)
+	["C2670net.blif" line: 34, columns:19-26]
+  outputs elem: 337(263)
+	["C2670net.blif" line: 34, columns:28-35]
+  outputs elem: 384(262)
+	["C2670net.blif" line: 34, columns:37-44]
+  outputs elem: 218(311)
+	["C2670net.blif" line: 34, columns:46-53]
+  outputs elem: 219(302)
+	["C2670net.blif" line: 34, columns:55-62]
+  outputs elem: 220(306)
+	["C2670net.blif" line: 34, columns:64-71]
+  outputs elem: 221(305)
+	["C2670net.blif" line: 35, columns:1-8]
+  outputs elem: 235(307)
+	["C2670net.blif" line: 35, columns:10-17]
+  outputs elem: 236(303)
+	["C2670net.blif" line: 35, columns:19-26]
+  outputs elem: 237(309)
+	["C2670net.blif" line: 35, columns:28-35]
+  outputs elem: 238(304)
+	["C2670net.blif" line: 35, columns:37-44]
+  outputs elem: 158(349)
+	["C2670net.blif" line: 35, columns:46-53]
+  outputs elem: 259(414)
+	["C2670net.blif" line: 35, columns:55-62]
+  outputs elem: 391(379)
+	["C2670net.blif" line: 35, columns:64-71]
+  outputs elem: 173(389)
+	["C2670net.blif" line: 36, columns:1-8]
+  outputs elem: 223(413)
+	["C2670net.blif" line: 36, columns:10-17]
+  outputs elem: 234(376)
+	["C2670net.blif" line: 36, columns:19-26]
+  outputs elem: 217(423)
+	["C2670net.blif" line: 36, columns:28-35]
+  outputs elem: 325(507)
+	["C2670net.blif" line: 36, columns:37-44]
+  outputs elem: 261(506)
+	["C2670net.blif" line: 36, columns:46-53]
+  outputs elem: 319(656)
+	["C2670net.blif" line: 36, columns:55-62]
+  outputs elem: 160(609)
+	["C2670net.blif" line: 36, columns:64-71]
+  outputs elem: 162(612)
+	["C2670net.blif" line: 37, columns:1-8]
+  outputs elem: 164(607)
+	["C2670net.blif" line: 37, columns:10-17]
+  outputs elem: 166(625)
+	["C2670net.blif" line: 37, columns:19-26]
+  outputs elem: 168(623)
+	["C2670net.blif" line: 37, columns:28-35]
+  outputs elem: 171(621)
+	["C2670net.blif" line: 37, columns:37-44]
+  outputs elem: 153(671)
+	["C2670net.blif" line: 37, columns:46-53]
+  outputs elem: 176(803)
+	["C2670net.blif" line: 37, columns:55-62]
+  outputs elem: 188(761)
+	["C2670net.blif" line: 37, columns:64-71]
+  outputs elem: 299(692)
+	["C2670net.blif" line: 38, columns:1-8]
+  outputs elem: 301(694)
+	["C2670net.blif" line: 38, columns:10-17]
+  outputs elem: 286(696)
+	["C2670net.blif" line: 38, columns:19-26]
+  outputs elem: 303(698)
+	["C2670net.blif" line: 38, columns:28-35]
+  outputs elem: 288(700)
+	["C2670net.blif" line: 38, columns:37-44]
+  outputs elem: 305(702)
+	["C2670net.blif" line: 38, columns:46-53]
+  outputs elem: 290(704)
+	["C2670net.blif" line: 38, columns:55-62]
+  outputs elem: 284(847)
+	["C2670net.blif" line: 38, columns:64-71]
+  outputs elem: 321(848)
+	["C2670net.blif" line: 39, columns:1-8]
+  outputs elem: 297(849)
+	["C2670net.blif" line: 39, columns:10-17]
+  outputs elem: 280(850)
+	["C2670net.blif" line: 39, columns:19-26]
+  outputs elem: 148(851)
+	["C2670net.blif" line: 39, columns:28-35]
+  outputs elem: 282(922)
+	["C2670net.blif" line: 39, columns:37-44]
+  outputs elem: 323(923)
+	["C2670net.blif" line: 39, columns:46-53]
+  outputs elem: 156(1046)
+	["C2670net.blif" line: 39, columns:55-63]
+  outputs elem: 401(1276)
+	["C2670net.blif" line: 39, columns:65-73]
+  outputs elem: 227(1179)
+	["C2670net.blif" line: 40, columns:1-9]
+  outputs elem: 229(1180)
+	["C2670net.blif" line: 40, columns:11-19]
+  outputs elem: 311(1278)
+	["C2670net.blif" line: 40, columns:21-29]
+  outputs elem: 150(1277)
+	["C2670net.blif" line: 40, columns:31-39]
+  outputs elem: 145(1358)
+	["C2670net.blif" line: 40, columns:41-49]
+  outputs elem: 395(1392)
+	["C2670net.blif" line: 40, columns:51-59]
+  outputs elem: 295(1400)
+	["C2670net.blif" line: 40, columns:61-69]
+  outputs elem: 331(1401)
+	["C2670net.blif" line: 41, columns:1-9]
+  outputs elem: 397(1406)
+	["C2670net.blif" line: 41, columns:11-19]
+  outputs elem: 329(1414)
+	["C2670net.blif" line: 41, columns:21-29]
+  outputs elem: 231(1422)
+	["C2670net.blif" line: 41, columns:31-39]
+  outputs elem: 308(1425)
+	["C2670net.blif" line: 41, columns:41-49]
+  outputs elem: 225(1424)
+	["C2670net.blif" line: 41, columns:51-59]
+.gate nor1 begin
+	["C2670net.blif" line: 42, columns:1-5]
+	["C2670net.blif" line: 42, columns:7-10]
+  .gate assign: a = [0]
+	["C2670net.blif" line: 42, column: 12]
+	["C2670net.blif" line: 42, columns:14-16]
+  .gate assign: O = inv__[0]
+	["C2670net.blif" line: 42, column: 18]
+	["C2670net.blif" line: 42, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 43, columns:1-5]
+	["C2670net.blif" line: 43, columns:7-10]
+  .gate assign: a = inv__[0]
+	["C2670net.blif" line: 43, column: 12]
+	["C2670net.blif" line: 43, columns:14-21]
+  .gate assign: O = 169(114)
+	["C2670net.blif" line: 43, column: 23]
+	["C2670net.blif" line: 43, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 44, columns:1-5]
+	["C2670net.blif" line: 44, columns:7-10]
+  .gate assign: a = [1]
+	["C2670net.blif" line: 44, column: 12]
+	["C2670net.blif" line: 44, columns:14-16]
+  .gate assign: O = inv__[1]
+	["C2670net.blif" line: 44, column: 18]
+	["C2670net.blif" line: 44, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 45, columns:1-5]
+	["C2670net.blif" line: 45, columns:7-10]
+  .gate assign: a = inv__[1]
+	["C2670net.blif" line: 45, column: 12]
+	["C2670net.blif" line: 45, columns:14-21]
+  .gate assign: O = 174(115)
+	["C2670net.blif" line: 45, column: 23]
+	["C2670net.blif" line: 45, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 46, columns:1-5]
+	["C2670net.blif" line: 46, columns:7-10]
+  .gate assign: a = [2]
+	["C2670net.blif" line: 46, column: 12]
+	["C2670net.blif" line: 46, columns:14-16]
+  .gate assign: O = inv__[2]
+	["C2670net.blif" line: 46, column: 18]
+	["C2670net.blif" line: 46, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 47, columns:1-5]
+	["C2670net.blif" line: 47, columns:7-10]
+  .gate assign: a = inv__[2]
+	["C2670net.blif" line: 47, column: 12]
+	["C2670net.blif" line: 47, columns:14-21]
+  .gate assign: O = 177(116)
+	["C2670net.blif" line: 47, column: 23]
+	["C2670net.blif" line: 47, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 48, columns:1-5]
+	["C2670net.blif" line: 48, columns:7-10]
+  .gate assign: a = [3]
+	["C2670net.blif" line: 48, column: 12]
+	["C2670net.blif" line: 48, columns:14-16]
+  .gate assign: O = inv__[3]
+	["C2670net.blif" line: 48, column: 18]
+	["C2670net.blif" line: 48, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 49, columns:1-5]
+	["C2670net.blif" line: 49, columns:7-10]
+  .gate assign: a = inv__[3]
+	["C2670net.blif" line: 49, column: 12]
+	["C2670net.blif" line: 49, columns:14-21]
+  .gate assign: O = 178(117)
+	["C2670net.blif" line: 49, column: 23]
+	["C2670net.blif" line: 49, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 50, columns:1-5]
+	["C2670net.blif" line: 50, columns:7-10]
+  .gate assign: a = [4]
+	["C2670net.blif" line: 50, column: 12]
+	["C2670net.blif" line: 50, columns:14-16]
+  .gate assign: O = inv__[4]
+	["C2670net.blif" line: 50, column: 18]
+	["C2670net.blif" line: 50, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 51, columns:1-5]
+	["C2670net.blif" line: 51, columns:7-10]
+  .gate assign: a = inv__[4]
+	["C2670net.blif" line: 51, column: 12]
+	["C2670net.blif" line: 51, columns:14-21]
+  .gate assign: O = 179(118)
+	["C2670net.blif" line: 51, column: 23]
+	["C2670net.blif" line: 51, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 52, columns:1-5]
+	["C2670net.blif" line: 52, columns:7-10]
+  .gate assign: a = [5]
+	["C2670net.blif" line: 52, column: 12]
+	["C2670net.blif" line: 52, columns:14-16]
+  .gate assign: O = inv__[5]
+	["C2670net.blif" line: 52, column: 18]
+	["C2670net.blif" line: 52, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 53, columns:1-5]
+	["C2670net.blif" line: 53, columns:7-10]
+  .gate assign: a = inv__[5]
+	["C2670net.blif" line: 53, column: 12]
+	["C2670net.blif" line: 53, columns:14-21]
+  .gate assign: O = 180(119)
+	["C2670net.blif" line: 53, column: 23]
+	["C2670net.blif" line: 53, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 54, columns:1-5]
+	["C2670net.blif" line: 54, columns:7-10]
+  .gate assign: a = [6]
+	["C2670net.blif" line: 54, column: 12]
+	["C2670net.blif" line: 54, columns:14-16]
+  .gate assign: O = inv__[6]
+	["C2670net.blif" line: 54, column: 18]
+	["C2670net.blif" line: 54, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 55, columns:1-5]
+	["C2670net.blif" line: 55, columns:7-10]
+  .gate assign: a = inv__[6]
+	["C2670net.blif" line: 55, column: 12]
+	["C2670net.blif" line: 55, columns:14-21]
+  .gate assign: O = 181(120)
+	["C2670net.blif" line: 55, column: 23]
+	["C2670net.blif" line: 55, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 56, columns:1-5]
+	["C2670net.blif" line: 56, columns:7-10]
+  .gate assign: a = [7]
+	["C2670net.blif" line: 56, column: 12]
+	["C2670net.blif" line: 56, columns:14-16]
+  .gate assign: O = inv__[7]
+	["C2670net.blif" line: 56, column: 18]
+	["C2670net.blif" line: 56, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 57, columns:1-5]
+	["C2670net.blif" line: 57, columns:7-10]
+  .gate assign: a = inv__[7]
+	["C2670net.blif" line: 57, column: 12]
+	["C2670net.blif" line: 57, columns:14-21]
+  .gate assign: O = 182(121)
+	["C2670net.blif" line: 57, column: 23]
+	["C2670net.blif" line: 57, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 58, columns:1-5]
+	["C2670net.blif" line: 58, columns:7-10]
+  .gate assign: a = [8]
+	["C2670net.blif" line: 58, column: 12]
+	["C2670net.blif" line: 58, columns:14-16]
+  .gate assign: O = inv__[8]
+	["C2670net.blif" line: 58, column: 18]
+	["C2670net.blif" line: 58, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 59, columns:1-5]
+	["C2670net.blif" line: 59, columns:7-10]
+  .gate assign: a = inv__[8]
+	["C2670net.blif" line: 59, column: 12]
+	["C2670net.blif" line: 59, columns:14-21]
+  .gate assign: O = 183(122)
+	["C2670net.blif" line: 59, column: 23]
+	["C2670net.blif" line: 59, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 60, columns:1-5]
+	["C2670net.blif" line: 60, columns:7-10]
+  .gate assign: a = [9]
+	["C2670net.blif" line: 60, column: 12]
+	["C2670net.blif" line: 60, columns:14-16]
+  .gate assign: O = inv__[9]
+	["C2670net.blif" line: 60, column: 18]
+	["C2670net.blif" line: 60, columns:20-27]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 61, columns:1-5]
+	["C2670net.blif" line: 61, columns:7-10]
+  .gate assign: a = inv__[9]
+	["C2670net.blif" line: 61, column: 12]
+	["C2670net.blif" line: 61, columns:14-21]
+  .gate assign: O = 184(123)
+	["C2670net.blif" line: 61, column: 23]
+	["C2670net.blif" line: 61, columns:25-32]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 62, columns:1-5]
+	["C2670net.blif" line: 62, columns:7-10]
+  .gate assign: a = [10]
+	["C2670net.blif" line: 62, column: 12]
+	["C2670net.blif" line: 62, columns:14-17]
+  .gate assign: O = inv__[10]
+	["C2670net.blif" line: 62, column: 19]
+	["C2670net.blif" line: 62, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 63, columns:1-5]
+	["C2670net.blif" line: 63, columns:7-10]
+  .gate assign: a = inv__[10]
+	["C2670net.blif" line: 63, column: 12]
+	["C2670net.blif" line: 63, columns:14-22]
+  .gate assign: O = 185(124)
+	["C2670net.blif" line: 63, column: 24]
+	["C2670net.blif" line: 63, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 64, columns:1-5]
+	["C2670net.blif" line: 64, columns:7-10]
+  .gate assign: a = [11]
+	["C2670net.blif" line: 64, column: 12]
+	["C2670net.blif" line: 64, columns:14-17]
+  .gate assign: O = inv__[11]
+	["C2670net.blif" line: 64, column: 19]
+	["C2670net.blif" line: 64, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 65, columns:1-5]
+	["C2670net.blif" line: 65, columns:7-10]
+  .gate assign: a = inv__[11]
+	["C2670net.blif" line: 65, column: 12]
+	["C2670net.blif" line: 65, columns:14-22]
+  .gate assign: O = 186(125)
+	["C2670net.blif" line: 65, column: 24]
+	["C2670net.blif" line: 65, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 66, columns:1-5]
+	["C2670net.blif" line: 66, columns:7-10]
+  .gate assign: a = [12]
+	["C2670net.blif" line: 66, column: 12]
+	["C2670net.blif" line: 66, columns:14-17]
+  .gate assign: O = inv__[12]
+	["C2670net.blif" line: 66, column: 19]
+	["C2670net.blif" line: 66, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 67, columns:1-5]
+	["C2670net.blif" line: 67, columns:7-10]
+  .gate assign: a = inv__[12]
+	["C2670net.blif" line: 67, column: 12]
+	["C2670net.blif" line: 67, columns:14-22]
+  .gate assign: O = 189(126)
+	["C2670net.blif" line: 67, column: 24]
+	["C2670net.blif" line: 67, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 68, columns:1-5]
+	["C2670net.blif" line: 68, columns:7-10]
+  .gate assign: a = [13]
+	["C2670net.blif" line: 68, column: 12]
+	["C2670net.blif" line: 68, columns:14-17]
+  .gate assign: O = inv__[13]
+	["C2670net.blif" line: 68, column: 19]
+	["C2670net.blif" line: 68, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 69, columns:1-5]
+	["C2670net.blif" line: 69, columns:7-10]
+  .gate assign: a = inv__[13]
+	["C2670net.blif" line: 69, column: 12]
+	["C2670net.blif" line: 69, columns:14-22]
+  .gate assign: O = 190(127)
+	["C2670net.blif" line: 69, column: 24]
+	["C2670net.blif" line: 69, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 70, columns:1-5]
+	["C2670net.blif" line: 70, columns:7-10]
+  .gate assign: a = [14]
+	["C2670net.blif" line: 70, column: 12]
+	["C2670net.blif" line: 70, columns:14-17]
+  .gate assign: O = inv__[14]
+	["C2670net.blif" line: 70, column: 19]
+	["C2670net.blif" line: 70, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 71, columns:1-5]
+	["C2670net.blif" line: 71, columns:7-10]
+  .gate assign: a = inv__[14]
+	["C2670net.blif" line: 71, column: 12]
+	["C2670net.blif" line: 71, columns:14-22]
+  .gate assign: O = 191(128)
+	["C2670net.blif" line: 71, column: 24]
+	["C2670net.blif" line: 71, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 72, columns:1-5]
+	["C2670net.blif" line: 72, columns:7-10]
+  .gate assign: a = [15]
+	["C2670net.blif" line: 72, column: 12]
+	["C2670net.blif" line: 72, columns:14-17]
+  .gate assign: O = inv__[15]
+	["C2670net.blif" line: 72, column: 19]
+	["C2670net.blif" line: 72, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 73, columns:1-5]
+	["C2670net.blif" line: 73, columns:7-10]
+  .gate assign: a = inv__[15]
+	["C2670net.blif" line: 73, column: 12]
+	["C2670net.blif" line: 73, columns:14-22]
+  .gate assign: O = 192(129)
+	["C2670net.blif" line: 73, column: 24]
+	["C2670net.blif" line: 73, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 74, columns:1-5]
+	["C2670net.blif" line: 74, columns:7-10]
+  .gate assign: a = [16]
+	["C2670net.blif" line: 74, column: 12]
+	["C2670net.blif" line: 74, columns:14-17]
+  .gate assign: O = inv__[16]
+	["C2670net.blif" line: 74, column: 19]
+	["C2670net.blif" line: 74, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 75, columns:1-5]
+	["C2670net.blif" line: 75, columns:7-10]
+  .gate assign: a = inv__[16]
+	["C2670net.blif" line: 75, column: 12]
+	["C2670net.blif" line: 75, columns:14-22]
+  .gate assign: O = 193(130)
+	["C2670net.blif" line: 75, column: 24]
+	["C2670net.blif" line: 75, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 76, columns:1-5]
+	["C2670net.blif" line: 76, columns:7-10]
+  .gate assign: a = [17]
+	["C2670net.blif" line: 76, column: 12]
+	["C2670net.blif" line: 76, columns:14-17]
+  .gate assign: O = inv__[17]
+	["C2670net.blif" line: 76, column: 19]
+	["C2670net.blif" line: 76, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 77, columns:1-5]
+	["C2670net.blif" line: 77, columns:7-10]
+  .gate assign: a = inv__[17]
+	["C2670net.blif" line: 77, column: 12]
+	["C2670net.blif" line: 77, columns:14-22]
+  .gate assign: O = 194(131)
+	["C2670net.blif" line: 77, column: 24]
+	["C2670net.blif" line: 77, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 78, columns:1-5]
+	["C2670net.blif" line: 78, columns:7-10]
+  .gate assign: a = [18]
+	["C2670net.blif" line: 78, column: 12]
+	["C2670net.blif" line: 78, columns:14-17]
+  .gate assign: O = inv__[18]
+	["C2670net.blif" line: 78, column: 19]
+	["C2670net.blif" line: 78, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 79, columns:1-5]
+	["C2670net.blif" line: 79, columns:7-10]
+  .gate assign: a = inv__[18]
+	["C2670net.blif" line: 79, column: 12]
+	["C2670net.blif" line: 79, columns:14-22]
+  .gate assign: O = 195(132)
+	["C2670net.blif" line: 79, column: 24]
+	["C2670net.blif" line: 79, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 80, columns:1-5]
+	["C2670net.blif" line: 80, columns:7-10]
+  .gate assign: a = [19]
+	["C2670net.blif" line: 80, column: 12]
+	["C2670net.blif" line: 80, columns:14-17]
+  .gate assign: O = inv__[19]
+	["C2670net.blif" line: 80, column: 19]
+	["C2670net.blif" line: 80, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 81, columns:1-5]
+	["C2670net.blif" line: 81, columns:7-10]
+  .gate assign: a = inv__[19]
+	["C2670net.blif" line: 81, column: 12]
+	["C2670net.blif" line: 81, columns:14-22]
+  .gate assign: O = 196(133)
+	["C2670net.blif" line: 81, column: 24]
+	["C2670net.blif" line: 81, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 82, columns:1-5]
+	["C2670net.blif" line: 82, columns:7-10]
+  .gate assign: a = [20]
+	["C2670net.blif" line: 82, column: 12]
+	["C2670net.blif" line: 82, columns:14-17]
+  .gate assign: O = inv__[20]
+	["C2670net.blif" line: 82, column: 19]
+	["C2670net.blif" line: 82, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 83, columns:1-5]
+	["C2670net.blif" line: 83, columns:7-10]
+  .gate assign: a = inv__[20]
+	["C2670net.blif" line: 83, column: 12]
+	["C2670net.blif" line: 83, columns:14-22]
+  .gate assign: O = 197(134)
+	["C2670net.blif" line: 83, column: 24]
+	["C2670net.blif" line: 83, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 84, columns:1-5]
+	["C2670net.blif" line: 84, columns:7-10]
+  .gate assign: a = [21]
+	["C2670net.blif" line: 84, column: 12]
+	["C2670net.blif" line: 84, columns:14-17]
+  .gate assign: O = inv__[21]
+	["C2670net.blif" line: 84, column: 19]
+	["C2670net.blif" line: 84, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 85, columns:1-5]
+	["C2670net.blif" line: 85, columns:7-10]
+  .gate assign: a = inv__[21]
+	["C2670net.blif" line: 85, column: 12]
+	["C2670net.blif" line: 85, columns:14-22]
+  .gate assign: O = 198(135)
+	["C2670net.blif" line: 85, column: 24]
+	["C2670net.blif" line: 85, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 86, columns:1-5]
+	["C2670net.blif" line: 86, columns:7-10]
+  .gate assign: a = [22]
+	["C2670net.blif" line: 86, column: 12]
+	["C2670net.blif" line: 86, columns:14-17]
+  .gate assign: O = inv__[22]
+	["C2670net.blif" line: 86, column: 19]
+	["C2670net.blif" line: 86, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 87, columns:1-5]
+	["C2670net.blif" line: 87, columns:7-10]
+  .gate assign: a = inv__[22]
+	["C2670net.blif" line: 87, column: 12]
+	["C2670net.blif" line: 87, columns:14-22]
+  .gate assign: O = 199(136)
+	["C2670net.blif" line: 87, column: 24]
+	["C2670net.blif" line: 87, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 88, columns:1-5]
+	["C2670net.blif" line: 88, columns:7-10]
+  .gate assign: a = [23]
+	["C2670net.blif" line: 88, column: 12]
+	["C2670net.blif" line: 88, columns:14-17]
+  .gate assign: O = inv__[23]
+	["C2670net.blif" line: 88, column: 19]
+	["C2670net.blif" line: 88, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 89, columns:1-5]
+	["C2670net.blif" line: 89, columns:7-10]
+  .gate assign: a = inv__[23]
+	["C2670net.blif" line: 89, column: 12]
+	["C2670net.blif" line: 89, columns:14-22]
+  .gate assign: O = 200(137)
+	["C2670net.blif" line: 89, column: 24]
+	["C2670net.blif" line: 89, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 90, columns:1-5]
+	["C2670net.blif" line: 90, columns:7-10]
+  .gate assign: a = [24]
+	["C2670net.blif" line: 90, column: 12]
+	["C2670net.blif" line: 90, columns:14-17]
+  .gate assign: O = inv__[24]
+	["C2670net.blif" line: 90, column: 19]
+	["C2670net.blif" line: 90, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 91, columns:1-5]
+	["C2670net.blif" line: 91, columns:7-10]
+  .gate assign: a = inv__[24]
+	["C2670net.blif" line: 91, column: 12]
+	["C2670net.blif" line: 91, columns:14-22]
+  .gate assign: O = 201(138)
+	["C2670net.blif" line: 91, column: 24]
+	["C2670net.blif" line: 91, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 92, columns:1-5]
+	["C2670net.blif" line: 92, columns:7-10]
+  .gate assign: a = [25]
+	["C2670net.blif" line: 92, column: 12]
+	["C2670net.blif" line: 92, columns:14-17]
+  .gate assign: O = inv__[25]
+	["C2670net.blif" line: 92, column: 19]
+	["C2670net.blif" line: 92, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 93, columns:1-5]
+	["C2670net.blif" line: 93, columns:7-10]
+  .gate assign: a = inv__[25]
+	["C2670net.blif" line: 93, column: 12]
+	["C2670net.blif" line: 93, columns:14-22]
+  .gate assign: O = 202(139)
+	["C2670net.blif" line: 93, column: 24]
+	["C2670net.blif" line: 93, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 94, columns:1-5]
+	["C2670net.blif" line: 94, columns:7-10]
+  .gate assign: a = [26]
+	["C2670net.blif" line: 94, column: 12]
+	["C2670net.blif" line: 94, columns:14-17]
+  .gate assign: O = inv__[26]
+	["C2670net.blif" line: 94, column: 19]
+	["C2670net.blif" line: 94, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 95, columns:1-5]
+	["C2670net.blif" line: 95, columns:7-10]
+  .gate assign: a = inv__[26]
+	["C2670net.blif" line: 95, column: 12]
+	["C2670net.blif" line: 95, columns:14-22]
+  .gate assign: O = 203(140)
+	["C2670net.blif" line: 95, column: 24]
+	["C2670net.blif" line: 95, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 96, columns:1-5]
+	["C2670net.blif" line: 96, columns:7-10]
+  .gate assign: a = [27]
+	["C2670net.blif" line: 96, column: 12]
+	["C2670net.blif" line: 96, columns:14-17]
+  .gate assign: O = inv__[27]
+	["C2670net.blif" line: 96, column: 19]
+	["C2670net.blif" line: 96, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 97, columns:1-5]
+	["C2670net.blif" line: 97, columns:7-10]
+  .gate assign: a = inv__[27]
+	["C2670net.blif" line: 97, column: 12]
+	["C2670net.blif" line: 97, columns:14-22]
+  .gate assign: O = 204(141)
+	["C2670net.blif" line: 97, column: 24]
+	["C2670net.blif" line: 97, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 98, columns:1-5]
+	["C2670net.blif" line: 98, columns:7-10]
+  .gate assign: a = [28]
+	["C2670net.blif" line: 98, column: 12]
+	["C2670net.blif" line: 98, columns:14-17]
+  .gate assign: O = inv__[28]
+	["C2670net.blif" line: 98, column: 19]
+	["C2670net.blif" line: 98, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 99, columns:1-5]
+	["C2670net.blif" line: 99, columns:7-10]
+  .gate assign: a = inv__[28]
+	["C2670net.blif" line: 99, column: 12]
+	["C2670net.blif" line: 99, columns:14-22]
+  .gate assign: O = 205(142)
+	["C2670net.blif" line: 99, column: 24]
+	["C2670net.blif" line: 99, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 100, columns:1-5]
+	["C2670net.blif" line: 100, columns:7-10]
+  .gate assign: a = [29]
+	["C2670net.blif" line: 100, column: 12]
+	["C2670net.blif" line: 100, columns:14-17]
+  .gate assign: O = inv__[29]
+	["C2670net.blif" line: 100, column: 19]
+	["C2670net.blif" line: 100, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 101, columns:1-5]
+	["C2670net.blif" line: 101, columns:7-10]
+  .gate assign: a = inv__[29]
+	["C2670net.blif" line: 101, column: 12]
+	["C2670net.blif" line: 101, columns:14-22]
+  .gate assign: O = 206(143)
+	["C2670net.blif" line: 101, column: 24]
+	["C2670net.blif" line: 101, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 102, columns:1-5]
+	["C2670net.blif" line: 102, columns:7-10]
+  .gate assign: a = [30]
+	["C2670net.blif" line: 102, column: 12]
+	["C2670net.blif" line: 102, columns:14-17]
+  .gate assign: O = inv__[30]
+	["C2670net.blif" line: 102, column: 19]
+	["C2670net.blif" line: 102, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 103, columns:1-5]
+	["C2670net.blif" line: 103, columns:7-10]
+  .gate assign: a = inv__[30]
+	["C2670net.blif" line: 103, column: 12]
+	["C2670net.blif" line: 103, columns:14-22]
+  .gate assign: O = 207(144)
+	["C2670net.blif" line: 103, column: 24]
+	["C2670net.blif" line: 103, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 104, columns:1-5]
+	["C2670net.blif" line: 104, columns:7-10]
+  .gate assign: a = [31]
+	["C2670net.blif" line: 104, column: 12]
+	["C2670net.blif" line: 104, columns:14-17]
+  .gate assign: O = inv__[31]
+	["C2670net.blif" line: 104, column: 19]
+	["C2670net.blif" line: 104, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 105, columns:1-5]
+	["C2670net.blif" line: 105, columns:7-10]
+  .gate assign: a = inv__[31]
+	["C2670net.blif" line: 105, column: 12]
+	["C2670net.blif" line: 105, columns:14-22]
+  .gate assign: O = 208(145)
+	["C2670net.blif" line: 105, column: 24]
+	["C2670net.blif" line: 105, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 106, columns:1-5]
+	["C2670net.blif" line: 106, columns:7-10]
+  .gate assign: a = [32]
+	["C2670net.blif" line: 106, column: 12]
+	["C2670net.blif" line: 106, columns:14-17]
+  .gate assign: O = inv__[32]
+	["C2670net.blif" line: 106, column: 19]
+	["C2670net.blif" line: 106, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 107, columns:1-5]
+	["C2670net.blif" line: 107, columns:7-10]
+  .gate assign: a = inv__[32]
+	["C2670net.blif" line: 107, column: 12]
+	["C2670net.blif" line: 107, columns:14-22]
+  .gate assign: O = 209(146)
+	["C2670net.blif" line: 107, column: 24]
+	["C2670net.blif" line: 107, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 108, columns:1-5]
+	["C2670net.blif" line: 108, columns:7-10]
+  .gate assign: a = [33]
+	["C2670net.blif" line: 108, column: 12]
+	["C2670net.blif" line: 108, columns:14-17]
+  .gate assign: O = inv__[33]
+	["C2670net.blif" line: 108, column: 19]
+	["C2670net.blif" line: 108, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 109, columns:1-5]
+	["C2670net.blif" line: 109, columns:7-10]
+  .gate assign: a = inv__[33]
+	["C2670net.blif" line: 109, column: 12]
+	["C2670net.blif" line: 109, columns:14-22]
+  .gate assign: O = 210(147)
+	["C2670net.blif" line: 109, column: 24]
+	["C2670net.blif" line: 109, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 110, columns:1-5]
+	["C2670net.blif" line: 110, columns:7-10]
+  .gate assign: a = [34]
+	["C2670net.blif" line: 110, column: 12]
+	["C2670net.blif" line: 110, columns:14-17]
+  .gate assign: O = inv__[34]
+	["C2670net.blif" line: 110, column: 19]
+	["C2670net.blif" line: 110, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 111, columns:1-5]
+	["C2670net.blif" line: 111, columns:7-10]
+  .gate assign: a = inv__[34]
+	["C2670net.blif" line: 111, column: 12]
+	["C2670net.blif" line: 111, columns:14-22]
+  .gate assign: O = 211(148)
+	["C2670net.blif" line: 111, column: 24]
+	["C2670net.blif" line: 111, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 112, columns:1-5]
+	["C2670net.blif" line: 112, columns:7-10]
+  .gate assign: a = [35]
+	["C2670net.blif" line: 112, column: 12]
+	["C2670net.blif" line: 112, columns:14-17]
+  .gate assign: O = inv__[35]
+	["C2670net.blif" line: 112, column: 19]
+	["C2670net.blif" line: 112, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 113, columns:1-5]
+	["C2670net.blif" line: 113, columns:7-10]
+  .gate assign: a = inv__[35]
+	["C2670net.blif" line: 113, column: 12]
+	["C2670net.blif" line: 113, columns:14-22]
+  .gate assign: O = 212(149)
+	["C2670net.blif" line: 113, column: 24]
+	["C2670net.blif" line: 113, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 114, columns:1-5]
+	["C2670net.blif" line: 114, columns:7-10]
+  .gate assign: a = [36]
+	["C2670net.blif" line: 114, column: 12]
+	["C2670net.blif" line: 114, columns:14-17]
+  .gate assign: O = inv__[36]
+	["C2670net.blif" line: 114, column: 19]
+	["C2670net.blif" line: 114, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 115, columns:1-5]
+	["C2670net.blif" line: 115, columns:7-10]
+  .gate assign: a = inv__[36]
+	["C2670net.blif" line: 115, column: 12]
+	["C2670net.blif" line: 115, columns:14-22]
+  .gate assign: O = 213(150)
+	["C2670net.blif" line: 115, column: 24]
+	["C2670net.blif" line: 115, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 116, columns:1-5]
+	["C2670net.blif" line: 116, columns:7-10]
+  .gate assign: a = [37]
+	["C2670net.blif" line: 116, column: 12]
+	["C2670net.blif" line: 116, columns:14-17]
+  .gate assign: O = inv__[37]
+	["C2670net.blif" line: 116, column: 19]
+	["C2670net.blif" line: 116, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 117, columns:1-5]
+	["C2670net.blif" line: 117, columns:7-10]
+  .gate assign: a = inv__[37]
+	["C2670net.blif" line: 117, column: 12]
+	["C2670net.blif" line: 117, columns:14-22]
+  .gate assign: O = 214(151)
+	["C2670net.blif" line: 117, column: 24]
+	["C2670net.blif" line: 117, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 118, columns:1-5]
+	["C2670net.blif" line: 118, columns:7-10]
+  .gate assign: a = [38]
+	["C2670net.blif" line: 118, column: 12]
+	["C2670net.blif" line: 118, columns:14-17]
+  .gate assign: O = inv__[38]
+	["C2670net.blif" line: 118, column: 19]
+	["C2670net.blif" line: 118, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 119, columns:1-5]
+	["C2670net.blif" line: 119, columns:7-10]
+  .gate assign: a = inv__[38]
+	["C2670net.blif" line: 119, column: 12]
+	["C2670net.blif" line: 119, columns:14-22]
+  .gate assign: O = 215(152)
+	["C2670net.blif" line: 119, column: 24]
+	["C2670net.blif" line: 119, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 120, columns:1-5]
+	["C2670net.blif" line: 120, columns:7-10]
+  .gate assign: a = [39]
+	["C2670net.blif" line: 120, column: 12]
+	["C2670net.blif" line: 120, columns:14-17]
+  .gate assign: O = inv__[39]
+	["C2670net.blif" line: 120, column: 19]
+	["C2670net.blif" line: 120, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 121, columns:1-5]
+	["C2670net.blif" line: 121, columns:7-10]
+  .gate assign: a = inv__[39]
+	["C2670net.blif" line: 121, column: 12]
+	["C2670net.blif" line: 121, columns:14-22]
+  .gate assign: O = 239(153)
+	["C2670net.blif" line: 121, column: 24]
+	["C2670net.blif" line: 121, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 122, columns:1-5]
+	["C2670net.blif" line: 122, columns:7-10]
+  .gate assign: a = [40]
+	["C2670net.blif" line: 122, column: 12]
+	["C2670net.blif" line: 122, columns:14-17]
+  .gate assign: O = inv__[40]
+	["C2670net.blif" line: 122, column: 19]
+	["C2670net.blif" line: 122, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 123, columns:1-5]
+	["C2670net.blif" line: 123, columns:7-10]
+  .gate assign: a = inv__[40]
+	["C2670net.blif" line: 123, column: 12]
+	["C2670net.blif" line: 123, columns:14-22]
+  .gate assign: O = 240(154)
+	["C2670net.blif" line: 123, column: 24]
+	["C2670net.blif" line: 123, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 124, columns:1-5]
+	["C2670net.blif" line: 124, columns:7-10]
+  .gate assign: a = [41]
+	["C2670net.blif" line: 124, column: 12]
+	["C2670net.blif" line: 124, columns:14-17]
+  .gate assign: O = inv__[41]
+	["C2670net.blif" line: 124, column: 19]
+	["C2670net.blif" line: 124, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 125, columns:1-5]
+	["C2670net.blif" line: 125, columns:7-10]
+  .gate assign: a = inv__[41]
+	["C2670net.blif" line: 125, column: 12]
+	["C2670net.blif" line: 125, columns:14-22]
+  .gate assign: O = 241(155)
+	["C2670net.blif" line: 125, column: 24]
+	["C2670net.blif" line: 125, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 126, columns:1-5]
+	["C2670net.blif" line: 126, columns:7-10]
+  .gate assign: a = [42]
+	["C2670net.blif" line: 126, column: 12]
+	["C2670net.blif" line: 126, columns:14-17]
+  .gate assign: O = inv__[42]
+	["C2670net.blif" line: 126, column: 19]
+	["C2670net.blif" line: 126, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 127, columns:1-5]
+	["C2670net.blif" line: 127, columns:7-10]
+  .gate assign: a = inv__[42]
+	["C2670net.blif" line: 127, column: 12]
+	["C2670net.blif" line: 127, columns:14-22]
+  .gate assign: O = 242(156)
+	["C2670net.blif" line: 127, column: 24]
+	["C2670net.blif" line: 127, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 128, columns:1-5]
+	["C2670net.blif" line: 128, columns:7-10]
+  .gate assign: a = [43]
+	["C2670net.blif" line: 128, column: 12]
+	["C2670net.blif" line: 128, columns:14-17]
+  .gate assign: O = inv__[43]
+	["C2670net.blif" line: 128, column: 19]
+	["C2670net.blif" line: 128, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 129, columns:1-5]
+	["C2670net.blif" line: 129, columns:7-10]
+  .gate assign: a = inv__[43]
+	["C2670net.blif" line: 129, column: 12]
+	["C2670net.blif" line: 129, columns:14-22]
+  .gate assign: O = 243(157)
+	["C2670net.blif" line: 129, column: 24]
+	["C2670net.blif" line: 129, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 130, columns:1-5]
+	["C2670net.blif" line: 130, columns:7-10]
+  .gate assign: a = [44]
+	["C2670net.blif" line: 130, column: 12]
+	["C2670net.blif" line: 130, columns:14-17]
+  .gate assign: O = inv__[44]
+	["C2670net.blif" line: 130, column: 19]
+	["C2670net.blif" line: 130, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 131, columns:1-5]
+	["C2670net.blif" line: 131, columns:7-10]
+  .gate assign: a = inv__[44]
+	["C2670net.blif" line: 131, column: 12]
+	["C2670net.blif" line: 131, columns:14-22]
+  .gate assign: O = 244(158)
+	["C2670net.blif" line: 131, column: 24]
+	["C2670net.blif" line: 131, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 132, columns:1-5]
+	["C2670net.blif" line: 132, columns:7-10]
+  .gate assign: a = [45]
+	["C2670net.blif" line: 132, column: 12]
+	["C2670net.blif" line: 132, columns:14-17]
+  .gate assign: O = inv__[45]
+	["C2670net.blif" line: 132, column: 19]
+	["C2670net.blif" line: 132, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 133, columns:1-5]
+	["C2670net.blif" line: 133, columns:7-10]
+  .gate assign: a = inv__[45]
+	["C2670net.blif" line: 133, column: 12]
+	["C2670net.blif" line: 133, columns:14-22]
+  .gate assign: O = 245(159)
+	["C2670net.blif" line: 133, column: 24]
+	["C2670net.blif" line: 133, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 134, columns:1-5]
+	["C2670net.blif" line: 134, columns:7-10]
+  .gate assign: a = [46]
+	["C2670net.blif" line: 134, column: 12]
+	["C2670net.blif" line: 134, columns:14-17]
+  .gate assign: O = inv__[46]
+	["C2670net.blif" line: 134, column: 19]
+	["C2670net.blif" line: 134, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 135, columns:1-5]
+	["C2670net.blif" line: 135, columns:7-10]
+  .gate assign: a = inv__[46]
+	["C2670net.blif" line: 135, column: 12]
+	["C2670net.blif" line: 135, columns:14-22]
+  .gate assign: O = 246(160)
+	["C2670net.blif" line: 135, column: 24]
+	["C2670net.blif" line: 135, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 136, columns:1-5]
+	["C2670net.blif" line: 136, columns:7-10]
+  .gate assign: a = [47]
+	["C2670net.blif" line: 136, column: 12]
+	["C2670net.blif" line: 136, columns:14-17]
+  .gate assign: O = inv__[47]
+	["C2670net.blif" line: 136, column: 19]
+	["C2670net.blif" line: 136, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 137, columns:1-5]
+	["C2670net.blif" line: 137, columns:7-10]
+  .gate assign: a = inv__[47]
+	["C2670net.blif" line: 137, column: 12]
+	["C2670net.blif" line: 137, columns:14-22]
+  .gate assign: O = 247(161)
+	["C2670net.blif" line: 137, column: 24]
+	["C2670net.blif" line: 137, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 138, columns:1-5]
+	["C2670net.blif" line: 138, columns:7-10]
+  .gate assign: a = [48]
+	["C2670net.blif" line: 138, column: 12]
+	["C2670net.blif" line: 138, columns:14-17]
+  .gate assign: O = inv__[48]
+	["C2670net.blif" line: 138, column: 19]
+	["C2670net.blif" line: 138, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 139, columns:1-5]
+	["C2670net.blif" line: 139, columns:7-10]
+  .gate assign: a = inv__[48]
+	["C2670net.blif" line: 139, column: 12]
+	["C2670net.blif" line: 139, columns:14-22]
+  .gate assign: O = 248(162)
+	["C2670net.blif" line: 139, column: 24]
+	["C2670net.blif" line: 139, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 140, columns:1-5]
+	["C2670net.blif" line: 140, columns:7-10]
+  .gate assign: a = [49]
+	["C2670net.blif" line: 140, column: 12]
+	["C2670net.blif" line: 140, columns:14-17]
+  .gate assign: O = inv__[49]
+	["C2670net.blif" line: 140, column: 19]
+	["C2670net.blif" line: 140, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 141, columns:1-5]
+	["C2670net.blif" line: 141, columns:7-10]
+  .gate assign: a = inv__[49]
+	["C2670net.blif" line: 141, column: 12]
+	["C2670net.blif" line: 141, columns:14-22]
+  .gate assign: O = 249(163)
+	["C2670net.blif" line: 141, column: 24]
+	["C2670net.blif" line: 141, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 142, columns:1-5]
+	["C2670net.blif" line: 142, columns:7-10]
+  .gate assign: a = [50]
+	["C2670net.blif" line: 142, column: 12]
+	["C2670net.blif" line: 142, columns:14-17]
+  .gate assign: O = inv__[50]
+	["C2670net.blif" line: 142, column: 19]
+	["C2670net.blif" line: 142, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 143, columns:1-5]
+	["C2670net.blif" line: 143, columns:7-10]
+  .gate assign: a = inv__[50]
+	["C2670net.blif" line: 143, column: 12]
+	["C2670net.blif" line: 143, columns:14-22]
+  .gate assign: O = 250(164)
+	["C2670net.blif" line: 143, column: 24]
+	["C2670net.blif" line: 143, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 144, columns:1-5]
+	["C2670net.blif" line: 144, columns:7-10]
+  .gate assign: a = [51]
+	["C2670net.blif" line: 144, column: 12]
+	["C2670net.blif" line: 144, columns:14-17]
+  .gate assign: O = inv__[51]
+	["C2670net.blif" line: 144, column: 19]
+	["C2670net.blif" line: 144, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 145, columns:1-5]
+	["C2670net.blif" line: 145, columns:7-10]
+  .gate assign: a = inv__[51]
+	["C2670net.blif" line: 145, column: 12]
+	["C2670net.blif" line: 145, columns:14-22]
+  .gate assign: O = 251(165)
+	["C2670net.blif" line: 145, column: 24]
+	["C2670net.blif" line: 145, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 146, columns:1-5]
+	["C2670net.blif" line: 146, columns:7-10]
+  .gate assign: a = [52]
+	["C2670net.blif" line: 146, column: 12]
+	["C2670net.blif" line: 146, columns:14-17]
+  .gate assign: O = inv__[52]
+	["C2670net.blif" line: 146, column: 19]
+	["C2670net.blif" line: 146, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 147, columns:1-5]
+	["C2670net.blif" line: 147, columns:7-10]
+  .gate assign: a = inv__[52]
+	["C2670net.blif" line: 147, column: 12]
+	["C2670net.blif" line: 147, columns:14-22]
+  .gate assign: O = 252(166)
+	["C2670net.blif" line: 147, column: 24]
+	["C2670net.blif" line: 147, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 148, columns:1-5]
+	["C2670net.blif" line: 148, columns:7-10]
+  .gate assign: a = [53]
+	["C2670net.blif" line: 148, column: 12]
+	["C2670net.blif" line: 148, columns:14-17]
+  .gate assign: O = inv__[53]
+	["C2670net.blif" line: 148, column: 19]
+	["C2670net.blif" line: 148, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 149, columns:1-5]
+	["C2670net.blif" line: 149, columns:7-10]
+  .gate assign: a = inv__[53]
+	["C2670net.blif" line: 149, column: 12]
+	["C2670net.blif" line: 149, columns:14-22]
+  .gate assign: O = 253(167)
+	["C2670net.blif" line: 149, column: 24]
+	["C2670net.blif" line: 149, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 150, columns:1-5]
+	["C2670net.blif" line: 150, columns:7-10]
+  .gate assign: a = [54]
+	["C2670net.blif" line: 150, column: 12]
+	["C2670net.blif" line: 150, columns:14-17]
+  .gate assign: O = inv__[54]
+	["C2670net.blif" line: 150, column: 19]
+	["C2670net.blif" line: 150, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 151, columns:1-5]
+	["C2670net.blif" line: 151, columns:7-10]
+  .gate assign: a = inv__[54]
+	["C2670net.blif" line: 151, column: 12]
+	["C2670net.blif" line: 151, columns:14-22]
+  .gate assign: O = 254(168)
+	["C2670net.blif" line: 151, column: 24]
+	["C2670net.blif" line: 151, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 152, columns:1-5]
+	["C2670net.blif" line: 152, columns:7-10]
+  .gate assign: a = [55]
+	["C2670net.blif" line: 152, column: 12]
+	["C2670net.blif" line: 152, columns:14-17]
+  .gate assign: O = inv__[55]
+	["C2670net.blif" line: 152, column: 19]
+	["C2670net.blif" line: 152, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 153, columns:1-5]
+	["C2670net.blif" line: 153, columns:7-10]
+  .gate assign: a = inv__[55]
+	["C2670net.blif" line: 153, column: 12]
+	["C2670net.blif" line: 153, columns:14-22]
+  .gate assign: O = 255(169)
+	["C2670net.blif" line: 153, column: 24]
+	["C2670net.blif" line: 153, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 154, columns:1-5]
+	["C2670net.blif" line: 154, columns:7-10]
+  .gate assign: a = [56]
+	["C2670net.blif" line: 154, column: 12]
+	["C2670net.blif" line: 154, columns:14-17]
+  .gate assign: O = inv__[56]
+	["C2670net.blif" line: 154, column: 19]
+	["C2670net.blif" line: 154, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 155, columns:1-5]
+	["C2670net.blif" line: 155, columns:7-10]
+  .gate assign: a = inv__[56]
+	["C2670net.blif" line: 155, column: 12]
+	["C2670net.blif" line: 155, columns:14-22]
+  .gate assign: O = 256(170)
+	["C2670net.blif" line: 155, column: 24]
+	["C2670net.blif" line: 155, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 156, columns:1-5]
+	["C2670net.blif" line: 156, columns:7-10]
+  .gate assign: a = [57]
+	["C2670net.blif" line: 156, column: 12]
+	["C2670net.blif" line: 156, columns:14-17]
+  .gate assign: O = inv__[57]
+	["C2670net.blif" line: 156, column: 19]
+	["C2670net.blif" line: 156, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 157, columns:1-5]
+	["C2670net.blif" line: 157, columns:7-10]
+  .gate assign: a = inv__[57]
+	["C2670net.blif" line: 157, column: 12]
+	["C2670net.blif" line: 157, columns:14-22]
+  .gate assign: O = 257(171)
+	["C2670net.blif" line: 157, column: 24]
+	["C2670net.blif" line: 157, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 158, columns:1-5]
+	["C2670net.blif" line: 158, columns:7-10]
+  .gate assign: a = [58]
+	["C2670net.blif" line: 158, column: 12]
+	["C2670net.blif" line: 158, columns:14-17]
+  .gate assign: O = inv__[58]
+	["C2670net.blif" line: 158, column: 19]
+	["C2670net.blif" line: 158, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 159, columns:1-5]
+	["C2670net.blif" line: 159, columns:7-10]
+  .gate assign: a = inv__[58]
+	["C2670net.blif" line: 159, column: 12]
+	["C2670net.blif" line: 159, columns:14-22]
+  .gate assign: O = 262(172)
+	["C2670net.blif" line: 159, column: 24]
+	["C2670net.blif" line: 159, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 160, columns:1-5]
+	["C2670net.blif" line: 160, columns:7-10]
+  .gate assign: a = [59]
+	["C2670net.blif" line: 160, column: 12]
+	["C2670net.blif" line: 160, columns:14-17]
+  .gate assign: O = inv__[59]
+	["C2670net.blif" line: 160, column: 19]
+	["C2670net.blif" line: 160, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 161, columns:1-5]
+	["C2670net.blif" line: 161, columns:7-10]
+  .gate assign: a = inv__[59]
+	["C2670net.blif" line: 161, column: 12]
+	["C2670net.blif" line: 161, columns:14-22]
+  .gate assign: O = 263(173)
+	["C2670net.blif" line: 161, column: 24]
+	["C2670net.blif" line: 161, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 162, columns:1-5]
+	["C2670net.blif" line: 162, columns:7-10]
+  .gate assign: a = [60]
+	["C2670net.blif" line: 162, column: 12]
+	["C2670net.blif" line: 162, columns:14-17]
+  .gate assign: O = inv__[60]
+	["C2670net.blif" line: 162, column: 19]
+	["C2670net.blif" line: 162, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 163, columns:1-5]
+	["C2670net.blif" line: 163, columns:7-10]
+  .gate assign: a = inv__[60]
+	["C2670net.blif" line: 163, column: 12]
+	["C2670net.blif" line: 163, columns:14-22]
+  .gate assign: O = 264(174)
+	["C2670net.blif" line: 163, column: 24]
+	["C2670net.blif" line: 163, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 164, columns:1-5]
+	["C2670net.blif" line: 164, columns:7-10]
+  .gate assign: a = [61]
+	["C2670net.blif" line: 164, column: 12]
+	["C2670net.blif" line: 164, columns:14-17]
+  .gate assign: O = inv__[61]
+	["C2670net.blif" line: 164, column: 19]
+	["C2670net.blif" line: 164, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 165, columns:1-5]
+	["C2670net.blif" line: 165, columns:7-10]
+  .gate assign: a = inv__[61]
+	["C2670net.blif" line: 165, column: 12]
+	["C2670net.blif" line: 165, columns:14-22]
+  .gate assign: O = 265(175)
+	["C2670net.blif" line: 165, column: 24]
+	["C2670net.blif" line: 165, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 166, columns:1-5]
+	["C2670net.blif" line: 166, columns:7-10]
+  .gate assign: a = [62]
+	["C2670net.blif" line: 166, column: 12]
+	["C2670net.blif" line: 166, columns:14-17]
+  .gate assign: O = inv__[62]
+	["C2670net.blif" line: 166, column: 19]
+	["C2670net.blif" line: 166, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 167, columns:1-5]
+	["C2670net.blif" line: 167, columns:7-10]
+  .gate assign: a = inv__[62]
+	["C2670net.blif" line: 167, column: 12]
+	["C2670net.blif" line: 167, columns:14-22]
+  .gate assign: O = 266(176)
+	["C2670net.blif" line: 167, column: 24]
+	["C2670net.blif" line: 167, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 168, columns:1-5]
+	["C2670net.blif" line: 168, columns:7-10]
+  .gate assign: a = [63]
+	["C2670net.blif" line: 168, column: 12]
+	["C2670net.blif" line: 168, columns:14-17]
+  .gate assign: O = inv__[63]
+	["C2670net.blif" line: 168, column: 19]
+	["C2670net.blif" line: 168, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 169, columns:1-5]
+	["C2670net.blif" line: 169, columns:7-10]
+  .gate assign: a = inv__[63]
+	["C2670net.blif" line: 169, column: 12]
+	["C2670net.blif" line: 169, columns:14-22]
+  .gate assign: O = 267(177)
+	["C2670net.blif" line: 169, column: 24]
+	["C2670net.blif" line: 169, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 170, columns:1-5]
+	["C2670net.blif" line: 170, columns:7-10]
+  .gate assign: a = [64]
+	["C2670net.blif" line: 170, column: 12]
+	["C2670net.blif" line: 170, columns:14-17]
+  .gate assign: O = inv__[64]
+	["C2670net.blif" line: 170, column: 19]
+	["C2670net.blif" line: 170, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 171, columns:1-5]
+	["C2670net.blif" line: 171, columns:7-10]
+  .gate assign: a = inv__[64]
+	["C2670net.blif" line: 171, column: 12]
+	["C2670net.blif" line: 171, columns:14-22]
+  .gate assign: O = 268(178)
+	["C2670net.blif" line: 171, column: 24]
+	["C2670net.blif" line: 171, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 172, columns:1-5]
+	["C2670net.blif" line: 172, columns:7-10]
+  .gate assign: a = [65]
+	["C2670net.blif" line: 172, column: 12]
+	["C2670net.blif" line: 172, columns:14-17]
+  .gate assign: O = inv__[65]
+	["C2670net.blif" line: 172, column: 19]
+	["C2670net.blif" line: 172, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 173, columns:1-5]
+	["C2670net.blif" line: 173, columns:7-10]
+  .gate assign: a = inv__[65]
+	["C2670net.blif" line: 173, column: 12]
+	["C2670net.blif" line: 173, columns:14-22]
+  .gate assign: O = 269(179)
+	["C2670net.blif" line: 173, column: 24]
+	["C2670net.blif" line: 173, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 174, columns:1-5]
+	["C2670net.blif" line: 174, columns:7-10]
+  .gate assign: a = [66]
+	["C2670net.blif" line: 174, column: 12]
+	["C2670net.blif" line: 174, columns:14-17]
+  .gate assign: O = inv__[66]
+	["C2670net.blif" line: 174, column: 19]
+	["C2670net.blif" line: 174, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 175, columns:1-5]
+	["C2670net.blif" line: 175, columns:7-10]
+  .gate assign: a = inv__[66]
+	["C2670net.blif" line: 175, column: 12]
+	["C2670net.blif" line: 175, columns:14-22]
+  .gate assign: O = 270(180)
+	["C2670net.blif" line: 175, column: 24]
+	["C2670net.blif" line: 175, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 176, columns:1-5]
+	["C2670net.blif" line: 176, columns:7-10]
+  .gate assign: a = [67]
+	["C2670net.blif" line: 176, column: 12]
+	["C2670net.blif" line: 176, columns:14-17]
+  .gate assign: O = inv__[67]
+	["C2670net.blif" line: 176, column: 19]
+	["C2670net.blif" line: 176, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 177, columns:1-5]
+	["C2670net.blif" line: 177, columns:7-10]
+  .gate assign: a = inv__[67]
+	["C2670net.blif" line: 177, column: 12]
+	["C2670net.blif" line: 177, columns:14-22]
+  .gate assign: O = 271(181)
+	["C2670net.blif" line: 177, column: 24]
+	["C2670net.blif" line: 177, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 178, columns:1-5]
+	["C2670net.blif" line: 178, columns:7-10]
+  .gate assign: a = [68]
+	["C2670net.blif" line: 178, column: 12]
+	["C2670net.blif" line: 178, columns:14-17]
+  .gate assign: O = inv__[68]
+	["C2670net.blif" line: 178, column: 19]
+	["C2670net.blif" line: 178, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 179, columns:1-5]
+	["C2670net.blif" line: 179, columns:7-10]
+  .gate assign: a = inv__[68]
+	["C2670net.blif" line: 179, column: 12]
+	["C2670net.blif" line: 179, columns:14-22]
+  .gate assign: O = 272(182)
+	["C2670net.blif" line: 179, column: 24]
+	["C2670net.blif" line: 179, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 180, columns:1-5]
+	["C2670net.blif" line: 180, columns:7-10]
+  .gate assign: a = [69]
+	["C2670net.blif" line: 180, column: 12]
+	["C2670net.blif" line: 180, columns:14-17]
+  .gate assign: O = inv__[69]
+	["C2670net.blif" line: 180, column: 19]
+	["C2670net.blif" line: 180, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 181, columns:1-5]
+	["C2670net.blif" line: 181, columns:7-10]
+  .gate assign: a = inv__[69]
+	["C2670net.blif" line: 181, column: 12]
+	["C2670net.blif" line: 181, columns:14-22]
+  .gate assign: O = 273(183)
+	["C2670net.blif" line: 181, column: 24]
+	["C2670net.blif" line: 181, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 182, columns:1-5]
+	["C2670net.blif" line: 182, columns:7-10]
+  .gate assign: a = [70]
+	["C2670net.blif" line: 182, column: 12]
+	["C2670net.blif" line: 182, columns:14-17]
+  .gate assign: O = inv__[70]
+	["C2670net.blif" line: 182, column: 19]
+	["C2670net.blif" line: 182, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 183, columns:1-5]
+	["C2670net.blif" line: 183, columns:7-10]
+  .gate assign: a = inv__[70]
+	["C2670net.blif" line: 183, column: 12]
+	["C2670net.blif" line: 183, columns:14-22]
+  .gate assign: O = 274(184)
+	["C2670net.blif" line: 183, column: 24]
+	["C2670net.blif" line: 183, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 184, columns:1-5]
+	["C2670net.blif" line: 184, columns:7-10]
+  .gate assign: a = [71]
+	["C2670net.blif" line: 184, column: 12]
+	["C2670net.blif" line: 184, columns:14-17]
+  .gate assign: O = inv__[71]
+	["C2670net.blif" line: 184, column: 19]
+	["C2670net.blif" line: 184, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 185, columns:1-5]
+	["C2670net.blif" line: 185, columns:7-10]
+  .gate assign: a = inv__[71]
+	["C2670net.blif" line: 185, column: 12]
+	["C2670net.blif" line: 185, columns:14-22]
+  .gate assign: O = 275(185)
+	["C2670net.blif" line: 185, column: 24]
+	["C2670net.blif" line: 185, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 186, columns:1-5]
+	["C2670net.blif" line: 186, columns:7-10]
+  .gate assign: a = [72]
+	["C2670net.blif" line: 186, column: 12]
+	["C2670net.blif" line: 186, columns:14-17]
+  .gate assign: O = inv__[72]
+	["C2670net.blif" line: 186, column: 19]
+	["C2670net.blif" line: 186, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 187, columns:1-5]
+	["C2670net.blif" line: 187, columns:7-10]
+  .gate assign: a = inv__[72]
+	["C2670net.blif" line: 187, column: 12]
+	["C2670net.blif" line: 187, columns:14-22]
+  .gate assign: O = 276(186)
+	["C2670net.blif" line: 187, column: 24]
+	["C2670net.blif" line: 187, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 188, columns:1-5]
+	["C2670net.blif" line: 188, columns:7-10]
+  .gate assign: a = [73]
+	["C2670net.blif" line: 188, column: 12]
+	["C2670net.blif" line: 188, columns:14-17]
+  .gate assign: O = inv__[73]
+	["C2670net.blif" line: 188, column: 19]
+	["C2670net.blif" line: 188, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 189, columns:1-5]
+	["C2670net.blif" line: 189, columns:7-10]
+  .gate assign: a = inv__[73]
+	["C2670net.blif" line: 189, column: 12]
+	["C2670net.blif" line: 189, columns:14-22]
+  .gate assign: O = 277(187)
+	["C2670net.blif" line: 189, column: 24]
+	["C2670net.blif" line: 189, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 190, columns:1-5]
+	["C2670net.blif" line: 190, columns:7-10]
+  .gate assign: a = [74]
+	["C2670net.blif" line: 190, column: 12]
+	["C2670net.blif" line: 190, columns:14-17]
+  .gate assign: O = inv__[74]
+	["C2670net.blif" line: 190, column: 19]
+	["C2670net.blif" line: 190, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 191, columns:1-5]
+	["C2670net.blif" line: 191, columns:7-10]
+  .gate assign: a = inv__[74]
+	["C2670net.blif" line: 191, column: 12]
+	["C2670net.blif" line: 191, columns:14-22]
+  .gate assign: O = 278(188)
+	["C2670net.blif" line: 191, column: 24]
+	["C2670net.blif" line: 191, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 192, columns:1-5]
+	["C2670net.blif" line: 192, columns:7-10]
+  .gate assign: a = [75]
+	["C2670net.blif" line: 192, column: 12]
+	["C2670net.blif" line: 192, columns:14-17]
+  .gate assign: O = inv__[75]
+	["C2670net.blif" line: 192, column: 19]
+	["C2670net.blif" line: 192, columns:21-29]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 193, columns:1-5]
+	["C2670net.blif" line: 193, columns:7-10]
+  .gate assign: a = inv__[75]
+	["C2670net.blif" line: 193, column: 12]
+	["C2670net.blif" line: 193, columns:14-22]
+  .gate assign: O = 279(189)
+	["C2670net.blif" line: 193, column: 24]
+	["C2670net.blif" line: 193, columns:26-33]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 194, columns:1-5]
+	["C2670net.blif" line: 194, columns:7-10]
+  .gate assign: a = 452(190)
+	["C2670net.blif" line: 194, column: 12]
+	["C2670net.blif" line: 194, columns:14-21]
+  .gate assign: O = [1945]
+	["C2670net.blif" line: 194, column: 23]
+	["C2670net.blif" line: 194, columns:25-30]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 195, columns:1-5]
+	["C2670net.blif" line: 195, columns:7-10]
+  .gate assign: a = 452(190)
+	["C2670net.blif" line: 195, column: 12]
+	["C2670net.blif" line: 195, columns:14-21]
+  .gate assign: O = inv__452(190)
+	["C2670net.blif" line: 195, column: 23]
+	["C2670net.blif" line: 195, columns:25-37]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 196, columns:1-5]
+	["C2670net.blif" line: 196, columns:7-10]
+  .gate assign: a = inv__452(190)
+	["C2670net.blif" line: 196, column: 12]
+	["C2670net.blif" line: 196, columns:14-26]
+  .gate assign: O = 350(301)
+	["C2670net.blif" line: 196, column: 28]
+	["C2670net.blif" line: 196, columns:30-37]
+.gate end
+
+.gate nor1 begin
+	["C2670net.blif" line: 197, columns:1-5]
+	["C2670net.blif" line: 197, columns:7-10]
+  .gate assign: a = 452(190)
+	["C2670net.blif" line: 197, column: 12]
+	["C2670net.blif" line: 197, columns:14-21]
+error_exit

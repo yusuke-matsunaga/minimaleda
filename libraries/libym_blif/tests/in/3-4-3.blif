@@ -1,0 +1,9 @@
+# warning 3-4-3
+# duplicate name in .inputs and .outputs
+.model test1
+.inputs a b
+.outputs a
+.outputs x
+.names a b x
+11 1
+.end

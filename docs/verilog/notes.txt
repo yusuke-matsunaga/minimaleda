@@ -1,0 +1,55 @@
+		IEEE1364-2001 と実際の Verilog-HDLの差異について
+
+理想的には IEEE1364-2001 の記述通りに世の中の Verilog-HDL 処理系が実装
+してあればいいが実際にはそうなっていないらしい．
+一応，Verilog-XL は Verilog シミュレーターの元祖なので XL がそうなら皆
+そうだと言わざるを得ないので，ここでは IEEE1364-2001 と XL の差を書い
+ておく．
+
+○ 階層記述のドットの前後の空白について
+  [IEEE1364-2001] 階層記述の時のドット(.)の前後に空白があってはいけな
+   い．エスケープされた識別子の場合もエスケープの末尾を表す空白以外は
+   空白があってはいけない．
+
+  [Verilog-XL] ドットの前後に空白があってもOK
+
+○ task の本文の statement について
+  [IEEE1364-2001] (nullでない) statement 
+
+  [Verilog-XL] ';' のみの空文を認めている．
+
+○ イベント識別子について
+  [IEEE1364-2001] 階層化されていない単なる identifier
+
+  [Verilog-XL] 階層化された identifier も認めている．
+
+○ パス記述について
+  [IEEE1364-2001] 例えば，
+    parallel_edge_sensitive_path_description ::=
+      '(' [edge_identifier] specify_input_terminal_descriptor '=>'
+          specify_output_terminal_descriptor [polarity_operator] ':'
+          data_source_expression ')'
+
+  [Verilog-XL]
+    parallel_edge_sensitive_path_description ::=
+      '(' [edge_identifier] specify_input_terminal_descriptor '=>'
+         '(' specify_output_terminal_descriptor [polarity_operator] ':'
+          data_source_expression ')' ')'
+
+○ IO宣言の幅の違いについて
+  [IEEE1364-2001]
+    If a port declaration does not include a net or variable type,
+    then the port can be again declaraed in a net or variable
+    declaration. If the net or variable is declared as a vector, the
+    range specification between the two declarations of a port shall
+    be identical.
+    つまり IO宣言とその同名の net/reg の幅の宣言は同一でなければならな
+    い．
+
+  [Verilog-XL]
+    module (a);
+      input a;
+      reg [2:0] a;
+    endmodule
+
+    が通ってしまう．

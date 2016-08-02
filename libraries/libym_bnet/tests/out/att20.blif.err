@@ -1,0 +1,6 @@
+"att20.blif" line: 273, columns:10-11 [WR_UNREF01]: n2: Defined but not used
+"att20.blif" line: 280, columns:10-11 [WR_UNREF01]: p2: Defined but not used
+"att20.blif" line: 205, columns:10-11 [WR_UNREF01]: t1: Defined but not used
+"att20.blif" line: 2, column: 15 [WR_UNREF01]: d: Defined but not used
+"att20.blif" line: 238, columns:10-11 [WR_UNREF01]: d2: Defined but not used
+"att20.blif" line: 250, columns:10-11 [WR_UNREF01]: g2: Defined but not used

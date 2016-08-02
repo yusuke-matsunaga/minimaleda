@@ -1,0 +1,17 @@
+.model test1
+	["3-6-6.blif" line: 3, columns:1-6]
+	["3-6-6.blif" line: 3, columns:8-12]
+  inputs elem: a
+	["3-6-6.blif" line: 4, column: 9]
+  inputs elem: b
+	["3-6-6.blif" line: 4, column: 11]
+  outputs elem: x
+	["3-6-6.blif" line: 5, column: 10]
+.latch a x -1
+	["3-6-6.blif" line: 6, column: 8]
+	["3-6-6.blif" line: 6, column: 10]
+	["3-6-6.blif" line: 6, column: 11]
+.gate inv4x begin
+	["3-6-6.blif" line: 7, columns:1-5]
+	["3-6-6.blif" line: 7, columns:7-11]
+error_exit

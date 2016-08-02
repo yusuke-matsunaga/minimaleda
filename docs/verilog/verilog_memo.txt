@@ -1,0 +1,179 @@
+		Verilog Parser のためのメモ
+						2002年7月17日
+						松永 裕介
+
+○字句解析
+
+- コメント // 行末 と /* 〜 */ の2種類
+  よくわからないが /* */ の入れ子は考えない．←最初の */ でコメントは終
+  わる．
+
+- 識別子
+  [a-zA-Z_][a-zA-Z_0-9]* から予約語を引いたもの．区別は予約語テーブルで
+  行えばよい．文字数の最大は1024文字．だからといって識別子を1Kバイトの固
+  定配列で確保することもないだろう．
+  また \で始まる文字列は空白までがいかなる文字であろうと識別子となる．
+
+- 数値
+  [0-9]+ : 32ビットの10進数
+  [0-9]+'[BbOoDdHh][0-9A-Fa-fXxZz_]+ : 本当の形式
+  でも XxZz は基数が2以外では使えない．
+
+- 演算子
+  ! & ~& | ~| ^ ~^ + - (単項演算子)
+  * / %
+  + -
+  << >>
+  < <= > >=
+  == != === !==
+  & ~& ~ ~^
+  | ~|
+  &&
+  ||
+  ?:
+
+- その他の記号
+  ;
+  :
+  [ ]
+  { }
+  ( )
+  ,
+  .
+  @
+  #
+  $
+  `
+
+- 予約語
+  省略
+
+- 字句解析のアルゴリズム(1)
+  まず，入力から1文字ずつ取出す関数を作る．基本的には読み出すだけでよい
+  が，コメントを読み飛ばすために内部状態を持つ．また，行番号を保持してお
+  く．
+  
+  INIT:
+	'/'     --> STATE1
+	'\n'	--> INIT ( line ++; return '\n' )
+	default	--> INIT ( return c;)
+
+  STATE1:
+	'/'	--> STATE2
+	'*'	--> STATE3
+	default	--> INIT ( push_back(c); return /; )
+
+  STATE2:
+	'\n'	--> INIT (line ++)
+	default --> STATE2
+
+  STATE3:
+	'*'	--> STATE4
+	'\n'	--> STATE3 (line ++)
+	default	--> STATE3
+
+  STATE4:
+	'/'	--> INIT
+	'*'	--> STATE4
+	default	--> STATE3
+
+- 字句解析のアルゴリズム(2)
+  次に識別子，数値，演算子，記号の解析を行う．
+
+  INIT:
+	';'	--> INIT ( return ';' )
+	':'	--> INIT ( return ':' )
+	'['	--> INIT ( return '[' )
+	']'	--> INIT ( return ']' )
+	'{'	--> INIT ( return '{' )
+	'}'	--> INIT ( return '}' )
+	'('	--> INIT ( return '(' )
+	')'	--> INIT ( return ')' )
+	','	--> INIT ( return ',' )
+	'.'	--> INIT ( return '.' )
+	'@'	--> INIT ( return '@' )
+	'#'	--> INIT ( return '#' )
+	'$'	--> INIT ( return '$' )
+	'+'	--> INIT ( return '+' )
+	'-'	--> INIT ( return '-' )
+	'*'	--> INIT ( return '*' )
+	'/'	--> INIT ( return '/' )
+	'%'	--> INIT ( return '%' )
+	'^'	--> INIT ( return '^' )
+	'?'	--> INIT ( return '?' )
+	'`'	--> INIT ( return '`' )
+	'!'	--> STATE1
+	'&'	--> STATE3
+	'|'	--> STATE4
+	'~'	--> STATE5
+	'<'	--> STATE6
+	'>'	--> STATE7
+	'='	--> STATE8
+	[a-zA-Z_] --> STATE10
+	[0-9]	--> STATE11
+	'\'	--> STATE15
+
+  STATE1:
+	'='	--> STATE2
+	default	--> INIT ( push_back(c); return '!' )
+
+  STATE2:
+	'='	--> INIT ( return '!==' )
+	default	--> INIT ( push_back(c); return '!=' )
+
+  STATE3:
+	'&'	--> INIT ( return '&&' )
+	default	--> INIT ( push_back(c); return '&' )
+
+  STATE4:
+	'|'	--> INIT ( return '||' )
+	default	--> INIT ( push_back(c); return '|' )
+
+  STATE5:
+	'&'	--> INIT ( return '~&' )
+	'|'	--> INIT ( return '~|' )
+	'^'	--> INIT ( return '~^' )
+	default	--> INIT ( push_back(c); return '~' )
+
+  STATE6:
+	'<'	--> INIT ( return '<<' )
+	'='	--> INIT ( return '<=' )
+	default	--> INIT ( push_back(c); return '<' )
+
+  STATE7:
+	'>'	--> INIT ( return '>>' )
+	'='	--> INIT ( return '>=' )
+	default	--> INIT ( push_back(c); return '>' )
+
+  STATE8:
+	'='	--> STATE9
+	default	--> INIT ( push_back(c); return '=' )
+
+  STATE9:
+	'='	--> INIT ( return '===' )
+	default	--> INIT ( push_back(c); return '==' )
+
+  STATE10:
+	[a-zA-Z_0-9] --> STATE10
+	default	--> INIT ( push_back(c); return STR ) <- 予約語検査
+
+  STATE11:
+	[0-9]	--> STATE11
+	'\''	--> STATE12
+	default	--> INIT ( push_back(c); return NUM ) 32bit base=10
+
+  STATE12:
+	[BbOoDdHh] --> STATE13
+	default --> ERROR
+
+  STATE13:
+	[0-9A-Fa-fXxZz_] --> STATE14
+	default	--> ERROR
+
+  STATE14:
+	[0-9A-Fa-fXxZz_] --> STATE14
+	default --> INIT ( push_back(c); return NUM )
+
+  STATE15:
+	sp	--> INIT ( return STR )
+	default	--> STATE15

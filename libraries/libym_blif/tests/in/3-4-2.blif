@@ -1,0 +1,8 @@
+# error 3-4-2
+# duplicate name in the same .outputs
+.model test1
+.inputs a b
+.outputs x x
+.names a b x
+11 1
+.end

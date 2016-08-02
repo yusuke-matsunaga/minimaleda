@@ -1,0 +1,164 @@
+.model fsim_test
+.inputs a b c d e
+.inputs i_buf
+.inputs i_not
+.inputs i_and2
+.inputs i_and3
+.inputs i_and4
+.inputs i_and5
+.inputs i_nand2
+.inputs i_nand3
+.inputs i_nand4
+.inputs i_nand5
+.inputs i_or2
+.inputs i_or3
+.inputs i_or4
+.inputs i_or5
+.inputs i_nor2
+.inputs i_nor3
+.inputs i_nor4
+.inputs i_nor5
+.inputs i_xor2
+.inputs i_xor3
+.inputs i_xnor2
+.inputs i_xnor3
+.inputs i_aoi22
+.outputs o_buf
+.outputs o_not
+.outputs o_and2
+.outputs o_and3
+.outputs o_and4
+.outputs o_and5
+.outputs o_nand2
+.outputs o_nand3
+.outputs o_nand4
+.outputs o_nand5
+.outputs o_or2
+.outputs o_or3
+.outputs o_or4
+.outputs o_or5
+.outputs o_nor2
+.outputs o_nor3
+.outputs o_nor4
+.outputs o_nor5
+.outputs o_xor2
+.outputs o_xor3
+.outputs o_xnor2
+.outputs o_xnor3
+.outputs o_aoi22
+.outputs o_dummy1
+.outputs o_dummy2
+
+.names i_buf o_buf
+1 1
+
+.names i_not o_not
+0 1
+
+.names a i_and2 o_and2
+11 1
+
+.names a b i_and3 o_and3
+111 1
+
+.names a b c i_and4 o_and4
+1111 1
+
+.names a b c d i_and5 o_and5
+11111 1
+
+.names a i_nand2 o_nand2
+11 0
+
+.names a b i_nand3 o_nand3
+111 0
+
+.names a b c i_nand4 o_nand4
+1111 0
+
+.names a b c d i_nand5 o_nand5
+11111 0
+
+.names a i_or2 o_or2
+1- 1
+-1 1
+
+.names a b i_or3 o_or3
+1-- 1
+-1- 1
+--1 1
+
+.names a b c i_or4 o_or4
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+
+.names a b c d i_or5 o_or5
+1---- 1
+-1--- 1
+--1-- 1
+---1- 1
+----1 1
+
+.names a i_nor2 o_nor2
+1- 0
+-1 0
+
+.names a b i_nor3 o_nor3
+1-- 0
+-1- 0
+--1 0
+
+.names a b c i_nor4 o_nor4
+1--- 0
+-1-- 0
+--1- 0
+---1 0
+
+.names a b c d i_nor5 o_nor5
+1---- 0
+-1--- 0
+--1-- 0
+---1- 0
+----1 0
+
+.names a i_xor2 o_xor2
+10 1
+01 1
+
+.names a b i_xor3 o_xor3
+100 1
+010 1
+001 1
+111 1
+
+.names a i_xnor2 o_xnor2
+11 1
+00 1
+
+.names a b i_xnor3 o_xnor3
+000 1
+110 1
+101 1
+011 1
+
+.names a b c i_aoi22 o_aoi22
+11-- 0
+--11 0
+
+.names a b tmp1
+11 1
+
+.names tmp1 tmp2
+1 1
+
+.names c tmp1 o_dummy1
+1- 1
+-1 1
+
+.names d tmp2 o_dummy2
+1- 1
+-1 1
+
+.end

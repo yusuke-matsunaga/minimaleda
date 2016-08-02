@@ -1,0 +1,4 @@
+"att17.blif" line: 87, columns:10-11 [WR_UNREF01]: j1: Defined but not used
+"att17.blif" line: 2, column: 19 [WR_UNREF01]: f: Defined but not used
+"att17.blif" line: 67, columns:10-11 [WR_UNREF01]: c1: Defined but not used
+"att17.blif" line: 81, columns:10-11 [WR_UNREF01]: h1: Defined but not used

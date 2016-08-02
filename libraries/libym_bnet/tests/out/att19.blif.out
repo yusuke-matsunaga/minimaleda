@@ -1,0 +1,94 @@
+.model att19
+.inputs a b c d e f g h i j k l m n o p q r
+.outputs s t u v w x y z a0 b0 c0 d0 e0 f0 g0 h0
+.names z0 s
+0 1
+.names k z0
+0 1
+.names b1 t
+0 1
+.names l b1
+0 1
+.names d1 u
+0 1
+.names m d1
+0 1
+.names f1 v
+0 1
+.names n f1
+0 1
+.names h1 w
+0 1
+.names o h1
+0 1
+.names j1 x
+0 1
+.names p j1
+0 1
+.names l1 y
+0 1
+.names q l1
+0 1
+.names n1 z
+0 1
+.names r n1
+0 1
+.names y0 z0 a1 i a0
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names i y0
+0 1
+.names a a1
+0 1
+.names y0 b1 c1 i b0
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names b c1
+0 1
+.names y0 d1 e1 i c0
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names c e1
+0 1
+.names y0 f1 g1 i d0
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names d g1
+0 1
+.names y0 h1 i1 i e0
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names e i1
+0 1
+.names y0 j1 k1 i f0
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names f k1
+0 1
+.names y0 l1 m1 i g0
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names g m1
+0 1
+.names y0 n1 o1 i h0
+0-0- 1
+-00- 1
+0--0 1
+-0-0 1
+.names h o1
+0 1
+.end

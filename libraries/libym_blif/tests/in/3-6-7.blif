@@ -1,0 +1,6 @@
+# error 3-6-7
+# undefined name in .gate
+.model test1
+.outputs x
+.gate inv4x o=x a=y
+.end

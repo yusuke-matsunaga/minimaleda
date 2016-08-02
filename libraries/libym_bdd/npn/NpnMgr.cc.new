@@ -1,0 +1,447 @@
+// $Source: /export/home/project/synth/cvsrepos/ymtools/src/libym_bdd/npn/NpnMgr.cc.new,v $
+// $Author: matsunaga $
+// $Revision: 1.1.1.1 $
+// $Date: 2005/12/11 17:07:25 $
+
+// NPN同値類を管理するクラス
+
+#if HAVE_CONFIG_H
+#include "config.h"
+#endif
+
+#include "ymbdd/Npn.h"
+#include "ymbdd/WalshSig.h"
+#include "ymbdd/RepInfo.h"
+#include "ymbdd/FuncEntry.h"
+#include "ymbdd/Matcher.h"
+
+
+BEGIN_NONAMESPACE
+
+//#define DEBUG_NPNMGR
+#if defined(DEBUG) || defined(DEBUG_NPNMGR)
+int debug = 1;
+#else
+int debug = 0;
+#endif
+
+END_NONAMESPACE
+
+BEGIN_NAMESPACE_YMBDD_NPN
+
+// コンストラクタ
+NpnMgr::NpnMgr()
+{
+  ;
+}
+
+// デストラクタ
+NpnMgr::~NpnMgr()
+{
+  // ここで処理すべきなのはハッシュ表のクリアであって
+  // ハッシュに登録された要素自体の削除ではない．
+  for (hash_map<size_t, list<RepInfo*> >::iterator p1 = mRepInfoLists.begin();
+       p1 != mRepInfoLists.end(); ++ p1) {
+    list<RepInfo*>& rlist = p1->second;
+    for (list<RepInfo*>::iterator p2 = rlist.begin();
+	 p2 != rlist.end(); ++ p2) {
+      RepInfo* repInfo = *p2;
+      repInfo->mMgr = 0;
+    }
+  }
+}
+
+BEGIN_NONAMESPACE
+// f の入出力を map で変換しながら TvFunc の形に変換する．
+TvFunc
+bdd2tv(const Bdd& f, const NpnMap& map)
+{
+  size_t ni = map.ni();
+  size_t dni = 0;
+  vector<size_t> rmap;
+  for (size_t i = 0; i < ni; ++ i) {
+    if ( map.imap(i) != kImapBad ) {
+      ++ dni;
+      rmap.push_back(i);
+    }
+  }
+  size_t dni_pow = 1 << dni;
+  vector<int> v(dni_pow);
+  BddMgrRef mgr = f.mgr();
+  for (size_t i = 0; i < dni_pow; ++ i) {
+    Bdd prod = mgr.make_one();
+    for (size_t j = 0; j < dni; ++ j) {
+      if ( i & (1 << j) ) {
+	prod &= mgr.make_posiliteral(rmap[j]);
+      } else {
+	prod &= mgr.make_negaliteral(rmap[j]);
+      }
+    }
+    if ( (f & prod).is_zero() ) {
+      v[i] = 0;
+    } else {
+      v[i] = 1;
+    }
+  }
+  return TvFunc(dni, v);
+}
+END_NONAMESPACE
+
+// f が表す関数をこのマネージャに登録する．
+// すでに登録されていたら何もしない．
+// f に対応するハンドルを返す．
+// f の属する NPN 同値類が存在しないばあい，
+// デフォルト(create_new_repinfo = false)では
+// 登録は行なわず Bad な FuncId を返す．
+// create_new_repinfo = true ならば同値類情報を新たに作成し登録する．
+NpnFuncId
+NpnMgr::reg_func(const Bdd& f, bool& new_func, bool& new_rep,
+		 bool create_new_repinfo)
+{
+  new_func = false;
+  new_rep = false;
+
+  {
+    FuncEntry* funcEntry = find(f);
+    if ( funcEntry ) {
+      // f そのものがハッシュに登録されていた．
+      return NpnFuncId(funcEntry);
+    }
+  }
+
+  // 変数を詰める．
+  nsMagus::VarVector sup_list;
+  size_t ni = f.support(sup_list);
+#if 0
+  if ( ni <= mNiLimit1 ) {
+    NpnMap map1;
+    size_t max_i = sup_list[ni - 1];
+    map1.clear(max_i + 1);
+    for (size_t i = 0; i < ni; i ++) {
+      map1.set(sup_list[i], i, kPolPosi);
+    }
+    TvFunc f1 = bdd2tv(f, map1);
+    {
+      FuncEntry* funcEntry = find(f, map1, f1);
+      if ( funcEntry ) {
+	// f1 がハッシュに登録されていた．
+	new_func = true;
+	return NpnFuncId(funcEntry);
+      }
+    }
+    WalshSigInt wsig;
+    NpnMap wmap = wsig.normalize(ni, f1);
+    NpnMap map2 = map1 * wmap;
+    TvFunc f2 = wmap.xform(f1);
+    {
+      FuncEntry* funcEntry = find(f, map2, f2);
+      if ( funcEntry ) {
+	// f1 がハッシュに登録されていた．
+	new_func = true;
+	return NpnFuncId(funcEntry);
+      }
+    }
+
+    FuncGroup1* fg = NULL;
+    for (list<FuncGroup1*>::iterator p = mFuncGroup1.begin();
+	 p != mFuncGroup1.end(); ++ p) {
+      FuncGroup1* fg1 = *p;
+      if ( fg1->signature() == wsig ) {
+	fg = fg1;
+	break;
+      }
+    }
+    if ( fg ) {
+    } else {
+      FuncGroup1* new_fg = new FuncGroup1(wsig);
+      // new_fg に新しい関数 f2 を追加
+      mFuncGroup1.push_back(new_fg);
+    }
+  } else {
+#endif
+    NpnMap map1;
+    Bdd f1;
+    if ( ni > 0 && sup_list[ni - 1] != ni - 1) {
+      size_t max_i = sup_list[ni - 1];
+      map1.clear(max_i + 1);
+      for (size_t i = 0; i < ni; i ++) {
+	map1.set(sup_list[i], i, kPolPosi);
+      }
+      f1 = map1.xform_bdd(f);
+      
+      {
+	FuncEntry* funcEntry = find(f, map1, f1);
+	if ( funcEntry ) {
+	  // f1 がハッシュに登録されていた．
+	  new_func = true;
+	  return NpnFuncId(funcEntry);
+	}
+      }
+    } else {
+      f1 = f;
+      map1.clear(ni);
+      map1.set_identity();
+    }
+    
+    // Walsh変換の0次,1次の係数を求め, この係数にもとづいて準正規化を行なう．
+    WalshSig wsig;
+    NpnMap wmap = wsig.normalize(ni, f1);
+    NpnMap map2 = map1 * wmap;
+#if 1
+    Bdd f2 = map2.xform_bdd(f);
+    
+    {
+      FuncEntry* funcEntry = find(f, map2, f2);
+      if ( funcEntry ) {
+	// f2 がハッシュに登録されていた．
+	new_func = true;
+	return NpnFuncId(funcEntry);
+      }
+    }
+    
+    if ( debug ) {
+      cout << "reg_func(" << f.sop() << ")" << endl
+	   << "\tf2 = " << f2.sop() << endl
+	   << "\t" << wsig << endl;
+    }
+#endif
+#if 1
+    hash_map<size_t, list<RepInfo*> >::iterator p1 = mRepInfoLists.find(ni);
+    if ( p1 != mRepInfoLists.end() ) {
+      // ここまできたら本当にブーリアンマッチングを試すしかない．
+      Matcher matcher(f2, wsig);
+      
+      const list<RepInfo*>& rlist = p1->second;
+      for (list<RepInfo*>::const_iterator p2 = rlist.begin();
+	   p2 != rlist.end(); ++ p2) {
+	RepInfo* repInfo = *p2;
+	
+	if ( repInfo->signature() != wsig ) continue;
+	
+	if ( debug ) {
+	  cout << "  try to match " << repInfo->bdd().sop() << endl
+	       << "\t" << repInfo->signature() << endl;
+	}
+	list<NpnMap> map_list;
+	size_t n = matcher.match(repInfo, true, map_list);
+	if ( n > 0 ) {
+	  // マッチが見つかった．
+	  const NpnMap& map0 = map_list.front();
+	  NpnMap xmap = map0 * inverse(map2);
+	  FuncEntry* funcEntry1 = new_funcentry(repInfo, xmap);
+	  assert_cond( f == funcEntry1->bdd(), __FILE__, __LINE__);
+	  new_func = true;
+	  return NpnFuncId(funcEntry1);
+	}
+      }
+    }
+    
+    // ここまで来たら見つからなかったってこと
+    if ( create_new_repinfo ) {
+      // 新しい RepInfo を作る．
+      RepInfo* repInfo = new_repinfo(ni, f2, wsig);
+      FuncEntry* funcEntry = new_funcentry(repInfo, inverse(map2));
+      assert_cond( f == funcEntry->bdd(), __FILE__, __LINE__);
+      new_func = true;
+      new_rep = true;
+      return NpnFuncId(funcEntry);
+    }
+#endif
+    // bad な ID を返す．
+    return NpnFuncId(0);
+#if 0
+  }
+#endif
+}
+
+// f_id が表す関数 f と g_id が表す関数 g が同一の NPN 同値類に
+// 属している場合に f を g に変換するための変換マップを求める．
+// ただし，変換の仕方は対称性を考慮してもそれ以外に複数ある場合があるので
+// map_list に設定する．要素数を返す．
+// f と g が同一の NPN 同値類に属していない場合には
+// map_list は空となり 0 が返される．
+// 自明だがこの関数を呼ぶ前に f_id と g_id を Register() で用意する
+// 必要がある．
+// さらに自明だがこれらの関数はこのマネージャ上に登録されていなければ
+// ならない．
+size_t
+NpnMgr::find_map(NpnFuncId f_id, NpnFuncId g_id,
+		 list<NpnMap>& map_list) const
+{
+  if ( f_id.bad() || g_id.bad() ) {
+    return 0;
+  }
+  if ( f_id.repfunc_bdd() != g_id.repfunc_bdd() ) {
+    return 0;
+  }
+
+  NpnMap map1 = inverse(f_id.xform_map());
+  const NpnMap& map2 = g_id.xform_map();
+  const list<NpnMap>& ilist = f_id.mPtr->repinfo()->identity();
+  for (list<NpnMap>::const_iterator p = ilist.begin();
+       p != ilist.end(); ++ p) {
+    const NpnMap& map3 = *p;
+    NpnMap xmap = map1 * map3 * map2;
+    map_list.push_back(xmap);
+    assert_cond(xmap.xform_bdd(f_id.bdd()) == g_id.bdd(), __FILE__, __LINE__);
+  }
+  return map_list.size();
+}
+
+// FuncEntry を登録する．
+FuncEntry*
+NpnMgr::new_funcentry(RepInfo* repInfo, const NpnMap& xformMap)
+{
+  FuncEntry* funcEntry = new FuncEntry(repInfo, xformMap);
+  // 重複した登録チェックはしていない．
+  mBddMap[funcEntry->bdd()] = funcEntry;
+
+  return funcEntry;
+}
+
+// FuncEntry を削除する．
+void
+NpnMgr::forget(FuncEntry* funcEntry)
+{
+  mBddMap.erase(funcEntry->bdd());
+}
+
+// RepInfo を登録する．
+RepInfo*
+NpnMgr::new_repinfo(size_t ni, const Bdd& f, const WalshSig& wsig)
+{
+  RepInfo* repInfo = new RepInfo(f, wsig);
+  repInfo->mMgr = this;
+  mRepInfoLists[ni].push_back(repInfo);
+
+  return repInfo;
+}
+
+// RepInfo を削除する．
+void
+NpnMgr::forget(RepInfo* repInfo)
+{
+  size_t ni = repInfo->ni();
+  mRepInfoLists[ni].remove(repInfo);
+}
+
+// f を xmap で変換した関数 f1 が mBddMap に登録されていたら
+// それをもとに f 用の FuncEntry を作りそれを返す．
+// なければ NULL を返す．
+FuncEntry*
+NpnMgr::find(const Bdd& f, const NpnMap& xmap, const Bdd& f1)
+{
+  if ( f1 != f ) {
+    FuncEntry* funcEntry1 = find(f1);
+    if ( funcEntry1 ) {
+      RepInfo* ptr = funcEntry1->repinfo();
+      NpnMap xmap1 = funcEntry1->xform_map() * inverse(xmap);
+      FuncEntry* funcEntry = new_funcentry(ptr, xmap1);
+      assert_cond( f == funcEntry->bdd(), __FILE__, __LINE__);
+      return funcEntry;
+    }
+  }
+  return 0;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// NpnFuncId                                                        //
+//////////////////////////////////////////////////////////////////////
+
+// FuncEntry へのポインタを指定したコンストラクタ
+// 省略すると不正な値(0)を持つ．
+NpnFuncId::NpnFuncId(FuncEntry* ptr) :
+  mPtr(ptr)
+{
+  set();
+}
+  
+// コピーコンストラクタ
+NpnFuncId::NpnFuncId(const NpnFuncId& src) :
+  mPtr(src.mPtr)
+{
+  set();
+}
+
+// 代入演算子
+const NpnFuncId&
+NpnFuncId::operator=(const NpnFuncId& src)
+{
+  mPtr = src.mPtr;
+  set();
+  return *this;
+}
+
+// デストラクタ
+NpnFuncId::~NpnFuncId()
+{
+}
+
+// 正しい(意味のある)値を持っているときに true を返す．
+bool
+NpnFuncId::good() const
+{
+  return ! mPtr.null();
+}
+  
+// 不正な値を持っているときに true を返す．
+bool
+NpnFuncId::bad() const
+{
+  return mPtr.null();
+}
+
+// 等しいとき true を返す．
+bool
+NpnFuncId::operator==(const NpnFuncId& src) const
+{
+  return mPtr == src.mPtr;
+}
+
+// 等しくないとき true を返す．
+bool
+NpnFuncId::operator!=(const NpnFuncId& src) const
+{
+  return mPtr != src.mPtr;
+}
+
+// この関数の BDD を得る．
+Bdd
+NpnFuncId::bdd() const
+{
+  return mFunc;
+}
+
+// ハッシュ値を得る．
+size_t
+NpnFuncId::hash() const
+{
+  FuncEntry* fe = mPtr;
+  return reinterpret_cast<size_t>(fe) / sizeof(void*);
+}
+
+// 代表関数の BDD を得る．
+Bdd
+NpnFuncId::repfunc_bdd() const
+{
+  return mPtr->repfunc_bdd();
+}
+
+// 代表関数からこの関数を得るための変換マップを得る．
+const NpnMap&
+NpnFuncId::xform_map() const
+{
+  return mPtr->xform_map();
+}
+
+// mPtr の情報から他のメンバを設定する．
+void
+NpnFuncId::set()
+{
+  if ( good() ) {
+    mFunc = mPtr->bdd();
+  }
+}
+
+END_NAMESPACE_YMBDD_NPN

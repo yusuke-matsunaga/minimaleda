@@ -1,0 +1,8 @@
+# error 3-5-6
+# undefined name in .names
+.model test1
+.inputs a b
+.outputs x
+.names a b c x
+111 1
+.end

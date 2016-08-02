@@ -1,0 +1,84 @@
+#! /bin/sh
+
+# Copyright (C) 2005-2010 Yusuke Matsunaga
+# All rights reserved
+
+# [概要]
+#
+# build ディレクトリの autogen スクリプトの生成を行うスクリプト
+#
+# [使用方法]
+#
+# ./mkautogen <base-dir> <root-name>
+#
+# <base-dir>: build directory と install directory の元となる directory
+#             を指定する．
+#             build directory は   <base-dir>/build/<root-name>
+#             install directory は <base-dir>/test/<root-name>
+#             となる．
+#             実際にはその直下に
+#             opt:   最適化オプション付きでコンパイルしたもの
+#             debug: デバッグオプション付きでコンパイルしたもの
+#             prof:  プロファイリングオプション付きでコンパイルしたもの
+#             という3つのサブディレクトリができる．
+#
+# 内部では ./mk autogen を呼び出している．
+
+
+case $# in
+  2) ;;
+  *)
+     echo "USAGE: mkautogen basedir basename"
+     exit 255
+     ;;
+esac
+
+BASEDIR=$1
+BASENAME=$2
+builddir="$BASEDIR/build/$BASENAME"
+testdir="$BASEDIR/test/$BASENAME"
+
+MODES="opt debug prof"
+for mode in $MODES
+do
+  ./boot.sh autogen $builddir/$mode $testdir/$mode $mode
+done
+
+# 根元の Makefile の生成
+mkfile="$builddir/Makefile"
+cat <<EOF > $mkfile
+all:
+	cd opt; make all
+	cd debug; make all
+	cd prof; make all
+
+install:
+	cd opt; make install
+	cd debug; make install
+	cd prof; make install
+
+clean:
+	cd opt; make clean
+	cd debug; make clean
+	cd prof; make clean
+
+configure:
+	cd opt; ./autogen
+	cd debug; ./autogen
+	cd prof; ./autogen
+
+EOF
+
+# サブモジュールのディレクトリ名
+#SUBMODULE=`cat ./modules`
+#for dir in $SUBMODULE
+#do
+#    echo "configure-${dir}:" >> $mkfile
+#    for mode in $MODES
+#    do
+#	echo "	cd $mode/$dir; ./autogen" >> $mkfile
+#    done
+#    echo "" >> $mkfile
+#done
+
+# end of mkautogen

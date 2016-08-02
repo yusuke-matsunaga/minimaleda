@@ -1,0 +1,7 @@
+## $Id: local_defs 635 2007-05-07 20:42:01Z matsunaga $
+
+. ${top_srcdir}/etc/common_defs
+
+TEST_PATH=${top_builddir}/libraries/libym_blif/tests
+TEST_SRC=${top_srcdir}/libraries/libym_blif/test/in
+TEST_OUT=${top_srcdir}/libraries/libym_blif/test/out

@@ -1,0 +1,125 @@
+$Source: /export/home/project/synth/cvsrepos/ymtools/docs/ymlib/File.txt,v $
+$Author: matsunaga $
+$Date: 2005/12/11 17:07:21 $
+$Revision: 1.1.1.1 $
+
+パス名を表すクラス
+
+
+パスの型
+
+nsMagus::PathName::tType
+という型を用いる．その値には
+・nsMagus::PathName::kAbsolute
+・nsMagus::PathName::kHome
+・nsMagus::PathName::Relative
+の3種類がある．それぞれ，
+・絶対パス(先頭が'/'から始まる)
+・ホームディレクトリからの総体パス(先頭が~で始まる)
+・相対パス(上記以外)
+を表している．
+
+
+コンストラクタ
+
+PathName()
+
+空のコンストラクタ．内容は不定．
+
+PathName(const string& path_str)
+
+パスを表す文字列からの変換コンストラクタ．
+
+
+デストラクタ
+
+~PathName()
+
+このオブジェクトの使用していたりソースを解放する．
+
+
+状態の取得
+
+bool
+is_valid() const
+
+意味のある値を持っているときに true を返す．
+空のコンストラクタで作られたオブジェクトの場合のみが false 
+を返す．
+
+tType
+type() const
+
+このオブジェクトの表すパスの種類を返す．
+
+string
+str() const
+
+このオブジェクトの表すパスの文字列表現を返す．
+
+PathName
+head() const
+
+このオブジェクトのヘッダ(最後の階層を含まない部分)を返す．
+もとのパスが階層を含んでいない場合には空となる．
+
+string
+tail() const
+
+このオブジェクトの最後の階層部分の文字列を返す．
+パスが'/'で終わっていたら空となる．
+
+string
+body() const
+
+このオブジェクトの本体(tail から'.'と拡張子を除いた物)を返す．
+
+string
+ext() const
+
+このオブジェクトの拡張子を返す．
+tail が '.' を含まない場合には空となる．
+
+PathName
+expand() const
+
+絶対パス形式に変換したものを返す．
+
+bool
+stat(struct stat* sbp) const
+
+このオブジェクトの表すパスに対して stat() システムコールを実行する．
+パスが存在していたら true を返す． sbp が NULL で無い場合には sbp に
+stat() の結果が格納される．
+
+const PathName&
+operator+=(const PathName& src)
+
+パスの連結を行い，自分自身に代入する．結果を返す．
+自分自身が空の場合には src を自分自身に代入する．
+自分自身が空でなく，src のタイプが kRelative でない場合には連結は行わな
+い． 
+
+PathName
+operator+(const PathName& src1, const PathName& src2)
+
+2つのパスを連結する．内部的には operator+=(const PathName& src) を呼んで
+いる．
+
+PathName
+cur_work_dir()
+
+カレントディレクトリを表すパスを返す．
+
+PathName
+user_hame(const string& login)
+
+login というアカウントのホームディレクトリを返す．
+
+PathName
+search(const PathName& filename,
+       const list<PathName>& search_path = list<PathName>());
+
+search_path に含まれるパスを探索して filename というファイルを探す．
+最初に見つかったパスを返す．
+search_path が空の場合にはカレントディレクトリを探す．

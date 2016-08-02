@@ -1,0 +1,137 @@
+expression について
+2003/08/22
+
+参照 4 Expression
+
+- ベクタからスカラへの変換はただ単に LSB の1ビットを取り出す．
+- ただし論理値として評価するときには不定値を X, 0 を 0, 0以外の値を 1 
+  と見なす．
+
+- オペランドになるもの
+  定数
+  parameter, localparam, specparam
+  net, net bit-select, net part-select
+  reg, reg bit-select, reg part-select
+  variable (int, real, time)
+  int bit-select, int part-select
+  time bit-select, time part-select
+  function call
+
+4.1.1 Operators with real operands
+- real type で使用可能な演算
+  unary +, -
+  +, -, *, /, **(power)
+  >, >=, <, <=
+  !, &&, ||
+  ==, !=
+  ?:
+  or (event or)
+
+  このうち，大小比較，等価比較，論理演算の結果は1ビットのスカラとなる．
+
+- base を持たない整数は2の補数形式の「符号付き」数となる．
+
+- unsigned base を持つ数は符号なし数となる．
+
+      -12 : 符号付き, unsized の負数
+    -'d12 : 符号なし，unsized の大きな正数
+   -'sd12 : 符号付き，unsized の負数(1番目と同じ)
+  -4'sd12 : 符号付き，4ビットの整数(= -1100 = 0100)
+
+- 整数の除算: shall truncate fractional part toward zero
+  ということで正の数も負の数も絶対値で小さい方に切り捨てる．
+  余りの符号は被除数の符号と一致する．
+
+- power 演算:
+  オペランドのいずれかが real, integer, signed なら結果は real
+  どちらのオペランドも unsigned なら結果も unsigned
+  第一引数が0で第二引数が負または0の時は不定
+  第一引数が負で第二引数が整数でなければ不定
+
+- arithmetic 演算のオペランドに1つでもX/Zがあったら結果は不定
+
+- relational operator の結果は常に 1bit scalar
+  1つでもX/Zを含んでいたら結果は不定
+  長さが異なっていたら短い方を拡張する．
+  仕様書には 0-padding と書いてあるが符号拡張すると思う．
+  2つとも signed なら signed で比較
+  1つでも real なら残りを real に変換して比較
+ 上記以外なら unsigned で比較
+
+- ==, != の結果も常に 1bit scalar
+  1つでもX/Zを含んでいたら結果は不定
+  長さが異なっていたら短い方を拡張する．
+  仕様書には 0-padding と書いてあるが符号拡張すると思う．
+  でsignedかどうかはどうでも良くて bit-by-bit で比較する． 
+
+- ===, !== の結果は常に 0 もしくは 1，X はない．
+
+- bitwise 演算は常に 0-filled
+  real はエラー
+
+- ?: は第一オペランドが不定の時には第2オペランドと第3オペランドをマー
+  ジする．共通な値はそのまま結果に残る．異なっていたら X となる．
+  real なら値は 0.0
+
+- expression のサイズのルール
+
+  まず，self determined か context determined かという区別がある．
+  self determined の場合，オペランドのサイズと演算の種類によって決めら
+  れる．context determined の場合は自分の演算結果を使う式などからサイ
+  ズが決められる．
+
+  たとえば，assign 文の右辺の式は左辺の式のサイズの影響をうける．
+  
+  まず，式の葉から自分のサイズを計算し，値まで自分のサイズを確定させる．
+  次に値に必要なサイズを与え，その値と自分の値の大きい方を演算結果のサ
+  イズとする．必要に応じてそのサイズをオペランドに伝えて行く．
+
+- 符号のルール
+
+  $unsigned() や $signed() のようにあらかじめ演算結果の符号が決まって
+  いる expression もある．
+
+  符号の型は右辺のみに依存する．サイズの場合とは異なり左辺は関係ない．
+
+  符号なし base の定数は符号なし，符号付き base の定数は符号付き
+
+  base なしの定数は符号付き
+
+  bit-select, part-select は符号なし．符号付きタイプの信号線の全範囲を
+  選んだとしても符号なしとなる．
+
+  concatenation, multiple-concatenation は符号なし
+
+  比較結果は1ビットの符号なし
+
+  real から int へ変換された数は符号付き
+
+  self determined な場合，符号は自分で決まる．
+  
+  context determined な場合，
+   - 1つでも real のオペランドがあったら結果は real
+   - 1つでも unsigned のオペランドがあったら結果は unsigned
+   - すべて signed なら signed
+
+- evaluation のアルゴリズム
+  expression の size と sign を決める．
+  必要ならオペランドの型変換を行う
+  必要ならオペランドのサイズ拡張を行う．signed 型の場合には符号拡張を
+  行う．
+
+- で右辺式の評価を行う．
+
+- でもう一度左辺式に合わせてサイズ調整を行う．何でこんなことがあるのかっ
+  て？
+
+   reg [7:0] a;
+   reg [15:0] b;
+
+   b = a;   // a は context-determined なので 16ビットに拡張される．
+   b = {a} // {a} は self-determined なので右辺は8ビット
+
+  ということがあるから．
+
+- この時の調整ルール
+  unsigned なら 0 fill
+  signed なら符号拡張

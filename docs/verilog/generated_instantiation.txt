@@ -1,0 +1,15 @@
+generated instantiation について(12.1.3)
+
+○変数，関数，タスクの宣言ができる．
+○モジュール，UDP，プリミティブ，継続的代入文，
+  initial ブロック，always ブロック のインスタンス化を行うことができる．
+○defparam でパラメータの値を上書きすることができるが，自分の
+  generated scope の外側のパラメータの値を書き換えることはできない．
+○generate if や generate case 内では関数やタスクの宣言ができるが，
+  generate for 内ではできない．
+○IO port 宣言とパラメータ宣言，specify block宣言はできない．
+
+○genvar の値は generate for の初期化文と増加文でしか変更できない．
+  2つの独立なループで同一の genvar の値を使うことは許されるが，ネスト
+  したループで同一の genvar を使うことは許されない．
+

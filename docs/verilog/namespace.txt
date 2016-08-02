@@ -1,0 +1,55 @@
+namespace について
+2002/09/02
+
+参照 3.12 Name spaces
+     12.6 Scope rules
+
+2つの global namespaces -- definitions and text macros -- と
+5つの local namespaces -- block, module, port, specify block and,
+attribute --
+を持つ
+
+
+definitions namespace: module名, macromodule名, primitive名が属する名前
+空間．
+
+text macros namespace: `ではじまるマクロ名が属する名前空間
+
+block namespace: named block, function, および task で作られるブロック構造
+に属する名前空間．子供の named block, function, task および parameter,
+named event, 変数型宣言(reg, integer, time, real, realtime)が属する．
+
+module namespace: module, macromodule, および primitive で作られるブロッ
+ク構造に属する名前空間．function, task, instance 名, parameter, named
+event, net型宣言(wire, wor, wand, tri, trior, traiand, tri0, tri1,
+trireg, supply0, supply1)および変数型宣言が属する．
+
+port namespace: module, macromodule, primitive, function および task 構
+造に属する名前空間．異なるブロック構造の間の接続を表すためのもの．これら
+の構造の block namespace もしくは module namespace と同じ名前のポートが
+あることもある．(というか function/task の場合にはポート名と変数名を同一
+にしなければつながらないとおもうのだが)．
+
+specify block namespace: specify で用いる．
+
+attribute namespace: (* *)で囲まれた中で用いられる．
+
+
+Scope rules
+
+識別子が階層表現なしで指定された場合，まずそのブロック内で探索を行い，見
+つからなかった場合には上位のブロックに対して探索を行う．
+IEEE1364-2001の記述では variable の場合は module boundary を越えられない
+が，task, function, named block の場合には higher-level modules まで探索
+すると書いてある．ところが，次の文章で The search shall not cross
+module boundaries と書いてある．どういうこと？ とりあえず module
+boundary は越えないものとする．
+
+<-- たぶんこの cross というのは「横切る」ことだと思う．つまり
+
+              A
+      +-------+-------+
+      B               C
+
+で B から A を調べることはできるけど， B から C がだめということだと思
+う(2003.8.22)

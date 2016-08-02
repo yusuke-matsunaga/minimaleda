@@ -1,0 +1,60 @@
+#! /bin/sh
+
+# $Id: autogen.tmpl 2275 2009-06-10 10:56:15Z matsunaga $
+# 
+# Copyright (C) 2005-2009 Yusuke Matsunaga
+# All rights reserved
+
+srcdir="__YM__SRC__DIRECTORY__"
+dstdir="__YM__DST__DIRECTORY__"
+
+# common config file
+commonconf="__YM__AUTOGEN_COMMON__"
+
+# local config file
+localconf="./autogen.local"
+
+# compiler
+#CC=gcc33; export CC
+#CXX=g++33; export CXX
+
+# compile mode
+compile_mode=__YM__COMPILE_MODE__
+
+case "$compile_mode" in
+    opt) # product version
+	CFLAGS="-O3 -Wall"; export CFLAGS
+	CXXFLAGS="-O3 -Wall"; export CXXFLAGS
+	optflags=""
+	;;
+
+    debug) # debug version
+	CFLAGS="-g -Wall -DYM_DEBUG=1"; export CFLAGS
+	CXXFLAGS="-g -Wall -DYM_DEBUG=1"; export CXXFLAGS
+	optflags="--disable-shared"
+	;;
+	
+    prof) # profiling version
+	CFLAGS="-O3 -pg -Wall"; export CFLAGS
+	CXXFLAGS="-O3 -pg -Wall"; export CXXFLAGS
+	optflags="--disable-shared"
+	;;
+
+    *) # default --> debug version
+	CFLAGS="-g -Wall -DYM_DEBUG=1"; export CFLAGS
+	CXXFLAGS="-g -Wall -DYM_DEBUG=1"; export CXXFLAGS
+	optflags="--disable-shared"
+	;;
+
+esac
+
+if test -r $commonconf; then
+  . $commonconf
+fi
+
+if test -r $localconf; then
+  . $localconf
+fi
+
+$srcdir/configure --prefix=$dstdir $optflags
+ 

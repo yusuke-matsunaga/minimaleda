@@ -1,0 +1,9 @@
+# error 3-7-2
+# only one name in .latch
+.model test1
+.inputs a b
+.outputs x
+.names a b x
+11 1
+.latch a
+.end

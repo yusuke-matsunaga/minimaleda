@@ -1,0 +1,119 @@
+.model att17
+.inputs a b c d e f g h i j k l m n o p q
+.outputs r s t u v w x y z a0 b0 c0 d0
+.names k1 r
+0 1
+.names n m b k1
+000 1
+.names l1 s
+0 1
+.names v0 m l1
+00 1
+.names n1 t
+0 1
+.names v0 u0 m1 n1
+000 1
+.names m k r1 u
+0-- 1
+-0- 1
+--0 1
+.names h g s1 v0 r1
+0--0 1
+-0-0 1
+--00 1
+.names p v
+0 1
+.names o w
+0 1
+.names c t1 u1 v1 x
+0--0 1
+-0-0 1
+--00 1
+.names x0 g1 t1
+00 1
+.names n u0 u1
+0- 1
+-0 1
+.names k b v1
+0- 1
+-0 1
+.names q y
+0 1
+.names a r0 s0 z
+0-- 1
+-0- 1
+--0 1
+.names l r0
+0 1
+.names d c t0 u0 s0
+0--0 1
+-0-0 1
+--00 1
+.names v0 m y0 a0
+0-0 1
+-00 1
+.names n v0
+0 1
+.names m v0 r0 a y0
+--0- 1
+---0 1
+00-- 1
+.names v0 u0 z0 b0
+000 1
+.names m u0
+0 1
+.names r0 a1 z0
+0- 1
+-0 1
+.names b d1 u0 e1 c0
+0-00 1
+-000 1
+.names f1 g1 x0 k n d1
+---0- 1
+----0 1
+000-- 1
+.names b v0 r0 a e1
+--0- 1
+---0 1
+00-- 1
+.names v0 u0 i1 d0
+000 1
+.names r0 w0 a i1
+0-- 1
+-0- 1
+--0 1
+.names v0 w0 x0 t0
+000 1
+.names k w0
+0 1
+.names e x0
+0 1
+.names c d e w0 b1 a1
+0--00 1
+-0-00 1
+--000 1
+.names a b1
+0 1
+.names o c1
+0 1
+.names c f1
+0 1
+.names d g1
+0 1
+.names p h1
+0 1
+.names q j1
+0 1
+.names h g o1 m1
+0-- 1
+-0- 1
+--0 1
+.names w0 p1 q1 o1
+000 1
+.names j p1
+0 1
+.names i q1
+0 1
+.names p1 q1 s1
+00 1
+.end

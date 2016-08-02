@@ -1,0 +1,10 @@
+.model test1
+	["3-5-1.blif" line: 3, columns:1-6]
+	["3-5-1.blif" line: 3, columns:8-12]
+  inputs elem: a
+	["3-5-1.blif" line: 4, column: 9]
+  inputs elem: b
+	["3-5-1.blif" line: 4, column: 11]
+  outputs elem: x
+	["3-5-1.blif" line: 5, column: 10]
+error_exit

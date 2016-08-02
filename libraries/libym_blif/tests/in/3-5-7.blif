@@ -1,0 +1,9 @@
+# error 3-5-7
+# patterns in the output fields mismatch
+.model test1
+.inputs a b
+.outputs x
+.names a b x
+1- 0
+-1 1
+.end

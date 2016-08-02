@@ -1,0 +1,60 @@
+## $Source: /export/home/project/synth/cvsrepos/ymtools/src/libym_vl/tests/yacc.test,v $
+## $Author: matsunaga $
+## $Revision: 1.1.1.1 $
+## $Date: 2005/12/11 17:07:29 $
+
+# Common definitions
+if test -z "$srcdir"; then
+    srcdir=echo "$0" | sed 's,[^/]*$,,'
+    test "$srcdir" = "$0" && srcdir=.
+    test -z "$srcdir" && srcdir=.
+    test "${VERBOSE+set}" != set && VERBOSE=1
+fi
+. ${srcdir}/local_defs
+
+# Run the test saving stderr to a file, and showing stdout
+# if VERBOSE == 1
+nerr=0
+
+for dir in mine ivltests
+do
+  for file in ${TEST_SRC}/${dir}/*.v
+  do
+    file=`echo $file | sed -e "s|${TEST_SRC}/${dir}/|${dir}/|g"`
+    file_flat=`echo $file | sed -e 's|/|_|g'`
+    out=${TEST_OUT}/$file_flat.out
+    err=${TEST_OUT}/$file_flat.err
+
+    echo -n "reading $file ..." >> log
+
+    ${TEST_PATH}/vltest ${YTOPT} -p ${TEST_SRC} -dD $file 2> err-tmp | sed -e "s|${TEST_SRC}/||g" > out
+    sed -e "s|${TEST_SRC}/||g" < err-tmp > err
+    rm -f err-tmp
+
+    if ${CMP} -s out $out && ${CMP} -s err $err ; then
+      echo "OK" >> log
+    else
+      echo "NG" >> log
+      nerr=`expr $nerr + 1`
+      echo $file >> faillist
+      if ! ${CMP} -s out $out; then
+        diff -u $out out > $file_flat.out.diff
+	mv out $file_flat.out
+      fi
+      if ! ${CMP} -s err $err; then
+	diff -u $err err > $file_flat.err.diff
+	mv err $file_flat.err
+      fi
+    fi
+  done
+done
+
+if test $nerr -gt 0; then
+  echo "Total $nerr tests failed" >> log
+  exit 1
+else
+  exit 0
+fi
+### Local Variables:
+### mode: sh
+### End:

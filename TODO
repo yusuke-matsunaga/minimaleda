@@ -1,0 +1,46 @@
+2008-10-02  Yusuke Matsunaga  <matsunaga@c.csce.kyushu-u.ac.jp>
+
+	* libym_verilog/elaborator/StmtGen_cond.cc
+	(StmtGen::instantiate_case): case 文の式とラベルの型やサイズが異なっ
+	ている時の処理をチェック．
+	暗黙の等価比較演算子があるものと考えれば，幅の拡張や符号拡張がなさ
+	れる必要がある．
+		
+
+2008-09-20  Yusuke Matsunaga  <matsunaga@c.csce.kyushu-u.ac.jp>
+
+	* include/ym_verilog/vl/VlObj.h (class VlObj): mNext というポイン
+	タを VlObj につけるのは美しくないし，リスト型でない要素に対しては
+	メモリの無駄でもある．実装クラスで実装するようにする．
+
+2008-09-18  Yusuke Matsunaga  <matsunaga@c.csce.kyushu-u.ac.jp>
+
+	* include/ym_verilog/vl/VlObj.h (class VlObj): attribute instance
+	の保持の仕方をハッシュベースにする．-> 済み
+
+2008-09-16  Yusuke Matsunaga  <matsunaga@c.csce.kyushu-u.ac.jp>
+
+	* libym_verilog/elaborator/ItemGen_udp_inst.cc
+	(ItemGen::link_prim_array): 
+	prim_array のポートを調べて，出力ポートに接続する式の場合には
+	pt_expr をネット左辺式として生成しなければならない． 
+
+	* libym_verilog/elaborator/DeclGen.cc (DeclGen::link_net_assign): 
+	遅延付きのネット宣言で，割り当てを持つときには net-delay ではなく
+	assign-delay になると言うが，割り当てを持たない net と割り当てを持
+	つ net が同一の行にあったらどうなるのかを調査する．
+
+	* libym_verilog/elaboraotr/ItemGen_gate_inst.cc
+	(ItemGen::link_prim_array):
+	link_prim_array と link_udp_array の差はなんなのか？
+	本当に分ける必要があるのか考える．-> 基本的にはない．
+	ただし，UDP インスタンスはモジュールインスタンスと共通のパーズをし
+	ているのでポート式に空の式が含まれている場合があるので，それをチェッ
+	クしなければならない．2008/09/16 済
+
+2008-09-15  Yusuke Matsunaga  <matsunaga@c.csce.kyushu-u.ac.jp>
+
+	* libym_verilog: DefParamStub を list<> からスクラッチビルドにして
+	メモリ管理をタイトにする．
+	
+

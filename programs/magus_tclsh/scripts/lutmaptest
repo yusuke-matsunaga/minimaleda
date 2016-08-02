@@ -1,0 +1,60 @@
+set loglevel 0
+
+proc circ_name { filename } {
+    regexp {(.*)\.sbj} $filename dummy tmp
+    regsub -all {[^A-Za-z0-9_]+} $tmp _ dst_name
+    return $dst_name
+}
+
+proc lutmaptest { dpath filename mode mode2 limit } {
+    global loglevel
+
+    set cname [circ_name ${filename}]
+
+    puts "reading $filename \(${cname}\)"
+    magus::new_network ${cname}
+    magus::push_current_network ${cname}
+
+    magus::read_blif ${dpath}/${filename}
+
+    magus::lutmap -lb $limit
+    puts "LB:        $magus::lutmap_stats(lower_bound)"
+
+    magus::lutmap $mode -dst_network ${cname}map $limit
+    puts "mode:      $mode"
+    puts "# of LUTs: $magus::lutmap_stats(lut_num)"
+    puts "max level: $magus::lutmap_stats(level)"
+    puts ""
+
+    magus::lutmap -wlbd $limit
+    puts "LB:        $magus::lutmap_stats(lower_bound)"
+
+    magus::lutmap $mode2 -dst_network ${cname}map2 $limit
+    puts "mode:      $mode2"
+    puts "# of LUTs: $magus::lutmap_stats(lut_num)"
+    puts "max level: $magus::lutmap_stats(level)"
+    puts "--------------------------------------"
+    puts ""
+
+    magus::pop_current_network
+}
+
+set mode "-dag"
+set mode2 "-dagd"
+set limit 4
+
+set srcdir /home/yusuke/var/sandbox/ymtools
+set dpath "${srcdir}/data/lutmap"
+set flist "${dpath}/filelist"
+if [catch {open $flist r} fileId] {
+    puts stderr "Cannot open $flist: $fileId"
+} else {
+    while {[gets $fileId filename] > 0} {
+	lutmaptest $dpath $filename $mode $mode2 $limit
+    }
+    close $fileId
+}
+
+# Local Variables:
+# mode: tcl
+# End:

@@ -1,0 +1,232 @@
+#! /bin/sh
+
+# $Id: mk.subr 2507 2009-10-17 16:24:02Z matsunaga $
+# 
+# Copyright (C) 2005-2009 Yusuke Matsunaga
+# All rights reserved
+
+# チェックアウトした状態に戻す．
+# 生成されるファイルを指定しているのでツールのバージョンが上がると
+# 変更しなければならないかも
+clean() {
+    if test "x$1" != x; then
+	dirname=$1
+    else
+	dirname=`pwd`
+    fi
+    echo "Cleaning source tree in $dirname ..." | tee -a $MK_LOG
+
+    $FIND $dirname -name Makefile.in -exec $RM {} \; 2>> $MK_LOG
+    $FIND $dirname -name '*~' -exec $RM -r {} \; 2>> $MK_LOG
+    $FIND $dirname -name '*.bak' -exec $RM -r {} \; 2>> $MK_LOG
+    for file in aclocal.m4 autom4te.cache configure; do
+	$RM -r -f $dirname/$file 2>> $MK_LOG
+    done
+    if test "x$CONFIG_DIR" != x; then
+	for file in config.guess config.sub install-sh ltconfig ltmain.sh \
+	    missing mkinstalldirs stamp-h.in depcomp ylwrap \
+	    ltsugar.m4 libtool.m4 ltversion.m4 lt~obsolete.m4 ltoptions.m4; do
+	  $RM -r -f $dirname/$CONFIG_DIR/$file 2>> $MK_LOG
+	done
+    fi
+    if test "x$CONFIG_H" != x; then
+	$RM -f $CONFIG_H.in
+    fi
+    echo "  done" | tee -a $MK_LOG
+}
+
+
+# configure スクリプトを作る．
+boot() {
+    olddir=`pwd`
+    if test "x$1" != x; then
+	dirname=$1
+	cd $dirname
+    else
+	dirname=`pwd`
+    fi
+    echo "Creating source tree in $dirname ..." | tee -a $MK_LOG
+
+    echo "$ACLOCAL $ACLOCAL_FLAGS -I $BASEDIR/etc" | tee -a $MK_LOG
+    $ACLOCAL $ACLOCAL_FLAGS -I $BASEDIR/../ymlibs/m4macros 2>> $MK_LOG
+
+    echo "$LIBTOOLIZE $LIBTOOLIZE_FLAGS --automake --copy" | tee -a $MK_LOG
+    $LIBTOOLIZE $LIBTOOLIZE_FLAGS --automake --copy 2>> $MK_LOG
+    if test "x$2" != xno_autoheader; then
+       echo "$AUTOHEADER $AUTOHEADER_FLAGS" >> $MK_LOG
+       $AUTOHEADER $AUTOHEADER_FLAGS 2>> $MK_LOG
+    fi
+    echo "$AUTOMAKE $AUTOMAKE_FLAGS --add-missing --copy --foreign" | tee -a $MK_LOG
+    $AUTOMAKE $AUTOMAKE_FLAGS --add-missing --copy --foreign 2>> $MK_LOG
+    echo "$AUTOCONF $AUTOCONF_FLAGS" | tee -a $MK_LOG
+    $AUTOCONF $AUTOCONF_FLAGS 2>> $MK_LOG
+    echo "  done" | tee -a $MK_LOG
+    cd $olddir
+}
+
+
+# compile ディレクトリに autogen ファイルを作る．
+mk_autogen() {
+    if test "x$1" != x; then
+	srcdir=$1
+    else
+	srcdir=`pwd`
+    fi
+    cdir=$2
+    echo "Making compile directory $cdir for source tree $srcdir ..." | tee -a $MK_LOG
+    echo "mkdir -p $cdir" | tee -a $MK_LOG
+    mkdir -p $cdir 2>> $MK_LOG
+
+    echo "test -d $3 || mkdir -p $3" | tee -a $MK_LOG
+    test -d $3 || mkdir -p $3
+    dstdir=`cd $3; pwd`
+
+    case "x$4" in
+    xdebug)
+	mode="debug"
+	;;
+    xopt)
+	mode="opt"
+	;;
+    xprof)
+	mode="prof"
+        ;;
+    *)
+	mode="debug"
+	;;
+    esac
+
+    if test "x$AUTOGEN_COMMON" = x; then
+	AUTOGEN_COMMON=/dev/null
+    fi
+
+    sed -e s!__YM__SRC__DIRECTORY__!$srcdir! \
+	-e s!__YM__DST__DIRECTORY__!$dstdir! \
+	-e s!__YM__COMPILE_MODE__!$mode! \
+	-e s!__YM__AUTOGEN_COMMON__!$AUTOGEN_COMMON! \
+	$srcdir/etc/autogen.tmpl > $cdir/autogen
+    chmod +x $cdir/autogen
+    echo "  done" | tee -a $MK_LOG
+}
+
+
+# cygwin 用に sjis 化する．
+mk_sjis() {
+    dstdir=$1
+    echo "Making sjis'ed source directory $dstdir ..."
+    mkdir -p $dstdir
+
+    srcdir=`pwd`
+
+    $BASEDIR/etc/to-sjis.pl $srcdir $dstdir
+}
+
+# usage を表示する．
+usage() {
+    echo "Usage: $0 clean   : clean up the source tree"
+    echo "       $0 boot    : generating configure script"
+    echo "       $0 autogen <compile-dir> <prefix-dir> <mode>"
+    echo "                  : generating autogen script"
+    echo "       $0 sjis <distination-dir>"
+    echo "                  : converting to SJIS"
+    echo "       $0 debug   : displaying each tools version"
+}
+
+# 各ツールを表す環境変数をセットする．
+# ただしもともと環境変数に値がセットされていたらそれを用いる．
+set_program() {
+    case `uname 2>/dev/null` in
+    FreeBSD)
+        # FreeBSDの場合最新バージョンのプログラム名をセットする．
+        # かなり汚いコード
+	if test "${AUTOCONF:+set}" != set; then
+	  for ac_ver in 259 257; do
+            foo=
+	    if test -x "`which autoconf$ac_ver`"; then
+	      AUTOCONF="autoconf$ac_ver"
+	      AUTOHEADER="autoheader$ac_ver"
+	      break
+	    fi
+	  done
+        fi
+        if test "${AUTOMAKE:+set}" != set; then
+	  for am_ver in 19 18 17; do
+	    if test -x "`which automake$am_ver`"; then
+	      AUTOMAKE="automake$am_ver"
+	      ACLOCAL="aclocal$am_ver"
+	      ACLOCAL_FLAGS="-I /usr/local/share/aclocal"
+	      break
+	    fi
+	  done
+        fi
+        if test "${LIBTOOLIZE:+set}" != set; then
+	  for lt_ver in 15 14; do
+	    if test -x "`which libtoolize$lt_ver`"; then
+	      LIBTOOLIZE="libtoolize$lt_ver"
+	      break
+	    fi
+	  done
+        fi
+        if test "${M4:+set}" != set; then
+	  if test -x "`which gm4`"; then
+	    M4=`which gm4`
+	  fi
+        fi
+	;;
+    SunOS)
+        if test "${M4:+set}" != set; then
+          if test -x "`which m4`"; then
+	    M4="`which m4`"
+          fi
+        fi
+	;;
+    *);;
+    esac
+
+    # デフォルトのコマンド名
+    AUTOHEADER=${AUTOHEADER:-autoheader}
+    AUTOHEADER_FLAGS=${AUTOHEADER_FLAGS:-}
+    AUTOCONF=${AUTOCONF:-autoconf}
+    AUTOCONF_FLAGS=${AUTOCONF_FLAGS:-}
+    ACLOCAL=${ACLOCAL:-aclocal}
+    ACLOCAL_FLAGS=${ACLOCAL_FLAGS:-}
+    AUTOMAKE=${AUTOMAKE:-automake}
+    AUTOMAKE_FLAGS=${AUTOMAKE_FLAGS:-}
+    LIBTOOLIZE=${LIBTOOLIZE:-libtoolize}
+    LIBTOOLIZE_FLAGS=${LIBTOOLIZE_FLAGS:-}
+    M4=${M4:-m4}
+    FIND=${FIND:-find}
+    RM=${RM:-rm}
+
+    # automake が autoconf を呼び出すときに環境変数を使うらしい
+    export AUTOCONF
+    export AUTOCONF_FLAGS
+    export AUTOHEADER
+    export AUTOHEADER_FLAGS
+    export AUTOMAKE
+    export AUTOMAKE_FLAGS
+    export ACLOCAL
+    export ACLOCAL_FLAGS
+    export LIBTOOLIZE
+    export LIBTOOLIZE_FLAGS
+    export M4
+
+    # ログファイル
+    MK_LOG=$BASEDIR/mk.log
+    cat /dev/null > $MK_LOG
+}
+
+
+# 使用するプログラムのバージョンを出力する．
+display_version() {
+    $AUTOCONF --version
+    echo "----"
+    $AUTOHEADER --version
+    echo "----"
+    $AUTOMAKE --version
+    echo "----"
+    $ACLOCAL --version
+    echo "----"
+    $LIBTOOLIZE --version
+    echo "----"
+} 

@@ -1,0 +1,11 @@
+# error 3-3-5
+# duplicate name in .names and .inputs
+.model test1
+.inputs a b
+.outputs x
+.names a b c
+11 1
+.inputs c
+.names c x
+0 1
+.end

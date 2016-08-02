@@ -1,0 +1,75 @@
+# $Id: combigen.test 396 2007-03-05 09:13:51Z matsunaga $
+
+# Common definitions
+if test -z "$srcdir"; then
+    srcdir=echo "$0" | sed 's,[^/]*$,,'
+    test "$srcdir" = "$0" && srcdir=.
+    test -z "$srcdir" && srcdir=.
+    test "${VERBOSE+set}" != set && VERBOSE=1
+fi
+. $srcdir/local_defs
+
+# this is the test script
+cat <<\EOF > in
+3 3
+4 2
+5 3
+EOF
+
+# this is the output we should expect to see
+cat <<\EOF > ok
+ 0 1 2
+---
+ 0 1
+ 0 2
+ 0 3
+ 1 2
+ 1 3
+ 2 3
+---
+ 0 1 2
+ 0 1 3
+ 0 1 4
+ 0 2 3
+ 0 2 4
+ 0 3 4
+ 1 2 3
+ 1 2 4
+ 1 3 4
+ 2 3 4
+---
+EOF
+
+cat <<\EOF >errok
+EOF
+
+# Run the test saving stderr to a file, and showing stdout
+# if VERBOSE == 1
+${TEST_PATH}/combigen_test < in 2> err | tee -i out >&2
+
+# Test against expected output
+if ${CMP} -s out ok; then
+    :
+else
+    echo "ok:" >&2
+    cat ok >&2
+    exit 1
+fi
+
+# Munge error output to remove leading directories, 'lt-' or
+# trailing '.exe'
+
+# Show stderr in case  of not matching expected output if VERBOSE == 1
+if ${CMP} -s err errok; then
+    :
+else
+    echo "err:" >&2
+    cat err >&2
+    echo "errok:" >&2
+    cat errok >&2
+    exit 1
+fi
+
+### Local Variables:
+### mode: sh
+### End:

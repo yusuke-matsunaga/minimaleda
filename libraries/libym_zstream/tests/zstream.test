@@ -1,0 +1,63 @@
+# $Id: zstream.test 396 2007-03-05 09:13:51Z matsunaga $
+
+# Common definitions
+if test -z "$srcdir"; then
+    srcdir=echo "$0" | sed 's,[^/]*$,,'
+    test "$srcdir" = "$0" && srcdir=.
+    test -z "$srcdir" && srcdir=.
+    test "${VERBOSE+set}" != set && VERBOSE=1
+fi
+. ${srcdir}/local_defs
+
+# this is the test data
+TEST_SRC=${top_srcdir}/libraries/libym_zstream/tests/frb30-15-1.cnf
+TEST_DST=zstream_test_data.1
+TEST_DST2=zstream_test_data.2
+
+# this is the test script
+
+# this is the output we should expect to see
+cat <<\EOF > ok
+EOF
+
+cat <<\EOF >errok
+EOF
+
+# Run the test saving stderr to a file, and showing stdout
+# if VERBOSE == 1
+${TEST_PATH}/zstream_test c ${TEST_SRC} ${TEST_DST} 2> err | tee -i out >&2
+${TEST_PATH}/zstream_test d ${TEST_DST} ${TEST_DST2} 2>> err | tee -ai out >&2
+
+# Test against expected output
+if ${CMP} -s out ok; then
+    :
+else
+    echo "ok:" >&2
+    cat ok >&2
+    exit 1
+fi
+
+# Munge error output to remove leading directories, 'lt-' or
+# trailing '.exe'
+
+# Show stderr in case  of not matching expected output if VERBOSE == 1
+if ${CMP} -s err errok; then
+    :
+else
+    echo "err:" >&2
+    cat err >&2
+    echo "errok:" >&2
+    cat errok >&2
+    exit 1
+fi
+
+if ${CMP} -s ${TEST_SRC} ${TEST_DST2}; then
+    :
+else
+    echo "BAD"
+    exit 2
+fi
+
+### Local Variables:
+### mode: sh
+### End:

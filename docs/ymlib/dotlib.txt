@@ -1,0 +1,782 @@
+			.lib フォーマット覚書
+							2008年12月23日
+							松永　裕介
+
+1. はじめに
+
+ 構成単位は group と呼ばれる．group は複数の attribute を持つ．
+ある group の中に 別の group が含まれる場合がある．
+多くの場合，group は名前を持つ．
+ 
+最上位の group は library group で，1つのファイルで 1つの library
+group を記述する．
+
+
+2. library group 
+ 
+2.1. 記法
+
+library ( <ライブラリ名> ) {
+  <ライブラリ記述>
+}
+
+<ライブラリ名>は普通の文字列．厳密な定義は lcug では分からなかった．
+
+<ライブラリ記述> は複数の属性のリストで構成される．
+
+
+2.2 library group の属性
+
+
+2.2.1 technology 属性
+
+technology ( <テクノロジ名> ) ;
+
+<テクノロジ名> は cmos と fpga のみが有効
+この文はライブラリ記述の先頭になければならない．ない場合には cmos を仮
+定する．
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.2 delay_model 属性
+
+delay_model : <遅延モデル名> ;
+
+<遅延モデル名> は generic_cmos, table_lookup, cmos2, piecewise_cmos,
+dcm がサポートされている．
+この文は technology 文の次になければならない．technology 文がない場合
+には先頭になければならない．この文が省略された場合には generic_cmos モ
+デルが仮定される．
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.3 bus_naming_style 属性
+
+bus_naming_style : "<文字列>" ;
+
+バスの個々のピンの命名規則を表す文字列を定義する．
+文字列は a-z, A-Z, 0-9, [], (), _, ' からなる．
+中に 1つの "%s" と 1つの "%d" を含んでいなければならない．
+この2つの文字列の出現順は任意だが間に最低1つは nonumerical (非数字)文
+字をはさんで分離されていなければならない．(lcrm1: 1-14)
+この文がない場合のデフォルト値は %s[%d]
+
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.4 routing_layers 属性
+
+routing_layers ( "<配線層名のリスト>" ) ;
+
+<配線層名のリスト> は配線層名を表す文字列を ',' で結合したもの．
+この文は cell の配線情報より前に記述されている必要がある．
+この文は各ライブラリにただ 1 つしか定義できない．
+
+
+2.2.5 date 属性
+
+date : "<文字列>" ;
+
+ここでは " 以外の任意の文字が要素として使用可能．
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.6 revision 属性
+
+revision : <float>|<文字列> ;
+
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.7 comment 属性
+
+comment : "<文字列>"
+
+ここでは " 以外の任意の文字が要素として使用可能．
+この文が2つ以上あったら確実にエラー
+
+
+2.2.8 time_unit 属性
+
+time_unit : "<文字列>" ;
+
+<文字列> には時間の単位を表す文字列が入る．
+妥当な文字列は以下のとおり
+1ps, 10ps, 100ps, 1ns
+"" でくくってもくくらなくても良いみたい．
+この文がないときのデフォルトは 1ns
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.9 voltable_unit 属性
+
+voltable_unit : "<文字列>" ;
+
+<文字列> には電圧の単位を表す文字列が入る．
+妥当な文字列は以下のとおり
+1mV, 10mV, 100mV, 1V
+"" でくくってもくくらなくても良いみたい．
+この文のないときのデフォルトは 1V
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.10 current_unit 属性
+
+current_unit : "<文字列>" ;
+
+<文字列> には電流の単位を表す文字列が入る．
+妥当な文字列は以下のとおり
+1uA, 10uA, 100uA, 1mA, 10mA 100mA
+"" でくくってもくくらなくても良いみたい．
+この文のないときのデフォルトは定義されていない．
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.11 pulling_resistance_unit 属性
+
+pulling_resistance_unit : "<文字列>" ;
+
+<文字列> には抵抗値の単位を表す文字列が入る．
+妥当な文字列は以下のとおり
+1ohm, 10ohm, 100ohm, 1kohm
+"" でくくってもくくらなくても良いみたい．
+この文のないときのデフォルトは定義されていない．
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.12 capacitive_load_unit 属性
+
+capacitive_load_unit (<単位>, <文字列>) ;
+
+<単位> には float 値が入る．
+<文字列> には容量値の単位を表す文字列が入る．
+妥当な文字列は以下のとおり
+pf, ff
+この文のないときのデフォルトは定義されていない．
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.13 leakage_power_unit 属性
+
+leakage_power_unit : <文字列> ;
+
+<文字列> には電力の単位を表す文字列が入る．
+妥当な文字列は以下のとおり
+1mW, 100uW, 10uW, 1uW, 100nW, 10nW, 1nW, 100pW, 10pW, 1p"
+"" でくくってもくくらなくても良いみたい．
+この文のないときのデフォルトは定義されていない．
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.14 piece_type 属性
+
+piece_type : <文字列> ;
+
+<文字列> には piece_length, piece_wire_cap, piece_pin_cap,
+piece_total_cap のいずれかを指定する．
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.15 piece_define 属性
+
+piece_define ( "<文字列>" )
+
+<文字列> は float を空白で区切ってならべたもの．
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.16 input_threshold_pct_fall 属性
+
+input_threshold_pct_fall : <float> ;
+
+<float> は 0.0 から 100.0 の間の値．デフォルトは 50.0
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.17 input_threshold_pct_rise 属性
+
+input_threshold_pct_rise : <float> ;
+
+<float> は 0.0 から 100.0 の間の値．デフォルトは 50.0
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.18 output_threshold_pct_fall 属性
+
+output_threshold_pct_fall : <float> ;
+
+<float> は 0.0 から 100.0 の間の値．デフォルトは 50.0
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.19 output_threshold_pct_rise 属性
+
+output_threshold_pct_rise : <float> ;
+
+<float> は 0.0 から 100.0 の間の値．デフォルトは 50.0
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.20 slew_derate_from_library 属性
+
+slew_derate_from_library : <float> ;
+
+<float> は 0.0 から 1.0 の間の値．デフォルトは 1.0
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.21 slew_lower_threshold_pct_fall 属性
+
+slew_lower_threshold_pct_fall : <float> ;
+
+<float> は 0.0 から 100.0 の間の値．デフォルトは 20.0
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.22 slew_lower_threshold_pct_rise 属性
+
+slew_lower_threshold_pct_rise : <float> ;
+
+<float> は 0.0 から 100.0 の間の値．デフォルトは 20.0
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.23 slew_upper_threshold_pct_fall 属性
+
+slew_upper_threshold_pct_fall : <float> ;
+
+<float> は 0.0 から 100.0 の間の値．デフォルトは 80.0
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.24 slew_upper_threshold_pct_risze 属性
+
+slew_upper_threshold_pct_rise : <float> ;
+
+<float> は 0.0 から 100.0 の間の値．デフォルトは 80.0
+たぶん，この文が2つ以上あったらエラー
+
+
+2.2.27 preferred_output_pad_slew_rate_control 属性
+
+prefered_output_pad_slew_rate_control : <文字列> ;
+
+<文字列> の妥当な値は high, low, medium, none
+
+
+2.2.28 preferred_output_pad_voltage 属性
+
+preferred_output_pad_voltage : <文字列> ;
+
+<文字列> は output_voltage グループで定義されている名前
+
+
+2.2.29 preferred_input_pad_voltage 属性
+
+preferred_input_pad_voltage : <文字列> ;
+
+<文字列> は input_voltage グループで定義されている名前
+
+
+2.2.31 in_place_swap_mode 属性
+
+in_place_swap_mode : match_footprint|no_swapping ;
+
+
+2.2.32 library_features 属性
+
+library_features ( report_delay_calculation ) ;
+
+
+2.2.33 simulation 属性
+
+simulation : bool ;
+
+
+2.2.34 define_cell_area 属性
+
+define_cell_area ( <文字列>, <resource_type> ) ;
+
+<resource_type> は以下の値をとる．
+pad_slots, pad_input_driver_sites, pad_output_driver_sites,
+pad_driver_sites
+
+
+2.2.35 default 属性
+
+default_cell_leakage_power : float ;
+
+default_connection_class : <文字列> [<文字列2> <文字列3> ...] ;
+
+default_edge_rate_breakpointf0　
+
+
+2.2.? base_curves グループ属性
+
+base_curves ( <文字列> ) {
+  ...
+}
+
+
+2.2.? compact_lut_template グループ属性
+
+compact_lut_template ( <文字列> ) {
+  ...
+}
+
+
+2.2.? dc_current_template グループ属性
+
+dc_current_template ( <文字列> ) {
+  ...
+}
+
+
+2.2.? em_lut_template グループ属性
+
+em_lut_template ( <文字列> ) {
+  ...
+}
+
+
+2.2.? fall_net_delay グループ属性
+
+fall_net_delay ( <文字列> ) {
+  index_1 ( "float, ..., float" ) ;
+  index_2 ( "float, ..., float" ) ;
+  values ( "float, ..., float", "float, ..., float" ) ;
+}
+
+
+2.2.? fall_transition_degradation グループ属性
+
+fall_transition_degradation ( <文字列> ) {
+  index_1 ( "float, ..., float" ) ;
+  index_2 ( "float, ..., float" ) ;
+  values ( "float, ..., float", "float, ..., float" ) ;
+}
+
+
+2.2.? faults_lut_template グループ属性
+
+faults_lut_template ( <文字列> ) {
+  ...
+}
+
+
+2.2.? fpga_isd グループ属性
+
+fpga_isd ( <文字列> ) {
+  ...
+}
+
+
+2.2.25 input_voltage グループ属性
+
+input_voltage ( <文字列> )　{
+  vil : <式> ;
+  vih : <式> ;
+  vimin : <式> ;
+  vimax : <式> ;
+}
+
+<式> は浮動小数点数あるいは VDD (5V), VSS (0V), VCC (5V) を終端とする
+算術式
+
+
+2.2.? iv_lut_template グループ属性
+
+iv_lut_template ( <文字列> ) {
+  ...
+}
+
+
+2.2.? lu_table_template グループ属性
+
+lu_table_template ( <文字列> ) {
+  ...
+}
+
+
+2.2.? maxcap_lut_template グループ属性
+
+maxcap_lut_template ( <文字列> ) {
+  ...
+}
+
+
+2.2.? maxtrans_lut_template グループ属性
+
+maxtrans_lut_template ( <文字列> ) {
+  ...
+}
+
+
+2.2.? noise_lut_template グループ属性
+
+noise_lut_template ( <文字列> ) {
+  ...
+}
+
+variable1, variable2: input_noise_width, total_net_capacitance
+
+
+2.2.36  operating_conditions グループ属性
+
+operating_conditions ( <文字列> ) {
+  operationg_condition_description
+}
+
+2.2.36.1 calc_mode 属性
+
+calc_mode : <文字列> ;
+
+
+2.2.36.2 parameteri 属性
+
+parameteri : float ;
+
+i は 1 から 5
+
+
+2.2.36.3 process 属性
+
+process : float ;
+
+float は 0 から 100.0 の間の数
+
+
+2.2.36.4 temperature 属性
+
+temperture : float ;
+
+
+2.2.36.5 tree_type 属性
+
+tree_type : best_case_tree|balanced_tree|worst_case_tree ;
+
+
+2.2.36.6 voltage 属性
+
+voltage : float
+
+float は 0 から 1000.0 までの間の値
+
+
+2.2.36.7 power_rail 属性
+
+power_rail ( <文字列>, float ) ;
+
+
+2.2.? output_current_template グループ属性
+
+output_current_template ( <文字列> ) {
+  ...
+}
+
+variable1, variable2: input_net_transition,
+total_output_net_capacitance
+variable3: time
+
+
+2.2.26 output_voltage グループ属性
+
+output_voltage ( <文字列> )　{
+  vol : <式> ;
+  voh : <式> ;
+  vomin : <式> ;
+  vomax : <式> ;
+}
+
+<式> は浮動小数点数あるいは VDD (5V), VSS (0V), VCC (5V) を終端とする
+算術式
+
+
+2.2.? part グループ属性
+
+<省略>
+
+
+2.2.? pg_current_template グループ属性
+
+pg_current_template ( <文字列> ) {
+  ...
+}
+
+variable_1, variable_2, variable_3, variable_4
+と index_1, index_2, index_3, index_4 を要素にとる．
+variable に使用可能な値は input_net_transition,
+total_output_net_capacitance, time
+最後の変数は time でなければならない．
+
+
+
+2.2.? poly_template グループ属性
+
+<省略>
+
+
+2.2.30 power_lut_template グループ属性
+
+power_lut_template ( <文字列> ) {
+  variable_1 : <文字列1> ;
+  index_1 ( "float [, float [, float ....]]" ) ;
+}
+
+power_lut_template ( <文字列> ) {
+  variable_1 : <文字列1> ;
+  variable_2 : <文字列2> ;
+  index_1 ( "float [, float [, float ....]]" ) ;
+  index_2 ( "float [, float [, float ....]]" ) ;
+}
+
+power_lut_template ( <文字列> ) {
+  variable_1 : <文字列1> ;
+  variable_2 : <文字列2> ;
+  variable_3 : <文字列3> ;
+  index_1 ( "float [, float [, float ....]]" ) ;
+  index_2 ( "float [, float [, float ....]]" ) ;
+  index_3 ( "float [, float [, float ....]]" ) ;
+}
+
+<文字列1>, <文字列2>, <文字列3> の妥当な値は input_transition_time,
+total_output_net_capacitance, equal_or_opposite_net_capacitance
+
+さらに domain というグループを内部に持てるようだ．
+
+
+2.2.? power_poly_template グループ属性
+
+<省略>
+
+
+2.2.? power_supply グループ属性
+
+power_supply ( <文字列> ) {
+  ...
+}
+
+
+2.2.?.1 default_power_rail 属性
+
+default_power_rail : <文字列> ;
+
+
+2.2.?.2 power_rail 属性
+
+power_rail ( <文字列>, float ) ;
+
+
+2.2.? propagation_lut_template グループ属性
+
+propagation_lut_template ( <文字列> ) {
+  variable_1 : <文字列1> ;
+  index_1 ( "float [, float [, float ....]]" ) ;
+}
+
+propagation_lut_template ( <文字列> ) {
+  variable_1 : <文字列1> ;
+  variable_2 : <文字列2> ;
+  index_1 ( "float [, float [, float ....]]" ) ;
+  index_2 ( "float [, float [, float ....]]" ) ;
+}
+
+propagation_lut_template ( <文字列> ) {
+  variable_1 : <文字列1> ;
+  variable_2 : <文字列2> ;
+  variable_3 : <文字列3> ;
+  index_1 ( "float [, float [, float ....]]" ) ;
+  index_2 ( "float [, float [, float ....]]" ) ;
+  index_3 ( "float [, float [, float ....]]" ) ;
+}
+
+variable_1, variable_2, variable_3 に使用できる文字列は
+input_noise_width, input_noise_height, total_output_net_capacitance
+
+
+2.2.? rise_net_delay グループ属性
+
+rise_net_delay ( <文字列> ) {
+  index_1 ( "float, ..., float" ) ;
+  index_2 ( "float, ..., float" ) ;
+  values ( "float, ..., float", "float, ..., float" ) ;
+}
+
+
+2.2.? rise_transition_degradation グループ属性
+
+rise_transition_degradation ( <文字列> ) {
+  index_1 ( "float, ..., float" ) ;
+  index_2 ( "float, ..., float" ) ;
+  values ( "float, ..., float", "float, ..., float" ) ;
+}
+
+
+2.2.? scaled_cell グループ属性
+
+省略
+
+
+2.2.? sensitization グループ属性
+
+sensitization ( <文字列> ) {
+  ...
+}
+
+
+2.2.?.1 pin_names 属性
+
+pin_names ( <文字列>, ..., <文字列> ) ;
+
+
+2.2.?.2 vector 属性
+
+vector ( integer, <文字列> );
+
+
+2.2.? scaling_factors グループ属性
+
+scaling_factors ( <文字列> ) {
+  ...		
+}
+
+
+2.2.37 timing_range グループ属性
+
+timing_range ( <文字列> ) {
+  timing_range_description
+}
+
+2.2.37.1 faster_factor 属性
+
+faster_factor : float ;
+
+
+2.2.37.2 slower_factor 属性
+
+slower_factor : float ;
+
+
+2.2.38 type グループ属性
+
+type ( <文字列> ) {
+  type_description
+}
+
+
+2.2.38.1 base_type 属性
+
+base_type : array ;
+
+
+2.2.38.2 data_type 属性
+
+data_type : bit ;
+
+
+2.2.38.3 bit_width 属性
+
+bit_width : int ;
+
+
+2.2.38.4 bit_from 属性
+
+bit_from : int ;
+
+
+2.2.38.5 bit_to 属性
+
+bit_to : int ;
+
+
+2.2.38.6 downto 属性
+
+downto : bool ;
+
+
+2.2.39 user_parameters グループ属性
+
+user_parameters () {
+  parameter_description
+}
+
+
+2.2.39.1 parameteri 属性
+
+parameteri : float ;
+
+i は 1 から 5
+
+
+2.2.40 wire_load グループ属性
+
+wire_load ( <文字列> ) {
+  wire_load_description
+}
+
+
+2.2.40.1 area 属性
+
+area : float ;
+
+
+2.2.40.2 capacitance 属性
+
+capacitance : float ;
+
+
+2.2.40.3 resistance 属性
+
+resistance : float ;
+
+
+2.2.40.4 slope 属性
+
+slope : float ;
+
+
+2.2.40.5 fanout_length 属性
+
+fanout_length ( <ファンアウト数>, <配線長> 
+	      [, <平均容量>, <標準偏差>, <ネット数>] ) ;
+
+
+2.2.41 wire_load_selection グループ属性
+
+wire_load_selection ( <名前> ) {
+  wire_load_selection_description
+}
+
+
+2.2.41.1 wire_load_from_area 属性
+
+wire_load_from_area ( float, float, <文字列> ) ;
+
+
+2.2.42 wire_load_table グループ属性
+
+wire_load_table ( <文字列> ) {
+  wire_load_table_description
+}
+
+
+2.2.42.1 fanout_area 属性
+
+fanout_area (integer, float );
+
+
+2.2.42.2 fanout_capacitance 属性
+
+fanout_capacitance ( integer, float ) ;
+
+
+2.2.42.3 fanout_length 属性
+
+fanout_length ( integer, float ) ;
+
+
+2.2.42.4 fanout_resistance 属性
+
+fanout_resistance ( integer, float ) ;
+
+

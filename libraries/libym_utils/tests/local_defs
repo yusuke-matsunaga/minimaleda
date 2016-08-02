@@ -1,0 +1,5 @@
+## $Id: local_defs 33 2006-07-16 14:58:17Z matsunaga $
+
+. ${top_srcdir}/etc/common_defs
+
+TEST_PATH=${top_builddir}/libraries/libym_utils/tests

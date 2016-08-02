@@ -1,0 +1,3168 @@
+.model C880.iscas
+	["C880.blif" line: 7, columns:1-6]
+	["C880.blif" line: 7, columns:8-17]
+  inputs elem: 1GAT(0)
+	["C880.blif" line: 8, columns:9-15]
+  inputs elem: 8GAT(1)
+	["C880.blif" line: 8, columns:17-23]
+  inputs elem: 13GAT(2)
+	["C880.blif" line: 8, columns:25-32]
+  inputs elem: 17GAT(3)
+	["C880.blif" line: 8, columns:34-41]
+  inputs elem: 26GAT(4)
+	["C880.blif" line: 8, columns:43-50]
+  inputs elem: 29GAT(5)
+	["C880.blif" line: 8, columns:52-59]
+  inputs elem: 36GAT(6)
+	["C880.blif" line: 8, columns:61-68]
+  inputs elem: 42GAT(7)
+	["C880.blif" line: 8, columns:70-77]
+  inputs elem: 51GAT(8)
+	["C880.blif" line: 8, columns:79-86]
+  inputs elem: 55GAT(9)
+	["C880.blif" line: 8, columns:88-95]
+  inputs elem: 59GAT(10)
+	["C880.blif" line: 8, columns:97-105]
+  inputs elem: 68GAT(11)
+	["C880.blif" line: 8, columns:107-115]
+  inputs elem: 72GAT(12)
+	["C880.blif" line: 8, columns:117-125]
+  inputs elem: 73GAT(13)
+	["C880.blif" line: 8, columns:127-135]
+  inputs elem: 74GAT(14)
+	["C880.blif" line: 8, columns:137-145]
+  inputs elem: 75GAT(15)
+	["C880.blif" line: 8, columns:147-155]
+  inputs elem: 80GAT(16)
+	["C880.blif" line: 8, columns:157-165]
+  inputs elem: 85GAT(17)
+	["C880.blif" line: 8, columns:167-175]
+  inputs elem: 86GAT(18)
+	["C880.blif" line: 8, columns:177-185]
+  inputs elem: 87GAT(19)
+	["C880.blif" line: 8, columns:187-195]
+  inputs elem: 88GAT(20)
+	["C880.blif" line: 8, columns:197-205]
+  inputs elem: 89GAT(21)
+	["C880.blif" line: 8, columns:207-215]
+  inputs elem: 90GAT(22)
+	["C880.blif" line: 8, columns:217-225]
+  inputs elem: 91GAT(23)
+	["C880.blif" line: 8, columns:227-235]
+  inputs elem: 96GAT(24)
+	["C880.blif" line: 8, columns:237-245]
+  inputs elem: 101GAT(25)
+	["C880.blif" line: 8, columns:247-256]
+  inputs elem: 106GAT(26)
+	["C880.blif" line: 8, columns:258-267]
+  inputs elem: 111GAT(27)
+	["C880.blif" line: 8, columns:269-278]
+  inputs elem: 116GAT(28)
+	["C880.blif" line: 8, columns:280-289]
+  inputs elem: 121GAT(29)
+	["C880.blif" line: 8, columns:291-300]
+  inputs elem: 126GAT(30)
+	["C880.blif" line: 8, columns:302-311]
+  inputs elem: 130GAT(31)
+	["C880.blif" line: 8, columns:313-322]
+  inputs elem: 135GAT(32)
+	["C880.blif" line: 8, columns:324-333]
+  inputs elem: 138GAT(33)
+	["C880.blif" line: 8, columns:335-344]
+  inputs elem: 143GAT(34)
+	["C880.blif" line: 8, columns:346-355]
+  inputs elem: 146GAT(35)
+	["C880.blif" line: 8, columns:357-366]
+  inputs elem: 149GAT(36)
+	["C880.blif" line: 8, columns:368-377]
+  inputs elem: 152GAT(37)
+	["C880.blif" line: 8, columns:379-388]
+  inputs elem: 153GAT(38)
+	["C880.blif" line: 8, columns:390-399]
+  inputs elem: 156GAT(39)
+	["C880.blif" line: 8, columns:401-410]
+  inputs elem: 159GAT(40)
+	["C880.blif" line: 8, columns:412-421]
+  inputs elem: 165GAT(41)
+	["C880.blif" line: 8, columns:423-432]
+  inputs elem: 171GAT(42)
+	["C880.blif" line: 8, columns:434-443]
+  inputs elem: 177GAT(43)
+	["C880.blif" line: 8, columns:445-454]
+  inputs elem: 183GAT(44)
+	["C880.blif" line: 8, columns:456-465]
+  inputs elem: 189GAT(45)
+	["C880.blif" line: 8, columns:467-476]
+  inputs elem: 195GAT(46)
+	["C880.blif" line: 8, columns:478-487]
+  inputs elem: 201GAT(47)
+	["C880.blif" line: 8, columns:489-498]
+  inputs elem: 207GAT(48)
+	["C880.blif" line: 8, columns:500-509]
+  inputs elem: 210GAT(49)
+	["C880.blif" line: 8, columns:511-520]
+  inputs elem: 219GAT(50)
+	["C880.blif" line: 8, columns:522-531]
+  inputs elem: 228GAT(51)
+	["C880.blif" line: 8, columns:533-542]
+  inputs elem: 237GAT(52)
+	["C880.blif" line: 8, columns:544-553]
+  inputs elem: 246GAT(53)
+	["C880.blif" line: 8, columns:555-564]
+  inputs elem: 255GAT(54)
+	["C880.blif" line: 8, columns:566-575]
+  inputs elem: 259GAT(55)
+	["C880.blif" line: 8, columns:577-586]
+  inputs elem: 260GAT(56)
+	["C880.blif" line: 8, columns:588-597]
+  inputs elem: 261GAT(57)
+	["C880.blif" line: 8, columns:599-608]
+  inputs elem: 267GAT(58)
+	["C880.blif" line: 8, columns:610-619]
+  inputs elem: 268GAT(59)
+	["C880.blif" line: 8, columns:621-630]
+  outputs elem: 388GAT(133)
+	["C880.blif" line: 9, columns:10-20]
+  outputs elem: 389GAT(132)
+	["C880.blif" line: 9, columns:22-32]
+  outputs elem: 390GAT(131)
+	["C880.blif" line: 9, columns:34-44]
+  outputs elem: 391GAT(124)
+	["C880.blif" line: 9, columns:46-56]
+  outputs elem: 418GAT(168)
+	["C880.blif" line: 9, columns:58-68]
+  outputs elem: 419GAT(164)
+	["C880.blif" line: 9, columns:70-80]
+  outputs elem: 420GAT(158)
+	["C880.blif" line: 9, columns:82-92]
+  outputs elem: 421GAT(162)
+	["C880.blif" line: 9, columns:94-104]
+  outputs elem: 422GAT(161)
+	["C880.blif" line: 9, columns:106-116]
+  outputs elem: 423GAT(155)
+	["C880.blif" line: 9, columns:118-128]
+  outputs elem: 446GAT(183)
+	["C880.blif" line: 9, columns:130-140]
+  outputs elem: 447GAT(182)
+	["C880.blif" line: 9, columns:142-152]
+  outputs elem: 448GAT(179)
+	["C880.blif" line: 9, columns:154-164]
+  outputs elem: 449GAT(176)
+	["C880.blif" line: 9, columns:166-176]
+  outputs elem: 450GAT(173)
+	["C880.blif" line: 9, columns:178-188]
+  outputs elem: 767GAT(349)
+	["C880.blif" line: 9, columns:190-200]
+  outputs elem: 768GAT(334)
+	["C880.blif" line: 9, columns:202-212]
+  outputs elem: 850GAT(404)
+	["C880.blif" line: 9, columns:214-224]
+  outputs elem: 863GAT(424)
+	["C880.blif" line: 9, columns:226-236]
+  outputs elem: 864GAT(423)
+	["C880.blif" line: 9, columns:238-248]
+  outputs elem: 865GAT(422)
+	["C880.blif" line: 9, columns:250-260]
+  outputs elem: 866GAT(426)
+	["C880.blif" line: 9, columns:262-272]
+  outputs elem: 874GAT(433)
+	["C880.blif" line: 9, columns:274-284]
+  outputs elem: 878GAT(442)
+	["C880.blif" line: 9, columns:286-296]
+  outputs elem: 879GAT(441)
+	["C880.blif" line: 9, columns:298-308]
+  outputs elem: 880GAT(440)
+	["C880.blif" line: 9, columns:310-320]
+.names
+268GAT(59)
+	["C880.blif" line: 10, columns:8-17]
+310GAT(60)
+	["C880.blif" line: 10, columns:19-28]
+1 0
+.names
+255GAT(54)
+	["C880.blif" line: 12, columns:8-17]
+267GAT(58)
+	["C880.blif" line: 12, columns:19-28]
+341GAT(61)
+	["C880.blif" line: 12, columns:30-39]
+11 1
+.names
+255GAT(54)
+	["C880.blif" line: 14, columns:8-17]
+260GAT(56)
+	["C880.blif" line: 14, columns:19-28]
+339GAT(62)
+	["C880.blif" line: 14, columns:30-39]
+11 1
+.names
+255GAT(54)
+	["C880.blif" line: 16, columns:8-17]
+259GAT(55)
+	["C880.blif" line: 16, columns:19-28]
+337GAT(63)
+	["C880.blif" line: 16, columns:30-39]
+11 1
+.names
+195GAT(46)
+	["C880.blif" line: 18, columns:8-17]
+201GAT(47)
+	["C880.blif" line: 18, columns:19-28]
+331GAT(64)
+	["C880.blif" line: 18, columns:30-39]
+00 0
+.names
+195GAT(46)
+	["C880.blif" line: 20, columns:8-17]
+201GAT(47)
+	["C880.blif" line: 20, columns:19-28]
+330GAT(65)
+	["C880.blif" line: 20, columns:30-39]
+11 0
+.names
+183GAT(44)
+	["C880.blif" line: 22, columns:8-17]
+189GAT(45)
+	["C880.blif" line: 22, columns:19-28]
+329GAT(66)
+	["C880.blif" line: 22, columns:30-39]
+00 0
+.names
+183GAT(44)
+	["C880.blif" line: 24, columns:8-17]
+189GAT(45)
+	["C880.blif" line: 24, columns:19-28]
+328GAT(67)
+	["C880.blif" line: 24, columns:30-39]
+11 0
+.names
+171GAT(42)
+	["C880.blif" line: 26, columns:8-17]
+177GAT(43)
+	["C880.blif" line: 26, columns:19-28]
+327GAT(68)
+	["C880.blif" line: 26, columns:30-39]
+00 0
+.names
+171GAT(42)
+	["C880.blif" line: 28, columns:8-17]
+177GAT(43)
+	["C880.blif" line: 28, columns:19-28]
+326GAT(69)
+	["C880.blif" line: 28, columns:30-39]
+11 0
+.names
+159GAT(40)
+	["C880.blif" line: 30, columns:8-17]
+165GAT(41)
+	["C880.blif" line: 30, columns:19-28]
+325GAT(70)
+	["C880.blif" line: 30, columns:30-39]
+00 0
+.names
+159GAT(40)
+	["C880.blif" line: 32, columns:8-17]
+165GAT(41)
+	["C880.blif" line: 32, columns:19-28]
+324GAT(71)
+	["C880.blif" line: 32, columns:30-39]
+11 0
+.names
+152GAT(37)
+	["C880.blif" line: 34, columns:8-17]
+138GAT(33)
+	["C880.blif" line: 34, columns:19-28]
+318GAT(72)
+	["C880.blif" line: 34, columns:30-39]
+11 1
+.names
+210GAT(49)
+	["C880.blif" line: 36, columns:8-17]
+121GAT(29)
+	["C880.blif" line: 36, columns:19-28]
+340GAT(73)
+	["C880.blif" line: 36, columns:30-39]
+11 1
+.names
+121GAT(29)
+	["C880.blif" line: 38, columns:8-17]
+126GAT(30)
+	["C880.blif" line: 38, columns:19-28]
+308GAT(74)
+	["C880.blif" line: 38, columns:30-39]
+00 0
+.names
+121GAT(29)
+	["C880.blif" line: 40, columns:8-17]
+126GAT(30)
+	["C880.blif" line: 40, columns:19-28]
+307GAT(75)
+	["C880.blif" line: 40, columns:30-39]
+11 0
+.names
+210GAT(49)
+	["C880.blif" line: 42, columns:8-17]
+116GAT(28)
+	["C880.blif" line: 42, columns:19-28]
+338GAT(76)
+	["C880.blif" line: 42, columns:30-39]
+11 1
+.names
+210GAT(49)
+	["C880.blif" line: 44, columns:8-17]
+111GAT(27)
+	["C880.blif" line: 44, columns:19-28]
+336GAT(77)
+	["C880.blif" line: 44, columns:30-39]
+11 1
+.names
+111GAT(27)
+	["C880.blif" line: 46, columns:8-17]
+116GAT(28)
+	["C880.blif" line: 46, columns:19-28]
+306GAT(78)
+	["C880.blif" line: 46, columns:30-39]
+00 0
+.names
+111GAT(27)
+	["C880.blif" line: 48, columns:8-17]
+116GAT(28)
+	["C880.blif" line: 48, columns:19-28]
+305GAT(79)
+	["C880.blif" line: 48, columns:30-39]
+11 0
+.names
+210GAT(49)
+	["C880.blif" line: 50, columns:8-17]
+106GAT(26)
+	["C880.blif" line: 50, columns:19-28]
+335GAT(80)
+	["C880.blif" line: 50, columns:30-39]
+11 1
+.names
+210GAT(49)
+	["C880.blif" line: 52, columns:8-17]
+101GAT(25)
+	["C880.blif" line: 52, columns:19-28]
+334GAT(81)
+	["C880.blif" line: 52, columns:30-39]
+11 1
+.names
+101GAT(25)
+	["C880.blif" line: 54, columns:8-17]
+106GAT(26)
+	["C880.blif" line: 54, columns:19-28]
+304GAT(82)
+	["C880.blif" line: 54, columns:30-39]
+00 0
+.names
+101GAT(25)
+	["C880.blif" line: 56, columns:8-17]
+106GAT(26)
+	["C880.blif" line: 56, columns:19-28]
+303GAT(83)
+	["C880.blif" line: 56, columns:30-39]
+11 0
+.names
+210GAT(49)
+	["C880.blif" line: 58, columns:8-17]
+96GAT(24)
+	["C880.blif" line: 58, columns:19-27]
+333GAT(84)
+	["C880.blif" line: 58, columns:29-38]
+11 1
+.names
+210GAT(49)
+	["C880.blif" line: 60, columns:8-17]
+91GAT(23)
+	["C880.blif" line: 60, columns:19-27]
+332GAT(85)
+	["C880.blif" line: 60, columns:29-38]
+11 1
+.names
+91GAT(23)
+	["C880.blif" line: 62, columns:8-16]
+96GAT(24)
+	["C880.blif" line: 62, columns:18-26]
+302GAT(86)
+	["C880.blif" line: 62, columns:28-37]
+00 0
+.names
+91GAT(23)
+	["C880.blif" line: 64, columns:8-16]
+96GAT(24)
+	["C880.blif" line: 64, columns:18-26]
+301GAT(87)
+	["C880.blif" line: 64, columns:28-37]
+11 0
+.names
+87GAT(19)
+	["C880.blif" line: 66, columns:8-16]
+88GAT(20)
+	["C880.blif" line: 66, columns:18-26]
+298GAT(88)
+	["C880.blif" line: 66, columns:28-37]
+00 0
+.names
+85GAT(17)
+	["C880.blif" line: 68, columns:8-16]
+86GAT(18)
+	["C880.blif" line: 68, columns:18-26]
+297GAT(89)
+	["C880.blif" line: 68, columns:28-37]
+11 1
+.names
+59GAT(10)
+	["C880.blif" line: 70, columns:8-16]
+156GAT(39)
+	["C880.blif" line: 70, columns:18-27]
+319GAT(90)
+	["C880.blif" line: 70, columns:29-38]
+11 0
+.names
+59GAT(10)
+	["C880.blif" line: 72, columns:8-16]
+75GAT(15)
+	["C880.blif" line: 72, columns:18-26]
+80GAT(16)
+	["C880.blif" line: 72, columns:28-36]
+293GAT(91)
+	["C880.blif" line: 72, columns:38-47]
+111 1
+.names
+59GAT(10)
+	["C880.blif" line: 74, columns:8-16]
+68GAT(11)
+	["C880.blif" line: 74, columns:18-26]
+74GAT(14)
+	["C880.blif" line: 74, columns:28-36]
+286GAT(92)
+	["C880.blif" line: 74, columns:38-47]
+111 0
+.names
+51GAT(8)
+	["C880.blif" line: 76, columns:8-15]
+138GAT(33)
+	["C880.blif" line: 76, columns:17-26]
+316GAT(93)
+	["C880.blif" line: 76, columns:28-37]
+11 1
+.names
+59GAT(10)
+	["C880.blif" line: 78, columns:8-16]
+75GAT(15)
+	["C880.blif" line: 78, columns:18-26]
+42GAT(7)
+	["C880.blif" line: 78, columns:28-35]
+294GAT(94)
+	["C880.blif" line: 78, columns:37-46]
+111 1
+.names
+59GAT(10)
+	["C880.blif" line: 80, columns:8-16]
+42GAT(7)
+	["C880.blif" line: 80, columns:18-25]
+68GAT(11)
+	["C880.blif" line: 80, columns:27-35]
+72GAT(12)
+	["C880.blif" line: 80, columns:37-45]
+284GAT(95)
+	["C880.blif" line: 80, columns:47-56]
+1111 0
+.names
+59GAT(10)
+	["C880.blif" line: 82, columns:8-16]
+36GAT(6)
+	["C880.blif" line: 82, columns:18-25]
+42GAT(7)
+	["C880.blif" line: 82, columns:27-34]
+296GAT(96)
+	["C880.blif" line: 82, columns:36-45]
+111 1
+.names
+59GAT(10)
+	["C880.blif" line: 84, columns:8-16]
+36GAT(6)
+	["C880.blif" line: 84, columns:18-25]
+80GAT(16)
+	["C880.blif" line: 84, columns:27-35]
+295GAT(97)
+	["C880.blif" line: 84, columns:37-46]
+111 1
+.names
+29GAT(5)
+	["C880.blif" line: 86, columns:8-15]
+36GAT(6)
+	["C880.blif" line: 86, columns:17-24]
+42GAT(7)
+	["C880.blif" line: 86, columns:26-33]
+292GAT(98)
+	["C880.blif" line: 86, columns:35-44]
+111 1
+.names
+29GAT(5)
+	["C880.blif" line: 88, columns:8-15]
+36GAT(6)
+	["C880.blif" line: 88, columns:17-24]
+80GAT(16)
+	["C880.blif" line: 88, columns:26-34]
+291GAT(99)
+	["C880.blif" line: 88, columns:36-45]
+111 1
+.names
+29GAT(5)
+	["C880.blif" line: 90, columns:8-15]
+75GAT(15)
+	["C880.blif" line: 90, columns:17-25]
+42GAT(7)
+	["C880.blif" line: 90, columns:27-34]
+290GAT(100)
+	["C880.blif" line: 90, columns:36-46]
+111 1
+.names
+29GAT(5)
+	["C880.blif" line: 92, columns:8-15]
+75GAT(15)
+	["C880.blif" line: 92, columns:17-25]
+80GAT(16)
+	["C880.blif" line: 92, columns:27-35]
+287GAT(101)
+	["C880.blif" line: 92, columns:37-47]
+111 1
+.names
+29GAT(5)
+	["C880.blif" line: 94, columns:8-15]
+68GAT(11)
+	["C880.blif" line: 94, columns:17-25]
+285GAT(102)
+	["C880.blif" line: 94, columns:27-37]
+11 0
+.names
+29GAT(5)
+	["C880.blif" line: 96, columns:8-15]
+36GAT(6)
+	["C880.blif" line: 96, columns:17-24]
+42GAT(7)
+	["C880.blif" line: 96, columns:26-33]
+273GAT(103)
+	["C880.blif" line: 96, columns:35-45]
+111 1
+.names
+17GAT(3)
+	["C880.blif" line: 98, columns:8-15]
+42GAT(7)
+	["C880.blif" line: 98, columns:17-24]
+323GAT(104)
+	["C880.blif" line: 98, columns:26-36]
+11 1
+.names
+17GAT(3)
+	["C880.blif" line: 100, columns:8-15]
+42GAT(7)
+	["C880.blif" line: 100, columns:17-24]
+322GAT(105)
+	["C880.blif" line: 100, columns:26-36]
+00 1
+.names
+17GAT(3)
+	["C880.blif" line: 102, columns:8-15]
+138GAT(33)
+	["C880.blif" line: 102, columns:17-26]
+317GAT(106)
+	["C880.blif" line: 102, columns:28-38]
+11 1
+.names
+8GAT(1)
+	["C880.blif" line: 104, columns:8-14]
+138GAT(33)
+	["C880.blif" line: 104, columns:16-25]
+309GAT(107)
+	["C880.blif" line: 104, columns:27-37]
+11 1
+.names
+1GAT(0)
+	["C880.blif" line: 106, columns:8-14]
+8GAT(1)
+	["C880.blif" line: 106, columns:16-22]
+13GAT(2)
+	["C880.blif" line: 106, columns:24-31]
+55GAT(9)
+	["C880.blif" line: 106, columns:33-40]
+280GAT(108)
+	["C880.blif" line: 106, columns:42-52]
+1111 0
+.names
+1GAT(0)
+	["C880.blif" line: 108, columns:8-14]
+8GAT(1)
+	["C880.blif" line: 108, columns:16-22]
+51GAT(8)
+	["C880.blif" line: 108, columns:24-31]
+17GAT(3)
+	["C880.blif" line: 108, columns:33-40]
+279GAT(109)
+	["C880.blif" line: 108, columns:42-52]
+1111 0
+.names
+1GAT(0)
+	["C880.blif" line: 110, columns:8-14]
+26GAT(4)
+	["C880.blif" line: 110, columns:16-23]
+51GAT(8)
+	["C880.blif" line: 110, columns:25-32]
+276GAT(110)
+	["C880.blif" line: 110, columns:34-44]
+111 1
+.names
+1GAT(0)
+	["C880.blif" line: 112, columns:8-14]
+26GAT(4)
+	["C880.blif" line: 112, columns:16-23]
+13GAT(2)
+	["C880.blif" line: 112, columns:25-32]
+17GAT(3)
+	["C880.blif" line: 112, columns:34-41]
+270GAT(111)
+	["C880.blif" line: 112, columns:43-53]
+1111 0
+.names
+1GAT(0)
+	["C880.blif" line: 114, columns:8-14]
+8GAT(1)
+	["C880.blif" line: 114, columns:16-22]
+13GAT(2)
+	["C880.blif" line: 114, columns:24-31]
+17GAT(3)
+	["C880.blif" line: 114, columns:33-40]
+269GAT(112)
+	["C880.blif" line: 114, columns:42-52]
+1111 0
+.names
+310GAT(60)
+	["C880.blif" line: 116, columns:8-17]
+369GAT(113)
+	["C880.blif" line: 116, columns:19-29]
+1 0
+.names
+330GAT(65)
+	["C880.blif" line: 118, columns:8-17]
+331GAT(64)
+	["C880.blif" line: 118, columns:19-28]
+385GAT(114)
+	["C880.blif" line: 118, columns:30-40]
+11 0
+.names
+328GAT(67)
+	["C880.blif" line: 120, columns:8-17]
+329GAT(66)
+	["C880.blif" line: 120, columns:19-28]
+382GAT(115)
+	["C880.blif" line: 120, columns:30-40]
+11 0
+.names
+326GAT(69)
+	["C880.blif" line: 122, columns:8-17]
+327GAT(68)
+	["C880.blif" line: 122, columns:19-28]
+379GAT(116)
+	["C880.blif" line: 122, columns:30-40]
+11 0
+.names
+324GAT(71)
+	["C880.blif" line: 124, columns:8-17]
+325GAT(70)
+	["C880.blif" line: 124, columns:19-28]
+376GAT(117)
+	["C880.blif" line: 124, columns:30-40]
+11 0
+.names
+307GAT(75)
+	["C880.blif" line: 126, columns:8-17]
+308GAT(74)
+	["C880.blif" line: 126, columns:19-28]
+366GAT(118)
+	["C880.blif" line: 126, columns:30-40]
+11 0
+.names
+305GAT(79)
+	["C880.blif" line: 128, columns:8-17]
+306GAT(78)
+	["C880.blif" line: 128, columns:19-28]
+363GAT(119)
+	["C880.blif" line: 128, columns:30-40]
+11 0
+.names
+303GAT(83)
+	["C880.blif" line: 130, columns:8-17]
+304GAT(82)
+	["C880.blif" line: 130, columns:19-28]
+360GAT(120)
+	["C880.blif" line: 130, columns:30-40]
+11 0
+.names
+301GAT(87)
+	["C880.blif" line: 132, columns:8-17]
+302GAT(86)
+	["C880.blif" line: 132, columns:19-28]
+357GAT(121)
+	["C880.blif" line: 132, columns:30-40]
+11 0
+.names
+90GAT(22)
+	["C880.blif" line: 134, columns:8-16]
+298GAT(88)
+	["C880.blif" line: 134, columns:18-27]
+356GAT(122)
+	["C880.blif" line: 134, columns:29-39]
+11 1
+.names
+89GAT(21)
+	["C880.blif" line: 136, columns:8-16]
+298GAT(88)
+	["C880.blif" line: 136, columns:18-27]
+355GAT(123)
+	["C880.blif" line: 136, columns:29-39]
+11 0
+.names
+297GAT(89)
+	["C880.blif" line: 138, columns:8-17]
+391GAT(124)
+	["C880.blif" line: 138, columns:19-29]
+1 1
+.names
+293GAT(91)
+	["C880.blif" line: 140, columns:8-17]
+351GAT(125)
+	["C880.blif" line: 140, columns:19-29]
+1 0
+.names
+280GAT(108)
+	["C880.blif" line: 142, columns:8-18]
+286GAT(92)
+	["C880.blif" line: 142, columns:20-29]
+350GAT(126)
+	["C880.blif" line: 142, columns:31-41]
+00 0
+.names
+294GAT(94)
+	["C880.blif" line: 144, columns:8-17]
+352GAT(127)
+	["C880.blif" line: 144, columns:19-29]
+1 0
+.names
+280GAT(108)
+	["C880.blif" line: 146, columns:8-18]
+284GAT(95)
+	["C880.blif" line: 146, columns:20-29]
+348GAT(128)
+	["C880.blif" line: 146, columns:31-41]
+00 1
+.names
+296GAT(96)
+	["C880.blif" line: 148, columns:8-17]
+354GAT(129)
+	["C880.blif" line: 148, columns:19-29]
+1 0
+.names
+295GAT(97)
+	["C880.blif" line: 150, columns:8-17]
+353GAT(130)
+	["C880.blif" line: 150, columns:19-29]
+1 0
+.names
+292GAT(98)
+	["C880.blif" line: 152, columns:8-17]
+390GAT(131)
+	["C880.blif" line: 152, columns:19-29]
+1 1
+.names
+291GAT(99)
+	["C880.blif" line: 154, columns:8-17]
+389GAT(132)
+	["C880.blif" line: 154, columns:19-29]
+1 1
+.names
+290GAT(100)
+	["C880.blif" line: 156, columns:8-18]
+388GAT(133)
+	["C880.blif" line: 156, columns:20-30]
+1 1
+.names
+280GAT(108)
+	["C880.blif" line: 158, columns:8-18]
+285GAT(102)
+	["C880.blif" line: 158, columns:20-30]
+349GAT(134)
+	["C880.blif" line: 158, columns:32-42]
+00 0
+.names
+273GAT(103)
+	["C880.blif" line: 160, columns:8-18]
+343GAT(135)
+	["C880.blif" line: 160, columns:20-30]
+1 0
+.names
+270GAT(111)
+	["C880.blif" line: 162, columns:8-18]
+273GAT(103)
+	["C880.blif" line: 162, columns:20-30]
+344GAT(136)
+	["C880.blif" line: 162, columns:32-42]
+00 0
+.names
+322GAT(105)
+	["C880.blif" line: 164, columns:8-18]
+323GAT(104)
+	["C880.blif" line: 164, columns:20-30]
+375GAT(137)
+	["C880.blif" line: 164, columns:32-42]
+00 1
+.names
+279GAT(109)
+	["C880.blif" line: 166, columns:8-18]
+347GAT(138)
+	["C880.blif" line: 166, columns:20-30]
+1 0
+.names
+276GAT(110)
+	["C880.blif" line: 168, columns:8-18]
+345GAT(139)
+	["C880.blif" line: 168, columns:20-30]
+1 0
+.names
+276GAT(110)
+	["C880.blif" line: 170, columns:8-18]
+346GAT(140)
+	["C880.blif" line: 170, columns:20-30]
+1 0
+.names
+269GAT(112)
+	["C880.blif" line: 172, columns:8-18]
+342GAT(141)
+	["C880.blif" line: 172, columns:20-30]
+1 0
+.names
+210GAT(49)
+	["C880.blif" line: 174, columns:8-17]
+369GAT(113)
+	["C880.blif" line: 174, columns:19-29]
+417GAT(142)
+	["C880.blif" line: 174, columns:31-41]
+11 1
+.names
+385GAT(114)
+	["C880.blif" line: 176, columns:8-18]
+415GAT(143)
+	["C880.blif" line: 176, columns:20-30]
+1 0
+.names
+382GAT(115)
+	["C880.blif" line: 178, columns:8-18]
+385GAT(114)
+	["C880.blif" line: 178, columns:20-30]
+416GAT(144)
+	["C880.blif" line: 178, columns:32-42]
+11 1
+.names
+382GAT(115)
+	["C880.blif" line: 180, columns:8-18]
+414GAT(145)
+	["C880.blif" line: 180, columns:20-30]
+1 0
+.names
+379GAT(116)
+	["C880.blif" line: 182, columns:8-18]
+412GAT(146)
+	["C880.blif" line: 182, columns:20-30]
+1 0
+.names
+376GAT(117)
+	["C880.blif" line: 184, columns:8-18]
+379GAT(116)
+	["C880.blif" line: 184, columns:20-30]
+413GAT(147)
+	["C880.blif" line: 184, columns:32-42]
+11 1
+.names
+376GAT(117)
+	["C880.blif" line: 186, columns:8-18]
+411GAT(148)
+	["C880.blif" line: 186, columns:20-30]
+1 0
+.names
+366GAT(118)
+	["C880.blif" line: 188, columns:8-18]
+408GAT(149)
+	["C880.blif" line: 188, columns:20-30]
+1 0
+.names
+363GAT(119)
+	["C880.blif" line: 190, columns:8-18]
+366GAT(118)
+	["C880.blif" line: 190, columns:20-30]
+409GAT(150)
+	["C880.blif" line: 190, columns:32-42]
+11 1
+.names
+363GAT(119)
+	["C880.blif" line: 192, columns:8-18]
+407GAT(151)
+	["C880.blif" line: 192, columns:20-30]
+1 0
+.names
+360GAT(120)
+	["C880.blif" line: 194, columns:8-18]
+405GAT(152)
+	["C880.blif" line: 194, columns:20-30]
+1 0
+.names
+357GAT(121)
+	["C880.blif" line: 196, columns:8-18]
+360GAT(120)
+	["C880.blif" line: 196, columns:20-30]
+406GAT(153)
+	["C880.blif" line: 196, columns:32-42]
+11 1
+.names
+357GAT(121)
+	["C880.blif" line: 198, columns:8-18]
+404GAT(154)
+	["C880.blif" line: 198, columns:20-30]
+1 0
+.names
+356GAT(122)
+	["C880.blif" line: 200, columns:8-18]
+423GAT(155)
+	["C880.blif" line: 200, columns:20-30]
+1 1
+.names
+355GAT(123)
+	["C880.blif" line: 202, columns:8-18]
+403GAT(156)
+	["C880.blif" line: 202, columns:20-30]
+1 0
+.names
+348GAT(128)
+	["C880.blif" line: 204, columns:8-18]
+73GAT(13)
+	["C880.blif" line: 204, columns:20-28]
+400GAT(157)
+	["C880.blif" line: 204, columns:30-40]
+11 1
+.names
+351GAT(125)
+	["C880.blif" line: 206, columns:8-18]
+420GAT(158)
+	["C880.blif" line: 206, columns:20-30]
+1 1
+.names
+350GAT(126)
+	["C880.blif" line: 208, columns:8-18]
+402GAT(159)
+	["C880.blif" line: 208, columns:20-30]
+1 0
+.names
+347GAT(138)
+	["C880.blif" line: 210, columns:8-18]
+352GAT(127)
+	["C880.blif" line: 210, columns:20-30]
+410GAT(160)
+	["C880.blif" line: 210, columns:32-42]
+11 0
+.names
+354GAT(129)
+	["C880.blif" line: 212, columns:8-18]
+422GAT(161)
+	["C880.blif" line: 212, columns:20-30]
+1 1
+.names
+353GAT(130)
+	["C880.blif" line: 214, columns:8-18]
+421GAT(162)
+	["C880.blif" line: 214, columns:20-30]
+1 1
+.names
+349GAT(134)
+	["C880.blif" line: 216, columns:8-18]
+401GAT(163)
+	["C880.blif" line: 216, columns:20-30]
+1 0
+.names
+344GAT(136)
+	["C880.blif" line: 218, columns:8-18]
+419GAT(164)
+	["C880.blif" line: 218, columns:20-30]
+1 1
+.names
+345GAT(139)
+	["C880.blif" line: 220, columns:8-18]
+393GAT(165)
+	["C880.blif" line: 220, columns:20-30]
+1 0
+.names
+346GAT(140)
+	["C880.blif" line: 222, columns:8-18]
+399GAT(166)
+	["C880.blif" line: 222, columns:20-30]
+1 0
+.names
+270GAT(111)
+	["C880.blif" line: 224, columns:8-18]
+343GAT(135)
+	["C880.blif" line: 224, columns:20-30]
+392GAT(167)
+	["C880.blif" line: 224, columns:32-42]
+00 0
+.names
+342GAT(141)
+	["C880.blif" line: 226, columns:8-18]
+418GAT(168)
+	["C880.blif" line: 226, columns:20-30]
+1 1
+.names
+414GAT(145)
+	["C880.blif" line: 228, columns:8-18]
+415GAT(143)
+	["C880.blif" line: 228, columns:20-30]
+445GAT(169)
+	["C880.blif" line: 228, columns:32-42]
+11 1
+.names
+411GAT(148)
+	["C880.blif" line: 230, columns:8-18]
+412GAT(146)
+	["C880.blif" line: 230, columns:20-30]
+444GAT(170)
+	["C880.blif" line: 230, columns:32-42]
+11 1
+.names
+407GAT(151)
+	["C880.blif" line: 232, columns:8-18]
+408GAT(149)
+	["C880.blif" line: 232, columns:20-30]
+426GAT(171)
+	["C880.blif" line: 232, columns:32-42]
+11 1
+.names
+404GAT(154)
+	["C880.blif" line: 234, columns:8-18]
+405GAT(152)
+	["C880.blif" line: 234, columns:20-30]
+425GAT(172)
+	["C880.blif" line: 234, columns:32-42]
+11 1
+.names
+403GAT(156)
+	["C880.blif" line: 236, columns:8-18]
+450GAT(173)
+	["C880.blif" line: 236, columns:20-30]
+1 1
+.names
+400GAT(157)
+	["C880.blif" line: 238, columns:8-18]
+424GAT(174)
+	["C880.blif" line: 238, columns:20-30]
+1 0
+.names
+375GAT(137)
+	["C880.blif" line: 240, columns:8-18]
+59GAT(10)
+	["C880.blif" line: 240, columns:20-28]
+156GAT(39)
+	["C880.blif" line: 240, columns:30-39]
+393GAT(165)
+	["C880.blif" line: 240, columns:41-51]
+442GAT(175)
+	["C880.blif" line: 240, columns:53-63]
+1111 0
+.names
+402GAT(159)
+	["C880.blif" line: 242, columns:8-18]
+449GAT(176)
+	["C880.blif" line: 242, columns:20-30]
+1 1
+.names
+393GAT(165)
+	["C880.blif" line: 244, columns:8-18]
+287GAT(101)
+	["C880.blif" line: 244, columns:20-30]
+55GAT(9)
+	["C880.blif" line: 244, columns:32-39]
+437GAT(177)
+	["C880.blif" line: 244, columns:41-51]
+111 0
+.names
+319GAT(90)
+	["C880.blif" line: 246, columns:8-17]
+393GAT(165)
+	["C880.blif" line: 246, columns:19-29]
+55GAT(9)
+	["C880.blif" line: 246, columns:31-38]
+427GAT(178)
+	["C880.blif" line: 246, columns:40-50]
+111 1
+.names
+401GAT(163)
+	["C880.blif" line: 248, columns:8-18]
+448GAT(179)
+	["C880.blif" line: 248, columns:20-30]
+1 1
+.names
+393GAT(165)
+	["C880.blif" line: 250, columns:8-18]
+319GAT(90)
+	["C880.blif" line: 250, columns:20-29]
+17GAT(3)
+	["C880.blif" line: 250, columns:31-38]
+443GAT(180)
+	["C880.blif" line: 250, columns:40-50]
+111 0
+.names
+393GAT(165)
+	["C880.blif" line: 252, columns:8-18]
+17GAT(3)
+	["C880.blif" line: 252, columns:20-27]
+287GAT(101)
+	["C880.blif" line: 252, columns:29-39]
+432GAT(181)
+	["C880.blif" line: 252, columns:41-51]
+111 1
+.names
+399GAT(166)
+	["C880.blif" line: 254, columns:8-18]
+447GAT(182)
+	["C880.blif" line: 254, columns:20-30]
+1 1
+.names
+392GAT(167)
+	["C880.blif" line: 256, columns:8-18]
+446GAT(183)
+	["C880.blif" line: 256, columns:20-30]
+1 1
+.names
+369GAT(113)
+	["C880.blif" line: 258, columns:8-18]
+437GAT(177)
+	["C880.blif" line: 258, columns:20-30]
+488GAT(184)
+	["C880.blif" line: 258, columns:32-42]
+00 0
+.names
+369GAT(113)
+	["C880.blif" line: 260, columns:8-18]
+437GAT(177)
+	["C880.blif" line: 260, columns:20-30]
+489GAT(185)
+	["C880.blif" line: 260, columns:32-42]
+00 0
+.names
+369GAT(113)
+	["C880.blif" line: 262, columns:8-18]
+437GAT(177)
+	["C880.blif" line: 262, columns:20-30]
+490GAT(186)
+	["C880.blif" line: 262, columns:32-42]
+00 0
+.names
+369GAT(113)
+	["C880.blif" line: 264, columns:8-18]
+437GAT(177)
+	["C880.blif" line: 264, columns:20-30]
+491GAT(187)
+	["C880.blif" line: 264, columns:32-42]
+00 0
+.names
+310GAT(60)
+	["C880.blif" line: 266, columns:8-17]
+432GAT(181)
+	["C880.blif" line: 266, columns:19-29]
+476GAT(188)
+	["C880.blif" line: 266, columns:31-41]
+11 1
+.names
+310GAT(60)
+	["C880.blif" line: 268, columns:8-17]
+432GAT(181)
+	["C880.blif" line: 268, columns:19-29]
+478GAT(189)
+	["C880.blif" line: 268, columns:31-41]
+11 1
+.names
+310GAT(60)
+	["C880.blif" line: 270, columns:8-17]
+432GAT(181)
+	["C880.blif" line: 270, columns:19-29]
+480GAT(190)
+	["C880.blif" line: 270, columns:31-41]
+11 1
+.names
+310GAT(60)
+	["C880.blif" line: 272, columns:8-17]
+432GAT(181)
+	["C880.blif" line: 272, columns:19-29]
+482GAT(191)
+	["C880.blif" line: 272, columns:31-41]
+11 1
+.names
+416GAT(144)
+	["C880.blif" line: 274, columns:8-18]
+445GAT(169)
+	["C880.blif" line: 274, columns:20-30]
+495GAT(192)
+	["C880.blif" line: 274, columns:32-42]
+00 1
+.names
+413GAT(147)
+	["C880.blif" line: 276, columns:8-18]
+444GAT(170)
+	["C880.blif" line: 276, columns:20-30]
+492GAT(193)
+	["C880.blif" line: 276, columns:32-42]
+00 1
+.names
+153GAT(38)
+	["C880.blif" line: 278, columns:8-17]
+427GAT(178)
+	["C880.blif" line: 278, columns:19-29]
+481GAT(194)
+	["C880.blif" line: 278, columns:31-41]
+11 1
+.names
+149GAT(36)
+	["C880.blif" line: 280, columns:8-17]
+427GAT(178)
+	["C880.blif" line: 280, columns:19-29]
+479GAT(195)
+	["C880.blif" line: 280, columns:31-41]
+11 1
+.names
+146GAT(35)
+	["C880.blif" line: 282, columns:8-17]
+427GAT(178)
+	["C880.blif" line: 282, columns:19-29]
+477GAT(196)
+	["C880.blif" line: 282, columns:31-41]
+11 1
+.names
+143GAT(34)
+	["C880.blif" line: 284, columns:8-17]
+427GAT(178)
+	["C880.blif" line: 284, columns:19-29]
+475GAT(197)
+	["C880.blif" line: 284, columns:31-41]
+11 1
+.names
+409GAT(150)
+	["C880.blif" line: 286, columns:8-18]
+426GAT(171)
+	["C880.blif" line: 286, columns:20-30]
+463GAT(198)
+	["C880.blif" line: 286, columns:32-42]
+00 1
+.names
+406GAT(153)
+	["C880.blif" line: 288, columns:8-18]
+425GAT(172)
+	["C880.blif" line: 288, columns:20-30]
+460GAT(199)
+	["C880.blif" line: 288, columns:32-42]
+00 1
+.names
+424GAT(174)
+	["C880.blif" line: 290, columns:8-18]
+451GAT(200)
+	["C880.blif" line: 290, columns:20-30]
+1 0
+.names
+442GAT(175)
+	["C880.blif" line: 292, columns:8-18]
+410GAT(160)
+	["C880.blif" line: 292, columns:20-30]
+466GAT(201)
+	["C880.blif" line: 292, columns:32-42]
+11 0
+.names
+443GAT(180)
+	["C880.blif" line: 294, columns:8-18]
+1GAT(0)
+	["C880.blif" line: 294, columns:20-26]
+483GAT(202)
+	["C880.blif" line: 294, columns:28-38]
+11 0
+.names
+475GAT(197)
+	["C880.blif" line: 296, columns:8-18]
+476GAT(188)
+	["C880.blif" line: 296, columns:20-30]
+503GAT(203)
+	["C880.blif" line: 296, columns:32-42]
+00 1
+.names
+477GAT(196)
+	["C880.blif" line: 298, columns:8-18]
+478GAT(189)
+	["C880.blif" line: 298, columns:20-30]
+505GAT(204)
+	["C880.blif" line: 298, columns:32-42]
+00 1
+.names
+479GAT(195)
+	["C880.blif" line: 300, columns:8-18]
+480GAT(190)
+	["C880.blif" line: 300, columns:20-30]
+507GAT(205)
+	["C880.blif" line: 300, columns:32-42]
+00 1
+.names
+481GAT(194)
+	["C880.blif" line: 302, columns:8-18]
+482GAT(191)
+	["C880.blif" line: 302, columns:20-30]
+509GAT(206)
+	["C880.blif" line: 302, columns:32-42]
+00 1
+.names
+495GAT(192)
+	["C880.blif" line: 304, columns:8-18]
+207GAT(48)
+	["C880.blif" line: 304, columns:20-29]
+521GAT(207)
+	["C880.blif" line: 304, columns:31-41]
+00 0
+.names
+495GAT(192)
+	["C880.blif" line: 306, columns:8-18]
+207GAT(48)
+	["C880.blif" line: 306, columns:20-29]
+520GAT(208)
+	["C880.blif" line: 306, columns:31-41]
+11 0
+.names
+451GAT(200)
+	["C880.blif" line: 308, columns:8-18]
+201GAT(47)
+	["C880.blif" line: 308, columns:20-29]
+529GAT(209)
+	["C880.blif" line: 308, columns:31-41]
+11 0
+.names
+451GAT(200)
+	["C880.blif" line: 310, columns:8-18]
+195GAT(46)
+	["C880.blif" line: 310, columns:20-29]
+528GAT(210)
+	["C880.blif" line: 310, columns:31-41]
+11 0
+.names
+451GAT(200)
+	["C880.blif" line: 312, columns:8-18]
+189GAT(45)
+	["C880.blif" line: 312, columns:20-29]
+527GAT(211)
+	["C880.blif" line: 312, columns:31-41]
+11 0
+.names
+451GAT(200)
+	["C880.blif" line: 314, columns:8-18]
+183GAT(44)
+	["C880.blif" line: 314, columns:20-29]
+526GAT(212)
+	["C880.blif" line: 314, columns:31-41]
+11 1
+.names
+451GAT(200)
+	["C880.blif" line: 316, columns:8-18]
+177GAT(43)
+	["C880.blif" line: 316, columns:20-29]
+525GAT(213)
+	["C880.blif" line: 316, columns:31-41]
+11 1
+.names
+451GAT(200)
+	["C880.blif" line: 318, columns:8-18]
+171GAT(42)
+	["C880.blif" line: 318, columns:20-29]
+524GAT(214)
+	["C880.blif" line: 318, columns:31-41]
+11 1
+.names
+451GAT(200)
+	["C880.blif" line: 320, columns:8-18]
+165GAT(41)
+	["C880.blif" line: 320, columns:20-29]
+523GAT(215)
+	["C880.blif" line: 320, columns:31-41]
+11 1
+.names
+451GAT(200)
+	["C880.blif" line: 322, columns:8-18]
+159GAT(40)
+	["C880.blif" line: 322, columns:20-29]
+522GAT(216)
+	["C880.blif" line: 322, columns:31-41]
+11 1
+.names
+153GAT(38)
+	["C880.blif" line: 324, columns:8-17]
+483GAT(202)
+	["C880.blif" line: 324, columns:19-29]
+516GAT(217)
+	["C880.blif" line: 324, columns:31-41]
+11 1
+.names
+149GAT(36)
+	["C880.blif" line: 326, columns:8-17]
+483GAT(202)
+	["C880.blif" line: 326, columns:19-29]
+514GAT(218)
+	["C880.blif" line: 326, columns:31-41]
+11 1
+.names
+146GAT(35)
+	["C880.blif" line: 328, columns:8-17]
+483GAT(202)
+	["C880.blif" line: 328, columns:19-29]
+512GAT(219)
+	["C880.blif" line: 328, columns:31-41]
+11 1
+.names
+143GAT(34)
+	["C880.blif" line: 330, columns:8-17]
+483GAT(202)
+	["C880.blif" line: 330, columns:19-29]
+510GAT(220)
+	["C880.blif" line: 330, columns:31-41]
+11 1
+.names
+463GAT(198)
+	["C880.blif" line: 332, columns:8-18]
+135GAT(32)
+	["C880.blif" line: 332, columns:20-29]
+501GAT(221)
+	["C880.blif" line: 332, columns:31-41]
+00 0
+.names
+463GAT(198)
+	["C880.blif" line: 334, columns:8-18]
+135GAT(32)
+	["C880.blif" line: 334, columns:20-29]
+500GAT(222)
+	["C880.blif" line: 334, columns:31-41]
+11 0
+.names
+130GAT(31)
+	["C880.blif" line: 336, columns:8-17]
+492GAT(193)
+	["C880.blif" line: 336, columns:19-29]
+519GAT(223)
+	["C880.blif" line: 336, columns:31-41]
+00 0
+.names
+130GAT(31)
+	["C880.blif" line: 338, columns:8-17]
+492GAT(193)
+	["C880.blif" line: 338, columns:19-29]
+518GAT(224)
+	["C880.blif" line: 338, columns:31-41]
+11 0
+.names
+130GAT(31)
+	["C880.blif" line: 340, columns:8-17]
+460GAT(199)
+	["C880.blif" line: 340, columns:19-29]
+499GAT(225)
+	["C880.blif" line: 340, columns:31-41]
+00 0
+.names
+130GAT(31)
+	["C880.blif" line: 342, columns:8-17]
+460GAT(199)
+	["C880.blif" line: 342, columns:19-29]
+498GAT(226)
+	["C880.blif" line: 342, columns:31-41]
+11 0
+.names
+126GAT(30)
+	["C880.blif" line: 344, columns:8-17]
+466GAT(201)
+	["C880.blif" line: 344, columns:19-29]
+517GAT(227)
+	["C880.blif" line: 344, columns:31-41]
+11 1
+.names
+121GAT(29)
+	["C880.blif" line: 346, columns:8-17]
+466GAT(201)
+	["C880.blif" line: 346, columns:19-29]
+515GAT(228)
+	["C880.blif" line: 346, columns:31-41]
+11 1
+.names
+116GAT(28)
+	["C880.blif" line: 348, columns:8-17]
+466GAT(201)
+	["C880.blif" line: 348, columns:19-29]
+513GAT(229)
+	["C880.blif" line: 348, columns:31-41]
+11 1
+.names
+111GAT(27)
+	["C880.blif" line: 350, columns:8-17]
+466GAT(201)
+	["C880.blif" line: 350, columns:19-29]
+511GAT(230)
+	["C880.blif" line: 350, columns:31-41]
+11 1
+.names
+106GAT(26)
+	["C880.blif" line: 352, columns:8-17]
+466GAT(201)
+	["C880.blif" line: 352, columns:19-29]
+508GAT(231)
+	["C880.blif" line: 352, columns:31-41]
+11 1
+.names
+101GAT(25)
+	["C880.blif" line: 354, columns:8-17]
+466GAT(201)
+	["C880.blif" line: 354, columns:19-29]
+506GAT(232)
+	["C880.blif" line: 354, columns:31-41]
+11 1
+.names
+96GAT(24)
+	["C880.blif" line: 356, columns:8-16]
+466GAT(201)
+	["C880.blif" line: 356, columns:18-28]
+504GAT(233)
+	["C880.blif" line: 356, columns:30-40]
+11 1
+.names
+91GAT(23)
+	["C880.blif" line: 358, columns:8-16]
+466GAT(201)
+	["C880.blif" line: 358, columns:18-28]
+502GAT(234)
+	["C880.blif" line: 358, columns:30-40]
+11 1
+.names
+520GAT(208)
+	["C880.blif" line: 360, columns:8-18]
+521GAT(207)
+	["C880.blif" line: 360, columns:20-30]
+547GAT(235)
+	["C880.blif" line: 360, columns:32-42]
+11 0
+.names
+516GAT(217)
+	["C880.blif" line: 362, columns:8-18]
+517GAT(227)
+	["C880.blif" line: 362, columns:20-30]
+543GAT(236)
+	["C880.blif" line: 362, columns:32-42]
+00 1
+.names
+514GAT(218)
+	["C880.blif" line: 364, columns:8-18]
+515GAT(228)
+	["C880.blif" line: 364, columns:20-30]
+542GAT(237)
+	["C880.blif" line: 364, columns:32-42]
+00 1
+.names
+512GAT(219)
+	["C880.blif" line: 366, columns:8-18]
+513GAT(229)
+	["C880.blif" line: 366, columns:20-30]
+541GAT(238)
+	["C880.blif" line: 366, columns:32-42]
+00 1
+.names
+510GAT(220)
+	["C880.blif" line: 368, columns:8-18]
+511GAT(230)
+	["C880.blif" line: 368, columns:20-30]
+540GAT(239)
+	["C880.blif" line: 368, columns:32-42]
+00 1
+.names
+318GAT(72)
+	["C880.blif" line: 370, columns:8-17]
+508GAT(231)
+	["C880.blif" line: 370, columns:19-29]
+539GAT(240)
+	["C880.blif" line: 370, columns:31-41]
+00 1
+.names
+500GAT(222)
+	["C880.blif" line: 372, columns:8-18]
+501GAT(221)
+	["C880.blif" line: 372, columns:20-30]
+533GAT(241)
+	["C880.blif" line: 372, columns:32-42]
+11 0
+.names
+518GAT(224)
+	["C880.blif" line: 374, columns:8-18]
+519GAT(223)
+	["C880.blif" line: 374, columns:20-30]
+544GAT(242)
+	["C880.blif" line: 374, columns:32-42]
+11 0
+.names
+498GAT(226)
+	["C880.blif" line: 376, columns:8-18]
+499GAT(225)
+	["C880.blif" line: 376, columns:20-30]
+530GAT(243)
+	["C880.blif" line: 376, columns:32-42]
+11 0
+.names
+316GAT(93)
+	["C880.blif" line: 378, columns:8-17]
+504GAT(233)
+	["C880.blif" line: 378, columns:19-29]
+537GAT(244)
+	["C880.blif" line: 378, columns:31-41]
+00 1
+.names
+317GAT(106)
+	["C880.blif" line: 380, columns:8-18]
+506GAT(232)
+	["C880.blif" line: 380, columns:20-30]
+538GAT(245)
+	["C880.blif" line: 380, columns:32-42]
+00 1
+.names
+309GAT(107)
+	["C880.blif" line: 382, columns:8-18]
+502GAT(234)
+	["C880.blif" line: 382, columns:20-30]
+536GAT(246)
+	["C880.blif" line: 382, columns:32-42]
+00 1
+.names
+488GAT(184)
+	["C880.blif" line: 384, columns:8-18]
+540GAT(239)
+	["C880.blif" line: 384, columns:20-30]
+569GAT(247)
+	["C880.blif" line: 384, columns:32-42]
+11 0
+.names
+489GAT(185)
+	["C880.blif" line: 386, columns:8-18]
+541GAT(238)
+	["C880.blif" line: 386, columns:20-30]
+573GAT(248)
+	["C880.blif" line: 386, columns:32-42]
+11 0
+.names
+490GAT(186)
+	["C880.blif" line: 388, columns:8-18]
+542GAT(237)
+	["C880.blif" line: 388, columns:20-30]
+577GAT(249)
+	["C880.blif" line: 388, columns:32-42]
+11 0
+.names
+491GAT(187)
+	["C880.blif" line: 390, columns:8-18]
+543GAT(236)
+	["C880.blif" line: 390, columns:20-30]
+581GAT(250)
+	["C880.blif" line: 390, columns:32-42]
+11 0
+.names
+536GAT(246)
+	["C880.blif" line: 392, columns:8-18]
+503GAT(203)
+	["C880.blif" line: 392, columns:20-30]
+553GAT(251)
+	["C880.blif" line: 392, columns:32-42]
+11 0
+.names
+537GAT(244)
+	["C880.blif" line: 394, columns:8-18]
+505GAT(204)
+	["C880.blif" line: 394, columns:20-30]
+557GAT(252)
+	["C880.blif" line: 394, columns:32-42]
+11 0
+.names
+538GAT(245)
+	["C880.blif" line: 396, columns:8-18]
+507GAT(205)
+	["C880.blif" line: 396, columns:20-30]
+561GAT(253)
+	["C880.blif" line: 396, columns:32-42]
+11 0
+.names
+539GAT(240)
+	["C880.blif" line: 398, columns:8-18]
+509GAT(206)
+	["C880.blif" line: 398, columns:20-30]
+565GAT(254)
+	["C880.blif" line: 398, columns:32-42]
+11 0
+.names
+547GAT(235)
+	["C880.blif" line: 400, columns:8-18]
+586GAT(255)
+	["C880.blif" line: 400, columns:20-30]
+1 0
+.names
+544GAT(242)
+	["C880.blif" line: 402, columns:8-18]
+547GAT(235)
+	["C880.blif" line: 402, columns:20-30]
+587GAT(256)
+	["C880.blif" line: 402, columns:32-42]
+11 1
+.names
+533GAT(241)
+	["C880.blif" line: 404, columns:8-18]
+551GAT(257)
+	["C880.blif" line: 404, columns:20-30]
+1 0
+.names
+530GAT(243)
+	["C880.blif" line: 406, columns:8-18]
+533GAT(241)
+	["C880.blif" line: 406, columns:20-30]
+552GAT(258)
+	["C880.blif" line: 406, columns:32-42]
+11 1
+.names
+544GAT(242)
+	["C880.blif" line: 408, columns:8-18]
+585GAT(259)
+	["C880.blif" line: 408, columns:20-30]
+1 0
+.names
+530GAT(243)
+	["C880.blif" line: 410, columns:8-18]
+550GAT(260)
+	["C880.blif" line: 410, columns:20-30]
+1 0
+.names
+246GAT(53)
+	["C880.blif" line: 412, columns:8-17]
+581GAT(250)
+	["C880.blif" line: 412, columns:19-29]
+659GAT(261)
+	["C880.blif" line: 412, columns:31-41]
+11 1
+.names
+246GAT(53)
+	["C880.blif" line: 414, columns:8-17]
+577GAT(249)
+	["C880.blif" line: 414, columns:19-29]
+650GAT(262)
+	["C880.blif" line: 414, columns:31-41]
+11 1
+.names
+246GAT(53)
+	["C880.blif" line: 416, columns:8-17]
+573GAT(248)
+	["C880.blif" line: 416, columns:19-29]
+640GAT(263)
+	["C880.blif" line: 416, columns:31-41]
+11 1
+.names
+246GAT(53)
+	["C880.blif" line: 418, columns:8-17]
+569GAT(247)
+	["C880.blif" line: 418, columns:19-29]
+631GAT(264)
+	["C880.blif" line: 418, columns:31-41]
+11 1
+.names
+246GAT(53)
+	["C880.blif" line: 420, columns:8-17]
+565GAT(254)
+	["C880.blif" line: 420, columns:19-29]
+624GAT(265)
+	["C880.blif" line: 420, columns:31-41]
+11 1
+.names
+246GAT(53)
+	["C880.blif" line: 422, columns:8-17]
+561GAT(253)
+	["C880.blif" line: 422, columns:19-29]
+615GAT(266)
+	["C880.blif" line: 422, columns:31-41]
+11 1
+.names
+246GAT(53)
+	["C880.blif" line: 424, columns:8-17]
+557GAT(252)
+	["C880.blif" line: 424, columns:19-29]
+605GAT(267)
+	["C880.blif" line: 424, columns:31-41]
+11 1
+.names
+246GAT(53)
+	["C880.blif" line: 426, columns:8-17]
+553GAT(251)
+	["C880.blif" line: 426, columns:19-29]
+596GAT(268)
+	["C880.blif" line: 426, columns:31-41]
+11 1
+.names
+585GAT(259)
+	["C880.blif" line: 428, columns:8-18]
+586GAT(255)
+	["C880.blif" line: 428, columns:20-30]
+589GAT(269)
+	["C880.blif" line: 428, columns:32-42]
+11 1
+.names
+581GAT(250)
+	["C880.blif" line: 430, columns:8-18]
+201GAT(47)
+	["C880.blif" line: 430, columns:20-29]
+654GAT(270)
+	["C880.blif" line: 430, columns:31-41]
+00 0
+.names
+581GAT(250)
+	["C880.blif" line: 432, columns:8-18]
+201GAT(47)
+	["C880.blif" line: 432, columns:20-29]
+651GAT(271)
+	["C880.blif" line: 432, columns:31-41]
+11 0
+.names
+577GAT(249)
+	["C880.blif" line: 434, columns:8-18]
+195GAT(46)
+	["C880.blif" line: 434, columns:20-29]
+644GAT(272)
+	["C880.blif" line: 434, columns:31-41]
+00 0
+.names
+577GAT(249)
+	["C880.blif" line: 436, columns:8-18]
+195GAT(46)
+	["C880.blif" line: 436, columns:20-29]
+641GAT(273)
+	["C880.blif" line: 436, columns:31-41]
+11 0
+.names
+573GAT(248)
+	["C880.blif" line: 438, columns:8-18]
+189GAT(45)
+	["C880.blif" line: 438, columns:20-29]
+635GAT(274)
+	["C880.blif" line: 438, columns:31-41]
+00 0
+.names
+573GAT(248)
+	["C880.blif" line: 440, columns:8-18]
+189GAT(45)
+	["C880.blif" line: 440, columns:20-29]
+632GAT(275)
+	["C880.blif" line: 440, columns:31-41]
+11 0
+.names
+569GAT(247)
+	["C880.blif" line: 442, columns:8-18]
+183GAT(44)
+	["C880.blif" line: 442, columns:20-29]
+628GAT(276)
+	["C880.blif" line: 442, columns:31-41]
+00 0
+.names
+569GAT(247)
+	["C880.blif" line: 444, columns:8-18]
+183GAT(44)
+	["C880.blif" line: 444, columns:20-29]
+625GAT(277)
+	["C880.blif" line: 444, columns:31-41]
+11 0
+.names
+565GAT(254)
+	["C880.blif" line: 446, columns:8-18]
+177GAT(43)
+	["C880.blif" line: 446, columns:20-29]
+619GAT(278)
+	["C880.blif" line: 446, columns:31-41]
+00 0
+.names
+565GAT(254)
+	["C880.blif" line: 448, columns:8-18]
+177GAT(43)
+	["C880.blif" line: 448, columns:20-29]
+616GAT(279)
+	["C880.blif" line: 448, columns:31-41]
+11 0
+.names
+561GAT(253)
+	["C880.blif" line: 450, columns:8-18]
+171GAT(42)
+	["C880.blif" line: 450, columns:20-29]
+609GAT(280)
+	["C880.blif" line: 450, columns:31-41]
+00 0
+.names
+561GAT(253)
+	["C880.blif" line: 452, columns:8-18]
+171GAT(42)
+	["C880.blif" line: 452, columns:20-29]
+606GAT(281)
+	["C880.blif" line: 452, columns:31-41]
+11 0
+.names
+557GAT(252)
+	["C880.blif" line: 454, columns:8-18]
+165GAT(41)
+	["C880.blif" line: 454, columns:20-29]
+600GAT(282)
+	["C880.blif" line: 454, columns:31-41]
+00 0
+.names
+557GAT(252)
+	["C880.blif" line: 456, columns:8-18]
+165GAT(41)
+	["C880.blif" line: 456, columns:20-29]
+597GAT(283)
+	["C880.blif" line: 456, columns:31-41]
+11 0
+.names
+553GAT(251)
+	["C880.blif" line: 458, columns:8-18]
+159GAT(40)
+	["C880.blif" line: 458, columns:20-29]
+593GAT(284)
+	["C880.blif" line: 458, columns:31-41]
+00 0
+.names
+553GAT(251)
+	["C880.blif" line: 460, columns:8-18]
+159GAT(40)
+	["C880.blif" line: 460, columns:20-29]
+590GAT(285)
+	["C880.blif" line: 460, columns:31-41]
+11 0
+.names
+550GAT(260)
+	["C880.blif" line: 462, columns:8-18]
+551GAT(257)
+	["C880.blif" line: 462, columns:20-30]
+588GAT(286)
+	["C880.blif" line: 462, columns:32-42]
+11 1
+.names
+635GAT(274)
+	["C880.blif" line: 464, columns:8-18]
+644GAT(272)
+	["C880.blif" line: 464, columns:20-30]
+654GAT(270)
+	["C880.blif" line: 464, columns:32-42]
+261GAT(57)
+	["C880.blif" line: 464, columns:44-53]
+734GAT(287)
+	["C880.blif" line: 464, columns:55-65]
+1111 0
+.names
+644GAT(272)
+	["C880.blif" line: 466, columns:8-18]
+654GAT(270)
+	["C880.blif" line: 466, columns:20-30]
+261GAT(57)
+	["C880.blif" line: 466, columns:32-41]
+733GAT(288)
+	["C880.blif" line: 466, columns:43-53]
+111 0
+.names
+654GAT(270)
+	["C880.blif" line: 468, columns:8-18]
+261GAT(57)
+	["C880.blif" line: 468, columns:20-29]
+732GAT(289)
+	["C880.blif" line: 468, columns:31-41]
+11 0
+.names
+341GAT(61)
+	["C880.blif" line: 470, columns:8-17]
+659GAT(261)
+	["C880.blif" line: 470, columns:19-29]
+731GAT(290)
+	["C880.blif" line: 470, columns:31-41]
+00 1
+.names
+339GAT(62)
+	["C880.blif" line: 472, columns:8-17]
+650GAT(262)
+	["C880.blif" line: 472, columns:19-29]
+721GAT(291)
+	["C880.blif" line: 472, columns:31-41]
+00 1
+.names
+337GAT(63)
+	["C880.blif" line: 474, columns:8-17]
+640GAT(263)
+	["C880.blif" line: 474, columns:19-29]
+712GAT(292)
+	["C880.blif" line: 474, columns:31-41]
+00 1
+.names
+587GAT(256)
+	["C880.blif" line: 476, columns:8-18]
+589GAT(269)
+	["C880.blif" line: 476, columns:20-30]
+661GAT(293)
+	["C880.blif" line: 476, columns:32-42]
+00 1
+.names
+654GAT(270)
+	["C880.blif" line: 478, columns:8-18]
+651GAT(271)
+	["C880.blif" line: 478, columns:20-30]
+727GAT(294)
+	["C880.blif" line: 478, columns:32-42]
+11 1
+.names
+651GAT(271)
+	["C880.blif" line: 480, columns:8-18]
+722GAT(295)
+	["C880.blif" line: 480, columns:20-30]
+1 0
+.names
+644GAT(272)
+	["C880.blif" line: 482, columns:8-18]
+641GAT(273)
+	["C880.blif" line: 482, columns:20-30]
+717GAT(296)
+	["C880.blif" line: 482, columns:32-42]
+11 1
+.names
+641GAT(273)
+	["C880.blif" line: 484, columns:8-18]
+713GAT(297)
+	["C880.blif" line: 484, columns:20-30]
+1 0
+.names
+635GAT(274)
+	["C880.blif" line: 486, columns:8-18]
+632GAT(275)
+	["C880.blif" line: 486, columns:20-30]
+708GAT(298)
+	["C880.blif" line: 486, columns:32-42]
+11 1
+.names
+632GAT(275)
+	["C880.blif" line: 488, columns:8-18]
+705GAT(299)
+	["C880.blif" line: 488, columns:20-30]
+1 0
+.names
+628GAT(276)
+	["C880.blif" line: 490, columns:8-18]
+625GAT(277)
+	["C880.blif" line: 490, columns:20-30]
+700GAT(300)
+	["C880.blif" line: 490, columns:32-42]
+11 1
+.names
+625GAT(277)
+	["C880.blif" line: 492, columns:8-18]
+697GAT(301)
+	["C880.blif" line: 492, columns:20-30]
+1 0
+.names
+631GAT(264)
+	["C880.blif" line: 494, columns:8-18]
+526GAT(212)
+	["C880.blif" line: 494, columns:20-30]
+704GAT(302)
+	["C880.blif" line: 494, columns:32-42]
+00 1
+.names
+619GAT(278)
+	["C880.blif" line: 496, columns:8-18]
+616GAT(279)
+	["C880.blif" line: 496, columns:20-30]
+692GAT(303)
+	["C880.blif" line: 496, columns:32-42]
+11 1
+.names
+616GAT(279)
+	["C880.blif" line: 498, columns:8-18]
+687GAT(304)
+	["C880.blif" line: 498, columns:20-30]
+1 0
+.names
+624GAT(265)
+	["C880.blif" line: 500, columns:8-18]
+525GAT(213)
+	["C880.blif" line: 500, columns:20-30]
+696GAT(305)
+	["C880.blif" line: 500, columns:32-42]
+00 1
+.names
+609GAT(280)
+	["C880.blif" line: 502, columns:8-18]
+606GAT(281)
+	["C880.blif" line: 502, columns:20-30]
+682GAT(306)
+	["C880.blif" line: 502, columns:32-42]
+11 1
+.names
+606GAT(281)
+	["C880.blif" line: 504, columns:8-18]
+678GAT(307)
+	["C880.blif" line: 504, columns:20-30]
+1 0
+.names
+615GAT(266)
+	["C880.blif" line: 506, columns:8-18]
+524GAT(214)
+	["C880.blif" line: 506, columns:20-30]
+686GAT(308)
+	["C880.blif" line: 506, columns:32-42]
+00 1
+.names
+600GAT(282)
+	["C880.blif" line: 508, columns:8-18]
+597GAT(283)
+	["C880.blif" line: 508, columns:20-30]
+673GAT(309)
+	["C880.blif" line: 508, columns:32-42]
+11 1
+.names
+597GAT(283)
+	["C880.blif" line: 510, columns:8-18]
+670GAT(310)
+	["C880.blif" line: 510, columns:20-30]
+1 0
+.names
+605GAT(267)
+	["C880.blif" line: 512, columns:8-18]
+523GAT(215)
+	["C880.blif" line: 512, columns:20-30]
+677GAT(311)
+	["C880.blif" line: 512, columns:32-42]
+00 1
+.names
+593GAT(284)
+	["C880.blif" line: 514, columns:8-18]
+590GAT(285)
+	["C880.blif" line: 514, columns:20-30]
+665GAT(312)
+	["C880.blif" line: 514, columns:32-42]
+11 1
+.names
+590GAT(285)
+	["C880.blif" line: 516, columns:8-18]
+662GAT(313)
+	["C880.blif" line: 516, columns:20-30]
+1 0
+.names
+596GAT(268)
+	["C880.blif" line: 518, columns:8-18]
+522GAT(216)
+	["C880.blif" line: 518, columns:20-30]
+669GAT(314)
+	["C880.blif" line: 518, columns:32-42]
+00 1
+.names
+552GAT(258)
+	["C880.blif" line: 520, columns:8-18]
+588GAT(286)
+	["C880.blif" line: 520, columns:20-30]
+660GAT(315)
+	["C880.blif" line: 520, columns:32-42]
+00 1
+.names
+727GAT(294)
+	["C880.blif" line: 522, columns:8-18]
+261GAT(57)
+	["C880.blif" line: 522, columns:20-29]
+758GAT(316)
+	["C880.blif" line: 522, columns:31-41]
+11 1
+.names
+727GAT(294)
+	["C880.blif" line: 524, columns:8-18]
+261GAT(57)
+	["C880.blif" line: 524, columns:20-29]
+757GAT(317)
+	["C880.blif" line: 524, columns:31-41]
+00 1
+.names
+237GAT(52)
+	["C880.blif" line: 526, columns:8-17]
+722GAT(295)
+	["C880.blif" line: 526, columns:19-29]
+760GAT(318)
+	["C880.blif" line: 526, columns:31-41]
+11 1
+.names
+237GAT(52)
+	["C880.blif" line: 528, columns:8-17]
+713GAT(297)
+	["C880.blif" line: 528, columns:19-29]
+755GAT(319)
+	["C880.blif" line: 528, columns:31-41]
+11 1
+.names
+237GAT(52)
+	["C880.blif" line: 530, columns:8-17]
+705GAT(299)
+	["C880.blif" line: 530, columns:19-29]
+752GAT(320)
+	["C880.blif" line: 530, columns:31-41]
+11 1
+.names
+237GAT(52)
+	["C880.blif" line: 532, columns:8-17]
+697GAT(301)
+	["C880.blif" line: 532, columns:19-29]
+749GAT(321)
+	["C880.blif" line: 532, columns:31-41]
+11 1
+.names
+237GAT(52)
+	["C880.blif" line: 534, columns:8-17]
+687GAT(304)
+	["C880.blif" line: 534, columns:19-29]
+746GAT(322)
+	["C880.blif" line: 534, columns:31-41]
+11 1
+.names
+237GAT(52)
+	["C880.blif" line: 536, columns:8-17]
+678GAT(307)
+	["C880.blif" line: 536, columns:19-29]
+743GAT(323)
+	["C880.blif" line: 536, columns:31-41]
+11 1
+.names
+237GAT(52)
+	["C880.blif" line: 538, columns:8-17]
+670GAT(310)
+	["C880.blif" line: 538, columns:19-29]
+740GAT(324)
+	["C880.blif" line: 538, columns:31-41]
+11 1
+.names
+237GAT(52)
+	["C880.blif" line: 540, columns:8-17]
+662GAT(313)
+	["C880.blif" line: 540, columns:19-29]
+737GAT(325)
+	["C880.blif" line: 540, columns:31-41]
+11 1
+.names
+228GAT(51)
+	["C880.blif" line: 542, columns:8-17]
+727GAT(294)
+	["C880.blif" line: 542, columns:19-29]
+759GAT(326)
+	["C880.blif" line: 542, columns:31-41]
+11 1
+.names
+228GAT(51)
+	["C880.blif" line: 544, columns:8-17]
+717GAT(296)
+	["C880.blif" line: 544, columns:19-29]
+754GAT(327)
+	["C880.blif" line: 544, columns:31-41]
+11 1
+.names
+228GAT(51)
+	["C880.blif" line: 546, columns:8-17]
+708GAT(298)
+	["C880.blif" line: 546, columns:19-29]
+751GAT(328)
+	["C880.blif" line: 546, columns:31-41]
+11 1
+.names
+228GAT(51)
+	["C880.blif" line: 548, columns:8-17]
+700GAT(300)
+	["C880.blif" line: 548, columns:19-29]
+748GAT(329)
+	["C880.blif" line: 548, columns:31-41]
+11 1
+.names
+228GAT(51)
+	["C880.blif" line: 550, columns:8-17]
+692GAT(303)
+	["C880.blif" line: 550, columns:19-29]
+745GAT(330)
+	["C880.blif" line: 550, columns:31-41]
+11 1
+.names
+228GAT(51)
+	["C880.blif" line: 552, columns:8-17]
+682GAT(306)
+	["C880.blif" line: 552, columns:19-29]
+742GAT(331)
+	["C880.blif" line: 552, columns:31-41]
+11 1
+.names
+228GAT(51)
+	["C880.blif" line: 554, columns:8-17]
+673GAT(309)
+	["C880.blif" line: 554, columns:19-29]
+739GAT(332)
+	["C880.blif" line: 554, columns:31-41]
+11 1
+.names
+228GAT(51)
+	["C880.blif" line: 556, columns:8-17]
+665GAT(312)
+	["C880.blif" line: 556, columns:19-29]
+736GAT(333)
+	["C880.blif" line: 556, columns:31-41]
+11 1
+.names
+661GAT(293)
+	["C880.blif" line: 558, columns:8-18]
+768GAT(334)
+	["C880.blif" line: 558, columns:20-30]
+1 1
+.names
+722GAT(295)
+	["C880.blif" line: 560, columns:8-18]
+756GAT(335)
+	["C880.blif" line: 560, columns:20-30]
+1 0
+.names
+644GAT(272)
+	["C880.blif" line: 562, columns:8-18]
+722GAT(295)
+	["C880.blif" line: 562, columns:20-30]
+761GAT(336)
+	["C880.blif" line: 562, columns:32-42]
+11 0
+.names
+635GAT(274)
+	["C880.blif" line: 564, columns:8-18]
+644GAT(272)
+	["C880.blif" line: 564, columns:20-30]
+722GAT(295)
+	["C880.blif" line: 564, columns:32-42]
+763GAT(337)
+	["C880.blif" line: 564, columns:44-54]
+111 0
+.names
+713GAT(297)
+	["C880.blif" line: 566, columns:8-18]
+753GAT(338)
+	["C880.blif" line: 566, columns:20-30]
+1 0
+.names
+635GAT(274)
+	["C880.blif" line: 568, columns:8-18]
+713GAT(297)
+	["C880.blif" line: 568, columns:20-30]
+762GAT(339)
+	["C880.blif" line: 568, columns:32-42]
+11 0
+.names
+705GAT(299)
+	["C880.blif" line: 570, columns:8-18]
+750GAT(340)
+	["C880.blif" line: 570, columns:20-30]
+1 0
+.names
+697GAT(301)
+	["C880.blif" line: 572, columns:8-18]
+747GAT(341)
+	["C880.blif" line: 572, columns:20-30]
+1 0
+.names
+687GAT(304)
+	["C880.blif" line: 574, columns:8-18]
+744GAT(342)
+	["C880.blif" line: 574, columns:20-30]
+1 0
+.names
+609GAT(280)
+	["C880.blif" line: 576, columns:8-18]
+687GAT(304)
+	["C880.blif" line: 576, columns:20-30]
+764GAT(343)
+	["C880.blif" line: 576, columns:32-42]
+11 0
+.names
+600GAT(282)
+	["C880.blif" line: 578, columns:8-18]
+609GAT(280)
+	["C880.blif" line: 578, columns:20-30]
+687GAT(304)
+	["C880.blif" line: 578, columns:32-42]
+766GAT(344)
+	["C880.blif" line: 578, columns:44-54]
+111 0
+.names
+678GAT(307)
+	["C880.blif" line: 580, columns:8-18]
+741GAT(345)
+	["C880.blif" line: 580, columns:20-30]
+1 0
+.names
+600GAT(282)
+	["C880.blif" line: 582, columns:8-18]
+678GAT(307)
+	["C880.blif" line: 582, columns:20-30]
+765GAT(346)
+	["C880.blif" line: 582, columns:32-42]
+11 0
+.names
+670GAT(310)
+	["C880.blif" line: 584, columns:8-18]
+738GAT(347)
+	["C880.blif" line: 584, columns:20-30]
+1 0
+.names
+662GAT(313)
+	["C880.blif" line: 586, columns:8-18]
+735GAT(348)
+	["C880.blif" line: 586, columns:20-30]
+1 0
+.names
+660GAT(315)
+	["C880.blif" line: 588, columns:8-18]
+767GAT(349)
+	["C880.blif" line: 588, columns:20-30]
+1 1
+.names
+757GAT(317)
+	["C880.blif" line: 590, columns:8-18]
+758GAT(316)
+	["C880.blif" line: 590, columns:20-30]
+786GAT(350)
+	["C880.blif" line: 590, columns:32-42]
+00 1
+.names
+750GAT(340)
+	["C880.blif" line: 592, columns:8-18]
+762GAT(339)
+	["C880.blif" line: 592, columns:20-30]
+763GAT(337)
+	["C880.blif" line: 592, columns:32-42]
+734GAT(287)
+	["C880.blif" line: 592, columns:44-54]
+773GAT(351)
+	["C880.blif" line: 592, columns:56-66]
+1111 0
+.names
+753GAT(338)
+	["C880.blif" line: 594, columns:8-18]
+761GAT(336)
+	["C880.blif" line: 594, columns:20-30]
+733GAT(288)
+	["C880.blif" line: 594, columns:32-42]
+778GAT(352)
+	["C880.blif" line: 594, columns:44-54]
+111 0
+.names
+756GAT(335)
+	["C880.blif" line: 596, columns:8-18]
+732GAT(289)
+	["C880.blif" line: 596, columns:20-30]
+782GAT(353)
+	["C880.blif" line: 596, columns:32-42]
+11 0
+.names
+759GAT(326)
+	["C880.blif" line: 598, columns:8-18]
+760GAT(318)
+	["C880.blif" line: 598, columns:20-30]
+787GAT(354)
+	["C880.blif" line: 598, columns:32-42]
+00 1
+.names
+754GAT(327)
+	["C880.blif" line: 600, columns:8-18]
+755GAT(319)
+	["C880.blif" line: 600, columns:20-30]
+785GAT(355)
+	["C880.blif" line: 600, columns:32-42]
+00 1
+.names
+751GAT(328)
+	["C880.blif" line: 602, columns:8-18]
+752GAT(320)
+	["C880.blif" line: 602, columns:20-30]
+781GAT(356)
+	["C880.blif" line: 602, columns:32-42]
+00 1
+.names
+748GAT(329)
+	["C880.blif" line: 604, columns:8-18]
+749GAT(321)
+	["C880.blif" line: 604, columns:20-30]
+777GAT(357)
+	["C880.blif" line: 604, columns:32-42]
+00 1
+.names
+745GAT(330)
+	["C880.blif" line: 606, columns:8-18]
+746GAT(322)
+	["C880.blif" line: 606, columns:20-30]
+772GAT(358)
+	["C880.blif" line: 606, columns:32-42]
+00 1
+.names
+742GAT(331)
+	["C880.blif" line: 608, columns:8-18]
+743GAT(323)
+	["C880.blif" line: 608, columns:20-30]
+771GAT(359)
+	["C880.blif" line: 608, columns:32-42]
+00 1
+.names
+739GAT(332)
+	["C880.blif" line: 610, columns:8-18]
+740GAT(324)
+	["C880.blif" line: 610, columns:20-30]
+770GAT(360)
+	["C880.blif" line: 610, columns:32-42]
+00 1
+.names
+736GAT(333)
+	["C880.blif" line: 612, columns:8-18]
+737GAT(325)
+	["C880.blif" line: 612, columns:20-30]
+769GAT(361)
+	["C880.blif" line: 612, columns:32-42]
+00 1
+.names
+219GAT(50)
+	["C880.blif" line: 614, columns:8-17]
+786GAT(350)
+	["C880.blif" line: 614, columns:19-29]
+794GAT(362)
+	["C880.blif" line: 614, columns:31-41]
+11 1
+.names
+717GAT(296)
+	["C880.blif" line: 616, columns:8-18]
+782GAT(353)
+	["C880.blif" line: 616, columns:20-30]
+792GAT(363)
+	["C880.blif" line: 616, columns:32-42]
+00 1
+.names
+717GAT(296)
+	["C880.blif" line: 618, columns:8-18]
+782GAT(353)
+	["C880.blif" line: 618, columns:20-30]
+793GAT(364)
+	["C880.blif" line: 618, columns:32-42]
+11 1
+.names
+708GAT(298)
+	["C880.blif" line: 620, columns:8-18]
+778GAT(352)
+	["C880.blif" line: 620, columns:20-30]
+790GAT(365)
+	["C880.blif" line: 620, columns:32-42]
+00 1
+.names
+708GAT(298)
+	["C880.blif" line: 622, columns:8-18]
+778GAT(352)
+	["C880.blif" line: 622, columns:20-30]
+791GAT(366)
+	["C880.blif" line: 622, columns:32-42]
+11 1
+.names
+700GAT(300)
+	["C880.blif" line: 624, columns:8-18]
+773GAT(351)
+	["C880.blif" line: 624, columns:20-30]
+788GAT(367)
+	["C880.blif" line: 624, columns:32-42]
+00 1
+.names
+700GAT(300)
+	["C880.blif" line: 626, columns:8-18]
+773GAT(351)
+	["C880.blif" line: 626, columns:20-30]
+789GAT(368)
+	["C880.blif" line: 626, columns:32-42]
+11 1
+.names
+628GAT(276)
+	["C880.blif" line: 628, columns:8-18]
+773GAT(351)
+	["C880.blif" line: 628, columns:20-30]
+795GAT(369)
+	["C880.blif" line: 628, columns:32-42]
+11 0
+.names
+792GAT(363)
+	["C880.blif" line: 630, columns:8-18]
+793GAT(364)
+	["C880.blif" line: 630, columns:20-30]
+804GAT(370)
+	["C880.blif" line: 630, columns:32-42]
+00 1
+.names
+790GAT(365)
+	["C880.blif" line: 632, columns:8-18]
+791GAT(366)
+	["C880.blif" line: 632, columns:20-30]
+803GAT(371)
+	["C880.blif" line: 632, columns:32-42]
+00 1
+.names
+788GAT(367)
+	["C880.blif" line: 634, columns:8-18]
+789GAT(368)
+	["C880.blif" line: 634, columns:20-30]
+802GAT(372)
+	["C880.blif" line: 634, columns:32-42]
+00 1
+.names
+795GAT(369)
+	["C880.blif" line: 636, columns:8-18]
+747GAT(341)
+	["C880.blif" line: 636, columns:20-30]
+796GAT(373)
+	["C880.blif" line: 636, columns:32-42]
+11 0
+.names
+340GAT(73)
+	["C880.blif" line: 638, columns:8-17]
+794GAT(362)
+	["C880.blif" line: 638, columns:19-29]
+805GAT(374)
+	["C880.blif" line: 638, columns:31-41]
+00 1
+.names
+219GAT(50)
+	["C880.blif" line: 640, columns:8-17]
+804GAT(370)
+	["C880.blif" line: 640, columns:19-29]
+810GAT(375)
+	["C880.blif" line: 640, columns:31-41]
+11 1
+.names
+219GAT(50)
+	["C880.blif" line: 642, columns:8-17]
+803GAT(371)
+	["C880.blif" line: 642, columns:19-29]
+809GAT(376)
+	["C880.blif" line: 642, columns:31-41]
+11 1
+.names
+219GAT(50)
+	["C880.blif" line: 644, columns:8-17]
+802GAT(372)
+	["C880.blif" line: 644, columns:19-29]
+808GAT(377)
+	["C880.blif" line: 644, columns:31-41]
+11 1
+.names
+805GAT(374)
+	["C880.blif" line: 646, columns:8-18]
+787GAT(354)
+	["C880.blif" line: 646, columns:20-30]
+731GAT(290)
+	["C880.blif" line: 646, columns:32-42]
+529GAT(209)
+	["C880.blif" line: 646, columns:44-54]
+811GAT(378)
+	["C880.blif" line: 646, columns:56-66]
+1111 0
+.names
+692GAT(303)
+	["C880.blif" line: 648, columns:8-18]
+796GAT(373)
+	["C880.blif" line: 648, columns:20-30]
+806GAT(379)
+	["C880.blif" line: 648, columns:32-42]
+00 1
+.names
+692GAT(303)
+	["C880.blif" line: 650, columns:8-18]
+796GAT(373)
+	["C880.blif" line: 650, columns:20-30]
+807GAT(380)
+	["C880.blif" line: 650, columns:32-42]
+11 1
+.names
+619GAT(278)
+	["C880.blif" line: 652, columns:8-18]
+796GAT(373)
+	["C880.blif" line: 652, columns:20-30]
+812GAT(381)
+	["C880.blif" line: 652, columns:32-42]
+11 0
+.names
+609GAT(280)
+	["C880.blif" line: 654, columns:8-18]
+619GAT(278)
+	["C880.blif" line: 654, columns:20-30]
+796GAT(373)
+	["C880.blif" line: 654, columns:32-42]
+813GAT(382)
+	["C880.blif" line: 654, columns:44-54]
+111 0
+.names
+600GAT(282)
+	["C880.blif" line: 656, columns:8-18]
+609GAT(280)
+	["C880.blif" line: 656, columns:20-30]
+619GAT(278)
+	["C880.blif" line: 656, columns:32-42]
+796GAT(373)
+	["C880.blif" line: 656, columns:44-54]
+814GAT(383)
+	["C880.blif" line: 656, columns:56-66]
+1111 0
+.names
+811GAT(378)
+	["C880.blif" line: 658, columns:8-18]
+829GAT(384)
+	["C880.blif" line: 658, columns:20-30]
+1 0
+.names
+806GAT(379)
+	["C880.blif" line: 660, columns:8-18]
+807GAT(380)
+	["C880.blif" line: 660, columns:20-30]
+825GAT(385)
+	["C880.blif" line: 660, columns:32-42]
+00 1
+.names
+744GAT(342)
+	["C880.blif" line: 662, columns:8-18]
+812GAT(381)
+	["C880.blif" line: 662, columns:20-30]
+822GAT(386)
+	["C880.blif" line: 662, columns:32-42]
+11 0
+.names
+741GAT(345)
+	["C880.blif" line: 664, columns:8-18]
+764GAT(343)
+	["C880.blif" line: 664, columns:20-30]
+813GAT(382)
+	["C880.blif" line: 664, columns:32-42]
+819GAT(387)
+	["C880.blif" line: 664, columns:44-54]
+111 0
+.names
+738GAT(347)
+	["C880.blif" line: 666, columns:8-18]
+765GAT(346)
+	["C880.blif" line: 666, columns:20-30]
+766GAT(344)
+	["C880.blif" line: 666, columns:32-42]
+814GAT(383)
+	["C880.blif" line: 666, columns:44-54]
+815GAT(388)
+	["C880.blif" line: 666, columns:56-66]
+1111 0
+.names
+338GAT(76)
+	["C880.blif" line: 668, columns:8-17]
+810GAT(375)
+	["C880.blif" line: 668, columns:19-29]
+828GAT(389)
+	["C880.blif" line: 668, columns:31-41]
+00 1
+.names
+336GAT(77)
+	["C880.blif" line: 670, columns:8-17]
+809GAT(376)
+	["C880.blif" line: 670, columns:19-29]
+827GAT(390)
+	["C880.blif" line: 670, columns:31-41]
+00 1
+.names
+335GAT(80)
+	["C880.blif" line: 672, columns:8-17]
+808GAT(377)
+	["C880.blif" line: 672, columns:19-29]
+826GAT(391)
+	["C880.blif" line: 672, columns:31-41]
+00 1
+.names
+219GAT(50)
+	["C880.blif" line: 674, columns:8-17]
+825GAT(385)
+	["C880.blif" line: 674, columns:19-29]
+836GAT(392)
+	["C880.blif" line: 674, columns:31-41]
+11 1
+.names
+829GAT(384)
+	["C880.blif" line: 676, columns:8-18]
+840GAT(393)
+	["C880.blif" line: 676, columns:20-30]
+1 0
+.names
+828GAT(389)
+	["C880.blif" line: 678, columns:8-18]
+785GAT(355)
+	["C880.blif" line: 678, columns:20-30]
+721GAT(291)
+	["C880.blif" line: 678, columns:32-42]
+528GAT(210)
+	["C880.blif" line: 678, columns:44-54]
+839GAT(394)
+	["C880.blif" line: 678, columns:56-66]
+1111 0
+.names
+827GAT(390)
+	["C880.blif" line: 680, columns:8-18]
+781GAT(356)
+	["C880.blif" line: 680, columns:20-30]
+712GAT(292)
+	["C880.blif" line: 680, columns:32-42]
+527GAT(211)
+	["C880.blif" line: 680, columns:44-54]
+838GAT(395)
+	["C880.blif" line: 680, columns:56-66]
+1111 0
+.names
+826GAT(391)
+	["C880.blif" line: 682, columns:8-18]
+777GAT(357)
+	["C880.blif" line: 682, columns:20-30]
+704GAT(302)
+	["C880.blif" line: 682, columns:32-42]
+837GAT(396)
+	["C880.blif" line: 682, columns:44-54]
+111 0
+.names
+682GAT(306)
+	["C880.blif" line: 684, columns:8-18]
+822GAT(386)
+	["C880.blif" line: 684, columns:20-30]
+834GAT(397)
+	["C880.blif" line: 684, columns:32-42]
+00 1
+.names
+682GAT(306)
+	["C880.blif" line: 686, columns:8-18]
+822GAT(386)
+	["C880.blif" line: 686, columns:20-30]
+835GAT(398)
+	["C880.blif" line: 686, columns:32-42]
+11 1
+.names
+673GAT(309)
+	["C880.blif" line: 688, columns:8-18]
+819GAT(387)
+	["C880.blif" line: 688, columns:20-30]
+832GAT(399)
+	["C880.blif" line: 688, columns:32-42]
+00 1
+.names
+673GAT(309)
+	["C880.blif" line: 690, columns:8-18]
+819GAT(387)
+	["C880.blif" line: 690, columns:20-30]
+833GAT(400)
+	["C880.blif" line: 690, columns:32-42]
+11 1
+.names
+665GAT(312)
+	["C880.blif" line: 692, columns:8-18]
+815GAT(388)
+	["C880.blif" line: 692, columns:20-30]
+830GAT(401)
+	["C880.blif" line: 692, columns:32-42]
+00 1
+.names
+665GAT(312)
+	["C880.blif" line: 694, columns:8-18]
+815GAT(388)
+	["C880.blif" line: 694, columns:20-30]
+831GAT(402)
+	["C880.blif" line: 694, columns:32-42]
+11 1
+.names
+815GAT(388)
+	["C880.blif" line: 696, columns:8-18]
+593GAT(284)
+	["C880.blif" line: 696, columns:20-30]
+841GAT(403)
+	["C880.blif" line: 696, columns:32-42]
+11 0
+.names
+840GAT(393)
+	["C880.blif" line: 698, columns:8-18]
+850GAT(404)
+	["C880.blif" line: 698, columns:20-30]
+1 1
+.names
+839GAT(394)
+	["C880.blif" line: 700, columns:8-18]
+848GAT(405)
+	["C880.blif" line: 700, columns:20-30]
+1 0
+.names
+838GAT(395)
+	["C880.blif" line: 702, columns:8-18]
+847GAT(406)
+	["C880.blif" line: 702, columns:20-30]
+1 0
+.names
+837GAT(396)
+	["C880.blif" line: 704, columns:8-18]
+846GAT(407)
+	["C880.blif" line: 704, columns:20-30]
+1 0
+.names
+834GAT(397)
+	["C880.blif" line: 706, columns:8-18]
+835GAT(398)
+	["C880.blif" line: 706, columns:20-30]
+844GAT(408)
+	["C880.blif" line: 706, columns:32-42]
+00 1
+.names
+832GAT(399)
+	["C880.blif" line: 708, columns:8-18]
+833GAT(400)
+	["C880.blif" line: 708, columns:20-30]
+843GAT(409)
+	["C880.blif" line: 708, columns:32-42]
+00 1
+.names
+830GAT(401)
+	["C880.blif" line: 710, columns:8-18]
+831GAT(402)
+	["C880.blif" line: 710, columns:20-30]
+842GAT(410)
+	["C880.blif" line: 710, columns:32-42]
+00 1
+.names
+735GAT(348)
+	["C880.blif" line: 712, columns:8-18]
+841GAT(403)
+	["C880.blif" line: 712, columns:20-30]
+849GAT(411)
+	["C880.blif" line: 712, columns:32-42]
+11 1
+.names
+334GAT(81)
+	["C880.blif" line: 714, columns:8-17]
+836GAT(392)
+	["C880.blif" line: 714, columns:19-29]
+845GAT(412)
+	["C880.blif" line: 714, columns:31-41]
+00 1
+.names
+219GAT(50)
+	["C880.blif" line: 716, columns:8-17]
+844GAT(408)
+	["C880.blif" line: 716, columns:19-29]
+853GAT(413)
+	["C880.blif" line: 716, columns:31-41]
+11 1
+.names
+219GAT(50)
+	["C880.blif" line: 718, columns:8-17]
+843GAT(409)
+	["C880.blif" line: 718, columns:19-29]
+852GAT(414)
+	["C880.blif" line: 718, columns:31-41]
+11 1
+.names
+219GAT(50)
+	["C880.blif" line: 720, columns:8-17]
+842GAT(410)
+	["C880.blif" line: 720, columns:19-29]
+851GAT(415)
+	["C880.blif" line: 720, columns:31-41]
+11 1
+.names
+848GAT(405)
+	["C880.blif" line: 722, columns:8-18]
+857GAT(416)
+	["C880.blif" line: 722, columns:20-30]
+1 0
+.names
+847GAT(406)
+	["C880.blif" line: 724, columns:8-18]
+856GAT(417)
+	["C880.blif" line: 724, columns:20-30]
+1 0
+.names
+846GAT(407)
+	["C880.blif" line: 726, columns:8-18]
+855GAT(418)
+	["C880.blif" line: 726, columns:20-30]
+1 0
+.names
+845GAT(412)
+	["C880.blif" line: 728, columns:8-18]
+772GAT(358)
+	["C880.blif" line: 728, columns:20-30]
+696GAT(305)
+	["C880.blif" line: 728, columns:32-42]
+854GAT(419)
+	["C880.blif" line: 728, columns:44-54]
+111 0
+.names
+849GAT(411)
+	["C880.blif" line: 730, columns:8-18]
+858GAT(420)
+	["C880.blif" line: 730, columns:20-30]
+1 0
+.names
+417GAT(142)
+	["C880.blif" line: 732, columns:8-18]
+851GAT(415)
+	["C880.blif" line: 732, columns:20-30]
+859GAT(421)
+	["C880.blif" line: 732, columns:32-42]
+00 1
+.names
+857GAT(416)
+	["C880.blif" line: 734, columns:8-18]
+865GAT(422)
+	["C880.blif" line: 734, columns:20-30]
+1 1
+.names
+856GAT(417)
+	["C880.blif" line: 736, columns:8-18]
+864GAT(423)
+	["C880.blif" line: 736, columns:20-30]
+1 1
+.names
+855GAT(418)
+	["C880.blif" line: 738, columns:8-18]
+863GAT(424)
+	["C880.blif" line: 738, columns:20-30]
+1 1
+.names
+854GAT(419)
+	["C880.blif" line: 740, columns:8-18]
+862GAT(425)
+	["C880.blif" line: 740, columns:20-30]
+1 0
+.names
+858GAT(420)
+	["C880.blif" line: 742, columns:8-18]
+866GAT(426)
+	["C880.blif" line: 742, columns:20-30]
+1 1
+.names
+333GAT(84)
+	["C880.blif" line: 744, columns:8-17]
+853GAT(413)
+	["C880.blif" line: 744, columns:19-29]
+861GAT(427)
+	["C880.blif" line: 744, columns:31-41]
+00 1
+.names
+332GAT(85)
+	["C880.blif" line: 746, columns:8-17]
+852GAT(414)
+	["C880.blif" line: 746, columns:19-29]
+860GAT(428)
+	["C880.blif" line: 746, columns:31-41]
+00 1
+.names
+862GAT(425)
+	["C880.blif" line: 748, columns:8-18]
+870GAT(429)
+	["C880.blif" line: 748, columns:20-30]
+1 0
+.names
+861GAT(427)
+	["C880.blif" line: 750, columns:8-18]
+771GAT(359)
+	["C880.blif" line: 750, columns:20-30]
+686GAT(308)
+	["C880.blif" line: 750, columns:32-42]
+869GAT(430)
+	["C880.blif" line: 750, columns:44-54]
+111 0
+.names
+860GAT(428)
+	["C880.blif" line: 752, columns:8-18]
+770GAT(360)
+	["C880.blif" line: 752, columns:20-30]
+677GAT(311)
+	["C880.blif" line: 752, columns:32-42]
+868GAT(431)
+	["C880.blif" line: 752, columns:44-54]
+111 0
+.names
+859GAT(421)
+	["C880.blif" line: 754, columns:8-18]
+769GAT(361)
+	["C880.blif" line: 754, columns:20-30]
+669GAT(314)
+	["C880.blif" line: 754, columns:32-42]
+867GAT(432)
+	["C880.blif" line: 754, columns:44-54]
+111 0
+.names
+870GAT(429)
+	["C880.blif" line: 756, columns:8-18]
+874GAT(433)
+	["C880.blif" line: 756, columns:20-30]
+1 1
+.names
+869GAT(430)
+	["C880.blif" line: 758, columns:8-18]
+873GAT(434)
+	["C880.blif" line: 758, columns:20-30]
+1 0
+.names
+868GAT(431)
+	["C880.blif" line: 760, columns:8-18]
+872GAT(435)
+	["C880.blif" line: 760, columns:20-30]
+1 0
+.names
+867GAT(432)
+	["C880.blif" line: 762, columns:8-18]
+871GAT(436)
+	["C880.blif" line: 762, columns:20-30]
+1 0
+.names
+873GAT(434)
+	["C880.blif" line: 764, columns:8-18]
+877GAT(437)
+	["C880.blif" line: 764, columns:20-30]
+1 0
+.names
+872GAT(435)
+	["C880.blif" line: 766, columns:8-18]
+876GAT(438)
+	["C880.blif" line: 766, columns:20-30]
+1 0
+.names
+871GAT(436)
+	["C880.blif" line: 768, columns:8-18]
+875GAT(439)
+	["C880.blif" line: 768, columns:20-30]
+1 0
+.names
+877GAT(437)
+	["C880.blif" line: 770, columns:8-18]
+880GAT(440)
+	["C880.blif" line: 770, columns:20-30]
+1 1
+.names
+876GAT(438)
+	["C880.blif" line: 772, columns:8-18]
+879GAT(441)
+	["C880.blif" line: 772, columns:20-30]
+1 1
+.names
+875GAT(439)
+	["C880.blif" line: 774, columns:8-18]
+878GAT(442)
+	["C880.blif" line: 774, columns:20-30]
+1 1
+.end
+	["C880.blif" line: 776, columns:1-4]
+normal_exit

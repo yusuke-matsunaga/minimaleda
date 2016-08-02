@@ -1,0 +1,7 @@
+## $Id: local_defs 659 2007-05-18 07:47:36Z matsunaga $
+
+. ${top_srcdir}/etc/common_defs
+
+TEST_SRC=${top_srcdir}/libraries/libym_bnet/tests/in
+TEST_OUT=${top_srcdir}/libraries/libym_bnet/tests/out
+TEST_PATH=${top_builddir}/libraries/libym_bnet/tests

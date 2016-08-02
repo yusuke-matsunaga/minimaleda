@@ -1,0 +1,6 @@
+# error 3-7-8
+# undefined name in .latch
+.model test1
+.outputs x
+.latch b x
+.end

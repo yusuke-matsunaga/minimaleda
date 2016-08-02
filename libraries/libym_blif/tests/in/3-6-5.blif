@@ -1,0 +1,8 @@
+# error 3-6-5
+# duplicate name in .gate and .gate
+.model test1
+.inputs a b
+.outputs x
+.gate inv4x o=x a=b
+.gate inv4x o=x a=a
+.end

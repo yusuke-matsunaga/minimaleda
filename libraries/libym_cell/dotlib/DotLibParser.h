@@ -1,0 +1,76 @@
+#ifndef YM_CELL_DOTLIBPARSER_H
+#define YM_CELL_DOTLIBPARSER_H
+
+/// @file libym_cell/DotLibParser.h
+/// @brief DotLibParser のヘッダファイル
+/// @author Yusuke Matsunaga (松永 裕介)
+///
+/// $Id: DotLibParser.h 2507 2009-10-17 16:24:02Z matsunaga $
+///
+/// Copyright (C) 2005-2010 Yusuke Matsunaga
+/// All rights reserved.
+
+
+#include "ym_cell/cell_nsdef.h"
+#include "ym_utils/MsgHandler.h"
+
+
+BEGIN_NAMESPACE_YM_CELL
+
+union YYSTYPE;
+
+class DotLibLex;
+
+//////////////////////////////////////////////////////////////////////
+/// DotLib 用のパーサークラス
+//////////////////////////////////////////////////////////////////////
+class DotLibParser
+{
+public:
+
+  /// @brief コンストラクタ
+  DotLibParser();
+
+  /// @brief デストラクタ
+  ~DotLibParser();
+
+
+public:
+
+  /// @brief ファイルを読み込む．
+  bool
+  read_file(const string& filename);
+
+
+public:
+  //////////////////////////////////////////////////////////////////////
+  // 内部で用いられる関数
+  //////////////////////////////////////////////////////////////////////
+
+  /// @brief 字句解析を行う．
+  int
+  yylex(YYSTYPE& lval,
+	FileRegion& lloc);
+
+
+private:
+  //////////////////////////////////////////////////////////////////////
+  // データメンバ
+  //////////////////////////////////////////////////////////////////////
+
+  // メッセージを管理するオブジェクト
+  MsgMgr mMsgMgr;
+
+  // 字句解析器
+  DotLibLex* mLex;
+
+};
+
+
+//////////////////////////////////////////////////////////////////////
+// インライン関数の定義
+//////////////////////////////////////////////////////////////////////
+
+END_NAMESPACE_YM_CELL
+
+#endif // YM_CELL_DOTLIBPARSER_H

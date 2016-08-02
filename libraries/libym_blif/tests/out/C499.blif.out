@@ -1,0 +1,1880 @@
+.model C499.iscas
+	["C499.blif" line: 7, columns:1-6]
+	["C499.blif" line: 7, columns:8-17]
+  inputs elem: ID0(0)
+	["C499.blif" line: 8, columns:9-14]
+  inputs elem: ID1(1)
+	["C499.blif" line: 8, columns:16-21]
+  inputs elem: ID2(2)
+	["C499.blif" line: 8, columns:23-28]
+  inputs elem: ID3(3)
+	["C499.blif" line: 8, columns:30-35]
+  inputs elem: ID4(4)
+	["C499.blif" line: 8, columns:37-42]
+  inputs elem: ID5(5)
+	["C499.blif" line: 8, columns:44-49]
+  inputs elem: ID6(6)
+	["C499.blif" line: 8, columns:51-56]
+  inputs elem: ID7(7)
+	["C499.blif" line: 8, columns:58-63]
+  inputs elem: ID8(8)
+	["C499.blif" line: 8, columns:65-70]
+  inputs elem: ID9(9)
+	["C499.blif" line: 8, columns:72-77]
+  inputs elem: ID10(10)
+	["C499.blif" line: 8, columns:79-86]
+  inputs elem: ID11(11)
+	["C499.blif" line: 8, columns:88-95]
+  inputs elem: ID12(12)
+	["C499.blif" line: 8, columns:97-104]
+  inputs elem: ID13(13)
+	["C499.blif" line: 8, columns:106-113]
+  inputs elem: ID14(14)
+	["C499.blif" line: 8, columns:115-122]
+  inputs elem: ID15(15)
+	["C499.blif" line: 8, columns:124-131]
+  inputs elem: ID16(16)
+	["C499.blif" line: 8, columns:133-140]
+  inputs elem: ID17(17)
+	["C499.blif" line: 8, columns:142-149]
+  inputs elem: ID18(18)
+	["C499.blif" line: 8, columns:151-158]
+  inputs elem: ID19(19)
+	["C499.blif" line: 8, columns:160-167]
+  inputs elem: ID20(20)
+	["C499.blif" line: 8, columns:169-176]
+  inputs elem: ID21(21)
+	["C499.blif" line: 8, columns:178-185]
+  inputs elem: ID22(22)
+	["C499.blif" line: 8, columns:187-194]
+  inputs elem: ID23(23)
+	["C499.blif" line: 8, columns:196-203]
+  inputs elem: ID24(24)
+	["C499.blif" line: 8, columns:205-212]
+  inputs elem: ID25(25)
+	["C499.blif" line: 8, columns:214-221]
+  inputs elem: ID26(26)
+	["C499.blif" line: 8, columns:223-230]
+  inputs elem: ID27(27)
+	["C499.blif" line: 8, columns:232-239]
+  inputs elem: ID28(28)
+	["C499.blif" line: 8, columns:241-248]
+  inputs elem: ID29(29)
+	["C499.blif" line: 8, columns:250-257]
+  inputs elem: ID30(30)
+	["C499.blif" line: 8, columns:259-266]
+  inputs elem: ID31(31)
+	["C499.blif" line: 8, columns:268-275]
+  inputs elem: IC0(32)
+	["C499.blif" line: 8, columns:277-283]
+  inputs elem: IC1(33)
+	["C499.blif" line: 8, columns:285-291]
+  inputs elem: IC2(34)
+	["C499.blif" line: 8, columns:293-299]
+  inputs elem: IC3(35)
+	["C499.blif" line: 8, columns:301-307]
+  inputs elem: IC4(36)
+	["C499.blif" line: 8, columns:309-315]
+  inputs elem: IC5(37)
+	["C499.blif" line: 8, columns:317-323]
+  inputs elem: IC6(38)
+	["C499.blif" line: 8, columns:325-331]
+  inputs elem: IC7(39)
+	["C499.blif" line: 8, columns:333-339]
+  inputs elem: R(40)
+	["C499.blif" line: 8, columns:341-345]
+  outputs elem: OD0(242)
+	["C499.blif" line: 9, columns:10-17]
+  outputs elem: OD1(241)
+	["C499.blif" line: 9, columns:19-26]
+  outputs elem: OD2(240)
+	["C499.blif" line: 9, columns:28-35]
+  outputs elem: OD3(239)
+	["C499.blif" line: 9, columns:37-44]
+  outputs elem: OD4(238)
+	["C499.blif" line: 9, columns:46-53]
+  outputs elem: OD5(237)
+	["C499.blif" line: 9, columns:55-62]
+  outputs elem: OD6(236)
+	["C499.blif" line: 9, columns:64-71]
+  outputs elem: OD7(235)
+	["C499.blif" line: 9, columns:73-80]
+  outputs elem: OD8(234)
+	["C499.blif" line: 9, columns:82-89]
+  outputs elem: OD9(233)
+	["C499.blif" line: 9, columns:91-98]
+  outputs elem: OD10(232)
+	["C499.blif" line: 9, columns:100-108]
+  outputs elem: OD11(231)
+	["C499.blif" line: 9, columns:110-118]
+  outputs elem: OD12(230)
+	["C499.blif" line: 9, columns:120-128]
+  outputs elem: OD13(229)
+	["C499.blif" line: 9, columns:130-138]
+  outputs elem: OD14(228)
+	["C499.blif" line: 9, columns:140-148]
+  outputs elem: OD15(227)
+	["C499.blif" line: 9, columns:150-158]
+  outputs elem: OD16(226)
+	["C499.blif" line: 9, columns:160-168]
+  outputs elem: OD17(225)
+	["C499.blif" line: 9, columns:170-178]
+  outputs elem: OD18(224)
+	["C499.blif" line: 9, columns:180-188]
+  outputs elem: OD19(223)
+	["C499.blif" line: 9, columns:190-198]
+  outputs elem: OD20(222)
+	["C499.blif" line: 9, columns:200-208]
+  outputs elem: OD21(221)
+	["C499.blif" line: 9, columns:210-218]
+  outputs elem: OD22(220)
+	["C499.blif" line: 9, columns:220-228]
+  outputs elem: OD23(219)
+	["C499.blif" line: 9, columns:230-238]
+  outputs elem: OD24(218)
+	["C499.blif" line: 9, columns:240-248]
+  outputs elem: OD25(217)
+	["C499.blif" line: 9, columns:250-258]
+  outputs elem: OD26(216)
+	["C499.blif" line: 9, columns:260-268]
+  outputs elem: OD27(215)
+	["C499.blif" line: 9, columns:270-278]
+  outputs elem: OD28(214)
+	["C499.blif" line: 9, columns:280-288]
+  outputs elem: OD29(213)
+	["C499.blif" line: 9, columns:290-298]
+  outputs elem: OD30(212)
+	["C499.blif" line: 9, columns:300-308]
+  outputs elem: OD31(211)
+	["C499.blif" line: 9, columns:310-318]
+.names
+IC7(39)
+	["C499.blif" line: 10, columns:8-14]
+R(40)
+	["C499.blif" line: 10, columns:16-20]
+H7(41)
+	["C499.blif" line: 10, columns:22-27]
+11 1
+.names
+IC6(38)
+	["C499.blif" line: 12, columns:8-14]
+R(40)
+	["C499.blif" line: 12, columns:16-20]
+H6(42)
+	["C499.blif" line: 12, columns:22-27]
+11 1
+.names
+IC5(37)
+	["C499.blif" line: 14, columns:8-14]
+R(40)
+	["C499.blif" line: 14, columns:16-20]
+H5(43)
+	["C499.blif" line: 14, columns:22-27]
+11 1
+.names
+IC4(36)
+	["C499.blif" line: 16, columns:8-14]
+R(40)
+	["C499.blif" line: 16, columns:16-20]
+H4(44)
+	["C499.blif" line: 16, columns:22-27]
+11 1
+.names
+IC3(35)
+	["C499.blif" line: 18, columns:8-14]
+R(40)
+	["C499.blif" line: 18, columns:16-20]
+H3(45)
+	["C499.blif" line: 18, columns:22-27]
+11 1
+.names
+IC2(34)
+	["C499.blif" line: 20, columns:8-14]
+R(40)
+	["C499.blif" line: 20, columns:16-20]
+H2(46)
+	["C499.blif" line: 20, columns:22-27]
+11 1
+.names
+IC1(33)
+	["C499.blif" line: 22, columns:8-14]
+R(40)
+	["C499.blif" line: 22, columns:16-20]
+H1(47)
+	["C499.blif" line: 22, columns:22-27]
+11 1
+.names
+IC0(32)
+	["C499.blif" line: 24, columns:8-14]
+R(40)
+	["C499.blif" line: 24, columns:16-20]
+H0(48)
+	["C499.blif" line: 24, columns:22-27]
+11 1
+.names
+ID30(30)
+	["C499.blif" line: 26, columns:8-15]
+ID31(31)
+	["C499.blif" line: 26, columns:17-24]
+XA15(49)
+	["C499.blif" line: 26, columns:26-33]
+01 1
+10 1
+.names
+ID28(28)
+	["C499.blif" line: 29, columns:8-15]
+ID29(29)
+	["C499.blif" line: 29, columns:17-24]
+XA14(50)
+	["C499.blif" line: 29, columns:26-33]
+01 1
+10 1
+.names
+ID27(27)
+	["C499.blif" line: 32, columns:8-15]
+ID31(31)
+	["C499.blif" line: 32, columns:17-24]
+XC7(51)
+	["C499.blif" line: 32, columns:26-32]
+01 1
+10 1
+.names
+ID26(26)
+	["C499.blif" line: 35, columns:8-15]
+ID30(30)
+	["C499.blif" line: 35, columns:17-24]
+XC6(52)
+	["C499.blif" line: 35, columns:26-32]
+01 1
+10 1
+.names
+ID26(26)
+	["C499.blif" line: 38, columns:8-15]
+ID27(27)
+	["C499.blif" line: 38, columns:17-24]
+XA13(53)
+	["C499.blif" line: 38, columns:26-33]
+01 1
+10 1
+.names
+ID25(25)
+	["C499.blif" line: 41, columns:8-15]
+ID29(29)
+	["C499.blif" line: 41, columns:17-24]
+XC5(54)
+	["C499.blif" line: 41, columns:26-32]
+01 1
+10 1
+.names
+ID24(24)
+	["C499.blif" line: 44, columns:8-15]
+ID28(28)
+	["C499.blif" line: 44, columns:17-24]
+XC4(55)
+	["C499.blif" line: 44, columns:26-32]
+01 1
+10 1
+.names
+ID24(24)
+	["C499.blif" line: 47, columns:8-15]
+ID25(25)
+	["C499.blif" line: 47, columns:17-24]
+XA12(56)
+	["C499.blif" line: 47, columns:26-33]
+01 1
+10 1
+.names
+ID22(22)
+	["C499.blif" line: 50, columns:8-15]
+ID23(23)
+	["C499.blif" line: 50, columns:17-24]
+XA11(57)
+	["C499.blif" line: 50, columns:26-33]
+01 1
+10 1
+.names
+ID20(20)
+	["C499.blif" line: 53, columns:8-15]
+ID21(21)
+	["C499.blif" line: 53, columns:17-24]
+XA10(58)
+	["C499.blif" line: 53, columns:26-33]
+01 1
+10 1
+.names
+ID19(19)
+	["C499.blif" line: 56, columns:8-15]
+ID23(23)
+	["C499.blif" line: 56, columns:17-24]
+XB7(59)
+	["C499.blif" line: 56, columns:26-32]
+01 1
+10 1
+.names
+ID18(18)
+	["C499.blif" line: 59, columns:8-15]
+ID22(22)
+	["C499.blif" line: 59, columns:17-24]
+XB6(60)
+	["C499.blif" line: 59, columns:26-32]
+01 1
+10 1
+.names
+ID18(18)
+	["C499.blif" line: 62, columns:8-15]
+ID19(19)
+	["C499.blif" line: 62, columns:17-24]
+XA9(61)
+	["C499.blif" line: 62, columns:26-32]
+01 1
+10 1
+.names
+ID17(17)
+	["C499.blif" line: 65, columns:8-15]
+ID21(21)
+	["C499.blif" line: 65, columns:17-24]
+XB5(62)
+	["C499.blif" line: 65, columns:26-32]
+01 1
+10 1
+.names
+ID16(16)
+	["C499.blif" line: 68, columns:8-15]
+ID20(20)
+	["C499.blif" line: 68, columns:17-24]
+XB4(63)
+	["C499.blif" line: 68, columns:26-32]
+01 1
+10 1
+.names
+ID16(16)
+	["C499.blif" line: 71, columns:8-15]
+ID17(17)
+	["C499.blif" line: 71, columns:17-24]
+XA8(64)
+	["C499.blif" line: 71, columns:26-32]
+01 1
+10 1
+.names
+ID14(14)
+	["C499.blif" line: 74, columns:8-15]
+ID15(15)
+	["C499.blif" line: 74, columns:17-24]
+XA7(65)
+	["C499.blif" line: 74, columns:26-32]
+01 1
+10 1
+.names
+ID12(12)
+	["C499.blif" line: 77, columns:8-15]
+ID13(13)
+	["C499.blif" line: 77, columns:17-24]
+XA6(66)
+	["C499.blif" line: 77, columns:26-32]
+01 1
+10 1
+.names
+ID11(11)
+	["C499.blif" line: 80, columns:8-15]
+ID15(15)
+	["C499.blif" line: 80, columns:17-24]
+XC3(67)
+	["C499.blif" line: 80, columns:26-32]
+01 1
+10 1
+.names
+ID10(10)
+	["C499.blif" line: 83, columns:8-15]
+ID14(14)
+	["C499.blif" line: 83, columns:17-24]
+XC2(68)
+	["C499.blif" line: 83, columns:26-32]
+01 1
+10 1
+.names
+ID10(10)
+	["C499.blif" line: 86, columns:8-15]
+ID11(11)
+	["C499.blif" line: 86, columns:17-24]
+XA5(69)
+	["C499.blif" line: 86, columns:26-32]
+01 1
+10 1
+.names
+ID9(9)
+	["C499.blif" line: 89, columns:8-13]
+ID13(13)
+	["C499.blif" line: 89, columns:15-22]
+XC1(70)
+	["C499.blif" line: 89, columns:24-30]
+01 1
+10 1
+.names
+ID8(8)
+	["C499.blif" line: 92, columns:8-13]
+ID12(12)
+	["C499.blif" line: 92, columns:15-22]
+XC0(71)
+	["C499.blif" line: 92, columns:24-30]
+01 1
+10 1
+.names
+ID8(8)
+	["C499.blif" line: 95, columns:8-13]
+ID9(9)
+	["C499.blif" line: 95, columns:15-20]
+XA4(72)
+	["C499.blif" line: 95, columns:22-28]
+01 1
+10 1
+.names
+ID6(6)
+	["C499.blif" line: 98, columns:8-13]
+ID7(7)
+	["C499.blif" line: 98, columns:15-20]
+XA3(73)
+	["C499.blif" line: 98, columns:22-28]
+01 1
+10 1
+.names
+ID4(4)
+	["C499.blif" line: 101, columns:8-13]
+ID5(5)
+	["C499.blif" line: 101, columns:15-20]
+XA2(74)
+	["C499.blif" line: 101, columns:22-28]
+01 1
+10 1
+.names
+ID3(3)
+	["C499.blif" line: 104, columns:8-13]
+ID7(7)
+	["C499.blif" line: 104, columns:15-20]
+XB3(75)
+	["C499.blif" line: 104, columns:22-28]
+01 1
+10 1
+.names
+ID2(2)
+	["C499.blif" line: 107, columns:8-13]
+ID6(6)
+	["C499.blif" line: 107, columns:15-20]
+XB2(76)
+	["C499.blif" line: 107, columns:22-28]
+01 1
+10 1
+.names
+ID2(2)
+	["C499.blif" line: 110, columns:8-13]
+ID3(3)
+	["C499.blif" line: 110, columns:15-20]
+XA1(77)
+	["C499.blif" line: 110, columns:22-28]
+01 1
+10 1
+.names
+ID1(1)
+	["C499.blif" line: 113, columns:8-13]
+ID5(5)
+	["C499.blif" line: 113, columns:15-20]
+XB1(78)
+	["C499.blif" line: 113, columns:22-28]
+01 1
+10 1
+.names
+ID0(0)
+	["C499.blif" line: 116, columns:8-13]
+ID4(4)
+	["C499.blif" line: 116, columns:15-20]
+XB0(79)
+	["C499.blif" line: 116, columns:22-28]
+01 1
+10 1
+.names
+ID0(0)
+	["C499.blif" line: 119, columns:8-13]
+ID1(1)
+	["C499.blif" line: 119, columns:15-20]
+XA0(80)
+	["C499.blif" line: 119, columns:22-28]
+01 1
+10 1
+.names
+XA14(50)
+	["C499.blif" line: 122, columns:8-15]
+XA15(49)
+	["C499.blif" line: 122, columns:17-24]
+F7(81)
+	["C499.blif" line: 122, columns:26-31]
+01 1
+10 1
+.names
+XB7(59)
+	["C499.blif" line: 125, columns:8-14]
+XC7(51)
+	["C499.blif" line: 125, columns:16-22]
+XE7(82)
+	["C499.blif" line: 125, columns:24-30]
+01 1
+10 1
+.names
+XB6(60)
+	["C499.blif" line: 128, columns:8-14]
+XC6(52)
+	["C499.blif" line: 128, columns:16-22]
+XE6(83)
+	["C499.blif" line: 128, columns:24-30]
+01 1
+10 1
+.names
+XA12(56)
+	["C499.blif" line: 131, columns:8-15]
+XA13(53)
+	["C499.blif" line: 131, columns:17-24]
+F6(84)
+	["C499.blif" line: 131, columns:26-31]
+01 1
+10 1
+.names
+XB5(62)
+	["C499.blif" line: 134, columns:8-14]
+XC5(54)
+	["C499.blif" line: 134, columns:16-22]
+XE5(85)
+	["C499.blif" line: 134, columns:24-30]
+01 1
+10 1
+.names
+XB4(63)
+	["C499.blif" line: 137, columns:8-14]
+XC4(55)
+	["C499.blif" line: 137, columns:16-22]
+XE4(86)
+	["C499.blif" line: 137, columns:24-30]
+01 1
+10 1
+.names
+XA10(58)
+	["C499.blif" line: 140, columns:8-15]
+XA11(57)
+	["C499.blif" line: 140, columns:17-24]
+F5(87)
+	["C499.blif" line: 140, columns:26-31]
+01 1
+10 1
+.names
+XA8(64)
+	["C499.blif" line: 143, columns:8-14]
+XA9(61)
+	["C499.blif" line: 143, columns:16-22]
+F4(88)
+	["C499.blif" line: 143, columns:24-29]
+01 1
+10 1
+.names
+XA6(66)
+	["C499.blif" line: 146, columns:8-14]
+XA7(65)
+	["C499.blif" line: 146, columns:16-22]
+F3(89)
+	["C499.blif" line: 146, columns:24-29]
+01 1
+10 1
+.names
+XB3(75)
+	["C499.blif" line: 149, columns:8-14]
+XC3(67)
+	["C499.blif" line: 149, columns:16-22]
+XE3(90)
+	["C499.blif" line: 149, columns:24-30]
+01 1
+10 1
+.names
+XB2(76)
+	["C499.blif" line: 152, columns:8-14]
+XC2(68)
+	["C499.blif" line: 152, columns:16-22]
+XE2(91)
+	["C499.blif" line: 152, columns:24-30]
+01 1
+10 1
+.names
+XA4(72)
+	["C499.blif" line: 155, columns:8-14]
+XA5(69)
+	["C499.blif" line: 155, columns:16-22]
+F2(92)
+	["C499.blif" line: 155, columns:24-29]
+01 1
+10 1
+.names
+XB1(78)
+	["C499.blif" line: 158, columns:8-14]
+XC1(70)
+	["C499.blif" line: 158, columns:16-22]
+XE1(93)
+	["C499.blif" line: 158, columns:24-30]
+01 1
+10 1
+.names
+XB0(79)
+	["C499.blif" line: 161, columns:8-14]
+XC0(71)
+	["C499.blif" line: 161, columns:16-22]
+XE0(94)
+	["C499.blif" line: 161, columns:24-30]
+01 1
+10 1
+.names
+XA2(74)
+	["C499.blif" line: 164, columns:8-14]
+XA3(73)
+	["C499.blif" line: 164, columns:16-22]
+F1(95)
+	["C499.blif" line: 164, columns:24-29]
+01 1
+10 1
+.names
+XA0(80)
+	["C499.blif" line: 167, columns:8-14]
+XA1(77)
+	["C499.blif" line: 167, columns:16-22]
+F0(96)
+	["C499.blif" line: 167, columns:24-29]
+01 1
+10 1
+.names
+F6(84)
+	["C499.blif" line: 170, columns:8-13]
+F7(81)
+	["C499.blif" line: 170, columns:15-20]
+G5(97)
+	["C499.blif" line: 170, columns:22-27]
+01 1
+10 1
+.names
+F5(87)
+	["C499.blif" line: 173, columns:8-13]
+F7(81)
+	["C499.blif" line: 173, columns:15-20]
+G7(98)
+	["C499.blif" line: 173, columns:22-27]
+01 1
+10 1
+.names
+F4(88)
+	["C499.blif" line: 176, columns:8-13]
+F6(84)
+	["C499.blif" line: 176, columns:15-20]
+G6(99)
+	["C499.blif" line: 176, columns:22-27]
+01 1
+10 1
+.names
+F4(88)
+	["C499.blif" line: 179, columns:8-13]
+F5(87)
+	["C499.blif" line: 179, columns:15-20]
+G4(100)
+	["C499.blif" line: 179, columns:22-28]
+01 1
+10 1
+.names
+F2(92)
+	["C499.blif" line: 182, columns:8-13]
+F3(89)
+	["C499.blif" line: 182, columns:15-20]
+G1(101)
+	["C499.blif" line: 182, columns:22-28]
+01 1
+10 1
+.names
+F1(95)
+	["C499.blif" line: 185, columns:8-13]
+F3(89)
+	["C499.blif" line: 185, columns:15-20]
+G3(102)
+	["C499.blif" line: 185, columns:22-28]
+01 1
+10 1
+.names
+F0(96)
+	["C499.blif" line: 188, columns:8-13]
+F2(92)
+	["C499.blif" line: 188, columns:15-20]
+G2(103)
+	["C499.blif" line: 188, columns:22-28]
+01 1
+10 1
+.names
+F0(96)
+	["C499.blif" line: 191, columns:8-13]
+F1(95)
+	["C499.blif" line: 191, columns:15-20]
+G0(104)
+	["C499.blif" line: 191, columns:22-28]
+01 1
+10 1
+.names
+H7(41)
+	["C499.blif" line: 194, columns:8-13]
+G3(102)
+	["C499.blif" line: 194, columns:15-21]
+XD7(105)
+	["C499.blif" line: 194, columns:23-30]
+01 1
+10 1
+.names
+H6(42)
+	["C499.blif" line: 197, columns:8-13]
+G2(103)
+	["C499.blif" line: 197, columns:15-21]
+XD6(106)
+	["C499.blif" line: 197, columns:23-30]
+01 1
+10 1
+.names
+H5(43)
+	["C499.blif" line: 200, columns:8-13]
+G1(101)
+	["C499.blif" line: 200, columns:15-21]
+XD5(107)
+	["C499.blif" line: 200, columns:23-30]
+01 1
+10 1
+.names
+H4(44)
+	["C499.blif" line: 203, columns:8-13]
+G0(104)
+	["C499.blif" line: 203, columns:15-21]
+XD4(108)
+	["C499.blif" line: 203, columns:23-30]
+01 1
+10 1
+.names
+H3(45)
+	["C499.blif" line: 206, columns:8-13]
+G7(98)
+	["C499.blif" line: 206, columns:15-20]
+XD3(109)
+	["C499.blif" line: 206, columns:22-29]
+01 1
+10 1
+.names
+H2(46)
+	["C499.blif" line: 209, columns:8-13]
+G6(99)
+	["C499.blif" line: 209, columns:15-20]
+XD2(110)
+	["C499.blif" line: 209, columns:22-29]
+01 1
+10 1
+.names
+H1(47)
+	["C499.blif" line: 212, columns:8-13]
+G5(97)
+	["C499.blif" line: 212, columns:15-20]
+XD1(111)
+	["C499.blif" line: 212, columns:22-29]
+01 1
+10 1
+.names
+H0(48)
+	["C499.blif" line: 215, columns:8-13]
+G4(100)
+	["C499.blif" line: 215, columns:15-21]
+XD0(112)
+	["C499.blif" line: 215, columns:23-30]
+01 1
+10 1
+.names
+XE7(82)
+	["C499.blif" line: 218, columns:8-14]
+XD7(105)
+	["C499.blif" line: 218, columns:16-23]
+S7(113)
+	["C499.blif" line: 218, columns:25-31]
+01 1
+10 1
+.names
+XE6(83)
+	["C499.blif" line: 221, columns:8-14]
+XD6(106)
+	["C499.blif" line: 221, columns:16-23]
+S6(114)
+	["C499.blif" line: 221, columns:25-31]
+01 1
+10 1
+.names
+XE5(85)
+	["C499.blif" line: 224, columns:8-14]
+XD5(107)
+	["C499.blif" line: 224, columns:16-23]
+S5(115)
+	["C499.blif" line: 224, columns:25-31]
+01 1
+10 1
+.names
+XE4(86)
+	["C499.blif" line: 227, columns:8-14]
+XD4(108)
+	["C499.blif" line: 227, columns:16-23]
+S4(116)
+	["C499.blif" line: 227, columns:25-31]
+01 1
+10 1
+.names
+XE3(90)
+	["C499.blif" line: 230, columns:8-14]
+XD3(109)
+	["C499.blif" line: 230, columns:16-23]
+S3(117)
+	["C499.blif" line: 230, columns:25-31]
+01 1
+10 1
+.names
+XE2(91)
+	["C499.blif" line: 233, columns:8-14]
+XD2(110)
+	["C499.blif" line: 233, columns:16-23]
+S2(118)
+	["C499.blif" line: 233, columns:25-31]
+01 1
+10 1
+.names
+XE1(93)
+	["C499.blif" line: 236, columns:8-14]
+XD1(111)
+	["C499.blif" line: 236, columns:16-23]
+S1(119)
+	["C499.blif" line: 236, columns:25-31]
+01 1
+10 1
+.names
+XE0(94)
+	["C499.blif" line: 239, columns:8-14]
+XD0(112)
+	["C499.blif" line: 239, columns:16-23]
+S0(120)
+	["C499.blif" line: 239, columns:25-31]
+01 1
+10 1
+.names
+S7(113)
+	["C499.blif" line: 242, columns:8-14]
+Y7B(121)
+	["C499.blif" line: 242, columns:16-23]
+1 0
+.names
+S7(113)
+	["C499.blif" line: 244, columns:8-14]
+Y7C(122)
+	["C499.blif" line: 244, columns:16-23]
+1 0
+.names
+S7(113)
+	["C499.blif" line: 246, columns:8-14]
+Y7D(123)
+	["C499.blif" line: 246, columns:16-23]
+1 0
+.names
+S7(113)
+	["C499.blif" line: 248, columns:8-14]
+Y7I(124)
+	["C499.blif" line: 248, columns:16-23]
+1 0
+.names
+S7(113)
+	["C499.blif" line: 250, columns:8-14]
+Y7K(125)
+	["C499.blif" line: 250, columns:16-23]
+1 0
+.names
+S6(114)
+	["C499.blif" line: 252, columns:8-14]
+Y6A(126)
+	["C499.blif" line: 252, columns:16-23]
+1 0
+.names
+S6(114)
+	["C499.blif" line: 254, columns:8-14]
+Y6C(127)
+	["C499.blif" line: 254, columns:16-23]
+1 0
+.names
+S6(114)
+	["C499.blif" line: 256, columns:8-14]
+Y6D(128)
+	["C499.blif" line: 256, columns:16-23]
+1 0
+.names
+S6(114)
+	["C499.blif" line: 258, columns:8-14]
+Y6J(129)
+	["C499.blif" line: 258, columns:16-23]
+1 0
+.names
+S6(114)
+	["C499.blif" line: 260, columns:8-14]
+Y6L(130)
+	["C499.blif" line: 260, columns:16-23]
+1 0
+.names
+S5(115)
+	["C499.blif" line: 262, columns:8-14]
+Y5A(131)
+	["C499.blif" line: 262, columns:16-23]
+1 0
+.names
+S5(115)
+	["C499.blif" line: 264, columns:8-14]
+Y5B(132)
+	["C499.blif" line: 264, columns:16-23]
+1 0
+.names
+S5(115)
+	["C499.blif" line: 266, columns:8-14]
+Y5D(133)
+	["C499.blif" line: 266, columns:16-23]
+1 0
+.names
+S5(115)
+	["C499.blif" line: 268, columns:8-14]
+Y5I(134)
+	["C499.blif" line: 268, columns:16-23]
+1 0
+.names
+S5(115)
+	["C499.blif" line: 270, columns:8-14]
+Y5J(135)
+	["C499.blif" line: 270, columns:16-23]
+1 0
+.names
+S4(116)
+	["C499.blif" line: 272, columns:8-14]
+Y4A(136)
+	["C499.blif" line: 272, columns:16-23]
+1 0
+.names
+S4(116)
+	["C499.blif" line: 274, columns:8-14]
+Y4B(137)
+	["C499.blif" line: 274, columns:16-23]
+1 0
+.names
+S4(116)
+	["C499.blif" line: 276, columns:8-14]
+Y4C(138)
+	["C499.blif" line: 276, columns:16-23]
+1 0
+.names
+S4(116)
+	["C499.blif" line: 278, columns:8-14]
+Y4K(139)
+	["C499.blif" line: 278, columns:16-23]
+1 0
+.names
+S4(116)
+	["C499.blif" line: 280, columns:8-14]
+Y4L(140)
+	["C499.blif" line: 280, columns:16-23]
+1 0
+.names
+S3(117)
+	["C499.blif" line: 282, columns:8-14]
+Y3B(141)
+	["C499.blif" line: 282, columns:16-23]
+1 0
+.names
+S3(117)
+	["C499.blif" line: 284, columns:8-14]
+Y3C(142)
+	["C499.blif" line: 284, columns:16-23]
+1 0
+.names
+S3(117)
+	["C499.blif" line: 286, columns:8-14]
+Y3D(143)
+	["C499.blif" line: 286, columns:16-23]
+1 0
+.names
+S3(117)
+	["C499.blif" line: 288, columns:8-14]
+Y3I(144)
+	["C499.blif" line: 288, columns:16-23]
+1 0
+.names
+S3(117)
+	["C499.blif" line: 290, columns:8-14]
+Y3K(145)
+	["C499.blif" line: 290, columns:16-23]
+1 0
+.names
+S2(118)
+	["C499.blif" line: 292, columns:8-14]
+Y2A(146)
+	["C499.blif" line: 292, columns:16-23]
+1 0
+.names
+S2(118)
+	["C499.blif" line: 294, columns:8-14]
+Y2C(147)
+	["C499.blif" line: 294, columns:16-23]
+1 0
+.names
+S2(118)
+	["C499.blif" line: 296, columns:8-14]
+Y2D(148)
+	["C499.blif" line: 296, columns:16-23]
+1 0
+.names
+S2(118)
+	["C499.blif" line: 298, columns:8-14]
+Y2J(149)
+	["C499.blif" line: 298, columns:16-23]
+1 0
+.names
+S2(118)
+	["C499.blif" line: 300, columns:8-14]
+Y2L(150)
+	["C499.blif" line: 300, columns:16-23]
+1 0
+.names
+S1(119)
+	["C499.blif" line: 302, columns:8-14]
+Y1A(151)
+	["C499.blif" line: 302, columns:16-23]
+1 0
+.names
+S1(119)
+	["C499.blif" line: 304, columns:8-14]
+Y1B(152)
+	["C499.blif" line: 304, columns:16-23]
+1 0
+.names
+S1(119)
+	["C499.blif" line: 306, columns:8-14]
+Y1D(153)
+	["C499.blif" line: 306, columns:16-23]
+1 0
+.names
+S1(119)
+	["C499.blif" line: 308, columns:8-14]
+Y1I(154)
+	["C499.blif" line: 308, columns:16-23]
+1 0
+.names
+S1(119)
+	["C499.blif" line: 310, columns:8-14]
+Y1J(155)
+	["C499.blif" line: 310, columns:16-23]
+1 0
+.names
+S0(120)
+	["C499.blif" line: 312, columns:8-14]
+Y0A(156)
+	["C499.blif" line: 312, columns:16-23]
+1 0
+.names
+S0(120)
+	["C499.blif" line: 314, columns:8-14]
+Y0B(157)
+	["C499.blif" line: 314, columns:16-23]
+1 0
+.names
+S0(120)
+	["C499.blif" line: 316, columns:8-14]
+Y0C(158)
+	["C499.blif" line: 316, columns:16-23]
+1 0
+.names
+S0(120)
+	["C499.blif" line: 318, columns:8-14]
+Y0K(159)
+	["C499.blif" line: 318, columns:16-23]
+1 0
+.names
+S0(120)
+	["C499.blif" line: 320, columns:8-14]
+Y0L(160)
+	["C499.blif" line: 320, columns:16-23]
+1 0
+.names
+Y4A(136)
+	["C499.blif" line: 322, columns:8-15]
+Y5A(131)
+	["C499.blif" line: 322, columns:17-24]
+Y6A(126)
+	["C499.blif" line: 322, columns:26-33]
+S7(113)
+	["C499.blif" line: 322, columns:35-41]
+T4(161)
+	["C499.blif" line: 322, columns:43-49]
+1111 1
+.names
+Y4B(137)
+	["C499.blif" line: 324, columns:8-15]
+Y5B(132)
+	["C499.blif" line: 324, columns:17-24]
+S6(114)
+	["C499.blif" line: 324, columns:26-32]
+Y7B(121)
+	["C499.blif" line: 324, columns:34-41]
+T5(162)
+	["C499.blif" line: 324, columns:43-49]
+1111 1
+.names
+Y4C(138)
+	["C499.blif" line: 326, columns:8-15]
+S5(115)
+	["C499.blif" line: 326, columns:17-23]
+Y6C(127)
+	["C499.blif" line: 326, columns:25-32]
+Y7C(122)
+	["C499.blif" line: 326, columns:34-41]
+T6(163)
+	["C499.blif" line: 326, columns:43-49]
+1111 1
+.names
+S4(116)
+	["C499.blif" line: 328, columns:8-14]
+Y5D(133)
+	["C499.blif" line: 328, columns:16-23]
+Y6D(128)
+	["C499.blif" line: 328, columns:25-32]
+Y7D(123)
+	["C499.blif" line: 328, columns:34-41]
+T7(164)
+	["C499.blif" line: 328, columns:43-49]
+1111 1
+.names
+Y0A(156)
+	["C499.blif" line: 330, columns:8-15]
+Y1A(151)
+	["C499.blif" line: 330, columns:17-24]
+Y2A(146)
+	["C499.blif" line: 330, columns:26-33]
+S3(117)
+	["C499.blif" line: 330, columns:35-41]
+T0(165)
+	["C499.blif" line: 330, columns:43-49]
+1111 1
+.names
+Y0B(157)
+	["C499.blif" line: 332, columns:8-15]
+Y1B(152)
+	["C499.blif" line: 332, columns:17-24]
+S2(118)
+	["C499.blif" line: 332, columns:26-32]
+Y3B(141)
+	["C499.blif" line: 332, columns:34-41]
+T1(166)
+	["C499.blif" line: 332, columns:43-49]
+1111 1
+.names
+Y0C(158)
+	["C499.blif" line: 334, columns:8-15]
+S1(119)
+	["C499.blif" line: 334, columns:17-23]
+Y2C(147)
+	["C499.blif" line: 334, columns:25-32]
+Y3C(142)
+	["C499.blif" line: 334, columns:34-41]
+T2(167)
+	["C499.blif" line: 334, columns:43-49]
+1111 1
+.names
+S0(120)
+	["C499.blif" line: 336, columns:8-14]
+Y1D(153)
+	["C499.blif" line: 336, columns:16-23]
+Y2D(148)
+	["C499.blif" line: 336, columns:25-32]
+Y3D(143)
+	["C499.blif" line: 336, columns:34-41]
+T3(168)
+	["C499.blif" line: 336, columns:43-49]
+1111 1
+.names
+T4(161)
+	["C499.blif" line: 338, columns:8-14]
+T5(162)
+	["C499.blif" line: 338, columns:16-22]
+T6(163)
+	["C499.blif" line: 338, columns:24-30]
+T7(164)
+	["C499.blif" line: 338, columns:32-38]
+U1(169)
+	["C499.blif" line: 338, columns:40-46]
+0000 0
+.names
+T0(165)
+	["C499.blif" line: 340, columns:8-14]
+T1(166)
+	["C499.blif" line: 340, columns:16-22]
+T2(167)
+	["C499.blif" line: 340, columns:24-30]
+T3(168)
+	["C499.blif" line: 340, columns:32-38]
+U0(170)
+	["C499.blif" line: 340, columns:40-46]
+0000 0
+.names
+S4(116)
+	["C499.blif" line: 342, columns:8-14]
+Y5J(135)
+	["C499.blif" line: 342, columns:16-23]
+Y6J(129)
+	["C499.blif" line: 342, columns:25-32]
+S7(113)
+	["C499.blif" line: 342, columns:34-40]
+U0(170)
+	["C499.blif" line: 342, columns:42-48]
+WB(171)
+	["C499.blif" line: 342, columns:50-56]
+11111 1
+.names
+Y4L(140)
+	["C499.blif" line: 344, columns:8-15]
+S5(115)
+	["C499.blif" line: 344, columns:17-23]
+Y6L(130)
+	["C499.blif" line: 344, columns:25-32]
+S7(113)
+	["C499.blif" line: 344, columns:34-40]
+U0(170)
+	["C499.blif" line: 344, columns:42-48]
+WD(172)
+	["C499.blif" line: 344, columns:50-56]
+11111 1
+.names
+S4(116)
+	["C499.blif" line: 346, columns:8-14]
+Y5I(134)
+	["C499.blif" line: 346, columns:16-23]
+S6(114)
+	["C499.blif" line: 346, columns:25-31]
+Y7I(124)
+	["C499.blif" line: 346, columns:33-40]
+U0(170)
+	["C499.blif" line: 346, columns:42-48]
+WA(173)
+	["C499.blif" line: 346, columns:50-56]
+11111 1
+.names
+Y4K(139)
+	["C499.blif" line: 348, columns:8-15]
+S5(115)
+	["C499.blif" line: 348, columns:17-23]
+S6(114)
+	["C499.blif" line: 348, columns:25-31]
+Y7K(125)
+	["C499.blif" line: 348, columns:33-40]
+U0(170)
+	["C499.blif" line: 348, columns:42-48]
+WC(174)
+	["C499.blif" line: 348, columns:50-56]
+11111 1
+.names
+S0(120)
+	["C499.blif" line: 350, columns:8-14]
+Y1J(155)
+	["C499.blif" line: 350, columns:16-23]
+Y2J(149)
+	["C499.blif" line: 350, columns:25-32]
+S3(117)
+	["C499.blif" line: 350, columns:34-40]
+U1(169)
+	["C499.blif" line: 350, columns:42-48]
+WF(175)
+	["C499.blif" line: 350, columns:50-56]
+11111 1
+.names
+Y0L(160)
+	["C499.blif" line: 352, columns:8-15]
+S1(119)
+	["C499.blif" line: 352, columns:17-23]
+Y2L(150)
+	["C499.blif" line: 352, columns:25-32]
+S3(117)
+	["C499.blif" line: 352, columns:34-40]
+U1(169)
+	["C499.blif" line: 352, columns:42-48]
+WH(176)
+	["C499.blif" line: 352, columns:50-56]
+11111 1
+.names
+S0(120)
+	["C499.blif" line: 354, columns:8-14]
+Y1I(154)
+	["C499.blif" line: 354, columns:16-23]
+S2(118)
+	["C499.blif" line: 354, columns:25-31]
+Y3I(144)
+	["C499.blif" line: 354, columns:33-40]
+U1(169)
+	["C499.blif" line: 354, columns:42-48]
+WE(177)
+	["C499.blif" line: 354, columns:50-56]
+11111 1
+.names
+Y0K(159)
+	["C499.blif" line: 356, columns:8-15]
+S1(119)
+	["C499.blif" line: 356, columns:17-23]
+S2(118)
+	["C499.blif" line: 356, columns:25-31]
+Y3K(145)
+	["C499.blif" line: 356, columns:33-40]
+U1(169)
+	["C499.blif" line: 356, columns:42-48]
+WG(178)
+	["C499.blif" line: 356, columns:50-56]
+11111 1
+.names
+S7(113)
+	["C499.blif" line: 358, columns:8-14]
+WE(177)
+	["C499.blif" line: 358, columns:16-22]
+E19(179)
+	["C499.blif" line: 358, columns:24-31]
+11 1
+.names
+S7(113)
+	["C499.blif" line: 360, columns:8-14]
+WF(175)
+	["C499.blif" line: 360, columns:16-22]
+E23(180)
+	["C499.blif" line: 360, columns:24-31]
+11 1
+.names
+S7(113)
+	["C499.blif" line: 362, columns:8-14]
+WG(178)
+	["C499.blif" line: 362, columns:16-22]
+E27(181)
+	["C499.blif" line: 362, columns:24-31]
+11 1
+.names
+S7(113)
+	["C499.blif" line: 364, columns:8-14]
+WH(176)
+	["C499.blif" line: 364, columns:16-22]
+E31(182)
+	["C499.blif" line: 364, columns:24-31]
+11 1
+.names
+S6(114)
+	["C499.blif" line: 366, columns:8-14]
+WE(177)
+	["C499.blif" line: 366, columns:16-22]
+E18(183)
+	["C499.blif" line: 366, columns:24-31]
+11 1
+.names
+S6(114)
+	["C499.blif" line: 368, columns:8-14]
+WF(175)
+	["C499.blif" line: 368, columns:16-22]
+E22(184)
+	["C499.blif" line: 368, columns:24-31]
+11 1
+.names
+S6(114)
+	["C499.blif" line: 370, columns:8-14]
+WG(178)
+	["C499.blif" line: 370, columns:16-22]
+E26(185)
+	["C499.blif" line: 370, columns:24-31]
+11 1
+.names
+S6(114)
+	["C499.blif" line: 372, columns:8-14]
+WH(176)
+	["C499.blif" line: 372, columns:16-22]
+E30(186)
+	["C499.blif" line: 372, columns:24-31]
+11 1
+.names
+S5(115)
+	["C499.blif" line: 374, columns:8-14]
+WE(177)
+	["C499.blif" line: 374, columns:16-22]
+E17(187)
+	["C499.blif" line: 374, columns:24-31]
+11 1
+.names
+S5(115)
+	["C499.blif" line: 376, columns:8-14]
+WF(175)
+	["C499.blif" line: 376, columns:16-22]
+E21(188)
+	["C499.blif" line: 376, columns:24-31]
+11 1
+.names
+S5(115)
+	["C499.blif" line: 378, columns:8-14]
+WG(178)
+	["C499.blif" line: 378, columns:16-22]
+E25(189)
+	["C499.blif" line: 378, columns:24-31]
+11 1
+.names
+S5(115)
+	["C499.blif" line: 380, columns:8-14]
+WH(176)
+	["C499.blif" line: 380, columns:16-22]
+E29(190)
+	["C499.blif" line: 380, columns:24-31]
+11 1
+.names
+S4(116)
+	["C499.blif" line: 382, columns:8-14]
+WE(177)
+	["C499.blif" line: 382, columns:16-22]
+E16(191)
+	["C499.blif" line: 382, columns:24-31]
+11 1
+.names
+S4(116)
+	["C499.blif" line: 384, columns:8-14]
+WF(175)
+	["C499.blif" line: 384, columns:16-22]
+E20(192)
+	["C499.blif" line: 384, columns:24-31]
+11 1
+.names
+S4(116)
+	["C499.blif" line: 386, columns:8-14]
+WG(178)
+	["C499.blif" line: 386, columns:16-22]
+E24(193)
+	["C499.blif" line: 386, columns:24-31]
+11 1
+.names
+S4(116)
+	["C499.blif" line: 388, columns:8-14]
+WH(176)
+	["C499.blif" line: 388, columns:16-22]
+E28(194)
+	["C499.blif" line: 388, columns:24-31]
+11 1
+.names
+S3(117)
+	["C499.blif" line: 390, columns:8-14]
+WA(173)
+	["C499.blif" line: 390, columns:16-22]
+E3(195)
+	["C499.blif" line: 390, columns:24-30]
+11 1
+.names
+S3(117)
+	["C499.blif" line: 392, columns:8-14]
+WB(171)
+	["C499.blif" line: 392, columns:16-22]
+E7(196)
+	["C499.blif" line: 392, columns:24-30]
+11 1
+.names
+S3(117)
+	["C499.blif" line: 394, columns:8-14]
+WC(174)
+	["C499.blif" line: 394, columns:16-22]
+E11(197)
+	["C499.blif" line: 394, columns:24-31]
+11 1
+.names
+S3(117)
+	["C499.blif" line: 396, columns:8-14]
+WD(172)
+	["C499.blif" line: 396, columns:16-22]
+E15(198)
+	["C499.blif" line: 396, columns:24-31]
+11 1
+.names
+S2(118)
+	["C499.blif" line: 398, columns:8-14]
+WA(173)
+	["C499.blif" line: 398, columns:16-22]
+E2(199)
+	["C499.blif" line: 398, columns:24-30]
+11 1
+.names
+S2(118)
+	["C499.blif" line: 400, columns:8-14]
+WB(171)
+	["C499.blif" line: 400, columns:16-22]
+E6(200)
+	["C499.blif" line: 400, columns:24-30]
+11 1
+.names
+S2(118)
+	["C499.blif" line: 402, columns:8-14]
+WC(174)
+	["C499.blif" line: 402, columns:16-22]
+E10(201)
+	["C499.blif" line: 402, columns:24-31]
+11 1
+.names
+S2(118)
+	["C499.blif" line: 404, columns:8-14]
+WD(172)
+	["C499.blif" line: 404, columns:16-22]
+E14(202)
+	["C499.blif" line: 404, columns:24-31]
+11 1
+.names
+S1(119)
+	["C499.blif" line: 406, columns:8-14]
+WA(173)
+	["C499.blif" line: 406, columns:16-22]
+E1(203)
+	["C499.blif" line: 406, columns:24-30]
+11 1
+.names
+S1(119)
+	["C499.blif" line: 408, columns:8-14]
+WB(171)
+	["C499.blif" line: 408, columns:16-22]
+E5(204)
+	["C499.blif" line: 408, columns:24-30]
+11 1
+.names
+S1(119)
+	["C499.blif" line: 410, columns:8-14]
+WC(174)
+	["C499.blif" line: 410, columns:16-22]
+E9(205)
+	["C499.blif" line: 410, columns:24-30]
+11 1
+.names
+S1(119)
+	["C499.blif" line: 412, columns:8-14]
+WD(172)
+	["C499.blif" line: 412, columns:16-22]
+E13(206)
+	["C499.blif" line: 412, columns:24-31]
+11 1
+.names
+S0(120)
+	["C499.blif" line: 414, columns:8-14]
+WA(173)
+	["C499.blif" line: 414, columns:16-22]
+E0(207)
+	["C499.blif" line: 414, columns:24-30]
+11 1
+.names
+S0(120)
+	["C499.blif" line: 416, columns:8-14]
+WB(171)
+	["C499.blif" line: 416, columns:16-22]
+E4(208)
+	["C499.blif" line: 416, columns:24-30]
+11 1
+.names
+S0(120)
+	["C499.blif" line: 418, columns:8-14]
+WC(174)
+	["C499.blif" line: 418, columns:16-22]
+E8(209)
+	["C499.blif" line: 418, columns:24-30]
+11 1
+.names
+S0(120)
+	["C499.blif" line: 420, columns:8-14]
+WD(172)
+	["C499.blif" line: 420, columns:16-22]
+E12(210)
+	["C499.blif" line: 420, columns:24-31]
+11 1
+.names
+ID31(31)
+	["C499.blif" line: 422, columns:8-15]
+E31(182)
+	["C499.blif" line: 422, columns:17-24]
+OD31(211)
+	["C499.blif" line: 422, columns:26-34]
+01 1
+10 1
+.names
+ID30(30)
+	["C499.blif" line: 425, columns:8-15]
+E30(186)
+	["C499.blif" line: 425, columns:17-24]
+OD30(212)
+	["C499.blif" line: 425, columns:26-34]
+01 1
+10 1
+.names
+ID29(29)
+	["C499.blif" line: 428, columns:8-15]
+E29(190)
+	["C499.blif" line: 428, columns:17-24]
+OD29(213)
+	["C499.blif" line: 428, columns:26-34]
+01 1
+10 1
+.names
+ID28(28)
+	["C499.blif" line: 431, columns:8-15]
+E28(194)
+	["C499.blif" line: 431, columns:17-24]
+OD28(214)
+	["C499.blif" line: 431, columns:26-34]
+01 1
+10 1
+.names
+ID27(27)
+	["C499.blif" line: 434, columns:8-15]
+E27(181)
+	["C499.blif" line: 434, columns:17-24]
+OD27(215)
+	["C499.blif" line: 434, columns:26-34]
+01 1
+10 1
+.names
+ID26(26)
+	["C499.blif" line: 437, columns:8-15]
+E26(185)
+	["C499.blif" line: 437, columns:17-24]
+OD26(216)
+	["C499.blif" line: 437, columns:26-34]
+01 1
+10 1
+.names
+ID25(25)
+	["C499.blif" line: 440, columns:8-15]
+E25(189)
+	["C499.blif" line: 440, columns:17-24]
+OD25(217)
+	["C499.blif" line: 440, columns:26-34]
+01 1
+10 1
+.names
+ID24(24)
+	["C499.blif" line: 443, columns:8-15]
+E24(193)
+	["C499.blif" line: 443, columns:17-24]
+OD24(218)
+	["C499.blif" line: 443, columns:26-34]
+01 1
+10 1
+.names
+ID23(23)
+	["C499.blif" line: 446, columns:8-15]
+E23(180)
+	["C499.blif" line: 446, columns:17-24]
+OD23(219)
+	["C499.blif" line: 446, columns:26-34]
+01 1
+10 1
+.names
+ID22(22)
+	["C499.blif" line: 449, columns:8-15]
+E22(184)
+	["C499.blif" line: 449, columns:17-24]
+OD22(220)
+	["C499.blif" line: 449, columns:26-34]
+01 1
+10 1
+.names
+ID21(21)
+	["C499.blif" line: 452, columns:8-15]
+E21(188)
+	["C499.blif" line: 452, columns:17-24]
+OD21(221)
+	["C499.blif" line: 452, columns:26-34]
+01 1
+10 1
+.names
+ID20(20)
+	["C499.blif" line: 455, columns:8-15]
+E20(192)
+	["C499.blif" line: 455, columns:17-24]
+OD20(222)
+	["C499.blif" line: 455, columns:26-34]
+01 1
+10 1
+.names
+ID19(19)
+	["C499.blif" line: 458, columns:8-15]
+E19(179)
+	["C499.blif" line: 458, columns:17-24]
+OD19(223)
+	["C499.blif" line: 458, columns:26-34]
+01 1
+10 1
+.names
+ID18(18)
+	["C499.blif" line: 461, columns:8-15]
+E18(183)
+	["C499.blif" line: 461, columns:17-24]
+OD18(224)
+	["C499.blif" line: 461, columns:26-34]
+01 1
+10 1
+.names
+ID17(17)
+	["C499.blif" line: 464, columns:8-15]
+E17(187)
+	["C499.blif" line: 464, columns:17-24]
+OD17(225)
+	["C499.blif" line: 464, columns:26-34]
+01 1
+10 1
+.names
+ID16(16)
+	["C499.blif" line: 467, columns:8-15]
+E16(191)
+	["C499.blif" line: 467, columns:17-24]
+OD16(226)
+	["C499.blif" line: 467, columns:26-34]
+01 1
+10 1
+.names
+ID15(15)
+	["C499.blif" line: 470, columns:8-15]
+E15(198)
+	["C499.blif" line: 470, columns:17-24]
+OD15(227)
+	["C499.blif" line: 470, columns:26-34]
+01 1
+10 1
+.names
+ID14(14)
+	["C499.blif" line: 473, columns:8-15]
+E14(202)
+	["C499.blif" line: 473, columns:17-24]
+OD14(228)
+	["C499.blif" line: 473, columns:26-34]
+01 1
+10 1
+.names
+ID13(13)
+	["C499.blif" line: 476, columns:8-15]
+E13(206)
+	["C499.blif" line: 476, columns:17-24]
+OD13(229)
+	["C499.blif" line: 476, columns:26-34]
+01 1
+10 1
+.names
+ID12(12)
+	["C499.blif" line: 479, columns:8-15]
+E12(210)
+	["C499.blif" line: 479, columns:17-24]
+OD12(230)
+	["C499.blif" line: 479, columns:26-34]
+01 1
+10 1
+.names
+ID11(11)
+	["C499.blif" line: 482, columns:8-15]
+E11(197)
+	["C499.blif" line: 482, columns:17-24]
+OD11(231)
+	["C499.blif" line: 482, columns:26-34]
+01 1
+10 1
+.names
+ID10(10)
+	["C499.blif" line: 485, columns:8-15]
+E10(201)
+	["C499.blif" line: 485, columns:17-24]
+OD10(232)
+	["C499.blif" line: 485, columns:26-34]
+01 1
+10 1
+.names
+ID9(9)
+	["C499.blif" line: 488, columns:8-13]
+E9(205)
+	["C499.blif" line: 488, columns:15-21]
+OD9(233)
+	["C499.blif" line: 488, columns:23-30]
+01 1
+10 1
+.names
+ID8(8)
+	["C499.blif" line: 491, columns:8-13]
+E8(209)
+	["C499.blif" line: 491, columns:15-21]
+OD8(234)
+	["C499.blif" line: 491, columns:23-30]
+01 1
+10 1
+.names
+ID7(7)
+	["C499.blif" line: 494, columns:8-13]
+E7(196)
+	["C499.blif" line: 494, columns:15-21]
+OD7(235)
+	["C499.blif" line: 494, columns:23-30]
+01 1
+10 1
+.names
+ID6(6)
+	["C499.blif" line: 497, columns:8-13]
+E6(200)
+	["C499.blif" line: 497, columns:15-21]
+OD6(236)
+	["C499.blif" line: 497, columns:23-30]
+01 1
+10 1
+.names
+ID5(5)
+	["C499.blif" line: 500, columns:8-13]
+E5(204)
+	["C499.blif" line: 500, columns:15-21]
+OD5(237)
+	["C499.blif" line: 500, columns:23-30]
+01 1
+10 1
+.names
+ID4(4)
+	["C499.blif" line: 503, columns:8-13]
+E4(208)
+	["C499.blif" line: 503, columns:15-21]
+OD4(238)
+	["C499.blif" line: 503, columns:23-30]
+01 1
+10 1
+.names
+ID3(3)
+	["C499.blif" line: 506, columns:8-13]
+E3(195)
+	["C499.blif" line: 506, columns:15-21]
+OD3(239)
+	["C499.blif" line: 506, columns:23-30]
+01 1
+10 1
+.names
+ID2(2)
+	["C499.blif" line: 509, columns:8-13]
+E2(199)
+	["C499.blif" line: 509, columns:15-21]
+OD2(240)
+	["C499.blif" line: 509, columns:23-30]
+01 1
+10 1
+.names
+ID1(1)
+	["C499.blif" line: 512, columns:8-13]
+E1(203)
+	["C499.blif" line: 512, columns:15-21]
+OD1(241)
+	["C499.blif" line: 512, columns:23-30]
+01 1
+10 1
+.names
+ID0(0)
+	["C499.blif" line: 515, columns:8-13]
+E0(207)
+	["C499.blif" line: 515, columns:15-21]
+OD0(242)
+	["C499.blif" line: 515, columns:23-30]
+01 1
+10 1
+.end
+	["C499.blif" line: 518, columns:1-4]
+normal_exit

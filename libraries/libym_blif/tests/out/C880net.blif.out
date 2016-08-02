@@ -1,0 +1,5550 @@
+.model C880.iscas
+	["C880net.blif" line: 1, columns:1-6]
+	["C880net.blif" line: 1, columns:8-17]
+  inputs elem: 1GAT(0)
+	["C880net.blif" line: 2, columns:9-15]
+  inputs elem: 8GAT(1)
+	["C880net.blif" line: 2, columns:17-23]
+  inputs elem: 13GAT(2)
+	["C880net.blif" line: 2, columns:25-32]
+  inputs elem: 17GAT(3)
+	["C880net.blif" line: 2, columns:34-41]
+  inputs elem: 26GAT(4)
+	["C880net.blif" line: 2, columns:43-50]
+  inputs elem: 29GAT(5)
+	["C880net.blif" line: 2, columns:52-59]
+  inputs elem: 36GAT(6)
+	["C880net.blif" line: 2, columns:61-68]
+  inputs elem: 42GAT(7)
+	["C880net.blif" line: 2, columns:70-77]
+  inputs elem: 51GAT(8)
+	["C880net.blif" line: 3, columns:1-8]
+  inputs elem: 55GAT(9)
+	["C880net.blif" line: 3, columns:10-17]
+  inputs elem: 59GAT(10)
+	["C880net.blif" line: 3, columns:19-27]
+  inputs elem: 68GAT(11)
+	["C880net.blif" line: 3, columns:29-37]
+  inputs elem: 72GAT(12)
+	["C880net.blif" line: 3, columns:39-47]
+  inputs elem: 73GAT(13)
+	["C880net.blif" line: 3, columns:49-57]
+  inputs elem: 74GAT(14)
+	["C880net.blif" line: 3, columns:59-67]
+  inputs elem: 75GAT(15)
+	["C880net.blif" line: 3, columns:69-77]
+  inputs elem: 80GAT(16)
+	["C880net.blif" line: 4, columns:1-9]
+  inputs elem: 85GAT(17)
+	["C880net.blif" line: 4, columns:11-19]
+  inputs elem: 86GAT(18)
+	["C880net.blif" line: 4, columns:21-29]
+  inputs elem: 87GAT(19)
+	["C880net.blif" line: 4, columns:31-39]
+  inputs elem: 88GAT(20)
+	["C880net.blif" line: 4, columns:41-49]
+  inputs elem: 89GAT(21)
+	["C880net.blif" line: 4, columns:51-59]
+  inputs elem: 90GAT(22)
+	["C880net.blif" line: 4, columns:61-69]
+  inputs elem: 91GAT(23)
+	["C880net.blif" line: 5, columns:1-9]
+  inputs elem: 96GAT(24)
+	["C880net.blif" line: 5, columns:11-19]
+  inputs elem: 101GAT(25)
+	["C880net.blif" line: 5, columns:21-30]
+  inputs elem: 106GAT(26)
+	["C880net.blif" line: 5, columns:32-41]
+  inputs elem: 111GAT(27)
+	["C880net.blif" line: 5, columns:43-52]
+  inputs elem: 116GAT(28)
+	["C880net.blif" line: 5, columns:54-63]
+  inputs elem: 121GAT(29)
+	["C880net.blif" line: 5, columns:65-74]
+  inputs elem: 126GAT(30)
+	["C880net.blif" line: 6, columns:1-10]
+  inputs elem: 130GAT(31)
+	["C880net.blif" line: 6, columns:12-21]
+  inputs elem: 135GAT(32)
+	["C880net.blif" line: 6, columns:23-32]
+  inputs elem: 138GAT(33)
+	["C880net.blif" line: 6, columns:34-43]
+  inputs elem: 143GAT(34)
+	["C880net.blif" line: 6, columns:45-54]
+  inputs elem: 146GAT(35)
+	["C880net.blif" line: 6, columns:56-65]
+  inputs elem: 149GAT(36)
+	["C880net.blif" line: 6, columns:67-76]
+  inputs elem: 152GAT(37)
+	["C880net.blif" line: 7, columns:1-10]
+  inputs elem: 153GAT(38)
+	["C880net.blif" line: 7, columns:12-21]
+  inputs elem: 156GAT(39)
+	["C880net.blif" line: 7, columns:23-32]
+  inputs elem: 159GAT(40)
+	["C880net.blif" line: 7, columns:34-43]
+  inputs elem: 165GAT(41)
+	["C880net.blif" line: 7, columns:45-54]
+  inputs elem: 171GAT(42)
+	["C880net.blif" line: 7, columns:56-65]
+  inputs elem: 177GAT(43)
+	["C880net.blif" line: 7, columns:67-76]
+  inputs elem: 183GAT(44)
+	["C880net.blif" line: 8, columns:1-10]
+  inputs elem: 189GAT(45)
+	["C880net.blif" line: 8, columns:12-21]
+  inputs elem: 195GAT(46)
+	["C880net.blif" line: 8, columns:23-32]
+  inputs elem: 201GAT(47)
+	["C880net.blif" line: 8, columns:34-43]
+  inputs elem: 207GAT(48)
+	["C880net.blif" line: 8, columns:45-54]
+  inputs elem: 210GAT(49)
+	["C880net.blif" line: 8, columns:56-65]
+  inputs elem: 219GAT(50)
+	["C880net.blif" line: 8, columns:67-76]
+  inputs elem: 228GAT(51)
+	["C880net.blif" line: 9, columns:1-10]
+  inputs elem: 237GAT(52)
+	["C880net.blif" line: 9, columns:12-21]
+  inputs elem: 246GAT(53)
+	["C880net.blif" line: 9, columns:23-32]
+  inputs elem: 255GAT(54)
+	["C880net.blif" line: 9, columns:34-43]
+  inputs elem: 259GAT(55)
+	["C880net.blif" line: 9, columns:45-54]
+  inputs elem: 260GAT(56)
+	["C880net.blif" line: 9, columns:56-65]
+  inputs elem: 261GAT(57)
+	["C880net.blif" line: 9, columns:67-76]
+  inputs elem: 267GAT(58)
+	["C880net.blif" line: 10, columns:1-10]
+  inputs elem: 268GAT(59)
+	["C880net.blif" line: 10, columns:12-21]
+  outputs elem: 388GAT(133)
+	["C880net.blif" line: 11, columns:10-20]
+  outputs elem: 389GAT(132)
+	["C880net.blif" line: 11, columns:22-32]
+  outputs elem: 390GAT(131)
+	["C880net.blif" line: 11, columns:34-44]
+  outputs elem: 391GAT(124)
+	["C880net.blif" line: 11, columns:46-56]
+  outputs elem: 418GAT(168)
+	["C880net.blif" line: 11, columns:58-68]
+  outputs elem: 419GAT(164)
+	["C880net.blif" line: 12, columns:1-11]
+  outputs elem: 420GAT(158)
+	["C880net.blif" line: 12, columns:13-23]
+  outputs elem: 421GAT(162)
+	["C880net.blif" line: 12, columns:25-35]
+  outputs elem: 422GAT(161)
+	["C880net.blif" line: 12, columns:37-47]
+  outputs elem: 423GAT(155)
+	["C880net.blif" line: 12, columns:49-59]
+  outputs elem: 446GAT(183)
+	["C880net.blif" line: 12, columns:61-71]
+  outputs elem: 447GAT(182)
+	["C880net.blif" line: 13, columns:1-11]
+  outputs elem: 448GAT(179)
+	["C880net.blif" line: 13, columns:13-23]
+  outputs elem: 449GAT(176)
+	["C880net.blif" line: 13, columns:25-35]
+  outputs elem: 450GAT(173)
+	["C880net.blif" line: 13, columns:37-47]
+  outputs elem: 767GAT(349)
+	["C880net.blif" line: 13, columns:49-59]
+  outputs elem: 768GAT(334)
+	["C880net.blif" line: 13, columns:61-71]
+  outputs elem: 850GAT(404)
+	["C880net.blif" line: 14, columns:1-11]
+  outputs elem: 863GAT(424)
+	["C880net.blif" line: 14, columns:13-23]
+  outputs elem: 864GAT(423)
+	["C880net.blif" line: 14, columns:25-35]
+  outputs elem: 865GAT(422)
+	["C880net.blif" line: 14, columns:37-47]
+  outputs elem: 866GAT(426)
+	["C880net.blif" line: 14, columns:49-59]
+  outputs elem: 874GAT(433)
+	["C880net.blif" line: 14, columns:61-71]
+  outputs elem: 878GAT(442)
+	["C880net.blif" line: 15, columns:1-11]
+  outputs elem: 879GAT(441)
+	["C880net.blif" line: 15, columns:13-23]
+  outputs elem: 880GAT(440)
+	["C880net.blif" line: 15, columns:25-35]
+.gate nor1 begin
+	["C880net.blif" line: 16, columns:1-5]
+	["C880net.blif" line: 16, columns:7-10]
+  .gate assign: a = 42GAT(7)
+	["C880net.blif" line: 16, column: 12]
+	["C880net.blif" line: 16, columns:14-21]
+  .gate assign: O = [757]
+	["C880net.blif" line: 16, column: 23]
+	["C880net.blif" line: 16, columns:25-29]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 17, columns:1-5]
+	["C880net.blif" line: 17, columns:7-10]
+  .gate assign: a = 29GAT(5)
+	["C880net.blif" line: 17, column: 12]
+	["C880net.blif" line: 17, columns:14-21]
+  .gate assign: O = [754]
+	["C880net.blif" line: 17, column: 23]
+	["C880net.blif" line: 17, columns:25-29]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 18, columns:1-5]
+	["C880net.blif" line: 18, columns:7-10]
+  .gate assign: a = 75GAT(15)
+	["C880net.blif" line: 18, column: 12]
+	["C880net.blif" line: 18, columns:14-22]
+  .gate assign: O = [755]
+	["C880net.blif" line: 18, column: 24]
+	["C880net.blif" line: 18, columns:26-30]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 19, columns:1-5]
+	["C880net.blif" line: 19, columns:7-10]
+  .gate assign: a = [757]
+	["C880net.blif" line: 19, column: 12]
+	["C880net.blif" line: 19, columns:14-18]
+  .gate assign: b = [754]
+	["C880net.blif" line: 19, column: 20]
+	["C880net.blif" line: 19, columns:22-26]
+  .gate assign: c = [755]
+	["C880net.blif" line: 19, column: 28]
+	["C880net.blif" line: 19, columns:30-34]
+  .gate assign: O = 388GAT(133)
+	["C880net.blif" line: 19, column: 36]
+	["C880net.blif" line: 19, columns:38-48]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 20, columns:1-5]
+	["C880net.blif" line: 20, columns:7-10]
+  .gate assign: a = 80GAT(16)
+	["C880net.blif" line: 20, column: 12]
+	["C880net.blif" line: 20, columns:14-22]
+  .gate assign: O = [760]
+	["C880net.blif" line: 20, column: 24]
+	["C880net.blif" line: 20, columns:26-30]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 21, columns:1-5]
+	["C880net.blif" line: 21, columns:7-10]
+  .gate assign: a = 36GAT(6)
+	["C880net.blif" line: 21, column: 12]
+	["C880net.blif" line: 21, columns:14-21]
+  .gate assign: O = [758]
+	["C880net.blif" line: 21, column: 23]
+	["C880net.blif" line: 21, columns:25-29]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 22, columns:1-5]
+	["C880net.blif" line: 22, columns:7-10]
+  .gate assign: a = [760]
+	["C880net.blif" line: 22, column: 12]
+	["C880net.blif" line: 22, columns:14-18]
+  .gate assign: b = [754]
+	["C880net.blif" line: 22, column: 20]
+	["C880net.blif" line: 22, columns:22-26]
+  .gate assign: c = [758]
+	["C880net.blif" line: 22, column: 28]
+	["C880net.blif" line: 22, columns:30-34]
+  .gate assign: O = 389GAT(132)
+	["C880net.blif" line: 22, column: 36]
+	["C880net.blif" line: 22, columns:38-48]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 23, columns:1-5]
+	["C880net.blif" line: 23, columns:7-10]
+  .gate assign: a = [757]
+	["C880net.blif" line: 23, column: 12]
+	["C880net.blif" line: 23, columns:14-18]
+  .gate assign: b = [754]
+	["C880net.blif" line: 23, column: 20]
+	["C880net.blif" line: 23, columns:22-26]
+  .gate assign: c = [758]
+	["C880net.blif" line: 23, column: 28]
+	["C880net.blif" line: 23, columns:30-34]
+  .gate assign: O = 390GAT(131)
+	["C880net.blif" line: 23, column: 36]
+	["C880net.blif" line: 23, columns:38-48]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 24, columns:1-5]
+	["C880net.blif" line: 24, columns:7-10]
+  .gate assign: a = 85GAT(17)
+	["C880net.blif" line: 24, column: 12]
+	["C880net.blif" line: 24, columns:14-22]
+  .gate assign: O = [1109]
+	["C880net.blif" line: 24, column: 24]
+	["C880net.blif" line: 24, columns:26-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 25, columns:1-5]
+	["C880net.blif" line: 25, columns:7-10]
+  .gate assign: a = 86GAT(18)
+	["C880net.blif" line: 25, column: 12]
+	["C880net.blif" line: 25, columns:14-22]
+  .gate assign: O = [1111]
+	["C880net.blif" line: 25, column: 24]
+	["C880net.blif" line: 25, columns:26-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 26, columns:1-5]
+	["C880net.blif" line: 26, columns:7-10]
+  .gate assign: a = [1109]
+	["C880net.blif" line: 26, column: 12]
+	["C880net.blif" line: 26, columns:14-19]
+  .gate assign: b = [1111]
+	["C880net.blif" line: 26, column: 21]
+	["C880net.blif" line: 26, columns:23-28]
+  .gate assign: O = 391GAT(124)
+	["C880net.blif" line: 26, column: 30]
+	["C880net.blif" line: 26, columns:32-42]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 27, columns:1-5]
+	["C880net.blif" line: 27, columns:7-10]
+  .gate assign: a = 1GAT(0)
+	["C880net.blif" line: 27, column: 12]
+	["C880net.blif" line: 27, columns:14-20]
+  .gate assign: O = [764]
+	["C880net.blif" line: 27, column: 22]
+	["C880net.blif" line: 27, columns:24-28]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 28, columns:1-5]
+	["C880net.blif" line: 28, columns:7-10]
+  .gate assign: a = 8GAT(1)
+	["C880net.blif" line: 28, column: 12]
+	["C880net.blif" line: 28, columns:14-20]
+  .gate assign: O = [765]
+	["C880net.blif" line: 28, column: 22]
+	["C880net.blif" line: 28, columns:24-28]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 29, columns:1-5]
+	["C880net.blif" line: 29, columns:7-10]
+  .gate assign: a = 13GAT(2)
+	["C880net.blif" line: 29, column: 12]
+	["C880net.blif" line: 29, columns:14-21]
+  .gate assign: O = [767]
+	["C880net.blif" line: 29, column: 23]
+	["C880net.blif" line: 29, columns:25-29]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 30, columns:1-5]
+	["C880net.blif" line: 30, columns:7-10]
+  .gate assign: a = 17GAT(3)
+	["C880net.blif" line: 30, column: 12]
+	["C880net.blif" line: 30, columns:14-21]
+  .gate assign: O = [768]
+	["C880net.blif" line: 30, column: 23]
+	["C880net.blif" line: 30, columns:25-29]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 31, columns:1-5]
+	["C880net.blif" line: 31, columns:7-10]
+  .gate assign: a = [764]
+	["C880net.blif" line: 31, column: 12]
+	["C880net.blif" line: 31, columns:14-18]
+  .gate assign: b = [765]
+	["C880net.blif" line: 31, column: 20]
+	["C880net.blif" line: 31, columns:22-26]
+  .gate assign: c = [767]
+	["C880net.blif" line: 31, column: 28]
+	["C880net.blif" line: 31, columns:30-34]
+  .gate assign: d = [768]
+	["C880net.blif" line: 31, column: 36]
+	["C880net.blif" line: 31, columns:38-42]
+  .gate assign: O = 418GAT(168)
+	["C880net.blif" line: 31, column: 44]
+	["C880net.blif" line: 31, columns:46-56]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 32, columns:1-5]
+	["C880net.blif" line: 32, columns:7-10]
+  .gate assign: a = [757]
+	["C880net.blif" line: 32, column: 12]
+	["C880net.blif" line: 32, columns:14-18]
+  .gate assign: b = [754]
+	["C880net.blif" line: 32, column: 20]
+	["C880net.blif" line: 32, columns:22-26]
+  .gate assign: c = [758]
+	["C880net.blif" line: 32, column: 28]
+	["C880net.blif" line: 32, columns:30-34]
+  .gate assign: O = 273GAT(103)
+	["C880net.blif" line: 32, column: 36]
+	["C880net.blif" line: 32, columns:38-48]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 33, columns:1-5]
+	["C880net.blif" line: 33, columns:7-10]
+  .gate assign: a = 273GAT(103)
+	["C880net.blif" line: 33, column: 12]
+	["C880net.blif" line: 33, columns:14-24]
+  .gate assign: O = [775]
+	["C880net.blif" line: 33, column: 26]
+	["C880net.blif" line: 33, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 34, columns:1-5]
+	["C880net.blif" line: 34, columns:7-10]
+  .gate assign: a = 26GAT(4)
+	["C880net.blif" line: 34, column: 12]
+	["C880net.blif" line: 34, columns:14-21]
+  .gate assign: O = [770]
+	["C880net.blif" line: 34, column: 23]
+	["C880net.blif" line: 34, columns:25-29]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 35, columns:1-5]
+	["C880net.blif" line: 35, columns:7-10]
+  .gate assign: a = [764]
+	["C880net.blif" line: 35, column: 12]
+	["C880net.blif" line: 35, columns:14-18]
+  .gate assign: b = [770]
+	["C880net.blif" line: 35, column: 20]
+	["C880net.blif" line: 35, columns:22-26]
+  .gate assign: c = [767]
+	["C880net.blif" line: 35, column: 28]
+	["C880net.blif" line: 35, columns:30-34]
+  .gate assign: d = [768]
+	["C880net.blif" line: 35, column: 36]
+	["C880net.blif" line: 35, columns:38-42]
+  .gate assign: O = 270GAT(111)
+	["C880net.blif" line: 35, column: 44]
+	["C880net.blif" line: 35, columns:46-56]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 36, columns:1-5]
+	["C880net.blif" line: 36, columns:7-10]
+  .gate assign: a = 270GAT(111)
+	["C880net.blif" line: 36, column: 12]
+	["C880net.blif" line: 36, columns:14-24]
+  .gate assign: O = [773]
+	["C880net.blif" line: 36, column: 26]
+	["C880net.blif" line: 36, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 37, columns:1-5]
+	["C880net.blif" line: 37, columns:7-10]
+  .gate assign: a = 273GAT(103)
+	["C880net.blif" line: 37, column: 12]
+	["C880net.blif" line: 37, columns:14-24]
+  .gate assign: b = [773]
+	["C880net.blif" line: 37, column: 26]
+	["C880net.blif" line: 37, columns:28-32]
+  .gate assign: O = 344GAT(136)
+	["C880net.blif" line: 37, column: 34]
+	["C880net.blif" line: 37, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 38, columns:1-5]
+	["C880net.blif" line: 38, columns:7-10]
+  .gate assign: a = 344GAT(136)
+	["C880net.blif" line: 38, column: 12]
+	["C880net.blif" line: 38, columns:14-24]
+  .gate assign: O = 419GAT(164)
+	["C880net.blif" line: 38, column: 26]
+	["C880net.blif" line: 38, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 39, columns:1-5]
+	["C880net.blif" line: 39, columns:7-10]
+  .gate assign: a = 59GAT(10)
+	["C880net.blif" line: 39, column: 12]
+	["C880net.blif" line: 39, columns:14-22]
+  .gate assign: O = [776]
+	["C880net.blif" line: 39, column: 24]
+	["C880net.blif" line: 39, columns:26-30]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 40, columns:1-5]
+	["C880net.blif" line: 40, columns:7-10]
+  .gate assign: a = [760]
+	["C880net.blif" line: 40, column: 12]
+	["C880net.blif" line: 40, columns:14-18]
+  .gate assign: b = [755]
+	["C880net.blif" line: 40, column: 20]
+	["C880net.blif" line: 40, columns:22-26]
+  .gate assign: c = [776]
+	["C880net.blif" line: 40, column: 28]
+	["C880net.blif" line: 40, columns:30-34]
+  .gate assign: O = 293GAT(91)
+	["C880net.blif" line: 40, column: 36]
+	["C880net.blif" line: 40, columns:38-47]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 41, columns:1-5]
+	["C880net.blif" line: 41, columns:7-10]
+  .gate assign: a = 293GAT(91)
+	["C880net.blif" line: 41, column: 12]
+	["C880net.blif" line: 41, columns:14-23]
+  .gate assign: O = 420GAT(158)
+	["C880net.blif" line: 41, column: 25]
+	["C880net.blif" line: 41, columns:27-37]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 42, columns:1-5]
+	["C880net.blif" line: 42, columns:7-10]
+  .gate assign: a = [760]
+	["C880net.blif" line: 42, column: 12]
+	["C880net.blif" line: 42, columns:14-18]
+  .gate assign: b = [758]
+	["C880net.blif" line: 42, column: 20]
+	["C880net.blif" line: 42, columns:22-26]
+  .gate assign: c = [776]
+	["C880net.blif" line: 42, column: 28]
+	["C880net.blif" line: 42, columns:30-34]
+  .gate assign: O = 295GAT(97)
+	["C880net.blif" line: 42, column: 36]
+	["C880net.blif" line: 42, columns:38-47]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 43, columns:1-5]
+	["C880net.blif" line: 43, columns:7-10]
+  .gate assign: a = 295GAT(97)
+	["C880net.blif" line: 43, column: 12]
+	["C880net.blif" line: 43, columns:14-23]
+  .gate assign: O = 421GAT(162)
+	["C880net.blif" line: 43, column: 25]
+	["C880net.blif" line: 43, columns:27-37]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 44, columns:1-5]
+	["C880net.blif" line: 44, columns:7-10]
+  .gate assign: a = [757]
+	["C880net.blif" line: 44, column: 12]
+	["C880net.blif" line: 44, columns:14-18]
+  .gate assign: b = [758]
+	["C880net.blif" line: 44, column: 20]
+	["C880net.blif" line: 44, columns:22-26]
+  .gate assign: c = [776]
+	["C880net.blif" line: 44, column: 28]
+	["C880net.blif" line: 44, columns:30-34]
+  .gate assign: O = 296GAT(96)
+	["C880net.blif" line: 44, column: 36]
+	["C880net.blif" line: 44, columns:38-47]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 45, columns:1-5]
+	["C880net.blif" line: 45, columns:7-10]
+  .gate assign: a = 296GAT(96)
+	["C880net.blif" line: 45, column: 12]
+	["C880net.blif" line: 45, columns:14-23]
+  .gate assign: O = 422GAT(161)
+	["C880net.blif" line: 45, column: 25]
+	["C880net.blif" line: 45, columns:27-37]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 46, columns:1-5]
+	["C880net.blif" line: 46, columns:7-10]
+  .gate assign: a = 87GAT(19)
+	["C880net.blif" line: 46, column: 12]
+	["C880net.blif" line: 46, columns:14-22]
+  .gate assign: b = 88GAT(20)
+	["C880net.blif" line: 46, column: 24]
+	["C880net.blif" line: 46, columns:26-34]
+  .gate assign: O = 298GAT(88)
+	["C880net.blif" line: 46, column: 36]
+	["C880net.blif" line: 46, columns:38-47]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 47, columns:1-5]
+	["C880net.blif" line: 47, columns:7-10]
+  .gate assign: a = 90GAT(22)
+	["C880net.blif" line: 47, column: 12]
+	["C880net.blif" line: 47, columns:14-22]
+  .gate assign: O = [1119]
+	["C880net.blif" line: 47, column: 24]
+	["C880net.blif" line: 47, columns:26-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 48, columns:1-5]
+	["C880net.blif" line: 48, columns:7-10]
+  .gate assign: a = 298GAT(88)
+	["C880net.blif" line: 48, column: 12]
+	["C880net.blif" line: 48, columns:14-23]
+  .gate assign: b = [1119]
+	["C880net.blif" line: 48, column: 25]
+	["C880net.blif" line: 48, columns:27-32]
+  .gate assign: O = 423GAT(155)
+	["C880net.blif" line: 48, column: 34]
+	["C880net.blif" line: 48, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 49, columns:1-5]
+	["C880net.blif" line: 49, columns:7-10]
+  .gate assign: a = [773]
+	["C880net.blif" line: 49, column: 12]
+	["C880net.blif" line: 49, columns:14-18]
+  .gate assign: b = [775]
+	["C880net.blif" line: 49, column: 20]
+	["C880net.blif" line: 49, columns:22-26]
+  .gate assign: O = 392GAT(167)
+	["C880net.blif" line: 49, column: 28]
+	["C880net.blif" line: 49, columns:30-40]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 50, columns:1-5]
+	["C880net.blif" line: 50, columns:7-10]
+  .gate assign: a = 392GAT(167)
+	["C880net.blif" line: 50, column: 12]
+	["C880net.blif" line: 50, columns:14-24]
+  .gate assign: O = 446GAT(183)
+	["C880net.blif" line: 50, column: 26]
+	["C880net.blif" line: 50, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 51, columns:1-5]
+	["C880net.blif" line: 51, columns:7-10]
+  .gate assign: a = 51GAT(8)
+	["C880net.blif" line: 51, column: 12]
+	["C880net.blif" line: 51, columns:14-21]
+  .gate assign: O = [782]
+	["C880net.blif" line: 51, column: 23]
+	["C880net.blif" line: 51, columns:25-29]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 52, columns:1-5]
+	["C880net.blif" line: 52, columns:7-10]
+  .gate assign: a = [782]
+	["C880net.blif" line: 52, column: 12]
+	["C880net.blif" line: 52, columns:14-18]
+  .gate assign: b = [764]
+	["C880net.blif" line: 52, column: 20]
+	["C880net.blif" line: 52, columns:22-26]
+  .gate assign: c = [770]
+	["C880net.blif" line: 52, column: 28]
+	["C880net.blif" line: 52, columns:30-34]
+  .gate assign: O = 447GAT(182)
+	["C880net.blif" line: 52, column: 36]
+	["C880net.blif" line: 52, columns:38-48]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 53, columns:1-5]
+	["C880net.blif" line: 53, columns:7-10]
+  .gate assign: a = 447GAT(182)
+	["C880net.blif" line: 53, column: 12]
+	["C880net.blif" line: 53, columns:14-24]
+  .gate assign: O = [783]
+	["C880net.blif" line: 53, column: 26]
+	["C880net.blif" line: 53, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 54, columns:1-5]
+	["C880net.blif" line: 54, columns:7-10]
+  .gate assign: a = 55GAT(9)
+	["C880net.blif" line: 54, column: 12]
+	["C880net.blif" line: 54, columns:14-21]
+  .gate assign: O = [785]
+	["C880net.blif" line: 54, column: 23]
+	["C880net.blif" line: 54, columns:25-29]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 55, columns:1-5]
+	["C880net.blif" line: 55, columns:7-10]
+  .gate assign: a = [764]
+	["C880net.blif" line: 55, column: 12]
+	["C880net.blif" line: 55, columns:14-18]
+  .gate assign: b = [765]
+	["C880net.blif" line: 55, column: 20]
+	["C880net.blif" line: 55, columns:22-26]
+  .gate assign: c = [767]
+	["C880net.blif" line: 55, column: 28]
+	["C880net.blif" line: 55, columns:30-34]
+  .gate assign: d = [785]
+	["C880net.blif" line: 55, column: 36]
+	["C880net.blif" line: 55, columns:38-42]
+  .gate assign: O = 280GAT(108)
+	["C880net.blif" line: 55, column: 44]
+	["C880net.blif" line: 55, columns:46-56]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 56, columns:1-5]
+	["C880net.blif" line: 56, columns:7-10]
+  .gate assign: a = 280GAT(108)
+	["C880net.blif" line: 56, column: 12]
+	["C880net.blif" line: 56, columns:14-24]
+  .gate assign: O = [787]
+	["C880net.blif" line: 56, column: 26]
+	["C880net.blif" line: 56, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 57, columns:1-5]
+	["C880net.blif" line: 57, columns:7-10]
+  .gate assign: a = 68GAT(11)
+	["C880net.blif" line: 57, column: 12]
+	["C880net.blif" line: 57, columns:14-22]
+  .gate assign: O = [788]
+	["C880net.blif" line: 57, column: 24]
+	["C880net.blif" line: 57, columns:26-30]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 58, columns:1-5]
+	["C880net.blif" line: 58, columns:7-10]
+  .gate assign: a = [787]
+	["C880net.blif" line: 58, column: 12]
+	["C880net.blif" line: 58, columns:14-18]
+  .gate assign: b = [754]
+	["C880net.blif" line: 58, column: 20]
+	["C880net.blif" line: 58, columns:22-26]
+  .gate assign: c = [788]
+	["C880net.blif" line: 58, column: 28]
+	["C880net.blif" line: 58, columns:30-34]
+  .gate assign: O = 448GAT(179)
+	["C880net.blif" line: 58, column: 36]
+	["C880net.blif" line: 58, columns:38-48]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 59, columns:1-5]
+	["C880net.blif" line: 59, columns:7-10]
+  .gate assign: a = 74GAT(14)
+	["C880net.blif" line: 59, column: 12]
+	["C880net.blif" line: 59, columns:14-22]
+  .gate assign: O = [1091]
+	["C880net.blif" line: 59, column: 24]
+	["C880net.blif" line: 59, columns:26-31]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 60, columns:1-5]
+	["C880net.blif" line: 60, columns:7-10]
+  .gate assign: a = [787]
+	["C880net.blif" line: 60, column: 12]
+	["C880net.blif" line: 60, columns:14-18]
+  .gate assign: b = [1091]
+	["C880net.blif" line: 60, column: 20]
+	["C880net.blif" line: 60, columns:22-27]
+  .gate assign: c = [776]
+	["C880net.blif" line: 60, column: 29]
+	["C880net.blif" line: 60, columns:31-35]
+  .gate assign: d = [788]
+	["C880net.blif" line: 60, column: 37]
+	["C880net.blif" line: 60, columns:39-43]
+  .gate assign: O = 449GAT(176)
+	["C880net.blif" line: 60, column: 45]
+	["C880net.blif" line: 60, columns:47-57]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 61, columns:1-5]
+	["C880net.blif" line: 61, columns:7-10]
+  .gate assign: a = 89GAT(21)
+	["C880net.blif" line: 61, column: 12]
+	["C880net.blif" line: 61, columns:14-22]
+  .gate assign: O = [1117]
+	["C880net.blif" line: 61, column: 24]
+	["C880net.blif" line: 61, columns:26-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 62, columns:1-5]
+	["C880net.blif" line: 62, columns:7-10]
+  .gate assign: a = 298GAT(88)
+	["C880net.blif" line: 62, column: 12]
+	["C880net.blif" line: 62, columns:14-23]
+  .gate assign: b = [1117]
+	["C880net.blif" line: 62, column: 25]
+	["C880net.blif" line: 62, columns:27-32]
+  .gate assign: O = 450GAT(173)
+	["C880net.blif" line: 62, column: 34]
+	["C880net.blif" line: 62, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 63, columns:1-5]
+	["C880net.blif" line: 63, columns:7-10]
+  .gate assign: a = 130GAT(31)
+	["C880net.blif" line: 63, column: 12]
+	["C880net.blif" line: 63, columns:14-23]
+  .gate assign: O = [794]
+	["C880net.blif" line: 63, column: 25]
+	["C880net.blif" line: 63, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 64, columns:1-5]
+	["C880net.blif" line: 64, columns:7-10]
+  .gate assign: a = 91GAT(23)
+	["C880net.blif" line: 64, column: 12]
+	["C880net.blif" line: 64, columns:14-22]
+  .gate assign: O = [795]
+	["C880net.blif" line: 64, column: 24]
+	["C880net.blif" line: 64, columns:26-30]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 65, columns:1-5]
+	["C880net.blif" line: 65, columns:7-10]
+  .gate assign: a = 96GAT(24)
+	["C880net.blif" line: 65, column: 12]
+	["C880net.blif" line: 65, columns:14-22]
+  .gate assign: O = [796]
+	["C880net.blif" line: 65, column: 24]
+	["C880net.blif" line: 65, columns:26-30]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 66, columns:1-5]
+	["C880net.blif" line: 66, columns:7-10]
+  .gate assign: a = [795]
+	["C880net.blif" line: 66, column: 12]
+	["C880net.blif" line: 66, columns:14-18]
+  .gate assign: b = [796]
+	["C880net.blif" line: 66, column: 20]
+	["C880net.blif" line: 66, columns:22-26]
+  .gate assign: O = 301GAT(87)
+	["C880net.blif" line: 66, column: 28]
+	["C880net.blif" line: 66, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 67, columns:1-5]
+	["C880net.blif" line: 67, columns:7-10]
+  .gate assign: a = 91GAT(23)
+	["C880net.blif" line: 67, column: 12]
+	["C880net.blif" line: 67, columns:14-22]
+  .gate assign: b = 96GAT(24)
+	["C880net.blif" line: 67, column: 24]
+	["C880net.blif" line: 67, columns:26-34]
+  .gate assign: O = 302GAT(86)
+	["C880net.blif" line: 67, column: 36]
+	["C880net.blif" line: 67, columns:38-47]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 68, columns:1-5]
+	["C880net.blif" line: 68, columns:7-10]
+  .gate assign: a = 301GAT(87)
+	["C880net.blif" line: 68, column: 12]
+	["C880net.blif" line: 68, columns:14-23]
+  .gate assign: b = 302GAT(86)
+	["C880net.blif" line: 68, column: 25]
+	["C880net.blif" line: 68, columns:27-36]
+  .gate assign: O = 357GAT(121)
+	["C880net.blif" line: 68, column: 38]
+	["C880net.blif" line: 68, columns:40-50]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 69, columns:1-5]
+	["C880net.blif" line: 69, columns:7-10]
+  .gate assign: a = 357GAT(121)
+	["C880net.blif" line: 69, column: 12]
+	["C880net.blif" line: 69, columns:14-24]
+  .gate assign: O = [797]
+	["C880net.blif" line: 69, column: 26]
+	["C880net.blif" line: 69, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 70, columns:1-5]
+	["C880net.blif" line: 70, columns:7-10]
+  .gate assign: a = 101GAT(25)
+	["C880net.blif" line: 70, column: 12]
+	["C880net.blif" line: 70, columns:14-23]
+  .gate assign: O = [798]
+	["C880net.blif" line: 70, column: 25]
+	["C880net.blif" line: 70, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 71, columns:1-5]
+	["C880net.blif" line: 71, columns:7-10]
+  .gate assign: a = 106GAT(26)
+	["C880net.blif" line: 71, column: 12]
+	["C880net.blif" line: 71, columns:14-23]
+  .gate assign: O = [799]
+	["C880net.blif" line: 71, column: 25]
+	["C880net.blif" line: 71, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 72, columns:1-5]
+	["C880net.blif" line: 72, columns:7-10]
+  .gate assign: a = [798]
+	["C880net.blif" line: 72, column: 12]
+	["C880net.blif" line: 72, columns:14-18]
+  .gate assign: b = [799]
+	["C880net.blif" line: 72, column: 20]
+	["C880net.blif" line: 72, columns:22-26]
+  .gate assign: O = 303GAT(83)
+	["C880net.blif" line: 72, column: 28]
+	["C880net.blif" line: 72, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 73, columns:1-5]
+	["C880net.blif" line: 73, columns:7-10]
+  .gate assign: a = 101GAT(25)
+	["C880net.blif" line: 73, column: 12]
+	["C880net.blif" line: 73, columns:14-23]
+  .gate assign: b = 106GAT(26)
+	["C880net.blif" line: 73, column: 25]
+	["C880net.blif" line: 73, columns:27-36]
+  .gate assign: O = 304GAT(82)
+	["C880net.blif" line: 73, column: 38]
+	["C880net.blif" line: 73, columns:40-49]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 74, columns:1-5]
+	["C880net.blif" line: 74, columns:7-10]
+  .gate assign: a = 303GAT(83)
+	["C880net.blif" line: 74, column: 12]
+	["C880net.blif" line: 74, columns:14-23]
+  .gate assign: b = 304GAT(82)
+	["C880net.blif" line: 74, column: 25]
+	["C880net.blif" line: 74, columns:27-36]
+  .gate assign: O = 360GAT(120)
+	["C880net.blif" line: 74, column: 38]
+	["C880net.blif" line: 74, columns:40-50]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 75, columns:1-5]
+	["C880net.blif" line: 75, columns:7-10]
+  .gate assign: a = 360GAT(120)
+	["C880net.blif" line: 75, column: 12]
+	["C880net.blif" line: 75, columns:14-24]
+  .gate assign: O = [800]
+	["C880net.blif" line: 75, column: 26]
+	["C880net.blif" line: 75, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 76, columns:1-5]
+	["C880net.blif" line: 76, columns:7-10]
+  .gate assign: a = 357GAT(121)
+	["C880net.blif" line: 76, column: 12]
+	["C880net.blif" line: 76, columns:14-24]
+  .gate assign: b = 360GAT(120)
+	["C880net.blif" line: 76, column: 26]
+	["C880net.blif" line: 76, columns:28-38]
+  .gate assign: O = 406GAT(153)
+	["C880net.blif" line: 76, column: 40]
+	["C880net.blif" line: 76, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 77, columns:1-5]
+	["C880net.blif" line: 77, columns:7-10]
+  .gate assign: a = [797]
+	["C880net.blif" line: 77, column: 12]
+	["C880net.blif" line: 77, columns:14-18]
+  .gate assign: b = [800]
+	["C880net.blif" line: 77, column: 20]
+	["C880net.blif" line: 77, columns:22-26]
+  .gate assign: O = 425GAT(172)
+	["C880net.blif" line: 77, column: 28]
+	["C880net.blif" line: 77, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 78, columns:1-5]
+	["C880net.blif" line: 78, columns:7-10]
+  .gate assign: a = 406GAT(153)
+	["C880net.blif" line: 78, column: 12]
+	["C880net.blif" line: 78, columns:14-24]
+  .gate assign: b = 425GAT(172)
+	["C880net.blif" line: 78, column: 26]
+	["C880net.blif" line: 78, columns:28-38]
+  .gate assign: O = 460GAT(199)
+	["C880net.blif" line: 78, column: 40]
+	["C880net.blif" line: 78, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 79, columns:1-5]
+	["C880net.blif" line: 79, columns:7-10]
+  .gate assign: a = 460GAT(199)
+	["C880net.blif" line: 79, column: 12]
+	["C880net.blif" line: 79, columns:14-24]
+  .gate assign: O = [801]
+	["C880net.blif" line: 79, column: 26]
+	["C880net.blif" line: 79, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 80, columns:1-5]
+	["C880net.blif" line: 80, columns:7-10]
+  .gate assign: a = [794]
+	["C880net.blif" line: 80, column: 12]
+	["C880net.blif" line: 80, columns:14-18]
+  .gate assign: b = [801]
+	["C880net.blif" line: 80, column: 20]
+	["C880net.blif" line: 80, columns:22-26]
+  .gate assign: O = 498GAT(226)
+	["C880net.blif" line: 80, column: 28]
+	["C880net.blif" line: 80, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 81, columns:1-5]
+	["C880net.blif" line: 81, columns:7-10]
+  .gate assign: a = 130GAT(31)
+	["C880net.blif" line: 81, column: 12]
+	["C880net.blif" line: 81, columns:14-23]
+  .gate assign: b = 460GAT(199)
+	["C880net.blif" line: 81, column: 25]
+	["C880net.blif" line: 81, columns:27-37]
+  .gate assign: O = 499GAT(225)
+	["C880net.blif" line: 81, column: 39]
+	["C880net.blif" line: 81, columns:41-51]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 82, columns:1-5]
+	["C880net.blif" line: 82, columns:7-10]
+  .gate assign: a = 498GAT(226)
+	["C880net.blif" line: 82, column: 12]
+	["C880net.blif" line: 82, columns:14-24]
+  .gate assign: b = 499GAT(225)
+	["C880net.blif" line: 82, column: 26]
+	["C880net.blif" line: 82, columns:28-38]
+  .gate assign: O = 530GAT(243)
+	["C880net.blif" line: 82, column: 40]
+	["C880net.blif" line: 82, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 83, columns:1-5]
+	["C880net.blif" line: 83, columns:7-10]
+  .gate assign: a = 530GAT(243)
+	["C880net.blif" line: 83, column: 12]
+	["C880net.blif" line: 83, columns:14-24]
+  .gate assign: O = [802]
+	["C880net.blif" line: 83, column: 26]
+	["C880net.blif" line: 83, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 84, columns:1-5]
+	["C880net.blif" line: 84, columns:7-10]
+  .gate assign: a = 111GAT(27)
+	["C880net.blif" line: 84, column: 12]
+	["C880net.blif" line: 84, columns:14-23]
+  .gate assign: O = [803]
+	["C880net.blif" line: 84, column: 25]
+	["C880net.blif" line: 84, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 85, columns:1-5]
+	["C880net.blif" line: 85, columns:7-10]
+  .gate assign: a = 116GAT(28)
+	["C880net.blif" line: 85, column: 12]
+	["C880net.blif" line: 85, columns:14-23]
+  .gate assign: O = [804]
+	["C880net.blif" line: 85, column: 25]
+	["C880net.blif" line: 85, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 86, columns:1-5]
+	["C880net.blif" line: 86, columns:7-10]
+  .gate assign: a = [803]
+	["C880net.blif" line: 86, column: 12]
+	["C880net.blif" line: 86, columns:14-18]
+  .gate assign: b = [804]
+	["C880net.blif" line: 86, column: 20]
+	["C880net.blif" line: 86, columns:22-26]
+  .gate assign: O = 305GAT(79)
+	["C880net.blif" line: 86, column: 28]
+	["C880net.blif" line: 86, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 87, columns:1-5]
+	["C880net.blif" line: 87, columns:7-10]
+  .gate assign: a = 111GAT(27)
+	["C880net.blif" line: 87, column: 12]
+	["C880net.blif" line: 87, columns:14-23]
+  .gate assign: b = 116GAT(28)
+	["C880net.blif" line: 87, column: 25]
+	["C880net.blif" line: 87, columns:27-36]
+  .gate assign: O = 306GAT(78)
+	["C880net.blif" line: 87, column: 38]
+	["C880net.blif" line: 87, columns:40-49]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 88, columns:1-5]
+	["C880net.blif" line: 88, columns:7-10]
+  .gate assign: a = 305GAT(79)
+	["C880net.blif" line: 88, column: 12]
+	["C880net.blif" line: 88, columns:14-23]
+  .gate assign: b = 306GAT(78)
+	["C880net.blif" line: 88, column: 25]
+	["C880net.blif" line: 88, columns:27-36]
+  .gate assign: O = 363GAT(119)
+	["C880net.blif" line: 88, column: 38]
+	["C880net.blif" line: 88, columns:40-50]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 89, columns:1-5]
+	["C880net.blif" line: 89, columns:7-10]
+  .gate assign: a = 363GAT(119)
+	["C880net.blif" line: 89, column: 12]
+	["C880net.blif" line: 89, columns:14-24]
+  .gate assign: O = [805]
+	["C880net.blif" line: 89, column: 26]
+	["C880net.blif" line: 89, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 90, columns:1-5]
+	["C880net.blif" line: 90, columns:7-10]
+  .gate assign: a = 121GAT(29)
+	["C880net.blif" line: 90, column: 12]
+	["C880net.blif" line: 90, columns:14-23]
+  .gate assign: O = [806]
+	["C880net.blif" line: 90, column: 25]
+	["C880net.blif" line: 90, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 91, columns:1-5]
+	["C880net.blif" line: 91, columns:7-10]
+  .gate assign: a = 126GAT(30)
+	["C880net.blif" line: 91, column: 12]
+	["C880net.blif" line: 91, columns:14-23]
+  .gate assign: O = [807]
+	["C880net.blif" line: 91, column: 25]
+	["C880net.blif" line: 91, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 92, columns:1-5]
+	["C880net.blif" line: 92, columns:7-10]
+  .gate assign: a = [806]
+	["C880net.blif" line: 92, column: 12]
+	["C880net.blif" line: 92, columns:14-18]
+  .gate assign: b = [807]
+	["C880net.blif" line: 92, column: 20]
+	["C880net.blif" line: 92, columns:22-26]
+  .gate assign: O = 307GAT(75)
+	["C880net.blif" line: 92, column: 28]
+	["C880net.blif" line: 92, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 93, columns:1-5]
+	["C880net.blif" line: 93, columns:7-10]
+  .gate assign: a = 121GAT(29)
+	["C880net.blif" line: 93, column: 12]
+	["C880net.blif" line: 93, columns:14-23]
+  .gate assign: b = 126GAT(30)
+	["C880net.blif" line: 93, column: 25]
+	["C880net.blif" line: 93, columns:27-36]
+  .gate assign: O = 308GAT(74)
+	["C880net.blif" line: 93, column: 38]
+	["C880net.blif" line: 93, columns:40-49]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 94, columns:1-5]
+	["C880net.blif" line: 94, columns:7-10]
+  .gate assign: a = 307GAT(75)
+	["C880net.blif" line: 94, column: 12]
+	["C880net.blif" line: 94, columns:14-23]
+  .gate assign: b = 308GAT(74)
+	["C880net.blif" line: 94, column: 25]
+	["C880net.blif" line: 94, columns:27-36]
+  .gate assign: O = 366GAT(118)
+	["C880net.blif" line: 94, column: 38]
+	["C880net.blif" line: 94, columns:40-50]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 95, columns:1-5]
+	["C880net.blif" line: 95, columns:7-10]
+  .gate assign: a = 366GAT(118)
+	["C880net.blif" line: 95, column: 12]
+	["C880net.blif" line: 95, columns:14-24]
+  .gate assign: O = [808]
+	["C880net.blif" line: 95, column: 26]
+	["C880net.blif" line: 95, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 96, columns:1-5]
+	["C880net.blif" line: 96, columns:7-10]
+  .gate assign: a = 363GAT(119)
+	["C880net.blif" line: 96, column: 12]
+	["C880net.blif" line: 96, columns:14-24]
+  .gate assign: b = 366GAT(118)
+	["C880net.blif" line: 96, column: 26]
+	["C880net.blif" line: 96, columns:28-38]
+  .gate assign: O = 409GAT(150)
+	["C880net.blif" line: 96, column: 40]
+	["C880net.blif" line: 96, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 97, columns:1-5]
+	["C880net.blif" line: 97, columns:7-10]
+  .gate assign: a = [805]
+	["C880net.blif" line: 97, column: 12]
+	["C880net.blif" line: 97, columns:14-18]
+  .gate assign: b = [808]
+	["C880net.blif" line: 97, column: 20]
+	["C880net.blif" line: 97, columns:22-26]
+  .gate assign: O = 426GAT(171)
+	["C880net.blif" line: 97, column: 28]
+	["C880net.blif" line: 97, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 98, columns:1-5]
+	["C880net.blif" line: 98, columns:7-10]
+  .gate assign: a = 409GAT(150)
+	["C880net.blif" line: 98, column: 12]
+	["C880net.blif" line: 98, columns:14-24]
+  .gate assign: b = 426GAT(171)
+	["C880net.blif" line: 98, column: 26]
+	["C880net.blif" line: 98, columns:28-38]
+  .gate assign: O = 463GAT(198)
+	["C880net.blif" line: 98, column: 40]
+	["C880net.blif" line: 98, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 99, columns:1-5]
+	["C880net.blif" line: 99, columns:7-10]
+  .gate assign: a = 463GAT(198)
+	["C880net.blif" line: 99, column: 12]
+	["C880net.blif" line: 99, columns:14-24]
+  .gate assign: O = [809]
+	["C880net.blif" line: 99, column: 26]
+	["C880net.blif" line: 99, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 100, columns:1-5]
+	["C880net.blif" line: 100, columns:7-10]
+  .gate assign: a = 135GAT(32)
+	["C880net.blif" line: 100, column: 12]
+	["C880net.blif" line: 100, columns:14-23]
+  .gate assign: O = [810]
+	["C880net.blif" line: 100, column: 25]
+	["C880net.blif" line: 100, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 101, columns:1-5]
+	["C880net.blif" line: 101, columns:7-10]
+  .gate assign: a = [809]
+	["C880net.blif" line: 101, column: 12]
+	["C880net.blif" line: 101, columns:14-18]
+  .gate assign: b = [810]
+	["C880net.blif" line: 101, column: 20]
+	["C880net.blif" line: 101, columns:22-26]
+  .gate assign: O = 500GAT(222)
+	["C880net.blif" line: 101, column: 28]
+	["C880net.blif" line: 101, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 102, columns:1-5]
+	["C880net.blif" line: 102, columns:7-10]
+  .gate assign: a = 463GAT(198)
+	["C880net.blif" line: 102, column: 12]
+	["C880net.blif" line: 102, columns:14-24]
+  .gate assign: b = 135GAT(32)
+	["C880net.blif" line: 102, column: 26]
+	["C880net.blif" line: 102, columns:28-37]
+  .gate assign: O = 501GAT(221)
+	["C880net.blif" line: 102, column: 39]
+	["C880net.blif" line: 102, columns:41-51]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 103, columns:1-5]
+	["C880net.blif" line: 103, columns:7-10]
+  .gate assign: a = 500GAT(222)
+	["C880net.blif" line: 103, column: 12]
+	["C880net.blif" line: 103, columns:14-24]
+  .gate assign: b = 501GAT(221)
+	["C880net.blif" line: 103, column: 26]
+	["C880net.blif" line: 103, columns:28-38]
+  .gate assign: O = 533GAT(241)
+	["C880net.blif" line: 103, column: 40]
+	["C880net.blif" line: 103, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 104, columns:1-5]
+	["C880net.blif" line: 104, columns:7-10]
+  .gate assign: a = 533GAT(241)
+	["C880net.blif" line: 104, column: 12]
+	["C880net.blif" line: 104, columns:14-24]
+  .gate assign: O = [811]
+	["C880net.blif" line: 104, column: 26]
+	["C880net.blif" line: 104, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 105, columns:1-5]
+	["C880net.blif" line: 105, columns:7-10]
+  .gate assign: a = 530GAT(243)
+	["C880net.blif" line: 105, column: 12]
+	["C880net.blif" line: 105, columns:14-24]
+  .gate assign: b = 533GAT(241)
+	["C880net.blif" line: 105, column: 26]
+	["C880net.blif" line: 105, columns:28-38]
+  .gate assign: O = 552GAT(258)
+	["C880net.blif" line: 105, column: 40]
+	["C880net.blif" line: 105, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 106, columns:1-5]
+	["C880net.blif" line: 106, columns:7-10]
+  .gate assign: a = [802]
+	["C880net.blif" line: 106, column: 12]
+	["C880net.blif" line: 106, columns:14-18]
+  .gate assign: b = [811]
+	["C880net.blif" line: 106, column: 20]
+	["C880net.blif" line: 106, columns:22-26]
+  .gate assign: O = 588GAT(286)
+	["C880net.blif" line: 106, column: 28]
+	["C880net.blif" line: 106, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 107, columns:1-5]
+	["C880net.blif" line: 107, columns:7-10]
+  .gate assign: a = 552GAT(258)
+	["C880net.blif" line: 107, column: 12]
+	["C880net.blif" line: 107, columns:14-24]
+  .gate assign: b = 588GAT(286)
+	["C880net.blif" line: 107, column: 26]
+	["C880net.blif" line: 107, columns:28-38]
+  .gate assign: O = 767GAT(349)
+	["C880net.blif" line: 107, column: 40]
+	["C880net.blif" line: 107, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 108, columns:1-5]
+	["C880net.blif" line: 108, columns:7-10]
+  .gate assign: a = 159GAT(40)
+	["C880net.blif" line: 108, column: 12]
+	["C880net.blif" line: 108, columns:14-23]
+  .gate assign: O = [812]
+	["C880net.blif" line: 108, column: 25]
+	["C880net.blif" line: 108, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 109, columns:1-5]
+	["C880net.blif" line: 109, columns:7-10]
+  .gate assign: a = 165GAT(41)
+	["C880net.blif" line: 109, column: 12]
+	["C880net.blif" line: 109, columns:14-23]
+  .gate assign: O = [813]
+	["C880net.blif" line: 109, column: 25]
+	["C880net.blif" line: 109, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 110, columns:1-5]
+	["C880net.blif" line: 110, columns:7-10]
+  .gate assign: a = [812]
+	["C880net.blif" line: 110, column: 12]
+	["C880net.blif" line: 110, columns:14-18]
+  .gate assign: b = [813]
+	["C880net.blif" line: 110, column: 20]
+	["C880net.blif" line: 110, columns:22-26]
+  .gate assign: O = 324GAT(71)
+	["C880net.blif" line: 110, column: 28]
+	["C880net.blif" line: 110, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 111, columns:1-5]
+	["C880net.blif" line: 111, columns:7-10]
+  .gate assign: a = 159GAT(40)
+	["C880net.blif" line: 111, column: 12]
+	["C880net.blif" line: 111, columns:14-23]
+  .gate assign: b = 165GAT(41)
+	["C880net.blif" line: 111, column: 25]
+	["C880net.blif" line: 111, columns:27-36]
+  .gate assign: O = 325GAT(70)
+	["C880net.blif" line: 111, column: 38]
+	["C880net.blif" line: 111, columns:40-49]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 112, columns:1-5]
+	["C880net.blif" line: 112, columns:7-10]
+  .gate assign: a = 324GAT(71)
+	["C880net.blif" line: 112, column: 12]
+	["C880net.blif" line: 112, columns:14-23]
+  .gate assign: b = 325GAT(70)
+	["C880net.blif" line: 112, column: 25]
+	["C880net.blif" line: 112, columns:27-36]
+  .gate assign: O = 376GAT(117)
+	["C880net.blif" line: 112, column: 38]
+	["C880net.blif" line: 112, columns:40-50]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 113, columns:1-5]
+	["C880net.blif" line: 113, columns:7-10]
+  .gate assign: a = 376GAT(117)
+	["C880net.blif" line: 113, column: 12]
+	["C880net.blif" line: 113, columns:14-24]
+  .gate assign: O = [814]
+	["C880net.blif" line: 113, column: 26]
+	["C880net.blif" line: 113, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 114, columns:1-5]
+	["C880net.blif" line: 114, columns:7-10]
+  .gate assign: a = 171GAT(42)
+	["C880net.blif" line: 114, column: 12]
+	["C880net.blif" line: 114, columns:14-23]
+  .gate assign: O = [815]
+	["C880net.blif" line: 114, column: 25]
+	["C880net.blif" line: 114, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 115, columns:1-5]
+	["C880net.blif" line: 115, columns:7-10]
+  .gate assign: a = 177GAT(43)
+	["C880net.blif" line: 115, column: 12]
+	["C880net.blif" line: 115, columns:14-23]
+  .gate assign: O = [816]
+	["C880net.blif" line: 115, column: 25]
+	["C880net.blif" line: 115, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 116, columns:1-5]
+	["C880net.blif" line: 116, columns:7-10]
+  .gate assign: a = [815]
+	["C880net.blif" line: 116, column: 12]
+	["C880net.blif" line: 116, columns:14-18]
+  .gate assign: b = [816]
+	["C880net.blif" line: 116, column: 20]
+	["C880net.blif" line: 116, columns:22-26]
+  .gate assign: O = 326GAT(69)
+	["C880net.blif" line: 116, column: 28]
+	["C880net.blif" line: 116, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 117, columns:1-5]
+	["C880net.blif" line: 117, columns:7-10]
+  .gate assign: a = 171GAT(42)
+	["C880net.blif" line: 117, column: 12]
+	["C880net.blif" line: 117, columns:14-23]
+  .gate assign: b = 177GAT(43)
+	["C880net.blif" line: 117, column: 25]
+	["C880net.blif" line: 117, columns:27-36]
+  .gate assign: O = 327GAT(68)
+	["C880net.blif" line: 117, column: 38]
+	["C880net.blif" line: 117, columns:40-49]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 118, columns:1-5]
+	["C880net.blif" line: 118, columns:7-10]
+  .gate assign: a = 326GAT(69)
+	["C880net.blif" line: 118, column: 12]
+	["C880net.blif" line: 118, columns:14-23]
+  .gate assign: b = 327GAT(68)
+	["C880net.blif" line: 118, column: 25]
+	["C880net.blif" line: 118, columns:27-36]
+  .gate assign: O = 379GAT(116)
+	["C880net.blif" line: 118, column: 38]
+	["C880net.blif" line: 118, columns:40-50]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 119, columns:1-5]
+	["C880net.blif" line: 119, columns:7-10]
+  .gate assign: a = 379GAT(116)
+	["C880net.blif" line: 119, column: 12]
+	["C880net.blif" line: 119, columns:14-24]
+  .gate assign: O = [817]
+	["C880net.blif" line: 119, column: 26]
+	["C880net.blif" line: 119, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 120, columns:1-5]
+	["C880net.blif" line: 120, columns:7-10]
+  .gate assign: a = 376GAT(117)
+	["C880net.blif" line: 120, column: 12]
+	["C880net.blif" line: 120, columns:14-24]
+  .gate assign: b = 379GAT(116)
+	["C880net.blif" line: 120, column: 26]
+	["C880net.blif" line: 120, columns:28-38]
+  .gate assign: O = 413GAT(147)
+	["C880net.blif" line: 120, column: 40]
+	["C880net.blif" line: 120, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 121, columns:1-5]
+	["C880net.blif" line: 121, columns:7-10]
+  .gate assign: a = [814]
+	["C880net.blif" line: 121, column: 12]
+	["C880net.blif" line: 121, columns:14-18]
+  .gate assign: b = [817]
+	["C880net.blif" line: 121, column: 20]
+	["C880net.blif" line: 121, columns:22-26]
+  .gate assign: O = 444GAT(170)
+	["C880net.blif" line: 121, column: 28]
+	["C880net.blif" line: 121, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 122, columns:1-5]
+	["C880net.blif" line: 122, columns:7-10]
+  .gate assign: a = 413GAT(147)
+	["C880net.blif" line: 122, column: 12]
+	["C880net.blif" line: 122, columns:14-24]
+  .gate assign: b = 444GAT(170)
+	["C880net.blif" line: 122, column: 26]
+	["C880net.blif" line: 122, columns:28-38]
+  .gate assign: O = 492GAT(193)
+	["C880net.blif" line: 122, column: 40]
+	["C880net.blif" line: 122, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 123, columns:1-5]
+	["C880net.blif" line: 123, columns:7-10]
+  .gate assign: a = 492GAT(193)
+	["C880net.blif" line: 123, column: 12]
+	["C880net.blif" line: 123, columns:14-24]
+  .gate assign: O = [818]
+	["C880net.blif" line: 123, column: 26]
+	["C880net.blif" line: 123, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 124, columns:1-5]
+	["C880net.blif" line: 124, columns:7-10]
+  .gate assign: a = [794]
+	["C880net.blif" line: 124, column: 12]
+	["C880net.blif" line: 124, columns:14-18]
+  .gate assign: b = [818]
+	["C880net.blif" line: 124, column: 20]
+	["C880net.blif" line: 124, columns:22-26]
+  .gate assign: O = 518GAT(224)
+	["C880net.blif" line: 124, column: 28]
+	["C880net.blif" line: 124, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 125, columns:1-5]
+	["C880net.blif" line: 125, columns:7-10]
+  .gate assign: a = 130GAT(31)
+	["C880net.blif" line: 125, column: 12]
+	["C880net.blif" line: 125, columns:14-23]
+  .gate assign: b = 492GAT(193)
+	["C880net.blif" line: 125, column: 25]
+	["C880net.blif" line: 125, columns:27-37]
+  .gate assign: O = 519GAT(223)
+	["C880net.blif" line: 125, column: 39]
+	["C880net.blif" line: 125, columns:41-51]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 126, columns:1-5]
+	["C880net.blif" line: 126, columns:7-10]
+  .gate assign: a = 518GAT(224)
+	["C880net.blif" line: 126, column: 12]
+	["C880net.blif" line: 126, columns:14-24]
+  .gate assign: b = 519GAT(223)
+	["C880net.blif" line: 126, column: 26]
+	["C880net.blif" line: 126, columns:28-38]
+  .gate assign: O = 544GAT(242)
+	["C880net.blif" line: 126, column: 40]
+	["C880net.blif" line: 126, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 127, columns:1-5]
+	["C880net.blif" line: 127, columns:7-10]
+  .gate assign: a = 544GAT(242)
+	["C880net.blif" line: 127, column: 12]
+	["C880net.blif" line: 127, columns:14-24]
+  .gate assign: O = [819]
+	["C880net.blif" line: 127, column: 26]
+	["C880net.blif" line: 127, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 128, columns:1-5]
+	["C880net.blif" line: 128, columns:7-10]
+  .gate assign: a = 183GAT(44)
+	["C880net.blif" line: 128, column: 12]
+	["C880net.blif" line: 128, columns:14-23]
+  .gate assign: O = [820]
+	["C880net.blif" line: 128, column: 25]
+	["C880net.blif" line: 128, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 129, columns:1-5]
+	["C880net.blif" line: 129, columns:7-10]
+  .gate assign: a = 189GAT(45)
+	["C880net.blif" line: 129, column: 12]
+	["C880net.blif" line: 129, columns:14-23]
+  .gate assign: O = [821]
+	["C880net.blif" line: 129, column: 25]
+	["C880net.blif" line: 129, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 130, columns:1-5]
+	["C880net.blif" line: 130, columns:7-10]
+  .gate assign: a = [820]
+	["C880net.blif" line: 130, column: 12]
+	["C880net.blif" line: 130, columns:14-18]
+  .gate assign: b = [821]
+	["C880net.blif" line: 130, column: 20]
+	["C880net.blif" line: 130, columns:22-26]
+  .gate assign: O = 328GAT(67)
+	["C880net.blif" line: 130, column: 28]
+	["C880net.blif" line: 130, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 131, columns:1-5]
+	["C880net.blif" line: 131, columns:7-10]
+  .gate assign: a = 183GAT(44)
+	["C880net.blif" line: 131, column: 12]
+	["C880net.blif" line: 131, columns:14-23]
+  .gate assign: b = 189GAT(45)
+	["C880net.blif" line: 131, column: 25]
+	["C880net.blif" line: 131, columns:27-36]
+  .gate assign: O = 329GAT(66)
+	["C880net.blif" line: 131, column: 38]
+	["C880net.blif" line: 131, columns:40-49]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 132, columns:1-5]
+	["C880net.blif" line: 132, columns:7-10]
+  .gate assign: a = 328GAT(67)
+	["C880net.blif" line: 132, column: 12]
+	["C880net.blif" line: 132, columns:14-23]
+  .gate assign: b = 329GAT(66)
+	["C880net.blif" line: 132, column: 25]
+	["C880net.blif" line: 132, columns:27-36]
+  .gate assign: O = 382GAT(115)
+	["C880net.blif" line: 132, column: 38]
+	["C880net.blif" line: 132, columns:40-50]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 133, columns:1-5]
+	["C880net.blif" line: 133, columns:7-10]
+  .gate assign: a = 382GAT(115)
+	["C880net.blif" line: 133, column: 12]
+	["C880net.blif" line: 133, columns:14-24]
+  .gate assign: O = [822]
+	["C880net.blif" line: 133, column: 26]
+	["C880net.blif" line: 133, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 134, columns:1-5]
+	["C880net.blif" line: 134, columns:7-10]
+  .gate assign: a = 195GAT(46)
+	["C880net.blif" line: 134, column: 12]
+	["C880net.blif" line: 134, columns:14-23]
+  .gate assign: O = [823]
+	["C880net.blif" line: 134, column: 25]
+	["C880net.blif" line: 134, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 135, columns:1-5]
+	["C880net.blif" line: 135, columns:7-10]
+  .gate assign: a = 201GAT(47)
+	["C880net.blif" line: 135, column: 12]
+	["C880net.blif" line: 135, columns:14-23]
+  .gate assign: O = [824]
+	["C880net.blif" line: 135, column: 25]
+	["C880net.blif" line: 135, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 136, columns:1-5]
+	["C880net.blif" line: 136, columns:7-10]
+  .gate assign: a = [823]
+	["C880net.blif" line: 136, column: 12]
+	["C880net.blif" line: 136, columns:14-18]
+  .gate assign: b = [824]
+	["C880net.blif" line: 136, column: 20]
+	["C880net.blif" line: 136, columns:22-26]
+  .gate assign: O = 330GAT(65)
+	["C880net.blif" line: 136, column: 28]
+	["C880net.blif" line: 136, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 137, columns:1-5]
+	["C880net.blif" line: 137, columns:7-10]
+  .gate assign: a = 195GAT(46)
+	["C880net.blif" line: 137, column: 12]
+	["C880net.blif" line: 137, columns:14-23]
+  .gate assign: b = 201GAT(47)
+	["C880net.blif" line: 137, column: 25]
+	["C880net.blif" line: 137, columns:27-36]
+  .gate assign: O = 331GAT(64)
+	["C880net.blif" line: 137, column: 38]
+	["C880net.blif" line: 137, columns:40-49]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 138, columns:1-5]
+	["C880net.blif" line: 138, columns:7-10]
+  .gate assign: a = 330GAT(65)
+	["C880net.blif" line: 138, column: 12]
+	["C880net.blif" line: 138, columns:14-23]
+  .gate assign: b = 331GAT(64)
+	["C880net.blif" line: 138, column: 25]
+	["C880net.blif" line: 138, columns:27-36]
+  .gate assign: O = 385GAT(114)
+	["C880net.blif" line: 138, column: 38]
+	["C880net.blif" line: 138, columns:40-50]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 139, columns:1-5]
+	["C880net.blif" line: 139, columns:7-10]
+  .gate assign: a = 385GAT(114)
+	["C880net.blif" line: 139, column: 12]
+	["C880net.blif" line: 139, columns:14-24]
+  .gate assign: O = [825]
+	["C880net.blif" line: 139, column: 26]
+	["C880net.blif" line: 139, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 140, columns:1-5]
+	["C880net.blif" line: 140, columns:7-10]
+  .gate assign: a = 382GAT(115)
+	["C880net.blif" line: 140, column: 12]
+	["C880net.blif" line: 140, columns:14-24]
+  .gate assign: b = 385GAT(114)
+	["C880net.blif" line: 140, column: 26]
+	["C880net.blif" line: 140, columns:28-38]
+  .gate assign: O = 416GAT(144)
+	["C880net.blif" line: 140, column: 40]
+	["C880net.blif" line: 140, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 141, columns:1-5]
+	["C880net.blif" line: 141, columns:7-10]
+  .gate assign: a = [822]
+	["C880net.blif" line: 141, column: 12]
+	["C880net.blif" line: 141, columns:14-18]
+  .gate assign: b = [825]
+	["C880net.blif" line: 141, column: 20]
+	["C880net.blif" line: 141, columns:22-26]
+  .gate assign: O = 445GAT(169)
+	["C880net.blif" line: 141, column: 28]
+	["C880net.blif" line: 141, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 142, columns:1-5]
+	["C880net.blif" line: 142, columns:7-10]
+  .gate assign: a = 416GAT(144)
+	["C880net.blif" line: 142, column: 12]
+	["C880net.blif" line: 142, columns:14-24]
+  .gate assign: b = 445GAT(169)
+	["C880net.blif" line: 142, column: 26]
+	["C880net.blif" line: 142, columns:28-38]
+  .gate assign: O = 495GAT(192)
+	["C880net.blif" line: 142, column: 40]
+	["C880net.blif" line: 142, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 143, columns:1-5]
+	["C880net.blif" line: 143, columns:7-10]
+  .gate assign: a = 495GAT(192)
+	["C880net.blif" line: 143, column: 12]
+	["C880net.blif" line: 143, columns:14-24]
+  .gate assign: O = [826]
+	["C880net.blif" line: 143, column: 26]
+	["C880net.blif" line: 143, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 144, columns:1-5]
+	["C880net.blif" line: 144, columns:7-10]
+  .gate assign: a = 207GAT(48)
+	["C880net.blif" line: 144, column: 12]
+	["C880net.blif" line: 144, columns:14-23]
+  .gate assign: O = [827]
+	["C880net.blif" line: 144, column: 25]
+	["C880net.blif" line: 144, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 145, columns:1-5]
+	["C880net.blif" line: 145, columns:7-10]
+  .gate assign: a = [826]
+	["C880net.blif" line: 145, column: 12]
+	["C880net.blif" line: 145, columns:14-18]
+  .gate assign: b = [827]
+	["C880net.blif" line: 145, column: 20]
+	["C880net.blif" line: 145, columns:22-26]
+  .gate assign: O = 520GAT(208)
+	["C880net.blif" line: 145, column: 28]
+	["C880net.blif" line: 145, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 146, columns:1-5]
+	["C880net.blif" line: 146, columns:7-10]
+  .gate assign: a = 495GAT(192)
+	["C880net.blif" line: 146, column: 12]
+	["C880net.blif" line: 146, columns:14-24]
+  .gate assign: b = 207GAT(48)
+	["C880net.blif" line: 146, column: 26]
+	["C880net.blif" line: 146, columns:28-37]
+  .gate assign: O = 521GAT(207)
+	["C880net.blif" line: 146, column: 39]
+	["C880net.blif" line: 146, columns:41-51]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 147, columns:1-5]
+	["C880net.blif" line: 147, columns:7-10]
+  .gate assign: a = 520GAT(208)
+	["C880net.blif" line: 147, column: 12]
+	["C880net.blif" line: 147, columns:14-24]
+  .gate assign: b = 521GAT(207)
+	["C880net.blif" line: 147, column: 26]
+	["C880net.blif" line: 147, columns:28-38]
+  .gate assign: O = 547GAT(235)
+	["C880net.blif" line: 147, column: 40]
+	["C880net.blif" line: 147, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 148, columns:1-5]
+	["C880net.blif" line: 148, columns:7-10]
+  .gate assign: a = 547GAT(235)
+	["C880net.blif" line: 148, column: 12]
+	["C880net.blif" line: 148, columns:14-24]
+  .gate assign: O = [828]
+	["C880net.blif" line: 148, column: 26]
+	["C880net.blif" line: 148, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 149, columns:1-5]
+	["C880net.blif" line: 149, columns:7-10]
+  .gate assign: a = 544GAT(242)
+	["C880net.blif" line: 149, column: 12]
+	["C880net.blif" line: 149, columns:14-24]
+  .gate assign: b = 547GAT(235)
+	["C880net.blif" line: 149, column: 26]
+	["C880net.blif" line: 149, columns:28-38]
+  .gate assign: O = 587GAT(256)
+	["C880net.blif" line: 149, column: 40]
+	["C880net.blif" line: 149, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 150, columns:1-5]
+	["C880net.blif" line: 150, columns:7-10]
+  .gate assign: a = [819]
+	["C880net.blif" line: 150, column: 12]
+	["C880net.blif" line: 150, columns:14-18]
+  .gate assign: b = [828]
+	["C880net.blif" line: 150, column: 20]
+	["C880net.blif" line: 150, columns:22-26]
+  .gate assign: O = 589GAT(269)
+	["C880net.blif" line: 150, column: 28]
+	["C880net.blif" line: 150, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 151, columns:1-5]
+	["C880net.blif" line: 151, columns:7-10]
+  .gate assign: a = 587GAT(256)
+	["C880net.blif" line: 151, column: 12]
+	["C880net.blif" line: 151, columns:14-24]
+  .gate assign: b = 589GAT(269)
+	["C880net.blif" line: 151, column: 26]
+	["C880net.blif" line: 151, columns:28-38]
+  .gate assign: O = 768GAT(334)
+	["C880net.blif" line: 151, column: 40]
+	["C880net.blif" line: 151, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 152, columns:1-5]
+	["C880net.blif" line: 152, columns:7-10]
+  .gate assign: a = 210GAT(49)
+	["C880net.blif" line: 152, column: 12]
+	["C880net.blif" line: 152, columns:14-23]
+  .gate assign: O = [829]
+	["C880net.blif" line: 152, column: 25]
+	["C880net.blif" line: 152, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 153, columns:1-5]
+	["C880net.blif" line: 153, columns:7-10]
+  .gate assign: a = [806]
+	["C880net.blif" line: 153, column: 12]
+	["C880net.blif" line: 153, columns:14-18]
+  .gate assign: b = [829]
+	["C880net.blif" line: 153, column: 20]
+	["C880net.blif" line: 153, columns:22-26]
+  .gate assign: O = 340GAT(73)
+	["C880net.blif" line: 153, column: 28]
+	["C880net.blif" line: 153, columns:30-39]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 154, columns:1-5]
+	["C880net.blif" line: 154, columns:7-10]
+  .gate assign: a = 219GAT(50)
+	["C880net.blif" line: 154, column: 12]
+	["C880net.blif" line: 154, columns:14-23]
+  .gate assign: O = [830]
+	["C880net.blif" line: 154, column: 25]
+	["C880net.blif" line: 154, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 155, columns:1-5]
+	["C880net.blif" line: 155, columns:7-10]
+  .gate assign: a = 268GAT(59)
+	["C880net.blif" line: 155, column: 12]
+	["C880net.blif" line: 155, columns:14-23]
+  .gate assign: O = [831]
+	["C880net.blif" line: 155, column: 25]
+	["C880net.blif" line: 155, columns:27-31]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 156, columns:1-5]
+	["C880net.blif" line: 156, columns:7-10]
+  .gate assign: a = [760]
+	["C880net.blif" line: 156, column: 12]
+	["C880net.blif" line: 156, columns:14-18]
+  .gate assign: b = [754]
+	["C880net.blif" line: 156, column: 20]
+	["C880net.blif" line: 156, columns:22-26]
+  .gate assign: c = [755]
+	["C880net.blif" line: 156, column: 28]
+	["C880net.blif" line: 156, columns:30-34]
+  .gate assign: O = 287GAT(101)
+	["C880net.blif" line: 156, column: 36]
+	["C880net.blif" line: 156, columns:38-48]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 157, columns:1-5]
+	["C880net.blif" line: 157, columns:7-10]
+  .gate assign: a = 287GAT(101)
+	["C880net.blif" line: 157, column: 12]
+	["C880net.blif" line: 157, columns:14-24]
+  .gate assign: O = [833]
+	["C880net.blif" line: 157, column: 26]
+	["C880net.blif" line: 157, columns:28-32]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 158, columns:1-5]
+	["C880net.blif" line: 158, columns:7-10]
+  .gate assign: a = [785]
+	["C880net.blif" line: 158, column: 12]
+	["C880net.blif" line: 158, columns:14-18]
+  .gate assign: b = [783]
+	["C880net.blif" line: 158, column: 20]
+	["C880net.blif" line: 158, columns:22-26]
+  .gate assign: c = [833]
+	["C880net.blif" line: 158, column: 28]
+	["C880net.blif" line: 158, columns:30-34]
+  .gate assign: O = 437GAT(177)
+	["C880net.blif" line: 158, column: 36]
+	["C880net.blif" line: 158, columns:38-48]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 159, columns:1-5]
+	["C880net.blif" line: 159, columns:7-10]
+  .gate assign: a = 437GAT(177)
+	["C880net.blif" line: 159, column: 12]
+	["C880net.blif" line: 159, columns:14-24]
+  .gate assign: O = [835]
+	["C880net.blif" line: 159, column: 26]
+	["C880net.blif" line: 159, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 160, columns:1-5]
+	["C880net.blif" line: 160, columns:7-10]
+  .gate assign: a = 268GAT(59)
+	["C880net.blif" line: 160, column: 12]
+	["C880net.blif" line: 160, columns:14-23]
+  .gate assign: b = [835]
+	["C880net.blif" line: 160, column: 25]
+	["C880net.blif" line: 160, columns:27-31]
+  .gate assign: O = 491GAT(187)
+	["C880net.blif" line: 160, column: 33]
+	["C880net.blif" line: 160, columns:35-45]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 161, columns:1-5]
+	["C880net.blif" line: 161, columns:7-10]
+  .gate assign: a = 156GAT(39)
+	["C880net.blif" line: 161, column: 12]
+	["C880net.blif" line: 161, columns:14-23]
+  .gate assign: O = [837]
+	["C880net.blif" line: 161, column: 25]
+	["C880net.blif" line: 161, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 162, columns:1-5]
+	["C880net.blif" line: 162, columns:7-10]
+  .gate assign: a = [776]
+	["C880net.blif" line: 162, column: 12]
+	["C880net.blif" line: 162, columns:14-18]
+  .gate assign: b = [837]
+	["C880net.blif" line: 162, column: 20]
+	["C880net.blif" line: 162, columns:22-26]
+  .gate assign: O = 319GAT(90)
+	["C880net.blif" line: 162, column: 28]
+	["C880net.blif" line: 162, columns:30-39]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 163, columns:1-5]
+	["C880net.blif" line: 163, columns:7-10]
+  .gate assign: a = [768]
+	["C880net.blif" line: 163, column: 12]
+	["C880net.blif" line: 163, columns:14-18]
+  .gate assign: b = 319GAT(90)
+	["C880net.blif" line: 163, column: 20]
+	["C880net.blif" line: 163, columns:22-31]
+  .gate assign: c = [783]
+	["C880net.blif" line: 163, column: 33]
+	["C880net.blif" line: 163, columns:35-39]
+  .gate assign: O = 443GAT(180)
+	["C880net.blif" line: 163, column: 41]
+	["C880net.blif" line: 163, columns:43-53]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 164, columns:1-5]
+	["C880net.blif" line: 164, columns:7-10]
+  .gate assign: a = 443GAT(180)
+	["C880net.blif" line: 164, column: 12]
+	["C880net.blif" line: 164, columns:14-24]
+  .gate assign: b = [764]
+	["C880net.blif" line: 164, column: 26]
+	["C880net.blif" line: 164, columns:28-32]
+  .gate assign: O = 483GAT(202)
+	["C880net.blif" line: 164, column: 34]
+	["C880net.blif" line: 164, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 165, columns:1-5]
+	["C880net.blif" line: 165, columns:7-10]
+  .gate assign: a = 153GAT(38)
+	["C880net.blif" line: 165, column: 12]
+	["C880net.blif" line: 165, columns:14-23]
+  .gate assign: O = [836]
+	["C880net.blif" line: 165, column: 25]
+	["C880net.blif" line: 165, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 166, columns:1-5]
+	["C880net.blif" line: 166, columns:7-10]
+  .gate assign: a = 483GAT(202)
+	["C880net.blif" line: 166, column: 12]
+	["C880net.blif" line: 166, columns:14-24]
+  .gate assign: b = [836]
+	["C880net.blif" line: 166, column: 26]
+	["C880net.blif" line: 166, columns:28-32]
+  .gate assign: O = 516GAT(217)
+	["C880net.blif" line: 166, column: 34]
+	["C880net.blif" line: 166, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 167, columns:1-5]
+	["C880net.blif" line: 167, columns:7-10]
+  .gate assign: a = 17GAT(3)
+	["C880net.blif" line: 167, column: 12]
+	["C880net.blif" line: 167, columns:14-21]
+  .gate assign: b = 42GAT(7)
+	["C880net.blif" line: 167, column: 23]
+	["C880net.blif" line: 167, columns:25-32]
+  .gate assign: O = 322GAT(105)
+	["C880net.blif" line: 167, column: 34]
+	["C880net.blif" line: 167, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 168, columns:1-5]
+	["C880net.blif" line: 168, columns:7-10]
+  .gate assign: a = [757]
+	["C880net.blif" line: 168, column: 12]
+	["C880net.blif" line: 168, columns:14-18]
+  .gate assign: b = [768]
+	["C880net.blif" line: 168, column: 20]
+	["C880net.blif" line: 168, columns:22-26]
+  .gate assign: O = 323GAT(104)
+	["C880net.blif" line: 168, column: 28]
+	["C880net.blif" line: 168, columns:30-40]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 169, columns:1-5]
+	["C880net.blif" line: 169, columns:7-10]
+  .gate assign: a = [776]
+	["C880net.blif" line: 169, column: 12]
+	["C880net.blif" line: 169, columns:14-18]
+  .gate assign: b = 322GAT(105)
+	["C880net.blif" line: 169, column: 20]
+	["C880net.blif" line: 169, columns:22-32]
+  .gate assign: c = 323GAT(104)
+	["C880net.blif" line: 169, column: 34]
+	["C880net.blif" line: 169, columns:36-46]
+  .gate assign: O = [545]
+	["C880net.blif" line: 169, column: 48]
+	["C880net.blif" line: 169, columns:50-54]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 170, columns:1-5]
+	["C880net.blif" line: 170, columns:7-10]
+  .gate assign: a = [545]
+	["C880net.blif" line: 170, column: 12]
+	["C880net.blif" line: 170, columns:14-18]
+  .gate assign: O = [2198]
+	["C880net.blif" line: 170, column: 20]
+	["C880net.blif" line: 170, columns:22-27]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 171, columns:1-5]
+	["C880net.blif" line: 171, columns:7-10]
+  .gate assign: a = [2198]
+	["C880net.blif" line: 171, column: 12]
+	["C880net.blif" line: 171, columns:14-19]
+  .gate assign: b = [783]
+	["C880net.blif" line: 171, column: 21]
+	["C880net.blif" line: 171, columns:23-27]
+  .gate assign: c = [837]
+	["C880net.blif" line: 171, column: 29]
+	["C880net.blif" line: 171, columns:31-35]
+  .gate assign: O = 442GAT(175)
+	["C880net.blif" line: 171, column: 37]
+	["C880net.blif" line: 171, columns:39-49]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 172, columns:1-5]
+	["C880net.blif" line: 172, columns:7-10]
+  .gate assign: a = [757]
+	["C880net.blif" line: 172, column: 12]
+	["C880net.blif" line: 172, columns:14-18]
+  .gate assign: b = [755]
+	["C880net.blif" line: 172, column: 20]
+	["C880net.blif" line: 172, columns:22-26]
+  .gate assign: c = [776]
+	["C880net.blif" line: 172, column: 28]
+	["C880net.blif" line: 172, columns:30-34]
+  .gate assign: O = 294GAT(94)
+	["C880net.blif" line: 172, column: 36]
+	["C880net.blif" line: 172, columns:38-47]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 173, columns:1-5]
+	["C880net.blif" line: 173, columns:7-10]
+  .gate assign: a = [764]
+	["C880net.blif" line: 173, column: 12]
+	["C880net.blif" line: 173, columns:14-18]
+  .gate assign: b = [765]
+	["C880net.blif" line: 173, column: 20]
+	["C880net.blif" line: 173, columns:22-26]
+  .gate assign: O = [539]
+	["C880net.blif" line: 173, column: 28]
+	["C880net.blif" line: 173, columns:30-34]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 174, columns:1-5]
+	["C880net.blif" line: 174, columns:7-10]
+  .gate assign: a = [539]
+	["C880net.blif" line: 174, column: 12]
+	["C880net.blif" line: 174, columns:14-18]
+  .gate assign: O = [2194]
+	["C880net.blif" line: 174, column: 20]
+	["C880net.blif" line: 174, columns:22-27]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 175, columns:1-5]
+	["C880net.blif" line: 175, columns:7-10]
+  .gate assign: a = 294GAT(94)
+	["C880net.blif" line: 175, column: 12]
+	["C880net.blif" line: 175, columns:14-23]
+  .gate assign: b = [2194]
+	["C880net.blif" line: 175, column: 25]
+	["C880net.blif" line: 175, columns:27-32]
+  .gate assign: c = [768]
+	["C880net.blif" line: 175, column: 34]
+	["C880net.blif" line: 175, columns:36-40]
+  .gate assign: d = [782]
+	["C880net.blif" line: 175, column: 42]
+	["C880net.blif" line: 175, columns:44-48]
+  .gate assign: O = 410GAT(160)
+	["C880net.blif" line: 175, column: 50]
+	["C880net.blif" line: 175, columns:52-62]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 176, columns:1-5]
+	["C880net.blif" line: 176, columns:7-10]
+  .gate assign: a = 442GAT(175)
+	["C880net.blif" line: 176, column: 12]
+	["C880net.blif" line: 176, columns:14-24]
+  .gate assign: b = 410GAT(160)
+	["C880net.blif" line: 176, column: 26]
+	["C880net.blif" line: 176, columns:28-38]
+  .gate assign: O = 466GAT(201)
+	["C880net.blif" line: 176, column: 40]
+	["C880net.blif" line: 176, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 177, columns:1-5]
+	["C880net.blif" line: 177, columns:7-10]
+  .gate assign: a = 466GAT(201)
+	["C880net.blif" line: 177, column: 12]
+	["C880net.blif" line: 177, columns:14-24]
+  .gate assign: b = [807]
+	["C880net.blif" line: 177, column: 26]
+	["C880net.blif" line: 177, columns:28-32]
+  .gate assign: O = 517GAT(227)
+	["C880net.blif" line: 177, column: 34]
+	["C880net.blif" line: 177, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 178, columns:1-5]
+	["C880net.blif" line: 178, columns:7-10]
+  .gate assign: a = 491GAT(187)
+	["C880net.blif" line: 178, column: 12]
+	["C880net.blif" line: 178, columns:14-24]
+  .gate assign: b = 516GAT(217)
+	["C880net.blif" line: 178, column: 26]
+	["C880net.blif" line: 178, columns:28-38]
+  .gate assign: c = 517GAT(227)
+	["C880net.blif" line: 178, column: 40]
+	["C880net.blif" line: 178, columns:42-52]
+  .gate assign: O = 581GAT(250)
+	["C880net.blif" line: 178, column: 54]
+	["C880net.blif" line: 178, columns:56-66]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 179, columns:1-5]
+	["C880net.blif" line: 179, columns:7-10]
+  .gate assign: a = 581GAT(250)
+	["C880net.blif" line: 179, column: 12]
+	["C880net.blif" line: 179, columns:14-24]
+  .gate assign: O = [847]
+	["C880net.blif" line: 179, column: 26]
+	["C880net.blif" line: 179, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 180, columns:1-5]
+	["C880net.blif" line: 180, columns:7-10]
+  .gate assign: a = 201GAT(47)
+	["C880net.blif" line: 180, column: 12]
+	["C880net.blif" line: 180, columns:14-23]
+  .gate assign: b = [847]
+	["C880net.blif" line: 180, column: 25]
+	["C880net.blif" line: 180, columns:27-31]
+  .gate assign: O = 654GAT(270)
+	["C880net.blif" line: 180, column: 33]
+	["C880net.blif" line: 180, columns:35-45]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 181, columns:1-5]
+	["C880net.blif" line: 181, columns:7-10]
+  .gate assign: a = 581GAT(250)
+	["C880net.blif" line: 181, column: 12]
+	["C880net.blif" line: 181, columns:14-24]
+  .gate assign: b = [824]
+	["C880net.blif" line: 181, column: 26]
+	["C880net.blif" line: 181, columns:28-32]
+  .gate assign: O = 651GAT(271)
+	["C880net.blif" line: 181, column: 34]
+	["C880net.blif" line: 181, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 182, columns:1-5]
+	["C880net.blif" line: 182, columns:7-10]
+  .gate assign: a = 651GAT(271)
+	["C880net.blif" line: 182, column: 12]
+	["C880net.blif" line: 182, columns:14-24]
+  .gate assign: O = [848]
+	["C880net.blif" line: 182, column: 26]
+	["C880net.blif" line: 182, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 183, columns:1-5]
+	["C880net.blif" line: 183, columns:7-10]
+  .gate assign: a = 654GAT(270)
+	["C880net.blif" line: 183, column: 12]
+	["C880net.blif" line: 183, columns:14-24]
+  .gate assign: b = 651GAT(271)
+	["C880net.blif" line: 183, column: 26]
+	["C880net.blif" line: 183, columns:28-38]
+  .gate assign: O = 727GAT(294)
+	["C880net.blif" line: 183, column: 40]
+	["C880net.blif" line: 183, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 184, columns:1-5]
+	["C880net.blif" line: 184, columns:7-10]
+  .gate assign: a = 727GAT(294)
+	["C880net.blif" line: 184, column: 12]
+	["C880net.blif" line: 184, columns:14-24]
+  .gate assign: O = [849]
+	["C880net.blif" line: 184, column: 26]
+	["C880net.blif" line: 184, columns:28-32]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 185, columns:1-5]
+	["C880net.blif" line: 185, columns:7-10]
+  .gate assign: a = 261GAT(57)
+	["C880net.blif" line: 185, column: 12]
+	["C880net.blif" line: 185, columns:14-23]
+  .gate assign: O = [850]
+	["C880net.blif" line: 185, column: 25]
+	["C880net.blif" line: 185, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 186, columns:1-5]
+	["C880net.blif" line: 186, columns:7-10]
+  .gate assign: a = 727GAT(294)
+	["C880net.blif" line: 186, column: 12]
+	["C880net.blif" line: 186, columns:14-24]
+  .gate assign: b = 261GAT(57)
+	["C880net.blif" line: 186, column: 26]
+	["C880net.blif" line: 186, columns:28-37]
+  .gate assign: O = 757GAT(317)
+	["C880net.blif" line: 186, column: 39]
+	["C880net.blif" line: 186, columns:41-51]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 187, columns:1-5]
+	["C880net.blif" line: 187, columns:7-10]
+  .gate assign: a = [849]
+	["C880net.blif" line: 187, column: 12]
+	["C880net.blif" line: 187, columns:14-18]
+  .gate assign: b = [850]
+	["C880net.blif" line: 187, column: 20]
+	["C880net.blif" line: 187, columns:22-26]
+  .gate assign: O = 758GAT(316)
+	["C880net.blif" line: 187, column: 28]
+	["C880net.blif" line: 187, columns:30-40]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 188, columns:1-5]
+	["C880net.blif" line: 188, columns:7-10]
+  .gate assign: a = [830]
+	["C880net.blif" line: 188, column: 12]
+	["C880net.blif" line: 188, columns:14-18]
+  .gate assign: b = 757GAT(317)
+	["C880net.blif" line: 188, column: 20]
+	["C880net.blif" line: 188, columns:22-32]
+  .gate assign: c = 758GAT(316)
+	["C880net.blif" line: 188, column: 34]
+	["C880net.blif" line: 188, columns:36-46]
+  .gate assign: O = 794GAT(362)
+	["C880net.blif" line: 188, column: 48]
+	["C880net.blif" line: 188, columns:50-60]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 189, columns:1-5]
+	["C880net.blif" line: 189, columns:7-10]
+  .gate assign: a = 228GAT(51)
+	["C880net.blif" line: 189, column: 12]
+	["C880net.blif" line: 189, columns:14-23]
+  .gate assign: O = [853]
+	["C880net.blif" line: 189, column: 25]
+	["C880net.blif" line: 189, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 190, columns:1-5]
+	["C880net.blif" line: 190, columns:7-10]
+  .gate assign: a = [849]
+	["C880net.blif" line: 190, column: 12]
+	["C880net.blif" line: 190, columns:14-18]
+  .gate assign: b = [853]
+	["C880net.blif" line: 190, column: 20]
+	["C880net.blif" line: 190, columns:22-26]
+  .gate assign: O = 759GAT(326)
+	["C880net.blif" line: 190, column: 28]
+	["C880net.blif" line: 190, columns:30-40]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 191, columns:1-5]
+	["C880net.blif" line: 191, columns:7-10]
+  .gate assign: a = 237GAT(52)
+	["C880net.blif" line: 191, column: 12]
+	["C880net.blif" line: 191, columns:14-23]
+  .gate assign: O = [854]
+	["C880net.blif" line: 191, column: 25]
+	["C880net.blif" line: 191, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 192, columns:1-5]
+	["C880net.blif" line: 192, columns:7-10]
+  .gate assign: a = [848]
+	["C880net.blif" line: 192, column: 12]
+	["C880net.blif" line: 192, columns:14-18]
+  .gate assign: b = [854]
+	["C880net.blif" line: 192, column: 20]
+	["C880net.blif" line: 192, columns:22-26]
+  .gate assign: O = 760GAT(318)
+	["C880net.blif" line: 192, column: 28]
+	["C880net.blif" line: 192, columns:30-40]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 193, columns:1-5]
+	["C880net.blif" line: 193, columns:7-10]
+  .gate assign: a = 340GAT(73)
+	["C880net.blif" line: 193, column: 12]
+	["C880net.blif" line: 193, columns:14-23]
+  .gate assign: b = 794GAT(362)
+	["C880net.blif" line: 193, column: 25]
+	["C880net.blif" line: 193, columns:27-37]
+  .gate assign: c = 759GAT(326)
+	["C880net.blif" line: 193, column: 39]
+	["C880net.blif" line: 193, columns:41-51]
+  .gate assign: d = 760GAT(318)
+	["C880net.blif" line: 193, column: 53]
+	["C880net.blif" line: 193, columns:55-65]
+  .gate assign: O = [479]
+	["C880net.blif" line: 193, column: 67]
+	["C880net.blif" line: 193, columns:69-73]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 194, columns:1-5]
+	["C880net.blif" line: 194, columns:7-10]
+  .gate assign: a = [479]
+	["C880net.blif" line: 194, column: 12]
+	["C880net.blif" line: 194, columns:14-18]
+  .gate assign: O = [2184]
+	["C880net.blif" line: 194, column: 20]
+	["C880net.blif" line: 194, columns:22-27]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 195, columns:1-5]
+	["C880net.blif" line: 195, columns:7-10]
+  .gate assign: a = 73GAT(13)
+	["C880net.blif" line: 195, column: 12]
+	["C880net.blif" line: 195, columns:14-22]
+  .gate assign: O = [1089]
+	["C880net.blif" line: 195, column: 24]
+	["C880net.blif" line: 195, columns:26-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 196, columns:1-5]
+	["C880net.blif" line: 196, columns:7-10]
+  .gate assign: a = 72GAT(12)
+	["C880net.blif" line: 196, column: 12]
+	["C880net.blif" line: 196, columns:14-22]
+  .gate assign: O = [1087]
+	["C880net.blif" line: 196, column: 24]
+	["C880net.blif" line: 196, columns:26-31]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 197, columns:1-5]
+	["C880net.blif" line: 197, columns:7-10]
+  .gate assign: a = [757]
+	["C880net.blif" line: 197, column: 12]
+	["C880net.blif" line: 197, columns:14-18]
+  .gate assign: b = [776]
+	["C880net.blif" line: 197, column: 20]
+	["C880net.blif" line: 197, columns:22-26]
+  .gate assign: c = [788]
+	["C880net.blif" line: 197, column: 28]
+	["C880net.blif" line: 197, columns:30-34]
+  .gate assign: d = [1087]
+	["C880net.blif" line: 197, column: 36]
+	["C880net.blif" line: 197, columns:38-43]
+  .gate assign: O = 284GAT(95)
+	["C880net.blif" line: 197, column: 45]
+	["C880net.blif" line: 197, columns:47-56]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 198, columns:1-5]
+	["C880net.blif" line: 198, columns:7-10]
+  .gate assign: a = 284GAT(95)
+	["C880net.blif" line: 198, column: 12]
+	["C880net.blif" line: 198, columns:14-23]
+  .gate assign: O = [1460]
+	["C880net.blif" line: 198, column: 25]
+	["C880net.blif" line: 198, columns:27-32]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 199, columns:1-5]
+	["C880net.blif" line: 199, columns:7-10]
+  .gate assign: a = [1089]
+	["C880net.blif" line: 199, column: 12]
+	["C880net.blif" line: 199, columns:14-19]
+  .gate assign: b = [787]
+	["C880net.blif" line: 199, column: 21]
+	["C880net.blif" line: 199, columns:23-27]
+  .gate assign: c = [1460]
+	["C880net.blif" line: 199, column: 29]
+	["C880net.blif" line: 199, columns:31-36]
+  .gate assign: O = 400GAT(157)
+	["C880net.blif" line: 199, column: 38]
+	["C880net.blif" line: 199, columns:40-50]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 200, columns:1-5]
+	["C880net.blif" line: 200, columns:7-10]
+  .gate assign: a = 400GAT(157)
+	["C880net.blif" line: 200, column: 12]
+	["C880net.blif" line: 200, columns:14-24]
+  .gate assign: O = [867]
+	["C880net.blif" line: 200, column: 26]
+	["C880net.blif" line: 200, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 201, columns:1-5]
+	["C880net.blif" line: 201, columns:7-10]
+  .gate assign: a = [824]
+	["C880net.blif" line: 201, column: 12]
+	["C880net.blif" line: 201, columns:14-18]
+  .gate assign: b = [867]
+	["C880net.blif" line: 201, column: 20]
+	["C880net.blif" line: 201, columns:22-26]
+  .gate assign: O = 529GAT(209)
+	["C880net.blif" line: 201, column: 28]
+	["C880net.blif" line: 201, columns:30-40]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 202, columns:1-5]
+	["C880net.blif" line: 202, columns:7-10]
+  .gate assign: a = 255GAT(54)
+	["C880net.blif" line: 202, column: 12]
+	["C880net.blif" line: 202, columns:14-23]
+  .gate assign: O = [857]
+	["C880net.blif" line: 202, column: 25]
+	["C880net.blif" line: 202, columns:27-31]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 203, columns:1-5]
+	["C880net.blif" line: 203, columns:7-10]
+  .gate assign: a = 267GAT(58)
+	["C880net.blif" line: 203, column: 12]
+	["C880net.blif" line: 203, columns:14-23]
+  .gate assign: O = [1380]
+	["C880net.blif" line: 203, column: 25]
+	["C880net.blif" line: 203, columns:27-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 204, columns:1-5]
+	["C880net.blif" line: 204, columns:7-10]
+  .gate assign: a = [857]
+	["C880net.blif" line: 204, column: 12]
+	["C880net.blif" line: 204, columns:14-18]
+  .gate assign: b = [1380]
+	["C880net.blif" line: 204, column: 20]
+	["C880net.blif" line: 204, columns:22-27]
+  .gate assign: O = 341GAT(61)
+	["C880net.blif" line: 204, column: 29]
+	["C880net.blif" line: 204, columns:31-40]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 205, columns:1-5]
+	["C880net.blif" line: 205, columns:7-10]
+  .gate assign: a = 246GAT(53)
+	["C880net.blif" line: 205, column: 12]
+	["C880net.blif" line: 205, columns:14-23]
+  .gate assign: O = [859]
+	["C880net.blif" line: 205, column: 25]
+	["C880net.blif" line: 205, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 206, columns:1-5]
+	["C880net.blif" line: 206, columns:7-10]
+  .gate assign: a = 581GAT(250)
+	["C880net.blif" line: 206, column: 12]
+	["C880net.blif" line: 206, columns:14-24]
+  .gate assign: b = [859]
+	["C880net.blif" line: 206, column: 26]
+	["C880net.blif" line: 206, columns:28-32]
+  .gate assign: O = 659GAT(261)
+	["C880net.blif" line: 206, column: 34]
+	["C880net.blif" line: 206, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 207, columns:1-5]
+	["C880net.blif" line: 207, columns:7-10]
+  .gate assign: a = [2184]
+	["C880net.blif" line: 207, column: 12]
+	["C880net.blif" line: 207, columns:14-19]
+  .gate assign: b = 529GAT(209)
+	["C880net.blif" line: 207, column: 21]
+	["C880net.blif" line: 207, columns:23-33]
+  .gate assign: c = 341GAT(61)
+	["C880net.blif" line: 207, column: 35]
+	["C880net.blif" line: 207, columns:37-46]
+  .gate assign: d = 659GAT(261)
+	["C880net.blif" line: 207, column: 48]
+	["C880net.blif" line: 207, columns:50-60]
+  .gate assign: O = 811GAT(378)
+	["C880net.blif" line: 207, column: 62]
+	["C880net.blif" line: 207, columns:64-74]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 208, columns:1-5]
+	["C880net.blif" line: 208, columns:7-10]
+  .gate assign: a = 811GAT(378)
+	["C880net.blif" line: 208, column: 12]
+	["C880net.blif" line: 208, columns:14-24]
+  .gate assign: O = 850GAT(404)
+	["C880net.blif" line: 208, column: 26]
+	["C880net.blif" line: 208, columns:28-38]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 209, columns:1-5]
+	["C880net.blif" line: 209, columns:7-10]
+  .gate assign: a = [799]
+	["C880net.blif" line: 209, column: 12]
+	["C880net.blif" line: 209, columns:14-18]
+  .gate assign: b = [829]
+	["C880net.blif" line: 209, column: 20]
+	["C880net.blif" line: 209, columns:22-26]
+  .gate assign: O = 335GAT(80)
+	["C880net.blif" line: 209, column: 28]
+	["C880net.blif" line: 209, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 210, columns:1-5]
+	["C880net.blif" line: 210, columns:7-10]
+  .gate assign: a = 268GAT(59)
+	["C880net.blif" line: 210, column: 12]
+	["C880net.blif" line: 210, columns:14-23]
+  .gate assign: b = [835]
+	["C880net.blif" line: 210, column: 25]
+	["C880net.blif" line: 210, columns:27-31]
+  .gate assign: O = 488GAT(184)
+	["C880net.blif" line: 210, column: 33]
+	["C880net.blif" line: 210, columns:35-45]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 211, columns:1-5]
+	["C880net.blif" line: 211, columns:7-10]
+  .gate assign: a = 143GAT(34)
+	["C880net.blif" line: 211, column: 12]
+	["C880net.blif" line: 211, columns:14-23]
+  .gate assign: O = [869]
+	["C880net.blif" line: 211, column: 25]
+	["C880net.blif" line: 211, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 212, columns:1-5]
+	["C880net.blif" line: 212, columns:7-10]
+  .gate assign: a = 483GAT(202)
+	["C880net.blif" line: 212, column: 12]
+	["C880net.blif" line: 212, columns:14-24]
+  .gate assign: b = [869]
+	["C880net.blif" line: 212, column: 26]
+	["C880net.blif" line: 212, columns:28-32]
+  .gate assign: O = 510GAT(220)
+	["C880net.blif" line: 212, column: 34]
+	["C880net.blif" line: 212, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 213, columns:1-5]
+	["C880net.blif" line: 213, columns:7-10]
+  .gate assign: a = 466GAT(201)
+	["C880net.blif" line: 213, column: 12]
+	["C880net.blif" line: 213, columns:14-24]
+  .gate assign: b = [803]
+	["C880net.blif" line: 213, column: 26]
+	["C880net.blif" line: 213, columns:28-32]
+  .gate assign: O = 511GAT(230)
+	["C880net.blif" line: 213, column: 34]
+	["C880net.blif" line: 213, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 214, columns:1-5]
+	["C880net.blif" line: 214, columns:7-10]
+  .gate assign: a = 488GAT(184)
+	["C880net.blif" line: 214, column: 12]
+	["C880net.blif" line: 214, columns:14-24]
+  .gate assign: b = 510GAT(220)
+	["C880net.blif" line: 214, column: 26]
+	["C880net.blif" line: 214, columns:28-38]
+  .gate assign: c = 511GAT(230)
+	["C880net.blif" line: 214, column: 40]
+	["C880net.blif" line: 214, columns:42-52]
+  .gate assign: O = 569GAT(247)
+	["C880net.blif" line: 214, column: 54]
+	["C880net.blif" line: 214, columns:56-66]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 215, columns:1-5]
+	["C880net.blif" line: 215, columns:7-10]
+  .gate assign: a = 569GAT(247)
+	["C880net.blif" line: 215, column: 12]
+	["C880net.blif" line: 215, columns:14-24]
+  .gate assign: O = [871]
+	["C880net.blif" line: 215, column: 26]
+	["C880net.blif" line: 215, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 216, columns:1-5]
+	["C880net.blif" line: 216, columns:7-10]
+  .gate assign: a = 183GAT(44)
+	["C880net.blif" line: 216, column: 12]
+	["C880net.blif" line: 216, columns:14-23]
+  .gate assign: b = [871]
+	["C880net.blif" line: 216, column: 25]
+	["C880net.blif" line: 216, columns:27-31]
+  .gate assign: O = 628GAT(276)
+	["C880net.blif" line: 216, column: 33]
+	["C880net.blif" line: 216, columns:35-45]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 217, columns:1-5]
+	["C880net.blif" line: 217, columns:7-10]
+  .gate assign: a = 569GAT(247)
+	["C880net.blif" line: 217, column: 12]
+	["C880net.blif" line: 217, columns:14-24]
+  .gate assign: b = [820]
+	["C880net.blif" line: 217, column: 26]
+	["C880net.blif" line: 217, columns:28-32]
+  .gate assign: O = 625GAT(277)
+	["C880net.blif" line: 217, column: 34]
+	["C880net.blif" line: 217, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 218, columns:1-5]
+	["C880net.blif" line: 218, columns:7-10]
+  .gate assign: a = 625GAT(277)
+	["C880net.blif" line: 218, column: 12]
+	["C880net.blif" line: 218, columns:14-24]
+  .gate assign: O = [872]
+	["C880net.blif" line: 218, column: 26]
+	["C880net.blif" line: 218, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 219, columns:1-5]
+	["C880net.blif" line: 219, columns:7-10]
+  .gate assign: a = 628GAT(276)
+	["C880net.blif" line: 219, column: 12]
+	["C880net.blif" line: 219, columns:14-24]
+  .gate assign: b = 625GAT(277)
+	["C880net.blif" line: 219, column: 26]
+	["C880net.blif" line: 219, columns:28-38]
+  .gate assign: O = 700GAT(300)
+	["C880net.blif" line: 219, column: 40]
+	["C880net.blif" line: 219, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 220, columns:1-5]
+	["C880net.blif" line: 220, columns:7-10]
+  .gate assign: a = 700GAT(300)
+	["C880net.blif" line: 220, column: 12]
+	["C880net.blif" line: 220, columns:14-24]
+  .gate assign: O = [873]
+	["C880net.blif" line: 220, column: 26]
+	["C880net.blif" line: 220, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 221, columns:1-5]
+	["C880net.blif" line: 221, columns:7-10]
+  .gate assign: a = 268GAT(59)
+	["C880net.blif" line: 221, column: 12]
+	["C880net.blif" line: 221, columns:14-23]
+  .gate assign: b = [835]
+	["C880net.blif" line: 221, column: 25]
+	["C880net.blif" line: 221, columns:27-31]
+  .gate assign: O = 489GAT(185)
+	["C880net.blif" line: 221, column: 33]
+	["C880net.blif" line: 221, columns:35-45]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 222, columns:1-5]
+	["C880net.blif" line: 222, columns:7-10]
+  .gate assign: a = 146GAT(35)
+	["C880net.blif" line: 222, column: 12]
+	["C880net.blif" line: 222, columns:14-23]
+  .gate assign: O = [874]
+	["C880net.blif" line: 222, column: 25]
+	["C880net.blif" line: 222, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 223, columns:1-5]
+	["C880net.blif" line: 223, columns:7-10]
+  .gate assign: a = 483GAT(202)
+	["C880net.blif" line: 223, column: 12]
+	["C880net.blif" line: 223, columns:14-24]
+  .gate assign: b = [874]
+	["C880net.blif" line: 223, column: 26]
+	["C880net.blif" line: 223, columns:28-32]
+  .gate assign: O = 512GAT(219)
+	["C880net.blif" line: 223, column: 34]
+	["C880net.blif" line: 223, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 224, columns:1-5]
+	["C880net.blif" line: 224, columns:7-10]
+  .gate assign: a = 466GAT(201)
+	["C880net.blif" line: 224, column: 12]
+	["C880net.blif" line: 224, columns:14-24]
+  .gate assign: b = [804]
+	["C880net.blif" line: 224, column: 26]
+	["C880net.blif" line: 224, columns:28-32]
+  .gate assign: O = 513GAT(229)
+	["C880net.blif" line: 224, column: 34]
+	["C880net.blif" line: 224, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 225, columns:1-5]
+	["C880net.blif" line: 225, columns:7-10]
+  .gate assign: a = 489GAT(185)
+	["C880net.blif" line: 225, column: 12]
+	["C880net.blif" line: 225, columns:14-24]
+  .gate assign: b = 512GAT(219)
+	["C880net.blif" line: 225, column: 26]
+	["C880net.blif" line: 225, columns:28-38]
+  .gate assign: c = 513GAT(229)
+	["C880net.blif" line: 225, column: 40]
+	["C880net.blif" line: 225, columns:42-52]
+  .gate assign: O = 573GAT(248)
+	["C880net.blif" line: 225, column: 54]
+	["C880net.blif" line: 225, columns:56-66]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 226, columns:1-5]
+	["C880net.blif" line: 226, columns:7-10]
+  .gate assign: a = 573GAT(248)
+	["C880net.blif" line: 226, column: 12]
+	["C880net.blif" line: 226, columns:14-24]
+  .gate assign: O = [876]
+	["C880net.blif" line: 226, column: 26]
+	["C880net.blif" line: 226, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 227, columns:1-5]
+	["C880net.blif" line: 227, columns:7-10]
+  .gate assign: a = 573GAT(248)
+	["C880net.blif" line: 227, column: 12]
+	["C880net.blif" line: 227, columns:14-24]
+  .gate assign: b = [821]
+	["C880net.blif" line: 227, column: 26]
+	["C880net.blif" line: 227, columns:28-32]
+  .gate assign: O = 632GAT(275)
+	["C880net.blif" line: 227, column: 34]
+	["C880net.blif" line: 227, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 228, columns:1-5]
+	["C880net.blif" line: 228, columns:7-10]
+  .gate assign: a = 632GAT(275)
+	["C880net.blif" line: 228, column: 12]
+	["C880net.blif" line: 228, columns:14-24]
+  .gate assign: O = [877]
+	["C880net.blif" line: 228, column: 26]
+	["C880net.blif" line: 228, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 229, columns:1-5]
+	["C880net.blif" line: 229, columns:7-10]
+  .gate assign: a = 189GAT(45)
+	["C880net.blif" line: 229, column: 12]
+	["C880net.blif" line: 229, columns:14-23]
+  .gate assign: b = [876]
+	["C880net.blif" line: 229, column: 25]
+	["C880net.blif" line: 229, columns:27-31]
+  .gate assign: O = 635GAT(274)
+	["C880net.blif" line: 229, column: 33]
+	["C880net.blif" line: 229, columns:35-45]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 230, columns:1-5]
+	["C880net.blif" line: 230, columns:7-10]
+  .gate assign: a = 268GAT(59)
+	["C880net.blif" line: 230, column: 12]
+	["C880net.blif" line: 230, columns:14-23]
+  .gate assign: b = [835]
+	["C880net.blif" line: 230, column: 25]
+	["C880net.blif" line: 230, columns:27-31]
+  .gate assign: O = 490GAT(186)
+	["C880net.blif" line: 230, column: 33]
+	["C880net.blif" line: 230, columns:35-45]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 231, columns:1-5]
+	["C880net.blif" line: 231, columns:7-10]
+  .gate assign: a = 149GAT(36)
+	["C880net.blif" line: 231, column: 12]
+	["C880net.blif" line: 231, columns:14-23]
+  .gate assign: O = [878]
+	["C880net.blif" line: 231, column: 25]
+	["C880net.blif" line: 231, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 232, columns:1-5]
+	["C880net.blif" line: 232, columns:7-10]
+  .gate assign: a = 483GAT(202)
+	["C880net.blif" line: 232, column: 12]
+	["C880net.blif" line: 232, columns:14-24]
+  .gate assign: b = [878]
+	["C880net.blif" line: 232, column: 26]
+	["C880net.blif" line: 232, columns:28-32]
+  .gate assign: O = 514GAT(218)
+	["C880net.blif" line: 232, column: 34]
+	["C880net.blif" line: 232, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 233, columns:1-5]
+	["C880net.blif" line: 233, columns:7-10]
+  .gate assign: a = 466GAT(201)
+	["C880net.blif" line: 233, column: 12]
+	["C880net.blif" line: 233, columns:14-24]
+  .gate assign: b = [806]
+	["C880net.blif" line: 233, column: 26]
+	["C880net.blif" line: 233, columns:28-32]
+  .gate assign: O = 515GAT(228)
+	["C880net.blif" line: 233, column: 34]
+	["C880net.blif" line: 233, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 234, columns:1-5]
+	["C880net.blif" line: 234, columns:7-10]
+  .gate assign: a = 490GAT(186)
+	["C880net.blif" line: 234, column: 12]
+	["C880net.blif" line: 234, columns:14-24]
+  .gate assign: b = 514GAT(218)
+	["C880net.blif" line: 234, column: 26]
+	["C880net.blif" line: 234, columns:28-38]
+  .gate assign: c = 515GAT(228)
+	["C880net.blif" line: 234, column: 40]
+	["C880net.blif" line: 234, columns:42-52]
+  .gate assign: O = 577GAT(249)
+	["C880net.blif" line: 234, column: 54]
+	["C880net.blif" line: 234, columns:56-66]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 235, columns:1-5]
+	["C880net.blif" line: 235, columns:7-10]
+  .gate assign: a = 577GAT(249)
+	["C880net.blif" line: 235, column: 12]
+	["C880net.blif" line: 235, columns:14-24]
+  .gate assign: O = [880]
+	["C880net.blif" line: 235, column: 26]
+	["C880net.blif" line: 235, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 236, columns:1-5]
+	["C880net.blif" line: 236, columns:7-10]
+  .gate assign: a = 577GAT(249)
+	["C880net.blif" line: 236, column: 12]
+	["C880net.blif" line: 236, columns:14-24]
+  .gate assign: b = [823]
+	["C880net.blif" line: 236, column: 26]
+	["C880net.blif" line: 236, columns:28-32]
+  .gate assign: O = 641GAT(273)
+	["C880net.blif" line: 236, column: 34]
+	["C880net.blif" line: 236, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 237, columns:1-5]
+	["C880net.blif" line: 237, columns:7-10]
+  .gate assign: a = 641GAT(273)
+	["C880net.blif" line: 237, column: 12]
+	["C880net.blif" line: 237, columns:14-24]
+  .gate assign: O = [881]
+	["C880net.blif" line: 237, column: 26]
+	["C880net.blif" line: 237, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 238, columns:1-5]
+	["C880net.blif" line: 238, columns:7-10]
+  .gate assign: a = 635GAT(274)
+	["C880net.blif" line: 238, column: 12]
+	["C880net.blif" line: 238, columns:14-24]
+  .gate assign: b = [881]
+	["C880net.blif" line: 238, column: 26]
+	["C880net.blif" line: 238, columns:28-32]
+  .gate assign: O = 762GAT(339)
+	["C880net.blif" line: 238, column: 34]
+	["C880net.blif" line: 238, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 239, columns:1-5]
+	["C880net.blif" line: 239, columns:7-10]
+  .gate assign: a = 195GAT(46)
+	["C880net.blif" line: 239, column: 12]
+	["C880net.blif" line: 239, columns:14-23]
+  .gate assign: b = [880]
+	["C880net.blif" line: 239, column: 25]
+	["C880net.blif" line: 239, columns:27-31]
+  .gate assign: O = 644GAT(272)
+	["C880net.blif" line: 239, column: 33]
+	["C880net.blif" line: 239, columns:35-45]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 240, columns:1-5]
+	["C880net.blif" line: 240, columns:7-10]
+  .gate assign: a = [848]
+	["C880net.blif" line: 240, column: 12]
+	["C880net.blif" line: 240, columns:14-18]
+  .gate assign: b = 635GAT(274)
+	["C880net.blif" line: 240, column: 20]
+	["C880net.blif" line: 240, columns:22-32]
+  .gate assign: c = 644GAT(272)
+	["C880net.blif" line: 240, column: 34]
+	["C880net.blif" line: 240, columns:36-46]
+  .gate assign: O = 763GAT(337)
+	["C880net.blif" line: 240, column: 48]
+	["C880net.blif" line: 240, columns:50-60]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 241, columns:1-5]
+	["C880net.blif" line: 241, columns:7-10]
+  .gate assign: a = 635GAT(274)
+	["C880net.blif" line: 241, column: 12]
+	["C880net.blif" line: 241, columns:14-24]
+  .gate assign: b = 644GAT(272)
+	["C880net.blif" line: 241, column: 26]
+	["C880net.blif" line: 241, columns:28-38]
+  .gate assign: c = 654GAT(270)
+	["C880net.blif" line: 241, column: 40]
+	["C880net.blif" line: 241, columns:42-52]
+  .gate assign: d = [850]
+	["C880net.blif" line: 241, column: 54]
+	["C880net.blif" line: 241, columns:56-60]
+  .gate assign: O = 734GAT(287)
+	["C880net.blif" line: 241, column: 62]
+	["C880net.blif" line: 241, columns:64-74]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 242, columns:1-5]
+	["C880net.blif" line: 242, columns:7-10]
+  .gate assign: a = 632GAT(275)
+	["C880net.blif" line: 242, column: 12]
+	["C880net.blif" line: 242, columns:14-24]
+  .gate assign: b = 762GAT(339)
+	["C880net.blif" line: 242, column: 26]
+	["C880net.blif" line: 242, columns:28-38]
+  .gate assign: c = 763GAT(337)
+	["C880net.blif" line: 242, column: 40]
+	["C880net.blif" line: 242, columns:42-52]
+  .gate assign: d = 734GAT(287)
+	["C880net.blif" line: 242, column: 54]
+	["C880net.blif" line: 242, columns:56-66]
+  .gate assign: O = 773GAT(351)
+	["C880net.blif" line: 242, column: 68]
+	["C880net.blif" line: 243, columns:1-11]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 244, columns:1-5]
+	["C880net.blif" line: 244, columns:7-10]
+  .gate assign: a = 773GAT(351)
+	["C880net.blif" line: 244, column: 12]
+	["C880net.blif" line: 244, columns:14-24]
+  .gate assign: O = [887]
+	["C880net.blif" line: 244, column: 26]
+	["C880net.blif" line: 244, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 245, columns:1-5]
+	["C880net.blif" line: 245, columns:7-10]
+  .gate assign: a = 700GAT(300)
+	["C880net.blif" line: 245, column: 12]
+	["C880net.blif" line: 245, columns:14-24]
+  .gate assign: b = [887]
+	["C880net.blif" line: 245, column: 26]
+	["C880net.blif" line: 245, columns:28-32]
+  .gate assign: O = 788GAT(367)
+	["C880net.blif" line: 245, column: 34]
+	["C880net.blif" line: 245, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 246, columns:1-5]
+	["C880net.blif" line: 246, columns:7-10]
+  .gate assign: a = 773GAT(351)
+	["C880net.blif" line: 246, column: 12]
+	["C880net.blif" line: 246, columns:14-24]
+  .gate assign: b = [873]
+	["C880net.blif" line: 246, column: 26]
+	["C880net.blif" line: 246, columns:28-32]
+  .gate assign: O = 789GAT(368)
+	["C880net.blif" line: 246, column: 34]
+	["C880net.blif" line: 246, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 247, columns:1-5]
+	["C880net.blif" line: 247, columns:7-10]
+  .gate assign: a = [830]
+	["C880net.blif" line: 247, column: 12]
+	["C880net.blif" line: 247, columns:14-18]
+  .gate assign: b = 788GAT(367)
+	["C880net.blif" line: 247, column: 20]
+	["C880net.blif" line: 247, columns:22-32]
+  .gate assign: c = 789GAT(368)
+	["C880net.blif" line: 247, column: 34]
+	["C880net.blif" line: 247, columns:36-46]
+  .gate assign: O = 808GAT(377)
+	["C880net.blif" line: 247, column: 48]
+	["C880net.blif" line: 247, columns:50-60]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 248, columns:1-5]
+	["C880net.blif" line: 248, columns:7-10]
+  .gate assign: a = [853]
+	["C880net.blif" line: 248, column: 12]
+	["C880net.blif" line: 248, columns:14-18]
+  .gate assign: b = [873]
+	["C880net.blif" line: 248, column: 20]
+	["C880net.blif" line: 248, columns:22-26]
+  .gate assign: O = 748GAT(329)
+	["C880net.blif" line: 248, column: 28]
+	["C880net.blif" line: 248, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 249, columns:1-5]
+	["C880net.blif" line: 249, columns:7-10]
+  .gate assign: a = [854]
+	["C880net.blif" line: 249, column: 12]
+	["C880net.blif" line: 249, columns:14-18]
+  .gate assign: b = [872]
+	["C880net.blif" line: 249, column: 20]
+	["C880net.blif" line: 249, columns:22-26]
+  .gate assign: O = 749GAT(321)
+	["C880net.blif" line: 249, column: 28]
+	["C880net.blif" line: 249, columns:30-40]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 250, columns:1-5]
+	["C880net.blif" line: 250, columns:7-10]
+  .gate assign: a = 335GAT(80)
+	["C880net.blif" line: 250, column: 12]
+	["C880net.blif" line: 250, columns:14-23]
+  .gate assign: b = 808GAT(377)
+	["C880net.blif" line: 250, column: 25]
+	["C880net.blif" line: 250, columns:27-37]
+  .gate assign: c = 748GAT(329)
+	["C880net.blif" line: 250, column: 39]
+	["C880net.blif" line: 250, columns:41-51]
+  .gate assign: d = 749GAT(321)
+	["C880net.blif" line: 250, column: 53]
+	["C880net.blif" line: 250, columns:55-65]
+  .gate assign: O = [387]
+	["C880net.blif" line: 250, column: 67]
+	["C880net.blif" line: 250, columns:69-73]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 251, columns:1-5]
+	["C880net.blif" line: 251, columns:7-10]
+  .gate assign: a = [387]
+	["C880net.blif" line: 251, column: 12]
+	["C880net.blif" line: 251, columns:14-18]
+  .gate assign: O = [2170]
+	["C880net.blif" line: 251, column: 20]
+	["C880net.blif" line: 251, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 252, columns:1-5]
+	["C880net.blif" line: 252, columns:7-10]
+  .gate assign: a = 569GAT(247)
+	["C880net.blif" line: 252, column: 12]
+	["C880net.blif" line: 252, columns:14-24]
+  .gate assign: b = [859]
+	["C880net.blif" line: 252, column: 26]
+	["C880net.blif" line: 252, columns:28-32]
+  .gate assign: O = 631GAT(264)
+	["C880net.blif" line: 252, column: 34]
+	["C880net.blif" line: 252, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 253, columns:1-5]
+	["C880net.blif" line: 253, columns:7-10]
+  .gate assign: a = [820]
+	["C880net.blif" line: 253, column: 12]
+	["C880net.blif" line: 253, columns:14-18]
+  .gate assign: b = [867]
+	["C880net.blif" line: 253, column: 20]
+	["C880net.blif" line: 253, columns:22-26]
+  .gate assign: O = 526GAT(212)
+	["C880net.blif" line: 253, column: 28]
+	["C880net.blif" line: 253, columns:30-40]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 254, columns:1-5]
+	["C880net.blif" line: 254, columns:7-10]
+  .gate assign: a = [2170]
+	["C880net.blif" line: 254, column: 12]
+	["C880net.blif" line: 254, columns:14-19]
+  .gate assign: b = 631GAT(264)
+	["C880net.blif" line: 254, column: 21]
+	["C880net.blif" line: 254, columns:23-33]
+  .gate assign: c = 526GAT(212)
+	["C880net.blif" line: 254, column: 35]
+	["C880net.blif" line: 254, columns:37-47]
+  .gate assign: O = 837GAT(396)
+	["C880net.blif" line: 254, column: 49]
+	["C880net.blif" line: 254, columns:51-61]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 255, columns:1-5]
+	["C880net.blif" line: 255, columns:7-10]
+  .gate assign: a = 837GAT(396)
+	["C880net.blif" line: 255, column: 12]
+	["C880net.blif" line: 255, columns:14-24]
+  .gate assign: O = 863GAT(424)
+	["C880net.blif" line: 255, column: 26]
+	["C880net.blif" line: 255, columns:28-38]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 256, columns:1-5]
+	["C880net.blif" line: 256, columns:7-10]
+  .gate assign: a = [803]
+	["C880net.blif" line: 256, column: 12]
+	["C880net.blif" line: 256, columns:14-18]
+  .gate assign: b = [829]
+	["C880net.blif" line: 256, column: 20]
+	["C880net.blif" line: 256, columns:22-26]
+  .gate assign: O = 336GAT(77)
+	["C880net.blif" line: 256, column: 28]
+	["C880net.blif" line: 256, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 257, columns:1-5]
+	["C880net.blif" line: 257, columns:7-10]
+  .gate assign: a = 635GAT(274)
+	["C880net.blif" line: 257, column: 12]
+	["C880net.blif" line: 257, columns:14-24]
+  .gate assign: b = 632GAT(275)
+	["C880net.blif" line: 257, column: 26]
+	["C880net.blif" line: 257, columns:28-38]
+  .gate assign: O = 708GAT(298)
+	["C880net.blif" line: 257, column: 40]
+	["C880net.blif" line: 257, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 258, columns:1-5]
+	["C880net.blif" line: 258, columns:7-10]
+  .gate assign: a = 708GAT(298)
+	["C880net.blif" line: 258, column: 12]
+	["C880net.blif" line: 258, columns:14-24]
+  .gate assign: O = [893]
+	["C880net.blif" line: 258, column: 26]
+	["C880net.blif" line: 258, columns:28-32]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 259, columns:1-5]
+	["C880net.blif" line: 259, columns:7-10]
+  .gate assign: a = [850]
+	["C880net.blif" line: 259, column: 12]
+	["C880net.blif" line: 259, columns:14-18]
+  .gate assign: b = 644GAT(272)
+	["C880net.blif" line: 259, column: 20]
+	["C880net.blif" line: 259, columns:22-32]
+  .gate assign: c = 654GAT(270)
+	["C880net.blif" line: 259, column: 34]
+	["C880net.blif" line: 259, columns:36-46]
+  .gate assign: O = 733GAT(288)
+	["C880net.blif" line: 259, column: 48]
+	["C880net.blif" line: 259, columns:50-60]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 260, columns:1-5]
+	["C880net.blif" line: 260, columns:7-10]
+  .gate assign: a = 644GAT(272)
+	["C880net.blif" line: 260, column: 12]
+	["C880net.blif" line: 260, columns:14-24]
+  .gate assign: b = [848]
+	["C880net.blif" line: 260, column: 26]
+	["C880net.blif" line: 260, columns:28-32]
+  .gate assign: O = 761GAT(336)
+	["C880net.blif" line: 260, column: 34]
+	["C880net.blif" line: 260, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 261, columns:1-5]
+	["C880net.blif" line: 261, columns:7-10]
+  .gate assign: a = 733GAT(288)
+	["C880net.blif" line: 261, column: 12]
+	["C880net.blif" line: 261, columns:14-24]
+  .gate assign: b = 641GAT(273)
+	["C880net.blif" line: 261, column: 26]
+	["C880net.blif" line: 261, columns:28-38]
+  .gate assign: c = 761GAT(336)
+	["C880net.blif" line: 261, column: 40]
+	["C880net.blif" line: 261, columns:42-52]
+  .gate assign: O = 778GAT(352)
+	["C880net.blif" line: 261, column: 54]
+	["C880net.blif" line: 261, columns:56-66]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 262, columns:1-5]
+	["C880net.blif" line: 262, columns:7-10]
+  .gate assign: a = 778GAT(352)
+	["C880net.blif" line: 262, column: 12]
+	["C880net.blif" line: 262, columns:14-24]
+  .gate assign: O = [896]
+	["C880net.blif" line: 262, column: 26]
+	["C880net.blif" line: 262, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 263, columns:1-5]
+	["C880net.blif" line: 263, columns:7-10]
+  .gate assign: a = 708GAT(298)
+	["C880net.blif" line: 263, column: 12]
+	["C880net.blif" line: 263, columns:14-24]
+  .gate assign: b = [896]
+	["C880net.blif" line: 263, column: 26]
+	["C880net.blif" line: 263, columns:28-32]
+  .gate assign: O = 790GAT(365)
+	["C880net.blif" line: 263, column: 34]
+	["C880net.blif" line: 263, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 264, columns:1-5]
+	["C880net.blif" line: 264, columns:7-10]
+  .gate assign: a = 778GAT(352)
+	["C880net.blif" line: 264, column: 12]
+	["C880net.blif" line: 264, columns:14-24]
+  .gate assign: b = [893]
+	["C880net.blif" line: 264, column: 26]
+	["C880net.blif" line: 264, columns:28-32]
+  .gate assign: O = 791GAT(366)
+	["C880net.blif" line: 264, column: 34]
+	["C880net.blif" line: 264, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 265, columns:1-5]
+	["C880net.blif" line: 265, columns:7-10]
+  .gate assign: a = [830]
+	["C880net.blif" line: 265, column: 12]
+	["C880net.blif" line: 265, columns:14-18]
+  .gate assign: b = 790GAT(365)
+	["C880net.blif" line: 265, column: 20]
+	["C880net.blif" line: 265, columns:22-32]
+  .gate assign: c = 791GAT(366)
+	["C880net.blif" line: 265, column: 34]
+	["C880net.blif" line: 265, columns:36-46]
+  .gate assign: O = 809GAT(376)
+	["C880net.blif" line: 265, column: 48]
+	["C880net.blif" line: 265, columns:50-60]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 266, columns:1-5]
+	["C880net.blif" line: 266, columns:7-10]
+  .gate assign: a = [853]
+	["C880net.blif" line: 266, column: 12]
+	["C880net.blif" line: 266, columns:14-18]
+  .gate assign: b = [893]
+	["C880net.blif" line: 266, column: 20]
+	["C880net.blif" line: 266, columns:22-26]
+  .gate assign: O = 751GAT(328)
+	["C880net.blif" line: 266, column: 28]
+	["C880net.blif" line: 266, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 267, columns:1-5]
+	["C880net.blif" line: 267, columns:7-10]
+  .gate assign: a = [854]
+	["C880net.blif" line: 267, column: 12]
+	["C880net.blif" line: 267, columns:14-18]
+  .gate assign: b = [877]
+	["C880net.blif" line: 267, column: 20]
+	["C880net.blif" line: 267, columns:22-26]
+  .gate assign: O = 752GAT(320)
+	["C880net.blif" line: 267, column: 28]
+	["C880net.blif" line: 267, columns:30-40]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 268, columns:1-5]
+	["C880net.blif" line: 268, columns:7-10]
+  .gate assign: a = 336GAT(77)
+	["C880net.blif" line: 268, column: 12]
+	["C880net.blif" line: 268, columns:14-23]
+  .gate assign: b = 809GAT(376)
+	["C880net.blif" line: 268, column: 25]
+	["C880net.blif" line: 268, columns:27-37]
+  .gate assign: c = 751GAT(328)
+	["C880net.blif" line: 268, column: 39]
+	["C880net.blif" line: 268, columns:41-51]
+  .gate assign: d = 752GAT(320)
+	["C880net.blif" line: 268, column: 53]
+	["C880net.blif" line: 268, columns:55-65]
+  .gate assign: O = [345]
+	["C880net.blif" line: 268, column: 67]
+	["C880net.blif" line: 268, columns:69-73]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 269, columns:1-5]
+	["C880net.blif" line: 269, columns:7-10]
+  .gate assign: a = [345]
+	["C880net.blif" line: 269, column: 12]
+	["C880net.blif" line: 269, columns:14-18]
+  .gate assign: O = [2164]
+	["C880net.blif" line: 269, column: 20]
+	["C880net.blif" line: 269, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 270, columns:1-5]
+	["C880net.blif" line: 270, columns:7-10]
+  .gate assign: a = [821]
+	["C880net.blif" line: 270, column: 12]
+	["C880net.blif" line: 270, columns:14-18]
+  .gate assign: b = [867]
+	["C880net.blif" line: 270, column: 20]
+	["C880net.blif" line: 270, columns:22-26]
+  .gate assign: O = 527GAT(211)
+	["C880net.blif" line: 270, column: 28]
+	["C880net.blif" line: 270, columns:30-40]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 271, columns:1-5]
+	["C880net.blif" line: 271, columns:7-10]
+  .gate assign: a = 259GAT(55)
+	["C880net.blif" line: 271, column: 12]
+	["C880net.blif" line: 271, columns:14-23]
+  .gate assign: O = [1367]
+	["C880net.blif" line: 271, column: 25]
+	["C880net.blif" line: 271, columns:27-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 272, columns:1-5]
+	["C880net.blif" line: 272, columns:7-10]
+  .gate assign: a = [857]
+	["C880net.blif" line: 272, column: 12]
+	["C880net.blif" line: 272, columns:14-18]
+  .gate assign: b = [1367]
+	["C880net.blif" line: 272, column: 20]
+	["C880net.blif" line: 272, columns:22-27]
+  .gate assign: O = 337GAT(63)
+	["C880net.blif" line: 272, column: 29]
+	["C880net.blif" line: 272, columns:31-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 273, columns:1-5]
+	["C880net.blif" line: 273, columns:7-10]
+  .gate assign: a = 573GAT(248)
+	["C880net.blif" line: 273, column: 12]
+	["C880net.blif" line: 273, columns:14-24]
+  .gate assign: b = [859]
+	["C880net.blif" line: 273, column: 26]
+	["C880net.blif" line: 273, columns:28-32]
+  .gate assign: O = 640GAT(263)
+	["C880net.blif" line: 273, column: 34]
+	["C880net.blif" line: 273, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 274, columns:1-5]
+	["C880net.blif" line: 274, columns:7-10]
+  .gate assign: a = [2164]
+	["C880net.blif" line: 274, column: 12]
+	["C880net.blif" line: 274, columns:14-19]
+  .gate assign: b = 527GAT(211)
+	["C880net.blif" line: 274, column: 21]
+	["C880net.blif" line: 274, columns:23-33]
+  .gate assign: c = 337GAT(63)
+	["C880net.blif" line: 274, column: 35]
+	["C880net.blif" line: 274, columns:37-46]
+  .gate assign: d = 640GAT(263)
+	["C880net.blif" line: 274, column: 48]
+	["C880net.blif" line: 274, columns:50-60]
+  .gate assign: O = 838GAT(395)
+	["C880net.blif" line: 274, column: 62]
+	["C880net.blif" line: 274, columns:64-74]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 275, columns:1-5]
+	["C880net.blif" line: 275, columns:7-10]
+  .gate assign: a = 838GAT(395)
+	["C880net.blif" line: 275, column: 12]
+	["C880net.blif" line: 275, columns:14-24]
+  .gate assign: O = 864GAT(423)
+	["C880net.blif" line: 275, column: 26]
+	["C880net.blif" line: 275, columns:28-38]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 276, columns:1-5]
+	["C880net.blif" line: 276, columns:7-10]
+  .gate assign: a = [804]
+	["C880net.blif" line: 276, column: 12]
+	["C880net.blif" line: 276, columns:14-18]
+  .gate assign: b = [829]
+	["C880net.blif" line: 276, column: 20]
+	["C880net.blif" line: 276, columns:22-26]
+  .gate assign: O = 338GAT(76)
+	["C880net.blif" line: 276, column: 28]
+	["C880net.blif" line: 276, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 277, columns:1-5]
+	["C880net.blif" line: 277, columns:7-10]
+  .gate assign: a = 644GAT(272)
+	["C880net.blif" line: 277, column: 12]
+	["C880net.blif" line: 277, columns:14-24]
+  .gate assign: b = 641GAT(273)
+	["C880net.blif" line: 277, column: 26]
+	["C880net.blif" line: 277, columns:28-38]
+  .gate assign: O = 717GAT(296)
+	["C880net.blif" line: 277, column: 40]
+	["C880net.blif" line: 277, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 278, columns:1-5]
+	["C880net.blif" line: 278, columns:7-10]
+  .gate assign: a = 717GAT(296)
+	["C880net.blif" line: 278, column: 12]
+	["C880net.blif" line: 278, columns:14-24]
+  .gate assign: O = [904]
+	["C880net.blif" line: 278, column: 26]
+	["C880net.blif" line: 278, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 279, columns:1-5]
+	["C880net.blif" line: 279, columns:7-10]
+  .gate assign: a = 654GAT(270)
+	["C880net.blif" line: 279, column: 12]
+	["C880net.blif" line: 279, columns:14-24]
+  .gate assign: b = [850]
+	["C880net.blif" line: 279, column: 26]
+	["C880net.blif" line: 279, columns:28-32]
+  .gate assign: O = 732GAT(289)
+	["C880net.blif" line: 279, column: 34]
+	["C880net.blif" line: 279, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 280, columns:1-5]
+	["C880net.blif" line: 280, columns:7-10]
+  .gate assign: a = 651GAT(271)
+	["C880net.blif" line: 280, column: 12]
+	["C880net.blif" line: 280, columns:14-24]
+  .gate assign: b = 732GAT(289)
+	["C880net.blif" line: 280, column: 26]
+	["C880net.blif" line: 280, columns:28-38]
+  .gate assign: O = 782GAT(353)
+	["C880net.blif" line: 280, column: 40]
+	["C880net.blif" line: 280, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 281, columns:1-5]
+	["C880net.blif" line: 281, columns:7-10]
+  .gate assign: a = 782GAT(353)
+	["C880net.blif" line: 281, column: 12]
+	["C880net.blif" line: 281, columns:14-24]
+  .gate assign: O = [905]
+	["C880net.blif" line: 281, column: 26]
+	["C880net.blif" line: 281, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 282, columns:1-5]
+	["C880net.blif" line: 282, columns:7-10]
+  .gate assign: a = 717GAT(296)
+	["C880net.blif" line: 282, column: 12]
+	["C880net.blif" line: 282, columns:14-24]
+  .gate assign: b = [905]
+	["C880net.blif" line: 282, column: 26]
+	["C880net.blif" line: 282, columns:28-32]
+  .gate assign: O = 792GAT(363)
+	["C880net.blif" line: 282, column: 34]
+	["C880net.blif" line: 282, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 283, columns:1-5]
+	["C880net.blif" line: 283, columns:7-10]
+  .gate assign: a = 782GAT(353)
+	["C880net.blif" line: 283, column: 12]
+	["C880net.blif" line: 283, columns:14-24]
+  .gate assign: b = [904]
+	["C880net.blif" line: 283, column: 26]
+	["C880net.blif" line: 283, columns:28-32]
+  .gate assign: O = 793GAT(364)
+	["C880net.blif" line: 283, column: 34]
+	["C880net.blif" line: 283, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 284, columns:1-5]
+	["C880net.blif" line: 284, columns:7-10]
+  .gate assign: a = [830]
+	["C880net.blif" line: 284, column: 12]
+	["C880net.blif" line: 284, columns:14-18]
+  .gate assign: b = 792GAT(363)
+	["C880net.blif" line: 284, column: 20]
+	["C880net.blif" line: 284, columns:22-32]
+  .gate assign: c = 793GAT(364)
+	["C880net.blif" line: 284, column: 34]
+	["C880net.blif" line: 284, columns:36-46]
+  .gate assign: O = 810GAT(375)
+	["C880net.blif" line: 284, column: 48]
+	["C880net.blif" line: 284, columns:50-60]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 285, columns:1-5]
+	["C880net.blif" line: 285, columns:7-10]
+  .gate assign: a = [853]
+	["C880net.blif" line: 285, column: 12]
+	["C880net.blif" line: 285, columns:14-18]
+  .gate assign: b = [904]
+	["C880net.blif" line: 285, column: 20]
+	["C880net.blif" line: 285, columns:22-26]
+  .gate assign: O = 754GAT(327)
+	["C880net.blif" line: 285, column: 28]
+	["C880net.blif" line: 285, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 286, columns:1-5]
+	["C880net.blif" line: 286, columns:7-10]
+  .gate assign: a = [854]
+	["C880net.blif" line: 286, column: 12]
+	["C880net.blif" line: 286, columns:14-18]
+  .gate assign: b = [881]
+	["C880net.blif" line: 286, column: 20]
+	["C880net.blif" line: 286, columns:22-26]
+  .gate assign: O = 755GAT(319)
+	["C880net.blif" line: 286, column: 28]
+	["C880net.blif" line: 286, columns:30-40]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 287, columns:1-5]
+	["C880net.blif" line: 287, columns:7-10]
+  .gate assign: a = 338GAT(76)
+	["C880net.blif" line: 287, column: 12]
+	["C880net.blif" line: 287, columns:14-23]
+  .gate assign: b = 810GAT(375)
+	["C880net.blif" line: 287, column: 25]
+	["C880net.blif" line: 287, columns:27-37]
+  .gate assign: c = 754GAT(327)
+	["C880net.blif" line: 287, column: 39]
+	["C880net.blif" line: 287, columns:41-51]
+  .gate assign: d = 755GAT(319)
+	["C880net.blif" line: 287, column: 53]
+	["C880net.blif" line: 287, columns:55-65]
+  .gate assign: O = [307]
+	["C880net.blif" line: 287, column: 67]
+	["C880net.blif" line: 287, columns:69-73]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 288, columns:1-5]
+	["C880net.blif" line: 288, columns:7-10]
+  .gate assign: a = [307]
+	["C880net.blif" line: 288, column: 12]
+	["C880net.blif" line: 288, columns:14-18]
+  .gate assign: O = [2160]
+	["C880net.blif" line: 288, column: 20]
+	["C880net.blif" line: 288, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 289, columns:1-5]
+	["C880net.blif" line: 289, columns:7-10]
+  .gate assign: a = [823]
+	["C880net.blif" line: 289, column: 12]
+	["C880net.blif" line: 289, columns:14-18]
+  .gate assign: b = [867]
+	["C880net.blif" line: 289, column: 20]
+	["C880net.blif" line: 289, columns:22-26]
+  .gate assign: O = 528GAT(210)
+	["C880net.blif" line: 289, column: 28]
+	["C880net.blif" line: 289, columns:30-40]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 290, columns:1-5]
+	["C880net.blif" line: 290, columns:7-10]
+  .gate assign: a = 260GAT(56)
+	["C880net.blif" line: 290, column: 12]
+	["C880net.blif" line: 290, columns:14-23]
+  .gate assign: O = [1369]
+	["C880net.blif" line: 290, column: 25]
+	["C880net.blif" line: 290, columns:27-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 291, columns:1-5]
+	["C880net.blif" line: 291, columns:7-10]
+  .gate assign: a = [857]
+	["C880net.blif" line: 291, column: 12]
+	["C880net.blif" line: 291, columns:14-18]
+  .gate assign: b = [1369]
+	["C880net.blif" line: 291, column: 20]
+	["C880net.blif" line: 291, columns:22-27]
+  .gate assign: O = 339GAT(62)
+	["C880net.blif" line: 291, column: 29]
+	["C880net.blif" line: 291, columns:31-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 292, columns:1-5]
+	["C880net.blif" line: 292, columns:7-10]
+  .gate assign: a = 577GAT(249)
+	["C880net.blif" line: 292, column: 12]
+	["C880net.blif" line: 292, columns:14-24]
+  .gate assign: b = [859]
+	["C880net.blif" line: 292, column: 26]
+	["C880net.blif" line: 292, columns:28-32]
+  .gate assign: O = 650GAT(262)
+	["C880net.blif" line: 292, column: 34]
+	["C880net.blif" line: 292, columns:36-46]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 293, columns:1-5]
+	["C880net.blif" line: 293, columns:7-10]
+  .gate assign: a = [2160]
+	["C880net.blif" line: 293, column: 12]
+	["C880net.blif" line: 293, columns:14-19]
+  .gate assign: b = 528GAT(210)
+	["C880net.blif" line: 293, column: 21]
+	["C880net.blif" line: 293, columns:23-33]
+  .gate assign: c = 339GAT(62)
+	["C880net.blif" line: 293, column: 35]
+	["C880net.blif" line: 293, columns:37-46]
+  .gate assign: d = 650GAT(262)
+	["C880net.blif" line: 293, column: 48]
+	["C880net.blif" line: 293, columns:50-60]
+  .gate assign: O = 839GAT(394)
+	["C880net.blif" line: 293, column: 62]
+	["C880net.blif" line: 293, columns:64-74]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 294, columns:1-5]
+	["C880net.blif" line: 294, columns:7-10]
+  .gate assign: a = 839GAT(394)
+	["C880net.blif" line: 294, column: 12]
+	["C880net.blif" line: 294, columns:14-24]
+  .gate assign: O = 865GAT(422)
+	["C880net.blif" line: 294, column: 26]
+	["C880net.blif" line: 294, columns:28-38]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 295, columns:1-5]
+	["C880net.blif" line: 295, columns:7-10]
+  .gate assign: a = 138GAT(33)
+	["C880net.blif" line: 295, column: 12]
+	["C880net.blif" line: 295, columns:14-23]
+  .gate assign: O = [913]
+	["C880net.blif" line: 295, column: 25]
+	["C880net.blif" line: 295, columns:27-31]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 296, columns:1-5]
+	["C880net.blif" line: 296, columns:7-10]
+  .gate assign: a = [765]
+	["C880net.blif" line: 296, column: 12]
+	["C880net.blif" line: 296, columns:14-18]
+  .gate assign: b = [913]
+	["C880net.blif" line: 296, column: 20]
+	["C880net.blif" line: 296, columns:22-26]
+  .gate assign: O = 309GAT(107)
+	["C880net.blif" line: 296, column: 28]
+	["C880net.blif" line: 296, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 297, columns:1-5]
+	["C880net.blif" line: 297, columns:7-10]
+  .gate assign: a = 466GAT(201)
+	["C880net.blif" line: 297, column: 12]
+	["C880net.blif" line: 297, columns:14-24]
+  .gate assign: b = [795]
+	["C880net.blif" line: 297, column: 26]
+	["C880net.blif" line: 297, columns:28-32]
+  .gate assign: O = 502GAT(234)
+	["C880net.blif" line: 297, column: 34]
+	["C880net.blif" line: 297, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 298, columns:1-5]
+	["C880net.blif" line: 298, columns:7-10]
+  .gate assign: a = [785]
+	["C880net.blif" line: 298, column: 12]
+	["C880net.blif" line: 298, columns:14-18]
+  .gate assign: b = 319GAT(90)
+	["C880net.blif" line: 298, column: 20]
+	["C880net.blif" line: 298, columns:22-31]
+  .gate assign: c = [783]
+	["C880net.blif" line: 298, column: 33]
+	["C880net.blif" line: 298, columns:35-39]
+  .gate assign: O = 427GAT(178)
+	["C880net.blif" line: 298, column: 41]
+	["C880net.blif" line: 298, columns:43-53]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 299, columns:1-5]
+	["C880net.blif" line: 299, columns:7-10]
+  .gate assign: a = 427GAT(178)
+	["C880net.blif" line: 299, column: 12]
+	["C880net.blif" line: 299, columns:14-24]
+  .gate assign: O = [916]
+	["C880net.blif" line: 299, column: 26]
+	["C880net.blif" line: 299, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 300, columns:1-5]
+	["C880net.blif" line: 300, columns:7-10]
+  .gate assign: a = [869]
+	["C880net.blif" line: 300, column: 12]
+	["C880net.blif" line: 300, columns:14-18]
+  .gate assign: b = [916]
+	["C880net.blif" line: 300, column: 20]
+	["C880net.blif" line: 300, columns:22-26]
+  .gate assign: O = 475GAT(197)
+	["C880net.blif" line: 300, column: 28]
+	["C880net.blif" line: 300, columns:30-40]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 301, columns:1-5]
+	["C880net.blif" line: 301, columns:7-10]
+  .gate assign: a = [833]
+	["C880net.blif" line: 301, column: 12]
+	["C880net.blif" line: 301, columns:14-18]
+  .gate assign: b = [768]
+	["C880net.blif" line: 301, column: 20]
+	["C880net.blif" line: 301, columns:22-26]
+  .gate assign: c = [783]
+	["C880net.blif" line: 301, column: 28]
+	["C880net.blif" line: 301, columns:30-34]
+  .gate assign: O = 432GAT(181)
+	["C880net.blif" line: 301, column: 36]
+	["C880net.blif" line: 301, columns:38-48]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 302, columns:1-5]
+	["C880net.blif" line: 302, columns:7-10]
+  .gate assign: a = 432GAT(181)
+	["C880net.blif" line: 302, column: 12]
+	["C880net.blif" line: 302, columns:14-24]
+  .gate assign: O = [918]
+	["C880net.blif" line: 302, column: 26]
+	["C880net.blif" line: 302, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 303, columns:1-5]
+	["C880net.blif" line: 303, columns:7-10]
+  .gate assign: a = 268GAT(59)
+	["C880net.blif" line: 303, column: 12]
+	["C880net.blif" line: 303, columns:14-23]
+  .gate assign: b = [918]
+	["C880net.blif" line: 303, column: 25]
+	["C880net.blif" line: 303, columns:27-31]
+  .gate assign: O = 476GAT(188)
+	["C880net.blif" line: 303, column: 33]
+	["C880net.blif" line: 303, columns:35-45]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 304, columns:1-5]
+	["C880net.blif" line: 304, columns:7-10]
+  .gate assign: a = 309GAT(107)
+	["C880net.blif" line: 304, column: 12]
+	["C880net.blif" line: 304, columns:14-24]
+  .gate assign: b = 502GAT(234)
+	["C880net.blif" line: 304, column: 26]
+	["C880net.blif" line: 304, columns:28-38]
+  .gate assign: c = 475GAT(197)
+	["C880net.blif" line: 304, column: 40]
+	["C880net.blif" line: 304, columns:42-52]
+  .gate assign: d = 476GAT(188)
+	["C880net.blif" line: 304, column: 54]
+	["C880net.blif" line: 304, columns:56-66]
+  .gate assign: O = 553GAT(251)
+	["C880net.blif" line: 304, column: 68]
+	["C880net.blif" line: 305, columns:1-11]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 306, columns:1-5]
+	["C880net.blif" line: 306, columns:7-10]
+  .gate assign: a = 553GAT(251)
+	["C880net.blif" line: 306, column: 12]
+	["C880net.blif" line: 306, columns:14-24]
+  .gate assign: O = [920]
+	["C880net.blif" line: 306, column: 26]
+	["C880net.blif" line: 306, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 307, columns:1-5]
+	["C880net.blif" line: 307, columns:7-10]
+  .gate assign: a = 553GAT(251)
+	["C880net.blif" line: 307, column: 12]
+	["C880net.blif" line: 307, columns:14-24]
+  .gate assign: b = [812]
+	["C880net.blif" line: 307, column: 26]
+	["C880net.blif" line: 307, columns:28-32]
+  .gate assign: O = 590GAT(285)
+	["C880net.blif" line: 307, column: 34]
+	["C880net.blif" line: 307, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 308, columns:1-5]
+	["C880net.blif" line: 308, columns:7-10]
+  .gate assign: a = 590GAT(285)
+	["C880net.blif" line: 308, column: 12]
+	["C880net.blif" line: 308, columns:14-24]
+  .gate assign: O = [921]
+	["C880net.blif" line: 308, column: 26]
+	["C880net.blif" line: 308, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 309, columns:1-5]
+	["C880net.blif" line: 309, columns:7-10]
+  .gate assign: a = [782]
+	["C880net.blif" line: 309, column: 12]
+	["C880net.blif" line: 309, columns:14-18]
+  .gate assign: b = [913]
+	["C880net.blif" line: 309, column: 20]
+	["C880net.blif" line: 309, columns:22-26]
+  .gate assign: O = 316GAT(93)
+	["C880net.blif" line: 309, column: 28]
+	["C880net.blif" line: 309, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 310, columns:1-5]
+	["C880net.blif" line: 310, columns:7-10]
+  .gate assign: a = 466GAT(201)
+	["C880net.blif" line: 310, column: 12]
+	["C880net.blif" line: 310, columns:14-24]
+  .gate assign: b = [796]
+	["C880net.blif" line: 310, column: 26]
+	["C880net.blif" line: 310, columns:28-32]
+  .gate assign: O = 504GAT(233)
+	["C880net.blif" line: 310, column: 34]
+	["C880net.blif" line: 310, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 311, columns:1-5]
+	["C880net.blif" line: 311, columns:7-10]
+  .gate assign: a = [874]
+	["C880net.blif" line: 311, column: 12]
+	["C880net.blif" line: 311, columns:14-18]
+  .gate assign: b = [916]
+	["C880net.blif" line: 311, column: 20]
+	["C880net.blif" line: 311, columns:22-26]
+  .gate assign: O = 477GAT(196)
+	["C880net.blif" line: 311, column: 28]
+	["C880net.blif" line: 311, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 312, columns:1-5]
+	["C880net.blif" line: 312, columns:7-10]
+  .gate assign: a = 268GAT(59)
+	["C880net.blif" line: 312, column: 12]
+	["C880net.blif" line: 312, columns:14-23]
+  .gate assign: b = [918]
+	["C880net.blif" line: 312, column: 25]
+	["C880net.blif" line: 312, columns:27-31]
+  .gate assign: O = 478GAT(189)
+	["C880net.blif" line: 312, column: 33]
+	["C880net.blif" line: 312, columns:35-45]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 313, columns:1-5]
+	["C880net.blif" line: 313, columns:7-10]
+  .gate assign: a = 316GAT(93)
+	["C880net.blif" line: 313, column: 12]
+	["C880net.blif" line: 313, columns:14-23]
+  .gate assign: b = 504GAT(233)
+	["C880net.blif" line: 313, column: 25]
+	["C880net.blif" line: 313, columns:27-37]
+  .gate assign: c = 477GAT(196)
+	["C880net.blif" line: 313, column: 39]
+	["C880net.blif" line: 313, columns:41-51]
+  .gate assign: d = 478GAT(189)
+	["C880net.blif" line: 313, column: 53]
+	["C880net.blif" line: 313, columns:55-65]
+  .gate assign: O = 557GAT(252)
+	["C880net.blif" line: 313, column: 67]
+	["C880net.blif" line: 314, columns:1-11]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 315, columns:1-5]
+	["C880net.blif" line: 315, columns:7-10]
+  .gate assign: a = 557GAT(252)
+	["C880net.blif" line: 315, column: 12]
+	["C880net.blif" line: 315, columns:14-24]
+  .gate assign: O = [924]
+	["C880net.blif" line: 315, column: 26]
+	["C880net.blif" line: 315, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 316, columns:1-5]
+	["C880net.blif" line: 316, columns:7-10]
+  .gate assign: a = 557GAT(252)
+	["C880net.blif" line: 316, column: 12]
+	["C880net.blif" line: 316, columns:14-24]
+  .gate assign: b = [813]
+	["C880net.blif" line: 316, column: 26]
+	["C880net.blif" line: 316, columns:28-32]
+  .gate assign: O = 597GAT(283)
+	["C880net.blif" line: 316, column: 34]
+	["C880net.blif" line: 316, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 317, columns:1-5]
+	["C880net.blif" line: 317, columns:7-10]
+  .gate assign: a = 597GAT(283)
+	["C880net.blif" line: 317, column: 12]
+	["C880net.blif" line: 317, columns:14-24]
+  .gate assign: O = [925]
+	["C880net.blif" line: 317, column: 26]
+	["C880net.blif" line: 317, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 318, columns:1-5]
+	["C880net.blif" line: 318, columns:7-10]
+  .gate assign: a = 165GAT(41)
+	["C880net.blif" line: 318, column: 12]
+	["C880net.blif" line: 318, columns:14-23]
+  .gate assign: b = [924]
+	["C880net.blif" line: 318, column: 25]
+	["C880net.blif" line: 318, columns:27-31]
+  .gate assign: O = 600GAT(282)
+	["C880net.blif" line: 318, column: 33]
+	["C880net.blif" line: 318, columns:35-45]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 319, columns:1-5]
+	["C880net.blif" line: 319, columns:7-10]
+  .gate assign: a = [768]
+	["C880net.blif" line: 319, column: 12]
+	["C880net.blif" line: 319, columns:14-18]
+  .gate assign: b = [913]
+	["C880net.blif" line: 319, column: 20]
+	["C880net.blif" line: 319, columns:22-26]
+  .gate assign: O = 317GAT(106)
+	["C880net.blif" line: 319, column: 28]
+	["C880net.blif" line: 319, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 320, columns:1-5]
+	["C880net.blif" line: 320, columns:7-10]
+  .gate assign: a = 466GAT(201)
+	["C880net.blif" line: 320, column: 12]
+	["C880net.blif" line: 320, columns:14-24]
+  .gate assign: b = [798]
+	["C880net.blif" line: 320, column: 26]
+	["C880net.blif" line: 320, columns:28-32]
+  .gate assign: O = 506GAT(232)
+	["C880net.blif" line: 320, column: 34]
+	["C880net.blif" line: 320, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 321, columns:1-5]
+	["C880net.blif" line: 321, columns:7-10]
+  .gate assign: a = [878]
+	["C880net.blif" line: 321, column: 12]
+	["C880net.blif" line: 321, columns:14-18]
+  .gate assign: b = [916]
+	["C880net.blif" line: 321, column: 20]
+	["C880net.blif" line: 321, columns:22-26]
+  .gate assign: O = 479GAT(195)
+	["C880net.blif" line: 321, column: 28]
+	["C880net.blif" line: 321, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 322, columns:1-5]
+	["C880net.blif" line: 322, columns:7-10]
+  .gate assign: a = 268GAT(59)
+	["C880net.blif" line: 322, column: 12]
+	["C880net.blif" line: 322, columns:14-23]
+  .gate assign: b = [918]
+	["C880net.blif" line: 322, column: 25]
+	["C880net.blif" line: 322, columns:27-31]
+  .gate assign: O = 480GAT(190)
+	["C880net.blif" line: 322, column: 33]
+	["C880net.blif" line: 322, columns:35-45]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 323, columns:1-5]
+	["C880net.blif" line: 323, columns:7-10]
+  .gate assign: a = 317GAT(106)
+	["C880net.blif" line: 323, column: 12]
+	["C880net.blif" line: 323, columns:14-24]
+  .gate assign: b = 506GAT(232)
+	["C880net.blif" line: 323, column: 26]
+	["C880net.blif" line: 323, columns:28-38]
+  .gate assign: c = 479GAT(195)
+	["C880net.blif" line: 323, column: 40]
+	["C880net.blif" line: 323, columns:42-52]
+  .gate assign: d = 480GAT(190)
+	["C880net.blif" line: 323, column: 54]
+	["C880net.blif" line: 323, columns:56-66]
+  .gate assign: O = 561GAT(253)
+	["C880net.blif" line: 323, column: 68]
+	["C880net.blif" line: 324, columns:1-11]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 325, columns:1-5]
+	["C880net.blif" line: 325, columns:7-10]
+  .gate assign: a = 561GAT(253)
+	["C880net.blif" line: 325, column: 12]
+	["C880net.blif" line: 325, columns:14-24]
+  .gate assign: O = [928]
+	["C880net.blif" line: 325, column: 26]
+	["C880net.blif" line: 325, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 326, columns:1-5]
+	["C880net.blif" line: 326, columns:7-10]
+  .gate assign: a = 561GAT(253)
+	["C880net.blif" line: 326, column: 12]
+	["C880net.blif" line: 326, columns:14-24]
+  .gate assign: b = [815]
+	["C880net.blif" line: 326, column: 26]
+	["C880net.blif" line: 326, columns:28-32]
+  .gate assign: O = 606GAT(281)
+	["C880net.blif" line: 326, column: 34]
+	["C880net.blif" line: 326, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 327, columns:1-5]
+	["C880net.blif" line: 327, columns:7-10]
+  .gate assign: a = 606GAT(281)
+	["C880net.blif" line: 327, column: 12]
+	["C880net.blif" line: 327, columns:14-24]
+  .gate assign: O = [929]
+	["C880net.blif" line: 327, column: 26]
+	["C880net.blif" line: 327, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 328, columns:1-5]
+	["C880net.blif" line: 328, columns:7-10]
+  .gate assign: a = 600GAT(282)
+	["C880net.blif" line: 328, column: 12]
+	["C880net.blif" line: 328, columns:14-24]
+  .gate assign: b = [929]
+	["C880net.blif" line: 328, column: 26]
+	["C880net.blif" line: 328, columns:28-32]
+  .gate assign: O = 765GAT(346)
+	["C880net.blif" line: 328, column: 34]
+	["C880net.blif" line: 328, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 329, columns:1-5]
+	["C880net.blif" line: 329, columns:7-10]
+  .gate assign: a = 152GAT(37)
+	["C880net.blif" line: 329, column: 12]
+	["C880net.blif" line: 329, columns:14-23]
+  .gate assign: O = [1204]
+	["C880net.blif" line: 329, column: 25]
+	["C880net.blif" line: 329, columns:27-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 330, columns:1-5]
+	["C880net.blif" line: 330, columns:7-10]
+  .gate assign: a = [913]
+	["C880net.blif" line: 330, column: 12]
+	["C880net.blif" line: 330, columns:14-18]
+  .gate assign: b = [1204]
+	["C880net.blif" line: 330, column: 20]
+	["C880net.blif" line: 330, columns:22-27]
+  .gate assign: O = 318GAT(72)
+	["C880net.blif" line: 330, column: 29]
+	["C880net.blif" line: 330, columns:31-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 331, columns:1-5]
+	["C880net.blif" line: 331, columns:7-10]
+  .gate assign: a = 466GAT(201)
+	["C880net.blif" line: 331, column: 12]
+	["C880net.blif" line: 331, columns:14-24]
+  .gate assign: b = [799]
+	["C880net.blif" line: 331, column: 26]
+	["C880net.blif" line: 331, columns:28-32]
+  .gate assign: O = 508GAT(231)
+	["C880net.blif" line: 331, column: 34]
+	["C880net.blif" line: 331, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 332, columns:1-5]
+	["C880net.blif" line: 332, columns:7-10]
+  .gate assign: a = [836]
+	["C880net.blif" line: 332, column: 12]
+	["C880net.blif" line: 332, columns:14-18]
+  .gate assign: b = [916]
+	["C880net.blif" line: 332, column: 20]
+	["C880net.blif" line: 332, columns:22-26]
+  .gate assign: O = 481GAT(194)
+	["C880net.blif" line: 332, column: 28]
+	["C880net.blif" line: 332, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 333, columns:1-5]
+	["C880net.blif" line: 333, columns:7-10]
+  .gate assign: a = 268GAT(59)
+	["C880net.blif" line: 333, column: 12]
+	["C880net.blif" line: 333, columns:14-23]
+  .gate assign: b = [918]
+	["C880net.blif" line: 333, column: 25]
+	["C880net.blif" line: 333, columns:27-31]
+  .gate assign: O = 482GAT(191)
+	["C880net.blif" line: 333, column: 33]
+	["C880net.blif" line: 333, columns:35-45]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 334, columns:1-5]
+	["C880net.blif" line: 334, columns:7-10]
+  .gate assign: a = 318GAT(72)
+	["C880net.blif" line: 334, column: 12]
+	["C880net.blif" line: 334, columns:14-23]
+  .gate assign: b = 508GAT(231)
+	["C880net.blif" line: 334, column: 25]
+	["C880net.blif" line: 334, columns:27-37]
+  .gate assign: c = 481GAT(194)
+	["C880net.blif" line: 334, column: 39]
+	["C880net.blif" line: 334, columns:41-51]
+  .gate assign: d = 482GAT(191)
+	["C880net.blif" line: 334, column: 53]
+	["C880net.blif" line: 334, columns:55-65]
+  .gate assign: O = 565GAT(254)
+	["C880net.blif" line: 334, column: 67]
+	["C880net.blif" line: 335, columns:1-11]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 336, columns:1-5]
+	["C880net.blif" line: 336, columns:7-10]
+  .gate assign: a = 565GAT(254)
+	["C880net.blif" line: 336, column: 12]
+	["C880net.blif" line: 336, columns:14-24]
+  .gate assign: O = [935]
+	["C880net.blif" line: 336, column: 26]
+	["C880net.blif" line: 336, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 337, columns:1-5]
+	["C880net.blif" line: 337, columns:7-10]
+  .gate assign: a = 565GAT(254)
+	["C880net.blif" line: 337, column: 12]
+	["C880net.blif" line: 337, columns:14-24]
+  .gate assign: b = [816]
+	["C880net.blif" line: 337, column: 26]
+	["C880net.blif" line: 337, columns:28-32]
+  .gate assign: O = 616GAT(279)
+	["C880net.blif" line: 337, column: 34]
+	["C880net.blif" line: 337, columns:36-46]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 338, columns:1-5]
+	["C880net.blif" line: 338, columns:7-10]
+  .gate assign: a = 616GAT(279)
+	["C880net.blif" line: 338, column: 12]
+	["C880net.blif" line: 338, columns:14-24]
+  .gate assign: O = [936]
+	["C880net.blif" line: 338, column: 26]
+	["C880net.blif" line: 338, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 339, columns:1-5]
+	["C880net.blif" line: 339, columns:7-10]
+  .gate assign: a = 171GAT(42)
+	["C880net.blif" line: 339, column: 12]
+	["C880net.blif" line: 339, columns:14-23]
+  .gate assign: b = [928]
+	["C880net.blif" line: 339, column: 25]
+	["C880net.blif" line: 339, columns:27-31]
+  .gate assign: O = 609GAT(280)
+	["C880net.blif" line: 339, column: 33]
+	["C880net.blif" line: 339, columns:35-45]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 340, columns:1-5]
+	["C880net.blif" line: 340, columns:7-10]
+  .gate assign: a = [936]
+	["C880net.blif" line: 340, column: 12]
+	["C880net.blif" line: 340, columns:14-18]
+  .gate assign: b = 600GAT(282)
+	["C880net.blif" line: 340, column: 20]
+	["C880net.blif" line: 340, columns:22-32]
+  .gate assign: c = 609GAT(280)
+	["C880net.blif" line: 340, column: 34]
+	["C880net.blif" line: 340, columns:36-46]
+  .gate assign: O = 766GAT(344)
+	["C880net.blif" line: 340, column: 48]
+	["C880net.blif" line: 340, columns:50-60]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 341, columns:1-5]
+	["C880net.blif" line: 341, columns:7-10]
+  .gate assign: a = 177GAT(43)
+	["C880net.blif" line: 341, column: 12]
+	["C880net.blif" line: 341, columns:14-23]
+  .gate assign: b = [935]
+	["C880net.blif" line: 341, column: 25]
+	["C880net.blif" line: 341, columns:27-31]
+  .gate assign: O = 619GAT(278)
+	["C880net.blif" line: 341, column: 33]
+	["C880net.blif" line: 341, columns:35-45]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 342, columns:1-5]
+	["C880net.blif" line: 342, columns:7-10]
+  .gate assign: a = 628GAT(276)
+	["C880net.blif" line: 342, column: 12]
+	["C880net.blif" line: 342, columns:14-24]
+  .gate assign: b = 773GAT(351)
+	["C880net.blif" line: 342, column: 26]
+	["C880net.blif" line: 342, columns:28-38]
+  .gate assign: O = 795GAT(369)
+	["C880net.blif" line: 342, column: 40]
+	["C880net.blif" line: 342, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 343, columns:1-5]
+	["C880net.blif" line: 343, columns:7-10]
+  .gate assign: a = 795GAT(369)
+	["C880net.blif" line: 343, column: 12]
+	["C880net.blif" line: 343, columns:14-24]
+  .gate assign: b = 625GAT(277)
+	["C880net.blif" line: 343, column: 26]
+	["C880net.blif" line: 343, columns:28-38]
+  .gate assign: O = 796GAT(373)
+	["C880net.blif" line: 343, column: 40]
+	["C880net.blif" line: 343, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 344, columns:1-5]
+	["C880net.blif" line: 344, columns:7-10]
+  .gate assign: a = 796GAT(373)
+	["C880net.blif" line: 344, column: 12]
+	["C880net.blif" line: 344, columns:14-24]
+  .gate assign: O = [938]
+	["C880net.blif" line: 344, column: 26]
+	["C880net.blif" line: 344, columns:28-32]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 345, columns:1-5]
+	["C880net.blif" line: 345, columns:7-10]
+  .gate assign: a = 600GAT(282)
+	["C880net.blif" line: 345, column: 12]
+	["C880net.blif" line: 345, columns:14-24]
+  .gate assign: b = 609GAT(280)
+	["C880net.blif" line: 345, column: 26]
+	["C880net.blif" line: 345, columns:28-38]
+  .gate assign: c = 619GAT(278)
+	["C880net.blif" line: 345, column: 40]
+	["C880net.blif" line: 345, columns:42-52]
+  .gate assign: d = 796GAT(373)
+	["C880net.blif" line: 345, column: 54]
+	["C880net.blif" line: 345, columns:56-66]
+  .gate assign: O = 814GAT(383)
+	["C880net.blif" line: 345, column: 68]
+	["C880net.blif" line: 346, columns:1-11]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 347, columns:1-5]
+	["C880net.blif" line: 347, columns:7-10]
+  .gate assign: a = 597GAT(283)
+	["C880net.blif" line: 347, column: 12]
+	["C880net.blif" line: 347, columns:14-24]
+  .gate assign: b = 765GAT(346)
+	["C880net.blif" line: 347, column: 26]
+	["C880net.blif" line: 347, columns:28-38]
+  .gate assign: c = 766GAT(344)
+	["C880net.blif" line: 347, column: 40]
+	["C880net.blif" line: 347, columns:42-52]
+  .gate assign: d = 814GAT(383)
+	["C880net.blif" line: 347, column: 54]
+	["C880net.blif" line: 347, columns:56-66]
+  .gate assign: O = 815GAT(388)
+	["C880net.blif" line: 347, column: 68]
+	["C880net.blif" line: 348, columns:1-11]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 349, columns:1-5]
+	["C880net.blif" line: 349, columns:7-10]
+  .gate assign: a = 815GAT(388)
+	["C880net.blif" line: 349, column: 12]
+	["C880net.blif" line: 349, columns:14-24]
+  .gate assign: O = [941]
+	["C880net.blif" line: 349, column: 26]
+	["C880net.blif" line: 349, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 350, columns:1-5]
+	["C880net.blif" line: 350, columns:7-10]
+  .gate assign: a = 159GAT(40)
+	["C880net.blif" line: 350, column: 12]
+	["C880net.blif" line: 350, columns:14-23]
+  .gate assign: b = [920]
+	["C880net.blif" line: 350, column: 25]
+	["C880net.blif" line: 350, columns:27-31]
+  .gate assign: O = 593GAT(284)
+	["C880net.blif" line: 350, column: 33]
+	["C880net.blif" line: 350, columns:35-45]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 351, columns:1-5]
+	["C880net.blif" line: 351, columns:7-10]
+  .gate assign: a = 815GAT(388)
+	["C880net.blif" line: 351, column: 12]
+	["C880net.blif" line: 351, columns:14-24]
+  .gate assign: b = 593GAT(284)
+	["C880net.blif" line: 351, column: 26]
+	["C880net.blif" line: 351, columns:28-38]
+  .gate assign: O = 841GAT(403)
+	["C880net.blif" line: 351, column: 40]
+	["C880net.blif" line: 351, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 352, columns:1-5]
+	["C880net.blif" line: 352, columns:7-10]
+  .gate assign: a = 590GAT(285)
+	["C880net.blif" line: 352, column: 12]
+	["C880net.blif" line: 352, columns:14-24]
+  .gate assign: b = 841GAT(403)
+	["C880net.blif" line: 352, column: 26]
+	["C880net.blif" line: 352, columns:28-38]
+  .gate assign: O = 849GAT(411)
+	["C880net.blif" line: 352, column: 40]
+	["C880net.blif" line: 352, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 353, columns:1-5]
+	["C880net.blif" line: 353, columns:7-10]
+  .gate assign: a = 849GAT(411)
+	["C880net.blif" line: 353, column: 12]
+	["C880net.blif" line: 353, columns:14-24]
+  .gate assign: O = 866GAT(426)
+	["C880net.blif" line: 353, column: 26]
+	["C880net.blif" line: 353, columns:28-38]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 354, columns:1-5]
+	["C880net.blif" line: 354, columns:7-10]
+  .gate assign: a = [798]
+	["C880net.blif" line: 354, column: 12]
+	["C880net.blif" line: 354, columns:14-18]
+  .gate assign: b = [829]
+	["C880net.blif" line: 354, column: 20]
+	["C880net.blif" line: 354, columns:22-26]
+  .gate assign: O = 334GAT(81)
+	["C880net.blif" line: 354, column: 28]
+	["C880net.blif" line: 354, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 355, columns:1-5]
+	["C880net.blif" line: 355, columns:7-10]
+  .gate assign: a = 619GAT(278)
+	["C880net.blif" line: 355, column: 12]
+	["C880net.blif" line: 355, columns:14-24]
+  .gate assign: b = 616GAT(279)
+	["C880net.blif" line: 355, column: 26]
+	["C880net.blif" line: 355, columns:28-38]
+  .gate assign: O = 692GAT(303)
+	["C880net.blif" line: 355, column: 40]
+	["C880net.blif" line: 355, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 356, columns:1-5]
+	["C880net.blif" line: 356, columns:7-10]
+  .gate assign: a = 692GAT(303)
+	["C880net.blif" line: 356, column: 12]
+	["C880net.blif" line: 356, columns:14-24]
+  .gate assign: O = [942]
+	["C880net.blif" line: 356, column: 26]
+	["C880net.blif" line: 356, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 357, columns:1-5]
+	["C880net.blif" line: 357, columns:7-10]
+  .gate assign: a = 692GAT(303)
+	["C880net.blif" line: 357, column: 12]
+	["C880net.blif" line: 357, columns:14-24]
+  .gate assign: b = [938]
+	["C880net.blif" line: 357, column: 26]
+	["C880net.blif" line: 357, columns:28-32]
+  .gate assign: O = 806GAT(379)
+	["C880net.blif" line: 357, column: 34]
+	["C880net.blif" line: 357, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 358, columns:1-5]
+	["C880net.blif" line: 358, columns:7-10]
+  .gate assign: a = 796GAT(373)
+	["C880net.blif" line: 358, column: 12]
+	["C880net.blif" line: 358, columns:14-24]
+  .gate assign: b = [942]
+	["C880net.blif" line: 358, column: 26]
+	["C880net.blif" line: 358, columns:28-32]
+  .gate assign: O = 807GAT(380)
+	["C880net.blif" line: 358, column: 34]
+	["C880net.blif" line: 358, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 359, columns:1-5]
+	["C880net.blif" line: 359, columns:7-10]
+  .gate assign: a = [830]
+	["C880net.blif" line: 359, column: 12]
+	["C880net.blif" line: 359, columns:14-18]
+  .gate assign: b = 806GAT(379)
+	["C880net.blif" line: 359, column: 20]
+	["C880net.blif" line: 359, columns:22-32]
+  .gate assign: c = 807GAT(380)
+	["C880net.blif" line: 359, column: 34]
+	["C880net.blif" line: 359, columns:36-46]
+  .gate assign: O = 836GAT(392)
+	["C880net.blif" line: 359, column: 48]
+	["C880net.blif" line: 359, columns:50-60]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 360, columns:1-5]
+	["C880net.blif" line: 360, columns:7-10]
+  .gate assign: a = [853]
+	["C880net.blif" line: 360, column: 12]
+	["C880net.blif" line: 360, columns:14-18]
+  .gate assign: b = [942]
+	["C880net.blif" line: 360, column: 20]
+	["C880net.blif" line: 360, columns:22-26]
+  .gate assign: O = 745GAT(330)
+	["C880net.blif" line: 360, column: 28]
+	["C880net.blif" line: 360, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 361, columns:1-5]
+	["C880net.blif" line: 361, columns:7-10]
+  .gate assign: a = [854]
+	["C880net.blif" line: 361, column: 12]
+	["C880net.blif" line: 361, columns:14-18]
+  .gate assign: b = [936]
+	["C880net.blif" line: 361, column: 20]
+	["C880net.blif" line: 361, columns:22-26]
+  .gate assign: O = 746GAT(322)
+	["C880net.blif" line: 361, column: 28]
+	["C880net.blif" line: 361, columns:30-40]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 362, columns:1-5]
+	["C880net.blif" line: 362, columns:7-10]
+  .gate assign: a = 334GAT(81)
+	["C880net.blif" line: 362, column: 12]
+	["C880net.blif" line: 362, columns:14-23]
+  .gate assign: b = 836GAT(392)
+	["C880net.blif" line: 362, column: 25]
+	["C880net.blif" line: 362, columns:27-37]
+  .gate assign: c = 745GAT(330)
+	["C880net.blif" line: 362, column: 39]
+	["C880net.blif" line: 362, columns:41-51]
+  .gate assign: d = 746GAT(322)
+	["C880net.blif" line: 362, column: 53]
+	["C880net.blif" line: 362, columns:55-65]
+  .gate assign: O = [169]
+	["C880net.blif" line: 362, column: 67]
+	["C880net.blif" line: 362, columns:69-73]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 363, columns:1-5]
+	["C880net.blif" line: 363, columns:7-10]
+  .gate assign: a = [169]
+	["C880net.blif" line: 363, column: 12]
+	["C880net.blif" line: 363, columns:14-18]
+  .gate assign: O = [2142]
+	["C880net.blif" line: 363, column: 20]
+	["C880net.blif" line: 363, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 364, columns:1-5]
+	["C880net.blif" line: 364, columns:7-10]
+  .gate assign: a = 565GAT(254)
+	["C880net.blif" line: 364, column: 12]
+	["C880net.blif" line: 364, columns:14-24]
+  .gate assign: b = [859]
+	["C880net.blif" line: 364, column: 26]
+	["C880net.blif" line: 364, columns:28-32]
+  .gate assign: O = 624GAT(265)
+	["C880net.blif" line: 364, column: 34]
+	["C880net.blif" line: 364, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 365, columns:1-5]
+	["C880net.blif" line: 365, columns:7-10]
+  .gate assign: a = [816]
+	["C880net.blif" line: 365, column: 12]
+	["C880net.blif" line: 365, columns:14-18]
+  .gate assign: b = [867]
+	["C880net.blif" line: 365, column: 20]
+	["C880net.blif" line: 365, columns:22-26]
+  .gate assign: O = 525GAT(213)
+	["C880net.blif" line: 365, column: 28]
+	["C880net.blif" line: 365, columns:30-40]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 366, columns:1-5]
+	["C880net.blif" line: 366, columns:7-10]
+  .gate assign: a = [2142]
+	["C880net.blif" line: 366, column: 12]
+	["C880net.blif" line: 366, columns:14-19]
+  .gate assign: b = 624GAT(265)
+	["C880net.blif" line: 366, column: 21]
+	["C880net.blif" line: 366, columns:23-33]
+  .gate assign: c = 525GAT(213)
+	["C880net.blif" line: 366, column: 35]
+	["C880net.blif" line: 366, columns:37-47]
+  .gate assign: O = 854GAT(419)
+	["C880net.blif" line: 366, column: 49]
+	["C880net.blif" line: 366, columns:51-61]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 367, columns:1-5]
+	["C880net.blif" line: 367, columns:7-10]
+  .gate assign: a = 854GAT(419)
+	["C880net.blif" line: 367, column: 12]
+	["C880net.blif" line: 367, columns:14-24]
+  .gate assign: O = 874GAT(433)
+	["C880net.blif" line: 367, column: 26]
+	["C880net.blif" line: 367, columns:28-38]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 368, columns:1-5]
+	["C880net.blif" line: 368, columns:7-10]
+  .gate assign: a = [829]
+	["C880net.blif" line: 368, column: 12]
+	["C880net.blif" line: 368, columns:14-18]
+  .gate assign: b = [831]
+	["C880net.blif" line: 368, column: 20]
+	["C880net.blif" line: 368, columns:22-26]
+  .gate assign: O = 417GAT(142)
+	["C880net.blif" line: 368, column: 28]
+	["C880net.blif" line: 368, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 369, columns:1-5]
+	["C880net.blif" line: 369, columns:7-10]
+  .gate assign: a = 593GAT(284)
+	["C880net.blif" line: 369, column: 12]
+	["C880net.blif" line: 369, columns:14-24]
+  .gate assign: b = 590GAT(285)
+	["C880net.blif" line: 369, column: 26]
+	["C880net.blif" line: 369, columns:28-38]
+  .gate assign: O = 665GAT(312)
+	["C880net.blif" line: 369, column: 40]
+	["C880net.blif" line: 369, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 370, columns:1-5]
+	["C880net.blif" line: 370, columns:7-10]
+  .gate assign: a = 665GAT(312)
+	["C880net.blif" line: 370, column: 12]
+	["C880net.blif" line: 370, columns:14-24]
+  .gate assign: O = [948]
+	["C880net.blif" line: 370, column: 26]
+	["C880net.blif" line: 370, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 371, columns:1-5]
+	["C880net.blif" line: 371, columns:7-10]
+  .gate assign: a = 665GAT(312)
+	["C880net.blif" line: 371, column: 12]
+	["C880net.blif" line: 371, columns:14-24]
+  .gate assign: b = [941]
+	["C880net.blif" line: 371, column: 26]
+	["C880net.blif" line: 371, columns:28-32]
+  .gate assign: O = 830GAT(401)
+	["C880net.blif" line: 371, column: 34]
+	["C880net.blif" line: 371, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 372, columns:1-5]
+	["C880net.blif" line: 372, columns:7-10]
+  .gate assign: a = 815GAT(388)
+	["C880net.blif" line: 372, column: 12]
+	["C880net.blif" line: 372, columns:14-24]
+  .gate assign: b = [948]
+	["C880net.blif" line: 372, column: 26]
+	["C880net.blif" line: 372, columns:28-32]
+  .gate assign: O = 831GAT(402)
+	["C880net.blif" line: 372, column: 34]
+	["C880net.blif" line: 372, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 373, columns:1-5]
+	["C880net.blif" line: 373, columns:7-10]
+  .gate assign: a = [830]
+	["C880net.blif" line: 373, column: 12]
+	["C880net.blif" line: 373, columns:14-18]
+  .gate assign: b = 830GAT(401)
+	["C880net.blif" line: 373, column: 20]
+	["C880net.blif" line: 373, columns:22-32]
+  .gate assign: c = 831GAT(402)
+	["C880net.blif" line: 373, column: 34]
+	["C880net.blif" line: 373, columns:36-46]
+  .gate assign: O = 851GAT(415)
+	["C880net.blif" line: 373, column: 48]
+	["C880net.blif" line: 373, columns:50-60]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 374, columns:1-5]
+	["C880net.blif" line: 374, columns:7-10]
+  .gate assign: a = [853]
+	["C880net.blif" line: 374, column: 12]
+	["C880net.blif" line: 374, columns:14-18]
+  .gate assign: b = [948]
+	["C880net.blif" line: 374, column: 20]
+	["C880net.blif" line: 374, columns:22-26]
+  .gate assign: O = 736GAT(333)
+	["C880net.blif" line: 374, column: 28]
+	["C880net.blif" line: 374, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 375, columns:1-5]
+	["C880net.blif" line: 375, columns:7-10]
+  .gate assign: a = [854]
+	["C880net.blif" line: 375, column: 12]
+	["C880net.blif" line: 375, columns:14-18]
+  .gate assign: b = [921]
+	["C880net.blif" line: 375, column: 20]
+	["C880net.blif" line: 375, columns:22-26]
+  .gate assign: O = 737GAT(325)
+	["C880net.blif" line: 375, column: 28]
+	["C880net.blif" line: 375, columns:30-40]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 376, columns:1-5]
+	["C880net.blif" line: 376, columns:7-10]
+  .gate assign: a = 417GAT(142)
+	["C880net.blif" line: 376, column: 12]
+	["C880net.blif" line: 376, columns:14-24]
+  .gate assign: b = 851GAT(415)
+	["C880net.blif" line: 376, column: 26]
+	["C880net.blif" line: 376, columns:28-38]
+  .gate assign: c = 736GAT(333)
+	["C880net.blif" line: 376, column: 40]
+	["C880net.blif" line: 376, columns:42-52]
+  .gate assign: d = 737GAT(325)
+	["C880net.blif" line: 376, column: 54]
+	["C880net.blif" line: 376, columns:56-66]
+  .gate assign: O = [139]
+	["C880net.blif" line: 376, column: 68]
+	["C880net.blif" line: 376, columns:70-74]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 377, columns:1-5]
+	["C880net.blif" line: 377, columns:7-10]
+  .gate assign: a = [139]
+	["C880net.blif" line: 377, column: 12]
+	["C880net.blif" line: 377, columns:14-18]
+  .gate assign: O = [2140]
+	["C880net.blif" line: 377, column: 20]
+	["C880net.blif" line: 377, columns:22-27]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 378, columns:1-5]
+	["C880net.blif" line: 378, columns:7-10]
+  .gate assign: a = 553GAT(251)
+	["C880net.blif" line: 378, column: 12]
+	["C880net.blif" line: 378, columns:14-24]
+  .gate assign: b = [859]
+	["C880net.blif" line: 378, column: 26]
+	["C880net.blif" line: 378, columns:28-32]
+  .gate assign: O = 596GAT(268)
+	["C880net.blif" line: 378, column: 34]
+	["C880net.blif" line: 378, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 379, columns:1-5]
+	["C880net.blif" line: 379, columns:7-10]
+  .gate assign: a = [812]
+	["C880net.blif" line: 379, column: 12]
+	["C880net.blif" line: 379, columns:14-18]
+  .gate assign: b = [867]
+	["C880net.blif" line: 379, column: 20]
+	["C880net.blif" line: 379, columns:22-26]
+  .gate assign: O = 522GAT(216)
+	["C880net.blif" line: 379, column: 28]
+	["C880net.blif" line: 379, columns:30-40]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 380, columns:1-5]
+	["C880net.blif" line: 380, columns:7-10]
+  .gate assign: a = [2140]
+	["C880net.blif" line: 380, column: 12]
+	["C880net.blif" line: 380, columns:14-19]
+  .gate assign: b = 596GAT(268)
+	["C880net.blif" line: 380, column: 21]
+	["C880net.blif" line: 380, columns:23-33]
+  .gate assign: c = 522GAT(216)
+	["C880net.blif" line: 380, column: 35]
+	["C880net.blif" line: 380, columns:37-47]
+  .gate assign: O = 867GAT(432)
+	["C880net.blif" line: 380, column: 49]
+	["C880net.blif" line: 380, columns:51-61]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 381, columns:1-5]
+	["C880net.blif" line: 381, columns:7-10]
+  .gate assign: a = 867GAT(432)
+	["C880net.blif" line: 381, column: 12]
+	["C880net.blif" line: 381, columns:14-24]
+  .gate assign: O = 878GAT(442)
+	["C880net.blif" line: 381, column: 26]
+	["C880net.blif" line: 381, columns:28-38]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 382, columns:1-5]
+	["C880net.blif" line: 382, columns:7-10]
+  .gate assign: a = [795]
+	["C880net.blif" line: 382, column: 12]
+	["C880net.blif" line: 382, columns:14-18]
+  .gate assign: b = [829]
+	["C880net.blif" line: 382, column: 20]
+	["C880net.blif" line: 382, columns:22-26]
+  .gate assign: O = 332GAT(85)
+	["C880net.blif" line: 382, column: 28]
+	["C880net.blif" line: 382, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 383, columns:1-5]
+	["C880net.blif" line: 383, columns:7-10]
+  .gate assign: a = 600GAT(282)
+	["C880net.blif" line: 383, column: 12]
+	["C880net.blif" line: 383, columns:14-24]
+  .gate assign: b = 597GAT(283)
+	["C880net.blif" line: 383, column: 26]
+	["C880net.blif" line: 383, columns:28-38]
+  .gate assign: O = 673GAT(309)
+	["C880net.blif" line: 383, column: 40]
+	["C880net.blif" line: 383, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 384, columns:1-5]
+	["C880net.blif" line: 384, columns:7-10]
+  .gate assign: a = 673GAT(309)
+	["C880net.blif" line: 384, column: 12]
+	["C880net.blif" line: 384, columns:14-24]
+  .gate assign: O = [954]
+	["C880net.blif" line: 384, column: 26]
+	["C880net.blif" line: 384, columns:28-32]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 385, columns:1-5]
+	["C880net.blif" line: 385, columns:7-10]
+  .gate assign: a = 796GAT(373)
+	["C880net.blif" line: 385, column: 12]
+	["C880net.blif" line: 385, columns:14-24]
+  .gate assign: b = 609GAT(280)
+	["C880net.blif" line: 385, column: 26]
+	["C880net.blif" line: 385, columns:28-38]
+  .gate assign: c = 619GAT(278)
+	["C880net.blif" line: 385, column: 40]
+	["C880net.blif" line: 385, columns:42-52]
+  .gate assign: O = 813GAT(382)
+	["C880net.blif" line: 385, column: 54]
+	["C880net.blif" line: 385, columns:56-66]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 386, columns:1-5]
+	["C880net.blif" line: 386, columns:7-10]
+  .gate assign: a = 609GAT(280)
+	["C880net.blif" line: 386, column: 12]
+	["C880net.blif" line: 386, columns:14-24]
+  .gate assign: b = [936]
+	["C880net.blif" line: 386, column: 26]
+	["C880net.blif" line: 386, columns:28-32]
+  .gate assign: O = 764GAT(343)
+	["C880net.blif" line: 386, column: 34]
+	["C880net.blif" line: 386, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 387, columns:1-5]
+	["C880net.blif" line: 387, columns:7-10]
+  .gate assign: a = 813GAT(382)
+	["C880net.blif" line: 387, column: 12]
+	["C880net.blif" line: 387, columns:14-24]
+  .gate assign: b = 606GAT(281)
+	["C880net.blif" line: 387, column: 26]
+	["C880net.blif" line: 387, columns:28-38]
+  .gate assign: c = 764GAT(343)
+	["C880net.blif" line: 387, column: 40]
+	["C880net.blif" line: 387, columns:42-52]
+  .gate assign: O = 819GAT(387)
+	["C880net.blif" line: 387, column: 54]
+	["C880net.blif" line: 387, columns:56-66]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 388, columns:1-5]
+	["C880net.blif" line: 388, columns:7-10]
+  .gate assign: a = 819GAT(387)
+	["C880net.blif" line: 388, column: 12]
+	["C880net.blif" line: 388, columns:14-24]
+  .gate assign: O = [957]
+	["C880net.blif" line: 388, column: 26]
+	["C880net.blif" line: 388, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 389, columns:1-5]
+	["C880net.blif" line: 389, columns:7-10]
+  .gate assign: a = 673GAT(309)
+	["C880net.blif" line: 389, column: 12]
+	["C880net.blif" line: 389, columns:14-24]
+  .gate assign: b = [957]
+	["C880net.blif" line: 389, column: 26]
+	["C880net.blif" line: 389, columns:28-32]
+  .gate assign: O = 832GAT(399)
+	["C880net.blif" line: 389, column: 34]
+	["C880net.blif" line: 389, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 390, columns:1-5]
+	["C880net.blif" line: 390, columns:7-10]
+  .gate assign: a = 819GAT(387)
+	["C880net.blif" line: 390, column: 12]
+	["C880net.blif" line: 390, columns:14-24]
+  .gate assign: b = [954]
+	["C880net.blif" line: 390, column: 26]
+	["C880net.blif" line: 390, columns:28-32]
+  .gate assign: O = 833GAT(400)
+	["C880net.blif" line: 390, column: 34]
+	["C880net.blif" line: 390, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 391, columns:1-5]
+	["C880net.blif" line: 391, columns:7-10]
+  .gate assign: a = [830]
+	["C880net.blif" line: 391, column: 12]
+	["C880net.blif" line: 391, columns:14-18]
+  .gate assign: b = 832GAT(399)
+	["C880net.blif" line: 391, column: 20]
+	["C880net.blif" line: 391, columns:22-32]
+  .gate assign: c = 833GAT(400)
+	["C880net.blif" line: 391, column: 34]
+	["C880net.blif" line: 391, columns:36-46]
+  .gate assign: O = 852GAT(414)
+	["C880net.blif" line: 391, column: 48]
+	["C880net.blif" line: 391, columns:50-60]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 392, columns:1-5]
+	["C880net.blif" line: 392, columns:7-10]
+  .gate assign: a = [853]
+	["C880net.blif" line: 392, column: 12]
+	["C880net.blif" line: 392, columns:14-18]
+  .gate assign: b = [954]
+	["C880net.blif" line: 392, column: 20]
+	["C880net.blif" line: 392, columns:22-26]
+  .gate assign: O = 739GAT(332)
+	["C880net.blif" line: 392, column: 28]
+	["C880net.blif" line: 392, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 393, columns:1-5]
+	["C880net.blif" line: 393, columns:7-10]
+  .gate assign: a = [854]
+	["C880net.blif" line: 393, column: 12]
+	["C880net.blif" line: 393, columns:14-18]
+  .gate assign: b = [925]
+	["C880net.blif" line: 393, column: 20]
+	["C880net.blif" line: 393, columns:22-26]
+  .gate assign: O = 740GAT(324)
+	["C880net.blif" line: 393, column: 28]
+	["C880net.blif" line: 393, columns:30-40]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 394, columns:1-5]
+	["C880net.blif" line: 394, columns:7-10]
+  .gate assign: a = 332GAT(85)
+	["C880net.blif" line: 394, column: 12]
+	["C880net.blif" line: 394, columns:14-23]
+  .gate assign: b = 852GAT(414)
+	["C880net.blif" line: 394, column: 25]
+	["C880net.blif" line: 394, columns:27-37]
+  .gate assign: c = 739GAT(332)
+	["C880net.blif" line: 394, column: 39]
+	["C880net.blif" line: 394, columns:41-51]
+  .gate assign: d = 740GAT(324)
+	["C880net.blif" line: 394, column: 53]
+	["C880net.blif" line: 394, columns:55-65]
+  .gate assign: O = [99]
+	["C880net.blif" line: 394, column: 67]
+	["C880net.blif" line: 394, columns:69-72]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 395, columns:1-5]
+	["C880net.blif" line: 395, columns:7-10]
+  .gate assign: a = [99]
+	["C880net.blif" line: 395, column: 12]
+	["C880net.blif" line: 395, columns:14-17]
+  .gate assign: O = [2134]
+	["C880net.blif" line: 395, column: 19]
+	["C880net.blif" line: 395, columns:21-26]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 396, columns:1-5]
+	["C880net.blif" line: 396, columns:7-10]
+  .gate assign: a = 557GAT(252)
+	["C880net.blif" line: 396, column: 12]
+	["C880net.blif" line: 396, columns:14-24]
+  .gate assign: b = [859]
+	["C880net.blif" line: 396, column: 26]
+	["C880net.blif" line: 396, columns:28-32]
+  .gate assign: O = 605GAT(267)
+	["C880net.blif" line: 396, column: 34]
+	["C880net.blif" line: 396, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 397, columns:1-5]
+	["C880net.blif" line: 397, columns:7-10]
+  .gate assign: a = [813]
+	["C880net.blif" line: 397, column: 12]
+	["C880net.blif" line: 397, columns:14-18]
+  .gate assign: b = [867]
+	["C880net.blif" line: 397, column: 20]
+	["C880net.blif" line: 397, columns:22-26]
+  .gate assign: O = 523GAT(215)
+	["C880net.blif" line: 397, column: 28]
+	["C880net.blif" line: 397, columns:30-40]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 398, columns:1-5]
+	["C880net.blif" line: 398, columns:7-10]
+  .gate assign: a = [2134]
+	["C880net.blif" line: 398, column: 12]
+	["C880net.blif" line: 398, columns:14-19]
+  .gate assign: b = 605GAT(267)
+	["C880net.blif" line: 398, column: 21]
+	["C880net.blif" line: 398, columns:23-33]
+  .gate assign: c = 523GAT(215)
+	["C880net.blif" line: 398, column: 35]
+	["C880net.blif" line: 398, columns:37-47]
+  .gate assign: O = 868GAT(431)
+	["C880net.blif" line: 398, column: 49]
+	["C880net.blif" line: 398, columns:51-61]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 399, columns:1-5]
+	["C880net.blif" line: 399, columns:7-10]
+  .gate assign: a = 868GAT(431)
+	["C880net.blif" line: 399, column: 12]
+	["C880net.blif" line: 399, columns:14-24]
+  .gate assign: O = 879GAT(441)
+	["C880net.blif" line: 399, column: 26]
+	["C880net.blif" line: 399, columns:28-38]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 400, columns:1-5]
+	["C880net.blif" line: 400, columns:7-10]
+  .gate assign: a = [796]
+	["C880net.blif" line: 400, column: 12]
+	["C880net.blif" line: 400, columns:14-18]
+  .gate assign: b = [829]
+	["C880net.blif" line: 400, column: 20]
+	["C880net.blif" line: 400, columns:22-26]
+  .gate assign: O = 333GAT(84)
+	["C880net.blif" line: 400, column: 28]
+	["C880net.blif" line: 400, columns:30-39]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 401, columns:1-5]
+	["C880net.blif" line: 401, columns:7-10]
+  .gate assign: a = 609GAT(280)
+	["C880net.blif" line: 401, column: 12]
+	["C880net.blif" line: 401, columns:14-24]
+  .gate assign: b = 606GAT(281)
+	["C880net.blif" line: 401, column: 26]
+	["C880net.blif" line: 401, columns:28-38]
+  .gate assign: O = 682GAT(306)
+	["C880net.blif" line: 401, column: 40]
+	["C880net.blif" line: 401, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 402, columns:1-5]
+	["C880net.blif" line: 402, columns:7-10]
+  .gate assign: a = 682GAT(306)
+	["C880net.blif" line: 402, column: 12]
+	["C880net.blif" line: 402, columns:14-24]
+  .gate assign: O = [963]
+	["C880net.blif" line: 402, column: 26]
+	["C880net.blif" line: 402, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 403, columns:1-5]
+	["C880net.blif" line: 403, columns:7-10]
+  .gate assign: a = 619GAT(278)
+	["C880net.blif" line: 403, column: 12]
+	["C880net.blif" line: 403, columns:14-24]
+  .gate assign: b = 796GAT(373)
+	["C880net.blif" line: 403, column: 26]
+	["C880net.blif" line: 403, columns:28-38]
+  .gate assign: O = 812GAT(381)
+	["C880net.blif" line: 403, column: 40]
+	["C880net.blif" line: 403, columns:42-52]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 404, columns:1-5]
+	["C880net.blif" line: 404, columns:7-10]
+  .gate assign: a = 616GAT(279)
+	["C880net.blif" line: 404, column: 12]
+	["C880net.blif" line: 404, columns:14-24]
+  .gate assign: b = 812GAT(381)
+	["C880net.blif" line: 404, column: 26]
+	["C880net.blif" line: 404, columns:28-38]
+  .gate assign: O = 822GAT(386)
+	["C880net.blif" line: 404, column: 40]
+	["C880net.blif" line: 404, columns:42-52]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 405, columns:1-5]
+	["C880net.blif" line: 405, columns:7-10]
+  .gate assign: a = 822GAT(386)
+	["C880net.blif" line: 405, column: 12]
+	["C880net.blif" line: 405, columns:14-24]
+  .gate assign: O = [964]
+	["C880net.blif" line: 405, column: 26]
+	["C880net.blif" line: 405, columns:28-32]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 406, columns:1-5]
+	["C880net.blif" line: 406, columns:7-10]
+  .gate assign: a = 682GAT(306)
+	["C880net.blif" line: 406, column: 12]
+	["C880net.blif" line: 406, columns:14-24]
+  .gate assign: b = [964]
+	["C880net.blif" line: 406, column: 26]
+	["C880net.blif" line: 406, columns:28-32]
+  .gate assign: O = 834GAT(397)
+	["C880net.blif" line: 406, column: 34]
+	["C880net.blif" line: 406, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 407, columns:1-5]
+	["C880net.blif" line: 407, columns:7-10]
+  .gate assign: a = 822GAT(386)
+	["C880net.blif" line: 407, column: 12]
+	["C880net.blif" line: 407, columns:14-24]
+  .gate assign: b = [963]
+	["C880net.blif" line: 407, column: 26]
+	["C880net.blif" line: 407, columns:28-32]
+  .gate assign: O = 835GAT(398)
+	["C880net.blif" line: 407, column: 34]
+	["C880net.blif" line: 407, columns:36-46]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 408, columns:1-5]
+	["C880net.blif" line: 408, columns:7-10]
+  .gate assign: a = [830]
+	["C880net.blif" line: 408, column: 12]
+	["C880net.blif" line: 408, columns:14-18]
+  .gate assign: b = 834GAT(397)
+	["C880net.blif" line: 408, column: 20]
+	["C880net.blif" line: 408, columns:22-32]
+  .gate assign: c = 835GAT(398)
+	["C880net.blif" line: 408, column: 34]
+	["C880net.blif" line: 408, columns:36-46]
+  .gate assign: O = 853GAT(413)
+	["C880net.blif" line: 408, column: 48]
+	["C880net.blif" line: 408, columns:50-60]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 409, columns:1-5]
+	["C880net.blif" line: 409, columns:7-10]
+  .gate assign: a = [853]
+	["C880net.blif" line: 409, column: 12]
+	["C880net.blif" line: 409, columns:14-18]
+  .gate assign: b = [963]
+	["C880net.blif" line: 409, column: 20]
+	["C880net.blif" line: 409, columns:22-26]
+  .gate assign: O = 742GAT(331)
+	["C880net.blif" line: 409, column: 28]
+	["C880net.blif" line: 409, columns:30-40]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 410, columns:1-5]
+	["C880net.blif" line: 410, columns:7-10]
+  .gate assign: a = [854]
+	["C880net.blif" line: 410, column: 12]
+	["C880net.blif" line: 410, columns:14-18]
+  .gate assign: b = [929]
+	["C880net.blif" line: 410, column: 20]
+	["C880net.blif" line: 410, columns:22-26]
+  .gate assign: O = 743GAT(323)
+	["C880net.blif" line: 410, column: 28]
+	["C880net.blif" line: 410, columns:30-40]
+.gate end
+
+.gate nor4 begin
+	["C880net.blif" line: 411, columns:1-5]
+	["C880net.blif" line: 411, columns:7-10]
+  .gate assign: a = 333GAT(84)
+	["C880net.blif" line: 411, column: 12]
+	["C880net.blif" line: 411, columns:14-23]
+  .gate assign: b = 853GAT(413)
+	["C880net.blif" line: 411, column: 25]
+	["C880net.blif" line: 411, columns:27-37]
+  .gate assign: c = 742GAT(331)
+	["C880net.blif" line: 411, column: 39]
+	["C880net.blif" line: 411, columns:41-51]
+  .gate assign: d = 743GAT(323)
+	["C880net.blif" line: 411, column: 53]
+	["C880net.blif" line: 411, columns:55-65]
+  .gate assign: O = [65]
+	["C880net.blif" line: 411, column: 67]
+	["C880net.blif" line: 411, columns:69-72]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 412, columns:1-5]
+	["C880net.blif" line: 412, columns:7-10]
+  .gate assign: a = [65]
+	["C880net.blif" line: 412, column: 12]
+	["C880net.blif" line: 412, columns:14-17]
+  .gate assign: O = [2132]
+	["C880net.blif" line: 412, column: 19]
+	["C880net.blif" line: 412, columns:21-26]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 413, columns:1-5]
+	["C880net.blif" line: 413, columns:7-10]
+  .gate assign: a = 561GAT(253)
+	["C880net.blif" line: 413, column: 12]
+	["C880net.blif" line: 413, columns:14-24]
+  .gate assign: b = [859]
+	["C880net.blif" line: 413, column: 26]
+	["C880net.blif" line: 413, columns:28-32]
+  .gate assign: O = 615GAT(266)
+	["C880net.blif" line: 413, column: 34]
+	["C880net.blif" line: 413, columns:36-46]
+.gate end
+
+.gate nor2 begin
+	["C880net.blif" line: 414, columns:1-5]
+	["C880net.blif" line: 414, columns:7-10]
+  .gate assign: a = [815]
+	["C880net.blif" line: 414, column: 12]
+	["C880net.blif" line: 414, columns:14-18]
+  .gate assign: b = [867]
+	["C880net.blif" line: 414, column: 20]
+	["C880net.blif" line: 414, columns:22-26]
+  .gate assign: O = 524GAT(214)
+	["C880net.blif" line: 414, column: 28]
+	["C880net.blif" line: 414, columns:30-40]
+.gate end
+
+.gate nor3 begin
+	["C880net.blif" line: 415, columns:1-5]
+	["C880net.blif" line: 415, columns:7-10]
+  .gate assign: a = [2132]
+	["C880net.blif" line: 415, column: 12]
+	["C880net.blif" line: 415, columns:14-19]
+  .gate assign: b = 615GAT(266)
+	["C880net.blif" line: 415, column: 21]
+	["C880net.blif" line: 415, columns:23-33]
+  .gate assign: c = 524GAT(214)
+	["C880net.blif" line: 415, column: 35]
+	["C880net.blif" line: 415, columns:37-47]
+  .gate assign: O = 869GAT(430)
+	["C880net.blif" line: 415, column: 49]
+	["C880net.blif" line: 415, columns:51-61]
+.gate end
+
+.gate nor1 begin
+	["C880net.blif" line: 416, columns:1-5]
+	["C880net.blif" line: 416, columns:7-10]
+  .gate assign: a = 869GAT(430)
+	["C880net.blif" line: 416, column: 12]
+	["C880net.blif" line: 416, columns:14-24]
+  .gate assign: O = 880GAT(440)
+	["C880net.blif" line: 416, column: 26]
+	["C880net.blif" line: 416, columns:28-38]
+.gate end
+
+.end
+	["C880net.blif" line: 417, columns:1-4]
+normal_exit

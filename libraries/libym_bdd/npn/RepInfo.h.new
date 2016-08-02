@@ -1,0 +1,245 @@
+#ifndef YMBDD_REPINFO_H
+#define YMBDD_REPINFO_H
+
+// $Source: /export/home/project/synth/cvsrepos/ymtools/src/libym_bdd/npn/RepInfo.h.new,v $
+// $Author: matsunaga $
+// $Revision: 1.1.1.1 $
+// $Date: 2005/12/11 17:07:25 $
+
+// NPN同値類を扱うためのクラス
+
+#include "ymbdd/Npn.h"
+#include "ymbdd/TvFunc.h"
+#include "ymbdd/WalshSig.h"
+#include "ymbdd/WalshSigInt.h"
+
+
+BEGIN_NAMESPACE_YMBDD_NPN
+
+//////////////////////////////////////////////////////////////////////
+// 論理関数にNPN同値類を求めるための付加情報を入れたクラス          //
+//////////////////////////////////////////////////////////////////////
+class RepInfo :
+  public RefCount
+{
+ public:
+  // マネージャを得る．
+  NpnMgr* mgr() const;
+  
+  // 恒等変換リストを得る．
+  const list<NpnMap>& identity() const;
+
+ protected:
+  // コンストラクタ
+  RepInfo();
+  
+  // デストラクタ
+  ~RepInfo();
+  
+ protected:
+  //////////////////////////////////////////////////////////////////////
+  // データメンバ                                                     //
+  //////////////////////////////////////////////////////////////////////
+  // この要素が登録されているマネージャ
+  NpnMgr* mMgr;
+
+  // 恒等変換リスト
+  list<NpnMap> mIdentity;
+
+};
+
+
+//////////////////////////////////////////////////////////////////////
+// 論理関数にNPN同値類を求めるための付加情報を入れたクラス          //
+//////////////////////////////////////////////////////////////////////
+class RepInfoBdd :
+  public RepInfo
+{
+  friend class NpnMgr;
+  friend class SmartPtr<RepInfoBdd>;
+ public:
+  
+  // 入力数を得る．
+  size_t ni() const;
+  
+  // 論理関数のBDDを得る．
+  Bdd bdd() const;
+
+  // 0次,1次の Walsh 係数を得る．
+  const WalshSig& signature() const;
+
+  // グループ数を得る．
+  size_t nig() const;
+  
+  // 入力グループ構造体を得る．
+  // gidの範囲チェックは行なわないので注意．
+  const Igroup* igroup(size_t gid) const;
+  
+ private:
+  // コンストラクタ
+  // BDDとWalsh係数を指定する．
+  RepInfoBdd(const Bdd& f, const WalshSig& wsig);
+  
+  // デストラクタ
+  ~RepInfoBdd();
+  
+ private:
+  //////////////////////////////////////////////////////////////////////
+  // データメンバ                                                     //
+  //////////////////////////////////////////////////////////////////////
+
+  // 関数を表すBDD 
+  Bdd mBdd;
+
+  // 0次と1次ののWalsh係数 
+  WalshSig mSignature;
+
+};
+
+
+//////////////////////////////////////////////////////////////////////
+// 論理関数にNPN同値類を求めるための付加情報を入れたクラス          //
+//////////////////////////////////////////////////////////////////////
+class RepInfoTv :
+  public RepInfo
+{
+  friend class NpnMgr;
+  friend class SmartPtr<RepInfoTv>;
+ public:
+  
+  // 入力数を得る．
+  size_t ni() const;
+  
+  // 論理関数の真理値ベクタを得る．
+  const TvFunc& func() const;
+
+  // 0次,1次の Walsh 係数を得る．
+  const WalshSigInt& signature() const;
+
+  // グループ数を得る．
+  size_t nig() const;
+
+#if 0
+  // 入力グループ構造体を得る．
+  // gidの範囲チェックは行なわないので注意．
+  const Igroup* igroup(size_t gid) const;
+#endif
+  
+ private:
+  // コンストラクタ
+  // TvFuncとWalsh係数を指定する．
+  RepInfoTv(const TvFunc& f, const WalshSigInt& wsig);
+  
+  // デストラクタ
+  ~RepInfoTv();
+  
+ private:
+  //////////////////////////////////////////////////////////////////////
+  // データメンバ                                                     //
+  //////////////////////////////////////////////////////////////////////
+
+  // 関数を表す TvFunc
+  TvFunc mFunc;
+
+  // 0次と1次ののWalsh係数 
+  WalshSigInt mSignature;
+
+};
+
+
+//////////////////////////////////////////////////////////////////////
+// インライン関数の定義                                             //
+//////////////////////////////////////////////////////////////////////
+
+// マネージャを得る．
+inline
+NpnMgr*
+RepInfo::mgr() const
+{
+  return mMgr;
+}
+
+// 恒等変換リストを得る．
+inline
+const list<NpnMap>&
+RepInfo::identity() const
+{
+  return mIdentity;
+}
+
+// 入力数を得る．
+inline
+size_t
+RepInfoBdd::ni() const
+{
+  return mSignature.ni();
+}
+  
+// 論理関数のBDDを得る．
+inline
+Bdd
+RepInfoBdd::bdd() const
+{
+  return mBdd;
+}
+
+// 0次,1次の Walsh 係数を得る．
+inline
+const WalshSig&
+RepInfoBdd::signature() const
+{
+  return mSignature;
+}
+
+// 入力グループ構造体を得る．
+// gidの範囲チェックは行なわないので注意．
+inline
+const Igroup*
+RepInfoBdd::igroup(size_t gid) const
+{
+  return mSignature.igroup(gid);
+}
+
+// グループ数を得る．
+inline
+size_t
+RepInfoBdd::nig() const
+{
+  return mSignature.nig();
+}
+  
+// 入力数を得る．
+inline
+size_t
+RepInfoTv::ni() const
+{
+  return mSignature.ni();
+}
+
+// 論理関数の真理値ベクタを得る．
+inline
+const TvFunc&
+RepInfoTv::func() const
+{
+  return mFunc;
+}
+
+// 0次,1次の Walsh 係数を得る．
+inline
+const WalshSigInt&
+RepInfoTv::signature() const
+{
+  return mSignature;
+}
+
+// グループ数を得る．
+inline
+size_t
+RepInfoTv::nig() const
+{
+  return mSignature.nig();
+}
+
+END_NAMESPACE_YMBDD_NPN
+
+#endif // YMBDD_REPINFO_H

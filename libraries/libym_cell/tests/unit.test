@@ -1,0 +1,61 @@
+## $Source: /export/home/project/synth/cvsrepos/ymtools/src/libym_cell/tests/unit.test,v $
+## $Author: matsunaga $
+## $Revision: 1.1.1.1 $
+## $Date: 2005/12/11 17:07:26 $
+
+# Common definitions
+if test -z "$srcdir"; then
+    srcdir=echo "$0" | sed 's,[^/]*$,,'
+    test "$srcdir" = "$0" && srcdir=.
+    test -z "$srcdir" && srcdir=.
+    test "${VERBOSE+set}" != set && VERBOSE=1
+fi
+. $srcdir/local_defs
+
+# this is the output we should expect to see
+cat <<\EOF > ok
+Unit( 0, ns), value =        0:	                 0ns
+Unit( 0, ns), value =    12345:	             12345ns
+Unit( 2, pf), value =        0:	              0.00pf
+Unit( 2, pf), value =    12345:	            123.45pf
+Unit( 5, aa), value =        0:	           0.00000aa
+Unit( 5, aa), value =    12345:	           0.12345aa
+Unit( 8, bb), value =        0:	        0.00000000bb
+Unit( 8, bb), value =    12345:	        0.00012345bb
+Unit(-2, cc), value =        0:	                 0cc
+Unit(-2, cc), value =    12345:	           1234500cc
+EOF
+
+cat <<\EOF >errok
+EOF
+
+# Run the test saving stderr to a file, and showing stdout
+# if VERBOSE == 1
+${TEST_PATH}/unit_test 2> err | tee -i out >&2
+
+# Test against expected output
+if ${CMP} -s out ok; then
+    :
+else
+    echo "ok:" >&2
+    cat ok >&2
+    exit 1
+fi
+
+# Munge error output to remove leading directories, 'lt-' or
+# trailing '.exe'
+
+# Show stderr in case  of not matching expected output if VERBOSE == 1
+if ${CMP} -s err errok; then
+    :
+else
+    echo "err:" >&2
+    cat err >&2
+    echo "errok:" >&2
+    cat errok >&2
+    exit 1
+fi
+
+### Local Variables:
+### mode: sh
+### End:

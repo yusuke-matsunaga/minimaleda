@@ -1,0 +1,117 @@
+# $Id: strbuff.test 666 2007-05-23 01:36:41Z matsunaga $
+
+# Common definitions
+if test -z "$srcdir"; then
+    srcdir=echo "$0" | sed 's,[^/]*$,,'
+    test "$srcdir" = "$0" && srcdir=.
+    test -z "$srcdir" && srcdir=.
+    test "${VERBOSE+set}" != set && VERBOSE=1
+fi
+. ${srcdir}/local_defs
+
+# this is the test script
+
+# this is the output we should expect to see
+cat <<\EOF > ok
+a1, length: 0, contents: 
+a2, length: 25, contents: constructor from C-string
+a3, length: 23, contents: constructor from string
+a4(a1), length: 0, contents: 
+a5(a2), length: 25, contents: constructor from C-string
+a1.clear(), length: 0, contents: 
+a2.clear(), length: 0, contents: 
+a3.clear(), length: 0, contents: 
+a4.clear(), length: 0, contents: 
+a5.clear(), length: 0, contents: 
+a1 = "assign from C-String", length: 20, contents: assign from C-string
+a2 = "abc", length: 3, contents: abc
+a3 = string("assign from string"), length: 18, contents: assign from string
+a3 = string("0123456789012345678901234567890123456789"), length: 40, contents: 0123456789012345678901234567890123456789
+a4 = a1, length: 20, contents: assign from C-string
+a5 = a3, length: 40, contents: 0123456789012345678901234567890123456789
+a4.put_char('x'), length: 21, contents: assign from C-stringx
+a4.put_str(a1), length: 41, contents: assign from C-stringxassign from C-string
+a4.put_str("xyz"), length: 44, contents: assign from C-stringxassign from C-stringxyz
+a4.put_str(string("pqr")), length: 47, contents: assign from C-stringxassign from C-stringxyzpqr
+a5[0] = 0
+a5[1] = 1
+a5[2] = 2
+a5[3] = 3
+a5[4] = 4
+a5[5] = 5
+a5[6] = 6
+a5[7] = 7
+a5[8] = 8
+a5[9] = 9
+a5[10] = 0
+a5[11] = 1
+a5[12] = 2
+a5[13] = 3
+a5[14] = 4
+a5[15] = 5
+a5[16] = 6
+a5[17] = 7
+a5[18] = 8
+a5[19] = 9
+a5[20] = 0
+a5[21] = 1
+a5[22] = 2
+a5[23] = 3
+a5[24] = 4
+a5[25] = 5
+a5[26] = 6
+a5[27] = 7
+a5[28] = 8
+a5[29] = 9
+a5[30] = 0
+a5[31] = 1
+a5[32] = 2
+a5[33] = 3
+a5[34] = 4
+a5[35] = 5
+a5[36] = 6
+a5[37] = 7
+a5[38] = 8
+a5[39] = 9
+a4.find_first_of('p') = 44
+a4.find_first_of('b') = none
+a4.substr(5, 10) = n from C-stringxassign from C-stringxyzpqr
+(a1 == a2) = 0
+(a1 == "") = 0
+(a3 == a5) = 1
+("assign from C-string" == a1) = 1
+EOF
+
+cat <<\EOF >errok
+EOF
+
+# Run the test saving stderr to a file, and showing stdout
+# if VERBOSE == 1
+${TEST_PATH}/strbuff_test 2> err | tee -i out >&2
+
+# Test against expected output
+if ${CMP} -s out ok; then
+    :
+else
+    echo "ok:" >&2
+    cat ok >&2
+    exit 1
+fi
+
+# Munge error output to remove leading directories, 'lt-' or
+# trailing '.exe'
+
+# Show stderr in case  of not matching expected output if VERBOSE == 1
+if ${CMP} -s err errok; then
+    :
+else
+    echo "err:" >&2
+    cat err >&2
+    echo "errok:" >&2
+    cat errok >&2
+    exit 1
+fi
+
+### Local Variables:
+### mode: sh
+### End:

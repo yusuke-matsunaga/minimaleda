@@ -1,0 +1,27 @@
+set circ "C432"
+set loglevel 0
+
+puts "reading ${circ}.blif"
+magus::read_blif -new_network $circ ~/share/data/MCNC.blifdata/${circ}.blif
+
+puts "bi-decomposing"
+magus::copy_network ${circ} ${circ}dec
+magus::bidecomp -network ${circ}dec -mindepth
+
+magus::lutmap -network ${circ}dec -tree 6 -dst_network ${circ}map1
+puts "mapping1 end"
+puts "# of LUTs: $magus::lutmap_stats(lut_num)"
+puts "max level: $magus::lutmap_stats(level)"
+
+magus::lutmap -network ${circ}dec -df 6 -dst_network ${circ}map2
+puts "mapping2 end"
+puts "# of LUTs: $magus::lutmap_stats(lut_num)"
+puts "max level: $magus::lutmap_stats(level)"
+
+#set eqstat [magus::equiv -loglevel ${loglevel} ${circ} ${circ}map]
+#puts $eqstat
+#if { $eqstat == "Not Equivalent" } {
+#  magus::write_blif -network ${circ} ${circ}.blif
+#  magus::write_blif -network ${circ}map ${circ}map.blif
+#  puts "Not Equivalent"
+#}

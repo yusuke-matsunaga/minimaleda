@@ -1,0 +1,11 @@
+# warning 3-2-2
+# sentences after .end
+.model test1
+.inputs a b
+.outputs x
+.names a b x
+11 1
+.end
+.names a b c
+1- 1
+-1 1

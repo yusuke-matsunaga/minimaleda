@@ -1,0 +1,46 @@
+			elaboration のアルゴリズム
+							2003年10月11日
+							松永 裕介
+
+○Verilog-HDLのソースをコンパイルするためにまず最初に行わなければならな
+いことは parameter の値を確定すること
+
+○普通は parameter は定数式が代入されており，定数式はその module 内にロー
+カルな定数(parameter)のみからなるので簡単に確定可能であるように思われる
+が，defparam 文があるためにそう簡単ではない．
+
+○defparam 文を処理するためには階層構造の生成が必要となる．
+
+○問題は genereate 文や配列構造の module instanciation の時には
+parameter の値が用いられるということ．
+
+○つまり，階層構造の生成と parameter 値の確定の依存関係がループを構成し
+てしまう可能性がある．
+
+○IEEE1364-2001 ではこれを防ぐために generate scope と配列型の module
+instance 内のスコープの defparam 文はその外側の parameter の値を上書きで
+きないと定めている．
+
+○こうすることで top module から generate 文や配列型の module instance
+を用いないで生成可能な名前空間内のみの defparam 文で parameter の値を確
+定し，下位構造の名前空間の生成ができるようになる．
+
+○このとき，各下位構造の生成の際には各々の defparam 文は他の構造には影響
+を与えないので，各自が独立に処理を行うことができる．つまり，instance 化
+の順番に制約がない．
+
+○ということで，elaboration の第一段階としてはこの名前空間の構造の生成と
+parameter の値の確定を行う．
+
+○各 PtModule, PtItem, PtStmt に make_skeleton() という仮想関数を作る．
+
+○主に Scope 関係のクラスのインスタンス化を行う．scope を作らない要素は
+この make_skeleton() で何もしない．つまり PtItem の派生クラスで
+make_skeleton() が必要なのは PtFunction と PtTask および PtModuleInst の
+み．PtModuleInst も配列型の場合にはここでは処理せずにキューに積んでおく．
+PtGenerate はここでは処理せずにキューに積んでおく．
+
+○PtStmt の派生クラスで本当に処理が必要なのは VpiNamedBegin,
+VpiNamedFork であるが，それらの親の PtStmt が必要なので，結局，すべての
+PtStmt のオブジェクトを生成する．ただし，この時点では中身の
+expression を生成することはできないので空にしておく．

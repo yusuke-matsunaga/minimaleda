@@ -1,0 +1,119 @@
+// $Source: /export/home/project/synth/cvsrepos/ymtools/src/libym_bdd/npn/RepInfo.cc.new,v $
+// $Author: matsunaga $
+// $Revision: 1.1.1.1 $
+// $Date: 2005/12/11 17:07:25 $
+
+// 論理関数とそれに付随する情報を収めたクラス
+
+#if HAVE_CONFIG_H
+#include "config.h"
+#endif
+
+#include "ymbdd/Npn.h"
+#include "ymbdd/WalshSig.h"
+#include "ymbdd/WalshSigInt.h"
+#include "ymbdd/RepInfo.h"
+#include "ymbdd/Matcher.h"
+
+
+BEGIN_NAMESPACE_YMBDD_NPN
+
+//#define DEBUG
+#if defined(DEBUG) || defined(DEBUG_FUNCINFO)
+const int debug_funcinfo = 1;
+#else
+const int debug_funcinfo = 0;
+#endif
+
+// コンストラクタ
+RepInfo::RepInfo() :
+  mMgr(NULL)
+{
+}
+
+// デストラクタ
+RepInfo::~RepInfo()
+{
+}
+
+// コンストラクタ
+RepInfoBdd::RepInfoBdd(const Bdd& bdd, const WalshSig& wsig) :
+  mBdd(bdd),
+  mSignature(wsig)
+{
+  // 同位体変換を求める．
+  Matcher matcher(bdd, mSignature);
+  matcher.match(this, false, mIdentity);
+
+  if ( debug_funcinfo ) {
+    cerr << "==================================" << endl
+	 << "# of inputs = " << ni() << endl
+	 << mSignature << endl
+	 << "# of groups = " << nig() << endl;
+    for (size_t g = 0; g < nig(); g ++) {
+      const Igroup* ig = igroup(g);
+      cerr << "--------" << endl
+	   << ig->id() << ": {";
+      for (vector<size_t>::const_iterator p = ig->vars().begin();
+	   p != ig->vars().end(); ++ p) {
+	cerr << " " << *p;
+      }
+      int p = (ig->pred() == 0) ? -1 : (int)ig->pred()->id();
+      int s = (ig->succ() == 0) ? -1 : (int)ig->succ()->id();
+      cerr << "}     " << p << " <--> " << s << endl;
+    }
+    cerr << endl
+	 << "# of identity mappings = " << mIdentity.size() << endl;
+    for (list<NpnMap>::const_iterator p = mIdentity.begin();
+	 p != mIdentity.end(); ++ p) {
+      const NpnMap& map = *p;
+      cerr << map << endl;
+    }
+    cerr << "==================================" << endl;
+  }
+}
+
+// デストラクタ
+RepInfoBdd::~RepInfoBdd()
+{
+  if ( mMgr != 0 ) {
+    mMgr->forget(this);
+  }
+}
+
+// コンストラクタ
+RepInfoTv::RepInfoTv(const TvFunc& func, const WalshSigInt& wsig) :
+  mFunc(func),
+  mSignature(wsig)
+{
+#if 0
+  // 同位体変換を求める．
+  Matcher matcher(func, wsig);
+  matcher.match(this, false, mIdentity);
+#endif
+  if ( debug_funcinfo ) {
+    cerr << "==================================" << endl
+	 << "# of inputs = " << ni() << endl
+	 << mSignature << endl
+	 << "# of groups = " << nig() << endl;
+    cerr << "# of identity mappings = " << mIdentity.size() << endl;
+    for (list<NpnMap>::const_iterator p = mIdentity.begin();
+	 p != mIdentity.end(); ++ p) {
+      const NpnMap& map = *p;
+      cerr << map << endl;
+    }
+    cerr << "==================================" << endl;
+  }
+}
+
+// デストラクタ
+RepInfoTv::~RepInfoTv()
+{
+#if 0
+  if ( mMgr != 0 ) {
+    mMgr->forget(this);
+  }
+#endif
+}
+
+END_NAMESPACE_YMBDD_NPN
